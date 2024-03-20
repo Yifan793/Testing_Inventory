@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "Name": "发布设置1",
+    "ApplicationUrl": "http://xa-dd3-shaysong/testing_inventory",
+    "PublishSettings": {
+      "IsPrivateServer": true,
+      "ServerName": "xa-dd3-shaysong",
+      "UserName": "Administrator",
+      "SitePort": 80,
+      "AppName": "testing_inventory",
+      "AppStartPage": "",
+      "TakeServeronline": true,
+      "PublishRolesToServer": true
+    }
+  }
+]
