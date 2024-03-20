@@ -107,6 +107,7 @@
     "2,37": "出库状态",
     "2,46": "审核状态",
     "4,46": "全部",
+    "7,18": "全局变量",
     "8,2": "销售单列表",
     "8,12": "E",
     "8,14": "H",
@@ -1082,6 +1083,24 @@
             }
           }
         ]
+      }
+    },
+    "7,18": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "设置全局变量",
+            "ResultErrorCodeTo": {
+              "SerializeProperty": "=销售单!M8"
+            },
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "全局变量",
+        "TemplateKey": "_RS_Main1"
       }
     },
     "8,2": {
@@ -3709,7 +3728,8 @@
     "10,60,1,7",
     "10,67,1,3",
     "10,70,1,3",
-    "10,73,1,3"
+    "10,73,1,3",
+    "7,18,1,3"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -3873,4 +3893,4 @@
       "Formula": "销售单!$AR$9"
     }
   ]
-}//z71vOJ5g7yKm6aRgYK4lmucVizwBtA8WMyd0W7Kzd9Xdmno5wtKDAWcWRty6DoR62I3iFdE5816gRhZO1i/EbtW8kNcKBdFc727UWeiLH/OOGrfYjVXi2ey2kMkkCQIMTj8i8lxEmWUh9R9EILnerFLslZarpLMaBzB6/Sq9G7sqkIvckz84jsHhfPxkm1gR4bsS7anB2kGD0okj7I38yb/lOZQBObiDvVTvLlMkeQxXfY6zLBLopa3esRxLSwwsQX44pecWgVBqbnAtNt3XvvkUPHTqECNhCHxwi9Ka748nbcQIAG3ztDWx4abq+kmJp+cFM6wncTI2Ufu0ubPnzkDlUkgdX4wlQpb7WP4ak7O4EoXGFit6ZvZau6dr72ycCZnjG9FqA6OUou5ws50QHMEUGg17cO/AQo6hFKt+PxJc1zyxBfTjBK5bZnmVqBaaRZ7gNsaZwt5YryudXz1bZdADWN1f+jaX5zThu7stjgGuJQ2q0IudCyx+BYODfHZEWhEMxtNPWNTcqloPJHaxawn+kMlqV+2Dr5PCgE+lZh53rUwZRVEw80gNHfK3oEyTmzlS8+G0w6aqvwCmNj+p+Ouq8EIZ6hfaxJ5WnmYdXbl7IS9hhBw2vYflAD8aM9+R9tIVzhq3OaZlbrifx35hkWsboRBj/LcZZk2jqlN8nH13K477KnShbCfR68zVK81t6LteoSFRBJK6UlnIuwv8wK12Du6BDBwAW0fKbVnFbHkQhW6x71uys0g0k/6i8wphbtAa7/pvYfKVCUw0Kwnam1hqY7sQw08BdMRMzQLPpuOqLaTllr/S5co0wAp9qxW9Gn14JuSeCB26GTxKVKCAA5nxbD3VvfH1oCSMFxkvH46/Sv+OsHajptW7hjleTqOIKPMsk/0AsS5W2nz4vR7c9g==|920
+}//Tf/KM5TqHLt2oAnl8mPS7/Hc1lowjO/AMqDZu7X2AeKnqKiBSyewd9/rHq6FgxfKTnFZHpHr2KcPmrv5wWc9eTfnRyuj3yDl/EZ4cdEiZG20SxIpgOJnSQ4LMFjQ9lQuz5/WbYNYsytO/IBwa2+ZfXkLWBl6am8wG7OhZrMZpuIiZugR9zS6ITTokRAtflO3OCTPdXOHXSjOjZmpyHMUnpRCYksijqzObSiKGjowNLykxr2BgDcqpO47g8tR1t8D3+pJ+aXEv9nICFBH+m4NmHnzS4K+v4u6bUxM5qIm9iSY00w5ofCbcheeeB+yUvz9F7bRALzecdL2h9kXttxGxSagoc1rPKqe+W1K6Curnmdt9Qax+xxZBehketNVsIarW4LjmuwFiH3jGzrv5NIjACbOWWXHltSdcL/EykIOrW/4ya3ta20fWNtZ+BSJLhzZcYIUzIQjVDbs3j8TVmvzEEJnGfW+J1L1yokQ+MsM5PhUdE4Y0BWWw0O9XkURKqooj5WTlFrR1Ws3E0Y+h3NfAMi8cXrMVMhlfc0rB1Hq3jyfCC0ALs4Vc9sm2lu8hG1EcCn35eIZjVWc3Dfv6Lf+p3ivlh083H22Fdv/s2XIqZtRfbs0mRIkeAei4jSOEQzDzFRd7RM8ib7Q/FCJ8RO3ZRf9IjOSc9ORfWx1KUKedTXmnRDjrmQKtz674u6xv8mr65gCaQzBDzhBwKe+fz8vzXbDpGKheScIO2F7XB3+4n3WkhkqcJokjGehTpa7Kir21JEqfbO5F78HyCxysPNunZ4VNK/9pJUrqXtKQm+N8ZIY3dwaR9z6jr1vUpKPXMg+2aNSy0JbUitMKZjrBSL3irL9jWlTZBvLWVygAQrqk1YyI7TQCFx6hjthU/QwMFTZkpei1boJ/6DO0yV2I2HLTg==|920
