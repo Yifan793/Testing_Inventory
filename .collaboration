@@ -1087,7 +1087,16 @@
   },
   {
     "ModuleName": "TaskScheduler/计划任务3",
-    "ModuleType": 16
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-03-20T15:34:25.6644924+08:00",
+    "ModuleType": 16,
+    "ToRemoveFiles": [
+      "SchedulerTasks\\计划任务3.json"
+    ]
   },
   {
     "ModuleName": "ProcessItem/InventoryProcess",
