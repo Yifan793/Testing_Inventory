@@ -156,7 +156,16 @@
   },
   {
     "ModuleName": "Table/计划任务更新表",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-03-20T17:36:04.0135292+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\计划任务更新表.json"
+    ]
   },
   {
     "ModuleName": "Pages/物品_库存",
