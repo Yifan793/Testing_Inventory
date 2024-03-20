@@ -1,0 +1,632 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 10,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      18
+    ],
+    "Count": 19
+  },
+  "Values": {
+    "1,1": "名称",
+    "1,18": "单位ID",
+    "4,1": "顺序号（唯一）",
+    "8,13": "取消"
+  },
+  "AttachInfos": {
+    "2,1": {
+      "BindingInfo": {
+        "TableName": "unit_dictionary",
+        "ColumnName": "unit_name",
+        "GUID": "e48736e7-9f5f-4c16-afae-75e40d6d28db"
+      },
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "text",
+        "resize": "none"
+      },
+      "DataValidationInfo": {
+        "NumberType": 9,
+        "ValidateCommand": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=新增_编辑物品单位!当前值"
+                      }
+                    ]
+                  },
+                  "value": "%Null%"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                    "ErrorCode": "1",
+                    "Message": "名称不能为空！"
+                  }
+                ],
+                "ID": "475e338f-163e-43a3-b6b3-121a0622fb43"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "单位",
+            "TableValue": {
+              "TableName": "unit_dictionary",
+              "BindingInfos": [
+                {
+                  "BindingInfo": {
+                    "TableName": "unit_dictionary",
+                    "ColumnName": "unit_name",
+                    "GUID": "a4dd10de-132f-444e-9e98-860d952d80f6"
+                  },
+                  "ColumnName": "名称"
+                }
+              ]
+            },
+            "ID": "4b4ce03646fb4a0497db6310b69bf976"
+          },
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "当前单位的名称",
+            "TableValue": {
+              "TableName": "unit_dictionary",
+              "OnlyGetValue": true,
+              "TableValueType": 0,
+              "BindingInfos": [
+                {
+                  "BindingInfo": {
+                    "TableName": "unit_dictionary",
+                    "ColumnName": "unit_name",
+                    "GUID": "2fdd2356-5e0e-463a-8f2d-5e6841b017b0"
+                  },
+                  "ColumnName": "unit_name"
+                }
+              ],
+              "SqlCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "TableName": "unit_dictionary",
+                  "ColumnName": "ID",
+                  "GUID": "0d8ec4a0-7c3e-4e83-b05e-2fe2fc7e4723"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=新增_编辑物品单位!单位ID"
+                }
+              },
+              "NullFormulaValueQueryPolicy": 0
+            },
+            "ID": "8212c619165340cca8a2885b11fbe0fd"
+          },
+          {
+            "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+            "LoopInfo": {
+              "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+              "LoopCount": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=新增_编辑物品单位!单位"
+              },
+              "LoopItemParamName": "Item"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                "ConditionAndCommandPairList": [
+                  {
+                    "Condition": {
+                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                      "SubConditions": [
+                        {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "=新增_编辑物品单位!当前值"
+                              }
+                            ]
+                          },
+                          "value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=新增_编辑物品单位!Item.名称"
+                          }
+                        },
+                        {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "=新增_编辑物品单位!当前值"
+                              }
+                            ]
+                          },
+                          "value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=新增_编辑物品单位!当前单位的名称"
+                          },
+                          "compareType": 1
+                        }
+                      ]
+                    },
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                        "ErrorCode": "2",
+                        "Message": "名称不能重复！"
+                      }
+                    ],
+                    "ID": "88970a77-de05-4101-a6a6-c6b9869c58a3"
+                  },
+                  {
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                        "ErrorCode": "0",
+                        "Message": "名称正确"
+                      }
+                    ],
+                    "ID": "3abc9d0a-8669-43dc-9036-2cbf65127347"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ErrorMessage": "名称不能为空！",
+        "ErrorTo": 1,
+        "ErrorToTargetCell": {
+          "SerializeProperty": "=新增_编辑物品单位!B4"
+        }
+      }
+    },
+    "2,18": {
+      "BindingInfo": {
+        "TableName": "unit_dictionary",
+        "ColumnName": "ID",
+        "GUID": "7dacc6bf-1abe-40cc-8791-a5c3d971f896"
+      }
+    },
+    "3,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "出错警告格式"
+      }
+    },
+    "5,1": {
+      "BindingInfo": {
+        "TableName": "unit_dictionary",
+        "ColumnName": "order_number",
+        "GUID": "35835d35-8e75-488e-939c-cc21b5e56438"
+      },
+      "CellType": {
+        "$type": "ElementUI.InputNumberCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "min": 0,
+        "step": 1,
+        "stepStrictly": true,
+        "controlsPosition": true
+      },
+      "DataValidationInfo": {
+        "NumberType": 9,
+        "ValidateCommand": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=当前值"
+                      }
+                    ]
+                  },
+                  "value": "%Null%"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                    "ErrorCode": "1",
+                    "Message": "顺序号不能为空！"
+                  }
+                ],
+                "ID": "5488cd56-58af-4ae2-a058-b499ec88fe94"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "单位",
+            "TableValue": {
+              "TableName": "unit_dictionary",
+              "BindingInfos": [
+                {
+                  "BindingInfo": {
+                    "TableName": "unit_dictionary",
+                    "ColumnName": "order_number",
+                    "GUID": "1a46eb8f-418f-434d-b2db-16da1bd5de98"
+                  },
+                  "ColumnName": "顺序号"
+                }
+              ]
+            },
+            "ID": "aac311a79e574b2daa16b5bbcc8017e3"
+          },
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "当前单位的顺序号",
+            "TableValue": {
+              "TableName": "unit_dictionary",
+              "OnlyGetValue": true,
+              "TableValueType": 0,
+              "BindingInfos": [
+                {
+                  "BindingInfo": {
+                    "TableName": "unit_dictionary",
+                    "ColumnName": "order_number",
+                    "GUID": "cde9f164-49d5-4695-b431-1e30e75f2f7f"
+                  },
+                  "ColumnName": "order_number"
+                }
+              ],
+              "SqlCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "TableName": "unit_dictionary",
+                  "ColumnName": "ID",
+                  "GUID": "7ff0211b-b5af-4ec4-935d-fb13a7f22454"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=新增_编辑物品单位!单位ID"
+                }
+              },
+              "NullFormulaValueQueryPolicy": 0
+            },
+            "ID": "48d162d5dadd4e8393ebca7205b42366"
+          },
+          {
+            "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+            "LoopInfo": {
+              "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+              "LoopCount": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=新增_编辑物品单位!单位"
+              },
+              "LoopItemParamName": "Item"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                "ConditionAndCommandPairList": [
+                  {
+                    "Condition": {
+                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                      "SubConditions": [
+                        {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "=当前值"
+                              }
+                            ]
+                          },
+                          "value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=新增_编辑物品单位!Item.顺序号"
+                          }
+                        },
+                        {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "=当前值"
+                              }
+                            ]
+                          },
+                          "value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=新增_编辑物品单位!当前单位的顺序号"
+                          },
+                          "compareType": 1
+                        }
+                      ]
+                    },
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                        "ErrorCode": "2",
+                        "Message": "顺序号不能重复！"
+                      }
+                    ],
+                    "ID": "c810711c-0829-4358-9fae-70f600ed2ddb"
+                  },
+                  {
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                        "ErrorCode": "0",
+                        "Message": "顺序号唯一"
+                      }
+                    ],
+                    "ID": "a788cc57-7f97-49d4-a6e5-d6d032fd0fea"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ErrorTo": 1,
+        "ErrorToTargetCell": {
+          "SerializeProperty": "=新增_编辑物品单位!B7"
+        }
+      }
+    },
+    "6,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "出错警告格式"
+      }
+    },
+    "8,8": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "Add_EditUnit",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "UnitID",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=新增_编辑物品单位!单位ID"
+                }
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "UnitName",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=新增_编辑物品单位!名称"
+                }
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "UnitOrder",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=新增_编辑物品单位!顺序号"
+                }
+              }
+            ],
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          },
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "PassValueBack": true,
+            "ReloadData": true
+          }
+        ],
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "8,13": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+          }
+        ],
+        "Text": "取消",
+        "TemplateKey": "_RS_Minor1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0
+      },
+      {
+        "FontFamily": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 50",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "4,1": 0,
+      "8,8": 1,
+      "8,9": 1,
+      "8,10": 1,
+      "8,11": 1,
+      "8,13": 1,
+      "8,14": 1,
+      "8,15": 1,
+      "8,16": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "2,1,1,16",
+    "5,1,1,16",
+    "3,1,1,16",
+    "6,1,1,16",
+    "8,8,1,4",
+    "8,13,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "ShouldCheckDirty": true,
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "按钮",
+      "Formula": "新增_编辑物品单位!$I$9"
+    },
+    {
+      "Name": "单位ID",
+      "Formula": "新增_编辑物品单位!$S$3"
+    },
+    {
+      "Name": "名称",
+      "Formula": "新增_编辑物品单位!$B$3"
+    },
+    {
+      "Name": "顺序号",
+      "Formula": "新增_编辑物品单位!$B$6"
+    }
+  ]
+}//Lc3HoyAaruCMf7n5EqB1gYVe7Hmofggm0XGdpKdBKOt1hXbtmH6K8QF1I+5DASo2kUj1FzhPDirZ2+DTKmNlrpEgDt6INIOtXYTgfSyn7s2l4NaptFknADBTspev54fp63bhhNqxrfRGprVR5twBI3f50zZHndcoqCQZbOTcdn24J+maFsXXLQDm2ICUMJRLjTVoo7z1A3n1Wwp4h+bzk4GSi6w6ilV0HsXV/rl5xAQ2RbnrqIfIVLTp9dyW0mZD39+MYvOZkaPF0wN6OdMDSBc0JRW9xGKFPtDgJ0kS+ZlglqDyJHp0ufiGJdVbUJ4F6BKUCB+f/+MAhVc9r3Dpjisyg59jA9qL2e0d5LeqUdHwn+8VECriAJYpoe3WhuGHWttCfLJMq3rjgt9b4bhc0hStMEsS2yRl9t8GtyOV56z7GfZdArzHgGO79G5B9ZkwAW9D4hYhwIP8SEkspd4L2VAVr8Gp8P5wy3iNRJMRJI8INSjh+AjR/x68Qzg6HOUp0Fs56yKL7CIaQnEZuhZsvKkhgSEOpSjssrjvOKDZnRlElLsyG8+bPCiN2ETEX1fkT9PJ/aANjK48y+qV+guvJGSBGLmVsqR0zlVAsDl+grJZrYHlo3+GOO1j3WMqoVCOFVf0mu5RarJEawtstLuqRgoXyQSbrBhBFILAtXhZKA6spoZ4OTR8MKqk/Fz5HeoRXdmRL2BAjclNUTtb65WU3WAZEi7kuEH8UsL8zy38M4J+LCRtnlAr5Lx/NJ+lYEe+92D/Cw9jpLtbnHdsUP0+VpQ1qZO8I/bn0OCWXgjFevX3MePJ2OBRv0c/oWmzSsrv2LUYyyHDBdEKWwBtyEI1D9bEkGGaAXOMcpB3H+hEpg1oXIWF0kuqbQZuaALbxmW/bkd0D1pxwBt5Xsi9ScdVYw==|920

@@ -1,0 +1,1149 @@
+[
+  {
+    "ModuleName": "Tables/其他",
+    "ModuleType": 22
+  },
+  {
+    "ModuleName": "Table/supplier_customer_type",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/help_table",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/category",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/project_table",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/supplier_customer",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/state_dictionary",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Tables/销售",
+    "ModuleType": 22
+  },
+  {
+    "ModuleName": "Table/sales_order_detail",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/sales_order",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Tables/出入库",
+    "ModuleType": 22
+  },
+  {
+    "ModuleName": "Table/inventory",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/inventory_details",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/inventory_category",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Tables/审批流程",
+    "ModuleType": 22
+  },
+  {
+    "ModuleName": "TableProcessView/ACT_RE_PROCDEF_View",
+    "ModuleType": 30
+  },
+  {
+    "ModuleName": "TableProcessView/ACT_HI_COMMENT_View",
+    "ModuleType": 30
+  },
+  {
+    "ModuleName": "TableProcessView/ACT_HI_PROCINST_View",
+    "ModuleType": 30
+  },
+  {
+    "ModuleName": "TableProcessView/ACT_RU_TASK_View",
+    "ModuleType": 30
+  },
+  {
+    "ModuleName": "TableProcessView/ACT_HI_TASKINST_View",
+    "ModuleType": 30
+  },
+  {
+    "ModuleName": "Tables/物品",
+    "ModuleType": 22
+  },
+  {
+    "ModuleName": "Table/unit_dictionary",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/supplier_customer_item_relation",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/item",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/item_type",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Tables/用户信息",
+    "ModuleType": 22
+  },
+  {
+    "ModuleName": "TableView/用户信息视图",
+    "ModuleType": 23,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "TableView/组织信息视图",
+    "ModuleType": 23,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "TableView/组织级别视图",
+    "ModuleType": 23,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Tables/盘点",
+    "ModuleType": 22
+  },
+  {
+    "ModuleName": "Table/inventory_list",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/inventory_list_details",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Tables/采购",
+    "ModuleType": 22
+  },
+  {
+    "ModuleName": "Table/purchase_order",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/purchase_order_details",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/purchase_ticket_record",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/purchase_pay_record",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/FGC_状态信息表",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/计划任务更新表",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Pages/物品_库存",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "Pages/物品_库存/物品管理",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/新增_编辑物品详情",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/物品详情",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/物品信息导入",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/物品_库存/物品供应商管理",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/供应商列表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/物品供应商列表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/物品_库存/物品类目管理",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/物品类目",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/新增_编辑物品类目",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/物品_库存/物品单位管理",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/新增_编辑物品单位",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/物品单位管理",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/物品_库存",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/出入库",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/出入库对象设置",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/物品选择页",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/从采购单流转_弹窗",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/出入库_列表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/采购单流转入库",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/出入库_查看和审批",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/销售单流转出库",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/出入库_认领人",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/出入库_填写",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/出入库_新建下拉页面",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/供应商",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/关联物品",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/供应商_客户导入",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/供应商_客户查看",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/供应商_客户填写",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/供应商_客户",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/流程页面文件夹_手机版",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "MobilePage/FGC_我发起的_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_我的已阅_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_我委托的_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_我的待阅_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_任务详情_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_我的待办_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_我的已办_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_审批记录_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_流程列表_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_流程追踪_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "Pages/内建页面",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/登录页_用户信息",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_两步验证_扫码页面",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_重置密码发送邮件成功",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_401页面",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_修改用户信息",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_修改密码",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_忘记密码",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_连接已断开",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_邮件订阅",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_维护中",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_登录",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_两步验证_验证页面",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_重置密码",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/采购",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "Pages/采购/付款",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/付款记录",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/付款",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/采购/到票",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/到票",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/到票记录",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/采购单详情",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/从销售单流转_弹窗",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/采购单",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/采购单填写",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/报表",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "Pages/报表/采购报表",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/采购汇总图(按物品)",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/采购明细表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/采购价格走势图",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/采购汇总表(按物品)",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/采购汇总表(按供应商)",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/采购入库流水表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/采购汇总图(按供应商)",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/报表/销售报表",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/销售汇总表(按客户)",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/销售汇总表(按物品)",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/报表/出入库",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/出入库_物品毛利率统计表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/出入库明细表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/出入库汇总表_按物品",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/出入库_领用出库汇总表_按部门",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/出入库_收支情况表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/出入库_销售出库明细表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/出入库_领用出库明细表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/出入库流水表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/首页",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/采购首页",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/销售首页",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/库存首页",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/盘点",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/盘点页",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/盘点页填写",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/盘点页查看",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/流程页面文件夹",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/FGC_我的已办",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_流程追踪",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_我的已阅",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_我的待阅",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_审批记录",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_我发起的",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_我委托的",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_流程列表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_任务详情",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_我的待办",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/内建手机页面",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "MobilePage/FGC_连接已断开_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_维护中_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_重置密码_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_修改用户信息_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_401页面_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_忘记密码_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_登录_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_两步验证_扫码页面_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_修改密码_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_两步验证_验证页面_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_邮件订阅_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_重置密码发送邮件成功_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "Pages/销售",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/新增_编辑项目",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/新增_编辑销售单",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/客户列表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/销售单详情",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/销售单",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/首页",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/样式参考",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/供应商_客户选择页",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/帮助手册",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "MasterPages/PC母版页",
+    "ModuleType": 24
+  },
+  {
+    "ModuleName": "MasterPCPage/横向EL导航菜单备份",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "MasterPCPage/横向导航菜单",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "MasterPCPage/报表导航菜单",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "MasterPCPage/打印_导出",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "MasterPages/流程母版页面文件夹",
+    "ModuleType": 24
+  },
+  {
+    "ModuleName": "MasterPCPage/FGC_流程中心",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "MasterMobilePage/FGC_流程中心_手机版",
+    "ModuleType": 4
+  },
+  {
+    "ModuleName": "MasterPCPage/FGC_母版页",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "UserControlPages/UI",
+    "ModuleType": 32
+  },
+  {
+    "ModuleName": "UserControlPage/出错警告格式",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/必填标识",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/弹窗标题格式",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/详情页标题格式",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/列表标题格式",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPages/功能",
+    "ModuleType": 32
+  },
+  {
+    "ModuleName": "UserControlPage/单个操作按钮",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/增删改按钮组",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/流程命令条",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/搜索框",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/导入_导出按钮",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/日期范围组件",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/单个删除按钮",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/查询按钮组",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "ServerCommands/采购",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommand/PurchaseAmountMaintenance",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/DeletePurchaseOrder",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/OperatePurchaseOrder",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/PurchaseInvoiceMaintenance",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommands/销售单",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommand/StartSalesProcess",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/Add_Edit_DeleteSalesOrderDetail",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/DeleteSalesOrder",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/AddSalesOrder",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/EditSalesOrder",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommands/盘点",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommand/StartCheck",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/UpdateInventoryOrder",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommandPrivate/InOutByInventoryList",
+    "ModuleType": 27
+  },
+  {
+    "ModuleName": "ServerCommandPrivate/IsChecking",
+    "ModuleType": 27
+  },
+  {
+    "ModuleName": "ServerCommand/DeleteInventoryOrder",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/IsCheckingAPI",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommands/审核",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommands/审核/出入库",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommand/inventoryProcessApproval",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/inventoryProcessReject",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/inventorySubmitProcess",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommands/审核/采购",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommand/PurchaseReject",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/PurchaseApproval",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/PurchaseCommit",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommands/供应商",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommand/UpdateCustomerTable",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommands/物品_库存",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommands/物品_库存/物品单位管理",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommand/Add_EditUnit",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/DeleteUnit",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommands/物品_库存/物品管理",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommand/Add_EditItem",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/DeleteItem",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommands/物品_库存/物品类目管理",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommand/AddItemType",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/EditItemType",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/DeleteItemType",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommands/项目管理",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommand/Add_EditProject",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommands/出入库",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommandPrivate/UpdatePurchaseOrderState",
+    "ModuleType": 27
+  },
+  {
+    "ModuleName": "ServerCommand/DeletePendingInventory",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/UpdateInventoryOrder_OutAndIn",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/UpdateRealInventory",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/CreateInventoryOrder_OutAndIn",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/UpdatePendingInventory",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommandPrivate/UpdateSalesOrderState",
+    "ModuleType": 27
+  },
+  {
+    "ModuleName": "ServerCommand/DeleteInventoryOrder_OutAndIn",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/AddProjectTable",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommands/发起流程",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommandPrivate/发起所有流程",
+    "ModuleType": 27
+  },
+  {
+    "ModuleName": "ServerCommandPrivate/测试发起流程",
+    "ModuleType": 27
+  },
+  {
+    "ModuleName": "ServerCommands/审核流程",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommandPrivate/测试审核流程",
+    "ModuleType": 27
+  },
+  {
+    "ModuleName": "ServerCommandPrivate/审核部分流程",
+    "ModuleType": 27
+  },
+  {
+    "ModuleName": "ServerCommands/导出",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommand/导出销售单到Excel",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/导出销售单到HTML",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/导出销售单到PDF",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/导出sales表到CSV",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/导出sales表到Excel",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ShareCommandContainer/ELMessage",
+    "ModuleType": 36
+  },
+  {
+    "ModuleName": "ShareCommandContainer/ELDialog",
+    "ModuleType": 36
+  },
+  {
+    "ModuleName": "ShareCommandContainer/ELDialogConfirm",
+    "ModuleType": 36
+  },
+  {
+    "ModuleName": "ShareCommandContainer/ELNotification",
+    "ModuleType": 36
+  },
+  {
+    "ModuleName": "TaskScheduler/计划任务1",
+    "ModuleType": 16
+  },
+  {
+    "ModuleName": "TaskScheduler/计划任务2",
+    "ModuleType": 16
+  },
+  {
+    "ModuleName": "TaskScheduler/计划任务3",
+    "ModuleType": 16
+  },
+  {
+    "ModuleName": "ProcessItem/InventoryProcess",
+    "ModuleType": 28
+  },
+  {
+    "ModuleName": "ProcessItem/SalesProcess",
+    "ModuleType": 28
+  },
+  {
+    "ModuleName": "ProcessItem/PurchaseProcess",
+    "ModuleType": 28
+  },
+  {
+    "ModuleName": "ApplicationSetting",
+    "ModuleType": 8
+  },
+  {
+    "ModuleName": "Theme",
+    "ModuleType": 9
+  },
+  {
+    "ModuleName": "image/内置图片",
+    "ModuleType": 37
+  },
+  {
+    "ModuleName": "Image/fgc_loading.gif",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/fgc_logo_light.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/fgc_built_in_page_disconnected.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/fgc_built-in-page-logo.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/fgc_logo_dark.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/fgc_built-in-page-401.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/fgc_built-in-page-maintained.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "UserService",
+    "ModuleType": 11
+  },
+  {
+    "ModuleName": "CustomLibrary",
+    "ModuleType": 12
+  },
+  {
+    "ModuleName": "MapJsonFile",
+    "ModuleType": 14
+  },
+  {
+    "ModuleName": "DataContectionSet",
+    "ModuleType": 25
+  },
+  {
+    "ModuleName": "Upload",
+    "ModuleType": 26
+  },
+  {
+    "ModuleName": "PublishConfiguration",
+    "ModuleType": 39
+  },
+  {
+    "ModuleName": "Plugin",
+    "ModuleType": 40
+  },
+  {
+    "ModuleName": "PublishSetting",
+    "ModuleType": 41
+  }
+]

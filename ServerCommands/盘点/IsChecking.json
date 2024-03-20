@@ -1,0 +1,57 @@
+{
+  "Name": "IsChecking",
+  "Description": "检查是否盘点中",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.InvokeTriggerSaveData, ServerDesignerCommon"
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "CheckingCount",
+      "TableValue": {
+        "TableName": "inventory_list",
+        "TableValueType": 3,
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "inventory_list",
+            "ColumnName": "is_end",
+            "GUID": "f3fef847-0094-468b-8f6e-d0650aec3c37"
+          },
+          "Value": "0"
+        }
+      },
+      "ID": "633498e15f504ba093e59c7ddf758484"
+    },
+    {
+      "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+      "ConditionAndCommandPairList": [
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+              "ParamObject": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=CheckingCount"
+              }
+            },
+            "value": "0",
+            "compareType": 2
+          },
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+              "ErrorCode": "1",
+              "Message": "正在盘点中，请结束盘点后再操作。"
+            }
+          ],
+          "ID": "c5e8f98a-085a-4060-8aa0-c4950f183b5d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "ID": "26a23cdf-98bb-4865-9955-2300e4549190",
+  "Name": "ELDialog",
+  "Params": [
+    {
+      "ID": "49147737-4b92-4bda-9b67-3984a13a2583",
+      "Name": "Title"
+    },
+    {
+      "ID": "260910d4-5505-4732-a02a-1acc189501be",
+      "Name": "Content"
+    },
+    {
+      "ID": "89525909-25ca-4012-a13a-1c61763bae32",
+      "Name": "Type",
+      "Remark": "对话框类型，包括：Success、Fail、Warning、Message"
+    }
+  ],
+  "Returns": [
+    {
+      "ID": "241e226e-f426-47a8-af27-9f34febb3ee7",
+      "Name": "DialogResult",
+      "Remark": "dialog点击结果，包括：confirm、cancel"
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+      "ConditionAndCommandPairList": [
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+              "cellLocations": [
+                {
+                  "SerializeProperty": "=Type"
+                }
+              ]
+            },
+            "value": "Success"
+          },
+          "CommandList": [
+            {
+              "$type": "ElementUI.Commands.ShowMessageBox, ElementUI",
+              "Title": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Title"
+              },
+              "Message": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Content"
+              },
+              "Type": "success",
+              "ConfirmButtonText": "确定",
+              "CancelButtonText": "取消",
+              "DialogResult": "result",
+              "AdvancedSettings": {}
+            }
+          ],
+          "ID": "20fee312-eb83-4140-824e-170c9637a926"
+        },
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+              "cellLocations": [
+                {
+                  "SerializeProperty": "=Type"
+                }
+              ]
+            },
+            "value": "Fail"
+          },
+          "CommandList": [
+            {
+              "$type": "ElementUI.Commands.ShowMessageBox, ElementUI",
+              "Title": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Title"
+              },
+              "Message": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Content"
+              },
+              "Type": "error",
+              "ConfirmButtonText": "确定",
+              "CancelButtonText": "取消",
+              "DialogResult": "result",
+              "AdvancedSettings": {}
+            }
+          ],
+          "ID": "ce545c28-c690-4773-a489-837f0fcf9b54"
+        },
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+              "cellLocations": [
+                {
+                  "SerializeProperty": "=Type"
+                }
+              ]
+            },
+            "value": "Warning"
+          },
+          "CommandList": [
+            {
+              "$type": "ElementUI.Commands.ShowMessageBox, ElementUI",
+              "Title": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Title"
+              },
+              "Message": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Content"
+              },
+              "Type": "warning",
+              "ConfirmButtonText": "确定",
+              "CancelButtonText": "取消",
+              "DialogResult": "result",
+              "AdvancedSettings": {}
+            }
+          ],
+          "ID": "458e279b-0d62-43a4-86ac-36d21beeab26"
+        },
+        {
+          "CommandList": [
+            {
+              "$type": "ElementUI.Commands.ShowMessageBox, ElementUI",
+              "Title": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Title"
+              },
+              "Message": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Content"
+              },
+              "Type": "info",
+              "ConfirmButtonText": "确定",
+              "CancelButtonText": "取消",
+              "DialogResult": "result",
+              "AdvancedSettings": {}
+            }
+          ],
+          "ID": "81704487-0c4f-49cc-8f87-cba03609c4b6"
+        }
+      ]
+    },
+    {
+      "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+      "CustomReturns": [
+        {
+          "ReturnPropertyName": "DialogResult",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=result"
+          }
+        }
+      ]
+    }
+  ]
+}

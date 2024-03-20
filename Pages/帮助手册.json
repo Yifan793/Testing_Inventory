@@ -1,0 +1,126 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 30
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 39
+  },
+  "Values": {
+    "1,12": "库存管理系统帮助文档"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "fgc_logo_dark.png"
+      }
+    },
+    "5,1": {
+      "BindingInfo": {
+        "TableName": "help_table",
+        "ColumnName": "文本",
+        "GUID": "1e51a3ac-69bf-4ad5-b0df-c2a4a55a93c0"
+      },
+      "CellType": {
+        "$type": "HtmlRichEditor.HtmlRichEditor, HtmlRichEditor",
+        "ShowToolBars": false
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 24.0,
+        "FontWeight": 0,
+        "Foreground": 1,
+        "Formatter": 2
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Accent 1 0",
+        "[AUTO]General",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "1,12": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 3
+    }
+  },
+  "Spans": [
+    "5,1,23,37",
+    "1,12,3,26",
+    "1,1,3,10"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "横向导航菜单",
+    "PageLoadedCommandList": [
+      {
+        "$type": "SetCurrentRowCommand.SetCurrentRowCommand, SetCurrentRowCommand",
+        "CurrentRowInfo": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "help_table",
+            "ColumnName": "ID",
+            "GUID": "d109ae99-28ac-41d9-9a02-79e8d1263c70"
+          },
+          "Value": "3"
+        }
+      }
+    ],
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "help_table"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//AJfgL3OVl1Di+VHHbQ3ADt5+Qg8tjorT8ZSS01hcVCE8iS6dQWW8Gp8cvEmX0jNscq7xt5mAi5rfBVRgRqYNy2lO6VeULj9luzU7mRygfG24BxNAxJ+ZkY0r41QgN7+QFokvQGDL0PZUNQXs26Cx5Me9i3VUtdntjEVrTT00gQwJEj0rkoRSEPXTLFLoh/RDfroZH39aw7FNIvcknZAtx9LLL4sbJXsmisOBYV9ed4hnFBN9JqBrHjwRwuW+K6QnWdmYfOnzidAF+W8bLzEpxIQTLx/53LfiuQMuT9Zq0tXsU7zsbC5bf56oCZvEPUGu3hPAuSDnt5tE+O9ftq7Y+wUNPNPCfPyZmvJEtzJvNxqWyA/oOifvfFXa22487hper9PJmpNCn4E8s1lU0XBm1R9Y4m/BVn+yuUzOOQkvDYd33rQtPjF4rqhIM3pWA4XCuQ57FZGUhV9JwPWiWuH006cuhn7uY46w0MOOtytngrZVsw6vSCD2uDA+iVQjTGZhmsETijaQOpXTJ97XiStWx2GH4nuq6hdCt+38/tNH12jhjBNRTF1Ye2HUK5ySgN7sYuoB1O1n+HRRPswMSKFgzrEz7ioUKuJ/foZVWYEaSGWS2fTgz9yuYRq7ceIsDPpgEVsA5bD2nb87oOYUb36DF8nGVRyz5so5x2V2SHE3cMDcETK/7zR+XiqN7zkb4csLXH6iurZTd/UMVZDdSXfqAI1u6QSyhjpwqBUYIXLBXEKxvCehC4jhEYgr+KcTjM2nUwo769nh8oU9jSOd1JOj1tbLtZQ8PvUE3ltie4uFl/L8jyzzuWa3h8c9P3rIB6DL+LqpuPZ1yOi3Lyrks/TWmVMXQphLFmzbKBzJ6oamaFoFCYlnilIKUdtBGI6VIvbAS8T1+vLnr7+pbJrVFY6ACA==|920

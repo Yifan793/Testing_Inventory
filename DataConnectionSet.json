@@ -1,0 +1,7 @@
+[
+  {
+    "ConnectionString": "Data Source=localhost;Initial Catalog=test_inventory;Integrated Security=True;Persist Security Info=True",
+    "DataBaseType": "347a1ed5-25f0-4a4b-846c-8d69cedcf33d",
+    "ID": "SqlServer19"
+  }
+]

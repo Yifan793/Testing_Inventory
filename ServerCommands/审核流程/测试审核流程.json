@@ -1,0 +1,121 @@
+{
+  "Name": "测试审核流程",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.InvokeTriggerSaveData, ServerDesignerCommon",
+      "InvokeTriggerTestData": {
+        "UserName": "Administrator"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "records",
+      "TableValue": {
+        "TableName": "sales_order",
+        "BindingInfos": [
+          {
+            "BindingInfo": {
+              "TableName": "sales_order",
+              "ColumnName": "ID",
+              "GUID": "ffcd9069-9fce-46c3-94c1-5d679f11c98e"
+            },
+            "ColumnName": "ID"
+          },
+          {
+            "BindingInfo": {
+              "TableName": "sales_order",
+              "ColumnName": "FGC_Creator",
+              "GUID": "f81ee61e-ef74-417a-b6e6-ed21ed49a5b4"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "BindingInfo": {
+              "TableName": "sales_order",
+              "ColumnName": "audit_id",
+              "GUID": "a83b6a39-4699-4d61-b78c-886bedebc1b1"
+            },
+            "ColumnName": "审核实例ID"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+          "SubConditions": [
+            {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "CompareType": 1,
+              "ColumnBindingInfo": {
+                "TableName": "sales_order",
+                "ColumnName": "audit_id",
+                "GUID": "9e6a2e06-37c2-4def-ab68-be4549f72f1b"
+              },
+              "Value": "%Null%"
+            },
+            {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "sales_order",
+                "ColumnName": "audit_status",
+                "GUID": "a3569762-868e-44ac-ab36-abab5c2bf19d"
+              },
+              "Value": "2"
+            }
+          ]
+        }
+      },
+      "ID": "50da10263c32487b9093818854c0b53d"
+    },
+    {
+      "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+      "LoopInfo": {
+        "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+        "LoopCount": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=records"
+        },
+        "LoopItemParamName": "Item"
+      },
+      "CommandList": [
+        {
+          "$type": "Forguncy.Model.ProcessTaskCommand, ServerDesignerCommon",
+          "TaskId": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=Item.审核实例ID"
+          },
+          "Operator": "销售主管1"
+        },
+        {
+          "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+          "TableName": "sales_order",
+          "ShowConfirm": false,
+          "RowsToUpdate": 1,
+          "RowsToUpdateCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "sales_order",
+              "ColumnName": "ID",
+              "GUID": "d2a5f091-de61-45ab-9aa8-276c4f509597"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=Item.ID"
+            }
+          },
+          "UpdateBindingValues": [
+            {
+              "BindingInfo": {
+                "TableName": "sales_order",
+                "ColumnName": "audit_status",
+                "GUID": "90e0957e-6a12-443b-ac7f-acaaf26823a2"
+              },
+              "Value": "3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

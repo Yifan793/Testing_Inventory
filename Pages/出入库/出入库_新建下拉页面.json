@@ -1,0 +1,188 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 4,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 136.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 102.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      1
+    ],
+    "Count": 2,
+    "DefaultSize": 136.0
+  },
+  "Values": {
+    "0,0": 5,
+    "0,1": "预留",
+    "2,0": "新建"
+  },
+  "Formulas": {
+    "1,0": "IF(出入库类型按钮=5,\"从销售单流转\",\"从采购单流转\")",
+    "0,1": "出入库类型按钮"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "Style": 3,
+        "CellDefaultValue": 5,
+        "ItemSpace": 0,
+        "Items": [
+          {
+            "Value": "5",
+            "DisplayValue": "出库单"
+          },
+          {
+            "Value": "6",
+            "DisplayValue": "入库单"
+          }
+        ]
+      }
+    },
+    "1,0": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "PassValueBack": true,
+            "ClosePopupReturnValues": [
+              {
+                "Name": "返回的出入库类型",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=出入库_新建下拉页面!出入库类型按钮"
+                }
+              },
+              {
+                "Name": "是新建",
+                "Value": "0"
+              }
+            ]
+          }
+        ],
+        "TemplateKey": "下拉按钮"
+      }
+    },
+    "2,0": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "ClosePopupReturnValues": [
+              {
+                "Name": "返回的出入库类型",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=出入库_新建下拉页面!出入库类型按钮"
+                }
+              },
+              {
+                "Name": "是新建",
+                "Value": "1"
+              }
+            ]
+          }
+        ],
+        "Text": "新建",
+        "TemplateKey": "下拉按钮"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0
+      },
+      {
+        "HorizontalAlignment": 1
+      },
+      {
+        "HorizontalAlignment": 2
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 1 0",
+        "Left",
+        "Center",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "1,0": 1,
+      "2,0": 1
+    },
+    "ColStyles": {
+      "0": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 3
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "出入库类型按钮",
+      "Formula": "出入库_新建下拉页面!$A$1"
+    }
+  ]
+}//V+FEWr1aQK3SEPVlyJhX7PMW9L9+RSYxe22CqpTM5O1vkDbrzAHB2KZdRnATXuBLi9CQcHCQ5B3F9k9vOLGasNJHRKRahPYICyLkXxOTtFIjVBZVXoviuBlkLCk+9wKLLU5ixVLZbE0SNsiCnjUOSjzuawbE2vL9CsCi6pzAyT1wAvlthpLsYrSe6G88I2XvL+ZQR7JBFW0+WQRrBA8GnBNYyS7iRhEzbNCCMOtbHcfTINN6YCHZf5z29hkWVrQq5XcTETXeKqDhENXG31QQds/djkyR9BTcMXy43utoRhzwgXSmnZ8tk4GXcD7PYahIsjfv08IQq02LmMFDUKDRrND9/10Xjw2CrIAy4+Ba5nJdAxqtIs3J7J4rfjQ5MN8/D4NEvUV2DSeHm2R0HuQ1FlLLdHyk1WXGOjQSrei+viIISDd8h8OxvPMRs3VquKAm8sWqo0Z6SDwVi0ddeAMS+i3LgjGJuJnH4FA1oLcf0DqefwDqhiMQNjR36IWVI5txU5+/hlHpm7bbSul/2/uY7HkffsdA3iddOPZ/nyWRlZaWHroYhXVwUIaPSDzD8G+C4pK35C9pXag9Pa3HU85zPrf3HjAi4VLN2Yuv5x4uvDxafxKz8pIUkb/w+S7t1udwsFQ/G4prncqb4AO8gSQ6bNBk308m9kwzMpyiAUSqd9P5+nrK5dh17cHwPmEBkw0FyncBRk87aFuJ2TZbgls2sLChQQUzL9h+jKW21iXU2pxec6YL3pAQuqNu9rBtgx3O/ZpWPFmq/Qe4/M/b3sVuFnYLaRqOWdjodl4ymUMwDrRR8GZXHFXq6QUOwvn11JxgKT+d5Do9YcnK8g4fZmRKdicl1KiPx6FS2+pOL0Gao9IM8T8K5/6f5hwFYPvQmc12I01ce5NxYa6mIBaTfaQMcA==|920

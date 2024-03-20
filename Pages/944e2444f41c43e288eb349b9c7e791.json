@@ -1,0 +1,321 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      }
+    },
+    "Count": 9
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 14
+  },
+  "Values": {
+    "6,1": "备注:",
+    "8,1": "系统："
+  },
+  "AttachInfos": {
+    "0,1": {
+      "TemplateCellSource": "任务名称"
+    },
+    "0,6": {
+      "TemplateCellSource": "创建时间"
+    },
+    "2,1": {
+      "TemplateCellSource": "审批人"
+    },
+    "2,6": {
+      "TemplateCellSource": "操作"
+    },
+    "4,1": {
+      "TemplateCellSource": "任务类型"
+    },
+    "4,6": {
+      "TemplateCellSource": "任务阻塞类型"
+    },
+    "6,1": {
+      "RulesGuidList": [
+        "d308a110-8b25-4c1f-9a4f-9cbc8cd812af"
+      ]
+    },
+    "6,3": {
+      "TemplateCellSource": "备注"
+    },
+    "8,1": {
+      "RulesGuidList": [
+        "5d2b8d96-a2ac-44de-a28c-d103984dcf3c"
+      ]
+    },
+    "8,3": {
+      "TemplateCellSource": "系统备注"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 13.333333333333332,
+        "FontWeight": 0,
+        "Foreground": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null,
+        "ShrinkToFit": true
+      },
+      {
+        "FontFamily": 2,
+        "FontSize": 13.333333333333332,
+        "Foreground": 3,
+        "Formatter": 4,
+        "HorizontalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "FontSize": 13.333333333333332,
+        "FontWeight": 0,
+        "Foreground": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null,
+        "ShrinkToFit": true
+      },
+      {
+        "FontFamily": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "FontSize": 13.333333333333332,
+        "Foreground": 7,
+        "HorizontalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "FontSize": 13.333333333333332,
+        "Foreground": 7,
+        "Formatter": 8,
+        "HorizontalAlignment": 9,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "FontSize": 13.333333333333332,
+        "Foreground": 7,
+        "Formatter": 8,
+        "HorizontalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Foreground": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Foreground": 3,
+        "HorizontalAlignment": 9,
+        "VerticalAlignment": 10,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Foreground": 3,
+        "HorizontalAlignment": 9,
+        "VerticalAlignment": 10,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Accent 1 0",
+        "Body",
+        "Background 1 -25",
+        "yyyy/MM/dd hh:mm:ss",
+        "Right",
+        "Text 1 25",
+        "Accent 2 0",
+        "\"(\"@\")\"",
+        "Left",
+        "Top"
+      ]
+    },
+    "CellStyles": {
+      "0,1": 0,
+      "0,6": 1,
+      "2,1": 2,
+      "2,2": 3,
+      "2,3": 3,
+      "2,4": 3,
+      "2,5": 3,
+      "2,6": 4,
+      "2,8": 3,
+      "2,9": 3,
+      "2,10": 3,
+      "2,11": 3,
+      "2,12": 3,
+      "4,1": 5,
+      "4,6": 6,
+      "6,1": 7,
+      "6,3": 7,
+      "8,1": 8,
+      "8,3": 9
+    },
+    "RowStyles": {
+      "1": 10,
+      "3": 10,
+      "5": 10,
+      "7": 10
+    },
+    "SheetStyle": {
+      "FontFamily": 2,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "0,1,1,5",
+    "0,6,1,7",
+    "2,1,1,5",
+    "2,6,1,7",
+    "4,1,1,5",
+    "4,6,1,7",
+    "6,1,1,2",
+    "6,3,1,10",
+    "8,1,1,2",
+    "8,3,1,10"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "FGC_审批记录_手机版",
+    "IsMobilePage": true,
+    "ConditionFormatRulesCollection": {
+      "Rules": [
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEN('944e2444f41c43e288eb349b9c7e791'!D7)=0"
+          },
+          "GUID": "d308a110-8b25-4c1f-9a4f-9cbc8cd812af",
+          "StyleInfo": {
+            "Underline": null,
+            "Strikethrough": null
+          },
+          "IsInvisible": true
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEN('944e2444f41c43e288eb349b9c7e791'!D9)=0"
+          },
+          "Priority": 1,
+          "GUID": "5d2b8d96-a2ac-44de-a28c-d103984dcf3c",
+          "StyleInfo": {
+            "Underline": null,
+            "Strikethrough": null
+          },
+          "IsInvisible": true
+        }
+      ]
+    }
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//+odjuSM7NCf+TG/TcqYigFTJBfl44Oc8klhFOlv/2vQbhVaGJATSPlRKysXHUElRfvJFAHFV9TDVh6y7ggeIH8crR4MU8nxpVsCTJq/BpDYrahVJIslT1axt+wGDogAXWsxrkI+lkdwuTX/MXNhEInAv+IQbl024MeVgVd46SsxDbFjV+xCVAoXInIOgFMkv2gVPtlVqw+wx2XZ76ACb2iLbK1newXZkORCx9AqTj4HXKFOl0qVUVLVmoSBu6WEc/VdCezZwXEdSBaLkme1HTgnsn65aSQ7rOkBvGD4toye8/5wH+A0jLq4KAzGME3sbz6k13Pkf6oIssEvmndw+85ZT3hvUzNeWUg+kL5XNvd4U83wqlCZhqO9IQ0RLQBOZW18q5fHsLvxcA0qgtfdlHzUdQ/qF+evH15e+R1FLRauBLzQSWDsWNvTM1YAune2CoY3HKD4phTFzLU1ww7fsfdjAiBSoDkTvuf4U6ajyhuu2LjrkadzhVe/aQV8lm+VMZy9/jJrV6ICZk46oEkQf+tYsoeX3S3RfjLgHcDr9N/J+5/ZBpVhVJBTEMZX4X7y0D3Brs8ZbMW468aLIuk7CvqhHs26mHgN3Aur9hoI9eQopwj6Im5G9h7S4TCjsKP0NvJ09Xy34PBvaijXhwQhY0BNQvnL9Rh8gI4uBNtijEQL685Xww4a3DIgFkEh8ZoIDSgobdCBuhy5nQEI5znRSWbc2NsN63Copa2DdcFxhrCbcOgbET9v6H9YucHMJUebm660asRkOiFP0Tew+R0lNMVZqUxgbVdTLSiRAU/u0nCpPwLqUSDKoqoFw4lIIg9IiaDYq7v6gZAfns1YP0zahVCS1/60HcxtJ3ph3lqyUSro+EQPo8ot4f8OSil6avpXY3wlGMt0YISwwjDKkG8cPiA==|920

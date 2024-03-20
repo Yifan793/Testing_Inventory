@@ -1,0 +1,462 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 42.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 42.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 26
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "31": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "IsHidden": true
+        }
+      },
+      "32": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      28,
+      29,
+      30,
+      31
+    ],
+    "Count": 33
+  },
+  "Values": {
+    "1,0": "供应商列表",
+    "6,31": "物品ID",
+    "8,31": "已配置的供应商",
+    "24,19": "添加",
+    "24,24": "取消"
+  },
+  "AttachInfos": {
+    "1,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "弹窗标题格式"
+      }
+    },
+    "4,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "搜索框",
+        "PropertyValues": [
+          {
+            "Name": "水印文本",
+            "Value": "名称/联系人/联系电话"
+          }
+        ]
+      }
+    },
+    "6,1": {
+      "ListViewInfo": {
+        "Name": "供应商列表",
+        "TableName": "supplier_customer",
+        "RowIndex": 6,
+        "ColumnIndex": 1,
+        "RowCount": 15,
+        "ColumnCount": 30,
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+          "SubConditions": [
+            {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "supplier_customer",
+                "ColumnName": "supplier_customer_type_id",
+                "GUID": "8fed7912-2af1-453b-bd87-d1ad9eaa94c9"
+              },
+              "Value": "2"
+            },
+            {
+              "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+              "CompareType": 9,
+              "ColumnBindingInfo": {
+                "TableName": "supplier_customer",
+                "ColumnName": "ID",
+                "GUID": "5231a583-008b-467c-844a-f6cf17a4ab6d"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=供应商列表!已配置的供应商"
+              }
+            },
+            {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "SubConditions": [
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "supplier_customer",
+                    "ColumnName": "supplier_customer_name",
+                    "GUID": "83d43f3a-d894-469c-836a-6d3c9cf11e8e"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=供应商列表!关键字"
+                  },
+                  "LeftBracket": 1
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "supplier_customer",
+                    "ColumnName": "contact_person",
+                    "GUID": "b3580840-6f23-4da1-9452-f08aee78304e"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=供应商列表!关键字"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "supplier_customer",
+                    "ColumnName": "contact_phone_number",
+                    "GUID": "1cd20bf7-e80a-46c5-ad35-6e4eef630e77"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=供应商列表!关键字"
+                  },
+                  "RightBracket": 1
+                }
+              ],
+              "RelationType": 1
+            }
+          ]
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_NewFashionListStyle1",
+        "ShowColumnHeaderInDesigner": true,
+        "IsRowHeaderCheckBoxVisible": true,
+        "UseSimpleBar": true,
+        "SelectionMode": 1,
+        "DisableAutoSelectRow": true,
+        "AlwaysReservedSelections": true,
+        "ColumnOperation": 2
+      }
+    },
+    "7,3": {
+      "NameUsedInJavaScript": "名称",
+      "BindingInfo": {
+        "TableName": "supplier_customer",
+        "ColumnName": "supplier_customer_name",
+        "GUID": "3d0daa69-5c55-40e8-a7cf-3df53d502487"
+      }
+    },
+    "7,9": {
+      "NameUsedInJavaScript": "联系人",
+      "BindingInfo": {
+        "TableName": "supplier_customer",
+        "ColumnName": "contact_person",
+        "GUID": "854c495f-34f6-45b9-b511-a6ef47a9235c"
+      }
+    },
+    "7,14": {
+      "NameUsedInJavaScript": "联系电话",
+      "BindingInfo": {
+        "TableName": "supplier_customer",
+        "ColumnName": "contact_phone_number",
+        "GUID": "f00a0809-55e5-42b5-905a-383435e315dc"
+      }
+    },
+    "7,20": {
+      "NameUsedInJavaScript": "备注",
+      "BindingInfo": {
+        "TableName": "supplier_customer",
+        "ColumnName": "note",
+        "GUID": "f560361c-7807-4686-8789-dcc45594fb74"
+      }
+    },
+    "7,28": {
+      "BindingInfo": {
+        "TableName": "supplier_customer",
+        "ColumnName": "ID",
+        "GUID": "9679afd2-93d2-4246-b2b5-f6a4677c9b89"
+      }
+    },
+    "21,1": {
+      "CellType": {
+        "$type": "ElementUI.CellTypes.PaginationCellType, ElementUI",
+        "ListviewName": "供应商列表",
+        "pageSize": 6,
+        "pagerCount": 7,
+        "layout": [
+          {
+            "layoutItem": "total"
+          },
+          {
+            "layoutItem": "->"
+          },
+          {
+            "layoutItem": "prev"
+          },
+          {
+            "layoutItem": "pager"
+          },
+          {
+            "layoutItem": "next"
+          }
+        ],
+        "pageSizes": [
+          {},
+          {
+            "value": 20
+          },
+          {
+            "value": 30
+          },
+          {
+            "value": 40
+          },
+          {
+            "value": 50
+          },
+          {
+            "value": 100
+          }
+        ],
+        "small": true,
+        "hideOnSinglePage": true
+      }
+    },
+    "24,19": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "PassListviewDataCommand.PassListviewDataCommand, PassListviewDataCommand",
+            "PassRowMode": 1,
+            "PassValueItems": [
+              {
+                "SourceCell": "名称",
+                "TargetCell": "名称"
+              },
+              {
+                "SourceCell": "联系人",
+                "TargetCell": "联系人"
+              },
+              {
+                "SourceCell": "联系电话",
+                "TargetCell": "联系电话"
+              },
+              {
+                "SourceCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=供应商列表!AC8"
+                },
+                "TargetCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=物品供应商列表!AF6"
+                }
+              }
+            ],
+            "Source": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=供应商列表!B9"
+            },
+            "Target": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=物品供应商列表!B7"
+            }
+          },
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+          }
+        ],
+        "Text": "添加",
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "24,24": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+          }
+        ],
+        "Text": "取消",
+        "TemplateKey": "_RS_Minor1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Formatter": 1
+      },
+      {
+        "HorizontalAlignment": 2
+      },
+      {
+        "FontFamily": 0,
+        "HorizontalAlignment": 2
+      },
+      {
+        "FontFamily": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General",
+        "Center"
+      ]
+    },
+    "CellStyles": {
+      "1,0": 0,
+      "6,1": 1,
+      "6,3": 2,
+      "6,9": 2,
+      "6,14": 2,
+      "6,20": 2,
+      "6,28": 2,
+      "7,1": 1,
+      "7,3": 2,
+      "7,9": 2,
+      "7,14": 2,
+      "7,20": 2,
+      "7,28": 1,
+      "7,31": 3,
+      "9,31": 3,
+      "24,19": 0,
+      "24,20": 3,
+      "24,21": 3,
+      "24,22": 3,
+      "24,24": 3,
+      "24,28": 3,
+      "24,29": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "4,1,1,27",
+    "7,1,1,2",
+    "7,3,1,6",
+    "7,9,1,5",
+    "7,14,1,6",
+    "7,20,1,8",
+    "7,28,1,3",
+    "21,1,2,27",
+    "1,0,2,33",
+    "24,24,1,4",
+    "24,19,1,4",
+    "8,1,13,30",
+    "6,1,1,2",
+    "6,3,1,6",
+    "6,9,1,5",
+    "6,14,1,6",
+    "6,20,1,8",
+    "6,28,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "关键字",
+      "Formula": "供应商列表!$B$5"
+    },
+    {
+      "Name": "物品ID",
+      "Formula": "供应商列表!$AF$8"
+    },
+    {
+      "Name": "已配置的供应商",
+      "Formula": "供应商列表!$AF$10"
+    }
+  ]
+}//IeWHNw/cuXzUCY4PQl6Yoli8TRhqhxQEUahfmS9XXSgFwZRQSCpGjpEfENuOqXuFPdcfFcY1c2PPyYThVRU1jW/Sb2P00D0/1NsYjRnrQt4DNVpcsPgSIkWZ2fxNMPeDjInFpcKqwY52APADQqzC75kVfbnsVjTsNTEU5hHQsf16qLcn6Js7Z0VlLevXfjVeEhbV/ukIkmAo24E8eRi4gw1sLPUNUJKTgy6nR+dylycj93q/PiLZ/UY0zblonGKTrR24+xA6yH6Vs6LUn0cQEFqmYl0EjiKQ0Tpvmz1OkKWU9oU2eWqa4a4p1St4aEsywcodpiaYwkQHpQpw6+d8ZOcJ6pZW38XAwvpy3VrDujKaC8Bt/1C3mxWcuZcMmp0uYzxq3jsJ5ENTH9VfZMjC6ZSx4+pm/Wsq+85laxjungAyD8j/8rj1LSqSskYPwRM10HyCCWfL/HGCtHbBHCAjvsamS+5dwEqf68XrEbtGQ2FDHaYN134u+Dlwxcu+7/UcyJ4hx5adChdTZ3XvhuHekNQfvyD3hlAzxt707YRkWqfeXl7BOUlKRyEJ0sSf7/4MSorH5NbD2S7pyjJbF9ivvQPwuH1ovce29kBNW0EmqcpHlbfv5PlgcyLOxRfQoUGUvLorwJyVU66KyvbhZ0PiDbtmPYC8aepXJYeRXtq8OuZeHEyIoz5QbqdBfcWEjBqvoWvJqAe/ReipZyl3q4A3G61zz00PPtHGdZV63DAcO28Ns2H2PKeh0nIbmcUpUZ4QADL93QKbyD6md+OHmTCGwZHjp/mXZyCEEWykvRm/XIEszw/ccgwfuchNSoPSu/h91rEzHNn6UO3+x9I8gxhpPiOhFxYWfxdhot4gE8MMkx9/foPWrg5QjzejGqa1PJdxDVdGykLcSCSzwWH+tKYLJg==|920

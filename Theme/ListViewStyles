@@ -1,0 +1,31 @@
+[
+  {
+    "Name": "可编辑表格",
+    "Group": "自定义",
+    "ColumnHeaderBack": "Background 1 0",
+    "ColumnHeaderFore": "#FF7F7F7F",
+    "EvenRowBack": "Background 1 0",
+    "EvenRowFore": "#FF000000",
+    "OddRowBack": "Background 1 0",
+    "OddRowFore": "#FF000000",
+    "SelectBack": null,
+    "ColumnHeaderHighlightBack": "Background 1 0",
+    "ColumnHeaderHoverBack": "Background 1 0",
+    "ColumnHeaderHoverFore": "Text 1 50",
+    "ColumnHeaderSelectBack": "Background 1 0",
+    "TotalRowBack": "Background 1 0",
+    "TotalRowFore": "#FF000000",
+    "SelectBorder": null,
+    "GrayAreaBack": "Background 1 0",
+    "GrayAreaFore": "Text 1 50",
+    "DirtyCellColor": "#FFD0E9FF",
+    "ShowVerticalGridLine": false,
+    "GridLineColor": "#FFF2F2F2",
+    "ShowColumnHeaderVerticalGridLine": false,
+    "ColumnHeaderGridLineColor": "#FFF2F2F2",
+    "ShowRowHeaderVerticalGridLine": false,
+    "RowHeaderGridLineColor": "#FFF2F2F2",
+    "ColumnFilterButtonStyle": 1,
+    "OutLineColor": null
+  }
+]

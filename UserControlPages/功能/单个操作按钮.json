@@ -1,0 +1,114 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0,
+          "Mode": 1
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0,
+          "Mode": 1
+        }
+      }
+    },
+    "Count": 3,
+    "DefaultSize": 10.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 80.0
+  },
+  "Values": {
+    "1,0": ""
+  },
+  "AttachInfos": {
+    "1,0": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "删除"
+          }
+        ],
+        "TemplateKey": "_RS_Main1"
+      },
+      "TemplateCellSource": "Fgc-UC-TwoWayBinding-Value-Column"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "1,0": 1,
+      "2,0": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "显示文本"
+      }
+    ],
+    "CommandDefinitions": [
+      {
+        "Name": "操作"
+      }
+    ],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//Mp0VT7ZyGbgoS/G+4Q1umU2ITMR4TMfVrq/JW3NKvElBbwfeekyH9glqm9CW1lmhjyVgsiPWlVi4jPajLO2HAJ0Sd5/m6HK1pW/QOm1/foUniPTeJwAEveO86S+r9hg6HTnOR3Ai2zOBq56HyzTSSODvB5kQ9UcpfJQHj3prFtwekiIv3A4e1W/8EMxXSc2YfPSl2+fg53R562VkrfNju/h6RMXDhO2RBj1g7K+1MIpOaldM0aB6B40gZofMSL6Lnu8KQWtWA/Gd0AADe/ag2A90YLezcSK6Kj8y13YEWyaxTArjY5QrMKk9QhumJdXi8I0EcrPmwJmR5F72M8MZu59Mlr725Dk+VUldUMZcTOtDByX9Xxdw+b5EcivwKkXqdBUGdpOeM7V2XhMs1ZUQiZclqqwyOv6cedtR2lDaCXkkCU4P059PYDjdkXyQx2XhG7YjsyxsnRdZFAPEDTnQtmAqV5PgxK8cT9iEWMbbmII5XHfT63onG3kawNehyHGFiDRvcsTSp0goXqAOcKcHxAH2U5UNqpcJGkawGOf1y2bUoIfumVTqvsmVVXj8i1918P9TdOg+BP/v/ZnsrC8s/B8P6TTqMpGWg8Nf+WMoz8UiY6SNWS34NcUGy66gy6IaVORtq2OD2YXValUB2REgHiFZhNfa21C56gEBwX+yCQl+r+HpmRpJRicuGBqrwYGdT4dxlk2ar7mghep9Eahc0uIzJPdM94hHHdyR2urQfcXJdPn/vU12u3f75LHtfCfqCvE8kOsiYhWb00OAiMSEqCGl41SetG/Zurkz0trNLG6CHNv+VwJLu8zTyqhsEjkESuDcHVCmR+FxyMk41X7cMUHoVurJF/wXcuEk5ttC7mueMtoUaJU/kaX1+/qpCfEF1PJAkJXnpVnIsKcbVmwvRQ==|920

@@ -1,0 +1,505 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 42.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 42.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "31": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 32
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "38": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "IsHidden": true
+        }
+      },
+      "39": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "Count": 40
+  },
+  "Values": {
+    "1,0": "物品供应商列表",
+    "1,21": "添加供应商",
+    "5,15": " ",
+    "5,24": "删除",
+    "30,19": "保存",
+    "30,24": "取消"
+  },
+  "Formulas": {
+    "5,38": "TEXTJOIN(\",\",TRUE,AF6)",
+    "5,34": "物品ID"
+  },
+  "AttachInfos": {
+    "1,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "弹窗标题格式"
+      }
+    },
+    "1,21": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PopupDisplayMode": 2,
+            "PageName": "供应商列表",
+            "PassValues": [
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=物品供应商列表!物品ID"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=供应商列表!物品ID"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=物品供应商列表!已配置的供应商"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=供应商列表!已配置的供应商"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 2
+          }
+        ],
+        "Text": "添加供应商",
+        "TemplateKey": "无边框样式",
+        "Icon": {
+          "Name": "Application/001_add_1.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    },
+    "4,1": {
+      "ListViewInfo": {
+        "Name": "物品供应商列表",
+        "TableName": "supplier_customer_item_relation",
+        "RowIndex": 4,
+        "ColumnIndex": 1,
+        "RowCount": 25,
+        "ColumnCount": 36,
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "supplier_customer_item_relation",
+            "ColumnName": "item_id",
+            "GUID": "b2a79c8a-7d27-400e-b611-e7082486db1a"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=物品供应商列表!物品ID"
+          }
+        },
+        "NullFormulaValueQueryPolicy": 0,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_NewFashionListStyle1",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2,
+        "CommitType": 1
+      }
+    },
+    "5,1": {
+      "NameUsedInJavaScript": "名称",
+      "BindingInfo": {
+        "TableName": "supplier_customer_item_relation",
+        "ColumnName": "supplier_customer_id",
+        "GUID": "a629b91b-d92f-427d-b440-cf4b18c62788",
+        "RelationBinding": {
+          "RelatedTable": "supplier_customer",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "supplier_customer_name"
+        }
+      }
+    },
+    "5,10": {
+      "NameUsedInJavaScript": "联系人",
+      "BindingInfo": {
+        "TableName": "supplier_customer_item_relation",
+        "ColumnName": "supplier_customer_id",
+        "GUID": "073bcd6f-8e5f-4989-b877-cb3a9806e0d7",
+        "RelationBinding": {
+          "RelatedTable": "supplier_customer",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "contact_person"
+        }
+      }
+    },
+    "5,15": {
+      "NameUsedInJavaScript": "联系电话",
+      "BindingInfo": {
+        "TableName": "supplier_customer_item_relation",
+        "ColumnName": "supplier_customer_id",
+        "GUID": "41c3f4f1-02c3-4172-a4ed-53e87b3531f3",
+        "RelationBinding": {
+          "RelatedTable": "supplier_customer",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "contact_phone_number"
+        }
+      }
+    },
+    "5,24": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+            "ShareCommandContainerRefer": {
+              "ShareCommandContainerID": "e75e6b4d-8e7e-4aff-a87b-40db5bf0ca6d"
+            },
+            "Params": [
+              {
+                "ParamReferObject": {
+                  "ParamID": "80138322-dd71-42ba-a421-02cb14959435",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "e75e6b4d-8e7e-4aff-a87b-40db5bf0ca6d"
+                  }
+                },
+                "Value": "警告"
+              },
+              {
+                "ParamReferObject": {
+                  "ParamID": "c587ef1e-dcc2-4203-8cba-1dd483c7414e",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "e75e6b4d-8e7e-4aff-a87b-40db5bf0ca6d"
+                  }
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=\"确定要删除供应商\"&\" \"&物品供应商列表!B6&\" \"&\"吗？\""
+                }
+              }
+            ],
+            "ReturnPropertiesTo": [
+              {
+                "ReturnPropertyReferObject": {
+                  "ParamID": "64cc7657-365c-4ab6-812d-689e51729cfe",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "e75e6b4d-8e7e-4aff-a87b-40db5bf0ca6d"
+                  }
+                },
+                "ResultTo": {
+                  "SerializeProperty": "点击结果"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=物品供应商列表!点击结果"
+                      }
+                    ]
+                  },
+                  "value": "confirm"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+                    "ListviewName": "物品供应商列表",
+                    "UpdateType": 2
+                  }
+                ],
+                "ID": "1197c5a0-1b0b-4b2e-8210-0cc7d6373c5c"
+              }
+            ]
+          }
+        ],
+        "Text": "删除",
+        "ClickMode": 1
+      }
+    },
+    "5,28": {
+      "NameUsedInJavaScript": "ID",
+      "BindingInfo": {
+        "TableName": "supplier_customer_item_relation",
+        "ColumnName": "ID",
+        "GUID": "4e3ff59c-05ae-484d-bb4d-f575977356a4"
+      }
+    },
+    "5,31": {
+      "BindingInfo": {
+        "TableName": "supplier_customer_item_relation",
+        "ColumnName": "supplier_customer_id",
+        "GUID": "fcdf7023-75f9-4086-ac08-9e5a86fb11c9"
+      }
+    },
+    "5,34": {
+      "BindingInfo": {
+        "TableName": "supplier_customer_item_relation",
+        "ColumnName": "item_id",
+        "GUID": "5cc419a1-0df8-481a-8850-4e6cf6e8a8dd"
+      }
+    },
+    "30,19": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+            "ListviewName": "物品供应商列表",
+            "UpdateType": 3
+          },
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "PassValueBack": true,
+            "ReloadData": true
+          }
+        ],
+        "Text": "保存",
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "30,24": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+          }
+        ],
+        "Text": "取消",
+        "TemplateKey": "_RS_Minor1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Formatter": 1
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "HorizontalAlignment": 3
+      },
+      {
+        "FontFamily": 0,
+        "HorizontalAlignment": 3
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 4,
+        "HorizontalAlignment": 3,
+        "Underline": false
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General",
+        "Background 1 -5",
+        "Center",
+        "#FFFF0000"
+      ],
+      "Borders": [
+        {
+          "Color": 2
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,0": 0,
+      "2,21": 1,
+      "2,22": 1,
+      "2,23": 1,
+      "2,24": 1,
+      "2,25": 1,
+      "2,26": 1,
+      "2,27": 1,
+      "2,28": 1,
+      "2,29": 1,
+      "2,30": 1,
+      "2,31": 1,
+      "2,32": 1,
+      "2,33": 1,
+      "2,34": 1,
+      "2,35": 1,
+      "2,36": 1,
+      "2,37": 1,
+      "2,38": 1,
+      "2,39": 1,
+      "4,1": 2,
+      "4,10": 3,
+      "4,15": 3,
+      "4,24": 3,
+      "4,28": 2,
+      "4,31": 2,
+      "4,34": 2,
+      "4,38": 4,
+      "5,1": 2,
+      "5,10": 3,
+      "5,15": 3,
+      "5,24": 5,
+      "5,28": 2,
+      "5,31": 2,
+      "5,34": 2,
+      "5,38": 4,
+      "30,19": 4,
+      "30,20": 4,
+      "30,21": 4,
+      "30,22": 4,
+      "30,23": 4,
+      "30,24": 4,
+      "30,25": 4,
+      "30,26": 4,
+      "30,27": 4
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,21,2,7",
+    "30,19,1,4",
+    "30,24,1,4",
+    "5,10,1,5",
+    "5,15,1,9",
+    "5,24,1,4",
+    "5,28,1,3",
+    "5,1,1,9",
+    "5,31,1,3",
+    "6,1,23,36",
+    "5,34,1,3",
+    "1,0,2,21",
+    "4,1,1,9",
+    "4,10,1,5",
+    "4,15,1,9",
+    "4,24,1,4",
+    "4,28,1,3",
+    "4,31,1,3",
+    "4,34,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "ShouldCheckDirty": true,
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "物品ID",
+      "Formula": "物品供应商列表!$AM$5"
+    },
+    {
+      "Name": "已配置的供应商",
+      "Formula": "物品供应商列表!$AM$6"
+    }
+  ]
+}//+1OSDhAk5zs4vBo6Jzs7zhQ3CvLYTvwqsvCky4wI8eLAesHUNn//gbN9sUagtNa3BJeKH0fYoMXS5O2aOOqHy1YaXbUCsBWwClNw2m+MmRs6vAxmi2B4lM+tO1jepzOdvZhLTwbmBmTdzPXBEzfLsWHJ8WJ+yZaFOqMaPn6RiCFXh69x0y9Ct68ktk/pE22YfcSoWSpHLBcNQqU+eWBbqP+fnkgzNM1oCa624HYgoCc7f+Xoent/GMGe69bwGg4BqPs99Soie21tW46NQFtBmLqObtEn2q6r9J+kKv3f0JB2MiLiNlkKrBg/B8Gb724q9XN9MVHALFdu6zXndOsO+htOQL1/+kTH30lr9Qj1cjKVMvxp679y4kzuzoMhSIFMY8u3yw2KV3H1aP7Ci6V3IwGXthcwrh3Ty41Z3HR60Fu6RoIQ8ofib/FlqwUeqC7ejsvpESHkS1cLMNNjaWXqf9dGBKZ10Ksne2TRdnoQ/kLGxHc3IcqxWC/sYfRDTb427XrL1jkSVu5R4pQsp2GLBJheKWdfVVvO2theeGLy8wVzECCqPWvFtBLs4xkT2GSSYlDw5z5x4dzCtaI+0II0ceIKcCWC39TlAfUtJqcjf83z9rGPHP4NTEztXn1XK7t4BfHb+0l5kwDwFz/3Y3Wls7cdksA71BxcCT//60iVM0KbHeDFbTbgfux3LzxAUO+I/fGH0vAt6hwFdar/zDa09ErXwnGcwmz3D24pdgx/xPyOupebCDt6kLHuTzgYyMf/tyQJfquJf4KxWY45CtRo9p03QgT4T5fwW2Yu8hCy13Uy//v1v83NzjXX93ZIBlcSFVFof4UqpH3QFctRTLxOeyQWkcP21L9jFIESPulUsqVN/BWK365zj7mtR71F+U4bKHxPoIlQXqZM9PNLJSHi0A==|920

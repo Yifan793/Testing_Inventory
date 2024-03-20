@@ -1,0 +1,231 @@
+{
+  "Name": "Add_EditItem",
+  "Description": "新增物品",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "ItemID",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "ItemName",
+          "Remark": "名称",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "ItemType",
+          "Remark": "所属类目",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "ItemSpecification",
+          "Remark": "规格型号",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "ItemUnit",
+          "Remark": "单位",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "ItemBrand",
+          "Remark": "品牌",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "PurchasePrice",
+          "Remark": "采购价",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "SalesPrice",
+          "Remark": "销售价",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "InventoryUpperLimit",
+          "Remark": "库存上限",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "InventoryLowerLimit",
+          "Remark": "库存下限",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "ItemBarcode",
+          "Remark": "商品条码",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "Note",
+          "Remark": "备注",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "item",
+      "UpdateType": "addOrEdit",
+      "ShowConfirm": false,
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "ColumnBindingInfo": {
+          "TableName": "item",
+          "ColumnName": "ID",
+          "GUID": "58b763b2-83b9-4d4d-baab-157e1a573786"
+        },
+        "Value": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=ItemID"
+        }
+      },
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "item",
+            "ColumnName": "item_name",
+            "GUID": "64942a8f-8927-4c53-a80b-b9fb97beb7d1"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=ItemName"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "item",
+            "ColumnName": "type_id",
+            "GUID": "17b590fe-4b9e-41b5-8b08-5ac7d07eb639"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=ItemType"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "item",
+            "ColumnName": "specification",
+            "GUID": "32274cc4-4b07-45a5-8d8d-69170c3e7a92"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=ItemSpecification"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "item",
+            "ColumnName": "unit",
+            "GUID": "727bde98-fc04-4130-a0f9-81294a65d767"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=ItemUnit"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "item",
+            "ColumnName": "item_brand",
+            "GUID": "5d2eeaa8-872f-489b-a11d-8bb10d7cd573"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=ItemBrand"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "item",
+            "ColumnName": "purchase_price",
+            "GUID": "36348a92-247f-4ee9-8aeb-f42e40e83e6c"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=PurchasePrice"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "item",
+            "ColumnName": "sales_price",
+            "GUID": "ebabacac-de0d-40bf-a425-c117c2152eb7"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=SalesPrice"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "item",
+            "ColumnName": "inventory_upper_limit",
+            "GUID": "5b2139fa-a716-4e57-98ea-d44657350fba"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=InventoryUpperLimit"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "item",
+            "ColumnName": "inventory_lower_limit",
+            "GUID": "b4099ea1-5a9f-4ee0-87fa-d767b98d2bae"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=InventoryLowerLimit"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "item",
+            "ColumnName": "item_barcode",
+            "GUID": "745ae4bc-71c1-4ef4-9b03-86d265f46ff8"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=ItemBarcode"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "item",
+            "ColumnName": "note",
+            "GUID": "863ab99a-5d5e-47a8-a096-6898f6732c31"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=Note"
+          }
+        }
+      ]
+    }
+  ]
+}

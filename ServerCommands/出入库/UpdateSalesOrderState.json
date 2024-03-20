@@ -1,0 +1,215 @@
+{
+  "Name": "UpdateSalesOrderState",
+  "Description": "更新销售单出库状态，5待出库，9出库中，10已出库",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.InvokeTriggerSaveData, ServerDesignerCommon",
+      "Parameters": [
+        {
+          "Name": "order_id",
+          "Remark": "销售单号",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "sales_order_detail",
+      "TableValue": {
+        "TableName": "sales_order_detail",
+        "BindingInfos": [
+          {
+            "BindingInfo": {
+              "TableName": "sales_order_detail",
+              "ColumnName": "item_id",
+              "GUID": "5a221bcf-a18a-4409-b365-fa1ac8f2b2c1"
+            },
+            "ColumnName": "物品ID"
+          },
+          {
+            "BindingInfo": {
+              "TableName": "sales_order_detail",
+              "ColumnName": "sales_volume",
+              "GUID": "1d8a61aa-9497-40a8-935e-4ee2c9bdcdeb"
+            },
+            "ColumnName": "销售数量"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "sales_order_detail",
+            "ColumnName": "sales_order_id",
+            "GUID": "a6fad532-e1c2-4d73-a4c2-d7a2fc013c93",
+            "RelationBinding": {
+              "RelatedTable": "sales_order",
+              "RelatedColumn": "ID",
+              "DisplayColumn": "order_id"
+            }
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=order_id"
+          }
+        }
+      },
+      "ID": "bccaa14f6ffb44a5810a1c838898b526"
+    },
+    {
+      "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+      "LoopInfo": {
+        "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+        "LoopCount": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=sales_order_detail"
+        },
+        "LoopItemParamName": "Item"
+      },
+      "CommandList": [
+        {
+          "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+          "ParameterName": "sales_item_inventory_sum",
+          "TableValue": {
+            "TableName": "inventory_details",
+            "OnlyGetValue": true,
+            "TableValueType": 0,
+            "BindingInfos": [
+              {
+                "BindingInfo": {
+                  "TableName": "inventory_details",
+                  "ColumnName": "sum",
+                  "GUID": "cf3e75ca-08ce-4ca4-a025-10b5f5a0fea5"
+                },
+                "ColumnName": "sum"
+              }
+            ],
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "SubConditions": [
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "inventory_details",
+                    "ColumnName": "inventory_id",
+                    "GUID": "632f302a-0bcf-47d4-81e8-ebdb78cdaec6",
+                    "RelationBinding": {
+                      "RelatedTable": "inventory",
+                      "RelatedColumn": "id",
+                      "DisplayColumn": "other_inventory"
+                    }
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=order_id"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "inventory_details",
+                    "ColumnName": "item_id",
+                    "GUID": "90dfe699-8b3f-4045-8bbc-1af2d625c029"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=Item.物品ID"
+                  }
+                }
+              ]
+            }
+          },
+          "ID": "11196ffb128548f88a2e229c5905836e"
+        },
+        {
+          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+          "ConditionAndCommandPairList": [
+            {
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=sales_item_inventory_sum"
+                  }
+                },
+                "value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Item.销售数量"
+                },
+                "compareType": 1
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "sales_order",
+                  "ShowConfirm": false,
+                  "RowsToUpdate": 1,
+                  "RowsToUpdateCondition": {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "sales_order",
+                      "ColumnName": "order_id",
+                      "GUID": "68608d1f-3611-419a-81b0-b8a3a7ed6282"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=order_id"
+                    }
+                  },
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "sales_order",
+                        "ColumnName": "outstock_status",
+                        "GUID": "5e01b672-617a-4d12-a8ed-5a2988ec1c77"
+                      },
+                      "Value": "9"
+                    }
+                  ],
+                  "Comments": "9出库中"
+                },
+                {
+                  "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon"
+                }
+              ],
+              "ID": "331d2dc7-33fc-47ab-8af7-fe9542d5b471"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "sales_order",
+      "ShowConfirm": false,
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "ColumnBindingInfo": {
+          "TableName": "sales_order",
+          "ColumnName": "order_id",
+          "GUID": "56e093fe-c514-4498-a731-3fd3ef43faad"
+        },
+        "Value": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=order_id"
+        }
+      },
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "sales_order",
+            "ColumnName": "outstock_status",
+            "GUID": "d558ddf1-fc11-4a70-8f9e-d1fdfebc28a0"
+          },
+          "Value": "10"
+        }
+      ],
+      "Comments": "10已出库"
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 48.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 22,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "46": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 49,
+    "DefaultSize": 30.0
+  },
+  "Values": {
+    "7,45": "删除"
+  },
+  "AttachInfos": {
+    "3,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "6,2": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "inventory",
+        "RowIndex": 6,
+        "ColumnIndex": 2,
+        "RowCount": 12,
+        "ColumnCount": 45,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_NewFashionListStyle1",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "7,3": {
+      "BindingInfo": {
+        "TableName": "inventory",
+        "ColumnName": "inventory_status",
+        "GUID": "6db2f624-5f38-474d-be7c-606f1ea17032"
+      }
+    },
+    "7,6": {
+      "BindingInfo": {
+        "TableName": "inventory",
+        "ColumnName": "order",
+        "GUID": "ac7fade5-e4ee-4c61-8043-481ca4c6cbaf"
+      }
+    },
+    "7,9": {
+      "BindingInfo": {
+        "TableName": "inventory",
+        "ColumnName": "date",
+        "GUID": "953fa872-ab1f-4d1d-bb6b-b14fea081e9c"
+      }
+    },
+    "7,12": {
+      "BindingInfo": {
+        "TableName": "inventory",
+        "ColumnName": "type",
+        "GUID": "9c07af46-aa7e-4b9a-b474-76df3edb5552"
+      }
+    },
+    "7,15": {
+      "BindingInfo": {
+        "TableName": "inventory",
+        "ColumnName": "sales_customers_id",
+        "GUID": "9e47be85-9e3f-42dd-a586-0b4e81d2462b"
+      }
+    },
+    "7,18": {
+      "BindingInfo": {
+        "TableName": "inventory",
+        "ColumnName": "other_inventory",
+        "GUID": "d0c6c63f-c776-4544-a4ce-ab1ee1de5c85"
+      }
+    },
+    "7,21": {
+      "BindingInfo": {
+        "TableName": "inventory",
+        "ColumnName": "contacts",
+        "GUID": "bf86cb2a-50c3-49b0-a221-ba110f7e0c71"
+      }
+    },
+    "7,24": {
+      "BindingInfo": {
+        "TableName": "inventory",
+        "ColumnName": "contact_number",
+        "GUID": "a431737b-2c9b-46f3-981b-7f1c3a43a924"
+      }
+    },
+    "7,27": {
+      "BindingInfo": {
+        "TableName": "inventory",
+        "ColumnName": "amount",
+        "GUID": "b2d079cf-9b6d-4dde-941a-72320e51523a"
+      }
+    },
+    "7,30": {
+      "BindingInfo": {
+        "TableName": "inventory",
+        "ColumnName": "project_id",
+        "GUID": "4453ff53-4b90-47aa-878c-67e88af68f35"
+      }
+    },
+    "7,33": {
+      "BindingInfo": {
+        "TableName": "inventory",
+        "ColumnName": "comments",
+        "GUID": "165bb5a1-de6b-4538-8fcd-2a7356faaf26"
+      }
+    },
+    "7,36": {
+      "BindingInfo": {
+        "TableName": "inventory",
+        "ColumnName": "agent",
+        "GUID": "cde8267d-10d8-4ea3-ab7b-1f3e7bbebfec"
+      }
+    },
+    "7,39": {
+      "BindingInfo": {
+        "TableName": "inventory",
+        "ColumnName": "approval_status",
+        "GUID": "21f4be63-a618-4cfc-bc04-5fc92047fa0d"
+      }
+    },
+    "7,42": {
+      "BindingInfo": {
+        "TableName": "inventory",
+        "ColumnName": "process_instance_id",
+        "GUID": "342adbd9-0ac5-4a1b-99d2-2e447317c954"
+      }
+    },
+    "7,45": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.DeleteRecordCommand, ServerDesignerCommon",
+            "ConfirmText": "您确定要删除吗？"
+          }
+        ],
+        "Text": "删除"
+      }
+    },
+    "18,2": {
+      "CellType": {
+        "$type": "Forguncy.PageNavigateCellType, ServerDesignerCommon",
+        "PageingListviewName": "表格1",
+        "FirstImage": {
+          "Name": "Arrow/277_move_first_3.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 50"
+        },
+        "PreviousImage": {
+          "Name": "Arrow/291_left_arrow_2.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 50"
+        },
+        "NextImage": {
+          "Name": "Arrow/292_move_next_3.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 50"
+        },
+        "LastImage": {
+          "Name": "Arrow/278_move_last_3.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 50"
+        }
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0,
+        "Underline": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "HorizontalAlignment": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 1",
+        "Right",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "7,45": 0,
+      "18,2": 1,
+      "18,47": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 2,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "3,2,1,4",
+    "7,3,1,3",
+    "7,6,1,3",
+    "7,9,1,3",
+    "7,12,1,3",
+    "7,15,1,3",
+    "7,18,1,3",
+    "7,21,1,3",
+    "7,24,1,3",
+    "7,27,1,3",
+    "7,30,1,3",
+    "7,33,1,3",
+    "7,36,1,3",
+    "7,39,1,3",
+    "7,42,1,3",
+    "7,45,1,2",
+    "8,2,10,45",
+    "18,2,1,45",
+    "6,3,1,3",
+    "6,6,1,3",
+    "6,9,1,3",
+    "6,12,1,3",
+    "6,15,1,3",
+    "6,18,1,3",
+    "6,21,1,3",
+    "6,24,1,3",
+    "6,27,1,3",
+    "6,30,1,3",
+    "6,33,1,3",
+    "6,36,1,3",
+    "6,39,1,3",
+    "6,42,1,3",
+    "6,45,1,2"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "732295a4-1d14-4a70-b494-04da63af7af2",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "Fill": "Background 1 -5"
+      },
+      "IsAutomaticFill": false,
+      "Size": "1470,688"
+    },
+    {
+      "Name": "3df67693-f3f5-4236-9660-1b6148609ad1",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "30,150",
+      "Size": "1410,478"
+    }
+  ]
+}//ijSbBGFS1larATIp076BeVXEpvmM8CaMUnjj8iYR9ZgJTyPY1jlPPLBwBNBP+uQk/wOr5zBkYrR5QTlDR+iFRt4MlfUPH2qdhac8r+itwQkrzsTR9hhkgWoHLPZlGspiZdNuYbNZZ/QNvLDkhXWdJRtdWc6jZDehidpHzXDkcrPgKzHtrR74czJIi9jeYwG7zjrwrfq9CC3+Li5956kxgEz4GBzc/gY4n5UAFRBG0mlQv2gHtZlGRp+cGmt0GOn7JdkbvZMLZJ3bePBNj/7fR/nrb0GJYee4BX/L+YFUK67ysBt2mneAW8GTmJWOPoPtiMnXgKJarcmXq1k0JGuML4lTJEEq7JCWHwJvbo9Qh9TlINGQZNt/oAjAtwtFQ0DZ0fRuNXzNJrHu3EVmDJkCOOXxOqZH5nv/W/UkgctaPAJEVUKjtON2fwcozCdKMk3hW/C99RVGIX39twc4omta8Z/f+n0Dj8AJFgQFFfQgMacNORjQqixTPDAUrJE/pUia6z25FCrvflnwyFqxBo/QhN2BHZ7wVIwIpCjjW7YnT+2E2nxHiABptxT+jU6uILEHEDbt+/t46CDCxuIOQKW/wG1I1Rq0sMICNg76GCNrkyLnC4h1ZBOh4UgTqc7bICvgGDcn//JVqLPW4pPAS5GYy9BNiPwkPvwI0CcryGjAuMK3xN6KLHVESLfe3f+KwqvN7MF88NVwvhRE/BkdxgW2WCqvopyZqRQbSkUmg4N//vBiIx8CP7//D9FhhzHETc1tuxTXAJCuZP91F0bBhNXEIW0kdYK//Ak4BOT3Yp26g7tV2/+y7gVoAWO6V2H2d6UZtLxeqLKEpq+1j5wvDFpl3KuZm6JFtxRCpJuxZOdl6QuM5kpHMBckQBy0Du+Tbvm6bD/zI68BFrxjaUjejOaaeQ==|920

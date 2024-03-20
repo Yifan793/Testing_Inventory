@@ -1,0 +1,144 @@
+{
+  "ID": "5ce20eed-443f-4749-988e-2542c5a291ad",
+  "Name": "ELNotification",
+  "Params": [
+    {
+      "ID": "23b3db3f-ee43-477b-838f-419a5d219a4e",
+      "Name": "Title",
+      "Remark": "标题内容"
+    },
+    {
+      "ID": "552bab51-a087-4a1d-885b-b1df2549c039",
+      "Name": "Content",
+      "Remark": "通知内容"
+    },
+    {
+      "ID": "67c0173d-5e65-4382-96cd-c173611bbb69",
+      "Name": "Type",
+      "Remark": "通知类型，包括：Success、Fail、Warning、Message"
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+      "ConditionAndCommandPairList": [
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+              "cellLocations": [
+                {
+                  "SerializeProperty": "=Type"
+                }
+              ]
+            },
+            "value": "Success"
+          },
+          "CommandList": [
+            {
+              "$type": "ElementUI.Commands.ShowNotification, ElementUI",
+              "Title": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Title"
+              },
+              "Message": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Content"
+              },
+              "Type": "success",
+              "Duration": "5000",
+              "Position": "top-right",
+              "Offset": "10"
+            }
+          ],
+          "ID": "f7d0885f-4f2e-484f-a261-9ee0be878742"
+        },
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+              "cellLocations": [
+                {
+                  "SerializeProperty": "=Type"
+                }
+              ]
+            },
+            "value": "Fail"
+          },
+          "CommandList": [
+            {
+              "$type": "ElementUI.Commands.ShowNotification, ElementUI",
+              "Title": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Title"
+              },
+              "Message": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Content"
+              },
+              "Type": "error",
+              "Duration": "5000",
+              "Position": "top-right",
+              "Offset": "10"
+            }
+          ],
+          "ID": "4a26df71-d700-4754-8071-48f7b7b26f73"
+        },
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+              "cellLocations": [
+                {
+                  "SerializeProperty": "=Type"
+                }
+              ]
+            },
+            "value": "Warning"
+          },
+          "CommandList": [
+            {
+              "$type": "ElementUI.Commands.ShowNotification, ElementUI",
+              "Title": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Title"
+              },
+              "Message": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Content"
+              },
+              "Type": "warning",
+              "Duration": "5000",
+              "Position": "top-right",
+              "Offset": "10"
+            }
+          ],
+          "ID": "885cbd1a-2a20-4778-8d38-4bccded0786c"
+        },
+        {
+          "CommandList": [
+            {
+              "$type": "ElementUI.Commands.ShowNotification, ElementUI",
+              "Title": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Title"
+              },
+              "Message": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Content"
+              },
+              "Type": "info",
+              "Duration": "5000",
+              "Position": "top-right",
+              "Offset": "10"
+            }
+          ],
+          "ID": "3fc7612a-50a5-43fc-b0a6-51f51acb2fd5"
+        }
+      ]
+    }
+  ]
+}

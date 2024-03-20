@@ -1,0 +1,1002 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 42.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 42.0
+        }
+      },
+      "33": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "34": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "35": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "36": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 37
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "47": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "63": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "IsHidden": true
+        }
+      },
+      "64": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      44,
+      45,
+      46,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64
+    ],
+    "Count": 65
+  },
+  "Values": {
+    "0,63": "审批记录显示状态",
+    "1,0": "销售单详情",
+    "2,37": "审批记录",
+    "6,1": "销售订单编号",
+    "6,12": "销售日期",
+    "6,23": "交货日期",
+    "6,34": "项目",
+    "6,63": "审核实例ID",
+    "6,64": "流程结束原因",
+    "9,1": "客户",
+    "9,23": "联系人",
+    "9,34": "联系电话",
+    "10,63": "导出页面名称",
+    "11,63": "\"销售单详情\"&",
+    "12,1": "备注",
+    "12,34": "总金额",
+    "17,1": "物品编号",
+    "17,5": "物品名称",
+    "17,25": "已出库",
+    "17,29": "未出库",
+    "17,64": "总数量",
+    "33,1": "销售员",
+    "33,12": "销售部门"
+  },
+  "Formulas": {
+    "18,25": "IFERROR(VLOOKUP(AS19,BL19:BM19,2),0)",
+    "18,29": "MAX(0,Z19-AJ16)",
+    "11,63": "\"销售单详情-\"&销售订单编号&\"-\"&TEXT(TODAY(),\"yyyyMMdd\")",
+    "6,6": "IF(ISBLANK(审核实例ID),\"未提交\",IF(ISBLANK(流程结束原因),\"审核中\",IF(流程结束原因=\"拒绝\",\"被拒绝\",\"已审核\")))"
+  },
+  "AttachInfos": {
+    "0,48": {
+      "CellType": {
+        "$type": "Forguncy.ContentContainerCellType, ServerDesignerCommon",
+        "PageName": "FGC_审批记录",
+        "OverflowMode": 1
+      }
+    },
+    "1,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "弹窗标题格式"
+      }
+    },
+    "2,29": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "流程命令条",
+        "CommandHandlers": [
+          {
+            "CommandName": "后置命令事件",
+            "Commands": {
+              "Commands": [
+                {
+                  "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+                  "PassValueBack": true,
+                  "ReloadData": true
+                }
+              ],
+              "ParamProperties": {}
+            }
+          }
+        ]
+      }
+    },
+    "2,37": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=销售单详情!审批记录显示状态"
+                      }
+                    ]
+                  },
+                  "value": "显示"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=销售单详情!AW:BJ"
+                        },
+                        "Value": false
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=销售单详情!审批记录显示状态"
+                        },
+                        "Value": "隐藏"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                    "TargetPageElement": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=销售单详情!审批记录按钮"
+                    },
+                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "MethodName": "set_RightIcon",
+                    "ParameterValues": {
+                      "value": {
+                        "$type": "GrapeCity.Forguncy.Plugin.ImageValue, GrapeCity.Forguncy.Plugin",
+                        "Name": "Arrow/292_move_next_3.svg",
+                        "BuiltIn": true,
+                        "Color": "Background 1",
+                        "UseCellTypeForeColor": true
+                      }
+                    }
+                  }
+                ],
+                "ID": "0962da9e-b72e-4c19-bb15-2aa2c6c20976"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=销售单详情!AW:BJ"
+                        },
+                        "Value": true
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=销售单详情!审批记录显示状态"
+                        },
+                        "Value": "显示"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                    "TargetPageElement": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=销售单详情!审批记录按钮"
+                    },
+                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "MethodName": "set_RightIcon",
+                    "ParameterValues": {
+                      "value": {
+                        "$type": "GrapeCity.Forguncy.Plugin.ImageValue, GrapeCity.Forguncy.Plugin",
+                        "Name": "Arrow/291_left_arrow_2.svg",
+                        "BuiltIn": true,
+                        "Color": "Background 1",
+                        "UseCellTypeForeColor": true
+                      }
+                    }
+                  }
+                ],
+                "ID": "d50b3f5f-2dee-48b7-b1c0-1c93f34a85e4"
+              }
+            ]
+          }
+        ],
+        "Text": "审批记录",
+        "IsInvisible": true,
+        "TemplateKey": "_RS_Minor1",
+        "RightIcon": {
+          "Name": "Arrow/292_move_next_3.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    },
+    "6,6": {
+      "RulesGuidList": [
+        "bbd19f0b-eb68-429d-9c2d-7ccd800cc39d",
+        "184dda65-0b06-4f9e-ba38-727ae678d4f5",
+        "b1910e15-6efc-47d8-87bc-9cdb37c69035",
+        "0ae53dde-7ce2-44ea-96b8-7b7d9d2c32e7"
+      ]
+    },
+    "7,1": {
+      "BindingInfo": {
+        "TableName": "sales_order",
+        "ColumnName": "order_id",
+        "GUID": "419041b6-a13e-479e-90ff-c7924711aa62"
+      }
+    },
+    "7,12": {
+      "BindingInfo": {
+        "TableName": "sales_order",
+        "ColumnName": "sales_date",
+        "GUID": "c71d34f8-0737-4432-87a6-1afe7036ca0b"
+      }
+    },
+    "7,23": {
+      "BindingInfo": {
+        "TableName": "sales_order",
+        "ColumnName": "delivery_date",
+        "GUID": "93350e3e-3dfb-4483-9f61-51d235f3fbbc"
+      }
+    },
+    "7,34": {
+      "BindingInfo": {
+        "TableName": "sales_order",
+        "ColumnName": "project_id",
+        "GUID": "f3a96d35-553b-42e2-a05f-6934bd9fbffb",
+        "RelationBinding": {
+          "RelatedTable": "project_table",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "project_name"
+        }
+      }
+    },
+    "7,63": {
+      "BindingInfo": {
+        "TableName": "sales_order",
+        "ColumnName": "audit_id",
+        "GUID": "06abd92e-3c48-4c45-bdd4-5e872e219910"
+      }
+    },
+    "7,64": {
+      "BindingInfo": {
+        "TableName": "sales_order",
+        "ColumnName": "audit_id",
+        "GUID": "acc4513b-8da3-43bd-938a-ca4958ea2cc3",
+        "RelationBinding": {
+          "RelatedTable": "ACT_HI_PROCINST_View",
+          "RelatedColumn": "ID_",
+          "DisplayColumn": "DELETE_REASON_"
+        }
+      }
+    },
+    "10,1": {
+      "BindingInfo": {
+        "TableName": "sales_order",
+        "ColumnName": "customer_id",
+        "GUID": "07dd7cf6-c5d7-41ff-89a2-56afb4f30708",
+        "RelationBinding": {
+          "RelatedTable": "supplier_customer",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "supplier_customer_name"
+        }
+      }
+    },
+    "10,23": {
+      "BindingInfo": {
+        "TableName": "sales_order",
+        "ColumnName": "contact_person",
+        "GUID": "d9a8ccc1-49f1-4446-8323-21b1ea9f8e07"
+      }
+    },
+    "10,34": {
+      "BindingInfo": {
+        "TableName": "sales_order",
+        "ColumnName": "contact_phone_number",
+        "GUID": "5f602ece-580f-4301-b160-9c2f0636ea36"
+      }
+    },
+    "13,1": {
+      "BindingInfo": {
+        "TableName": "sales_order",
+        "ColumnName": "note",
+        "GUID": "c5eb71a8-e299-49e1-808e-2d8a11e2ed1b"
+      }
+    },
+    "13,34": {
+      "BindingInfo": {
+        "TableName": "sales_order",
+        "ColumnName": "total_amount",
+        "GUID": "7f28dbee-42af-47c1-91cb-2cd6bee2d1f8"
+      }
+    },
+    "17,1": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "sales_order_detail",
+        "RowIndex": 17,
+        "ColumnIndex": 1,
+        "RowCount": 15,
+        "ColumnCount": 46,
+        "DetailListViewInfo": {
+          "ColumnOfDetailTable": "sales_order_id",
+          "MasterTable": "sales_order",
+          "ColumnOfMasterTable": "ID",
+          "DataCommitType": 2
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_NewFashionListStyle1",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2,
+        "CommitType": 1
+      }
+    },
+    "17,63": {
+      "ListViewInfo": {
+        "Name": "表格2",
+        "TableName": "inventory_details",
+        "RowIndex": 17,
+        "ColumnIndex": 63,
+        "RowCount": 7,
+        "ColumnCount": 2,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_NewFashionListStyle1",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "18,1": {
+      "NameUsedInJavaScript": "物品编号",
+      "BindingInfo": {
+        "TableName": "sales_order_detail",
+        "ColumnName": "item_id",
+        "GUID": "a8580d17-f8e7-4712-819a-5a8e8641663f",
+        "RelationBinding": {
+          "RelatedTable": "item",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "item_id"
+        }
+      }
+    },
+    "18,5": {
+      "NameUsedInJavaScript": "物品名称",
+      "BindingInfo": {
+        "TableName": "sales_order_detail",
+        "ColumnName": "item_id",
+        "GUID": "1690ed5e-06c2-474e-8218-0304816f67f7",
+        "RelationBinding": {
+          "RelatedTable": "item",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "item_name"
+        }
+      }
+    },
+    "18,9": {
+      "NameUsedInJavaScript": "规格型号",
+      "BindingInfo": {
+        "TableName": "sales_order_detail",
+        "ColumnName": "item_id",
+        "GUID": "dba68467-e925-4d15-86b3-ce2c0f8ac328",
+        "RelationBinding": {
+          "RelatedTable": "item",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "specification"
+        }
+      }
+    },
+    "18,13": {
+      "NameUsedInJavaScript": "名称",
+      "BindingInfo": {
+        "TableName": "sales_order_detail",
+        "ColumnName": "item_id",
+        "GUID": "4cc16613-399c-458c-a0db-cd08d62c75a4",
+        "RelationBinding": {
+          "RelatedTable": "item",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "unit",
+          "NextRelationBinding": {
+            "RelatedTable": "unit_dictionary",
+            "RelatedColumn": "ID",
+            "DisplayColumn": "unit_name"
+          }
+        }
+      }
+    },
+    "18,17": {
+      "NameUsedInJavaScript": "销售数量",
+      "BindingInfo": {
+        "TableName": "sales_order_detail",
+        "ColumnName": "sales_volume",
+        "GUID": "d7b0cb09-5aed-4d6d-a929-c924376fcf3e"
+      }
+    },
+    "18,21": {
+      "NameUsedInJavaScript": "单价",
+      "BindingInfo": {
+        "TableName": "sales_order_detail",
+        "ColumnName": "unit_price",
+        "GUID": "481bd189-89e5-4d83-b13c-3455da3100ee"
+      }
+    },
+    "18,33": {
+      "NameUsedInJavaScript": "备注",
+      "BindingInfo": {
+        "TableName": "sales_order_detail",
+        "ColumnName": "note",
+        "GUID": "9137bad7-94a0-4df8-92c2-e97772332f10"
+      }
+    },
+    "18,44": {
+      "BindingInfo": {
+        "TableName": "sales_order_detail",
+        "ColumnName": "item_id",
+        "GUID": "01195e13-f0f8-4aaf-a7d5-b244cb0b0348"
+      }
+    },
+    "18,63": {
+      "NameUsedInJavaScript": "物品ID",
+      "BindingInfo": {
+        "TableName": "inventory_details",
+        "ColumnName": "item_id",
+        "GUID": "a39461f9-8852-4ea5-8115-2b72d8f94a9c"
+      }
+    },
+    "18,64": {
+      "NameUsedInJavaScript": "总数量",
+      "BindingInfo": {
+        "TableName": "inventory_details",
+        "ColumnName": "sum",
+        "GUID": "ac403faf-8111-4143-95c6-a3c23b3794c0"
+      }
+    },
+    "34,1": {
+      "BindingInfo": {
+        "TableName": "sales_order",
+        "ColumnName": "seller",
+        "GUID": "c65bb0ce-7e17-4353-8dff-3c3c13b87aab"
+      }
+    },
+    "34,12": {
+      "BindingInfo": {
+        "TableName": "sales_order",
+        "ColumnName": "sales_department",
+        "GUID": "61e895de-9544-4e6e-82db-607b6cad269f"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Formatter": 1
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "Foreground": 3
+      },
+      {
+        "FontSize": 24.0,
+        "Foreground": 4,
+        "Formatter": 5
+      },
+      {
+        "HorizontalAlignment": 6
+      },
+      {
+        "HorizontalAlignment": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General",
+        "Background 1 -5",
+        "Text 1 50",
+        "Accent 1 0",
+        "[$¥-804] #,##0.00 ;[$¥-804] -#,##0.00;[$¥-804] \" - \"??;@",
+        "Center"
+      ],
+      "Borders": [
+        {
+          "Color": 2
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,0": 0,
+      "2,29": 1,
+      "2,37": 1,
+      "2,44": 1,
+      "2,45": 1,
+      "2,46": 1,
+      "3,44": 1,
+      "3,45": 1,
+      "3,46": 1,
+      "4,23": 2,
+      "4,24": 2,
+      "4,25": 2,
+      "4,26": 2,
+      "4,27": 2,
+      "4,28": 2,
+      "4,29": 2,
+      "4,30": 2,
+      "4,31": 2,
+      "4,32": 2,
+      "4,33": 2,
+      "4,34": 2,
+      "4,35": 2,
+      "4,36": 2,
+      "4,37": 2,
+      "4,38": 2,
+      "4,39": 2,
+      "4,40": 2,
+      "4,41": 2,
+      "4,42": 2,
+      "4,43": 2,
+      "4,44": 2,
+      "4,45": 2,
+      "4,46": 2,
+      "4,47": 2,
+      "6,1": 3,
+      "6,12": 3,
+      "6,23": 3,
+      "6,34": 3,
+      "7,12": 1,
+      "7,23": 1,
+      "7,34": 1,
+      "7,44": 1,
+      "7,45": 1,
+      "7,46": 1,
+      "7,47": 1,
+      "7,63": 1,
+      "9,1": 3,
+      "9,23": 3,
+      "9,34": 3,
+      "12,1": 3,
+      "12,34": 3,
+      "13,34": 4,
+      "17,1": 5,
+      "17,5": 5,
+      "17,9": 5,
+      "17,13": 5,
+      "17,17": 5,
+      "17,21": 5,
+      "17,25": 5,
+      "17,29": 5,
+      "17,33": 6,
+      "17,34": 7,
+      "17,35": 7,
+      "17,36": 7,
+      "17,37": 7,
+      "17,38": 7,
+      "17,39": 7,
+      "17,40": 7,
+      "17,41": 7,
+      "17,42": 7,
+      "17,43": 8,
+      "17,44": 5,
+      "18,1": 5,
+      "18,5": 5,
+      "18,9": 5,
+      "18,13": 5,
+      "18,17": 5,
+      "18,21": 5,
+      "18,25": 5,
+      "18,29": 5,
+      "18,33": 5,
+      "18,44": 5,
+      "33,1": 3,
+      "33,12": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "0,48,36,14",
+    "1,0,4,23",
+    "2,29,2,7",
+    "2,37,2,7",
+    "7,1,1,10",
+    "7,12,1,10",
+    "7,23,1,10",
+    "7,34,1,10",
+    "10,1,1,21",
+    "10,23,1,10",
+    "10,34,1,10",
+    "13,1,3,32",
+    "13,34,3,10",
+    "18,1,1,4",
+    "18,5,1,4",
+    "18,9,1,4",
+    "18,13,1,4",
+    "18,17,1,4",
+    "18,21,1,4",
+    "18,25,1,4",
+    "18,29,1,4",
+    "18,33,1,11",
+    "18,44,1,3",
+    "34,1,1,10",
+    "34,12,1,10",
+    "19,1,13,46",
+    "19,63,5,2",
+    "0,63,2,1",
+    "6,6,1,3",
+    "17,1,1,4",
+    "17,5,1,4",
+    "17,9,1,4",
+    "17,13,1,4",
+    "17,17,1,4",
+    "17,21,1,4",
+    "17,25,1,4",
+    "17,29,1,4",
+    "17,33,1,11",
+    "17,44,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "打印_导出",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": [
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                "cellLocations": [
+                  {
+                    "SerializeProperty": "=销售单详情!审核实例ID"
+                  }
+                ]
+              },
+              "value": "%Null%",
+              "compareType": 1
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=销售单详情!审批记录按钮"
+                    },
+                    "PropertyType": 1,
+                    "Value": true
+                  }
+                ]
+              },
+              {
+                "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                "ConditionAndCommandPairList": [
+                  {
+                    "Condition": {
+                      "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                      "param": {
+                        "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                        "cellLocations": [
+                          {
+                            "SerializeProperty": "=销售单详情!流程结束原因"
+                          }
+                        ]
+                      },
+                      "value": "%Null%"
+                    },
+                    "CommandList": [
+                      {
+                        "$type": "SetCurrentRowCommand.SetCurrentRowCommand, SetCurrentRowCommand",
+                        "CurrentRowInfo": {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "ColumnBindingInfo": {
+                            "TableName": "ACT_RU_TASK_View",
+                            "ColumnName": "PROC_INST_ID_",
+                            "GUID": "78b4e4e0-833f-4fc3-b973-d7eb54813c4d"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=销售单详情!审核实例ID"
+                          }
+                        }
+                      }
+                    ],
+                    "ID": "46d70a32-2a98-4449-8517-985e791bb12b"
+                  },
+                  {
+                    "CommandList": [
+                      {
+                        "$type": "SetCurrentRowCommand.SetCurrentRowCommand, SetCurrentRowCommand",
+                        "CurrentRowInfo": {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "ColumnBindingInfo": {
+                            "TableName": "ACT_HI_TASKINST_View",
+                            "ColumnName": "PROC_INST_ID_",
+                            "GUID": "685b00ca-d81c-4063-9cd5-c9830146f81f"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=销售单详情!审核实例ID"
+                          }
+                        }
+                      }
+                    ],
+                    "ID": "8d51ab9a-abd7-4782-8aa7-79f577739946"
+                  }
+                ]
+              }
+            ],
+            "ID": "016b0a25-ccda-4dcc-8dfc-88f1da745805"
+          }
+        ]
+      }
+    ],
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "sales_order",
+    "ConditionFormatRulesCollection": {
+      "Rules": [
+        {
+          "$type": "Forguncy.ConditionFormat.SpecificTextRule, ServerDesignerCommon",
+          "Value": "被拒绝",
+          "Priority": 3,
+          "GUID": "bbd19f0b-eb68-429d-9c2d-7ccd800cc39d",
+          "StyleInfo": {
+            "Foreground": "Accent 6 0",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.SpecificTextRule, ServerDesignerCommon",
+          "Value": "已审核",
+          "Priority": 2,
+          "GUID": "184dda65-0b06-4f9e-ba38-727ae678d4f5",
+          "StyleInfo": {
+            "Foreground": "Accent 2 0",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.SpecificTextRule, ServerDesignerCommon",
+          "Value": "审核中",
+          "Priority": 1,
+          "GUID": "b1910e15-6efc-47d8-87bc-9cdb37c69035",
+          "StyleInfo": {
+            "Foreground": "Accent 1 0",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.SpecificTextRule, ServerDesignerCommon",
+          "Value": "未提交",
+          "GUID": "0ae53dde-7ce2-44ea-96b8-7b7d9d2c32e7",
+          "StyleInfo": {
+            "Foreground": "Text 1 50",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        }
+      ]
+    }
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "审核状态",
+      "Formula": "销售单详情!$G$7"
+    },
+    {
+      "Name": "审核实例ID",
+      "Formula": "销售单详情!$BL$8"
+    },
+    {
+      "Name": "流程结束原因",
+      "Formula": "销售单详情!$BM$8"
+    },
+    {
+      "Name": "审批记录显示状态",
+      "Formula": "销售单详情!$BL$3"
+    },
+    {
+      "Name": "审批记录按钮",
+      "Formula": "销售单详情!$AL$3"
+    },
+    {
+      "Name": "销售订单编号",
+      "Formula": "销售单详情!$B$8"
+    },
+    {
+      "Name": "导出页面名称",
+      "Formula": "销售单详情!$BL$12"
+    }
+  ]
+}//LeOU2sLN9K3spfepiS7lWTvIZzc1fmV3N7LQwzHpQkZNgIEX8YmNpSO5A8C0lSTLsTM2w5Yiy6/TUegMfwFey4iVT3hRVU3miFkV5e0WRc81PMoK4iwbpCb5FRB2K+Pth3cQNKO3t56iNKbn2y+Yh7qUZzCSSrEEGAAq4L85nOxIPDGCGRrroJ6cZHDwA+UIIrDeHqgpbaf0rjf5Csdd8ajwcW/yIx5c6bYS4iDO0omlU7CFSqHKwR8x8TZ1N+xfv8sNifmLxn458BZWidfnWEZgtOYhnqYoUXfVOAY2nhD5cAA+UUjevdUGka3y6zd7n6BfG3Or0xx91ebjO9TfNds3CHPgkLiz/dL2wJJIxDCddQ+ndrgdyekKhxfLp+z1vpT3mddxRfofBm7pFJkQ5BPNYxZfksOwSkPM62AaACLAYuZrhC2Yq5dkNQ8oez0byB0VApPjmEDsB5eACD9ZfNW1U4RoSiiCiOZboBi9oaeAdIaNek0EokFFXsZFhwCTbbJpCcqrxcEWFU90IxdlEMfTrfbIgo/33rkKjVcDm2Jg0VkUybFEg911771hEjbe2GH099QeZCX9EG+VRnhrnDyYzvUFDRxrWlyTaL+4nmQDIYYcsciaEIuiL+P/DRGvKnOZ7WHyb4r+2uzEF2bmrdtxjplJSpXEfUeJEqCBThlQttsos9ZE4dpKY8Ql+9QmyTaQH5MknqVNd0RdHR+04Tck4+/LeceL9nqFSiLL9kcQzHjOmbxyALdrq70YtW8lNEOETYpK4/zV3v+6yjy1+DwaMbLMHA7dHeDyvTPu5IVvwmMyxK8TRA6WIwB82eM6W+bdOJlMgCwHBgH3c88+WibvX/Q1o05RRo9x7eP3/yjG5OQJs+2TFYY2NJf2DGlVCDbUpMBIZ8pjzFm2wTDpXQ==|920

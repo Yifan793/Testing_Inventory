@@ -1,0 +1,821 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 48.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 48.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 16,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "47": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "48": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 162.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      48
+    ],
+    "Count": 49
+  },
+  "Values": {
+    "1,1": "盘点单",
+    "4,2": "单号",
+    "4,16": "盘点日期",
+    "7,2": "物品编号",
+    "7,8": "物品名称",
+    "7,22": "库存数",
+    "7,31": "盈亏数量",
+    "7,32": "盈亏数量",
+    "7,37": "盘点结果",
+    "12,2": "备注",
+    "12,30": "经办人"
+  },
+  "Formulas": {
+    "1,48": "CONCATENATE(\"盘点单-\",C6,\"-\",TEXT(TODAY(),\"yyyyMMdd\"))"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "弹窗标题格式"
+      }
+    },
+    "4,48": {
+      "BindingInfo": {
+        "TableName": "inventory_list",
+        "ColumnName": "ID",
+        "GUID": "c52b48cb-787b-40bf-81af-8bde3ab95341"
+      }
+    },
+    "5,2": {
+      "BindingInfo": {
+        "TableName": "inventory_list",
+        "ColumnName": "inventory_order",
+        "GUID": "6cb4e258-7f1e-443d-a7d5-c022fcb4def4"
+      }
+    },
+    "5,16": {
+      "BindingInfo": {
+        "TableName": "inventory_list",
+        "ColumnName": "inventory_date",
+        "GUID": "b511a6ff-f13e-4de1-86c1-3f017a047b5f"
+      }
+    },
+    "7,2": {
+      "ListViewInfo": {
+        "Name": "表格2",
+        "TableName": "inventory_list_details",
+        "RowIndex": 7,
+        "ColumnIndex": 2,
+        "RowCount": 4,
+        "ColumnCount": 45,
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "inventory_list_details",
+            "ColumnName": "inventory_id",
+            "GUID": "ffbbe76c-d38b-4fb4-b409-a74f81ab1ce8"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=盘点页查看!AW5"
+          }
+        },
+        "NullFormulaValueQueryPolicy": 0,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_NewFashionListStyle1",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "8,2": {
+      "NameUsedInJavaScript": "物品ID",
+      "BindingInfo": {
+        "TableName": "inventory_list_details",
+        "ColumnName": "goods_id",
+        "GUID": "7409585b-3a18-4b19-a4fa-b3317ba795dc",
+        "RelationBinding": {
+          "RelatedTable": "item",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "item_id"
+        }
+      }
+    },
+    "8,8": {
+      "NameUsedInJavaScript": "名称",
+      "BindingInfo": {
+        "TableName": "inventory_list_details",
+        "ColumnName": "goods_id",
+        "GUID": "b075bd68-b6ca-46a1-8c57-9d3bcf8a86c3",
+        "RelationBinding": {
+          "RelatedTable": "item",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "item_name"
+        }
+      }
+    },
+    "8,14": {
+      "NameUsedInJavaScript": "规格型号",
+      "BindingInfo": {
+        "TableName": "inventory_list_details",
+        "ColumnName": "goods_id",
+        "GUID": "d8ef2b88-d40b-4d56-8b94-a6fa4819d9eb",
+        "RelationBinding": {
+          "RelatedTable": "item",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "specification"
+        }
+      }
+    },
+    "8,20": {
+      "NameUsedInJavaScript": "单位",
+      "BindingInfo": {
+        "TableName": "inventory_list_details",
+        "ColumnName": "goods_id",
+        "GUID": "0db64229-c4c2-4d0e-a16d-6f95c0c43251",
+        "RelationBinding": {
+          "RelatedTable": "item",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "unit"
+        }
+      }
+    },
+    "8,22": {
+      "NameUsedInJavaScript": "库存数",
+      "BindingInfo": {
+        "TableName": "inventory_list_details",
+        "ColumnName": "goods_count",
+        "GUID": "d8e86069-9b77-46a0-b744-1012d72e5468"
+      }
+    },
+    "8,27": {
+      "NameUsedInJavaScript": "盘点数",
+      "BindingInfo": {
+        "TableName": "inventory_list_details",
+        "ColumnName": "actual_goods_count",
+        "GUID": "849a4ae4-7db0-4407-b4c2-3cd776064e65"
+      }
+    },
+    "8,32": {
+      "NameUsedInJavaScript": "盈亏数量",
+      "BindingInfo": {
+        "TableName": "inventory_list_details",
+        "ColumnName": "difference_count",
+        "GUID": "899c5e9a-7fae-4c80-87a6-0cc9cf4c379d"
+      }
+    },
+    "8,37": {
+      "NameUsedInJavaScript": "盘点结果",
+      "BindingInfo": {
+        "TableName": "inventory_list_details",
+        "ColumnName": "in_out_state",
+        "GUID": "a604c544-5c06-4261-bb99-be50d822766a"
+      }
+    },
+    "8,41": {
+      "NameUsedInJavaScript": "备注",
+      "BindingInfo": {
+        "TableName": "inventory_list_details",
+        "ColumnName": "note",
+        "GUID": "bea6ea09-d5d2-4fb9-b277-5a24c5ba0aab"
+      }
+    },
+    "13,2": {
+      "BindingInfo": {
+        "TableName": "inventory_list",
+        "ColumnName": "note",
+        "GUID": "dfc679ee-2ad9-4d89-9976-abeb9471aa8f"
+      }
+    },
+    "13,30": {
+      "BindingInfo": {
+        "TableName": "inventory_list",
+        "ColumnName": "handle_person",
+        "GUID": "27a6b7f9-0618-4e55-81d8-a90b58674f4e"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 18.666666666666664,
+        "FontWeight": 0
+      },
+      {
+        "Foreground": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "Foreground": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 18.666666666666664,
+        "FontWeight": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "HorizontalAlignment": 4
+      },
+      {
+        "FontFamily": 2,
+        "HorizontalAlignment": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "Foreground": 1,
+        "HorizontalAlignment": 4
+      },
+      {
+        "FontFamily": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null
+      },
+      {
+        "FontFamily": 2
+      },
+      {
+        "FontFamily": 2,
+        "Foreground": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Text 1 50",
+        "Body",
+        "yyyy\"年\"m\"月\"d\"日\";@",
+        "Left",
+        "black"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "4,2": 1,
+      "4,16": 2,
+      "4,17": 3,
+      "4,18": 3,
+      "4,19": 3,
+      "4,20": 3,
+      "4,21": 3,
+      "4,22": 3,
+      "4,23": 3,
+      "4,24": 3,
+      "4,25": 3,
+      "4,26": 3,
+      "4,27": 3,
+      "4,28": 3,
+      "5,2": 4,
+      "5,16": 5,
+      "5,17": 3,
+      "5,18": 3,
+      "5,19": 3,
+      "5,20": 3,
+      "5,21": 3,
+      "5,22": 3,
+      "5,23": 3,
+      "5,24": 3,
+      "5,25": 3,
+      "5,26": 3,
+      "5,27": 3,
+      "5,28": 3,
+      "7,2": 6,
+      "7,8": 7,
+      "7,9": 3,
+      "7,10": 3,
+      "7,11": 3,
+      "7,12": 3,
+      "7,13": 3,
+      "7,14": 7,
+      "7,15": 3,
+      "7,16": 3,
+      "7,17": 3,
+      "7,18": 3,
+      "7,19": 3,
+      "7,20": 6,
+      "7,22": 8,
+      "7,27": 7,
+      "7,28": 3,
+      "7,29": 3,
+      "7,30": 3,
+      "7,31": 3,
+      "7,32": 6,
+      "7,37": 7,
+      "7,38": 3,
+      "7,39": 3,
+      "7,40": 3,
+      "7,41": 7,
+      "7,42": 3,
+      "7,43": 3,
+      "7,44": 9,
+      "8,2": 10,
+      "8,8": 3,
+      "8,9": 3,
+      "8,10": 3,
+      "8,11": 3,
+      "8,12": 3,
+      "8,13": 3,
+      "8,14": 3,
+      "8,15": 3,
+      "8,16": 3,
+      "8,17": 3,
+      "8,18": 3,
+      "8,19": 3,
+      "8,20": 10,
+      "8,22": 10,
+      "8,27": 3,
+      "8,28": 3,
+      "8,29": 3,
+      "8,30": 3,
+      "8,31": 3,
+      "8,32": 10,
+      "8,37": 3,
+      "8,38": 3,
+      "8,39": 3,
+      "8,40": 3,
+      "8,41": 3,
+      "8,42": 3,
+      "8,43": 3,
+      "8,44": 3,
+      "8,45": 3,
+      "8,46": 3,
+      "9,2": 3,
+      "9,3": 3,
+      "9,4": 3,
+      "9,5": 3,
+      "9,6": 3,
+      "9,7": 3,
+      "9,8": 3,
+      "9,9": 3,
+      "9,10": 3,
+      "9,11": 3,
+      "9,12": 3,
+      "9,13": 3,
+      "9,14": 3,
+      "9,15": 3,
+      "9,16": 3,
+      "9,17": 3,
+      "9,18": 3,
+      "9,19": 3,
+      "9,20": 3,
+      "9,21": 3,
+      "9,22": 3,
+      "9,23": 3,
+      "9,24": 3,
+      "9,25": 3,
+      "9,26": 3,
+      "9,27": 3,
+      "9,28": 3,
+      "9,29": 3,
+      "9,30": 3,
+      "9,31": 3,
+      "9,32": 3,
+      "9,33": 3,
+      "9,34": 3,
+      "9,35": 3,
+      "9,36": 3,
+      "9,37": 3,
+      "9,38": 3,
+      "9,39": 3,
+      "9,40": 3,
+      "9,41": 3,
+      "9,42": 3,
+      "9,43": 3,
+      "9,44": 3,
+      "10,2": 3,
+      "10,3": 3,
+      "10,4": 3,
+      "10,5": 3,
+      "10,6": 3,
+      "10,7": 3,
+      "10,8": 3,
+      "10,9": 3,
+      "10,10": 3,
+      "10,11": 3,
+      "10,12": 3,
+      "10,13": 3,
+      "10,14": 3,
+      "10,15": 3,
+      "10,16": 3,
+      "10,17": 3,
+      "10,18": 3,
+      "10,19": 3,
+      "10,20": 3,
+      "10,21": 3,
+      "10,22": 3,
+      "10,23": 3,
+      "10,24": 3,
+      "10,25": 3,
+      "10,26": 3,
+      "10,27": 3,
+      "10,28": 3,
+      "10,29": 3,
+      "10,30": 3,
+      "10,31": 3,
+      "10,32": 3,
+      "10,33": 3,
+      "10,34": 3,
+      "10,35": 3,
+      "10,36": 3,
+      "10,37": 3,
+      "10,38": 3,
+      "10,39": 3,
+      "10,40": 3,
+      "10,41": 3,
+      "10,42": 3,
+      "10,43": 3,
+      "10,44": 3,
+      "12,2": 2,
+      "12,3": 3,
+      "12,4": 3,
+      "12,5": 3,
+      "12,6": 3,
+      "12,7": 3,
+      "12,8": 3,
+      "12,9": 3,
+      "12,10": 3,
+      "12,11": 3,
+      "12,12": 3,
+      "12,13": 3,
+      "12,14": 3,
+      "12,15": 3,
+      "12,16": 3,
+      "12,17": 3,
+      "12,18": 3,
+      "12,19": 3,
+      "12,20": 3,
+      "12,21": 3,
+      "12,22": 3,
+      "12,23": 3,
+      "12,24": 3,
+      "12,25": 3,
+      "12,26": 3,
+      "12,27": 3,
+      "12,28": 3,
+      "12,29": 3,
+      "12,30": 2,
+      "12,31": 3,
+      "12,32": 3,
+      "12,33": 3,
+      "12,34": 3,
+      "12,35": 3,
+      "12,36": 3,
+      "12,37": 3,
+      "12,38": 3,
+      "12,39": 3,
+      "12,40": 3,
+      "12,41": 3,
+      "12,42": 3,
+      "12,43": 3,
+      "12,44": 3,
+      "13,2": 11,
+      "13,3": 3,
+      "13,4": 3,
+      "13,5": 3,
+      "13,6": 3,
+      "13,7": 3,
+      "13,8": 3,
+      "13,9": 3,
+      "13,10": 3,
+      "13,11": 3,
+      "13,12": 3,
+      "13,13": 3,
+      "13,14": 3,
+      "13,15": 3,
+      "13,16": 3,
+      "13,17": 3,
+      "13,18": 3,
+      "13,19": 3,
+      "13,20": 3,
+      "13,21": 3,
+      "13,22": 3,
+      "13,23": 3,
+      "13,24": 3,
+      "13,25": 3,
+      "13,26": 3,
+      "13,27": 3,
+      "13,28": 3,
+      "13,29": 3,
+      "13,30": 11,
+      "13,31": 3,
+      "13,32": 3,
+      "13,33": 3,
+      "13,34": 3,
+      "13,35": 3,
+      "13,36": 3,
+      "13,37": 3,
+      "13,38": 3,
+      "13,39": 3,
+      "13,40": 3,
+      "13,41": 3,
+      "13,42": 3,
+      "13,43": 3,
+      "13,44": 3,
+      "14,2": 3,
+      "14,3": 3,
+      "14,4": 3,
+      "14,5": 3,
+      "14,6": 3,
+      "14,7": 3,
+      "14,8": 3,
+      "14,9": 3,
+      "14,10": 3,
+      "14,11": 3,
+      "14,12": 3,
+      "14,13": 3,
+      "14,14": 3,
+      "14,15": 3,
+      "14,16": 3,
+      "14,17": 3,
+      "14,18": 3,
+      "14,19": 3,
+      "14,20": 3,
+      "14,21": 3,
+      "14,22": 3,
+      "14,23": 3,
+      "14,24": 3,
+      "14,25": 3,
+      "14,26": 3,
+      "14,27": 3,
+      "14,28": 3,
+      "14,29": 3,
+      "14,30": 3,
+      "14,31": 3,
+      "14,32": 3,
+      "14,33": 3,
+      "14,34": 3,
+      "14,35": 3,
+      "14,36": 3,
+      "14,37": 3,
+      "14,38": 3,
+      "14,39": 3,
+      "14,40": 3,
+      "14,41": 3,
+      "14,42": 3,
+      "14,43": 3,
+      "14,44": 3,
+      "15,2": 3,
+      "15,3": 3,
+      "15,4": 3,
+      "15,5": 3,
+      "15,6": 3,
+      "15,7": 3,
+      "15,8": 3,
+      "15,9": 3,
+      "15,10": 3,
+      "15,11": 3,
+      "15,12": 3,
+      "15,13": 3,
+      "15,14": 3,
+      "15,15": 3,
+      "15,16": 3,
+      "15,17": 3,
+      "15,18": 3,
+      "15,19": 3,
+      "15,20": 3,
+      "15,21": 3,
+      "15,22": 3,
+      "15,23": 3,
+      "15,24": 3,
+      "15,25": 3,
+      "15,26": 3,
+      "15,27": 3,
+      "15,28": 3,
+      "15,29": 3,
+      "15,30": 3,
+      "15,31": 3,
+      "15,32": 3,
+      "15,33": 3,
+      "15,34": 3,
+      "15,35": 3,
+      "15,36": 3,
+      "15,37": 3,
+      "15,38": 3,
+      "15,39": 3,
+      "15,40": 3,
+      "15,41": 3,
+      "15,42": 3,
+      "15,43": 3,
+      "15,44": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 2,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "5,2,1,13",
+    "13,2,2,27",
+    "13,30,1,11",
+    "5,16,1,13",
+    "9,2,2,45",
+    "8,37,1,4",
+    "8,41,1,6",
+    "8,8,1,6",
+    "8,14,1,6",
+    "8,20,1,2",
+    "8,22,1,5",
+    "8,27,1,5",
+    "8,32,1,5",
+    "8,2,1,6",
+    "1,1,1,46",
+    "7,2,1,6",
+    "7,8,1,6",
+    "7,14,1,6",
+    "7,20,1,2",
+    "7,22,1,5",
+    "7,27,1,5",
+    "7,32,1,5",
+    "7,37,1,4",
+    "7,41,1,6"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "Administrator",
+            "库存管理员",
+            "仓库主管",
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [
+      {
+        "ScopeRange": {
+          "Column": -1,
+          "Row": 11,
+          "RowCount": 4,
+          "ColumnCount": -1
+        }
+      },
+      {
+        "ScopeRange": {
+          "Column": -1,
+          "Row": 3,
+          "RowCount": 5,
+          "ColumnCount": -1
+        }
+      },
+      {
+        "ScopeRange": {
+          "Column": -1,
+          "Row": 8,
+          "RowCount": 3,
+          "ColumnCount": -1
+        }
+      }
+    ],
+    "RelatedDataTableName": "inventory_list_details"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "导出文件名称",
+      "Formula": "盘点页查看!$AW$2"
+    }
+  ]
+}//gBKgctowDL67jiBejn7FhVx6aDBPiK4LdIB/fsXX+hCC40elUZbq4aLizAfDByKlc92IrLfZEbA7JCXzRQyycHZMeBOFPiuJDcqOo3tDRVDtxwa89hc1wGLJati9VgWV9WVZdBRF3xtkrTBN/8oZQWSFkpU6kO/9hlj22rhzWd5RZfLgHKFjCij0AmuumTekbrMUjJ/F8uB8/zTWPEpS762ceDKH51DJRpdk1H5NODtlHTc6QiZ9vzDu2pmOYddK7smfJE/zW7WV8fsLw2XWH5s3WcwUunf1ZovH3TzS3igyQ6D0pgQ9ZTXgm0MudN44eDpY76X/wcrTVDzSYl2HxGgb6uX8yEMbyq10HvCBr+JicXTLHEhpA78ANoOwiA4EBtaJFD/TiD1SnAvkvEiJq5Suqu71QOrj4g4sjT1rAPBHa6yQ+NBZn3m/PPUZepkDcVweJ9oANr0fwllANVkapjSwcsEfCQfkKtBKN0fwUToM35YZqm+w8p5B99pZysbc1IcrkvYmgSgFEodFR6+6LuOsoBJjUCa280+BnGiWufAQ4w+xflPuvQWnBONN9/C9HIUeXJUYtLAVOVy0N1BQNNIRyJrZlC9NKN1NiK8eAB9biLNLjUuG9QxbTcvUD/T8WSbf0pnRxsnGzU1WrFEEQ2UoYcS3OJjZJPJTAoe8ir3PYYqmI4U6iLCCyS+lpbpriq9ukcH11Qmxaox+3NAMVCOAainROVdD2M5d6SjdhNOLguUim2YuRm9n9VjhHTiwaCBNo0HHf1j7UDoz0xEW2VLrEHbcjKeV1XiSEwUZTEFG8ZMaIayMhbl0eKtX0YR3NuNSW/LvTckfMOXCkLKHmoRdcPp2nedu+KVosSa7NnGnRyil2Hx9WEyJEAijjJBKZo5j+PVq/VysWBtxr0M4kw==|920

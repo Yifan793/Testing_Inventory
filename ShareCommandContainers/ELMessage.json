@@ -1,0 +1,130 @@
+{
+  "ID": "d165caef-9315-4d99-8f90-e1a8691d34da",
+  "Name": "ELMessage",
+  "Params": [
+    {
+      "ID": "edbc4e90-b321-4ada-a9ac-7e6ac1298c41",
+      "Name": "MessageContent",
+      "Remark": "消息内容"
+    },
+    {
+      "ID": "4047e995-0452-4ca2-ac6f-55deeaa966ac",
+      "Name": "MessageType",
+      "Remark": "消息类型，包括：Success、Fail、Warning、Message"
+    }
+  ],
+  "Returns": [
+    {
+      "ID": "43ef666c-eddd-4b90-a51f-47996a5d7b39",
+      "Name": "Result",
+      "Remark": "确认结果"
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+      "ConditionAndCommandPairList": [
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+              "cellLocations": [
+                {
+                  "SerializeProperty": "=MessageType"
+                }
+              ]
+            },
+            "value": "Success"
+          },
+          "CommandList": [
+            {
+              "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+              "Message": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=MessageContent"
+              },
+              "Type": "success",
+              "Duration": 3000,
+              "Offset": null,
+              "ShowClose": true
+            }
+          ],
+          "ID": "31e24666-1d3c-438c-b0d8-9c8ea856e4e9"
+        },
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+              "cellLocations": [
+                {
+                  "SerializeProperty": "=MessageType"
+                }
+              ]
+            },
+            "value": "Fail"
+          },
+          "CommandList": [
+            {
+              "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+              "Message": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=MessageContent"
+              },
+              "Type": "error",
+              "Duration": 3000,
+              "Offset": null,
+              "ShowClose": true
+            }
+          ],
+          "ID": "2e2735ea-fec1-432e-ab99-ceb02048f367"
+        },
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+              "cellLocations": [
+                {
+                  "SerializeProperty": "=MessageType"
+                }
+              ]
+            },
+            "value": "Warning"
+          },
+          "CommandList": [
+            {
+              "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+              "Message": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=MessageContent"
+              },
+              "Type": "warning",
+              "Duration": 3000,
+              "Offset": null,
+              "ShowClose": true
+            }
+          ],
+          "ID": "53487dcd-b1e6-4ecd-bbc7-0ad60c1842f1"
+        },
+        {
+          "CommandList": [
+            {
+              "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+              "Message": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=MessageContent"
+              },
+              "Type": "info",
+              "Duration": 3000,
+              "Offset": null,
+              "ShowClose": true
+            }
+          ],
+          "ID": "dd3a941c-459b-403f-90a5-ca83c112a221"
+        }
+      ]
+    }
+  ]
+}

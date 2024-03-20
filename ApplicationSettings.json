@@ -1,0 +1,205 @@
+{
+  "IntegrateWithOtherApplication": {
+    "Password": "U2c)9#G2m4wJ"
+  },
+  "ShareCommandContainers": [],
+  "ListviewLoadingIndicatorSettings": {},
+  "GlobalProperties": [
+    {
+      "Name": "全局变量1",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量2",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量3",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量4",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量5",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量6",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量7",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量8",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量9",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量10",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量11",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量12",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量13",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量14",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量15",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量16",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量17",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量18",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量19",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量20",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量21",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量22",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量23",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量24",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量25",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量26",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量27",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量28",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量29",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量30",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量31",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量32",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量33",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量34",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量35",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量36",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量37",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量38",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量39",
+      "Value": ""
+    },
+    {
+      "Name": "全局变量40",
+      "Value": ""
+    }
+  ],
+  "WebSitePort": 25255,
+  "UserServicePort": 18297,
+  "BpmServerSchemaId": "a10fd11b-f0c8-458e-b9ad-9e23b2cc2343",
+  "ProcessDataConnectionSet": {
+    "ExternalDatabaseId": "SqlServer19"
+  },
+  "StartDateFiscalYear": 1,
+  "BaseOnStartingMonth": true,
+  "StatusCacheTableName": "FGC_状态信息表",
+  "MultipleLanguageSettings": {
+    "Languages": [
+      {
+        "Name": "en",
+        "Description": "内置语言英文，不可删除",
+        "IsBuildIn": true,
+        "LanguageAttribute": "en",
+        "FontFamily": "Calibri"
+      },
+      {
+        "Name": "cn",
+        "IsDefault": true,
+        "Description": "内置语言中文，不可删除",
+        "IsBuildIn": true,
+        "LanguageAttribute": "zh-cn",
+        "FontFamily": "Microsoft YaHei"
+      }
+    ],
+    "PublicResource": {},
+    "RuntimeBuiltInResource": {
+      "FrontEndResources": {},
+      "ServerResources": {},
+      "ProcessDesignerResource": {},
+      "ProcessTrackerResource": {}
+    },
+    "PluginResource": {}
+  }
+}

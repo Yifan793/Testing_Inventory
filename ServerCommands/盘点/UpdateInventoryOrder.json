@@ -1,0 +1,681 @@
+{
+  "Name": "UpdateInventoryOrder",
+  "Description": "添加、更新盘点单",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "Administrator",
+                "库存管理员",
+                "仓库主管"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "InventoryOrderID",
+          "Remark": "编辑时盘点单ID",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "OperateType",
+          "Remark": "操作类型，包含：Add，Update",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "InventoryDate",
+          "Remark": "盘点日期",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "Note",
+          "Remark": "备注",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "IsEnd",
+          "Remark": "是否结束",
+          "DataValidationInfo": {}
+        },
+        {
+          "Type": 1,
+          "ArrayParamItems": [
+            {
+              "Name": "ItemsID",
+              "Remark": "物品ID",
+              "DataValidationInfo": {}
+            },
+            {
+              "Name": "CheckCount",
+              "Remark": "盘点数",
+              "DataValidationInfo": {}
+            },
+            {
+              "Name": "Note",
+              "Remark": "备注",
+              "DataValidationInfo": {}
+            },
+            {
+              "Name": "ItemsCount",
+              "Remark": "盘点时的库存数",
+              "DataValidationInfo": {}
+            }
+          ],
+          "OnlySendChangedData": true,
+          "PrimaryKeys": [
+            "ID"
+          ],
+          "Name": "ItemDetails",
+          "Remark": "盘点物品详情",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
+      "CommandList": [
+        {
+          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+          "ConditionAndCommandPairList": [
+            {
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=OperateType"
+                  }
+                },
+                "value": "Add"
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "inventory_list",
+                  "UpdateType": "add",
+                  "ShowConfirm": false,
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "inventory_list",
+                        "ColumnName": "inventory_date",
+                        "GUID": "83f59b00-80af-40e6-a7a8-a9495f1ada42"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=InventoryDate"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "inventory_list",
+                        "ColumnName": "handle_person",
+                        "GUID": "becc853b-4ca7-41b9-b3c1-a6e004ec5581"
+                      },
+                      "Value": "%CurrentUser%"
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "inventory_list",
+                        "ColumnName": "is_end",
+                        "GUID": "a19730c9-5917-480d-b040-dd84ef0a64be"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=IsEnd"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "inventory_list",
+                        "ColumnName": "note",
+                        "GUID": "1cd4decf-1356-4970-b259-6e14f0d5ef64"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=Note"
+                      }
+                    }
+                  ],
+                  "ParamNameToSaveNewRowValue": "NewInventoryRecord"
+                },
+                {
+                  "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+                  "LoopInfo": {
+                    "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+                    "LoopCount": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=ItemDetails.AddRows"
+                    },
+                    "LoopItemParamName": "Item"
+                  },
+                  "CommandList": [
+                    {
+                      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                      "TableName": "inventory_list_details",
+                      "UpdateType": "add",
+                      "ShowConfirm": false,
+                      "UpdateBindingValues": [
+                        {
+                          "BindingInfo": {
+                            "TableName": "inventory_list_details",
+                            "ColumnName": "inventory_id",
+                            "GUID": "def42714-4543-434d-9136-d1d15e380fd0"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=NewInventoryRecord.ID"
+                          }
+                        },
+                        {
+                          "BindingInfo": {
+                            "TableName": "inventory_list_details",
+                            "ColumnName": "goods_id",
+                            "GUID": "150c294e-dbe6-4a96-b6bb-0b95bb7b2d51"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Item.ItemsID"
+                          }
+                        },
+                        {
+                          "BindingInfo": {
+                            "TableName": "inventory_list_details",
+                            "ColumnName": "goods_count",
+                            "GUID": "3d838126-1943-45fb-ab4d-c5aed5037637"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Item.ItemsCount"
+                          }
+                        },
+                        {
+                          "BindingInfo": {
+                            "TableName": "inventory_list_details",
+                            "ColumnName": "actual_goods_count",
+                            "GUID": "c90f0a09-cb43-4115-ab0f-6a2a02e78fa5"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Item.CheckCount"
+                          }
+                        },
+                        {
+                          "BindingInfo": {
+                            "TableName": "inventory_list_details",
+                            "ColumnName": "note",
+                            "GUID": "8ec08eb5-ee37-47e3-9921-124e1aa057cd"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Item.Note"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "ID": "90626594-6b1f-4955-beba-93604bf4b0c4"
+            },
+            {
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=OperateType"
+                  }
+                },
+                "value": "Update"
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "inventory_list",
+                  "ShowConfirm": false,
+                  "RowsToUpdate": 1,
+                  "RowsToUpdateCondition": {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "inventory_list",
+                      "ColumnName": "ID",
+                      "GUID": "e26ccf95-39bd-4171-aec9-d49fc4ff8a44"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=InventoryOrderID"
+                    }
+                  },
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "inventory_list",
+                        "ColumnName": "inventory_date",
+                        "GUID": "8ef729ee-1a3d-4a26-b623-1117486125a3"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=InventoryDate"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "inventory_list",
+                        "ColumnName": "handle_person",
+                        "GUID": "c5df0de5-f1b9-412e-8676-652e4043867a"
+                      },
+                      "Value": "%CurrentUser%"
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "inventory_list",
+                        "ColumnName": "is_end",
+                        "GUID": "11255b62-adf5-47d2-b4cf-5b1e3aadd8f7"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=IsEnd"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "inventory_list",
+                        "ColumnName": "note",
+                        "GUID": "a19cff8f-3e75-4828-84af-4aa845abd11b"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=Note"
+                      }
+                    }
+                  ],
+                  "ParamNameToSaveNewRowValue": "NewInventoryRecord"
+                },
+                {
+                  "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+                  "LoopInfo": {
+                    "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+                    "LoopCount": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=ItemDetails.AddRows"
+                    },
+                    "LoopItemParamName": "Item"
+                  },
+                  "CommandList": [
+                    {
+                      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                      "TableName": "inventory_list_details",
+                      "UpdateType": "add",
+                      "ShowConfirm": false,
+                      "UpdateBindingValues": [
+                        {
+                          "BindingInfo": {
+                            "TableName": "inventory_list_details",
+                            "ColumnName": "inventory_id",
+                            "GUID": "cb22143c-e2be-4080-9e74-2b9594099488"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=InventoryOrderID"
+                          }
+                        },
+                        {
+                          "BindingInfo": {
+                            "TableName": "inventory_list_details",
+                            "ColumnName": "goods_id",
+                            "GUID": "42c50f6e-254b-4dd3-9daf-2d9faa7157d3"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Item.ItemsID"
+                          }
+                        },
+                        {
+                          "BindingInfo": {
+                            "TableName": "inventory_list_details",
+                            "ColumnName": "goods_count",
+                            "GUID": "cd90668a-2016-4ed9-8884-5db5eb05edb4"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Item.ItemsCount"
+                          }
+                        },
+                        {
+                          "BindingInfo": {
+                            "TableName": "inventory_list_details",
+                            "ColumnName": "actual_goods_count",
+                            "GUID": "fa440c2d-aea9-4265-b249-d16a4504de2b"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Item.CheckCount"
+                          }
+                        },
+                        {
+                          "BindingInfo": {
+                            "TableName": "inventory_list_details",
+                            "ColumnName": "note",
+                            "GUID": "780ad773-ed70-41ba-a268-a140a82abb88"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Item.Note"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+                  "LoopInfo": {
+                    "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+                    "LoopCount": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=ItemDetails.EditRows"
+                    },
+                    "LoopItemParamName": "Item"
+                  },
+                  "CommandList": [
+                    {
+                      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                      "TableName": "inventory_list_details",
+                      "ShowConfirm": false,
+                      "RowsToUpdate": 1,
+                      "RowsToUpdateCondition": {
+                        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                        "ColumnBindingInfo": {
+                          "TableName": "inventory_list_details",
+                          "ColumnName": "ID",
+                          "GUID": "9ad626b7-b261-442f-97f4-cce658ec87b3"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=Item.ID"
+                        }
+                      },
+                      "UpdateBindingValues": [
+                        {
+                          "BindingInfo": {
+                            "TableName": "inventory_list_details",
+                            "ColumnName": "inventory_id",
+                            "GUID": "1fcabfa6-3e24-41ef-b9f8-03a7d13c6664"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=InventoryOrderID"
+                          }
+                        },
+                        {
+                          "BindingInfo": {
+                            "TableName": "inventory_list_details",
+                            "ColumnName": "goods_id",
+                            "GUID": "6c4f76c6-6a5a-429c-9b63-03729f3167e8"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Item.ItemsID"
+                          }
+                        },
+                        {
+                          "BindingInfo": {
+                            "TableName": "inventory_list_details",
+                            "ColumnName": "goods_count",
+                            "GUID": "6a74828a-b62f-4189-90cf-6451491cc4b7"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Item.ItemsCount"
+                          }
+                        },
+                        {
+                          "BindingInfo": {
+                            "TableName": "inventory_list_details",
+                            "ColumnName": "actual_goods_count",
+                            "GUID": "00c7dfb2-947f-4907-a3c6-7ea89465530b"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Item.CheckCount"
+                          }
+                        },
+                        {
+                          "BindingInfo": {
+                            "TableName": "inventory_list_details",
+                            "ColumnName": "note",
+                            "GUID": "1ebfc55b-6e81-4cb6-a472-3905facc6ff9"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Item.Note"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+                  "LoopInfo": {
+                    "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+                    "LoopCount": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=ItemDetails.DeleteRows"
+                    },
+                    "LoopItemParamName": "Item"
+                  },
+                  "CommandList": [
+                    {
+                      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                      "TableName": "inventory_list_details",
+                      "UpdateType": "delete",
+                      "ShowConfirm": true,
+                      "ConfirmText": "您确定要删除吗？",
+                      "RowsToUpdate": 1,
+                      "RowsToUpdateCondition": {
+                        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                        "ColumnBindingInfo": {
+                          "TableName": "inventory_list_details",
+                          "ColumnName": "ID",
+                          "GUID": "9ad626b7-b261-442f-97f4-cce658ec87b3"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=Item.ID"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "ID": "9bffcaab-4fa7-4d14-bade-e61ab63a211a"
+            },
+            {
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=OperateType"
+                  }
+                },
+                "value": "Delete"
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "inventory_list_details",
+                  "UpdateType": "delete",
+                  "ShowConfirm": true,
+                  "ConfirmText": "您确定要删除吗？",
+                  "RowsToUpdate": 1,
+                  "RowsToUpdateCondition": {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "inventory_list_details",
+                      "ColumnName": "inventory_id",
+                      "GUID": "89f66f8c-6aa0-4609-8ec2-9c096b00a8dc"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=InventoryOrderID"
+                    }
+                  }
+                },
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "inventory_list",
+                  "UpdateType": "delete",
+                  "ShowConfirm": true,
+                  "ConfirmText": "您确定要删除吗？",
+                  "RowsToUpdate": 1,
+                  "RowsToUpdateCondition": {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "inventory_list",
+                      "ColumnName": "ID",
+                      "GUID": "8c791af0-b909-47bc-bbf4-fde81b383dc4"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=InventoryOrderID"
+                    }
+                  },
+                  "ParamNameToSaveNewRowValue": "NewInventoryRecord"
+                }
+              ],
+              "ID": "0e92ddd5-0cfd-4aad-8867-33d33ee9f86f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+      "ConditionAndCommandPairList": [
+        {
+          "Condition": {
+            "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+            "SubConditions": [
+              {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=IsEnd"
+                  }
+                },
+                "value": "1"
+              },
+              {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=OperateType"
+                  }
+                },
+                "value": "Add"
+              }
+            ]
+          },
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+              "ServerCommandName": "InOutByInventoryList",
+              "Parameters": [
+                {
+                  "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                  "ParamName": "InventorOrderID",
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=NewInventoryRecord.ID"
+                  },
+                  "Remark": "盘点单ID"
+                }
+              ],
+              "RefreshAfterFinish": true,
+              "CheckDataValidation": true
+            }
+          ],
+          "ID": "ff6ba1ef-4577-448e-aa6a-3ac7dcd6504b"
+        },
+        {
+          "Condition": {
+            "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+            "SubConditions": [
+              {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=IsEnd"
+                  }
+                },
+                "value": "1"
+              },
+              {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=OperateType"
+                  }
+                },
+                "value": "Update"
+              }
+            ]
+          },
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+              "ServerCommandName": "InOutByInventoryList",
+              "Parameters": [
+                {
+                  "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                  "ParamName": "InventorOrderID",
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=InventoryOrderID"
+                  },
+                  "Remark": "盘点单ID"
+                }
+              ],
+              "RefreshAfterFinish": true,
+              "CheckDataValidation": true
+            }
+          ],
+          "ID": "c968ca6e-fbf6-4d86-809e-ca667eb7e1bb"
+        }
+      ]
+    },
+    {
+      "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+      "ErrorCode": "0",
+      "Message": "操作成功！"
+    }
+  ]
+}

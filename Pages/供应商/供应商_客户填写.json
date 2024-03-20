@@ -1,0 +1,1115 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 19,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "31": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "32": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 162.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      32
+    ],
+    "Count": 33
+  },
+  "Values": {
+    "1,1": " =CONCATENATE(W18,IF(AG2=2,\"供应商\",\"客户\"))",
+    "4,1": "*",
+    "4,2": "名称",
+    "4,18": "联系人",
+    "7,2": "联系电话",
+    "7,18": "联系人职务",
+    "10,2": "经营地址",
+    "10,18": "备注",
+    "17,27": "取消"
+  },
+  "Formulas": {
+    "1,1": "CONCATENATE(W18,SWITCH(crType,2,\"供应商\",3,\"客户\",,\"全部\"))"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "弹窗标题格式"
+      }
+    },
+    "1,32": {
+      "BindingInfo": {
+        "TableName": "supplier_customer",
+        "ColumnName": "supplier_customer_type_id",
+        "GUID": "8a626b47-d3dc-44d3-9862-67bcefd26c35"
+      }
+    },
+    "4,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "必填标识"
+      }
+    },
+    "4,32": {
+      "BindingInfo": {
+        "TableName": "supplier_customer",
+        "ColumnName": "ID",
+        "GUID": "348213bb-0edd-4fb7-b18d-acd6a0e84c2b"
+      }
+    },
+    "5,2": {
+      "BindingInfo": {
+        "TableName": "supplier_customer",
+        "ColumnName": "supplier_customer_name",
+        "GUID": "f9bf70f6-353c-4802-af19-0f413956fd46"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false,
+        "ErrorMessage": "名称不能为空！",
+        "ErrorTo": 1,
+        "ErrorToTargetCell": {
+          "SerializeProperty": "=供应商_客户填写!C7"
+        }
+      }
+    },
+    "5,18": {
+      "BindingInfo": {
+        "TableName": "supplier_customer",
+        "ColumnName": "contact_person",
+        "GUID": "aaa1e1b9-9f47-4ce3-a492-be21c2515df1"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "6,2": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "出错警告格式"
+      }
+    },
+    "8,2": {
+      "BindingInfo": {
+        "TableName": "supplier_customer",
+        "ColumnName": "contact_phone_number",
+        "GUID": "865ffdcd-9724-42f6-9ad2-6bc3740f94ae"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "8,18": {
+      "BindingInfo": {
+        "TableName": "supplier_customer",
+        "ColumnName": "contact_person_position",
+        "GUID": "7df4c3c1-56a9-474f-acb0-ae95cb11eeee"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "11,2": {
+      "BindingInfo": {
+        "TableName": "supplier_customer",
+        "ColumnName": "address",
+        "GUID": "c358715a-16d3-4f2a-abd7-2728350b239e"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "11,18": {
+      "BindingInfo": {
+        "TableName": "supplier_customer",
+        "ColumnName": "note",
+        "GUID": "64f27c70-683e-459f-abda-d81f85152543"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "17,15": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Caption": "继续创建",
+        "Style": 1
+      },
+      "RulesGuidList": [
+        "91b28c32-b8a9-41d5-ba1c-3e8ddb604f70"
+      ]
+    },
+    "17,22": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=供应商_客户填写!W18"
+                      }
+                    ]
+                  },
+                  "value": "新增"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                    "ServerCommandName": "UpdateCustomerTable",
+                    "Parameters": [
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "OperateType",
+                        "Value": "Add",
+                        "Remark": "操作类型，包含有：Add，Update，Delete"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "Name",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=供应商_客户填写!C6"
+                        },
+                        "Remark": "名称"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "ContactPerson",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=供应商_客户填写!S6"
+                        },
+                        "Remark": "联系人"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "Telephone",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=供应商_客户填写!C9"
+                        },
+                        "Remark": "联系电话"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "ContactPersonRole",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=供应商_客户填写!S9"
+                        },
+                        "Remark": "联系人职务"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "Address",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=供应商_客户填写!C12"
+                        },
+                        "Remark": "经营地址"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "Note",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=供应商_客户填写!S12"
+                        },
+                        "Remark": "备注"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "Type",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=供应商_客户填写!crType"
+                        },
+                        "Remark": "类型ID"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "CustomerID",
+                        "Remark": "供应商ID，更新/删除时用"
+                      }
+                    ],
+                    "ResultErrorCodeTo": {
+                      "SerializeProperty": "ReturnCode"
+                    },
+                    "ResultMessageTo": {
+                      "SerializeProperty": "ReturnMessage"
+                    },
+                    "RefreshAfterFinish": true,
+                    "CheckDataValidation": true
+                  },
+                  {
+                    "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                    "ConditionAndCommandPairList": [
+                      {
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "=ReturnCode"
+                              }
+                            ]
+                          },
+                          "value": "0"
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+                            "ShareCommandContainerRefer": {
+                              "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                            },
+                            "Params": [
+                              {
+                                "ParamReferObject": {
+                                  "ParamID": "edbc4e90-b321-4ada-a9ac-7e6ac1298c41",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                                  }
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=供应商_客户填写!ReturnMessage"
+                                },
+                                "Remark": "消息内容"
+                              },
+                              {
+                                "ParamReferObject": {
+                                  "ParamID": "4047e995-0452-4ca2-ac6f-55deeaa966ac",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                                  }
+                                },
+                                "Value": "Success",
+                                "Remark": "消息类型，包括：Success、Fail、Warning、Message"
+                              }
+                            ],
+                            "ReturnPropertiesTo": [
+                              {
+                                "ReturnPropertyReferObject": {
+                                  "ParamID": "43ef666c-eddd-4b90-a51f-47996a5d7b39",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "ID": "69ad698c-52bf-4431-98f0-6d98e940cb7e"
+                      },
+                      {
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+                            "ShareCommandContainerRefer": {
+                              "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                            },
+                            "Params": [
+                              {
+                                "ParamReferObject": {
+                                  "ParamID": "23b3db3f-ee43-477b-838f-419a5d219a4e",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                                  }
+                                },
+                                "Value": "错误",
+                                "Remark": "标题内容"
+                              },
+                              {
+                                "ParamReferObject": {
+                                  "ParamID": "552bab51-a087-4a1d-885b-b1df2549c039",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                                  }
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=供应商_客户填写!ReturnMessage"
+                                },
+                                "Remark": "通知内容"
+                              },
+                              {
+                                "ParamReferObject": {
+                                  "ParamID": "67c0173d-5e65-4382-96cd-c173611bbb69",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                                  }
+                                },
+                                "Value": "Fail",
+                                "Remark": "通知类型，包括：Success、Fail、Warning、Message"
+                              }
+                            ]
+                          }
+                        ],
+                        "ID": "73e657e3-2441-4baf-b3fe-d6d37ec03bd5"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                    "ConditionAndCommandPairList": [
+                      {
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "=供应商_客户填写!P18"
+                              }
+                            ]
+                          },
+                          "value": "1"
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                            "PropertyItemsList": [
+                              {
+                                "TargetCells": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=供应商_客户填写!C6"
+                                }
+                              },
+                              {
+                                "TargetCells": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=供应商_客户填写!S6"
+                                }
+                              },
+                              {
+                                "TargetCells": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=供应商_客户填写!C9"
+                                }
+                              },
+                              {
+                                "TargetCells": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=供应商_客户填写!S9"
+                                }
+                              },
+                              {
+                                "TargetCells": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=供应商_客户填写!C12"
+                                }
+                              },
+                              {
+                                "TargetCells": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=供应商_客户填写!S12"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "ID": "4287b746-e975-4a85-878e-620ea2a65087"
+                      },
+                      {
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+                            "ReloadData": true
+                          }
+                        ],
+                        "ID": "a1770b08-27b8-4240-871d-2549e67a8e78"
+                      }
+                    ]
+                  }
+                ],
+                "ID": "287cd98a-2cb0-4d7c-aded-355db284024a"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=供应商_客户填写!W18"
+                      }
+                    ]
+                  },
+                  "value": "修改"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                    "ServerCommandName": "UpdateCustomerTable",
+                    "Parameters": [
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "OperateType",
+                        "Value": "Update",
+                        "Remark": "操作类型，包含有：Add，Update，Delete"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "Name",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=供应商_客户填写!C6"
+                        },
+                        "Remark": "名称"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "ContactPerson",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=供应商_客户填写!S6"
+                        },
+                        "Remark": "联系人"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "Telephone",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=供应商_客户填写!C9"
+                        },
+                        "Remark": "联系电话"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "ContactPersonRole",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=供应商_客户填写!S9"
+                        },
+                        "Remark": "联系人职务"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "Address",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=供应商_客户填写!C12"
+                        },
+                        "Remark": "经营地址"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "Note",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=供应商_客户填写!S12"
+                        },
+                        "Remark": "备注"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "Type",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=供应商_客户填写!crType"
+                        },
+                        "Remark": "类型ID"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "CustomerID",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=供应商_客户填写!AG5"
+                        },
+                        "Remark": "供应商ID，更新/删除时用"
+                      }
+                    ],
+                    "ResultErrorCodeTo": {
+                      "SerializeProperty": "ReturnCode"
+                    },
+                    "ResultMessageTo": {
+                      "SerializeProperty": "ReturnMessage"
+                    },
+                    "RefreshAfterFinish": true,
+                    "CheckDataValidation": true
+                  },
+                  {
+                    "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                    "ConditionAndCommandPairList": [
+                      {
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "=供应商_客户填写!ReturnCode"
+                              }
+                            ]
+                          },
+                          "value": "0"
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+                            "ShareCommandContainerRefer": {
+                              "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                            },
+                            "Params": [
+                              {
+                                "ParamReferObject": {
+                                  "ParamID": "edbc4e90-b321-4ada-a9ac-7e6ac1298c41",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                                  }
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=供应商_客户填写!ReturnMessage"
+                                },
+                                "Remark": "消息内容"
+                              },
+                              {
+                                "ParamReferObject": {
+                                  "ParamID": "4047e995-0452-4ca2-ac6f-55deeaa966ac",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                                  }
+                                },
+                                "Value": "Success",
+                                "Remark": "消息类型，包括：Success、Fail、Warning、Message"
+                              }
+                            ],
+                            "ReturnPropertiesTo": [
+                              {
+                                "ReturnPropertyReferObject": {
+                                  "ParamID": "43ef666c-eddd-4b90-a51f-47996a5d7b39",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+                            "ReloadData": true
+                          }
+                        ],
+                        "ID": "1381d45f-7e98-4d56-8e63-127a81890857"
+                      },
+                      {
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+                            "ShareCommandContainerRefer": {
+                              "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                            },
+                            "Params": [
+                              {
+                                "ParamReferObject": {
+                                  "ParamID": "23b3db3f-ee43-477b-838f-419a5d219a4e",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                                  }
+                                },
+                                "Value": "错误",
+                                "Remark": "标题内容"
+                              },
+                              {
+                                "ParamReferObject": {
+                                  "ParamID": "552bab51-a087-4a1d-885b-b1df2549c039",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                                  }
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=供应商_客户填写!ReturnMessage"
+                                },
+                                "Remark": "通知内容"
+                              },
+                              {
+                                "ParamReferObject": {
+                                  "ParamID": "67c0173d-5e65-4382-96cd-c173611bbb69",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                                  }
+                                },
+                                "Value": "Fail",
+                                "Remark": "通知类型，包括：Success、Fail、Warning、Message"
+                              }
+                            ]
+                          }
+                        ],
+                        "ID": "86673c2b-8a04-4dfc-b394-8ea40ead7da8"
+                      }
+                    ]
+                  }
+                ],
+                "ID": "b161726f-9653-43b8-891b-a7a2c379c076"
+              }
+            ]
+          }
+        ],
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "17,27": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+          }
+        ],
+        "Text": "取消",
+        "TemplateKey": "_RS_Minor1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "FontWeight": 1,
+        "TextIndent": 10,
+        "BorderLeft": 0
+      },
+      {
+        "Foreground": 3
+      },
+      {
+        "Foreground": 4
+      },
+      {
+        "Foreground": 5,
+        "Formatter": 6
+      },
+      {
+        "FontFamily": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "#1890FF",
+        "#FFFF0000",
+        "Text 1 50",
+        "black",
+        "@"
+      ],
+      "Borders": [
+        {
+          "Style": 5,
+          "Color": 2
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "4,1": 1,
+      "4,2": 2,
+      "4,18": 2,
+      "5,2": 3,
+      "5,18": 3,
+      "7,2": 2,
+      "7,18": 2,
+      "8,2": 3,
+      "8,18": 3,
+      "10,2": 2,
+      "10,18": 2,
+      "11,2": 3,
+      "11,18": 3,
+      "17,15": 2,
+      "17,22": 4,
+      "17,27": 4
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "4,2,1,6",
+    "5,2,1,13",
+    "4,18,1,6",
+    "5,18,1,13",
+    "7,2,1,6",
+    "8,2,1,13",
+    "7,18,1,6",
+    "8,18,1,13",
+    "10,2,1,6",
+    "10,18,1,6",
+    "1,1,1,30",
+    "11,2,2,13",
+    "11,18,2,13",
+    "17,22,1,4",
+    "17,27,1,4",
+    "17,15,1,4",
+    "6,2,1,13"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "Administrator",
+            "采购员",
+            "销售员",
+            "采购主管",
+            "销售主管",
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "supplier_customer",
+    "ConditionFormatRulesCollection": {
+      "Rules": [
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=供应商_客户填写!$W$18=\"修改\""
+          },
+          "GUID": "91b28c32-b8a9-41d5-ba1c-3e8ddb604f70",
+          "StyleInfo": {
+            "Underline": null,
+            "Strikethrough": null
+          },
+          "IsInvisible": true
+        }
+      ]
+    }
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "crType",
+      "Formula": "供应商_客户填写!$AG$3"
+    }
+  ]
+}//ByDcQJRtC25A9S+52iLFE8oZ5BTYWXIMmkpxZ+vQPpoV4Gusrb0Y6L812ZMJfmyVSnuUsQCocEvOQJYl1qVVbUWjq8HyDeP6yQ9FEDi+uXQEeQ2V/FsecFnjURm/zBayOoD4mj82868FQVd69DT94hdubN4LBuxm8lRmiESg1qEP6WZ+grsVIbe1OPA6nEju2dI7hMkfBdSrHEnDxexCU3aKcq38v3R9lkwCCz18UrIdgK3JH4kWD5tsGZHVvCmsLg0f6KgugHfHvrQTiW/jTi8tO2S2HxEdWLOpBdX6o/JIUBhD7GOZOyBYNPBpXv4Zwcr/enX20rEB+3zxFA6BStBjvGKDZIJ1H0HcIn5jLYXnRz3d0vcXGQnIx82a8OdBYFXa8HrIgVn6gH7KBsD2NXlzaNcks4UBy+xPd760KDYwXBQYwf2U62rJjf5sdmVZHMn/G8CLdLfZOzhJp2keAJ0bTFxQeMYjMTBnGSrIYkvNvjrjq7yV+sqorkem8p37cYOUehPnnzeW1A4EBIt/jB6xJl3gZUnuyRVdEj5oKcutC+PZgSKVoi7x6O4MZ3qIsTCsar0cuVSivpNeEp3oUs/oFZ7jayhAf2b00deWoCT25Rytjx+WBoyuhkVHq/XwNjn2Xw2J/03Uh+zOhaz8rg0oqwrGIUoQiXp/IUSkyDvT4rGGzoXBcB9oH7B1A48EUdf2OCZfB3bBMUWm8LKHujvvLjBRYB73x1oFmyNUacXFMugN0HKZl7bgVV0cYmvokcW1FXbBeWFjZWtRkBX5jZ7pzB5pM8Zy7HagDDsqhxie+wgVRIN/diQI2g1Broh46dTb6Ht2czKesyo61AAuKqWKrOE8oGioyl1wJOAGrMBQqkPNBY4MsOp0zNVyev7IP41UX8idTqDcj1OylGX9RA==|920

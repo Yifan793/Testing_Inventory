@@ -1,0 +1,948 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 28
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 110.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      12
+    ],
+    "Count": 13
+  },
+  "Values": {
+    "0,0": "类目",
+    "4,0": 1,
+    "4,12": "当前选中的类目ID",
+    "6,12": "当前选中的类目名称"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "列表标题格式"
+      }
+    },
+    "0,6": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PopupDisplayMode": 2,
+            "PageName": "新增_编辑物品类目",
+            "PassValues": [
+              {
+                "Source": "添加",
+                "TargetCell": {
+                  "SerializeProperty": "=新增_编辑物品类目!按钮"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=物品类目!当前选中的类目ID"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=新增_编辑物品类目!当前选中的类目ID"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 2
+          }
+        ],
+        "TemplateKey": "无边框样式",
+        "Icon": {
+          "Name": "Application/001_add_1.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        },
+        "IconSize": 20.0
+      }
+    },
+    "0,8": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=物品类目!当前选中的类目ID"
+                      }
+                    ]
+                  },
+                  "value": "1"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+                    "ShareCommandContainerRefer": {
+                      "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                    },
+                    "Params": [
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "23b3db3f-ee43-477b-838f-419a5d219a4e",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                          }
+                        },
+                        "Value": "操作异常",
+                        "Remark": "标题内容"
+                      },
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "552bab51-a087-4a1d-885b-b1df2549c039",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                          }
+                        },
+                        "Value": "不允许修改根类目",
+                        "Remark": "通知内容"
+                      },
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "67c0173d-5e65-4382-96cd-c173611bbb69",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                          }
+                        },
+                        "Value": "Fail",
+                        "Remark": "通知类型，包括：Success、Fail、Warning、Message"
+                      }
+                    ]
+                  }
+                ],
+                "ID": "6666d633-41ae-4fac-ac6e-d65c47ab3737"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                    "PopupDisplayMode": 2,
+                    "PageName": "新增_编辑物品类目",
+                    "PassValues": [
+                      {
+                        "Source": "修改",
+                        "TargetCell": {
+                          "SerializeProperty": "=新增_编辑物品类目!按钮"
+                        }
+                      },
+                      {
+                        "Source": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=物品类目!当前选中的类目ID"
+                        },
+                        "TargetCell": {
+                          "SerializeProperty": "=新增_编辑物品类目!当前选中的类目ID"
+                        }
+                      }
+                    ],
+                    "LoadBindingDataOption": 1
+                  }
+                ],
+                "ID": "5ea6def7-eb6d-4dd7-beff-abf935691346"
+              }
+            ]
+          }
+        ],
+        "TemplateKey": "无边框样式",
+        "Icon": {
+          "Name": "Application/020_edit_1.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        },
+        "IconSize": 20.0
+      }
+    },
+    "0,10": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "当前选择的物品类目",
+            "TableValue": {
+              "TableName": "item_type",
+              "TableValueType": 1,
+              "BindingInfos": [
+                {
+                  "BindingInfo": {
+                    "TableName": "item_type",
+                    "ColumnName": "ID",
+                    "GUID": "ba9dcc52-8d0c-41ed-aa12-276352916a8f"
+                  },
+                  "ColumnName": "ID"
+                },
+                {
+                  "BindingInfo": {
+                    "TableName": "item_type",
+                    "ColumnName": "type_name",
+                    "GUID": "511de702-d8c1-45e4-bb01-8ad98f4e1a4f"
+                  },
+                  "ColumnName": "名称"
+                }
+              ],
+              "SqlCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "TableName": "item_type",
+                  "ColumnName": "ID",
+                  "GUID": "b39ab89e-839b-4812-a824-18ae602ddb8e"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=物品类目!当前选中的类目ID"
+                }
+              },
+              "NullFormulaValueQueryPolicy": 0
+            },
+            "ID": "2144a6c858074304bed3755a09dff1d5"
+          },
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "当前类目下子类目数量",
+            "TableValue": {
+              "TableName": "item_type",
+              "TableValueType": 3,
+              "SqlCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "TableName": "item_type",
+                  "ColumnName": "parent_category",
+                  "GUID": "a0d4e4ac-4759-4000-963f-414870cfe2ab"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=物品类目!当前选中的类目ID"
+                }
+              },
+              "NullFormulaValueQueryPolicy": 0
+            },
+            "ID": "2ec47bd93777448c887384fedb496987"
+          },
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=当前选择的物品类目"
+                      }
+                    ]
+                  },
+                  "value": "%Null%"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+                    "ShareCommandContainerRefer": {
+                      "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                    },
+                    "Params": [
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "23b3db3f-ee43-477b-838f-419a5d219a4e",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                          }
+                        },
+                        "Value": "操作异常",
+                        "Remark": "标题内容"
+                      },
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "552bab51-a087-4a1d-885b-b1df2549c039",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                          }
+                        },
+                        "Value": "未选择任何类目",
+                        "Remark": "通知内容"
+                      },
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "67c0173d-5e65-4382-96cd-c173611bbb69",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                          }
+                        },
+                        "Value": "Fail",
+                        "Remark": "通知类型，包括：Success、Fail、Warning、Message"
+                      }
+                    ]
+                  }
+                ],
+                "ID": "4ed1ec35-4658-4dd7-ac0f-abe57f2b9f95"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=当前选择的物品类目.ID"
+                      }
+                    ]
+                  },
+                  "value": "1"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+                    "ShareCommandContainerRefer": {
+                      "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                    },
+                    "Params": [
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "23b3db3f-ee43-477b-838f-419a5d219a4e",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                          }
+                        },
+                        "Value": "操作异常",
+                        "Remark": "标题内容"
+                      },
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "552bab51-a087-4a1d-885b-b1df2549c039",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                          }
+                        },
+                        "Value": "不能删除根类目",
+                        "Remark": "通知内容"
+                      },
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "67c0173d-5e65-4382-96cd-c173611bbb69",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                          }
+                        },
+                        "Value": "Fail",
+                        "Remark": "通知类型，包括：Success、Fail、Warning、Message"
+                      }
+                    ]
+                  }
+                ],
+                "ID": "22b12ef6-5846-42d4-836c-6b899ebb0f35"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=当前类目下子类目数量"
+                      }
+                    ]
+                  },
+                  "value": "0",
+                  "compareType": 2
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+                    "ShareCommandContainerRefer": {
+                      "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                    },
+                    "Params": [
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "23b3db3f-ee43-477b-838f-419a5d219a4e",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                          }
+                        },
+                        "Value": "操作异常",
+                        "Remark": "标题内容"
+                      },
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "552bab51-a087-4a1d-885b-b1df2549c039",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                          }
+                        },
+                        "Value": "该类目下有子类目，请先删除子类目后再进行删除",
+                        "Remark": "通知内容"
+                      },
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "67c0173d-5e65-4382-96cd-c173611bbb69",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                          }
+                        },
+                        "Value": "Fail",
+                        "Remark": "通知类型，包括：Success、Fail、Warning、Message"
+                      }
+                    ]
+                  }
+                ],
+                "ID": "0d2c12a4-bcf5-4f61-bf39-eb3ace4447b4"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                    "ParameterName": "当前类目下物品数量",
+                    "TableValue": {
+                      "TableName": "item",
+                      "TableValueType": 3,
+                      "SqlCondition": {
+                        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                        "ColumnBindingInfo": {
+                          "TableName": "item",
+                          "ColumnName": "type_id",
+                          "GUID": "edfb61b5-3af5-4508-b43b-ceba882c9643"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=物品类目!当前选择的物品类目.ID"
+                        }
+                      },
+                      "NullFormulaValueQueryPolicy": 2
+                    },
+                    "ID": "fcdb24d871fd4a579c75dc0f017f24dc"
+                  },
+                  {
+                    "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                    "ConditionAndCommandPairList": [
+                      {
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "=当前类目下物品数量"
+                              }
+                            ]
+                          },
+                          "value": "0",
+                          "compareType": 2
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+                            "ShareCommandContainerRefer": {
+                              "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                            },
+                            "Params": [
+                              {
+                                "ParamReferObject": {
+                                  "ParamID": "23b3db3f-ee43-477b-838f-419a5d219a4e",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                                  }
+                                },
+                                "Value": "操作异常",
+                                "Remark": "标题内容"
+                              },
+                              {
+                                "ParamReferObject": {
+                                  "ParamID": "552bab51-a087-4a1d-885b-b1df2549c039",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                                  }
+                                },
+                                "Value": "该类目下有物品，请先删除物品后再进行删除",
+                                "Remark": "通知内容"
+                              },
+                              {
+                                "ParamReferObject": {
+                                  "ParamID": "67c0173d-5e65-4382-96cd-c173611bbb69",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                                  }
+                                },
+                                "Value": "Fail",
+                                "Remark": "通知类型，包括：Success、Fail、Warning、Message"
+                              }
+                            ]
+                          }
+                        ],
+                        "ID": "0683731b-fb05-4270-8c10-9f26b95f9e03"
+                      },
+                      {
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+                            "ShareCommandContainerRefer": {
+                              "ShareCommandContainerID": "e75e6b4d-8e7e-4aff-a87b-40db5bf0ca6d"
+                            },
+                            "Params": [
+                              {
+                                "ParamReferObject": {
+                                  "ParamID": "80138322-dd71-42ba-a421-02cb14959435",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "e75e6b4d-8e7e-4aff-a87b-40db5bf0ca6d"
+                                  }
+                                },
+                                "Value": "警告"
+                              },
+                              {
+                                "ParamReferObject": {
+                                  "ParamID": "c587ef1e-dcc2-4203-8cba-1dd483c7414e",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "e75e6b4d-8e7e-4aff-a87b-40db5bf0ca6d"
+                                  }
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=\"确定要删除类目\"&\" \"&物品类目!当前选择的物品类目.名称&\" \"&\"吗？一旦删除，无法恢复！\""
+                                }
+                              }
+                            ],
+                            "ReturnPropertiesTo": [
+                              {
+                                "ReturnPropertyReferObject": {
+                                  "ParamID": "64cc7657-365c-4ab6-812d-689e51729cfe",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "e75e6b4d-8e7e-4aff-a87b-40db5bf0ca6d"
+                                  }
+                                },
+                                "ResultTo": {
+                                  "SerializeProperty": "点击结果"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                            "ConditionAndCommandPairList": [
+                              {
+                                "Condition": {
+                                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                                  "param": {
+                                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                                    "cellLocations": [
+                                      {
+                                        "SerializeProperty": "=点击结果"
+                                      }
+                                    ]
+                                  },
+                                  "value": "confirm"
+                                },
+                                "CommandList": [
+                                  {
+                                    "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                                    "ServerCommandName": "DeleteItemType",
+                                    "Parameters": [
+                                      {
+                                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                                        "ParamName": "ItemTypeID",
+                                        "Value": {
+                                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                          "SerializeProperty": "=物品类目!当前选择的物品类目.ID"
+                                        }
+                                      }
+                                    ],
+                                    "RefreshAfterFinish": true,
+                                    "CheckDataValidation": true
+                                  }
+                                ],
+                                "ID": "77a2d952-5afb-4d8d-ab11-b20cbd801313"
+                              }
+                            ]
+                          }
+                        ],
+                        "ID": "2d12a7be-dc52-4fae-a0bb-900dda1402ad"
+                      }
+                    ]
+                  }
+                ],
+                "ID": "bb3e6748-f964-49c9-9e5e-1f38647e05b6"
+              }
+            ]
+          }
+        ],
+        "TemplateKey": "无边框样式",
+        "Icon": {
+          "Name": "Mobile/458_delete_2.svg",
+          "BuiltIn": true,
+          "Color": "Accent 5 0"
+        },
+        "IconSize": 20.0
+      }
+    },
+    "2,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "搜索框",
+        "PropertyValues": [
+          {
+            "Name": "水印文本",
+            "Value": "类目名称"
+          }
+        ]
+      }
+    },
+    "4,0": {
+      "CellType": {
+        "$type": "ElementUI.TreeCellType, ElementUI",
+        "clickCommand": {
+          "$type": "GrapeCity.Forguncy.Commands.CustomCommandObject, Forguncy.Commands",
+          "Commands": [
+            {
+              "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+              "PropertyItemsList": [
+                {
+                  "TargetCells": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=物品类目!当前选中的类目ID"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=物品类目!值"
+                  }
+                },
+                {
+                  "TargetCells": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=物品类目!当前选中的类目名称"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=物品类目!显示文本"
+                  }
+                }
+              ]
+            }
+          ],
+          "ParamProperties": {
+            "value": "值",
+            "label": "显示文本",
+            "parentValue": "父节点值"
+          }
+        },
+        "isTreeNodeFromDb": true,
+        "configTreeNodeOptions": [
+          {
+            "$type": "ElementUI.TreeCellTypeNode, ElementUI",
+            "value": "1",
+            "label": "节点1",
+            "icon": {
+              "Name": "Navigation/165_home_3.svg",
+              "BuiltIn": true,
+              "Color": "Background 1 -25",
+              "UseCellTypeForeColor": true
+            },
+            "children": [
+              {
+                "value": "2",
+                "label": "节点1_1",
+                "children": [
+                  {
+                    "value": "3",
+                    "label": "节点1_1_1"
+                  },
+                  {
+                    "value": "4",
+                    "label": "节点1_1_2"
+                  }
+                ]
+              },
+              {
+                "value": "5",
+                "label": "节点1_2"
+              }
+            ]
+          },
+          {
+            "$type": "ElementUI.TreeCellTypeNode, ElementUI",
+            "value": "6",
+            "label": "节点2",
+            "icon": {
+              "Name": "Navigation/169_user_2.svg",
+              "BuiltIn": true,
+              "Color": "Background 1 -25",
+              "UseCellTypeForeColor": true
+            },
+            "children": [
+              {
+                "value": "7",
+                "label": "节点2_1",
+                "children": [
+                  {
+                    "value": "8",
+                    "label": "节点2_1_1"
+                  },
+                  {
+                    "value": "9",
+                    "label": "节点2_1_2"
+                  }
+                ]
+              },
+              {
+                "value": "10",
+                "label": "节点2_2"
+              }
+            ]
+          }
+        ],
+        "bindingDataSource": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "item_type",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "item_type",
+                "ColumnName": "ID",
+                "GUID": "efc3b6ad-81f8-4b0d-9c28-3fb842f7f1b3"
+              },
+              "ColumnName": "value"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "item_type",
+                "ColumnName": "type_name",
+                "GUID": "f2356273-6694-4a28-beef-9120b3c11a95"
+              },
+              "ColumnName": "label"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "item_type",
+                "ColumnName": "parent_category",
+                "GUID": "40025741-ab19-41b7-8417-118dbb4fe234"
+              },
+              "ColumnName": "parentValue"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+            "CompareType": 6,
+            "ColumnBindingInfo": {
+              "TableName": "item_type",
+              "ColumnName": "type_name",
+              "GUID": "9f97e0f7-eed0-4a02-925c-b98e6ccbd20c"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=物品类目!物品类目查询条件"
+            }
+          },
+          "NullFormulaValueQueryPolicy": 1,
+          "TreeSourceSetting": {
+            "IdColumn": "value",
+            "PidColumn": "parentValue",
+            "QueryResultMode": 2
+          },
+          "CustomColumns": []
+        },
+        "emptyText": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=IF(物品类目!物品类目查询条件=\"\",\"没有任何类目\",\"无匹配类目\")"
+        },
+        "isCheckStrictly": true,
+        "isDefaultExpandAll": true,
+        "isClickCanExpandNode": false,
+        "isHighlightCurrent": true
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "0,6": 0,
+      "0,7": 0,
+      "0,8": 0,
+      "0,9": 0,
+      "0,10": 0,
+      "0,11": 0,
+      "0,12": 1,
+      "4,12": 2,
+      "5,12": 0,
+      "6,12": 2,
+      "7,12": 0,
+      "10,12": 3,
+      "11,12": 3,
+      "12,12": 3,
+      "13,12": 3,
+      "14,12": 3,
+      "15,12": 3,
+      "16,12": 3,
+      "17,12": 3,
+      "18,12": 3,
+      "19,12": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "2,0,1,12",
+    "0,10,1,2",
+    "0,8,1,2",
+    "0,6,1,2",
+    "0,0,1,3",
+    "4,0,24,12"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+        "TargetPageElement": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=物品类目!类目树"
+        },
+        "TargetType": "ElementUI.TreeCellType, ElementUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e50995ee76bfe560",
+        "MethodName": "GetCurrentNode",
+        "RetrunParamNames": {
+          "Result": {
+            "SerializeProperty": "获取结果"
+          }
+        },
+        "Comments": ""
+      },
+      {
+        "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+        "PropertyItemsList": [
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=物品类目!当前选中的类目ID"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=物品类目!获取结果"
+            }
+          }
+        ]
+      }
+    ],
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "物品类目查询条件",
+      "Formula": "物品类目!$A$3"
+    },
+    {
+      "Name": "当前选中的类目ID",
+      "Formula": "物品类目!$M$6"
+    },
+    {
+      "Name": "当前选中的类目名称",
+      "Formula": "物品类目!$M$8"
+    },
+    {
+      "Name": "类目树",
+      "Formula": "物品类目!$A$5"
+    }
+  ]
+}//eycVVZ9Ab6nMRMOLZbfarKJJcUOKntgfvLEG/DMCP1VMy0xQS2ZDD01PBQ0MyS9muSSJfj7EVeSPwaTCmvrt98aSy692I9pmZ1qdHL2Rc8JmZvWXcZxntQBz3Wniw3eh7aZx1/mdeGxi2ff2lLBhq0yBkMW/4AMOVAnmRaT00sBQ9sja9wAiRvzjp9P+Eu0YUuLEj4f/t9l/A4vT9/gG/qjnLWKZw8myyxEYaiIYJuXLWUjrCpJfYRIWSxxmMiqGmvZgjwXY1PC8iSYIZUydJQWRsiU0wXV3Zj1YIWF/rLz7PLYCiBB1jXnvsmZ4os8gqml1w1aKSHTSdwUy77h9ZwtOBgj+0r/udV6tzC1O5a/dTlZcgYrkhv3NS0zLscdU6P/kEfne+O1I626wOkBsjbK7ulxux3uQvIsYRXXnG4T+zL3ZGwWqK5UC1QNHEZg1xtb4huFVNz/CIUleDsJEHDuHD+nuXnYCO3myo5HipMrT8TYxu71KBps1vwqJ1ibhDzY2aQi3Nm/SynVfFiuGj6hjU4C+aWhueyjVzCfeCnkjGdVGQwjqCDKemWpvhO2zhAAgavZjWRQ6l0sSaSYczNRNmNF9bNsKZ4KppSxTXhscY8W9cNQYUKuBajaDY/aP1LPaPFLkf06afw/BXpmT4E7Uh9O8jmDjV4p8ixzzJIQdGJjTjOkiZRzrohhmYLjLqjm4ZVNcXGpgkQ7G+ciMB/RXlDal3JsNloeyA1XZgHnUpcj0EulLlKEOlkHMNZ1KGTstuSWVoHj3h95DawLiDr0SpRSljpNK877qRm+UpLNuxRk2JckK7GEZGR0anurIUXT7HHbLwtYENcP6xNgL7Kahi4fasFC4XItSmnlmm1K1HoIIZpMYqI7rrTfbJ1WrslCJ38hUyH++UYIGRdoVGQ==|920

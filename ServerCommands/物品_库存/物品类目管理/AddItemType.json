@@ -1,0 +1,98 @@
+{
+  "Name": "AddItemType",
+  "Description": "添加物品类目",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "ParentItemTypeID",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "ItemTypeName",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "ItemTypeLevel",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "ItemTypePath",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "item_type",
+      "UpdateType": "add",
+      "ShowConfirm": false,
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "item_type",
+            "ColumnName": "type_name",
+            "GUID": "539db366-5ca8-4880-9395-a11f09d03e20"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=ItemTypeName"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "item_type",
+            "ColumnName": "type_level",
+            "GUID": "a0a6fa4e-aa78-468b-baf8-652d1e43269e"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=ItemTypeLevel"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "item_type",
+            "ColumnName": "parent_category",
+            "GUID": "6a5aa869-5fa4-420a-b34c-172342360917"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=ParentItemTypeID"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "item_type",
+            "ColumnName": "type_path",
+            "GUID": "21fd89db-454d-4697-9650-8abb44552d28"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=ItemTypePath"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "Name": "计划任务2",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.EndDBUpdateTriggerSaveData, ServerDesignerCommon",
+      "DataParamName": "变更数据",
+      "TableNameParamName": "数据表名",
+      "PrimaryKeyParamName": "主键",
+      "OperatorParamName": "操作人",
+      "OperationTimeParamName": "操作时间",
+      "SelectTables": [
+        "sales_order",
+        "inventory",
+        "purchase_order"
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "计划任务更新表",
+      "UpdateType": "add",
+      "ShowConfirm": false,
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "计划任务更新表",
+            "ColumnName": "变更数据",
+            "GUID": "ee2edb2b-ea1a-42c3-8e47-a899eaa5a9fa"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=变更数据"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "计划任务更新表",
+            "ColumnName": "表名",
+            "GUID": "9bd9a4d8-f4a8-481c-be70-5c8a1a3a647a"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=数据表名"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "计划任务更新表",
+            "ColumnName": "主键",
+            "GUID": "77a28ee8-af25-4d05-b322-faad037f1bb9"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=主键"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "计划任务更新表",
+            "ColumnName": "操作人",
+            "GUID": "0b43d276-6158-43ab-8e2e-fd48b78bea70"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=操作人"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "计划任务更新表",
+            "ColumnName": "操作时间",
+            "GUID": "0f07a649-8c54-43e1-b100-8e400064fd55"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=操作时间"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "计划任务更新表",
+            "ColumnName": "数据库变化",
+            "GUID": "75266c30-a12d-49d1-b001-92e152cec036"
+          },
+          "Value": "更新"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "横向导航菜单",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": [
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionCurrentUserInfoParam, ServerDesignerCommon",
+                "currentUserProperty": {
+                  "UserProperty": "角色",
+                  "PropertyType": 3
+                }
+              },
+              "value": "采购员",
+              "compareType": 10
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "采购首页"
+              }
+            ],
+            "ID": "121642d2-8e98-4517-808e-c5664e97f86f"
+          },
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionCurrentUserInfoParam, ServerDesignerCommon",
+                "currentUserProperty": {
+                  "UserProperty": "角色",
+                  "PropertyType": 3
+                }
+              },
+              "value": "销售员"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "销售首页"
+              }
+            ],
+            "ID": "28066158-2e73-41b0-b760-eff4eeef0d10"
+          },
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionCurrentUserInfoParam, ServerDesignerCommon",
+                "currentUserProperty": {
+                  "UserProperty": "角色",
+                  "PropertyType": 3
+                }
+              },
+              "value": "库存管理员"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "库存首页"
+              }
+            ],
+            "ID": "0ddbf7cc-67c6-4ba5-97df-d7c6633bf212"
+          },
+          {
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "帮助手册",
+                "Comments": ""
+              }
+            ],
+            "ID": "86ca0943-a357-4ec0-a58c-e4264c537bb4"
+          }
+        ]
+      }
+    ],
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//zwLj30fbGj6gasq6hme3clbeBZVgyQWLHyU3yaxcHPXD78JxERVvyyxRw7nD6uMYOY6qLGlmn50ErZy+3XGy1sgHO4/o2y8Nfei/uFU6fj8DLxPaZvKLjEKjxJNVzy2yx/iLn27PbeOmPJXb5FvLR+pCXE6u9NvwNPV6HZUyFWJhTn84bripaq5KnjxJqjrRzqHbPA6Qedfz1+YTG9z1owe51+QtUbBGvRZiI0+Zl3sOtpQknDw0oZklgDGtI5I2/MpvUe9QeQzB/I8JSPYyzIe0xFmPdFgNKhG491UGaJad2ZaZF7ha97RbtZD2n98zJDSQVv2q3sp6PwYRwqhPPRIYRNvg1sXurETAimQUBKW4yHMR2w/jvRDl2w1QuGgtZnfQDfkCtF/LQNPYrdU4FnG+vRy4BaYa0IBno4wPI3e6bqOBtx3sTKtS9u82vFyR2n0+KBeIiCAR9cv74Tqn8PPhfKXGSUR0AWK2yqvmOxIBqgyYHWvgZnOBGMgPDq7KtKSPg50R4UbGF0Jt89/pcG5TvQjrd672IPbi1Bdqz+H4yw34J1FdMmP33do+hCLODSa5L8volErN3/WbvLYnD3jx3va8ORdIgBMdSUWPOLURU7p7ilWnYMVY7qn34GsaVykMEYJnVId2doMkWuTTKvhArfGkAvxuj2VuAyoaGXqCoKyfSjq2tilJAZR04LQTs5mAdQH1gjM21vgGXAb6Lfu+0tVb33Jv3QXdB5HdN4qu/nI29BQdQtabWT3L5jlOgWHrB+AsI+yQ86UhBk0i+UWaKw+Quy4YFkScYxvMxJk0rUtI3A3hfUYf0Iu6w02G8QLqrHU3QD3nGSgCNy40RwS8v76s6dt0JlemmTO5MGU0w9V8I+u3PAMMmpdUrn4HArQo6Xyp6sjNxKiY0NIG8Q==|920

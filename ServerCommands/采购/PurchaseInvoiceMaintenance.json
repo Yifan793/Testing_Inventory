@@ -1,0 +1,509 @@
+{
+  "Name": "PurchaseInvoiceMaintenance",
+  "Description": "采购发票维护",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "Administrator",
+                "采购员",
+                "采购主管"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "OperateType",
+          "Remark": "操作类型，包括：Add，Update，Delete",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "PurchaseOrderID",
+          "Remark": "采购单ID",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "InvoiceID",
+          "Remark": "发票记录ID",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "InvoiceAmount",
+          "Remark": "本期到票金额",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "InvoiceNumber",
+          "Remark": "发票号码",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "Note",
+          "Remark": "备注",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
+      "CommandList": [
+        {
+          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+          "ConditionAndCommandPairList": [
+            {
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=OperateType"
+                  }
+                },
+                "value": "Add"
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                  "ParameterName": "TotalInvoiceAmount",
+                  "TableValue": {
+                    "TableName": "purchase_order",
+                    "OnlyGetValue": true,
+                    "TableValueType": 0,
+                    "BindingInfos": [
+                      {
+                        "BindingInfo": {
+                          "TableName": "purchase_order",
+                          "ColumnName": "ticket_number",
+                          "GUID": "170ce6e1-f71a-4f13-92b2-b5a9cebd401c"
+                        },
+                        "ColumnName": "ticket_number"
+                      }
+                    ],
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "TableName": "purchase_order",
+                        "ColumnName": "ID",
+                        "GUID": "fcb04807-2fb1-4265-8a6f-1b36acf1e5d4"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=PurchaseOrderID"
+                      }
+                    }
+                  },
+                  "ID": "3f379be3063c4e4387575e660765eee3"
+                },
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "purchase_ticket_record",
+                  "UpdateType": "add",
+                  "ShowConfirm": false,
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "purchase_ticket_record",
+                        "ColumnName": "purchase_order",
+                        "GUID": "7d69ec50-3e84-4e43-be49-b48c9d5e2781"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=PurchaseOrderID"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "purchase_ticket_record",
+                        "ColumnName": "date",
+                        "GUID": "813b113c-10dd-4b17-adbc-30e7eb39db26"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=TODAY()"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "purchase_ticket_record",
+                        "ColumnName": "period_receipt_number",
+                        "GUID": "9c25ff43-c545-4244-b311-a9b9ca44081d"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=InvoiceAmount"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "purchase_ticket_record",
+                        "ColumnName": "ticket_number",
+                        "GUID": "e8c50ed0-c6cd-487e-95bc-038eebfcd62d"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=InvoiceNumber"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "purchase_ticket_record",
+                        "ColumnName": "note",
+                        "GUID": "bae74c0a-0a91-4b60-96ce-d60a971154ab"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=Note"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "purchase_order",
+                  "ShowConfirm": false,
+                  "RowsToUpdate": 1,
+                  "RowsToUpdateCondition": {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "purchase_order",
+                      "ColumnName": "ID",
+                      "GUID": "9a717ad7-0c65-434c-8ed3-a0176ace56b0"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=PurchaseOrderID"
+                    }
+                  },
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "purchase_order",
+                        "ColumnName": "ticket_number",
+                        "GUID": "f04b036d-bdf2-49aa-9465-188a55e9c9f2"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=TotalInvoiceAmount+InvoiceAmount"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "ID": "0c19c08a-abfa-4e99-bd2c-5943c9e67103"
+            },
+            {
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=OperateType"
+                  }
+                },
+                "value": "Update"
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                  "ParameterName": "TotalInvoiceAmount",
+                  "TableValue": {
+                    "TableName": "purchase_order",
+                    "OnlyGetValue": true,
+                    "TableValueType": 0,
+                    "BindingInfos": [
+                      {
+                        "BindingInfo": {
+                          "TableName": "purchase_order",
+                          "ColumnName": "ticket_number",
+                          "GUID": "ac9546fe-fe12-4a86-a6ff-6acbc21b45c3"
+                        },
+                        "ColumnName": "ticket_number"
+                      }
+                    ],
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "TableName": "purchase_order",
+                        "ColumnName": "ID",
+                        "GUID": "829d3d7b-b9a6-467b-81f3-c4568f60f70e"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=PurchaseOrderID"
+                      }
+                    }
+                  },
+                  "ID": "74fc0aff0fed459c8e5c9f48139c6371"
+                },
+                {
+                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                  "ParameterName": "OldInvoiceAmount",
+                  "TableValue": {
+                    "TableName": "purchase_ticket_record",
+                    "OnlyGetValue": true,
+                    "TableValueType": 0,
+                    "BindingInfos": [
+                      {
+                        "BindingInfo": {
+                          "TableName": "purchase_ticket_record",
+                          "ColumnName": "period_receipt_number",
+                          "GUID": "372c8ecb-23da-4a94-b8cb-da1ec7e7b8b0"
+                        },
+                        "ColumnName": "period_receipt_number"
+                      }
+                    ],
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "TableName": "purchase_ticket_record",
+                        "ColumnName": "ID",
+                        "GUID": "57f10f89-77de-466a-b512-1526564db698"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=InvoiceID"
+                      }
+                    }
+                  },
+                  "ID": "067fb6025a4d45c0bd69c506b1bc8384"
+                },
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "purchase_ticket_record",
+                  "ShowConfirm": false,
+                  "RowsToUpdate": 1,
+                  "RowsToUpdateCondition": {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "purchase_ticket_record",
+                      "ColumnName": "ID",
+                      "GUID": "d4627a58-f188-43db-b984-c7c2082409b4"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=InvoiceID"
+                    }
+                  },
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "purchase_ticket_record",
+                        "ColumnName": "period_receipt_number",
+                        "GUID": "9d5e74da-ad09-4c0a-871a-b68009ab2b37"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=InvoiceAmount"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "purchase_ticket_record",
+                        "ColumnName": "ticket_number",
+                        "GUID": "f956e320-b728-4528-88b2-7fcfea849372"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=InvoiceNumber"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "purchase_ticket_record",
+                        "ColumnName": "note",
+                        "GUID": "2d3df336-7864-4527-a774-e08267563fa3"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=Note"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "purchase_order",
+                  "ShowConfirm": false,
+                  "RowsToUpdate": 1,
+                  "RowsToUpdateCondition": {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "purchase_order",
+                      "ColumnName": "ID",
+                      "GUID": "763080f2-d46f-4e12-a59c-1f2d1e689e38"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=PurchaseOrderID"
+                    }
+                  },
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "purchase_order",
+                        "ColumnName": "ticket_number",
+                        "GUID": "c94e1351-0964-4bb2-aacb-b1f99ce28197"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=TotalInvoiceAmount-OldInvoiceAmount+InvoiceAmount"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "ID": "96b9d563-8bbb-4950-9993-8b854c0dc8a6"
+            },
+            {
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=OperateType"
+                  }
+                },
+                "value": "Delete"
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                  "ParameterName": "TotalInvoiceAmount",
+                  "TableValue": {
+                    "TableName": "purchase_order",
+                    "OnlyGetValue": true,
+                    "TableValueType": 0,
+                    "BindingInfos": [
+                      {
+                        "BindingInfo": {
+                          "TableName": "purchase_order",
+                          "ColumnName": "ticket_number",
+                          "GUID": "4acffa48-7dff-4911-93f0-716e72d31839"
+                        },
+                        "ColumnName": "ticket_number"
+                      }
+                    ],
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "TableName": "purchase_order",
+                        "ColumnName": "ID",
+                        "GUID": "2b1dd4be-ddf9-4c3e-909c-33754fccc235"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=PurchaseOrderID"
+                      }
+                    }
+                  },
+                  "ID": "a8eea666c996432c80a4e05af71d39aa"
+                },
+                {
+                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                  "ParameterName": "OldInvoiceAmount",
+                  "TableValue": {
+                    "TableName": "purchase_ticket_record",
+                    "OnlyGetValue": true,
+                    "TableValueType": 0,
+                    "BindingInfos": [
+                      {
+                        "BindingInfo": {
+                          "TableName": "purchase_ticket_record",
+                          "ColumnName": "period_receipt_number",
+                          "GUID": "ebeddb95-ac45-49ed-95b5-f59e1a4d9c6f"
+                        },
+                        "ColumnName": "period_receipt_number"
+                      }
+                    ],
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "TableName": "purchase_ticket_record",
+                        "ColumnName": "ID",
+                        "GUID": "a133a5d5-7b62-4a2e-882d-3e6802d4ee9f"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=InvoiceID"
+                      }
+                    }
+                  },
+                  "ID": "8e38ce94cae2442c9c7fffe7de19ad68"
+                },
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "purchase_ticket_record",
+                  "UpdateType": "delete",
+                  "ShowConfirm": true,
+                  "ConfirmText": "您确定要删除吗？",
+                  "RowsToUpdate": 1,
+                  "RowsToUpdateCondition": {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "purchase_ticket_record",
+                      "ColumnName": "ID",
+                      "GUID": "24b139ab-2ec2-4c4a-bf08-7ad8afe20fbf"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=InvoiceID"
+                    }
+                  }
+                },
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "purchase_order",
+                  "ShowConfirm": false,
+                  "RowsToUpdate": 1,
+                  "RowsToUpdateCondition": {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "purchase_order",
+                      "ColumnName": "ID",
+                      "GUID": "7f21008a-f4d8-499e-a45e-b088eae88433"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=PurchaseOrderID"
+                    }
+                  },
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "purchase_order",
+                        "ColumnName": "ticket_number",
+                        "GUID": "a03e5bf3-5ca8-4be1-a357-0d02d013cc13"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=TotalInvoiceAmount-OldInvoiceAmount"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "ID": "7ec39120-9061-4552-96a1-8ac166e9bead"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

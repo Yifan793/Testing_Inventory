@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:fgc="http://www.forguncy.com/schema/bpmn/1.0" xmlns:activiti="http://activiti.org/bpmn" id="_f0891378-904d-4a7a-9433-88bd2bac0c55" name="BPMN Model" targetNamespace="http://www.forguncy.com/schema/bpmn/1.0" expressionLanguage="https://www.ecma-international.org/publications/standards/Ecma-334.htm">
+  <extension />
+  <process id="_5a033102-b182-4162-96d0-d419ba8f683b" name="销售单审核" isExecutable="true">
+    <documentation />
+    <extensionElements>
+      <fgc:ForguncyExtension Properties="{&quot;description&quot;:null,&quot;page&quot;:null,&quot;tables&quot;:[&quot;sales_order&quot;],&quot;variableSetting&quot;:{&quot;variables&quot;:[]},&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;event&quot;:100,&quot;comment&quot;:null,&quot;commands&quot;:[],&quot;index&quot;:null},{&quot;id&quot;:&quot;1&quot;,&quot;event&quot;:101,&quot;comment&quot;:null,&quot;commands&quot;:[],&quot;index&quot;:null},{&quot;id&quot;:&quot;2&quot;,&quot;event&quot;:102,&quot;comment&quot;:null,&quot;commands&quot;:[],&quot;index&quot;:null}]},&quot;timeoutSetting&quot;:{&quot;deadlines&quot;:[]},&quot;relationSetting&quot;:{&quot;processInstanceIdFields&quot;:[{&quot;TableName&quot;:&quot;sales_order&quot;,&quot;ColumnName&quot;:&quot;audit_id&quot;,&quot;GUID&quot;:&quot;a7a65e0e-b2c9-49c2-997e-3c2c88d4a903&quot;,&quot;AttachType&quot;:null,&quot;RelationBinding&quot;:null,&quot;AggregateBindingInfo&quot;:null}]},&quot;comment&quot;:null,&quot;fgcBpmnGuid&quot;:&quot;e875a46a-244c-4b6c-b564-24ea2ea79b55&quot;}" />
+    </extensionElements>
+    <startEvent id="_f08335ab-b838-4a55-8421-200f30047003" name="开始">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:401,&quot;commands&quot;:[]}]},&quot;variableSetting&quot;:{&quot;variables&quot;:[]}}" />
+      </extensionElements>
+      <outgoing>Flow_0m0596t</outgoing>
+    </startEvent>
+    <userTask id="_1f754255-6fd9-4eab-8d0f-10df7976e222" name="审批" activiti:formKey="${formKeyResolver.getFormKey(execution)}" activiti:assignee="${userTaskResolver.getAssignee(execution)}">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;generalSetting&quot;:{&quot;tables&quot;:[],&quot;actions&quot;:[{&quot;key&quot;:&quot;0&quot;,&quot;type&quot;:100,&quot;title&quot;:&quot;通过&quot;,&quot;enable&quot;:true,&quot;remarks&quot;:[{&quot;enable&quot;:true,&quot;key&quot;:1,&quot;required&quot;:false},{&quot;enable&quot;:false,&quot;key&quot;:2,&quot;required&quot;:false}],&quot;commitOption&quot;:{&quot;autoSave&quot;:false}},{&quot;key&quot;:&quot;1644290578551-fb1cce84&quot;,&quot;type&quot;:200,&quot;title&quot;:&quot;拒绝&quot;,&quot;enable&quot;:true,&quot;remarks&quot;:[{&quot;enable&quot;:true,&quot;key&quot;:1}],&quot;terminateOption&quot;:{&quot;type&quot;:2}}]},&quot;userSetting&quot;:{&quot;assigneeSettings&quot;:[{&quot;type&quot;:2,&quot;value&quot;:{&quot;valueType&quot;:1,&quot;fixedValue&quot;:&quot;销售主管&quot;},&quot;enable&quot;:true,&quot;key&quot;:&quot;1706525884696-b1666e64&quot;}],&quot;assigneeTarget&quot;:2,&quot;isMultiple&quot;:false,&quot;isCountersign&quot;:false,&quot;isSequential&quot;:false,&quot;autoCommitStrategies&quot;:[{&quot;status&quot;:1,&quot;enable&quot;:false},{&quot;status&quot;:2,&quot;enable&quot;:true},{&quot;status&quot;:3,&quot;enable&quot;:false}],&quot;nobodyAssignStrategy&quot;:{&quot;status&quot;:1}},&quot;dataSetting&quot;:{&quot;tablePermissions&quot;:[]},&quot;timeoutSetting&quot;:{&quot;deadlines&quot;:[]},&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;2&quot;,&quot;event&quot;:302,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;1706520199514-5018c132&quot;,&quot;event&quot;:301,&quot;commands&quot;:[]}]},&quot;variableSetting&quot;:{&quot;variables&quot;:[]}}" />
+      </extensionElements>
+      <incoming>Flow_0m0596t</incoming>
+      <outgoing>_8c854f9d-40d8-4aed-acb1-6778e09b2e08</outgoing>
+    </userTask>
+    <endEvent id="_3392ccdd-ae91-44fa-b2ee-f744284c12b0" name="结束">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:400,&quot;commands&quot;:[]}]},&quot;variableSetting&quot;:{&quot;variables&quot;:[]}}" />
+      </extensionElements>
+      <incoming>_8c854f9d-40d8-4aed-acb1-6778e09b2e08</incoming>
+    </endEvent>
+    <sequenceFlow id="_8c854f9d-40d8-4aed-acb1-6778e09b2e08" name="" sourceRef="_1f754255-6fd9-4eab-8d0f-10df7976e222" targetRef="_3392ccdd-ae91-44fa-b2ee-f744284c12b0">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:200,&quot;commands&quot;:[]}]},&quot;sequenceProperty&quot;:{}}" />
+      </extensionElements>
+    </sequenceFlow>
+    <sequenceFlow id="Flow_0m0596t" sourceRef="_f08335ab-b838-4a55-8421-200f30047003" targetRef="_1f754255-6fd9-4eab-8d0f-10df7976e222">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:200,&quot;commands&quot;:[]}]},&quot;sequenceProperty&quot;:{}}" />
+      </extensionElements>
+    </sequenceFlow>
+  </process>
+  <BPMNDiagram xmlns="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:color="http://www.omg.org/spec/BPMN/non-normative/color/1.0" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="_bc75e97d-3718-40b3-954c-1093a5051bd0" name="" resolution="96">
+    <BPMNPlane bpmnElement="_5a033102-b182-4162-96d0-d419ba8f683b">
+      <BPMNEdge id="Flow_0m0596t_di" bpmnElement="Flow_0m0596t" color:border-color="rgb(172, 172, 172)" color:background-color="rgb(172, 172, 172)">
+        <di:waypoint x="320" y="20" />
+        <di:waypoint x="460" y="20" />
+      </BPMNEdge>
+      <BPMNEdge id="_0f004c02-cfdf-4445-8c14-43b1a506b260" bpmnElement="_8c854f9d-40d8-4aed-acb1-6778e09b2e08" color:border-color="rgb(172, 172, 172)" color:background-color="rgb(172, 172, 172)">
+        <di:waypoint x="580" y="20" />
+        <di:waypoint x="700" y="20" />
+      </BPMNEdge>
+      <BPMNShape id="_77a930b7-a08f-48be-9e93-2006953ed6ad" bpmnElement="_f08335ab-b838-4a55-8421-200f30047003" isHorizontal="false" isExpanded="false" isMarkerVisible="false" isMessageVisible="false">
+        <Bounds xmlns="http://www.omg.org/spec/DD/20100524/DC" x="280" y="0" width="40" height="40" />
+        <BPMNLabel>
+          <dc:Bounds x="287" y="47" width="26" height="16" />
+        </BPMNLabel>
+      </BPMNShape>
+      <BPMNShape id="_2bf92c2b-1b3d-4815-b6c9-f696d0b501a1" bpmnElement="_1f754255-6fd9-4eab-8d0f-10df7976e222" isHorizontal="false" isExpanded="false" isMarkerVisible="false" isMessageVisible="false">
+        <Bounds xmlns="http://www.omg.org/spec/DD/20100524/DC" x="460" y="0" width="120" height="40" />
+      </BPMNShape>
+      <BPMNShape id="_dffb7850-c3b4-4469-b322-8af82e48919d" bpmnElement="_3392ccdd-ae91-44fa-b2ee-f744284c12b0" isHorizontal="false" isExpanded="false" isMarkerVisible="false" isMessageVisible="false">
+        <Bounds xmlns="http://www.omg.org/spec/DD/20100524/DC" x="700" y="0" width="40" height="40" />
+        <BPMNLabel>
+          <dc:Bounds x="707" y="47" width="26" height="16" />
+        </BPMNLabel>
+      </BPMNShape>
+    </BPMNPlane>
+  </BPMNDiagram>
+</definitions>

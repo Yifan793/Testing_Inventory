@@ -1,0 +1,124 @@
+{
+  "Name": "发起所有流程",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.InvokeTriggerSaveData, ServerDesignerCommon",
+      "InvokeTriggerTestData": {
+        "UserName": "Administrator"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "records",
+      "TableValue": {
+        "TableName": "sales_order",
+        "BindingInfos": [
+          {
+            "BindingInfo": {
+              "TableName": "sales_order",
+              "ColumnName": "ID",
+              "GUID": "a8eb62d0-af06-4e1c-8c29-57bbadf7d89d"
+            },
+            "ColumnName": "ID"
+          },
+          {
+            "BindingInfo": {
+              "TableName": "sales_order",
+              "ColumnName": "FGC_Creator",
+              "GUID": "94b0c819-2213-4eb4-b86e-160dbe6944ee"
+            },
+            "ColumnName": "创建者"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "sales_order",
+            "ColumnName": "audit_id",
+            "GUID": "b1309c1d-d74c-4e46-ab4d-894542746473"
+          },
+          "Value": "%Null%"
+        }
+      },
+      "ID": "b587d5a1ff2d4461b432fab27add29ec"
+    },
+    {
+      "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+      "LoopInfo": {
+        "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+        "LoopCount": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=records"
+        },
+        "LoopItemParamName": "Item"
+      },
+      "CommandList": [
+        {
+          "$type": "Forguncy.Model.ProcessStartCommand, ServerDesignerCommon",
+          "ProcessDefinitionResourceName": "SalesProcess",
+          "SelectedTable": "sales_order",
+          "RowsToUpdate": 1,
+          "RowsToUpdateCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "sales_order",
+              "ColumnName": "ID",
+              "GUID": "eb5255c8-7fab-4a68-945f-dabf5036ce90"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=Item.ID"
+            }
+          },
+          "Initiator": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=Item.创建者"
+          },
+          "ReturnResultName": "发起流程结果"
+        },
+        {
+          "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+          "TableName": "sales_order",
+          "ShowConfirm": false,
+          "RowsToUpdate": 1,
+          "RowsToUpdateCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "sales_order",
+              "ColumnName": "ID",
+              "GUID": "d2a5f091-de61-45ab-9aa8-276c4f509597"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=Item.ID"
+            }
+          },
+          "UpdateBindingValues": [
+            {
+              "BindingInfo": {
+                "TableName": "sales_order",
+                "ColumnName": "audit_id",
+                "GUID": "df27323c-f528-4235-b463-3362425e411d"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=发起流程结果.ID"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "sales_order",
+                "ColumnName": "audit_status",
+                "GUID": "7267a881-3b67-457c-9076-748d45e42f19"
+              },
+              "Value": "2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

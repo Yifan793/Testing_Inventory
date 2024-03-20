@@ -1,0 +1,61 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 100.0
+  },
+  "Values": {
+    "0,0": "标题"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "TemplateCellSource": "Fgc-UC-TwoWayBinding-Value-Column"
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "FontSize": 18.666666666666664
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//ejJ/NElUYydn7k1GBQ1q3m4mc4kXG46w65Hc/ZdmP1Md0NdQDQCcwnbySb/D1uFy2hVFRSQbgKYKBA0rhkMAj95ynwWeMvSJ48qBvUjbLV0Pd9dg36zO1pYLdZYMt3o2VnsSy/dllTaBxLuhHc1W4pabft+ALf1PBFOicH0arkq3T0OnZVQGC2ITjuekKzHfVKb0B+HaU9m+FTpEPj9NzHkeAnkxEEqjz/B0qHUTT6u4eAzIM0QMgFyDq+7sbJ+m9D84GGTBPM/ZUdCoRqVB9zMn06DW1cCou1Vc2Der75A0ssHk8WW0jhcIYZk8dOQx+G9T9bLlkGhD/YfRv3Rs56OptIfbdkToi+A6MBBrOkYZuhii6WEmm1nlzgdLtMe5dm5Ho2FzBCI5qRT/HECgbCI6plncmj9L3CPx6cjKP+0DHVfd2Kjs4+qKxjbK2BBoB71+IWhDPv1WO3Ayaq1mwwk7Ik2nrADspNnyrmEP3QFgQk5Vx83pdQRfo8wauWd4Z7aTQr6+NRA++xTODlBR9QMocTJpO4zjHTNKkJ8UuQb5ZvPsZ85Vji++JeSXXT63tqtzGSdar4nXmHu5fzpZbeIkZcWhei1NOd5Hwv6hrSQC1zrn19dGYmrpeo4xHMsRVwf2ccXNGd8NPBvGQlPNEhBjv2/FPGcVg+MtU0YSvjg0p2LyHmafgSsFAQGR0J7ffT8vnJszc0IwbZxsEIoUosUDQZG+scAxXR+8padx5Tg33xvcIm5dZ2aUOGRhPl3mGEM0Y/5K2YYTs88DnTfEQZpkmQ1Z4+iZ4yGAKSqZU77sZXN9KirZr2GGZhfrXBSl2YaOXQlyRYrR45Gl56j5vBaZHa0Y+ueBP/n3G+2M6LKREkS+JDZbSK6w8Z3N/aYTjEIpUz5RJO+Yyq+vBTHlsw==|920

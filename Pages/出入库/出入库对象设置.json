@@ -1,0 +1,134 @@
+{
+  "Rows": {
+    "Count": 11
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 86.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 104.0
+        }
+      }
+    },
+    "Count": 20
+  },
+  "Values": {
+    "0,0": "出入库对象设置",
+    "3,18": "出入库类型",
+    "8,12": "确定"
+  },
+  "Formulas": {
+    "4,2": "IF(出入库类型=5,\"出库方\",\"入库方\")"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "弹窗标题格式"
+      }
+    },
+    "5,2": {
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "text",
+        "resize": "none"
+      }
+    },
+    "8,12": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "PassValueBack": true
+          }
+        ],
+        "Text": "确定",
+        "TemplateKey": "_RS_Main1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 50",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "4,2": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "0,0,3,20",
+    "5,2,2,15",
+    "8,12,2,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "出入库类型",
+      "Formula": "出入库对象设置!$T$4"
+    },
+    {
+      "Name": "其他出入库对象",
+      "Formula": "出入库对象设置!$C$6"
+    }
+  ]
+}//DIAH8fAeYwNjurDlvlX0ISbUCWwH5ANfA3OcACgiFBSotXCbcgtfDqyFDG+FDWMMD50OHe8XGbvAdXIvLXaGCK7tM9idbzcQ6kamnKjKPc8DQuZ2lumZHPVra44jY98KU7fj3Y3NvMK+hYflUuf1CWvF9dS4wOijwwC43x/RfqVXDB+CFMOoDBIUi39/W11VDkPFH6ts3ypVi/FC41ZvOMuIbuQbTgfIk/kkT1Dy1kM/bopTYJy7mbV2QXAu6ZhNDkTJdZ7WZHQCxiZL0FxQPv/KWo5rsYD8o82Bppw+VOhCyio6PFf53wnmpEC17RcMSI5tB5ti6G0gMiYQXEe4XDvePQmFcgD4KhkcmGJV/bm7tsuFivx4NTCXTnW8X4897wPpAy1nH0hjnQbai5uYyfI5WWC7+QRPe3gwQMBBkiZbaNSvkwhKzr+1wqnd1VnrIBbBNPIreUSZtRUmlO3XU9LmxZqyNhw0XTV7yz/8iT6wrgKMSjH3hrdXwHGWlJYc9xkqH/cw9IGlqNYz2amXZxOJeWGMaYpsKZDKWAfXGHOqfd7sxRswnkhpBAmop9CabJ90q+eXlIoepcfBa+6OZhhUaiDo0TDT/f7PthxEEIJETfGB5TfnlCV+euOexU95S6nGEb1vPeS2xg8fGpDtmQedfBjFqJ2yCGMBdZiSd3DGRvRp/HisLkawNRD/c8vlUMUELa+aOv5xsVuNtp121CkMYWqP4OeaUE2eQWk35iXk8NpO5XyZHv+aMWQPLAI+GCIYj543yqTlocSubjW+LQ83EHhN8Ds74N7cwmeQGGQLzLmpMrH7i4ckWAyDXvn7MNcPbE1DfBMSg5LMxaEcPxwjqy3yw5jjIlT4dLUuJhMlSwaZNbPsUpS1I5NVa9rXLt5MW8lOqkpUhffxOER/ew==|920

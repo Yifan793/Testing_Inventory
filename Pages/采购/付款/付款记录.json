@@ -1,0 +1,468 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0,
+          "Mode": 1
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 48.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 19,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 108.0,
+          "IsHidden": true
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0,
+          "IsHidden": true
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0,
+          "IsHidden": true
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      7,
+      20,
+      21,
+      22
+    ],
+    "Count": 23,
+    "DefaultSize": 30.0
+  },
+  "Values": {
+    "1,1": "付款历史记录",
+    "5,17": "删除"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "弹窗标题格式"
+      }
+    },
+    "4,1": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "purchase_pay_record",
+        "RowIndex": 4,
+        "ColumnIndex": 1,
+        "RowCount": 12,
+        "ColumnCount": 18,
+        "DetailListViewInfo": {
+          "ColumnOfDetailTable": "purchase_order",
+          "MasterTable": "purchase_order",
+          "ColumnOfMasterTable": "ID",
+          "DataCommitType": 2
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_NewFashionListStyle1",
+        "ShowColumnHeaderInDesigner": true,
+        "IsRowHeaderVisible": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2,
+        "CommitType": 1
+      }
+    },
+    "4,20": {
+      "BindingInfo": {
+        "TableName": "purchase_order",
+        "ColumnName": "ID",
+        "GUID": "d9673f15-ecd6-4002-a179-c9f5c484f3ec"
+      }
+    },
+    "5,2": {
+      "BindingInfo": {
+        "TableName": "purchase_pay_record",
+        "ColumnName": "date",
+        "GUID": "c44eb613-ff82-4ad4-8302-e93ca557b98f"
+      }
+    },
+    "5,7": {
+      "BindingInfo": {
+        "TableName": "purchase_pay_record",
+        "ColumnName": "purchase_order",
+        "GUID": "2deaa5c8-61d3-4e9d-a69a-562b79811e14"
+      }
+    },
+    "5,8": {
+      "BindingInfo": {
+        "TableName": "purchase_pay_record",
+        "ColumnName": "period_pay_number",
+        "GUID": "e1908e68-8f02-41fa-93d1-2742f9003dd5"
+      }
+    },
+    "5,11": {
+      "BindingInfo": {
+        "TableName": "purchase_pay_record",
+        "ColumnName": "note",
+        "GUID": "bfe8a749-a858-40cb-b42c-45b1b5b996b0"
+      }
+    },
+    "5,17": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "IsConfirm",
+            "ID": "850d517c346a4581a449c43d8bc27709"
+          },
+          {
+            "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+            "ShareCommandContainerRefer": {
+              "ShareCommandContainerID": "e75e6b4d-8e7e-4aff-a87b-40db5bf0ca6d"
+            },
+            "Params": [
+              {
+                "ParamReferObject": {
+                  "ParamID": "80138322-dd71-42ba-a421-02cb14959435",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "e75e6b4d-8e7e-4aff-a87b-40db5bf0ca6d"
+                  }
+                },
+                "Value": "删除后金额会回滚，确认删除？"
+              },
+              {
+                "ParamReferObject": {
+                  "ParamID": "c587ef1e-dcc2-4203-8cba-1dd483c7414e",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "e75e6b4d-8e7e-4aff-a87b-40db5bf0ca6d"
+                  }
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=\"付款记录：\"&TEXT(付款记录!C6,\"yyyy年mm月dd日\")&\" 金额 ¥ \"&付款记录!I6"
+                }
+              }
+            ],
+            "ReturnPropertiesTo": [
+              {
+                "ReturnPropertyReferObject": {
+                  "ParamID": "64cc7657-365c-4ab6-812d-689e51729cfe",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "e75e6b4d-8e7e-4aff-a87b-40db5bf0ca6d"
+                  }
+                },
+                "ResultTo": {
+                  "SerializeProperty": "=付款记录!IsConfirm"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=IsConfirm"
+                      }
+                    ]
+                  },
+                  "value": "confirm"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                    "ServerCommandName": "PurchaseAmountMaintenance",
+                    "Parameters": [
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "OperateType",
+                        "Value": "Delete",
+                        "Remark": "操作类型，包含有：Add，Update，Delete"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "PayAmount",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=付款记录!I6"
+                        },
+                        "Remark": "本期付款金额"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "Note",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=付款记录!L6"
+                        },
+                        "Remark": "备注"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "PurchaseOrderID",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=付款记录!U5"
+                        },
+                        "Remark": "采购订单ID"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "PurchaseDetailsID",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=付款记录!U6"
+                        },
+                        "Remark": "采购详情ID"
+                      }
+                    ],
+                    "RefreshAfterFinish": true,
+                    "CheckDataValidation": true
+                  },
+                  {
+                    "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+                    "ShareCommandContainerRefer": {
+                      "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                    },
+                    "Params": [
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "edbc4e90-b321-4ada-a9ac-7e6ac1298c41",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                          }
+                        },
+                        "Value": "删除成功",
+                        "Remark": "消息内容"
+                      },
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "4047e995-0452-4ca2-ac6f-55deeaa966ac",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                          }
+                        },
+                        "Value": "Success",
+                        "Remark": "消息类型，包括：Success、Fail、Warning、Message"
+                      }
+                    ],
+                    "ReturnPropertiesTo": [
+                      {
+                        "ReturnPropertyReferObject": {
+                          "ParamID": "43ef666c-eddd-4b90-a51f-47996a5d7b39",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "ID": "87bb8fec-261e-41f1-8d0a-ce55a46ea54b"
+              }
+            ]
+          }
+        ],
+        "Text": "删除",
+        "TemplateKey": "无边框样式"
+      }
+    },
+    "5,20": {
+      "BindingInfo": {
+        "TableName": "purchase_pay_record",
+        "ColumnName": "ID",
+        "GUID": "7d55a31f-b7b3-48c0-bc15-a8026b74208d"
+      }
+    },
+    "17,1": {
+      "CellType": {
+        "$type": "ElementUI.CellTypes.PaginationCellType, ElementUI",
+        "ListviewName": "表格1",
+        "pagerCount": 7,
+        "layout": [
+          {
+            "layoutItem": "->"
+          },
+          {
+            "layoutItem": "prev"
+          },
+          {
+            "layoutItem": "pager"
+          },
+          {
+            "layoutItem": "next"
+          },
+          {
+            "layoutItem": "sizes"
+          },
+          {
+            "layoutItem": "total"
+          }
+        ],
+        "pageSizes": [
+          {},
+          {
+            "value": 20
+          },
+          {
+            "value": 30
+          },
+          {
+            "value": 40
+          },
+          {
+            "value": 50
+          },
+          {
+            "value": 100
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0
+      },
+      {
+        "FontFamily": 1
+      },
+      {
+        "Foreground": 2
+      },
+      {
+        "HorizontalAlignment": 3
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "yyyy\"年\"m\"月\"d\"日\";@",
+        "Body",
+        "Accent 5 0",
+        "Right"
+      ]
+    },
+    "CellStyles": {
+      "5,2": 0,
+      "5,7": 1,
+      "5,8": 1,
+      "5,9": 1,
+      "5,10": 1,
+      "5,11": 1,
+      "5,17": 2,
+      "17,1": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "4,20,1,3",
+    "5,20,1,3",
+    "5,2,1,5",
+    "5,8,1,3",
+    "17,1,1,18",
+    "6,1,10,18",
+    "1,1,2,18",
+    "5,11,1,6",
+    "5,17,1,2",
+    "4,2,1,5",
+    "4,8,1,3",
+    "4,11,1,6",
+    "4,17,1,2"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "Administrator",
+            "采购员",
+            "采购主管",
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "purchase_pay_record"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//pobTfxS332I99+3++WyDTDG9SLN0O2I/+vRqTgq0FqZblR2hEI/yhpJBw9b1vqQl6nIn4ApHQBdTp3cLwfx0B90YdVvanaGYh0hJpqZaH3uGpmQ13Ht6esMfAHa0V4klIKUWUsY2ZcBJc34UNPsErxN+vb2Fi2u1YuPUQHdzuvHd7olG+qqiutjNw1+Hoy8J7bdHbf43OkY3dJzeAEsfJFSr1wzbgXovR8RTIRvvReNRGa9rLxt9k5v9qU24tHfoglr+nmaAQI2qTC+o773llh1VETFzi3nOYRQdLeFVxIf5plaw92dbOoRyZN3o8soa34XX2SzgqoX4HkuLq6Z/aygCgOu+vDqiCTTdM6ht4ZVQsds9t0O9furu67Ja//1gyPsaBCrxVbfWPy8nyN4mH/EpgfsmOPjKDkP6tMEoIcc4ojV2W9M4HDo9EYbDqSNAc51XA6TaU8dVRGPYgL4tYnAX5xMdU4G6/hcYESkDEV82cB6D3LigAO8olls7/AG4xkMUDRjHaMo7cJgnFaG27ZeWBsptYDOjnVkH7IaAHKmaS9UqeF8f5/2rzmUZilFMmHhzcv5xkxk2MqL067OVEPGng7qm65DsqjnGskLUCDZCwCfAPEDavNF5flGDu4pXzQeJiPoLzGOR5UTPO3ogRlXfB/XVtW7JqHapqv5tLuhh0udU5yR0NaC5EvmrUVyIB6kurjp07Dio+sVHHsnnkk6ySiTdNWBOkF84zuUsew+aldMvdf/LZFQBXQiQVuj4TtXkROcdZpxzlR2MTMeuucq5a4+wd4E9pv+ndLcdW17WZssSbOppYzF7xLfmwvWhG24V9beio1qt92KWiiqDlGmZTr/V3sPA8SW0FAMnDoHkPvFfR8u6pL3sQLyXl00ktX9HU0ekDtwTac8M5HRQPw==|920

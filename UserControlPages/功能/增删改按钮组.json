@@ -1,0 +1,179 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 5,
+    "DefaultSize": 80.0
+  },
+  "Values": {
+    "0,0": "新增",
+    "0,2": "修改",
+    "0,4": "删除"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "新增"
+          }
+        ],
+        "Text": "新增",
+        "TemplateKey": "_RS_Minor1"
+      }
+    },
+    "0,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "修改"
+          }
+        ],
+        "Text": "修改",
+        "TemplateKey": "_RS_Minor1"
+      }
+    },
+    "0,4": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "删除"
+          }
+        ],
+        "Text": "删除",
+        "TemplateKey": "_RS_Error1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 0,
+      "0,2": 0,
+      "0,3": 0,
+      "0,4": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [
+      {
+        "Name": "新增"
+      },
+      {
+        "Name": "修改"
+      },
+      {
+        "Name": "删除"
+      }
+    ],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "删除",
+      "Formula": "增删改按钮组!$E$1"
+    },
+    {
+      "Name": "修改",
+      "Formula": "增删改按钮组!$C$1"
+    }
+  ]
+}//jeTTd/oJpK66BY5Z0rP69aePi4MGphpF8SiU0G580OnBuCj40rGoLrhrQGGGPJwWpR8XXctBSIbG3pPJBrgcWCdbLV/gbOHUWQh5PfGG+VWtlU+OURdNISXTP6d9Tn2xdDTDA0/2+LDMFs4Jzd17ZActnENMFlAnIaM/UZ4JFNGwWhkw58AuuzIRT1suDYJriljPgXE2OzTsuL8/7GBY/zircWmY+5Xqe9dDPvebcg2x4xYR74+GBj/MXVa788dvXLVJhHxlIXc5GSTWNgZ+9YlXmiT6WiVw+bmvYu2N41sXBkv7S8bgkMDNqjoDA25La3ow8E43f08EOZO0aHAo1uD/5R1Lz15TtDJrhOP6R3CtwIBqZd82p22WyP+RClO0LxokZ+l3SFQnocb/Ycyw7QbuGgm/BdgTHmrWWgraPgwA8bG0YCX6J2NSP3Nz5ZYZVeKn2g8gL+33iQwuhOJMwdpD7IgWtIil6pjOIfs19gHsxT0O3ogNjrs+MulSVwRuszWM07od6AKuP/9igCES7VPFs/9CSCBYquoY2bAw893krQN8Pd49c3lChA/OBOdpAN/LLmGgJkXwp0DYiGsWwoj8yu1L+lIbxqcwrZKNTOkhQXGqoIipwjwfAjzWVtSNjyTQxy6Rm3v+3GOvFsK43QMHtoexSn1jX7UpmxEZ4tsw60x3VCZ6PoFdP9WZheZzSQFiLdNfuHNXXlR8HzoGWIDfX/he/HDqbBoIQK18dI4EU3A18yRnWLqSBAirnr/LZZDyjeOZKk8NPxOj4gVybQo40fHR9Y35pOAw3/js6ChjJoGrqTwlU+e4BJT7gwgPulcwi1q5e1uGjWwELvHdPwUO8PY0780fvAHwXvuYQLuG6zh0XD/S/XYTog8bzAI+hsTpRYVyjQwfEegZYW1/Cg==|920

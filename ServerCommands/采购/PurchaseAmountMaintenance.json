@@ -1,0 +1,482 @@
+{
+  "Name": "PurchaseAmountMaintenance",
+  "Description": "采购金额维护",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "Administrator",
+                "采购员",
+                "采购主管"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "OperateType",
+          "Remark": "操作类型，包含有：Add，Update，Delete",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "PayAmount",
+          "Remark": "本期付款金额",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "Note",
+          "Remark": "备注",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "PurchaseOrderID",
+          "Remark": "采购订单ID",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "PurchaseDetailsID",
+          "Remark": "采购详情ID",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
+      "CommandList": [
+        {
+          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+          "ConditionAndCommandPairList": [
+            {
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=OperateType"
+                  }
+                },
+                "value": "Add"
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                  "ParameterName": "TotalPaidAmount",
+                  "TableValue": {
+                    "TableName": "purchase_order",
+                    "OnlyGetValue": true,
+                    "TableValueType": 0,
+                    "BindingInfos": [
+                      {
+                        "BindingInfo": {
+                          "TableName": "purchase_order",
+                          "ColumnName": "paid_number",
+                          "GUID": "47e38f46-d29c-4999-9e09-9a831c3be145"
+                        },
+                        "ColumnName": "paid_number"
+                      }
+                    ],
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "TableName": "purchase_order",
+                        "ColumnName": "ID",
+                        "GUID": "fcb04807-2fb1-4265-8a6f-1b36acf1e5d4"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=PurchaseOrderID"
+                      }
+                    }
+                  },
+                  "ID": "d44d239bd4c448caa9cebd3e54f8f8b5"
+                },
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "purchase_pay_record",
+                  "UpdateType": "add",
+                  "ShowConfirm": false,
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "purchase_pay_record",
+                        "ColumnName": "purchase_order",
+                        "GUID": "ee28664f-5a40-4bfc-b561-f35fd3aeaebe"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=PurchaseOrderID"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "purchase_pay_record",
+                        "ColumnName": "date",
+                        "GUID": "77792245-6ad1-4791-9946-0abf0bd1ecdd"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=TODAY()"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "purchase_pay_record",
+                        "ColumnName": "period_pay_number",
+                        "GUID": "a9d19f60-ae95-49e6-9efd-2ecb3c14ee53"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=PayAmount"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "purchase_pay_record",
+                        "ColumnName": "note",
+                        "GUID": "e9636ade-a133-4166-9467-0eb4fb2fc867"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=Note"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "purchase_order",
+                  "ShowConfirm": false,
+                  "RowsToUpdate": 1,
+                  "RowsToUpdateCondition": {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "purchase_order",
+                      "ColumnName": "ID",
+                      "GUID": "9a717ad7-0c65-434c-8ed3-a0176ace56b0"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=PurchaseOrderID"
+                    }
+                  },
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "purchase_order",
+                        "ColumnName": "paid_number",
+                        "GUID": "0b01fa18-a062-401f-8205-4544733d2172"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=TotalPaidAmount+PayAmount"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "ID": "6c79bae2-0047-46b3-bd5d-b11036b6c2c4"
+            },
+            {
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=OperateType"
+                  }
+                },
+                "value": "Update"
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                  "ParameterName": "TotalPaidAmount",
+                  "TableValue": {
+                    "TableName": "purchase_order",
+                    "OnlyGetValue": true,
+                    "TableValueType": 0,
+                    "BindingInfos": [
+                      {
+                        "BindingInfo": {
+                          "TableName": "purchase_order",
+                          "ColumnName": "paid_number",
+                          "GUID": "006c76f9-6bb1-4857-9f49-fe8715e1ae4a"
+                        },
+                        "ColumnName": "paid_number"
+                      }
+                    ],
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "TableName": "purchase_order",
+                        "ColumnName": "ID",
+                        "GUID": "829d3d7b-b9a6-467b-81f3-c4568f60f70e"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=PurchaseOrderID"
+                      }
+                    }
+                  },
+                  "ID": "3fe0039fadd64baaa7a21baa9e0f69df"
+                },
+                {
+                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                  "ParameterName": "PaidDetailsOldAmount",
+                  "TableValue": {
+                    "TableName": "purchase_pay_record",
+                    "OnlyGetValue": true,
+                    "TableValueType": 0,
+                    "BindingInfos": [
+                      {
+                        "BindingInfo": {
+                          "TableName": "purchase_pay_record",
+                          "ColumnName": "period_pay_number",
+                          "GUID": "1e715cf6-df86-4674-8e5e-3515c4eee580"
+                        },
+                        "ColumnName": "period_pay_number"
+                      }
+                    ],
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "TableName": "purchase_pay_record",
+                        "ColumnName": "ID",
+                        "GUID": "5ebdaf22-41c1-42a5-b732-3c275a75c22e"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=PurchaseDetailsID"
+                      }
+                    }
+                  },
+                  "ID": "49010d09ada24eebbfaaaed42868222e"
+                },
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "purchase_pay_record",
+                  "ShowConfirm": false,
+                  "RowsToUpdate": 1,
+                  "RowsToUpdateCondition": {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "purchase_pay_record",
+                      "ColumnName": "ID",
+                      "GUID": "97d1cb7c-465a-4a1f-865b-8667850cbc42"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=PurchaseDetailsID"
+                    }
+                  },
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "purchase_pay_record",
+                        "ColumnName": "period_pay_number",
+                        "GUID": "96708f4d-0f1d-4c40-959c-93ca5b6be0ce"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=PayAmount"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "purchase_pay_record",
+                        "ColumnName": "note",
+                        "GUID": "70e11705-6032-4597-9437-33ef91e25cac"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=Note"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "purchase_order",
+                  "ShowConfirm": false,
+                  "RowsToUpdate": 1,
+                  "RowsToUpdateCondition": {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "purchase_order",
+                      "ColumnName": "ID",
+                      "GUID": "763080f2-d46f-4e12-a59c-1f2d1e689e38"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=PurchaseOrderID"
+                    }
+                  },
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "purchase_order",
+                        "ColumnName": "paid_number",
+                        "GUID": "69007b49-624a-49ed-a78d-9f543ad19227"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=TotalPaidAmount+PayAmount-PaidDetailsOldAmount"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "ID": "528b3363-4735-407a-8499-5b0324aa4059"
+            },
+            {
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=OperateType"
+                  }
+                },
+                "value": "Delete"
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                  "ParameterName": "TotalPaidAmount",
+                  "TableValue": {
+                    "TableName": "purchase_order",
+                    "OnlyGetValue": true,
+                    "TableValueType": 0,
+                    "BindingInfos": [
+                      {
+                        "BindingInfo": {
+                          "TableName": "purchase_order",
+                          "ColumnName": "paid_number",
+                          "GUID": "1555aed2-4e49-46ce-bfaf-84853824f2c7"
+                        },
+                        "ColumnName": "paid_number"
+                      }
+                    ],
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "TableName": "purchase_order",
+                        "ColumnName": "ID",
+                        "GUID": "781d67dc-2913-4a85-9250-b5399e045765"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=PurchaseOrderID"
+                      }
+                    }
+                  },
+                  "ID": "139235b840d9495e8f20819fd848c95a"
+                },
+                {
+                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                  "ParameterName": "PaidDetailsOldAmount",
+                  "TableValue": {
+                    "TableName": "purchase_pay_record",
+                    "OnlyGetValue": true,
+                    "TableValueType": 0,
+                    "BindingInfos": [
+                      {
+                        "BindingInfo": {
+                          "TableName": "purchase_pay_record",
+                          "ColumnName": "period_pay_number",
+                          "GUID": "0d19f1da-9026-47f4-b0e4-37d4b0e96203"
+                        },
+                        "ColumnName": "period_pay_number"
+                      }
+                    ],
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "TableName": "purchase_pay_record",
+                        "ColumnName": "ID",
+                        "GUID": "d13139df-c4d0-4646-8f0a-0ac93a7b7a5b"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=PurchaseDetailsID"
+                      }
+                    }
+                  },
+                  "ID": "564ea9a64136479c82af0977ce8efd35"
+                },
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "purchase_pay_record",
+                  "UpdateType": "delete",
+                  "ShowConfirm": true,
+                  "ConfirmText": "您确定要删除吗？",
+                  "RowsToUpdate": 1,
+                  "RowsToUpdateCondition": {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "purchase_pay_record",
+                      "ColumnName": "ID",
+                      "GUID": "643d70dc-c106-410e-bdc3-3c559ffda3f0"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=PurchaseDetailsID"
+                    }
+                  }
+                },
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "purchase_order",
+                  "ShowConfirm": false,
+                  "RowsToUpdate": 1,
+                  "RowsToUpdateCondition": {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "purchase_order",
+                      "ColumnName": "ID",
+                      "GUID": "7f21008a-f4d8-499e-a45e-b088eae88433"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=PurchaseOrderID"
+                    }
+                  },
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "purchase_order",
+                        "ColumnName": "paid_number",
+                        "GUID": "bcf665ba-5372-4a4a-99dd-35a884fe7935"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=TotalPaidAmount-PaidDetailsOldAmount"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "ID": "7d5c189e-b6cc-431b-bb59-c0bf92ca397b"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

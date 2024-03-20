@@ -1,0 +1,1528 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 34.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "34": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "35": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 36
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "55": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "56": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "57": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "58": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "59": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "60": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "61": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "62": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "63": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 64
+  },
+  "Values": {
+    "1,8": "、",
+    "4,1": "、"
+  },
+  "AttachInfos": {
+    "1,8": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyMenuCellType, Forguncy.CustomMenu",
+        "TemplateKey": "_RS_NewMenuLight",
+        "Items": [
+          {
+            "Text": "首页",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                "ConditionAndCommandPairList": [
+                  {
+                    "Condition": {
+                      "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                      "param": {
+                        "$type": "Forguncy.Model.IfConditionCurrentUserInfoParam, ServerDesignerCommon",
+                        "currentUserProperty": {
+                          "UserProperty": "部门",
+                          "PropertyType": 5
+                        }
+                      },
+                      "value": "采购部"
+                    },
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "PageName": "采购首页"
+                      }
+                    ],
+                    "ID": "838c21bb-e08c-43b5-b048-beb444fe4ced"
+                  },
+                  {
+                    "Condition": {
+                      "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                      "param": {
+                        "$type": "Forguncy.Model.IfConditionCurrentUserInfoParam, ServerDesignerCommon",
+                        "currentUserProperty": {
+                          "UserProperty": "部门",
+                          "PropertyType": 5
+                        }
+                      },
+                      "value": "销售部"
+                    },
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "PageName": "销售首页"
+                      }
+                    ],
+                    "ID": "49b46ef4-81fe-42c7-8ec7-173827446125"
+                  },
+                  {
+                    "Condition": {
+                      "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                      "param": {
+                        "$type": "Forguncy.Model.IfConditionCurrentUserInfoParam, ServerDesignerCommon",
+                        "currentUserProperty": {
+                          "UserProperty": "部门",
+                          "PropertyType": 5
+                        }
+                      },
+                      "value": "管理部"
+                    },
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "PageName": "库存首页"
+                      }
+                    ],
+                    "ID": "638c130e-c56b-4bd3-bc01-083c3afe2b7d"
+                  }
+                ]
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_LoginUser"
+            ]
+          },
+          {
+            "Text": "库存管理",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "Administrator",
+              "采购员",
+              "销售员",
+              "库存管理员",
+              "仓库主管",
+              "采购主管",
+              "销售主管"
+            ],
+            "SubItems": [
+              {
+                "Text": "物品库存",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "物品_库存"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "采购员",
+                  "销售员",
+                  "库存管理员",
+                  "仓库主管",
+                  "采购主管",
+                  "销售主管"
+                ]
+              },
+              {
+                "Text": "出入库管理",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "出入库_列表"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "库存管理员",
+                  "仓库主管"
+                ]
+              },
+              {
+                "Value": "菜单1",
+                "Text": "盘点库存",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "盘点页"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "库存管理员",
+                  "仓库主管"
+                ]
+              }
+            ]
+          },
+          {
+            "Text": "销售采购",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "Administrator",
+              "采购员",
+              "销售员",
+              "采购主管",
+              "销售主管"
+            ],
+            "SubItems": [
+              {
+                "Text": "销售管理",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "销售单"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "销售员",
+                  "销售主管"
+                ]
+              },
+              {
+                "Text": "采购管理",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "采购单"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "采购员",
+                  "采购主管"
+                ]
+              }
+            ]
+          },
+          {
+            "Value": "菜单1",
+            "Text": "来往单位",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "Administrator",
+              "采购员",
+              "销售员",
+              "库存管理员",
+              "仓库主管",
+              "采购主管",
+              "销售主管"
+            ],
+            "SubItems": [
+              {
+                "Value": "菜单1",
+                "Text": "客户",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "供应商_客户",
+                    "PassValues": [
+                      {
+                        "Source": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=3"
+                        },
+                        "TargetCell": {
+                          "SerializeProperty": "=供应商_客户!crType"
+                        }
+                      }
+                    ],
+                    "DeleteCachedQuery": true
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "销售员",
+                  "库存管理员",
+                  "仓库主管",
+                  "销售主管"
+                ]
+              },
+              {
+                "Value": "菜单1",
+                "Text": "供应商",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "供应商_客户",
+                    "PassValues": [
+                      {
+                        "Source": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=2"
+                        },
+                        "TargetCell": {
+                          "SerializeProperty": "=供应商_客户!crType"
+                        }
+                      }
+                    ],
+                    "DeleteCachedQuery": true
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "采购员",
+                  "库存管理员",
+                  "仓库主管",
+                  "采购主管"
+                ]
+              }
+            ]
+          },
+          {
+            "Value": "菜单1",
+            "Text": "报表中心",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_LoginUser"
+            ],
+            "SubItems": [
+              {
+                "Value": "菜单1",
+                "Text": "库存报表",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "出入库汇总表_按物品"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "库存管理员",
+                  "仓库主管"
+                ]
+              },
+              {
+                "Value": "菜单2",
+                "Text": "销售报表",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "销售汇总表(按物品)"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "销售员",
+                  "销售主管"
+                ]
+              },
+              {
+                "Text": "采购报表",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "采购汇总图(按物品)"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "采购员",
+                  "采购主管"
+                ]
+              }
+            ]
+          }
+        ],
+        "Orientation": 0,
+        "MenuLevelsStyle": [
+          {
+            "FontSize": 14.66,
+            "Bold": false,
+            "Height": 45.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          },
+          {
+            "FontSize": 13.33,
+            "Bold": false,
+            "Height": 40.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          }
+        ]
+      }
+    },
+    "1,55": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "ShowCircleUserPicture": true,
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "4,1": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyMenuCellType, Forguncy.CustomMenu",
+        "TemplateKey": "_RS_NewMenuLight",
+        "Items": [
+          {
+            "Text": "采购报表",
+            "IconPath": "Chart/362_column_chart_1.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColor": "Accent 1",
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "Administrator",
+              "采购员",
+              "采购主管"
+            ],
+            "SubItems": [
+              {
+                "Value": "菜单1",
+                "Text": "采购汇总图(按物品)",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "采购汇总图(按物品)"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "采购员",
+                  "采购主管"
+                ]
+              },
+              {
+                "Value": "菜单1",
+                "Text": "采购汇总图(按供应商)",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "采购汇总图(按供应商)"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "采购员",
+                  "采购主管"
+                ]
+              },
+              {
+                "Value": "菜单1",
+                "Text": "采购汇总表(按物品)",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "采购汇总表(按物品)"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "采购员",
+                  "采购主管"
+                ]
+              },
+              {
+                "Value": "菜单1",
+                "Text": "采购汇总表(按供应商)",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "采购汇总表(按供应商)"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "采购员",
+                  "采购主管"
+                ]
+              },
+              {
+                "Text": "采购明细表",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "采购明细表"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "采购员",
+                  "采购主管"
+                ]
+              },
+              {
+                "Text": "采购价格走势图",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "采购价格走势图"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "采购员",
+                  "采购主管"
+                ]
+              },
+              {
+                "Value": "二级菜单",
+                "Text": "采购入库流水表",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "采购入库流水表"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "采购员",
+                  "采购主管"
+                ]
+              }
+            ]
+          },
+          {
+            "Text": "销售报表",
+            "IconPath": "Navigation/167_file_3.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColor": "Accent 1",
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "Administrator",
+              "销售员",
+              "销售主管"
+            ],
+            "SubItems": [
+              {
+                "Text": "销售汇总表(按物品)",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "销售汇总表(按物品)"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "销售员",
+                  "销售主管"
+                ]
+              },
+              {
+                "Text": "销售汇总表(按客户)",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "销售汇总表(按客户)"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "销售员",
+                  "销售主管"
+                ]
+              }
+            ]
+          },
+          {
+            "Text": "库存报表",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "Administrator",
+              "库存管理员",
+              "仓库主管"
+            ],
+            "SubItems": [
+              {
+                "Text": "出入库汇总表(按物品)",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "出入库汇总表_按物品"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "库存管理员",
+                  "仓库主管"
+                ]
+              },
+              {
+                "Text": "出入库明细表",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "出入库明细表"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "库存管理员",
+                  "仓库主管"
+                ]
+              },
+              {
+                "Text": "出入库流水表",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "出入库流水表"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "库存管理员",
+                  "仓库主管"
+                ]
+              },
+              {
+                "Text": "领用出库汇总表(按部门)",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "出入库_领用出库汇总表_按部门"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "库存管理员",
+                  "仓库主管"
+                ]
+              },
+              {
+                "Text": "领用出库明细表",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "出入库_领用出库明细表"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "库存管理员",
+                  "仓库主管"
+                ]
+              },
+              {
+                "Text": "销售出库明细表",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "出入库_销售出库明细表"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "库存管理员",
+                  "仓库主管"
+                ]
+              },
+              {
+                "Text": "物品毛利率统计表",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "出入库_物品毛利率统计表"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "库存管理员",
+                  "仓库主管"
+                ]
+              },
+              {
+                "Text": "收支情况表",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "出入库_收支情况表"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "库存管理员",
+                  "仓库主管"
+                ]
+              }
+            ]
+          }
+        ],
+        "MenuLevelsStyle": [
+          {
+            "FontSize": 14.666666666666666,
+            "Bold": true,
+            "Height": 43.0,
+            "IconHeight": 18.0,
+            "IconWidth": 18.0
+          },
+          {
+            "FontSize": 13.333333333333332,
+            "Bold": false,
+            "Height": 43.0,
+            "IconHeight": 18.0,
+            "IconWidth": 18.0
+          },
+          {
+            "FontSize": 13.333333333333332,
+            "Bold": false,
+            "Height": 43.0,
+            "IconHeight": 18.0,
+            "IconWidth": 18.0
+          }
+        ]
+      }
+    },
+    "4,12": {
+      "IsPlaceHolderCell": true
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": null,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "FontSize": 18.666666666666664,
+        "Foreground": 1,
+        "HorizontalAlignment": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 3,
+        "FontSize": 13.333333333333332,
+        "Foreground": 4,
+        "HorizontalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 1,
+        "FontFamily": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "FontSize": 18.666666666666664,
+        "FontWeight": 6,
+        "Foreground": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "FontSize": 21.333333333333332,
+        "FontWeight": 6,
+        "Foreground": 8,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "VerticalAlignment": 9,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "VerticalAlignment": 9
+      },
+      {
+        "Background": null,
+        "VerticalAlignment": 10,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "微软雅黑",
+        "Background 1 0",
+        "Left",
+        "Body",
+        "Text 1 0",
+        "Right",
+        "Bold",
+        "Background 1 -5",
+        "#FF0070C0",
+        "Center",
+        "Bottom"
+      ],
+      "Borders": [
+        {
+          "Color": 7
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 0,
+      "0,2": 1,
+      "0,3": 0,
+      "0,4": 0,
+      "0,5": 0,
+      "0,6": 0,
+      "0,7": 0,
+      "0,8": 0,
+      "0,9": 0,
+      "0,10": 0,
+      "0,11": 0,
+      "0,12": 0,
+      "0,13": 0,
+      "0,14": 0,
+      "0,15": 0,
+      "0,16": 0,
+      "0,17": 0,
+      "0,18": 0,
+      "0,19": 0,
+      "0,20": 0,
+      "0,21": 0,
+      "0,22": 0,
+      "0,23": 0,
+      "0,24": 0,
+      "0,25": 0,
+      "0,26": 0,
+      "0,27": 0,
+      "0,28": 0,
+      "0,29": 0,
+      "0,30": 0,
+      "0,31": 0,
+      "0,32": 0,
+      "0,33": 0,
+      "0,34": 0,
+      "0,35": 0,
+      "0,36": 0,
+      "0,37": 0,
+      "0,38": 0,
+      "0,39": 0,
+      "0,40": 0,
+      "0,41": 0,
+      "0,42": 0,
+      "0,43": 0,
+      "0,44": 0,
+      "0,45": 0,
+      "0,46": 0,
+      "0,47": 0,
+      "0,48": 0,
+      "0,49": 0,
+      "0,50": 0,
+      "0,51": 0,
+      "0,52": 0,
+      "0,53": 0,
+      "0,54": 0,
+      "0,55": 0,
+      "0,56": 0,
+      "0,57": 0,
+      "0,58": 0,
+      "0,59": 0,
+      "0,60": 0,
+      "0,61": 0,
+      "0,62": 0,
+      "0,63": 0,
+      "1,0": 0,
+      "1,1": 0,
+      "1,2": 0,
+      "1,3": 0,
+      "1,4": 0,
+      "1,5": 0,
+      "1,6": 0,
+      "1,7": 0,
+      "1,8": 2,
+      "1,9": 3,
+      "1,10": 3,
+      "1,11": 3,
+      "1,12": 3,
+      "1,13": 3,
+      "1,14": 3,
+      "1,15": 3,
+      "1,16": 3,
+      "1,17": 3,
+      "1,18": 3,
+      "1,19": 3,
+      "1,20": 3,
+      "1,21": 3,
+      "1,22": 3,
+      "1,23": 3,
+      "1,24": 3,
+      "1,25": 3,
+      "1,26": 3,
+      "1,27": 3,
+      "1,28": 3,
+      "1,29": 3,
+      "1,30": 3,
+      "1,31": 3,
+      "1,32": 3,
+      "1,33": 3,
+      "1,34": 3,
+      "1,35": 3,
+      "1,36": 3,
+      "1,37": 3,
+      "1,38": 3,
+      "1,39": 3,
+      "1,40": 3,
+      "1,41": 3,
+      "1,42": 3,
+      "1,43": 3,
+      "1,44": 3,
+      "1,45": 3,
+      "1,46": 3,
+      "1,47": 3,
+      "1,48": 3,
+      "1,49": 3,
+      "1,50": 3,
+      "1,51": 0,
+      "1,52": 0,
+      "1,53": 0,
+      "1,54": 0,
+      "1,55": 4,
+      "1,56": 5,
+      "1,57": 5,
+      "1,58": 5,
+      "1,59": 5,
+      "1,60": 5,
+      "1,61": 5,
+      "1,62": 5,
+      "1,63": 0,
+      "2,0": 0,
+      "2,1": 0,
+      "2,2": 0,
+      "2,3": 0,
+      "2,4": 0,
+      "2,5": 0,
+      "2,6": 0,
+      "2,7": 0,
+      "2,8": 0,
+      "2,9": 0,
+      "2,10": 0,
+      "2,11": 0,
+      "2,12": 0,
+      "2,13": 0,
+      "2,14": 0,
+      "2,15": 0,
+      "2,16": 0,
+      "2,17": 6,
+      "2,18": 6,
+      "2,19": 0,
+      "2,20": 0,
+      "2,21": 0,
+      "2,22": 0,
+      "2,23": 0,
+      "2,24": 0,
+      "2,25": 0,
+      "2,26": 0,
+      "2,27": 0,
+      "2,28": 0,
+      "2,29": 0,
+      "2,30": 0,
+      "2,31": 0,
+      "2,32": 0,
+      "2,33": 0,
+      "2,34": 0,
+      "2,35": 0,
+      "2,36": 0,
+      "2,37": 0,
+      "2,38": 0,
+      "2,39": 0,
+      "2,40": 0,
+      "2,41": 0,
+      "2,42": 0,
+      "2,43": 0,
+      "2,44": 0,
+      "2,45": 0,
+      "2,46": 0,
+      "2,47": 0,
+      "2,48": 0,
+      "2,49": 0,
+      "2,50": 0,
+      "2,51": 0,
+      "2,52": 0,
+      "2,53": 0,
+      "2,54": 0,
+      "2,55": 0,
+      "2,56": 0,
+      "2,57": 0,
+      "2,58": 0,
+      "2,59": 0,
+      "2,60": 0,
+      "2,61": 0,
+      "2,62": 0,
+      "2,63": 0,
+      "3,1": 0,
+      "3,2": 0,
+      "3,13": 7,
+      "3,14": 8,
+      "3,15": 8,
+      "3,55": 0,
+      "3,56": 0,
+      "3,57": 0,
+      "3,58": 0,
+      "3,59": 0,
+      "3,60": 0,
+      "3,61": 0,
+      "3,62": 0,
+      "4,0": 9,
+      "4,1": 10,
+      "5,0": 9,
+      "6,0": 9,
+      "7,0": 0,
+      "8,0": 0,
+      "9,0": 0,
+      "10,0": 0,
+      "11,0": 0,
+      "12,0": 0,
+      "13,0": 0,
+      "14,0": 0,
+      "15,0": 0,
+      "16,0": 0,
+      "17,0": 0,
+      "18,0": 0,
+      "19,0": 0,
+      "20,0": 0,
+      "21,0": 0,
+      "22,0": 0,
+      "23,0": 0,
+      "24,0": 0,
+      "25,0": 0,
+      "26,0": 0,
+      "27,0": 0,
+      "28,0": 0,
+      "29,0": 0,
+      "30,0": 0,
+      "31,0": 0,
+      "32,0": 0,
+      "33,0": 0,
+      "34,0": 0,
+      "35,0": 0,
+      "35,1": 0,
+      "35,2": 0,
+      "35,3": 0,
+      "35,4": 0,
+      "35,5": 0,
+      "35,6": 0,
+      "35,7": 0,
+      "35,8": 0,
+      "35,9": 0,
+      "35,10": 0,
+      "35,11": 0,
+      "35,12": 0,
+      "35,13": 7,
+      "35,14": 0,
+      "35,15": 0,
+      "35,16": 0,
+      "35,17": 0,
+      "35,18": 0,
+      "35,19": 0,
+      "35,20": 0,
+      "35,21": 0,
+      "35,22": 0,
+      "35,23": 0,
+      "35,24": 0,
+      "35,25": 0,
+      "35,26": 0,
+      "35,27": 0,
+      "35,28": 0,
+      "35,29": 0,
+      "35,30": 0,
+      "35,31": 0,
+      "35,32": 0,
+      "35,33": 0,
+      "35,34": 0,
+      "35,35": 0,
+      "35,36": 0,
+      "35,37": 0,
+      "35,38": 0,
+      "35,39": 0,
+      "35,40": 0,
+      "35,41": 0,
+      "35,42": 0,
+      "35,43": 0,
+      "35,44": 0,
+      "35,45": 0,
+      "35,46": 0,
+      "35,47": 0,
+      "35,48": 0,
+      "35,49": 0,
+      "35,50": 0,
+      "35,51": 0,
+      "35,52": 0,
+      "35,53": 0,
+      "35,54": 0,
+      "35,55": 0,
+      "35,56": 0,
+      "35,57": 0,
+      "35,58": 0,
+      "35,59": 0,
+      "35,60": 0,
+      "35,61": 0,
+      "35,62": 0,
+      "35,63": 0
+    },
+    "RowStyles": {
+      "4": 11,
+      "5": 11,
+      "6": 11
+    },
+    "ColStyles": {
+      "0": 12,
+      "3": 12,
+      "4": 12,
+      "5": 12,
+      "6": 12,
+      "7": 12,
+      "8": 12,
+      "9": 12,
+      "10": 12,
+      "11": 12,
+      "12": 12,
+      "24": 12,
+      "25": 12,
+      "26": 12,
+      "27": 12,
+      "28": 12,
+      "29": 12,
+      "30": 12,
+      "31": 12,
+      "32": 12,
+      "33": 12,
+      "34": 12,
+      "35": 12,
+      "36": 12,
+      "37": 12,
+      "38": 12,
+      "39": 12,
+      "40": 12,
+      "41": 12,
+      "42": 12,
+      "43": 12,
+      "44": 12,
+      "45": 12,
+      "46": 12,
+      "47": 12,
+      "48": 12,
+      "49": 12,
+      "50": 12,
+      "51": 12,
+      "52": 12,
+      "53": 12,
+      "54": 12,
+      "63": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 3,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,55,1,8",
+    "3,15,1,24",
+    "4,1,31,10",
+    "4,12,31,50",
+    "1,8,1,43"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "Pictures": [
+    {
+      "Name": "66c3723b-19f8-4e9b-9559-3df05c0ada86",
+      "ForguncyPictureName": "fgc_logo_dark.png",
+      "ForguncyPictureSourceType": 0,
+      "Stretch": 2,
+      "Location": "16,9",
+      "Size": "100,32"
+    }
+  ],
+  "BackgroundPictures": [
+    {
+      "Name": "dca281e6-84cc-4253-89ed-c98554196224",
+      "DisplayName": "Background",
+      "StyleInfo": {
+        "Fill": "Background 1 0",
+        "StrokeDashType": 8,
+        "Stroke": "black",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Size": "1264,50",
+      "BoxShadowString": "0 2 0 5 #175D7183"
+    }
+  ]
+}//LHKQs66USW+8yg7TzN1DherLm5UsWkrbzH2QA8MLClEUWidLH6CUB93M4eJCcYYOgSgzY1EYv8ggY3wq0V7aDjbo9q3UlpEn//pkKKhXp7uhPcorebXVE2rb4U5lV/+VuuacIruJQlNS5kLWPuknIbWHB8ti1+p8YBpz5PdCIQZwMS6VsQEJjAFW7wu5lC1FpFiX+FpVsfEscZE6DzCiL0KHTvHHlFV6NPnrCz+52WyI3RQVw5KX8twy9sLtoZ9TmZtcr93EMJkwCrigskljVnS2yw5sk2KY8wRavw5sP9YDw61CqGTp5VrEh8LzrY3UH8NYpqv9z/krvBE9EGgP1RQP4oyKcqYbHryx2a8NG1zvkgyxnFks3d1/fFU08jUYzBBpZzkY/d195fY63d2KA/lFE7/PZwz5XDMzchKQk8DCmkQFhRq7fkDEs+du0J0c+bdsxaBO5osTfj/+YFhz9Mct4F0mh3CaVk2JIlBl/oHODCbaJAzWSRgTBzNJzR7HOxj9W/rTRdSqZYYhOeV8aicPDNFluszQIRTUdJMQtUPJAO3lAuI/dCwaCThtG+HKa4QMKbWBRQNLuD/s++1cLuToa1TmpzkdQUNKTwsdSUW9U7XIv0jpdFDMgS+frEo38vh3u0zI4vVvh+3rmNdWz6WOfDhG+osw8XD4QHrFBvAECnffFRj3AzU7fkYNpicriGH7ml6VvOcZqT+GAdEVnxVF8d8oyKbvngNAszUiY4z8cXpUoYAiBCA9Wt/WtN3hVdZl/kG6y9UoIoaP64jYdHA+hVuufu+q9C1FOadfEWyTHtO5+ZVopONUBVWGiSZyH8FEATHN1+xY7hTL6qNvhM+rnQbjhV5NU2VcBGuklSBkuUk2j9EIoMv6er3Y4CXAXW05eCSOs0FFz9FjTcZfIw==|920

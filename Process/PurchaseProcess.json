@@ -1,0 +1,26 @@
+{
+  "Name": "PurchaseProcess",
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.BpmProcess.BpmProcessPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.BpmProcess.BpmProcessPermissionResource, Forguncy.RbacPermission.Core"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.BpmProcess.BpmProcessPermissionBinding, Forguncy.RbacPermission.Core",
+        "bpmProcessPermissionType": 1,
+        "roleNames": [
+          "采购主管",
+          "采购员"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.BpmProcess.BpmProcessPermissionBinding, Forguncy.RbacPermission.Core",
+        "bpmProcessPermissionType": 2,
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  }
+}

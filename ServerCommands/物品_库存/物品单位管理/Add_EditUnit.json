@@ -1,0 +1,85 @@
+{
+  "Name": "Add_EditUnit",
+  "Description": "新增 编辑物品单位",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "UnitID",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "UnitName",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "UnitOrder",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "unit_dictionary",
+      "UpdateType": "addOrEdit",
+      "ShowConfirm": false,
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "ColumnBindingInfo": {
+          "TableName": "unit_dictionary",
+          "ColumnName": "ID",
+          "GUID": "5d948fef-0bcb-4021-81e0-1cc78995c01b"
+        },
+        "Value": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=UnitID"
+        }
+      },
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "unit_dictionary",
+            "ColumnName": "unit_name",
+            "GUID": "bacb84ef-fe82-41f3-9185-7275658f7a3f"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=UnitName"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "unit_dictionary",
+            "ColumnName": "order_number",
+            "GUID": "7b1c28b4-0ea1-49d2-8a71-74cd1d445545"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=UnitOrder"
+          }
+        }
+      ]
+    }
+  ]
+}

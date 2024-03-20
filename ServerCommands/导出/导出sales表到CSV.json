@@ -1,0 +1,456 @@
+{
+  "Name": "导出sales表到CSV",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "路径",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数1",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数2",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数3",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数4",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数5",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数6",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数7",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数8",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数9",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数10",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数11",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数12",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数13",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数14",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数15",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数16",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数17",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数18",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数19",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数20",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数21",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数22",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数23",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数24",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数25",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数26",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数27",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数28",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数29",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数30",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数31",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数32",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数33",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数34",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数35",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数36",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数37",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数38",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数39",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数40",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数41",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "参数42",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.Commands.ServerImportExportCSVCommand, ServerDesignerCommon",
+      "FilePath": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=路径"
+      },
+      "TableName": "sales_order",
+      "ImportMode": 2,
+      "Columns": [
+        {
+          "BindingColumn": {
+            "TableName": "sales_order",
+            "ColumnName": "ID",
+            "GUID": "35969496-2ca0-4e86-ba13-39b5bde0b93c"
+          },
+          "CSVColumnNameOrIndex": "ID",
+          "IsPrimaryKey": true
+        },
+        {
+          "BindingColumn": {
+            "TableName": "sales_order",
+            "ColumnName": "order_id",
+            "GUID": "b70e56cd-2bf0-441a-9318-784e39c3b85b"
+          },
+          "CSVColumnNameOrIndex": "单号"
+        },
+        {
+          "BindingColumn": {
+            "TableName": "sales_order",
+            "ColumnName": "sales_date",
+            "GUID": "af43f508-61ba-4a24-820a-238725bf7863"
+          },
+          "CSVColumnNameOrIndex": "销售日期"
+        },
+        {
+          "BindingColumn": {
+            "TableName": "sales_order",
+            "ColumnName": "customer_id",
+            "GUID": "874b9964-40b2-409b-9b20-d57cb01229d3"
+          },
+          "CSVColumnNameOrIndex": "客户ID"
+        },
+        {
+          "BindingColumn": {
+            "TableName": "sales_order",
+            "ColumnName": "contact_person",
+            "GUID": "20a10383-766f-42f9-be36-526456b9b83e"
+          },
+          "CSVColumnNameOrIndex": "联系人"
+        },
+        {
+          "BindingColumn": {
+            "TableName": "sales_order",
+            "ColumnName": "contact_phone_number",
+            "GUID": "4cdace6b-2846-48c3-bd9d-07b0028adc5e"
+          },
+          "CSVColumnNameOrIndex": "联系电话"
+        },
+        {
+          "BindingColumn": {
+            "TableName": "sales_order",
+            "ColumnName": "delivery_date",
+            "GUID": "927f4aff-d9d8-4ba2-86dd-feaf1a469f6e"
+          },
+          "CSVColumnNameOrIndex": "交货日期"
+        },
+        {
+          "BindingColumn": {
+            "TableName": "sales_order",
+            "ColumnName": "project_id",
+            "GUID": "6d9fe2ab-68fa-41fa-b70a-3efe15e0df9e"
+          },
+          "CSVColumnNameOrIndex": "项目ID"
+        },
+        {
+          "BindingColumn": {
+            "TableName": "sales_order",
+            "ColumnName": "seller",
+            "GUID": "6ac08663-ca21-473c-b74f-af0996b61067"
+          },
+          "CSVColumnNameOrIndex": "销售员"
+        },
+        {
+          "BindingColumn": {
+            "TableName": "sales_order",
+            "ColumnName": "sales_department",
+            "GUID": "afba2320-3d20-45c5-b67d-ad522695ba58"
+          },
+          "CSVColumnNameOrIndex": "销售部门"
+        },
+        {
+          "BindingColumn": {
+            "TableName": "sales_order",
+            "ColumnName": "note",
+            "GUID": "aea6a298-87e2-46bf-bc37-2d5937325f70"
+          },
+          "CSVColumnNameOrIndex": "备注"
+        },
+        {
+          "BindingColumn": {
+            "TableName": "sales_order",
+            "ColumnName": "outstock_status",
+            "GUID": "0b477fcb-c5ad-4654-be24-b022f3bb4c81"
+          },
+          "CSVColumnNameOrIndex": "出库状态"
+        },
+        {
+          "BindingColumn": {
+            "TableName": "sales_order",
+            "ColumnName": "total_amount",
+            "GUID": "b5c58645-68e3-4fb1-a102-226a9d72e2bd"
+          },
+          "CSVColumnNameOrIndex": "总金额"
+        },
+        {
+          "BindingColumn": {
+            "TableName": "sales_order",
+            "ColumnName": "audit_status",
+            "GUID": "f7b025f7-6136-4b04-a8a9-4ead9e42245a"
+          },
+          "CSVColumnNameOrIndex": "审核状态"
+        },
+        {
+          "BindingColumn": {
+            "TableName": "sales_order",
+            "ColumnName": "audit_id",
+            "GUID": "d1d2804f-93e9-48bc-88b3-a5eaef4652b2"
+          },
+          "CSVColumnNameOrIndex": "审核实例ID"
+        }
+      ],
+      "ConvertDateTime": false
+    }
+  ],
+  "ReturnProperties": [
+    {
+      "Name": "返回值1"
+    },
+    {
+      "Name": "返回值2"
+    },
+    {
+      "Name": "返回值3"
+    },
+    {
+      "Name": "返回值4"
+    },
+    {
+      "Name": "返回值5"
+    },
+    {
+      "Name": "返回值6"
+    },
+    {
+      "Name": "返回值7"
+    },
+    {
+      "Name": "返回值8"
+    },
+    {
+      "Name": "返回值9"
+    },
+    {
+      "Name": "返回值10"
+    },
+    {
+      "Name": "返回值11"
+    },
+    {
+      "Name": "返回值12"
+    },
+    {
+      "Name": "返回值13"
+    },
+    {
+      "Name": "返回值14"
+    },
+    {
+      "Name": "返回值15"
+    },
+    {
+      "Name": "返回值16"
+    },
+    {
+      "Name": "返回值17"
+    },
+    {
+      "Name": "返回值18"
+    },
+    {
+      "Name": "返回值19"
+    },
+    {
+      "Name": "返回值20"
+    },
+    {
+      "Name": "返回值21"
+    },
+    {
+      "Name": "返回值22"
+    },
+    {
+      "Name": "返回值23"
+    },
+    {
+      "Name": "返回值24"
+    },
+    {
+      "Name": "返回值25"
+    },
+    {
+      "Name": "返回值26"
+    },
+    {
+      "Name": "返回值27"
+    },
+    {
+      "Name": "返回值28"
+    },
+    {
+      "Name": "返回值29"
+    },
+    {
+      "Name": "返回值30"
+    },
+    {
+      "Name": "返回值31"
+    },
+    {
+      "Name": "返回值32"
+    },
+    {
+      "Name": "返回值33"
+    },
+    {
+      "Name": "返回值34"
+    },
+    {
+      "Name": "返回值35"
+    },
+    {
+      "Name": "返回值36"
+    },
+    {
+      "Name": "返回值37"
+    },
+    {
+      "Name": "返回值38"
+    },
+    {
+      "Name": "返回值39"
+    },
+    {
+      "Name": "返回值40"
+    }
+  ]
+}

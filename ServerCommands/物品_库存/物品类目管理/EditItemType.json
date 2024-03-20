@@ -1,0 +1,84 @@
+{
+  "Name": "EditItemType",
+  "Description": "编辑类目名称",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "ItemTypeID",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "NewItemTypeName",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "ItemTypePath",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "item_type",
+      "ShowConfirm": false,
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "ColumnBindingInfo": {
+          "TableName": "item_type",
+          "ColumnName": "ID",
+          "GUID": "3a94333f-4f4b-4a6d-9858-986d022aab1b"
+        },
+        "Value": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=ItemTypeID"
+        }
+      },
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "item_type",
+            "ColumnName": "type_name",
+            "GUID": "9f4d957c-7281-4158-8f20-6ba4fa4bc989"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=NewItemTypeName"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "item_type",
+            "ColumnName": "type_path",
+            "GUID": "a213aeab-74fe-48e5-83b1-842f9769e1b2"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=ItemTypePath"
+          }
+        }
+      ]
+    }
+  ]
+}

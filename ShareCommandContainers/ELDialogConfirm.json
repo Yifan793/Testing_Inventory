@@ -1,0 +1,54 @@
+{
+  "ID": "e75e6b4d-8e7e-4aff-a87b-40db5bf0ca6d",
+  "Name": "ELDialogConfirm",
+  "Description": "确认弹窗，应用场景：删除，确认某操作等",
+  "Params": [
+    {
+      "ID": "80138322-dd71-42ba-a421-02cb14959435",
+      "Name": "Title"
+    },
+    {
+      "ID": "c587ef1e-dcc2-4203-8cba-1dd483c7414e",
+      "Name": "Content"
+    }
+  ],
+  "Returns": [
+    {
+      "ID": "64cc7657-365c-4ab6-812d-689e51729cfe",
+      "Name": "IsConfirm",
+      "Remark": "返回：confirm, cancel"
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "ElementUI.Commands.ShowMessageBox, ElementUI",
+      "Title": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=Title"
+      },
+      "Message": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=Content"
+      },
+      "Type": "warning",
+      "ConfirmButtonText": "确定",
+      "ShowCancelButton": true,
+      "CancelButtonText": "取消",
+      "ShowClose": false,
+      "DialogResult": "IsConfirm",
+      "AdvancedSettings": {}
+    },
+    {
+      "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+      "CustomReturns": [
+        {
+          "ReturnPropertyName": "IsConfirm",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=IsConfirm"
+          }
+        }
+      ]
+    }
+  ]
+}

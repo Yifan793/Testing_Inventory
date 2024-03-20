@@ -1,0 +1,180 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "41": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "42": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "43": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 45
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      }
+    },
+    "Count": 47
+  },
+  "Values": {
+    "43,35": "打印",
+    "43,41": "导出Excel"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "IsPlaceHolderCell": true
+    },
+    "43,35": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportPageToPdfCommand, ServerDesignerCommon",
+            "ExportExcelPageNameMode": 2,
+            "Comments": "导出文件名称 设置于子页面",
+            "NewOtherName": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=打印_导出!导出文件名称"
+            }
+          }
+        ],
+        "Text": "打印",
+        "TemplateKey": "_RS_Main1",
+        "Icon": {
+          "Name": "Application/075_print_6.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    },
+    "43,41": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
+            "ExportExcelPageNameMode": 2,
+            "Comments": "导出文件名称 设置于子页面",
+            "NewOtherName": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=打印_导出!导出文件名称"
+            }
+          }
+        ],
+        "Text": "导出Excel",
+        "TemplateKey": "_RS_Main1",
+        "Icon": {
+          "Name": "File/348_excel_file_1.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderBottom": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Background 1 -5",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 0
+        }
+      ]
+    },
+    "CellStyles": {
+      "41,0": 0,
+      "41,1": 0,
+      "41,2": 0,
+      "41,3": 0,
+      "41,4": 0,
+      "41,5": 0,
+      "41,6": 0,
+      "41,7": 0,
+      "41,8": 0,
+      "41,9": 0,
+      "41,10": 0,
+      "41,11": 0,
+      "41,12": 0,
+      "41,13": 0,
+      "41,14": 0,
+      "41,15": 0,
+      "41,16": 0,
+      "41,17": 0,
+      "41,18": 0,
+      "41,19": 0,
+      "41,20": 0,
+      "41,21": 0,
+      "41,22": 0,
+      "41,23": 0,
+      "41,24": 0,
+      "41,25": 0,
+      "41,26": 0,
+      "41,27": 0,
+      "41,28": 0,
+      "41,29": 0,
+      "41,30": 0,
+      "41,31": 0,
+      "41,32": 0,
+      "41,33": 0,
+      "41,34": 0,
+      "41,35": 0,
+      "41,36": 0,
+      "41,37": 0,
+      "41,38": 0,
+      "41,39": 0,
+      "41,40": 0,
+      "41,41": 0,
+      "41,42": 0,
+      "41,43": 0,
+      "41,44": 0,
+      "41,45": 0,
+      "41,46": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "0,0,42,47",
+    "43,41,1,5",
+    "43,35,1,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//n7VYeDCCea8z0TXlvCeams0mSGa5ooFK4yedpGUOryRMp4qmxePVK+GsH/bu3whw76M9NkWQyj0TYc+MzNeW7nd6aSamjPZlqDengfi/1hbgVHJyMja5A72QBPRMif4XxrMdyTN5whr2aQX0qVwkh46gZZBu3Qe0qTfkNX0eg7XdFXYgpZFkMdFxxq9Th3aQw+4QV78QYTHwL9TjFgJrMz+B5GVl3NEUQ+QDU8nXhix5ekKUt1jqGlD+vyUW/UqVMznc457OATMJMkityiz09LPI+Wd95INwDniNVc+MbjhanStOqfwyByJ5fFNcxtNbw9zog7n2MPT6VaDfQAb+dmQVk83C5iMheGEGS4AoqCoNyc1EMPiK/df3MdH1VP4lqYETcehWvGXxEVyDf5yhP7u8sZ0GsfpUGVaf5SiytKQsiXNyGFUW2MINRHMrjVzb/xLyUApOw2fugec8gR/H1gNDl8NlZNUf9KHJBwyoCA86rSwxg/hS4aS7eYsH8HPfyd12BPA9Z6abNjVRIVIYEHBv1Rfkq0oIa5E+72e/42tKKZNxeaqSvRrELbkRPq0zsXKZZki9hoqrHeKuzVsp+81/ob7afPFjsXSlC992CVLi/gg8CL+xW/0GIAy0Ygc7dBXa+R7YWYBXTDutAkwYv7yNpk3jm3OWziitGF0o5254RGFzJjH0opA8Qv83ulC94jpVf+5wLorUfAM7ZlOimPuKvl4Pq9T7WviBrgTNY4wiEOicl29SkJGPH60iOLP61UmNgwLCkOdIrvzlJf8mPw9REQjZUA+bFB3l3zZrEoQ6/po6ca8/YC2D1TMGd9YDTE1DqbFsDTvdIUtN+qGsyzqZCB4FyKb3fPIAPgqsGYYN77i2Dk1F9jwZk7Zn6wEnyyc2S7ZUOr6gs376dOfKiA==|920

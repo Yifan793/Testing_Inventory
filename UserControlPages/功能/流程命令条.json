@@ -1,0 +1,114 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 120.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 120.0
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.ProcessPanelCellType, ServerDesignerCommon",
+        "PreCommands": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "前置命令事件",
+            "CommandParamValue": [
+              {
+                "Name": "actionName",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=流程命令条!Action.Name"
+                }
+              }
+            ]
+          }
+        ],
+        "PostCommands": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "后置命令事件"
+          }
+        ],
+        "TemplateKey": "流程样式2",
+        "ActionButtonStyleTemplateInfos": [
+          {
+            "ActionTitle": "通过",
+            "TemplateKey": "流程样式"
+          },
+          {
+            "ActionTitle": "拒绝",
+            "TemplateKey": "_RS_Error1"
+          }
+        ],
+        "ButtonGap": 10
+      }
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "0,0,1,1"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [
+      {
+        "Name": "前置命令事件",
+        "CommandParameters": [
+          {
+            "Name": "actionName"
+          }
+        ]
+      },
+      {
+        "Name": "后置命令事件"
+      }
+    ],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//3bPgmmdsJ2KA0GEZj+CBtomWe6+AYxYa4pj1qcSNuSsDS9jtosL7EiPiaKVz3wyKo2KctTy+oQsFTkR29VZAgTYZ0EOL9LkJegsEIwZtMmJOfPcSS7Hu1Q2pOtZMRdJcdZVW8fT/PhgknXwvmjMR6Jdj5Yi0fEp6AFNXzdgSL8cuHhs89dGABfDtUcPNbzZsz+zDidWK3B4eG9wq63gjT/fEzmxrp/Q2F0Gjyv1krU6YIK2hZjSrQ0or67CLsyZutIAPphnOHtfMIkYLRP3oZ9EmJF8eU2i6VPUJrVDGyQSddse4mTUkNi+1TZVbtj+ef3C00Pe6jFFuu/gXtBVYvnpthwvb6CezaPTMtMvSXFbLeGrZuocGOmV4s6l/zQsbp/AI8VsmcHA9F2D7w1qXA0NEcYV5aBOcIXkCByUisAcVKwCGaYKgIX2j6THDjBG3wIN+s70gT0XzCsW4smCiAYarRXp9jHkmq4LGI7gioZcqU+MgC/LN3dyNVatxiDiuBs9c3cIwBX8syBNPuO0/FcYF7QMpvqECBHZfgtEB7Yd20+CoHtOdrwA+pz+5hfzUJOPNK47jtg70DZATel8mcCVUUrGrvyhXvLWEyWHsMAShZNWDzDi26Y4VCmI0RoEDDUcS5NCJ05A36XuwK2rEBH4pKhYi+W4gCOGrBaY4KO7ihBG/Ojs1FwtkVPFVtwwIN83ZNFK7Nf7+Umu7ShIGkfj2RMB20KTl7jz/7i7ZtCmoZMttcBscDO9gTvkCRrHQoVsCdVnhocFzXHpDwiHGSKJAfgE7U6er4pTgaTRNjL1dTmGnIaIX1/4Ww/f6x2StGC6sSSGjUY3zBoVDU0bavQR5n9+cMCDnzpU2x4IxJApuQ7BGedoH4rDpUoMDtksDwAxFN0mOHEyN4AE2C1XcZw==|920

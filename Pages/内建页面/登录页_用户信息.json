@@ -1,0 +1,442 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 42.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 7,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 140.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 140.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 140.0
+        }
+      }
+    },
+    "Count": 3,
+    "DefaultSize": 140.0
+  },
+  "Values": {
+    "0,0": "用户名",
+    "0,1": "密码",
+    "0,2": "角色",
+    "1,0": "库存管理员1",
+    "1,1": 123456,
+    "1,2": "库存管理员",
+    "2,0": "采购员1",
+    "2,1": 123456,
+    "2,2": "采购员",
+    "3,0": "销售员1",
+    "3,1": 123456,
+    "3,2": "销售员",
+    "4,0": "仓库主管1",
+    "4,1": 123456,
+    "4,2": "仓库主管",
+    "5,0": "采购主管1",
+    "5,1": 123456,
+    "5,2": "采购主管",
+    "6,0": "销售主管1",
+    "6,1": 123456,
+    "6,2": "销售主管"
+  },
+  "AttachInfos": {
+    "1,0": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=登录页_用户信息!用户名"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=登录页_用户信息!A2"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=登录页_用户信息!密码"
+                },
+                "Value": "123456"
+              }
+            ]
+          }
+        ],
+        "Text": "库存管理员1",
+        "ClickMode": 1,
+        "TemplateKey": "_RS_Main"
+      }
+    },
+    "2,0": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=登录页_用户信息!用户名"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=登录页_用户信息!A3"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=登录页_用户信息!密码"
+                },
+                "Value": "123456"
+              }
+            ]
+          }
+        ],
+        "Text": "采购员1",
+        "ClickMode": 1,
+        "TemplateKey": "_RS_Main"
+      }
+    },
+    "3,0": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=登录页_用户信息!用户名"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=登录页_用户信息!A4"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=登录页_用户信息!密码"
+                },
+                "Value": "123456"
+              }
+            ]
+          }
+        ],
+        "Text": "销售员1",
+        "ClickMode": 1,
+        "TemplateKey": "_RS_Main"
+      }
+    },
+    "4,0": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=登录页_用户信息!用户名"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=登录页_用户信息!A5"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=登录页_用户信息!密码"
+                },
+                "Value": "123456"
+              }
+            ]
+          }
+        ],
+        "Text": "仓库主管1",
+        "ClickMode": 1,
+        "TemplateKey": "_RS_Main"
+      }
+    },
+    "5,0": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=登录页_用户信息!用户名"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=登录页_用户信息!A6"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=登录页_用户信息!密码"
+                },
+                "Value": "123456"
+              }
+            ]
+          }
+        ],
+        "Text": "采购主管1",
+        "ClickMode": 1,
+        "TemplateKey": "_RS_Main"
+      }
+    },
+    "6,0": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=登录页_用户信息!用户名"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=登录页_用户信息!A7"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=登录页_用户信息!密码"
+                },
+                "Value": "123456"
+              }
+            ]
+          }
+        ],
+        "Text": "销售主管1",
+        "ClickMode": 1,
+        "TemplateKey": "_RS_Main"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": 0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3,
+        "BorderBottom": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3,
+        "BorderBottom": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3,
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "Foreground": 4,
+        "HorizontalAlignment": 3,
+        "Underline": false,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "HorizontalAlignment": 3,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "HorizontalAlignment": 3,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "Background": 5,
+        "Foreground": 4,
+        "HorizontalAlignment": 3,
+        "Underline": false,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 5,
+        "HorizontalAlignment": 3,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 5,
+        "HorizontalAlignment": 3,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "Background": 5,
+        "Foreground": 4,
+        "HorizontalAlignment": 3,
+        "Underline": false,
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 5,
+        "HorizontalAlignment": 3,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 5,
+        "HorizontalAlignment": 3,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "#FF7FBEFF",
+        "Bold",
+        "Background 1 0",
+        "Center",
+        "black",
+        "#FFD3EAFF",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Style": 2,
+          "Color": 4
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 1,
+      "0,2": 2,
+      "1,0": 3,
+      "1,1": 4,
+      "1,2": 5,
+      "2,0": 6,
+      "2,1": 7,
+      "2,2": 8,
+      "3,0": 3,
+      "3,1": 4,
+      "3,2": 5,
+      "4,0": 6,
+      "4,1": 7,
+      "4,2": 8,
+      "5,0": 3,
+      "5,1": 4,
+      "5,2": 5,
+      "6,0": 9,
+      "6,1": 10,
+      "6,2": 11
+    },
+    "SheetStyle": {
+      "FontFamily": 6
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//npNrYLpr4oPuypu5XiukFkSJujTUX2k1d6Umb4kU3kMlG6unIhuQDsVx/Vca1r7DZsk2z6pF+T7fKgwFATlTYdqyTuAonrGKKotoCDgsOaWTpnH8rz/v2Ni1oVGkUUVh+FuXCmGIiS3lHe9pgn5y3TW/lgVGEDr1jOZuvllH9HOxVu66ed0wVeMns69nr5Vbm2Ko9XdpQrZK9wiiW25chY0Tz+m1MkSaIi9+Ps1UJVbR2mThDUz16OS+ACNlrVpNiYspQSFblXkgdIAzfcDsj+PjlJJUKDSmdRL0LAqxXspQ2MvMLTUaj5EKluxn36mWBLdbqqS4/Z7yp6w35BLfnlQHYeLVR53GKi9rEtU0TFWukQdna26ZfejrS9mqOg5dwKkTMDZzDdgm8yr5EitUKnd00QTHUoIblQXSMeURjdKxcHrghF5uMk0Rgwy0SmpJEu6o+yU6Qen+Fd+mec7AxnGC54lYmipM1UHcF1lHmNYhY4XcOGhj0+nKalBGz/8c7ma9PBQQVmGzW6KtLEpImey0r3OO4ICGyzeCp7NQJdnAhb1YEGrKkaaYEwSPlI088bOneb0lyaMsGpibQJSpcjnScubE6kQVEWSJ/jWCUvimF0VgQTcA8ZJdjTO2GVBfUvxLu8CLbdSdB6ln5cYcz1HrwU+awZOlpg9o74Tmp0K9FC7JXZA58+DWspanZtH1SdkO5Bi4grUB2S0czXYn/Sy6DICFL4F/nu/tBRWft58o587uVULeHWH3slLd8r1Oh5TMf6DF4LlarfWuuTWn/nTsOyZjcnCYuRNkWRLvWlGJ9hXg6COpmXwafjZklg5E7qCfEGHiaxssfnq1GT5ALZ7g/sjwluQ8nGnjFEwg7A6pE9VTv1tAK3UkckOV7P0wMBx/yYRFfuNlfr4CXAiLtQ==|920

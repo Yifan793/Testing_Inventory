@@ -1,0 +1,1762 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 48.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 48.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0,
+          "Mode": 1
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 26,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "47": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "48": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 162.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      48
+    ],
+    "Count": 49
+  },
+  "Values": {
+    "1,1": "盘点单",
+    "4,2": "单号",
+    "4,15": "*",
+    "4,16": "盘点日期",
+    "7,2": "相关物品列表",
+    "7,41": "批量选择物品",
+    "9,2": "物品编号",
+    "9,7": "物品名称",
+    "9,19": "单位",
+    "9,26": "*盘点数",
+    "9,31": "盈亏数量",
+    "9,35": "盘点结果",
+    "10,45": "删除",
+    "18,2": "备注",
+    "18,30": "经办人",
+    "19,48": "%CurrentUser.FullName%",
+    "24,33": "暂存",
+    "24,38": "结束盘点",
+    "24,43": "取消"
+  },
+  "Formulas": {
+    "9,48": "TEXTJOIN(\",\",TRUE,C11)",
+    "10,31": "AA11-W11",
+    "10,35": "IF(AF11=0,\"正常\",IF(AF11>0,\"盘盈\",\"盘亏\"))",
+    "13,48": "COUNT(C11)"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "弹窗标题格式"
+      }
+    },
+    "1,48": {
+      "CellComment": {
+        "Comments": "新建标识，判断新增还是编辑用"
+      }
+    },
+    "4,15": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "必填标识"
+      }
+    },
+    "5,2": {
+      "BindingInfo": {
+        "TableName": "inventory_list",
+        "ColumnName": "inventory_order",
+        "GUID": "62ba4ecd-d405-4d6a-964e-be59d317d3fb"
+      }
+    },
+    "5,16": {
+      "BindingInfo": {
+        "TableName": "inventory_list",
+        "ColumnName": "inventory_date",
+        "GUID": "aa5d96c9-edf4-470b-9753-47d7330dc084"
+      },
+      "CellType": {
+        "$type": "ElementUI.DatePickerCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "date",
+        "startPlaceholder": "开始日期",
+        "rangeSeparator": "至",
+        "endPlaceholder": "结束日期",
+        "firstDayOfWeek": 1,
+        "DefautWeekFormat": "yyyy 第 WW 周"
+      }
+    },
+    "5,48": {
+      "BindingInfo": {
+        "TableName": "inventory_list",
+        "ColumnName": "ID",
+        "GUID": "38054aa4-4518-4fd3-87ec-9c3b8cc53655"
+      }
+    },
+    "7,41": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PopupDisplayMode": 2,
+            "PageName": "物品选择页",
+            "PassValues": [
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=盘点页填写!AW10"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=物品选择页!表格选择项容器"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "批量选择物品",
+        "TemplateKey": "无边框样式",
+        "Icon": {
+          "Name": "Navigation/181_cart_1.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    },
+    "9,2": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "inventory_list_details",
+        "RowIndex": 9,
+        "ColumnIndex": 2,
+        "RowCount": 8,
+        "ColumnCount": 45,
+        "DetailListViewInfo": {
+          "ColumnOfDetailTable": "inventory_id",
+          "MasterTable": "inventory_list",
+          "ColumnOfMasterTable": "ID",
+          "DataCommitType": 2
+        },
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "inventory_list_details",
+            "ColumnName": "inventory_id",
+            "GUID": "63c18735-263c-47ca-b808-b5520e8964b5"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=盘点页填写!AW6"
+          }
+        },
+        "NullFormulaValueQueryPolicy": 0,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_NewFashionListStyle1",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ColumnOperation": 2,
+        "CommitType": 1
+      }
+    },
+    "9,48": {
+      "CellComment": {
+        "Comments": "物品数组"
+      }
+    },
+    "10,2": {
+      "NameUsedInJavaScript": "物品ID",
+      "BindingInfo": {
+        "TableName": "inventory_list_details",
+        "ColumnName": "goods_id",
+        "GUID": "d870831a-85e9-4b9c-840e-8637154bb972"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "LoadOnDemand": true,
+        "IsBounding": true,
+        "DataSource": "item",
+        "ValueColumnBindingInfo": {
+          "TableName": "item",
+          "ColumnName": "ID",
+          "GUID": "0d0c9b82-0a5e-4887-b09a-383ee67afe2c"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "item",
+          "ColumnName": "ID",
+          "GUID": "a07bfe40-d104-4bf0-929f-5366894f4276"
+        },
+        "DropDownSubItems": [
+          {
+            "GUID": "94d79d0c298c4a7da0e93d0b637ee9de",
+            "BindingInfo": {
+              "TableName": "item",
+              "ColumnName": "item_id",
+              "GUID": "8e5fb6ba-914a-4195-9b54-8bb2bb2572b3"
+            },
+            "ColumnName": "编号"
+          },
+          {
+            "GUID": "ad7a2a6a70b54548a285b9699af98bf0",
+            "BindingInfo": {
+              "TableName": "item",
+              "ColumnName": "item_name",
+              "GUID": "4e3b32c8-0bb1-4525-b0eb-b0f4987a8bd9"
+            },
+            "ColumnName": "名称"
+          },
+          {
+            "GUID": "fe6254d3bb604278bfb44ba90d44e1c7",
+            "BindingInfo": {
+              "TableName": "item",
+              "ColumnName": "unit",
+              "GUID": "ece45ba6-ea37-4225-8920-bde9acde0e17"
+            },
+            "ColumnName": "单位"
+          },
+          {
+            "GUID": "af317675da5749df9d00b42b6181f985",
+            "BindingInfo": {
+              "TableName": "item",
+              "ColumnName": "specification",
+              "GUID": "c7f48673-c6ea-4033-b398-9840c0777c41"
+            },
+            "ColumnName": "规格型号"
+          },
+          {
+            "GUID": "18ba08e942c84444b4a3c829a37856aa",
+            "BindingInfo": {
+              "TableName": "item",
+              "ColumnName": "item_inventory",
+              "GUID": "58438f82-8a24-4623-897d-0e2d6fc1848e"
+            },
+            "ColumnName": "库存"
+          }
+        ],
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionContextPropertyParam, ServerDesignerCommon",
+                    "contextProperty": {
+                      "Display": "值变更原因"
+                    }
+                  },
+                  "value": "userInput"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                    "ParameterName": "ItemsMessage",
+                    "TableValue": {
+                      "TableName": "item",
+                      "TableValueType": 1,
+                      "BindingInfos": [
+                        {
+                          "BindingInfo": {
+                            "TableName": "item",
+                            "ColumnName": "item_name",
+                            "GUID": "7608ab46-26e8-43bb-95e3-c42ee99cf159"
+                          },
+                          "ColumnName": "名称"
+                        },
+                        {
+                          "BindingInfo": {
+                            "TableName": "item",
+                            "ColumnName": "unit",
+                            "GUID": "9245e5a6-b41d-44e3-9e96-6e308cbc026d"
+                          },
+                          "ColumnName": "单位"
+                        },
+                        {
+                          "BindingInfo": {
+                            "TableName": "item",
+                            "ColumnName": "specification",
+                            "GUID": "b8873731-46d2-4320-8476-eacffd244ccc"
+                          },
+                          "ColumnName": "规格型号"
+                        },
+                        {
+                          "BindingInfo": {
+                            "TableName": "item",
+                            "ColumnName": "item_inventory",
+                            "GUID": "44249c14-d2ff-426b-94de-68e2a74002e9"
+                          },
+                          "ColumnName": "库存"
+                        }
+                      ],
+                      "SqlCondition": {
+                        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                        "ColumnBindingInfo": {
+                          "TableName": "item",
+                          "ColumnName": "ID",
+                          "GUID": "b0a28237-5212-4928-aac5-c75e3235c148"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=盘点页填写!C11"
+                        }
+                      }
+                    },
+                    "ID": "8120f56862d547b8a60535830b1a8cd0"
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+                    "ListviewName": "表格1",
+                    "UpdateValues": [
+                      {
+                        "Column": "物品名称",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=盘点页填写!ItemsMessage.名称"
+                        }
+                      },
+                      {
+                        "Column": "规格型号",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=盘点页填写!ItemsMessage.规格型号"
+                        }
+                      },
+                      {
+                        "Column": "单位",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=盘点页填写!ItemsMessage.单位"
+                        }
+                      },
+                      {
+                        "Column": "库存",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=盘点页填写!ItemsMessage.库存"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "ID": "786ef2f9-dabf-46f8-99b3-107358c3e326"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "10,7": {
+      "NameUsedInJavaScript": "物品名称",
+      "BindingInfo": {
+        "TableName": "inventory_list_details",
+        "ColumnName": "goods_id",
+        "GUID": "a2f61995-d1cf-49c2-91a4-5a67f6f0b782",
+        "RelationBinding": {
+          "RelatedTable": "item",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "item_name"
+        }
+      }
+    },
+    "10,13": {
+      "NameUsedInJavaScript": "规格型号",
+      "BindingInfo": {
+        "TableName": "inventory_list_details",
+        "ColumnName": "goods_id",
+        "GUID": "f0f215f8-e6c8-4ff0-9fd8-aa2621d0a278",
+        "RelationBinding": {
+          "RelatedTable": "item",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "specification"
+        }
+      }
+    },
+    "10,19": {
+      "NameUsedInJavaScript": "单位",
+      "BindingInfo": {
+        "TableName": "inventory_list_details",
+        "ColumnName": "goods_id",
+        "GUID": "53864fb7-ddfa-4355-ab17-7213ccb47304",
+        "RelationBinding": {
+          "RelatedTable": "item",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "unit",
+          "NextRelationBinding": {
+            "RelatedTable": "unit_dictionary",
+            "RelatedColumn": "ID",
+            "DisplayColumn": "unit_name"
+          }
+        }
+      }
+    },
+    "10,22": {
+      "NameUsedInJavaScript": "库存",
+      "BindingInfo": {
+        "TableName": "inventory_list_details",
+        "ColumnName": "goods_count",
+        "GUID": "dfe61d1e-d8e8-4128-8baf-7850922268aa"
+      }
+    },
+    "10,26": {
+      "NameUsedInJavaScript": "盘点数",
+      "BindingInfo": {
+        "TableName": "inventory_list_details",
+        "ColumnName": "actual_goods_count",
+        "GUID": "417df9e2-d971-43c9-aa72-e06ccf006d3c"
+      },
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon"
+      },
+      "DataValidationInfo": {
+        "NumberType": 1,
+        "CompareParamType": 6,
+        "FirstParamValue": "0",
+        "IgnoreBlank": false
+      }
+    },
+    "10,31": {
+      "NameUsedInJavaScript": "盈亏数量",
+      "RulesGuidList": [
+        "fbb1df6c-6ffa-40fd-a71e-c7969a92cdc4",
+        "c3f8d341-6567-47e5-95ab-73dc638d79cc"
+      ]
+    },
+    "10,35": {
+      "NameUsedInJavaScript": "盘点结果"
+    },
+    "10,39": {
+      "NameUsedInJavaScript": "备注",
+      "BindingInfo": {
+        "TableName": "inventory_list_details",
+        "ColumnName": "note",
+        "GUID": "4e6ed523-5d54-4bfd-aa01-379302bb30d6"
+      }
+    },
+    "10,45": {
+      "NameUsedInJavaScript": "删除",
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.DeleteRecordCommand, ServerDesignerCommon",
+            "ShowConfirm": false
+          }
+        ],
+        "Text": "删除",
+        "TemplateKey": "无边框样式"
+      }
+    },
+    "19,2": {
+      "BindingInfo": {
+        "TableName": "inventory_list",
+        "ColumnName": "note",
+        "GUID": "20031b2d-5bfd-4aa6-904e-62636ed566ac"
+      },
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "text",
+        "resize": "none"
+      }
+    },
+    "19,30": {
+      "BindingInfo": {
+        "TableName": "inventory_list",
+        "ColumnName": "handle_person",
+        "GUID": "93a49a97-b62a-4ed2-8019-faefaf8e4cb8"
+      }
+    },
+    "24,33": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=盘点页填写!AW14"
+                      }
+                    ]
+                  },
+                  "value": "0"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+                    "ShareCommandContainerRefer": {
+                      "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                    },
+                    "Params": [
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "edbc4e90-b321-4ada-a9ac-7e6ac1298c41",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                          }
+                        },
+                        "Value": "盘点物品不能为空！",
+                        "Remark": "消息内容"
+                      },
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "4047e995-0452-4ca2-ac6f-55deeaa966ac",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                          }
+                        },
+                        "Value": "Warning",
+                        "Remark": "消息类型，包括：Success、Fail、Warning、Message"
+                      }
+                    ],
+                    "ReturnPropertiesTo": [
+                      {
+                        "ReturnPropertyReferObject": {
+                          "ParamID": "43ef666c-eddd-4b90-a51f-47996a5d7b39",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.StopCommand, ServerDesignerCommon"
+                  }
+                ],
+                "ID": "bb5e4422-b920-4a61-8edd-5bdb5d12d973"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=盘点页填写!AW2"
+                      }
+                    ]
+                  },
+                  "value": "Add",
+                  "compareType": 10
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                    "ServerCommandName": "UpdateInventoryOrder",
+                    "Parameters": [
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "InventoryOrderID",
+                        "Remark": "编辑时盘点单ID"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "OperateType",
+                        "Value": "Add",
+                        "Remark": "操作类型，包含：Add，Update"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "InventoryDate",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=盘点页填写!Q6"
+                        },
+                        "Remark": "盘点日期"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "Note",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=盘点页填写!C20"
+                        },
+                        "Remark": "备注"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "IsEnd",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=0"
+                        },
+                        "Remark": "是否结束"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandListviewParam, ServerDesignerCommon",
+                        "ParamName": "ItemDetails",
+                        "ListviewName": "表格1",
+                        "Columns": [
+                          {
+                            "ArrayItemName": "ItemsID",
+                            "Column": "物品ID",
+                            "Remark": "物品ID"
+                          },
+                          {
+                            "ArrayItemName": "CheckCount",
+                            "Column": "盘点数",
+                            "Remark": "盘点数"
+                          },
+                          {
+                            "ArrayItemName": "Note",
+                            "Column": "备注",
+                            "Remark": "备注"
+                          },
+                          {
+                            "ArrayItemName": "ItemsCount",
+                            "Column": "库存",
+                            "Remark": "盘点时的库存数"
+                          }
+                        ],
+                        "Remark": "盘点物品详情"
+                      }
+                    ],
+                    "ResultErrorCodeTo": {
+                      "SerializeProperty": "ReturnCode"
+                    },
+                    "ResultMessageTo": {
+                      "SerializeProperty": "ReturnMessage"
+                    },
+                    "RefreshAfterFinish": true,
+                    "CheckDataValidation": true
+                  }
+                ],
+                "ID": "6bfe84c9-7e11-482d-bf63-b713a3fcd8d1"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=盘点页填写!AW2"
+                      }
+                    ]
+                  },
+                  "value": "Update",
+                  "compareType": 10
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                    "ServerCommandName": "UpdateInventoryOrder",
+                    "Parameters": [
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "InventoryOrderID",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=盘点页填写!AW6"
+                        },
+                        "Remark": "编辑时盘点单ID"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "OperateType",
+                        "Value": "Update",
+                        "Remark": "操作类型，包含：Add，Update"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "InventoryDate",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=盘点页填写!Q6"
+                        },
+                        "Remark": "盘点日期"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "Note",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=盘点页填写!C20"
+                        },
+                        "Remark": "备注"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "IsEnd",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=0"
+                        },
+                        "Remark": "是否结束"
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandListviewParam, ServerDesignerCommon",
+                        "ParamName": "ItemDetails",
+                        "ListviewName": "表格1",
+                        "Columns": [
+                          {
+                            "ArrayItemName": "ItemsID",
+                            "Column": "物品ID",
+                            "Remark": "物品ID"
+                          },
+                          {
+                            "ArrayItemName": "CheckCount",
+                            "Column": "盘点数",
+                            "Remark": "盘点数"
+                          },
+                          {
+                            "ArrayItemName": "Note",
+                            "Column": "备注",
+                            "Remark": "备注"
+                          },
+                          {
+                            "ArrayItemName": "ItemsCount",
+                            "Column": "库存",
+                            "Remark": "盘点时的库存数"
+                          }
+                        ],
+                        "Remark": "盘点物品详情"
+                      }
+                    ],
+                    "ResultErrorCodeTo": {
+                      "SerializeProperty": "ReturnCode"
+                    },
+                    "ResultMessageTo": {
+                      "SerializeProperty": "ReturnMessage"
+                    },
+                    "RefreshAfterFinish": true,
+                    "CheckDataValidation": true
+                  }
+                ],
+                "ID": "76752f23-9d5b-42ac-9806-fa6fd87f12a8"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=ReturnCode"
+                      }
+                    ]
+                  },
+                  "value": "0",
+                  "compareType": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+                    "ShareCommandContainerRefer": {
+                      "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                    },
+                    "Params": [
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "23b3db3f-ee43-477b-838f-419a5d219a4e",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                          }
+                        },
+                        "Value": "操作异常",
+                        "Remark": "标题内容"
+                      },
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "552bab51-a087-4a1d-885b-b1df2549c039",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                          }
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=盘点页填写!ReturnMessage"
+                        },
+                        "Remark": "通知内容"
+                      },
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "67c0173d-5e65-4382-96cd-c173611bbb69",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                          }
+                        },
+                        "Value": "Fail",
+                        "Remark": "通知类型，包括：Success、Fail、Warning、Message"
+                      }
+                    ]
+                  }
+                ],
+                "ID": "247482e1-9e75-4303-b2c1-edf73b6c95e2"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+                    "ShareCommandContainerRefer": {
+                      "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                    },
+                    "Params": [
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "edbc4e90-b321-4ada-a9ac-7e6ac1298c41",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                          }
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=盘点页填写!ReturnMessage"
+                        },
+                        "Remark": "消息内容"
+                      },
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "4047e995-0452-4ca2-ac6f-55deeaa966ac",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                          }
+                        },
+                        "Value": "Success",
+                        "Remark": "消息类型，包括：Success、Fail、Warning、Message"
+                      }
+                    ],
+                    "ReturnPropertiesTo": [
+                      {
+                        "ReturnPropertyReferObject": {
+                          "ParamID": "43ef666c-eddd-4b90-a51f-47996a5d7b39",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+                    "ReloadData": true
+                  }
+                ],
+                "ID": "f905c213-fa52-4ffe-9c80-b71779571c33"
+              }
+            ]
+          }
+        ],
+        "Text": "暂存",
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "24,38": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=盘点页填写!AW14"
+                      }
+                    ]
+                  },
+                  "value": "0"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+                    "ShareCommandContainerRefer": {
+                      "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                    },
+                    "Params": [
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "edbc4e90-b321-4ada-a9ac-7e6ac1298c41",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                          }
+                        },
+                        "Value": "盘点物品不能为空！",
+                        "Remark": "消息内容"
+                      },
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "4047e995-0452-4ca2-ac6f-55deeaa966ac",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                          }
+                        },
+                        "Value": "Warning",
+                        "Remark": "消息类型，包括：Success、Fail、Warning、Message"
+                      }
+                    ],
+                    "ReturnPropertiesTo": [
+                      {
+                        "ReturnPropertyReferObject": {
+                          "ParamID": "43ef666c-eddd-4b90-a51f-47996a5d7b39",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.StopCommand, ServerDesignerCommon"
+                  }
+                ],
+                "ID": "280e1b76-e5d8-4e55-8290-669000e27971"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "IsConfirm",
+            "ID": "f687543cb19640c080a7f27b49ff51e4"
+          },
+          {
+            "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+            "ShareCommandContainerRefer": {
+              "ShareCommandContainerID": "e75e6b4d-8e7e-4aff-a87b-40db5bf0ca6d"
+            },
+            "Params": [
+              {
+                "ParamReferObject": {
+                  "ParamID": "80138322-dd71-42ba-a421-02cb14959435",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "e75e6b4d-8e7e-4aff-a87b-40db5bf0ca6d"
+                  }
+                },
+                "Value": "结束盘点"
+              },
+              {
+                "ParamReferObject": {
+                  "ParamID": "c587ef1e-dcc2-4203-8cba-1dd483c7414e",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "e75e6b4d-8e7e-4aff-a87b-40db5bf0ca6d"
+                  }
+                },
+                "Value": "结束盘点后，会根据盘点单自动生成对应的出入库单。"
+              }
+            ],
+            "ReturnPropertiesTo": [
+              {
+                "ReturnPropertyReferObject": {
+                  "ParamID": "64cc7657-365c-4ab6-812d-689e51729cfe",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "e75e6b4d-8e7e-4aff-a87b-40db5bf0ca6d"
+                  }
+                },
+                "ResultTo": {
+                  "SerializeProperty": "=盘点页填写!IsConfirm"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=IsConfirm"
+                      }
+                    ]
+                  },
+                  "value": "confirm"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                    "ConditionAndCommandPairList": [
+                      {
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "=盘点页填写!AW2"
+                              }
+                            ]
+                          },
+                          "value": "Add"
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                            "ServerCommandName": "UpdateInventoryOrder",
+                            "Parameters": [
+                              {
+                                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                                "ParamName": "InventoryOrderID",
+                                "Remark": "编辑时盘点单ID"
+                              },
+                              {
+                                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                                "ParamName": "OperateType",
+                                "Value": "Add",
+                                "Remark": "操作类型，包含：Add，Update"
+                              },
+                              {
+                                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                                "ParamName": "InventoryDate",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=盘点页填写!V6"
+                                },
+                                "Remark": "盘点日期"
+                              },
+                              {
+                                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                                "ParamName": "Note",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=盘点页填写!H20"
+                                },
+                                "Remark": "备注"
+                              },
+                              {
+                                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                                "ParamName": "IsEnd",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=1"
+                                },
+                                "Remark": "是否结束"
+                              },
+                              {
+                                "$type": "Forguncy.Model.RequestServerCommandListviewParam, ServerDesignerCommon",
+                                "ParamName": "ItemDetails",
+                                "ListviewName": "表格1",
+                                "Columns": [
+                                  {
+                                    "ArrayItemName": "ItemsID",
+                                    "Column": "物品ID",
+                                    "Remark": "物品ID"
+                                  },
+                                  {
+                                    "ArrayItemName": "CheckCount",
+                                    "Column": "盘点数",
+                                    "Remark": "盘点数"
+                                  },
+                                  {
+                                    "ArrayItemName": "Note",
+                                    "Column": "备注",
+                                    "Remark": "备注"
+                                  },
+                                  {
+                                    "ArrayItemName": "ItemsCount",
+                                    "Column": "库存",
+                                    "Remark": "盘点时的库存数"
+                                  }
+                                ],
+                                "Remark": "盘点物品详情"
+                              }
+                            ],
+                            "ResultErrorCodeTo": {
+                              "SerializeProperty": "ReturnCode"
+                            },
+                            "ResultMessageTo": {
+                              "SerializeProperty": "ReturnMessage"
+                            },
+                            "RefreshAfterFinish": true,
+                            "CheckDataValidation": true
+                          }
+                        ],
+                        "ID": "b34086b0-cb64-428e-ba9a-5fcfba8e95b6"
+                      },
+                      {
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "=盘点页填写!AW2"
+                              }
+                            ]
+                          },
+                          "value": "Update"
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                            "ServerCommandName": "UpdateInventoryOrder",
+                            "Parameters": [
+                              {
+                                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                                "ParamName": "InventoryOrderID",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=盘点页填写!AW6"
+                                },
+                                "Remark": "编辑时盘点单ID"
+                              },
+                              {
+                                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                                "ParamName": "OperateType",
+                                "Value": "Update",
+                                "Remark": "操作类型，包含：Add，Update"
+                              },
+                              {
+                                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                                "ParamName": "InventoryDate",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=盘点页填写!V6"
+                                },
+                                "Remark": "盘点日期"
+                              },
+                              {
+                                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                                "ParamName": "Note",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=盘点页填写!H20"
+                                },
+                                "Remark": "备注"
+                              },
+                              {
+                                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                                "ParamName": "IsEnd",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=1"
+                                },
+                                "Remark": "是否结束"
+                              },
+                              {
+                                "$type": "Forguncy.Model.RequestServerCommandListviewParam, ServerDesignerCommon",
+                                "ParamName": "ItemDetails",
+                                "ListviewName": "表格1",
+                                "Columns": [
+                                  {
+                                    "ArrayItemName": "ItemsID",
+                                    "Column": "物品ID",
+                                    "Remark": "物品ID"
+                                  },
+                                  {
+                                    "ArrayItemName": "CheckCount",
+                                    "Column": "盘点数",
+                                    "Remark": "盘点数"
+                                  },
+                                  {
+                                    "ArrayItemName": "Note",
+                                    "Column": "备注",
+                                    "Remark": "备注"
+                                  },
+                                  {
+                                    "ArrayItemName": "ItemsCount",
+                                    "Column": "库存",
+                                    "Remark": "盘点时的库存数"
+                                  }
+                                ],
+                                "Remark": "盘点物品详情"
+                              }
+                            ],
+                            "ResultErrorCodeTo": {
+                              "SerializeProperty": "ReturnCode"
+                            },
+                            "RefreshAfterFinish": true,
+                            "CheckDataValidation": true
+                          }
+                        ],
+                        "ID": "ebc446dc-4579-4e03-90e6-28de02cbe289"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                    "ConditionAndCommandPairList": [
+                      {
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "=盘点页填写!ReturnCode"
+                              }
+                            ]
+                          },
+                          "value": "0",
+                          "compareType": 1
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+                            "ShareCommandContainerRefer": {
+                              "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                            },
+                            "Params": [
+                              {
+                                "ParamReferObject": {
+                                  "ParamID": "23b3db3f-ee43-477b-838f-419a5d219a4e",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                                  }
+                                },
+                                "Value": "操作异常",
+                                "Remark": "标题内容"
+                              },
+                              {
+                                "ParamReferObject": {
+                                  "ParamID": "552bab51-a087-4a1d-885b-b1df2549c039",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                                  }
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=盘点页填写!ReturnMessage"
+                                },
+                                "Remark": "通知内容"
+                              },
+                              {
+                                "ParamReferObject": {
+                                  "ParamID": "67c0173d-5e65-4382-96cd-c173611bbb69",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "5ce20eed-443f-4749-988e-2542c5a291ad"
+                                  }
+                                },
+                                "Value": "Fail",
+                                "Remark": "通知类型，包括：Success、Fail、Warning、Message"
+                              }
+                            ]
+                          }
+                        ],
+                        "ID": "1ce40449-fd42-4ea8-81dc-35d1a628f7b2"
+                      },
+                      {
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+                            "ShareCommandContainerRefer": {
+                              "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                            },
+                            "Params": [
+                              {
+                                "ParamReferObject": {
+                                  "ParamID": "edbc4e90-b321-4ada-a9ac-7e6ac1298c41",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                                  }
+                                },
+                                "Value": "保存成功",
+                                "Remark": "消息内容"
+                              },
+                              {
+                                "ParamReferObject": {
+                                  "ParamID": "4047e995-0452-4ca2-ac6f-55deeaa966ac",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                                  }
+                                },
+                                "Value": "Success",
+                                "Remark": "消息类型，包括：Success、Fail、Warning、Message"
+                              }
+                            ],
+                            "ReturnPropertiesTo": [
+                              {
+                                "ReturnPropertyReferObject": {
+                                  "ParamID": "43ef666c-eddd-4b90-a51f-47996a5d7b39",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "d165caef-9315-4d99-8f90-e1a8691d34da"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+                            "ReloadData": true
+                          }
+                        ],
+                        "ID": "ba611da8-284c-4a1a-a7dc-d6ea9b07b32b"
+                      }
+                    ]
+                  }
+                ],
+                "ID": "48f651c8-1def-464f-9b37-6f710dc09d1f"
+              }
+            ]
+          }
+        ],
+        "Text": "结束盘点",
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "24,43": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+          }
+        ],
+        "Text": "取消",
+        "TemplateKey": "_RS_Minor3"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 18.666666666666664,
+        "FontWeight": 0,
+        "Formatter": 1
+      },
+      {
+        "Foreground": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 3,
+        "HorizontalAlignment": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 16.0,
+        "Foreground": 2,
+        "VerticalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "HorizontalAlignment": 4,
+        "VerticalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 7,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 8,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 9,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "[AUTO]General",
+        "Text 1 50",
+        "#FFFF0000",
+        "Right",
+        "Bottom",
+        "Accent 1 0",
+        "Accent 5 0",
+        "black",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "4,2": 1,
+      "4,15": 2,
+      "4,16": 1,
+      "7,2": 3,
+      "7,41": 4,
+      "9,26": 5,
+      "10,45": 6,
+      "11,48": 7,
+      "12,48": 7,
+      "13,48": 7,
+      "14,48": 7,
+      "15,48": 7,
+      "18,2": 1,
+      "18,30": 1,
+      "19,30": 8,
+      "24,33": 9,
+      "24,34": 9,
+      "24,35": 9,
+      "24,36": 9
+    },
+    "SheetStyle": {
+      "FontFamily": 9,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "5,2,1,13",
+    "5,16,1,13",
+    "7,41,1,6",
+    "10,2,1,5",
+    "10,7,1,6",
+    "10,13,1,6",
+    "10,19,1,3",
+    "10,22,1,4",
+    "10,26,1,5",
+    "10,31,1,4",
+    "10,35,1,4",
+    "10,39,1,6",
+    "10,45,1,2",
+    "11,2,6,45",
+    "19,2,3,27",
+    "19,30,1,11",
+    "24,33,1,4",
+    "24,38,1,4",
+    "24,43,1,4",
+    "1,1,1,46",
+    "9,2,1,5",
+    "9,7,1,6",
+    "9,13,1,6",
+    "9,19,1,3",
+    "9,22,1,4",
+    "9,26,1,5",
+    "9,31,1,4",
+    "9,35,1,4",
+    "9,39,1,6",
+    "9,45,1,2"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": [
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                "cellLocations": [
+                  {
+                    "SerializeProperty": "=盘点页填写!AW2"
+                  }
+                ]
+              },
+              "value": "Add"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=盘点页填写!AE20"
+                    },
+                    "Value": "%CurrentUser.UserName%"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=盘点页填写!Q6"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=TODAY()"
+                    }
+                  }
+                ]
+              }
+            ],
+            "ID": "a360a60c-2a7f-4305-ad3b-f79299f1b50e"
+          }
+        ]
+      }
+    ],
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "Administrator",
+            "库存管理员",
+            "仓库主管",
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "inventory_list_details",
+    "ConditionFormatRulesCollection": {
+      "Rules": [
+        {
+          "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+          "Operator": 6,
+          "Value1": "=0",
+          "Priority": 1,
+          "GUID": "fbb1df6c-6ffa-40fd-a71e-c7969a92cdc4",
+          "StyleInfo": {
+            "Background": "Accent 5 60",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+          "Operator": 5,
+          "Value1": "=0",
+          "GUID": "c3f8d341-6567-47e5-95ab-73dc638d79cc",
+          "StyleInfo": {
+            "Background": "Accent 2 60",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        }
+      ]
+    }
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//7/kJysh2UVYjYv+5dIQLkcNaxb2UkYkj0byz7wlpomHMRkknLkmSsTTPUtPdKerRGXImuJPEOdcZIpd0NcXAR1hqv50A2QBXbrQzvmdvXf57JNyshQ2Nf2+ToufPvuMQP2C1wshZ4dsI1LpJUrzD00vo/nUIjOK6qoh4wIiXgzlX52dlcbP2cQKLmELg90gf9tlMNRa4HwDqQUbP/X9+1cZxxBVLlqR4g3omFJDRsbAL8T7Sd+OUVA2wcp9Ii/RuUKyZovjOpRt5QEc+e0OnF6dDzT7X2daI7M8tDT1QwMq98SUSjDrkogQn3bY6yMsw/kExsmYyzijzSSoLTrOq9EcVg8hKsjT/EXXnhZXAV8ZMmexpuoLN092Ue7zK9lpUrHErUkcqeBEoy4oOTFhFq2wQ6IuOICOGcN7KAoego+1hfNlq1AG9YH+eIjZmTOWBVgdy40wGUF3E9xHFGvaxHc1e9tZLidxRwHy9ImW8IR8ZN/4wDIyLMJNtUSc1YNUkIOoFJaeQZNWstdh/lXAkJFzYLYsaHipbFFxqfhT93HdvPiDnhdx8GHiG272pL5u3X5fNZhxNty5cm4jNRrIAPLiuQtz+odYkWo9m4w5eqldia5RlHwRRlmG97z6jwEmQjN+lCLwAMeuiqEnB8ORIUPdffrzNMZb/3HzXFsTXAiw0Wv6MY3k1UjD5fqFCeLnHrGq7DlGaruBTSjFuW7RFYgud9x1FMjiD/+e47EUAId5DLdauMH/2wazYeQWwUCS8X7lgBTpt40EzTG9oV5O7yAJDHwSYZ0ZTsS5siGPowqWjgsPtx1wcGI9VS5OohCZ2JXWFPAPSgY0Q0RJRfI/27mKFbghZ26jPD5I/92UlKMGSGoAfsPBPkQGaNL29G+fCGnQDNdJnXUCWXbgchspyqw==|920

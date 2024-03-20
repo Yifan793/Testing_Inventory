@@ -1,0 +1,66 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 60.0
+  },
+  "Values": {
+    "0,0": "*"
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body",
+        "#FFFF0000",
+        "Right"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "Foreground": 1,
+      "HorizontalAlignment": 2
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//hIh5knfqPo/4jVJftC3kmd5yb2OENMLgNpZfbmiO9a6puCbQEooNIRsmrYowXMDHVsVH7S9ngGg+rFiiWCjXiL2aFcj3x4plABJgZQP0LHgw2qUMkJkeoz3zsZKHqV3Y85XtuADBdzZm6v75Q59MHAcHOh0dMHrnkn6wnVKQajuvzc2VrLjvutvPA7koYcd0e7HJtULz8E/NJbOPmKKB30rPOCfd81tzuLB7oAxxkSRzxtQacO5Zdlx9CzPwjuKdNV4n20b5lePBfKGiguTdNMhN3o/Jp+7H8lcYmuFJDV7U71AkCvMvglXJkm+pnnoab9PMAryzsJkxdYOU6oeZOOBI8moLUCXrElNKl+I262uV2s/VCE8wRsYqtJF6KBLhgpjkSBCZ2jB6yZj/VtJNcl7v3/3byI+7kWg54wZXhuaZgA25VOFn7XfMLbG7Vb3/P9k4M+Tj7VtfsSrncf8cpU0ElxE5brX+TEVDR5Q2aJ8rcUoA/1s53cQEDogYMNF33sOVvixAeyBxZzAcb/lt1/lzhb+a0CfqUAGGluL6BK1lTraEKAyMs/RoJ0Xx44yh1gOBuLZgN+vpaKPS54vclLgHIR2PRGH/igfSrGm0q86+BuDEgUtCux4CsmU7B/MPeTe8n6t1PU7Pb89hTixILcawKkrRpIBkDP+hXj2QTT2FRw7s2pKrOa53vvnZ8+j7BR/jgtRE/vUHQN5b2W3OTPU14PnzAIWWxHH1qldNvm2va3d14K4Bq9bm9opLc7yw1JYM0LXTATqk1H4uad+Pgj1O7hq2RmFnFSetipQKAlt5wqCL9li3TBL2HxlTgImPE1wM97LfrrVtnIbJgraxh0ZTWbn7TZBQZvMn9zYbK6migAP4I2EOrzQtanZ/JWHIDzdkG9U1fDc+hqH3ZWWBQA==|920

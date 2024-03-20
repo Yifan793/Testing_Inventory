@@ -1,0 +1,415 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 9,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      20
+    ],
+    "Count": 21
+  },
+  "Values": {
+    "1,0": "项目维护",
+    "4,2": "项目名称",
+    "4,20": "项目ID",
+    "7,15": "保存"
+  },
+  "AttachInfos": {
+    "1,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "弹窗标题格式"
+      }
+    },
+    "4,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "必填标识"
+      }
+    },
+    "5,2": {
+      "BindingInfo": {
+        "TableName": "item",
+        "ColumnName": "item_name",
+        "GUID": "ba840c9e-23d7-46f8-b4fc-b652ff173670"
+      },
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "text",
+        "resize": "none"
+      },
+      "DataValidationInfo": {
+        "NumberType": 9,
+        "ValidateCommand": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=新增_编辑项目!当前值"
+                      }
+                    ]
+                  },
+                  "value": "%Null%"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                    "ErrorCode": "1",
+                    "Message": "项目名称不能为空！"
+                  }
+                ],
+                "ID": "cc6ed355-8226-4e3e-ade7-972e78e33087"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "项目列表",
+            "TableValue": {
+              "TableName": "project_table",
+              "BindingInfos": [
+                {
+                  "BindingInfo": {
+                    "TableName": "project_table",
+                    "ColumnName": "project_name",
+                    "GUID": "09454b90-114e-49af-9c68-e7ae02ac14f8"
+                  },
+                  "ColumnName": "名称"
+                }
+              ]
+            },
+            "ID": "2487f5e8eea44d23ae67acb6ab5f8d43"
+          },
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "当前项目名称",
+            "TableValue": {
+              "TableName": "project_table",
+              "OnlyGetValue": true,
+              "TableValueType": 0,
+              "BindingInfos": [
+                {
+                  "BindingInfo": {
+                    "TableName": "project_table",
+                    "ColumnName": "project_name",
+                    "GUID": "af7b109e-77b9-4104-91e8-d74f04c316f9"
+                  },
+                  "ColumnName": "project_name"
+                }
+              ],
+              "SqlCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "TableName": "project_table",
+                  "ColumnName": "ID",
+                  "GUID": "1be270ab-edac-4f8d-909e-88109a2707bc"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=新增_编辑项目!项目ID"
+                }
+              }
+            },
+            "ID": "aacdeea60ea449029c835ac1d704f49d"
+          },
+          {
+            "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+            "LoopInfo": {
+              "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+              "LoopCount": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=新增_编辑项目!项目列表"
+              },
+              "LoopItemParamName": "Item"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                "ConditionAndCommandPairList": [
+                  {
+                    "Condition": {
+                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                      "SubConditions": [
+                        {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "=新增_编辑项目!当前值"
+                              }
+                            ]
+                          },
+                          "value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=新增_编辑项目!Item.名称"
+                          }
+                        },
+                        {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "=新增_编辑项目!当前值"
+                              }
+                            ]
+                          },
+                          "value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=新增_编辑项目!当前项目名称"
+                          },
+                          "compareType": 1
+                        }
+                      ]
+                    },
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                        "ErrorCode": "2",
+                        "Message": "项目名称不能重复！"
+                      }
+                    ],
+                    "ID": "9f4a998d-5c3b-43bb-bcad-e5f170cd7a4d"
+                  },
+                  {
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                        "ErrorCode": "0",
+                        "Message": "名称正确"
+                      }
+                    ],
+                    "ID": "47f0f8b8-a813-4712-9fc9-0c15554af58b"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ErrorMessage": "项目名称不能为空！",
+        "ErrorTo": 1,
+        "ErrorToTargetCell": {
+          "SerializeProperty": "=新增_编辑项目!C7"
+        }
+      }
+    },
+    "5,20": {
+      "BindingInfo": {
+        "TableName": "project_table",
+        "ColumnName": "ID",
+        "GUID": "fe07f514-90c7-45bf-98eb-77cc06da7e8b"
+      }
+    },
+    "6,2": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "出错警告格式"
+      }
+    },
+    "7,15": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "Add_EditProject",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "ProjectID",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=新增_编辑项目!项目ID"
+                }
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "ProjectName",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=新增_编辑项目!项目名称"
+                }
+              }
+            ],
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          },
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "PassValueBack": true,
+            "ReloadData": true
+          }
+        ],
+        "Text": "保存",
+        "TemplateKey": "_RS_Main1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      },
+      {
+        "Foreground": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Text 1 50"
+      ]
+    },
+    "CellStyles": {
+      "1,0": 0,
+      "4,2": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "4,2,1,12",
+    "7,15,1,4",
+    "5,2,1,17",
+    "6,2,1,17",
+    "1,0,2,21"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "项目ID",
+      "Formula": "新增_编辑项目!$U$6"
+    },
+    {
+      "Name": "项目名称",
+      "Formula": "新增_编辑项目!$C$6"
+    }
+  ]
+}//2ZnojXSDArHTsJSi7F30l25SMqZnslFya5UTYcEIrR0owrsKG6eZNxoI8PaQZ+QNFaSN+eFvQT1os/vl9vUgkDsKKM59IvLZy90rSL5Egzw0fQkZL6AiCt/TbOw0CDvYm3iR06n8KZlazqAQ6SgPjuKSsiP6yAYaUuZB6XZq92B9+C7kuKIH5Lf4RHSxmjiPfZEqJI8bEBotBEePb5MVfU/tK7RKz4pnIFSyNz/dn4y7b4wEtlET7ug+CCcaarNa0mUX5DLYE3QyN1Qly2jyXXdeva3TPRiaQyYtQPJ4Zas9zYLlC0L2rq2i8GcZZJIfVaJ6xPHuIt61yUAwwbrpC52IvNfih8ATxoLtI8GCJbM4OhXSyqbF5KhEgve/QjGgmxQco6QE3T9s0rw0bgv//jze3j8ccGUL0sOHMVrvNH8ylGZfVsxCjblSVfd0FrvvOUcd7hhrtLbhhtI9xjZQ002ySa8sUbkUwVONPWhhDvL902NlsN1hkRg6ZD8Nuxk9uQx/WbcKFnXQXxBISEidtMHpSKVQzxaBZPj1yJJh+fCVJY9E0zpPQj5AdfcudKOgJ+aCnEooEGIJThfve+CudlEzv9WHxXZOGLFvW+eJhTYxc2lZBBND+kLnPZ/EcCbNBEqo2+HyrCULcyrp/zzI/1Yh+BE3MeIhq8D0GwwF+mKWbtz6YIz37MYFyrdnrKfWPh1wq9PRrTe26DwqP4rKERiGVFzXEJvNeumnX8MuBUGW0m1MrXHZsVqXPTyhJFhTtFCGUlXishe2wnfbVSBX+QJ8aAi6ckBGZTJFJTnWqT5cc8SRZ0j8IR6xQjDlU6n4fwi7MhlIJSXr3ObZdblAKW6XB7m4D+Z7rIcmu9lC9UiuNVBSW9fXYsohYPUsbfcZqYQvYdBSMUf6DeEWesZFPQ==|920
