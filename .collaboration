@@ -428,7 +428,17 @@
   },
   {
     "ModuleName": "PCPage/采购单填写",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-03-22T09:27:38.0907384+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\采购\\采购单填写.json",
+      "Pages\\采购\\采购单填写.rd"
+    ]
   },
   {
     "ModuleName": "Pages/报表",
