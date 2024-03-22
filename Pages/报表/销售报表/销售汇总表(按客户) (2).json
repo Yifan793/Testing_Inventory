@@ -1,0 +1,686 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 48.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 48.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 23,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "33": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "40": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      40
+    ],
+    "Count": 41
+  },
+  "Values": {
+    "2,2": "销售日期",
+    "3,11": "-",
+    "7,2": "销售汇总表(按客户)",
+    "9,2": "数据来源：销售订单",
+    "10,2": "销售汇总表(按客户)",
+    "16,2": "导出PDF",
+    "16,10": "导出Word",
+    "16,18": "导出Excel",
+    "16,26": "导出CSV"
+  },
+  "Formulas": {
+    "11,40": "SUM(U12)",
+    "3,12": "TODAY()"
+  },
+  "AttachInfos": {
+    "3,2": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "日期范围组件"
+      }
+    },
+    "3,12": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "日期范围组件"
+      }
+    },
+    "7,2": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "弹窗标题格式"
+      }
+    },
+    "10,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+            "SessionGuid": "6f859e12-d7e5-45a3-98c9-0e964c2d48d6",
+            "OpenReportName": "销售汇总表(按客户)",
+            "SideBarPosition": 0,
+            "PassParameters": [
+              {
+                "TargetParameter": "开始日期",
+                "SourceValue": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='销售汇总表(按客户) (2)'!from"
+                }
+              },
+              {
+                "TargetParameter": "结束日期",
+                "SourceValue": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='销售汇总表(按客户) (2)'!to"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "销售汇总表(按客户)",
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "16,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportActiveReportCommand, ServerDesignerCommon",
+            "ExportReportNameList": [
+              "销售汇总表(按客户)"
+            ],
+            "CustomName": "销售汇总表(按客户)",
+            "ExportSettings": {
+              "MultiSheet": true
+            },
+            "PassParameters": [
+              {
+                "TargetParameter": "开始日期",
+                "SourceValue": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='销售汇总表(按客户) (2)'!from"
+                }
+              },
+              {
+                "TargetParameter": "结束日期",
+                "SourceValue": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='销售汇总表(按客户) (2)'!to"
+                }
+              }
+            ],
+            "IsPageBreakBefores": [
+              false
+            ],
+            "ReportGaps": [
+              "0cm"
+            ]
+          }
+        ],
+        "Text": "导出PDF",
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "16,10": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportActiveReportCommand, ServerDesignerCommon",
+            "ExportReportNameList": [
+              "销售汇总表(按客户)"
+            ],
+            "CustomName": "销售汇总表(按客户)",
+            "ExportReportType": 1,
+            "ExportSettings": {
+              "MultiSheet": true
+            },
+            "PassParameters": [
+              {
+                "TargetParameter": "开始日期",
+                "SourceValue": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='销售汇总表(按客户) (2)'!from"
+                }
+              },
+              {
+                "TargetParameter": "结束日期",
+                "SourceValue": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='销售汇总表(按客户) (2)'!to"
+                }
+              }
+            ],
+            "IsPageBreakBefores": [
+              false
+            ],
+            "ReportGaps": [
+              "0cm"
+            ]
+          }
+        ],
+        "Text": "导出Word",
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "16,18": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportActiveReportCommand, ServerDesignerCommon",
+            "ExportReportNameList": [
+              "销售汇总表(按客户)"
+            ],
+            "CustomName": "销售汇总表(按客户)",
+            "ExportReportType": 2,
+            "ExportSettings": {
+              "MultiSheet": true
+            },
+            "PassParameters": [
+              {
+                "TargetParameter": "开始日期",
+                "SourceValue": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='销售汇总表(按客户) (2)'!from"
+                }
+              },
+              {
+                "TargetParameter": "结束日期",
+                "SourceValue": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='销售汇总表(按客户) (2)'!to"
+                }
+              }
+            ],
+            "IsPageBreakBefores": [
+              false
+            ],
+            "ReportGaps": [
+              "0cm"
+            ]
+          }
+        ],
+        "Text": "导出Excel",
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "16,26": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportActiveReportCommand, ServerDesignerCommon",
+            "ExportReportNameList": [
+              "销售汇总表(按客户)"
+            ],
+            "CustomName": "销售汇总表(按客户)",
+            "ExportReportType": 3,
+            "ExportSettings": {
+              "MultiSheet": true
+            },
+            "PassParameters": [
+              {
+                "TargetParameter": "开始日期",
+                "SourceValue": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='销售汇总表(按客户) (2)'!from"
+                }
+              },
+              {
+                "TargetParameter": "结束日期",
+                "SourceValue": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='销售汇总表(按客户) (2)'!to"
+                }
+              }
+            ],
+            "IsPageBreakBefores": [
+              false
+            ],
+            "ReportGaps": [
+              "0cm"
+            ]
+          }
+        ],
+        "Text": "导出CSV",
+        "TemplateKey": "_RS_Main1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0
+      },
+      {
+        "FontFamily": 1
+      },
+      {
+        "FontFamily": 1,
+        "Foreground": 0,
+        "Formatter": 2,
+        "HorizontalAlignment": 3
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 13.333333333333332,
+        "FontStyle": 4,
+        "Foreground": 0
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 2
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 50",
+        "Body",
+        "[AUTO]General",
+        "Center",
+        "Italic"
+      ]
+    },
+    "CellStyles": {
+      "2,2": 0,
+      "2,3": 0,
+      "3,2": 1,
+      "3,3": 1,
+      "3,4": 1,
+      "3,5": 1,
+      "3,6": 1,
+      "3,7": 1,
+      "3,8": 1,
+      "3,9": 1,
+      "3,10": 1,
+      "3,11": 2,
+      "3,12": 1,
+      "3,13": 1,
+      "3,14": 1,
+      "3,15": 1,
+      "3,16": 1,
+      "3,17": 1,
+      "3,18": 1,
+      "3,19": 1,
+      "3,20": 1,
+      "9,2": 3,
+      "16,10": 4,
+      "16,11": 1,
+      "16,12": 1,
+      "16,13": 1,
+      "16,14": 1,
+      "16,15": 1,
+      "16,16": 1,
+      "16,18": 4,
+      "16,19": 1,
+      "16,20": 1,
+      "16,21": 1,
+      "16,22": 1,
+      "16,23": 1,
+      "16,24": 1,
+      "16,26": 4,
+      "16,27": 1,
+      "16,28": 1,
+      "16,29": 1,
+      "16,30": 1,
+      "16,31": 1,
+      "16,32": 1,
+      "17,10": 1,
+      "17,11": 1,
+      "17,12": 1,
+      "17,13": 1,
+      "17,14": 1,
+      "17,15": 1,
+      "17,16": 1,
+      "17,18": 1,
+      "17,19": 1,
+      "17,20": 1,
+      "17,21": 1,
+      "17,22": 1,
+      "17,23": 1,
+      "17,24": 1,
+      "17,26": 1,
+      "17,27": 1,
+      "17,28": 1,
+      "17,29": 1,
+      "17,30": 1,
+      "17,31": 1,
+      "17,32": 1,
+      "18,10": 1,
+      "18,11": 1,
+      "18,12": 1,
+      "18,13": 1,
+      "18,14": 1,
+      "18,15": 1,
+      "18,16": 1,
+      "18,18": 1,
+      "18,19": 1,
+      "18,20": 1,
+      "18,21": 1,
+      "18,22": 1,
+      "18,23": 1,
+      "18,24": 1,
+      "18,26": 1,
+      "18,27": 1,
+      "18,28": 1,
+      "18,29": 1,
+      "18,30": 1,
+      "18,31": 1,
+      "18,32": 1,
+      "19,10": 1,
+      "19,11": 1,
+      "19,12": 1,
+      "19,13": 1,
+      "19,14": 1,
+      "19,15": 1,
+      "19,16": 1,
+      "19,18": 1,
+      "19,19": 1,
+      "19,20": 1,
+      "19,21": 1,
+      "19,22": 1,
+      "19,23": 1,
+      "19,24": 1,
+      "19,26": 1,
+      "19,27": 1,
+      "19,28": 1,
+      "19,29": 1,
+      "19,30": 1,
+      "19,31": 1,
+      "19,32": 1,
+      "20,10": 1,
+      "20,11": 1,
+      "20,12": 1,
+      "20,13": 1,
+      "20,14": 1,
+      "20,15": 1,
+      "20,16": 1,
+      "20,18": 1,
+      "20,19": 1,
+      "20,20": 1,
+      "20,21": 1,
+      "20,22": 1,
+      "20,23": 1,
+      "20,24": 1,
+      "20,26": 1,
+      "20,27": 1,
+      "20,28": 1,
+      "20,29": 1,
+      "20,30": 1,
+      "20,31": 1,
+      "20,32": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "7,2,1,36",
+    "3,40,1,1",
+    "7,40,1,1",
+    "3,2,1,9",
+    "3,12,1,9",
+    "10,2,5,36",
+    "16,2,5,7",
+    "16,10,5,7",
+    "16,18,5,7",
+    "16,26,5,7"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "报表导航菜单",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "purchase_order"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "c5621bbb-5444-42b6-b951-e437ec0bc576.png",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "Fill": "Background 1 -5"
+      },
+      "IsAutomaticFill": false,
+      "Size": "852,624"
+    },
+    {
+      "Name": "96fdb28b-0233-4268-8bca-e8a9f917609d.png",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "16,16",
+      "Size": "756,96"
+    },
+    {
+      "Name": "c317e1c7-7b3c-4e90-9711-9b6b3dd7fadc.png",
+      "DisplayName": "背景图3",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "16,128",
+      "Size": "756,480"
+    }
+  ],
+  "CustomNames": [
+    {
+      "Name": "from",
+      "Formula": "'销售汇总表(按客户) (2)'!$C$4"
+    },
+    {
+      "Name": "to",
+      "Formula": "'销售汇总表(按客户) (2)'!$M$4"
+    }
+  ]
+}//La4PdvkGsqsA5y+6zkusyAkhTRAB4mdWFfg3I7MRm8Vba8rONBC1TuyQ+a5Ea16bmZdpfjOoQDXUZaw3yoNiB8ipMo6uJAN/TchhdCfwjCRdzEa4Z7xgAcYkxCKQVrt0iKWrup+d8iBgveoe/+j1rJ1BzkEG44hlxcowu98NZjbj7kedDCxo01EynevkS8K5bHz5rUvKQNZ0ds7pRqCXysKnuCBAmct61F2Nm02AGSW6s7DCbFdIeIkbPfp1tqM5kHTyuO0ffUE0OcDRFhzAr5Lk17+8OEwBEWYoFgdiN6aB+R6zM+2wdmbhHobOF8qDYyqwZUM5ioQ9Di8Myw2UIK20q67/R5Ks8LF7LjsAkgoNIdqxc5gD9SVGnBAnuwjpjc/BeVUHOOwlObMyd4sWQQQ9KyOtXWVZZPww51FHsYTgtQk6q/dptRjKsF+c2aU9njZ6czetEwaoQXxGJramrpS3gymlvV9BFUu5yMwUaZgnJhy25Yx9wD2q7MOza76opCHX1yThP18xnvA3zt08HB3kyAhsoEaMXGGLpaZRKEx8ymcd628bQSHzab8B34qa3nqVortlJLUc7v2GCq9n+X+y4zwNb5FDcTFXOg9W21qE0n3hRX2W5pzZ1Qg9klLCRkYIC5Vz8LleHR64HhCGNpFj/9a+K229tA85TCqw6V/nRHyfuDzsy4LIfSP242NIRhTXat56+2EJDfFTLwfFmqLlzA1dTY4Qrg7f0pvi8KjPfZXFbt2x3R8IM7TO3vASo3daqiELEueC0RkS8mF6S1i0bFdAUmia77vqRmhOSGZgeuCQz2y8pZgceF0q3ZOdd2dverLu1vKhqZ1pTqvukxde7NHXXT7k/4s9kQKNMtBLcN08QwzS211MXE3tmdzUZdsMTpOaDlpmtn30zrO/oQ==|920

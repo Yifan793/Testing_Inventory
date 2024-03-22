@@ -1,0 +1,120 @@
+{
+  "Name": "销售汇总表(按客户)",
+  "DataSources": [
+    {
+      "Name": "sales_order",
+      "GUID": "ffb3dbf7-1bbf-4a72-81fc-3cf2486f0b15",
+      "DataSourceSetting": {
+        "TableName": "sales_order",
+        "BindingInfos": [
+          {
+            "BindingInfo": {
+              "TableName": "sales_order",
+              "ColumnName": "sales_date",
+              "GUID": "61888054-87ad-4eb3-8feb-141ee2ebb203"
+            },
+            "ColumnName": "销售日期"
+          },
+          {
+            "BindingInfo": {
+              "TableName": "sales_order",
+              "ColumnName": "customer_id",
+              "GUID": "35624c81-b96a-41e0-84b1-7ce7c031a642",
+              "RelationBinding": {
+                "RelatedTable": "supplier_customer",
+                "RelatedColumn": "ID",
+                "DisplayColumn": "supplier_customer_name"
+              }
+            },
+            "ColumnName": "名称"
+          },
+          {
+            "BindingInfo": {
+              "TableName": "sales_order",
+              "ColumnName": "total_amount",
+              "GUID": "0207863a-ecd4-4c81-8cf6-877d247265e6"
+            },
+            "ColumnName": "总金额"
+          },
+          {
+            "BindingInfo": {
+              "TableName": "sales_order",
+              "ColumnName": "sales_month",
+              "GUID": "f6549aa2-e1c9-4fd3-90d2-b400c9bcd049"
+            },
+            "ColumnName": "sales_month"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+          "SubConditions": [
+            {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "CompareType": 3,
+              "ColumnBindingInfo": {
+                "TableName": "sales_order",
+                "ColumnName": "sales_date",
+                "GUID": "9385ff89-29eb-4513-a5a7-334ab7445062"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=开始日期"
+              }
+            },
+            {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "CompareType": 5,
+              "ColumnBindingInfo": {
+                "TableName": "sales_order",
+                "ColumnName": "sales_date",
+                "GUID": "6bbffbe6-82bc-4c8d-9c03-827c0b9a482e"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=结束日期"
+              }
+            }
+          ]
+        }
+      },
+      "ReportDataSourceParams": [
+        {
+          "Name": "开始日期"
+        },
+        {
+          "Name": "结束日期"
+        }
+      ],
+      "ColumnsType": [
+        "date-time",
+        "string",
+        "number",
+        "string"
+      ]
+    }
+  ],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "activeReportType": 1
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "activeReportPermissionType": 1,
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "activeReportPermissionType": 2,
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1
+}

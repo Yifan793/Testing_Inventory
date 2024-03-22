@@ -1,0 +1,150 @@
+{
+  "Name": "采购汇总图(按物品)",
+  "DataSources": [
+    {
+      "Name": "purchase_order_details",
+      "GUID": "eb83a3a4-aab9-47d1-83ff-06bfcc0aa0be",
+      "DataSourceSetting": {
+        "TableName": "purchase_order_details",
+        "BindingInfos": [
+          {
+            "BindingInfo": {
+              "TableName": "purchase_order_details",
+              "ColumnName": "goods_id",
+              "GUID": "649c72ae-c31f-4767-a975-cf2fb4600fd6"
+            },
+            "ColumnName": "物品ID"
+          },
+          {
+            "BindingInfo": {
+              "TableName": "purchase_order_details",
+              "ColumnName": "goods_id",
+              "GUID": "0db5b8e8-60f7-4562-9699-ff20900179a5",
+              "RelationBinding": {
+                "RelatedTable": "item",
+                "RelatedColumn": "ID",
+                "DisplayColumn": "item_name"
+              }
+            },
+            "ColumnName": "名称"
+          },
+          {
+            "BindingInfo": {
+              "TableName": "purchase_order_details",
+              "ColumnName": "purchase_order_id",
+              "GUID": "98256106-ad80-40ba-ab52-fc71c2528093",
+              "RelationBinding": {
+                "RelatedTable": "purchase_order",
+                "RelatedColumn": "ID",
+                "DisplayColumn": "purchase_date"
+              }
+            },
+            "ColumnName": "采购日期"
+          },
+          {
+            "BindingInfo": {
+              "TableName": "purchase_order_details",
+              "ColumnName": "purchase_count_price",
+              "GUID": "6ea6fb8e-8dfa-429a-b413-95c696c7b28c"
+            },
+            "ColumnName": "总金额"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+          "SubConditions": [
+            {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "CompareType": 3,
+              "ColumnBindingInfo": {
+                "TableName": "purchase_order_details",
+                "ColumnName": "purchase_order_id",
+                "GUID": "4d5a681a-7184-44e7-b656-aa50d28aac1f",
+                "RelationBinding": {
+                  "RelatedTable": "purchase_order",
+                  "RelatedColumn": "ID",
+                  "DisplayColumn": "purchase_date"
+                }
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=开始日期"
+              }
+            },
+            {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "CompareType": 5,
+              "ColumnBindingInfo": {
+                "TableName": "purchase_order_details",
+                "ColumnName": "purchase_order_id",
+                "GUID": "1d99c016-8cfe-4fbf-be92-f003188d21f9",
+                "RelationBinding": {
+                  "RelatedTable": "purchase_order",
+                  "RelatedColumn": "ID",
+                  "DisplayColumn": "purchase_date"
+                }
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=结束日期"
+              }
+            },
+            {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "purchase_order_details",
+                "ColumnName": "goods_id",
+                "GUID": "07a93fcb-8767-41f0-9eaf-b044018d08b3"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=物品名称"
+              }
+            }
+          ]
+        }
+      },
+      "ReportDataSourceParams": [
+        {
+          "Name": "开始日期"
+        },
+        {
+          "Name": "结束日期"
+        },
+        {
+          "Name": "物品名称"
+        }
+      ],
+      "ColumnsType": [
+        "integer",
+        "string",
+        "date-time",
+        "number"
+      ]
+    }
+  ],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "activeReportType": 1
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "activeReportPermissionType": 1,
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "activeReportPermissionType": 2,
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1
+}

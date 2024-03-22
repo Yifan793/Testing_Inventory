@@ -305,7 +305,7 @@
                         "PageName": "采购首页"
                       }
                     ],
-                    "ID": "e4ef4ad6-604a-4852-8e6e-86ad00be3914"
+                    "ID": "f0138ac2-814d-4762-ac2f-55ac7e626e87"
                   },
                   {
                     "Condition": {
@@ -325,7 +325,7 @@
                         "PageName": "销售首页"
                       }
                     ],
-                    "ID": "80ffe347-5404-456f-aded-52b4e713428f"
+                    "ID": "904ca1ab-67b4-4975-a43a-dcf8d4074473"
                   },
                   {
                     "Condition": {
@@ -345,7 +345,7 @@
                         "PageName": "库存首页"
                       }
                     ],
-                    "ID": "07b02dbc-4878-4347-b0df-2be391cbe308"
+                    "ID": "0c35be2b-6d5a-4dd6-ae06-11bfc47bd7fd"
                   },
                   {
                     "CommandList": [
@@ -354,7 +354,7 @@
                         "PageName": "首页"
                       }
                     ],
-                    "ID": "905741a0-e186-4a51-b4c9-5dc448329361"
+                    "ID": "5f95ae62-2cf6-424f-993f-2b5090838834"
                   }
                 ]
               }
@@ -635,7 +635,7 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "采购汇总图(按物品)"
+                    "PageName": "采购汇总图(按物品) (2)"
                   }
                 ],
                 "CanVisitRoleList": [
@@ -1052,4 +1052,4 @@
       "BoxShadowString": "0 2 0 5 #175D7183"
     }
   ]
-}//FBI71nxWQg3N1SWRml2ZooG0Rsne1qjTOV433el5InW8CSAksKd0lGGffWJoVE/DgSv/b711He4wdmma/y5mL84SHj8g6+1B9+Dei19nsIKCst54j50Qi/4NnwBrlnhDbKQ+X3mflMzbFuKMQbefo7YPC1EQOBIo8TofA2CsaA1B73485Z7CuV2NOFM2rWjmCiLkbKuJ47o53NkMlOVgoRBJgXIU4m+B763ePyNafudrMXeE0+aXCrIUbQEPKanahGuzdlKouMyvWvaYD7vUBAN0orAmEbVUrvz40PaqyLk8/s6ie9ulActIG4jHU6Q6qn7nZHs/laN6JJNvwisPTN0kMYktCG5i8iZEJZrnbZQLcAZ4Qid/oxcXiKfkuXfKFMwtYXZFKz2MntfyJEp3Ysq6zhOty4oKt3Gszn38c796qw017Daee79DuqAR8Ggd21CPPXoRwiUHLpS2+2KxnrlLzqPnLq/4JtuKZZCZOkIwzf0qkhk1G1sEdym0RuAoeNMm/spvYTo/YR6r2fZXcFn6ZWr3Y4VUKQOKxU3erPHieq7Yf8+/LdX2doGhnyLM8A0iOt5Uf+u01AZzejyQiHer+gmn6WhyJ60asJlohIHtghLHM9yveUpUHso7mDKGWPGDq51+1W2YrNdLa7beSqhRMyG14iqU+Jly9WSeiDxZcdgFJ2C1UIwEwgyjzgMVeZ+sWlGlkv8pnRp4jMa4/lCRH5cYKaL8gotqqe7lq4ihPmTUk/3Z40kFokYrYC5hg1NTmSA8dwuvFM7dTy7/melH0gI6cWnmG0r1QI43Mhl0wlZ4umQTWKDQws67JTNtDf6VABmyQ0faPsEQ1EyjWVDFk5Q5dUIkvcjhI2P9SFKqABg7YTWCnS3kuyFYs8/3ULZZ1G+ziBz30WqvFYMjtQ==|920
+}//8P5u5P/BbwjrqtVOuFIdf9gjLHRVi/PeIjWLi+khQI1h6wSi0Kqc3T3YEkW/VPhIEosm0uqlTeWQbzRKTdIUAVESmg7S2vAZrkI0tRkz119Sb7hz1BHMgIqrBz7S9x6M1Gp0wpqIfr4NyYN04MFt7fzQ/tl7Cyy1IHAYlmBvGD9TlXzla7Q9rLgWOsrDmu4DFqTmRIRjF144QkK0G9DoJKmR3gYx8nk903BM2Ny1lORTrI2L3pY8y18QlUodjfJiXGIaLjsFk59rxIISGOU6Fuh+/fwFDp1jNBFzS2RghlZG03dAomN4924GzZ7QdTj1iH+iJ+H8XTjgBlgCb5PNDjpr+vJ631MkLn/3l17AmV7Gm+/DDDM/9GxpvmMggAb/7OeaOKcStkeKT7nussBTro3qn5kbERWIDIh6NI6nuUQMoBmyI1+py/d2V0U7fujVOJ0uYwV4OuUWxu/zffIXW176QaP8rx719NbV5tI8ECpq/0ArJ/zGXSRo6gZ5GSC0onEnua68Ok6k/YdRcxnAGFSPT/VS5LJo3iS+hS7diKvh2wvjqtJaTozdgjIGiES8LVasV4gOT7c4dSMaeWmZtxLVXqicssJKmamHxreVOi0fIHHOFCKzNxQEPjZXuWv2VcjhCALYCCpYC8snaotxDqaBDFcNw+sBFm8x5ndHfcqQjTval931e5TdfLLjoVpLj5c/cpsKMKQ2HYvLhicOPuBDDflQvdZ9SqnUwNHnwLr4FDK9D7IkQhmxym0jeIJ7Gza0vGzJfkdpmEn66WlTENzvzdRQjAxM9PzWo1Z24ErIkySHUSi8MNQ6lZ0CZ9FcCEq77uCAQHtW9vF5hzHAbC+ZpAqZeOkojBTAU7VUcB5R1EBtt3MIqyl3M8BVTdJvHpB5Eq3IsFEMbhUGDcsdZg==|920
