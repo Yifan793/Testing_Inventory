@@ -768,7 +768,17 @@
   },
   {
     "ModuleName": "UserControlPage/日期范围组件",
-    "ModuleType": 31
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-03-22T10:40:58.1407067+08:00",
+    "ModuleType": 31,
+    "ToRemoveFiles": [
+      "UserControlPages\\功能\\日期范围组件.json",
+      "UserControlPages\\功能\\日期范围组件.rd"
+    ]
   },
   {
     "ModuleName": "UserControlPage/单个删除按钮",
