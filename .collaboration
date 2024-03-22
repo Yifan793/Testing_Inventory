@@ -1199,5 +1199,15 @@
     },
     "LockDateTime": "2024-03-22T09:48:05.815392+08:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/采购汇总图(按物品) (2)",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-03-22T09:59:23.5276763+08:00",
+    "ModuleType": 1
   }
 ]
