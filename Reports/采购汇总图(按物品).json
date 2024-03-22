@@ -59,7 +59,7 @@
               "ColumnBindingInfo": {
                 "TableName": "purchase_order_details",
                 "ColumnName": "purchase_order_id",
-                "GUID": "4d5a681a-7184-44e7-b656-aa50d28aac1f",
+                "GUID": "c042129a-36f9-4d40-8717-e5d62ca699c9",
                 "RelationBinding": {
                   "RelatedTable": "purchase_order",
                   "RelatedColumn": "ID",
@@ -68,7 +68,7 @@
               },
               "Value": {
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=开始日期"
+                "SerializeProperty": "=开始"
               }
             },
             {
@@ -77,7 +77,7 @@
               "ColumnBindingInfo": {
                 "TableName": "purchase_order_details",
                 "ColumnName": "purchase_order_id",
-                "GUID": "1d99c016-8cfe-4fbf-be92-f003188d21f9",
+                "GUID": "c3ff8a0a-9df9-40d2-b1a7-c4f1e781a83e",
                 "RelationBinding": {
                   "RelatedTable": "purchase_order",
                   "RelatedColumn": "ID",
@@ -86,7 +86,7 @@
               },
               "Value": {
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=结束日期"
+                "SerializeProperty": "=结束"
               }
             },
             {
@@ -94,11 +94,11 @@
               "ColumnBindingInfo": {
                 "TableName": "purchase_order_details",
                 "ColumnName": "goods_id",
-                "GUID": "07a93fcb-8767-41f0-9eaf-b044018d08b3"
+                "GUID": "f2e99270-9a8f-4ba8-b6bd-6ec9e5f9130e"
               },
               "Value": {
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=物品名称"
+                "SerializeProperty": "=物品"
               }
             }
           ]
@@ -106,13 +106,13 @@
       },
       "ReportDataSourceParams": [
         {
-          "Name": "开始日期"
+          "Name": "开始"
         },
         {
-          "Name": "结束日期"
+          "Name": "结束"
         },
         {
-          "Name": "物品名称"
+          "Name": "物品"
         }
       ],
       "ColumnsType": [

@@ -768,17 +768,7 @@
   },
   {
     "ModuleName": "UserControlPage/日期范围组件",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-22T10:40:58.1407067+08:00",
-    "ModuleType": 31,
-    "ToRemoveFiles": [
-      "UserControlPages\\功能\\日期范围组件.json",
-      "UserControlPages\\功能\\日期范围组件.rd"
-    ]
+    "ModuleType": 31
   },
   {
     "ModuleName": "UserControlPage/单个删除按钮",
@@ -1162,17 +1152,7 @@
   },
   {
     "ModuleName": "RdlReport/采购汇总图(按物品)",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-22T10:31:29.651837+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\采购汇总图(按物品).json",
-      "Reports\\采购汇总图(按物品).rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/销售汇总表(按客户)",
@@ -1180,30 +1160,10 @@
   },
   {
     "ModuleName": "PCPage/销售汇总表(按客户) (2)",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-22T10:17:47.0351804+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\报表\\销售报表\\销售汇总表(按客户) (2).json",
-      "Pages\\报表\\销售报表\\销售汇总表(按客户) (2).rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/采购汇总图(按物品) (2)",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-22T10:14:03.3847268+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\报表\\采购报表\\采购汇总图(按物品) (2).json",
-      "Pages\\报表\\采购报表\\采购汇总图(按物品) (2).rd"
-    ]
+    "ModuleType": 1
   }
 ]

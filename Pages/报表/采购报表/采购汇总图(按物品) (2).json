@@ -352,40 +352,8 @@
     },
     "11,2": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "CommandList": [
-          {
-            "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
-            "SessionGuid": "5f6ae10f-2b23-4f5e-92f7-a13080363162",
-            "OpenReportName": "采购汇总图(按物品)",
-            "SideBarPosition": 0,
-            "PassParameters": [
-              {
-                "TargetParameter": "开始日期",
-                "SourceValue": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='采购汇总图(按物品) (2)'!from"
-                }
-              },
-              {
-                "TargetParameter": "结束日期",
-                "SourceValue": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='采购汇总图(按物品) (2)'!to"
-                }
-              },
-              {
-                "TargetParameter": "物品名称",
-                "SourceValue": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='采购汇总图(按物品) (2)'!物品名称"
-                }
-              }
-            ]
-          }
-        ],
-        "Text": "采购汇总图(按物品)",
-        "TemplateKey": "_RS_Main1"
+        "$type": "TabManager.TabCellType, TabManager",
+        "TemplateKey": "_RS_NewFashionStyle1"
       }
     },
     "22,2": {
@@ -851,15 +819,46 @@
     "3,22,1,9",
     "3,2,1,9",
     "3,12,1,9",
-    "11,2,10,43",
     "22,2,7,9",
     "22,12,7,9",
     "22,22,7,9",
-    "22,32,7,9"
+    "22,32,7,9",
+    "11,2,10,43"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MasterPageName": "报表导航菜单",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+        "SessionGuid": "76b5fda8-3d7b-47f9-a9b1-1146d072339f",
+        "OpenReportName": "采购汇总图(按物品)",
+        "SideBarPosition": 0,
+        "PassParameters": [
+          {
+            "TargetParameter": "开始",
+            "SourceValue": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='采购汇总图(按物品) (2)'!from"
+            }
+          },
+          {
+            "TargetParameter": "结束",
+            "SourceValue": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='采购汇总图(按物品) (2)'!to"
+            }
+          },
+          {
+            "TargetParameter": "物品",
+            "SourceValue": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='采购汇总图(按物品) (2)'!物品名称"
+            }
+          }
+        ]
+      }
+    ],
     "PermissionData": {
       "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
       "permissionResource": {
@@ -926,4 +925,4 @@
       "Formula": "'采购汇总图(按物品) (2)'!$M$4"
     }
   ]
-}//na9jVFqQSsr5jEhkOwRyN0VfOe/F4FhkCdEhs7SwR24dxsq/czmQezsCeK8Q+A1DI9CTlpUREE3t4zRz8hqPZK97pNTZP9kYprX2aFC1S+5zPzJvPctN1txv2/gwcSyBX2GXlyB7bXNBFssF/vgfBGmtFUoDC50KkENJAWi9X8YGmr5SzwKRMVbXlsa8MqcGZZYVzmEZo2IXhfqUOvqWk5diiTssqNz01pKHltY0So4nB6Y+lB5DDIFtcTNJLuUGRlG4yIPGV1ltZ8ASrDi0eL4DZ7NJR7WI3I5fFNoVPMAWoygBf23EiBjooZhfJpmXsNGOqgxTYMrEADM0a4jAn0h3+ZE3Qf/WghzhqTPqBdRCWpkVeXvLu7JcrgxsX6RXxMhezRcHZ4vtbqZMms8AOtIKzOYu05SI2yj3fRKdSdmPT1u1eXFNRg4M4oBdWreDHZwm04VOo9+Iw+LzoUfo5qODP6WQNY6HWtZ4sRFYuUiIZHWtjbDeqQmHSIbvbpOYCaprjTO4bLCdvs9uKcgQ34pAnu6q3ijCdeeYlBmkydQj9ri35ovqbc/ZkflxSEL7I0H9VcP9hN4KJG1426lOdrnCxR2isyl/ManXPtsNSJCKFhHY/dBFn72qQEMT1H6/cuFvuU9jgOY69w2X2iartJGTPLGFffdPhQddlKhfgqC86v8CAO/WJs0UUikA1vkBQEKo/CCqegbonGvlb15C659oFLNPLptAPqV9vEmJ+crO2MDwCxeVNaFKSNcI7StQg4//ticIjbpXG2uI/Y4dq2FjEd8e204Vw5i/XgnoY78giFOOlZDJAKIXmKq6mPpHP6E3jGWHXGZFrcWnDl4l3KXZ/nTAeNxzCgOtJE1Rn9lXfzR1B1/E6n4uNp8FNYN9DyaQhDhMo4f94iUu4gq4lw==|920
+}//d2ByFZikElAzdAXGOdmHTskgkZXh/RYlZu07nk/yXDB196EJGAu+5uklfXLFsMSXEXIzOAEc6s5R0nKk3mJop3vDUL8+xMuUdCskH9/ATnI6N6G9SyKgGsuefAt7JZgr1ffmhzIAOpVpnynl+i/YkvqM0sXJ2YRZDiCv0cc+4DXKwhG6hIkjiAHq4HaNmM5m95t8XxDCoUExKcPSZn4Y6hyWtfn0i1TN9tnxJdYY2YPaYcmHgxquuCaQ5ogcHUzdKdziLGXAMMSgo4Ikc7M/ZHLYdYZypzLGNx7sIcyqAZAEDtMl0WkbEs4OSIk16RqyxW3EwHG69BfRiwpFPSX1dEwdsbZjXpHMXqDXYIlBH3/hkp+lywFJ7iZf7AcAy1EQDjmnPDmdPyCtRAkwF18y3k4tCnHhp0TD66J0iugwQbOQZKi3u8fPIKR+tAWfBI6E2SOFHEh/uJc3li8RZw0nsFr2f8JA5vu0VKR2erAO+J5ISaRfpn2B1a7Own5JxgDK0oNIkW0ek+qylMTfgt3ZyTQz54qytOIRtqFGRUDs3lBpSuoGcPJW+zGg2ciWUe5GcvfpVej3M1JGP9fsLUBvI3llAv01xmJY3ilVQXi9V9WJhmLG8lKrXdKjGYzidIoboYmE7Pcx/rO+aAijqsyin+iQqAh/RflCnFZfsK6rsmd/BdOgj/8HZeFTG6EvLJtGL/uvJm6CWZsRwkHK4JKPmJ6l0IhCBHk9Wz3vb7UNljFxuEO7vB5bC5/EoH1NrOLzKRYjUhtSEU4pAatHOwGSldTcRr/mTgPKCxr0m8LLGgXF35pV13RK2hqUN6pGNQcFlF8QZqQxiC4GDECX5iSEF/YewdyB3U75KAC9Au8F5vmS3oQTJcvuNDOqNlQ42O83C9KUmiY22LCEuMW3YbBvQQ==|920
