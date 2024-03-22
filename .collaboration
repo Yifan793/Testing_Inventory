@@ -1179,7 +1179,7 @@
       "UserName": "GRAPECITY\\ShaySong",
       "Email": "1146602243@qq.com"
     },
-    "LockDateTime": "2024-03-22T10:54:42.7727104+08:00",
+    "LockDateTime": "2024-03-22T11:21:14.4518482+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\报表\\采购报表\\采购汇总图(按物品) (2).json",
@@ -1187,13 +1187,13 @@
     ]
   },
   {
-    "ModuleName": "RdlReport/采购汇总图(按物品)2",
+    "ModuleName": "RdlReport/采购汇总图按物品2",
     "State": 3,
     "LockedBy": {
       "UserName": "GRAPECITY\\ShaySong",
       "Email": "1146602243@qq.com"
     },
-    "LockDateTime": "2024-03-22T11:05:00.9178136+08:00",
+    "LockDateTime": "2024-03-22T11:21:14.4513179+08:00",
     "ModuleType": 18
   }
 ]
