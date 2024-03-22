@@ -1160,7 +1160,17 @@
   },
   {
     "ModuleName": "PCPage/采购汇总图(按物品) (2)",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-03-22T13:56:24.9184921+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\报表\\采购报表\\采购汇总图(按物品) (2).json",
+      "Pages\\报表\\采购报表\\采购汇总图(按物品) (2).rd"
+    ]
   },
   {
     "ModuleName": "RdlReport/采购汇总图按物品2",
