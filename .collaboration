@@ -1171,13 +1171,13 @@
     "ModuleType": 18
   },
   {
-    "ModuleName": "RdlReport/报表1",
+    "ModuleName": "RdlReport/销售汇总表(按客户)",
     "State": 3,
     "LockedBy": {
       "UserName": "GRAPECITY\\ShaySong",
       "Email": "1146602243@qq.com"
     },
-    "LockDateTime": "2024-03-22T09:44:23.2415118+08:00",
+    "LockDateTime": "2024-03-22T09:46:22.8317105+08:00",
     "ModuleType": 18
   }
 ]
