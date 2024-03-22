@@ -6,7 +6,8 @@
     "Count": 60
   },
   "Values": {
-    "1,1": "下载模板文件"
+    "1,1": "下载模板文件",
+    "4,21": "下载文件"
   },
   "AttachInfos": {
     "1,1": {
@@ -21,6 +22,45 @@
           }
         ],
         "Text": "下载模板文件",
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "1,18": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "4,21": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "下载文件",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "路径",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=下载页面!S2"
+                }
+              }
+            ],
+            "ResultErrorCodeTo": {
+              "SerializeProperty": "=下载页面!AK2"
+            },
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "下载文件",
         "TemplateKey": "_RS_Main1"
       }
     },
@@ -51,21 +91,102 @@
         "Folder": "%CurrentUser%",
         "KKFileViewExtensions": "(doc|docx|xls|xlsx|ppt|pptx)"
       }
+    },
+    "15,1": {
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, ServerDesignerCommon",
+        "UploadImageLimit": {
+          "AllowExtensions": ".png, .jpeg, .jpg, .bmp, .gif, .ico"
+        }
+      }
+    },
+    "15,15": {
+      "CellType": {
+        "$type": "ElementUI.UploadCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "accept": ".jpg, .jpeg, .png",
+        "buttonText": "点击上传",
+        "tipText": "只能上传jpg/png文件",
+        "OverFileCountLimitError": "当前限制选择 ${limit} 个文件，本次选择了 ${length} 个文件，共选择了 ${total} 个文件",
+        "OverFileSizeLimitError": "上传文件的大小超出限制",
+        "FileFormatError": "上传文件的格式不正确"
+      }
     }
   },
   "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0
+      },
+      {
+        "FontFamily": 1
+      }
+    ],
     "Types": {
       "Strs": [
+        "@",
         "Body"
       ]
     },
+    "CellStyles": {
+      "1,18": 0,
+      "4,21": 1,
+      "4,22": 1,
+      "4,23": 1,
+      "4,24": 1,
+      "4,25": 1,
+      "4,26": 1,
+      "4,27": 1,
+      "4,28": 1,
+      "5,21": 1,
+      "5,22": 1,
+      "5,23": 1,
+      "5,24": 1,
+      "5,25": 1,
+      "5,26": 1,
+      "5,27": 1,
+      "5,28": 1,
+      "6,21": 1,
+      "6,22": 1,
+      "6,23": 1,
+      "6,24": 1,
+      "6,25": 1,
+      "6,26": 1,
+      "6,27": 1,
+      "6,28": 1
+    },
     "SheetStyle": {
-      "FontFamily": 0
+      "FontFamily": 1
     }
   },
   "Spans": [
     "1,1,3,10",
-    "5,1,9,18"
+    "5,1,9,18",
+    "15,1,7,12",
+    "4,21,3,8",
+    "1,18,2,17",
+    "1,36,2,4",
+    "15,15,7,14"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -91,4 +212,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//mKFMVGwzidQFiPI3G9/EQStJHcEW6L79+a1Bjvp0va9PNBI1SMpj37qiisz++EzadJWEezfPeYOzddtg03j1J1TSML2IQeE+ZQbwzD+4qKenkjd2CY7ELveXk5LC3Oplgf1F1h6ktaNC28cff9EveMoCtuUVbahCnuGZADVcLL8PCojXUBQtd3ie591WC1TfDIEjUr3JgZIBp6yIbabNqUneogAknx+1pUnBvb4vaN9cUnGLv9D0ECqCM5A7nL5BHl8cxWOr88O2mp6R1epxU/IWhlosMX9zefzNPeK/qElz5h6hgXP3CZGEimb+oRgSeMfm4RTDT76flcRwo8D6zmQtSRlLqfpXJ5FcKkD6Y8EJ+GVjSM8CBH3xODtkyR91UycE0fQyhlSMCVwI30A8fpGyQvn5xRgpCJUc1zarZ3uvkvCokw/HSONWKLVYjsYA+T3P8ukItHdu5Vxf4bwkp4dCL7eUpPtmwcxofBChcxXvBzulHk4yuC3G0Y5Xt3l4bISvxfgcH4Svco33zpJQxzFcHRKhipee00OYTGd0HtmQTI41vNVMyqxQSSPK8SX61NIbT0WQZyNTcfEKcoV3jMvMOY595RL0OygHSADJmL0geDjI7+CWRzHEN/eSeRBTfFgyV4OzK7N9uTcXKeo1+NlAXhLH2VQKPWkagPvB4q76YbHu8Xrnxwly7XZmiKdwRK+12WHSnC4HHIJ7GviKVwri0pwfiuBpgtgz/rU9sM7JvRMU3PT8H69qRjTIicS5eEMNcPMD/R8vD4dOoFG6Yh+6d9JJU7Q8GD7cIAIEItCwvOobmikOLsl77NuIottrc1D4iuNyG8ccAUi6pUQs56OmP0/PK5B0l1krX+JHbM4Q6MVNvByTUdYqfMAA6M1aygIdZ5ofsI9aN89n2OZWTA==|920
+}//Rxl0QYJh1OUGb1Fwdv+na5v8lwI2d/6i3uauSuIjXcao1L+VWL3qkhkyoBFiMSJDxnzAAJBm8T+DStYRaqOez6WJ1sTKc+7ygK9UkDhae+caspGAa4gZrxnRvjudGRYZ03M54nknda/hzFvpDNe/1pJS+v36OvKnsglmEiKQhhiDxQMK7+eXJQrRKzEXihc5WtNEeQZxIerUTokVyK+GeOAD3J+7vsbMoa4tk8UilcynOHbv/V7Tp10N6mh16oJxPSYIiefsA8Z/nB3H5MKcv2BGwlk89aTlh1o8pR63AKMin9qA66ifJDRBvf6Gj/Q8r+YUkQ+DFjyLou74dQjdwajwIpZq+FP4PsZ9z7CHUqguMzuJVUekg6tRYvWqpkQ2hLyKfvd7J5/goJ3PW/2ReUWpqr0QT1S7E9ZGoYC+N/WTXcGDrQgNVrOP3oaAv7qU8N64l9V30CwfyyTUcABYfMh6dc8LRuV6M7pyjhA/0XTP/eWQGsHlnty+tEuDWMmxu3UWh6tYTjUqY/fITu2r/IQMVJSozQcYWvU2CxwcY759XAlY2QEuyGjqSjn0gEOGIQ4wFdfdAEDAoAEIkG0sXVhwZirsXkosvwBPw0XkInti+kteVbne4R0BAZNq7Ct/H1xMWLNhofZ1ISJfNkAsCK3RV5eBLetpT6SLQyCsChyINXbnszOc4kS+UTz3VFm6bhRw1DcyZhPDY7JDSmJsMnNh1lkrxPBueMFFQLiMu9cqNZ+8jtfDXY7+alLoPmwrL21APreHg+dya943CghRpZPDmUQ9ugfvFO6oJUu3rXGyg/CQZqfVbQtEshuSLFclhDrY2eLg9VZHZL2U5L4iLN+7bTpR/IWIontBelIYUVON9HAgRgFz9nqeHx2QFbLE44nQSr2/nXT7iBlXSpDZrA==|920

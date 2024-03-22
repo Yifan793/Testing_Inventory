@@ -371,21 +371,21 @@
             },
             "PassParameters": [
               {
-                "TargetParameter": "物品名称",
+                "TargetParameter": "ID",
                 "SourceValue": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "='采购汇总图(按物品) (2)'!物品名称"
                 }
               },
               {
-                "TargetParameter": "采购开始即日起",
+                "TargetParameter": "开始",
                 "SourceValue": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "='采购汇总图(按物品) (2)'!from"
                 }
               },
               {
-                "TargetParameter": "采购结束日期",
+                "TargetParameter": "结束",
                 "SourceValue": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "='采购汇总图(按物品) (2)'!to"
@@ -420,21 +420,21 @@
             },
             "PassParameters": [
               {
-                "TargetParameter": "物品名称",
+                "TargetParameter": "ID",
                 "SourceValue": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "='采购汇总图(按物品) (2)'!物品名称"
                 }
               },
               {
-                "TargetParameter": "采购开始即日起",
+                "TargetParameter": "开始",
                 "SourceValue": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "='采购汇总图(按物品) (2)'!from"
                 }
               },
               {
-                "TargetParameter": "采购结束日期",
+                "TargetParameter": "结束",
                 "SourceValue": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "='采购汇总图(按物品) (2)'!to"
@@ -469,21 +469,21 @@
             },
             "PassParameters": [
               {
-                "TargetParameter": "物品名称",
+                "TargetParameter": "ID",
                 "SourceValue": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "='采购汇总图(按物品) (2)'!物品名称"
                 }
               },
               {
-                "TargetParameter": "采购开始即日起",
+                "TargetParameter": "开始",
                 "SourceValue": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "='采购汇总图(按物品) (2)'!from"
                 }
               },
               {
-                "TargetParameter": "采购结束日期",
+                "TargetParameter": "结束",
                 "SourceValue": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "='采购汇总图(按物品) (2)'!to"
@@ -518,21 +518,21 @@
             },
             "PassParameters": [
               {
-                "TargetParameter": "物品名称",
+                "TargetParameter": "ID",
                 "SourceValue": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "='采购汇总图(按物品) (2)'!物品名称"
                 }
               },
               {
-                "TargetParameter": "采购开始即日起",
+                "TargetParameter": "开始",
                 "SourceValue": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "='采购汇总图(按物品) (2)'!from"
                 }
               },
               {
-                "TargetParameter": "采购结束日期",
+                "TargetParameter": "结束",
                 "SourceValue": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "='采购汇总图(按物品) (2)'!to"
@@ -920,4 +920,4 @@
       "Formula": "'采购汇总图(按物品) (2)'!$M$4"
     }
   ]
-}//B/p+PdWkgGJ31zvc/Jg0Xe0MS3NMZHlMZ/uArWHJ4b4TqK31wIYEERwFAuATYUpoX819MGCVN9xdecfN+X9+k1KSSdlr5tAuTKh5hHqu8aYJhzViMRuRGZDED8w9mUNukJns+/6U/nMfIUdfMgQmpGUNEv7IsdjusOyW2GnZ2l/KxK0J07BxiLebwkf/GiO8Sq7pA4983Nqe6pdJCa6D8HIwg3RCGLI++K2BwDXHS+8KcghKSNbQtmmVf5KXOhrrwnIDnJWWqEnInzFY1i1AYlx8mnQtjYE8QJvanojoAAH4t6/kg12vlYSP9v/D8HzqqhyvqUfhSJ64kqQqUqb2zCPXVPPZU+QHB/O4xCjmngmrugFdl3ptqBwjbIl9wL69EBhj9NhAQs/4Qf2wZ+CoO0u+YssT2LK8wu/jb3b7t7iMc41FweVW0d9ea938NAeCOlNqPPpHubvC0nAxV8t7OTz2ivioxLYhV2vItC4OlU8bzWfnFY4fN2U3dd2eKhSmB0S7/YoalDFRDfGUdzpr1aVCTTXW1bMW/3+xie1GpAP+RwNTJSG9u0CoDTA5FcYGl3v+YxHd6K4YlEomJ8J8SqN+jax6O2ro/941AOWhFag9Vr3+3UHxQNjSdrhs2ixgPbzTTFX/s9+BJOAELTGqGaTcJm6e2nXeOSzFpV669j1vvtTv+G1iiPLyzk6aXzg+DQ5Fyfcz5rZehHut5YAFqHsesnmuS0DOVgAQxFgPQYIBrwrbOLLECO0SeWHlbNl5lEJ1puf8uwY5lPKT4BnH8DvxNqz6+m9kWXj7y68D58eIe7lgpbSSVkbSUmHzHA5SNQgfwHGBxSL6ktC8Hd1bRxPEgCKXsFy5z7cSlud8VjK6jahNazVtmy2EvSP8xSl2wrH2NNDXwtmQxdJ2dr9HAA==|920
+}//Tk6jF3Aqcl7A7dUMSt9XBRsqFYM3qrR2TeVXM+wp5iFpxiEehsanmtvUjq+/XMy5Ojxw0DBhbRqQ7VXB/COI8fbEBRWfNTCo3AX1ZqsXRE55n/zsYMIii7Y/5iKpWmLOKm5h4/HCrz+SMwn3kDYdHIRm3RbUCYxsSEhym9X1w8fDfVSDErj28grmgJOovV7TW2VFAqB1MBP+r4iQDNHebxkOZQ1ZqgvkuQ5H8qK1P3RL8buPejEEnS6i6LSCIsbe1qKomF4d60m0V4PDJJL9mMGKFS+10uzcoIVEcCvW8SsfXOV/YRL/gC7VNqoaj7AF6hI1Q3jAVpN7BqYc0JNDU6nZP1UxCX49Qs40SCo2xNblpA6rImNli+Kn+SgxwTICL3Z+B7bRUo3Xn/PiqSMJXAXNjvuxOcma1ibSbND7P4YpTGxgIzXf4c0Xx5MZBBZMT+QPFCbPRGSbWHsdbVGEAbeKlZPvA/HBYbdEHIkll1w1VtIi+0FUnwkTQjrnrHEi7v0AtECekRuH/T8i3K5Ca2fCcWRhNk9vBz9TJFDB8AqRhhlf2vYl+15PoRI/ixjNCCODyLYadIMm53VMoA0MN7G7r/fZV3j9h+MRvnFbIqF6epZ2FXzK+puhfLLhgwgUf9R9K4xsiN5wecsVuSMQQOwfgtG3IpwLULorP8UBbdbPsPFeVnwfL2SEyQhGNfnBG5mWanyQk+Hb/tUWhU6YOt+HWLcIBS9JNHYfHZcaIJatX8oRzLrwFHp/JvUs7zPfe2R74iu4bmb8StBcc9gMARp0YuugFOsd+FdzLWg0LKs1nsBPu0ReX20pGFLoIELh+DFam9xIv0kcI0Mkr3I9z34QyOwV4ovZgpKchZFu/kliO89lYi7rmCWnAHrUCqbbFF5j5UVMhCQfCegj9rkdwQ==|920
