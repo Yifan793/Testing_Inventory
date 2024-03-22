@@ -706,7 +706,17 @@
   },
   {
     "ModuleName": "MasterPCPage/报表导航菜单",
-    "ModuleType": 3
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-03-22T09:57:26.3393075+08:00",
+    "ModuleType": 3,
+    "ToRemoveFiles": [
+      "MasterPages\\PC母版页\\报表导航菜单.json",
+      "MasterPages\\PC母版页\\报表导航菜单.rd"
+    ]
   },
   {
     "ModuleName": "MasterPCPage/打印_导出",
