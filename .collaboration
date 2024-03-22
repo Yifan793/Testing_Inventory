@@ -699,7 +699,7 @@
       "UserName": "GRAPECITY\\ShaySong",
       "Email": "1146602243@qq.com"
     },
-    "LockDateTime": "2024-03-22T12:04:48.6718733+08:00",
+    "LockDateTime": "2024-03-22T12:10:24.2549591+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\销售\\销售单.json",
@@ -1081,7 +1081,16 @@
   },
   {
     "ModuleName": "ServerCommand/导出sales表到Excel",
-    "ModuleType": 15
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-03-22T12:10:24.2538614+08:00",
+    "ModuleType": 15,
+    "ToRemoveFiles": [
+      "ServerCommands\\导出\\导出sales表到Excel.json"
+    ]
   },
   {
     "ModuleName": "ShareCommandContainer/ELMessage",
