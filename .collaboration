@@ -1160,7 +1160,17 @@
   },
   {
     "ModuleName": "PCPage/销售汇总表(按客户) (2)",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-03-22T10:17:47.0351804+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\报表\\销售报表\\销售汇总表(按客户) (2).json",
+      "Pages\\报表\\销售报表\\销售汇总表(按客户) (2).rd"
+    ]
   },
   {
     "ModuleName": "PCPage/采购汇总图(按物品) (2)",
