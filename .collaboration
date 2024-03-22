@@ -1152,7 +1152,17 @@
   },
   {
     "ModuleName": "RdlReport/采购汇总图(按物品)",
-    "ModuleType": 18
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-03-22T10:31:29.651837+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\采购汇总图(按物品).json",
+      "Reports\\采购汇总图(按物品).rdlx"
+    ]
   },
   {
     "ModuleName": "RdlReport/销售汇总表(按客户)",
