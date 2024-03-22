@@ -363,7 +363,7 @@
           {
             "$type": "Forguncy.Model.ExportActiveReportCommand, ServerDesignerCommon",
             "ExportReportNameList": [
-              "采购汇总图(按物品)"
+              "采购汇总图按物品2"
             ],
             "CustomName": "采购汇总图(按物品)",
             "ExportSettings": {
@@ -378,14 +378,14 @@
                 }
               },
               {
-                "TargetParameter": "开始日期",
+                "TargetParameter": "采购开始即日起",
                 "SourceValue": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "='采购汇总图(按物品) (2)'!from"
                 }
               },
               {
-                "TargetParameter": "结束日期",
+                "TargetParameter": "采购结束日期",
                 "SourceValue": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "='采购汇总图(按物品) (2)'!to"
@@ -411,7 +411,7 @@
           {
             "$type": "Forguncy.Model.ExportActiveReportCommand, ServerDesignerCommon",
             "ExportReportNameList": [
-              "采购汇总图(按物品)"
+              "采购汇总图按物品2"
             ],
             "CustomName": "采购汇总图(按物品)",
             "ExportReportType": 1,
@@ -427,14 +427,14 @@
                 }
               },
               {
-                "TargetParameter": "开始日期",
+                "TargetParameter": "采购开始即日起",
                 "SourceValue": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "='采购汇总图(按物品) (2)'!from"
                 }
               },
               {
-                "TargetParameter": "结束日期",
+                "TargetParameter": "采购结束日期",
                 "SourceValue": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "='采购汇总图(按物品) (2)'!to"
@@ -460,7 +460,7 @@
           {
             "$type": "Forguncy.Model.ExportActiveReportCommand, ServerDesignerCommon",
             "ExportReportNameList": [
-              "采购汇总图(按物品)"
+              "采购汇总图按物品2"
             ],
             "CustomName": "采购汇总图(按物品)",
             "ExportReportType": 2,
@@ -476,14 +476,14 @@
                 }
               },
               {
-                "TargetParameter": "开始日期",
+                "TargetParameter": "采购开始即日起",
                 "SourceValue": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "='采购汇总图(按物品) (2)'!from"
                 }
               },
               {
-                "TargetParameter": "结束日期",
+                "TargetParameter": "采购结束日期",
                 "SourceValue": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "='采购汇总图(按物品) (2)'!to"
@@ -509,7 +509,7 @@
           {
             "$type": "Forguncy.Model.ExportActiveReportCommand, ServerDesignerCommon",
             "ExportReportNameList": [
-              "采购汇总图(按物品)"
+              "采购汇总图按物品2"
             ],
             "CustomName": "采购汇总图(按物品)",
             "ExportReportType": 3,
@@ -525,14 +525,14 @@
                 }
               },
               {
-                "TargetParameter": "开始日期",
+                "TargetParameter": "采购开始即日起",
                 "SourceValue": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "='采购汇总图(按物品) (2)'!from"
                 }
               },
               {
-                "TargetParameter": "结束日期",
+                "TargetParameter": "采购结束日期",
                 "SourceValue": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "='采购汇总图(按物品) (2)'!to"
@@ -573,10 +573,6 @@
         "FontSize": 13.333333333333332,
         "FontStyle": 3,
         "Foreground": 0
-      },
-      {
-        "FontFamily": 1,
-        "Formatter": 4
       }
     ],
     "Types": {
@@ -584,8 +580,7 @@
         "Text 1 50",
         "Body",
         "Center",
-        "Italic",
-        "[AUTO]General"
+        "Italic"
       ]
     },
     "CellStyles": {
@@ -620,7 +615,7 @@
       "3,29": 2,
       "3,30": 2,
       "9,2": 4,
-      "22,12": 5,
+      "22,12": 2,
       "22,13": 2,
       "22,14": 2,
       "22,15": 2,
@@ -629,7 +624,7 @@
       "22,18": 2,
       "22,19": 2,
       "22,20": 2,
-      "22,22": 5,
+      "22,22": 2,
       "22,23": 2,
       "22,24": 2,
       "22,25": 2,
@@ -638,7 +633,7 @@
       "22,28": 2,
       "22,29": 2,
       "22,30": 2,
-      "22,32": 5,
+      "22,32": 2,
       "22,33": 2,
       "22,34": 2,
       "22,35": 2,
@@ -820,10 +815,10 @@
     "3,2,1,9",
     "3,12,1,9",
     "22,2,7,9",
+    "11,2,10,43",
     "22,12,7,9",
     "22,22,7,9",
-    "22,32,7,9",
-    "11,2,10,43"
+    "22,32,7,9"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -831,8 +826,8 @@
     "PageLoadedCommandList": [
       {
         "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
-        "SessionGuid": "76b5fda8-3d7b-47f9-a9b1-1146d072339f",
-        "OpenReportName": "采购汇总图(按物品)",
+        "SessionGuid": "b9b362c0-dbca-46ae-9ad5-3dab00031f25",
+        "OpenReportName": "采购汇总图按物品2",
         "SideBarPosition": 0,
         "PassParameters": [
           {
@@ -850,7 +845,7 @@
             }
           },
           {
-            "TargetParameter": "物品",
+            "TargetParameter": "ID",
             "SourceValue": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
               "SerializeProperty": "='采购汇总图(按物品) (2)'!物品名称"
@@ -925,4 +920,4 @@
       "Formula": "'采购汇总图(按物品) (2)'!$M$4"
     }
   ]
-}//d2ByFZikElAzdAXGOdmHTskgkZXh/RYlZu07nk/yXDB196EJGAu+5uklfXLFsMSXEXIzOAEc6s5R0nKk3mJop3vDUL8+xMuUdCskH9/ATnI6N6G9SyKgGsuefAt7JZgr1ffmhzIAOpVpnynl+i/YkvqM0sXJ2YRZDiCv0cc+4DXKwhG6hIkjiAHq4HaNmM5m95t8XxDCoUExKcPSZn4Y6hyWtfn0i1TN9tnxJdYY2YPaYcmHgxquuCaQ5ogcHUzdKdziLGXAMMSgo4Ikc7M/ZHLYdYZypzLGNx7sIcyqAZAEDtMl0WkbEs4OSIk16RqyxW3EwHG69BfRiwpFPSX1dEwdsbZjXpHMXqDXYIlBH3/hkp+lywFJ7iZf7AcAy1EQDjmnPDmdPyCtRAkwF18y3k4tCnHhp0TD66J0iugwQbOQZKi3u8fPIKR+tAWfBI6E2SOFHEh/uJc3li8RZw0nsFr2f8JA5vu0VKR2erAO+J5ISaRfpn2B1a7Own5JxgDK0oNIkW0ek+qylMTfgt3ZyTQz54qytOIRtqFGRUDs3lBpSuoGcPJW+zGg2ciWUe5GcvfpVej3M1JGP9fsLUBvI3llAv01xmJY3ilVQXi9V9WJhmLG8lKrXdKjGYzidIoboYmE7Pcx/rO+aAijqsyin+iQqAh/RflCnFZfsK6rsmd/BdOgj/8HZeFTG6EvLJtGL/uvJm6CWZsRwkHK4JKPmJ6l0IhCBHk9Wz3vb7UNljFxuEO7vB5bC5/EoH1NrOLzKRYjUhtSEU4pAatHOwGSldTcRr/mTgPKCxr0m8LLGgXF35pV13RK2hqUN6pGNQcFlF8QZqQxiC4GDECX5iSEF/YewdyB3U75KAC9Au8F5vmS3oQTJcvuNDOqNlQ42O83C9KUmiY22LCEuMW3YbBvQQ==|920
+}//B/p+PdWkgGJ31zvc/Jg0Xe0MS3NMZHlMZ/uArWHJ4b4TqK31wIYEERwFAuATYUpoX819MGCVN9xdecfN+X9+k1KSSdlr5tAuTKh5hHqu8aYJhzViMRuRGZDED8w9mUNukJns+/6U/nMfIUdfMgQmpGUNEv7IsdjusOyW2GnZ2l/KxK0J07BxiLebwkf/GiO8Sq7pA4983Nqe6pdJCa6D8HIwg3RCGLI++K2BwDXHS+8KcghKSNbQtmmVf5KXOhrrwnIDnJWWqEnInzFY1i1AYlx8mnQtjYE8QJvanojoAAH4t6/kg12vlYSP9v/D8HzqqhyvqUfhSJ64kqQqUqb2zCPXVPPZU+QHB/O4xCjmngmrugFdl3ptqBwjbIl9wL69EBhj9NhAQs/4Qf2wZ+CoO0u+YssT2LK8wu/jb3b7t7iMc41FweVW0d9ea938NAeCOlNqPPpHubvC0nAxV8t7OTz2ivioxLYhV2vItC4OlU8bzWfnFY4fN2U3dd2eKhSmB0S7/YoalDFRDfGUdzpr1aVCTTXW1bMW/3+xie1GpAP+RwNTJSG9u0CoDTA5FcYGl3v+YxHd6K4YlEomJ8J8SqN+jax6O2ro/941AOWhFag9Vr3+3UHxQNjSdrhs2ixgPbzTTFX/s9+BJOAELTGqGaTcJm6e2nXeOSzFpV669j1vvtTv+G1iiPLyzk6aXzg+DQ5Fyfcz5rZehHut5YAFqHsesnmuS0DOVgAQxFgPQYIBrwrbOLLECO0SeWHlbNl5lEJ1puf8uwY5lPKT4BnH8DvxNqz6+m9kWXj7y68D58eIe7lgpbSSVkbSUmHzHA5SNQgfwHGBxSL6ktC8Hd1bRxPEgCKXsFy5z7cSlud8VjK6jahNazVtmy2EvSP8xSl2wrH2NNDXwtmQxdJ2dr9HAA==|920

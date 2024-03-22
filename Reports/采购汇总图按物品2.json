@@ -1,9 +1,9 @@
 {
-  "Name": "采购汇总图(按物品)",
+  "Name": "采购汇总图按物品2",
   "DataSources": [
     {
-      "Name": "purchase_order_details",
-      "GUID": "eb83a3a4-aab9-47d1-83ff-06bfcc0aa0be",
+      "Name": "数据源1",
+      "GUID": "2c126418-fdd3-42a4-b73d-2e939cbdaf1e",
       "DataSourceSetting": {
         "TableName": "purchase_order_details",
         "BindingInfos": [
@@ -59,7 +59,7 @@
               "ColumnBindingInfo": {
                 "TableName": "purchase_order_details",
                 "ColumnName": "purchase_order_id",
-                "GUID": "c042129a-36f9-4d40-8717-e5d62ca699c9",
+                "GUID": "0334231e-5630-4899-a0c1-1388af279497",
                 "RelationBinding": {
                   "RelatedTable": "purchase_order",
                   "RelatedColumn": "ID",
@@ -77,7 +77,7 @@
               "ColumnBindingInfo": {
                 "TableName": "purchase_order_details",
                 "ColumnName": "purchase_order_id",
-                "GUID": "c3ff8a0a-9df9-40d2-b1a7-c4f1e781a83e",
+                "GUID": "6c1905fa-b416-4a76-9e79-96e6a592257e",
                 "RelationBinding": {
                   "RelatedTable": "purchase_order",
                   "RelatedColumn": "ID",
@@ -94,11 +94,11 @@
               "ColumnBindingInfo": {
                 "TableName": "purchase_order_details",
                 "ColumnName": "goods_id",
-                "GUID": "f2e99270-9a8f-4ba8-b6bd-6ec9e5f9130e"
+                "GUID": "b4b0be2e-2f7a-4ba1-a663-51cf1cd725ee"
               },
               "Value": {
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=物品"
+                "SerializeProperty": "=ID"
               }
             }
           ]
@@ -112,7 +112,7 @@
           "Name": "结束"
         },
         {
-          "Name": "物品"
+          "Name": "ID"
         }
       ],
       "ColumnsType": [
@@ -120,6 +120,35 @@
         "string",
         "date-time",
         "number"
+      ]
+    },
+    {
+      "Name": "物品",
+      "GUID": "fc9d9815-18d4-44cf-8b12-228278f19dfd",
+      "DataSourceSetting": {
+        "TableName": "item",
+        "BindingInfos": [
+          {
+            "BindingInfo": {
+              "TableName": "item",
+              "ColumnName": "ID",
+              "GUID": "19d6641d-684b-4d07-b8c5-a561b4ce4cc5"
+            },
+            "ColumnName": "ID"
+          },
+          {
+            "BindingInfo": {
+              "TableName": "item",
+              "ColumnName": "item_name",
+              "GUID": "d6882fea-4519-4349-9e06-64d02f2de5be"
+            },
+            "ColumnName": "名称"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "integer",
+        "string"
       ]
     }
   ],
