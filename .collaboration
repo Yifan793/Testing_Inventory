@@ -105,47 +105,17 @@
   },
   {
     "ModuleName": "TableView/用户信息视图",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-21T18:10:49.4699823+08:00",
     "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\用户信息\\用户信息视图.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/组织信息视图",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-21T18:10:49.4700073+08:00",
     "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\用户信息\\组织信息视图.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/组织级别视图",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-21T18:10:49.4700113+08:00",
     "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\用户信息\\组织级别视图.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -186,16 +156,7 @@
   },
   {
     "ModuleName": "Table/计划任务更新表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-20T17:36:04.0135292+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\计划任务更新表.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Pages/物品_库存",
@@ -731,17 +692,7 @@
   },
   {
     "ModuleName": "MasterPCPage/横向导航菜单",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-21T14:25:23.4346387+08:00",
-    "ModuleType": 3,
-    "ToRemoveFiles": [
-      "MasterPages\\PC母版页\\横向导航菜单.json",
-      "MasterPages\\PC母版页\\横向导航菜单.rd"
-    ]
+    "ModuleType": 3
   },
   {
     "ModuleName": "MasterPCPage/报表导航菜单",
@@ -1101,16 +1052,7 @@
   },
   {
     "ModuleName": "TaskScheduler/计划任务1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-21T18:09:11.0775634+08:00",
-    "ModuleType": 16,
-    "ToRemoveFiles": [
-      "SchedulerTasks\\计划任务1.json"
-    ]
+    "ModuleType": 16
   },
   {
     "ModuleName": "TaskScheduler/计划任务2",
@@ -1174,31 +1116,11 @@
   },
   {
     "ModuleName": "UserService",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-21T14:19:39.3024026+08:00",
-    "ModuleType": 11,
-    "ToRemoveFiles": [
-      "UserServiceDB.sqlite3",
-      "CloudStorageProvider\\data.json",
-      "SecurityProviderV2\\data.json"
-    ]
+    "ModuleType": 11
   },
   {
     "ModuleName": "CustomLibrary",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-20T15:48:34.8343453+08:00",
-    "ModuleType": 12,
-    "ToRemoveFiles": [
-      "CustomLibraries.json"
-    ]
+    "ModuleType": 12
   },
   {
     "ModuleName": "MapJsonFile",

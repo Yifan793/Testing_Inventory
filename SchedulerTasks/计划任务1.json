@@ -27,7 +27,7 @@
           "BindingInfo": {
             "TableName": "计划任务更新表",
             "ColumnName": "变更数据",
-            "GUID": "b4eca0c0-142d-425e-b560-87e40126f1fb"
+            "GUID": "e627b1c0-eddf-4c74-a365-865377a82a30"
           },
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -38,7 +38,7 @@
           "BindingInfo": {
             "TableName": "计划任务更新表",
             "ColumnName": "表名",
-            "GUID": "98a0ec8a-77f3-48d9-b279-42ec8f0518b9"
+            "GUID": "272450c4-5e5b-4dc1-910e-c47b50dabd30"
           },
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -49,7 +49,7 @@
           "BindingInfo": {
             "TableName": "计划任务更新表",
             "ColumnName": "主键",
-            "GUID": "a043d2ae-ffbb-4702-8cce-a8a387aec0f3"
+            "GUID": "0772c770-4ce7-49a6-81b5-463343d5432e"
           },
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -60,7 +60,7 @@
           "BindingInfo": {
             "TableName": "计划任务更新表",
             "ColumnName": "操作人",
-            "GUID": "a4baae2e-8ca1-4496-bc01-5f83fb8bb663"
+            "GUID": "216b9ab9-663d-4fd8-bcc1-2f3e6e355194"
           },
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -71,7 +71,7 @@
           "BindingInfo": {
             "TableName": "计划任务更新表",
             "ColumnName": "操作时间",
-            "GUID": "e3f71a51-b2f5-4c2c-8f0b-632e3b86a48c"
+            "GUID": "4c1dee38-bc41-46ef-8e77-98fcf4374ac1"
           },
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -82,7 +82,7 @@
           "BindingInfo": {
             "TableName": "计划任务更新表",
             "ColumnName": "数据库变化",
-            "GUID": "f4ed5db6-89ca-4ae4-b8aa-c743610cae36"
+            "GUID": "8dc17469-2e63-4a3d-a8cc-a0f2cb612105"
           },
           "Value": "新增"
         },
@@ -90,7 +90,7 @@
           "BindingInfo": {
             "TableName": "计划任务更新表",
             "ColumnName": "全局变量",
-            "GUID": "421c1433-9d7a-450a-9492-85cbec6aa40c"
+            "GUID": "68610adc-5f82-406d-809c-9f24fa00b3b4"
           },
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
