@@ -1185,5 +1185,15 @@
       "Pages\\报表\\采购报表\\采购汇总图(按物品) (2).json",
       "Pages\\报表\\采购报表\\采购汇总图(按物品) (2).rd"
     ]
+  },
+  {
+    "ModuleName": "RdlReport/采购汇总图(按物品)2",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-03-22T11:05:00.9178136+08:00",
+    "ModuleType": 18
   }
 ]
