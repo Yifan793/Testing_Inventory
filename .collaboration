@@ -1218,7 +1218,24 @@
   },
   {
     "ModuleName": "Plugin",
-    "ModuleType": 40
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-03-22T13:36:11.8098239+08:00",
+    "ModuleType": 40,
+    "ToRemoveFiles": [
+      "Plugin\\Forguncy.CustomMenu.zip",
+      "Plugin\\HtmlRichEdtior.zip",
+      "Plugin\\ImportExportCSV.zip",
+      "Plugin\\PassListviewDataCommand.zip",
+      "Plugin\\PC组件包-ElementPlus-10_0_0_0(1).zip",
+      "Plugin\\SelectionPanel.zip",
+      "Plugin\\SetCurrentRowCommand.zip",
+      "Plugin\\SqlServerWrapper.zip",
+      "Plugin\\TabManager.zip"
+    ]
   },
   {
     "ModuleName": "PublishSetting",
