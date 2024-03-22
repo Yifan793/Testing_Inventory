@@ -1,0 +1,94 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "1,1": "下载模板文件"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.DownloadFileCommand, ServerDesignerCommon",
+            "FileName": "活字格V9.0 Update1 用户管理实战公开课",
+            "FileGuid": "569745b9c05b4f5fa2a16916de17d3c6",
+            "FileExtension": ".zip"
+          }
+        ],
+        "Text": "下载模板文件",
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "5,1": {
+      "CellType": {
+        "$type": "FilePreviewer.FilePreviewer, FilePreviewer",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "UploadLimit": {},
+        "Folder": "%CurrentUser%",
+        "KKFileViewExtensions": "(doc|docx|xls|xlsx|ppt|pptx)"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,1,3,10",
+    "5,1,9,18"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "报表导航菜单",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//mKFMVGwzidQFiPI3G9/EQStJHcEW6L79+a1Bjvp0va9PNBI1SMpj37qiisz++EzadJWEezfPeYOzddtg03j1J1TSML2IQeE+ZQbwzD+4qKenkjd2CY7ELveXk5LC3Oplgf1F1h6ktaNC28cff9EveMoCtuUVbahCnuGZADVcLL8PCojXUBQtd3ie591WC1TfDIEjUr3JgZIBp6yIbabNqUneogAknx+1pUnBvb4vaN9cUnGLv9D0ECqCM5A7nL5BHl8cxWOr88O2mp6R1epxU/IWhlosMX9zefzNPeK/qElz5h6hgXP3CZGEimb+oRgSeMfm4RTDT76flcRwo8D6zmQtSRlLqfpXJ5FcKkD6Y8EJ+GVjSM8CBH3xODtkyR91UycE0fQyhlSMCVwI30A8fpGyQvn5xRgpCJUc1zarZ3uvkvCokw/HSONWKLVYjsYA+T3P8ukItHdu5Vxf4bwkp4dCL7eUpPtmwcxofBChcxXvBzulHk4yuC3G0Y5Xt3l4bISvxfgcH4Svco33zpJQxzFcHRKhipee00OYTGd0HtmQTI41vNVMyqxQSSPK8SX61NIbT0WQZyNTcfEKcoV3jMvMOY595RL0OygHSADJmL0geDjI7+CWRzHEN/eSeRBTfFgyV4OzK7N9uTcXKeo1+NlAXhLH2VQKPWkagPvB4q76YbHu8Xrnxwly7XZmiKdwRK+12WHSnC4HHIJ7GviKVwri0pwfiuBpgtgz/rU9sM7JvRMU3PT8H69qRjTIicS5eEMNcPMD/R8vD4dOoFG6Yh+6d9JJU7Q8GD7cIAIEItCwvOobmikOLsl77NuIottrc1D4iuNyG8ccAUi6pUQs56OmP0/PK5B0l1krX+JHbM4Q6MVNvByTUdYqfMAA6M1aygIdZ5ofsI9aN89n2OZWTA==|920

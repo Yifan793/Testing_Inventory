@@ -107,14 +107,19 @@
     "2,37": "出库状态",
     "2,46": "审核状态",
     "4,46": "全部",
-    "7,18": "全局变量",
+    "7,16": "全局变量",
     "8,2": "销售单列表",
-    "8,12": "E",
-    "8,14": "H",
-    "8,16": "P",
-    "8,18": "C",
-    "8,20": "E",
+    "8,11": "E",
+    "8,13": "H",
+    "8,15": "P",
+    "8,17": "C",
+    "8,19": "E",
+    "8,22": "D:\\ExportSales",
     "8,43": "审批记录",
+    "9,9": "前端",
+    "9,11": "E",
+    "9,15": "P",
+    "9,19": "E",
     "10,2": "销售单号",
     "10,10": "客户",
     "10,40": "项目",
@@ -454,7 +459,7 @@
                           "ID": "4e47f451bafb43b795c372aa316d4321"
                         }
                       ],
-                      "ID": "0f2f85e8-3c53-40cd-9931-f9ff202c9ed9"
+                      "ID": "cc23aa1f-28cd-4202-a166-81ad0363fa92"
                     },
                     {
                       "Condition": {
@@ -587,7 +592,7 @@
                           "ID": "103f7890a1994e6b91e05008733c685d"
                         }
                       ],
-                      "ID": "e098910a-5817-44e4-9982-32277d74639d"
+                      "ID": "9e565464-c4db-4b02-8dc3-98ee38a5c668"
                     },
                     {
                       "Condition": {
@@ -735,7 +740,7 @@
                           "ID": "d13a9f628cfd479ba1b99e0eacad2e89"
                         }
                       ],
-                      "ID": "93c6ad73-ebea-4c3c-9058-4a47a605101a"
+                      "ID": "759ca262-6255-4979-afa9-255c73260029"
                     },
                     {
                       "Condition": {
@@ -889,7 +894,7 @@
                           "ID": "e65c5a8cc12a4ea0bb24df8b9bc92334"
                         }
                       ],
-                      "ID": "d7f414df-6644-459e-9eb9-6f428661bdd4"
+                      "ID": "f6bc1c8f-89bb-42c0-80ce-9ee1c6fbbf57"
                     },
                     {
                       "CommandList": [
@@ -1031,7 +1036,7 @@
                           "ID": "5ed196f79771482781163b827eb0823c"
                         }
                       ],
-                      "ID": "c9c7f357-f3e6-42e9-8d07-379ce36e8451"
+                      "ID": "a605a011-0639-48d0-b482-f4d54d45ef0c"
                     }
                   ]
                 }
@@ -1085,7 +1090,7 @@
         ]
       }
     },
-    "7,18": {
+    "7,16": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
@@ -1093,7 +1098,7 @@
             "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
             "ServerCommandName": "设置全局变量",
             "ResultErrorCodeTo": {
-              "SerializeProperty": "=销售单!M8"
+              "SerializeProperty": "=销售单!U8"
             },
             "RefreshAfterFinish": true,
             "CheckDataValidation": true
@@ -1109,7 +1114,7 @@
         "UserControlPageName": "列表标题格式"
       }
     },
-    "8,12": {
+    "8,11": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
@@ -1295,7 +1300,7 @@
               }
             ],
             "ResultErrorCodeTo": {
-              "SerializeProperty": "=销售单!M8"
+              "SerializeProperty": "=销售单!U8"
             },
             "ReturnPropertiesTo": [
               {
@@ -1427,7 +1432,7 @@
         "TemplateKey": "_RS_Main1"
       }
     },
-    "8,14": {
+    "8,13": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
@@ -1613,7 +1618,7 @@
               }
             ],
             "ResultErrorCodeTo": {
-              "SerializeProperty": "=销售单!M8"
+              "SerializeProperty": "=销售单!U8"
             },
             "ReturnPropertiesTo": [
               {
@@ -1745,7 +1750,7 @@
         "TemplateKey": "_RS_Main1"
       }
     },
-    "8,16": {
+    "8,15": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
@@ -1931,7 +1936,7 @@
               }
             ],
             "ResultErrorCodeTo": {
-              "SerializeProperty": "=销售单!M8"
+              "SerializeProperty": "=销售单!U8"
             },
             "ReturnPropertiesTo": [
               {
@@ -2063,10 +2068,27 @@
         "TemplateKey": "_RS_Main1"
       }
     },
-    "8,18": {
+    "8,17": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
+          {
+            "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+            "TargetPageElement": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=销售单!销售日期"
+            },
+            "TargetType": "ElementUI.DatePickerCellType, ElementUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e50995ee76bfe560",
+            "MethodName": "GetSelectedRange",
+            "RetrunParamNames": {
+              "StartValue": {
+                "SerializeProperty": "开始日期"
+              },
+              "EndValue": {
+                "SerializeProperty": "结束日期"
+              }
+            }
+          },
           {
             "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
             "ServerCommandName": "导出sales表到CSV",
@@ -2081,23 +2103,35 @@
               },
               {
                 "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
-                "ParamName": "参数1"
+                "ParamName": "关键字",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=销售单!关键字"
+                }
               },
               {
                 "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
-                "ParamName": "参数2"
+                "ParamName": "销售开始日期",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=销售单!开始日期"
+                }
               },
               {
                 "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
-                "ParamName": "参数3"
+                "ParamName": "销售结束日期",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=销售单!结束日期"
+                }
               },
               {
                 "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
-                "ParamName": "参数4"
-              },
-              {
-                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
-                "ParamName": "参数5"
+                "ParamName": "出库状态",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=销售单!出库状态"
+                }
               },
               {
                 "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
@@ -2249,7 +2283,7 @@
               }
             ],
             "ResultErrorCodeTo": {
-              "SerializeProperty": "=销售单!M8"
+              "SerializeProperty": "=销售单!U8"
             },
             "ReturnPropertiesTo": [
               {
@@ -2381,10 +2415,27 @@
         "TemplateKey": "_RS_Main1"
       }
     },
-    "8,20": {
+    "8,19": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
+          {
+            "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+            "TargetPageElement": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=销售单!销售日期"
+            },
+            "TargetType": "ElementUI.DatePickerCellType, ElementUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e50995ee76bfe560",
+            "MethodName": "GetSelectedRange",
+            "RetrunParamNames": {
+              "StartValue": {
+                "SerializeProperty": "开始日期"
+              },
+              "EndValue": {
+                "SerializeProperty": "结束日期"
+              }
+            }
+          },
           {
             "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
             "ServerCommandName": "导出sales表到Excel",
@@ -2399,19 +2450,35 @@
               },
               {
                 "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
-                "ParamName": "参数1"
+                "ParamName": "关键字",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=销售单!关键字"
+                }
               },
               {
                 "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
-                "ParamName": "参数2"
+                "ParamName": "销售开始日期",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=销售单!开始日期"
+                }
               },
               {
                 "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
-                "ParamName": "参数3"
+                "ParamName": "销售结束日期",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=销售单!结束日期"
+                }
               },
               {
                 "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
-                "ParamName": "参数4"
+                "ParamName": "出库状态",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=销售单!出库状态"
+                }
               },
               {
                 "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
@@ -2567,7 +2634,7 @@
               }
             ],
             "ResultErrorCodeTo": {
-              "SerializeProperty": "=销售单!M8"
+              "SerializeProperty": "=销售单!U8"
             },
             "ReturnPropertiesTo": [
               {
@@ -2702,6 +2769,7 @@
     "8,22": {
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "CellDefaultValue": "D:\\ExportSales",
         "SavedValidators": [
           {
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
@@ -2817,7 +2885,7 @@
                           "CheckDataValidation": true
                         }
                       ],
-                      "ID": "8629f1cc-5915-4508-9589-2f8ef4bab46f"
+                      "ID": "84f87263-5665-46d7-93f0-3ed122ca9316"
                     }
                   ]
                 }
@@ -2937,6 +3005,47 @@
         ]
       }
     },
+    "9,11": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
+            "NewOtherName": ""
+          }
+        ],
+        "Text": "E",
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "9,15": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportPageToPdfCommand, ServerDesignerCommon",
+            "NewOtherName": ""
+          }
+        ],
+        "Text": "P",
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "9,19": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportListViewToExcelCommand, ServerDesignerCommon",
+            "ListViewName": "表格1",
+            "NewOtherName": "",
+            "IsOnlyExportValue": false
+          }
+        ],
+        "Text": "E",
+        "TemplateKey": "_RS_Main1"
+      }
+    },
     "10,2": {
       "ListViewInfo": {
         "Name": "表格1",
@@ -3030,7 +3139,7 @@
                     ]
                   }
                 ],
-                "ID": "dc1b001f-53da-4f3c-a91f-c5d5c8665fb1"
+                "ID": "e2f04460-2285-4b48-8946-373bd07a8e09"
               },
               {
                 "CommandList": [
@@ -3073,7 +3182,7 @@
                             ]
                           }
                         ],
-                        "ID": "955ac4b7-8932-437c-a4c1-87321ca48319"
+                        "ID": "c22f4f80-a525-42c7-8800-b828f2b5b28e"
                       },
                       {
                         "CommandList": [
@@ -3099,13 +3208,13 @@
                             ]
                           }
                         ],
-                        "ID": "9644021f-4aee-4233-9f9d-ae68b9efba40"
+                        "ID": "f70759f0-513a-4c4b-b9b9-c99334b5de31"
                       }
                     ],
                     "Comments": "仅允许修改、删除 未提交的销售单"
                   }
                 ],
-                "ID": "7e802810-3ee6-4c2c-8d6a-5839802aa276"
+                "ID": "1546409c-b438-4174-bfba-ea99850266a4"
               }
             ],
             "Comments": "仅允许修改、删除自己创建的记录"
@@ -3142,7 +3251,7 @@
                   }
                 ],
                 "Comments": "审核实例ID为空时，不显示审批记录按钮",
-                "ID": "c5125f3f-45b7-437c-a022-6c5a2559ea9d"
+                "ID": "01cdb0f7-834e-406e-b60a-a762aff02cd5"
               },
               {
                 "CommandList": [
@@ -3194,7 +3303,7 @@
                           }
                         ],
                         "Comments": "审核状态为审核中时",
-                        "ID": "c6f16eac-e303-451b-a2e4-a2c68d7bc8a8"
+                        "ID": "561ace00-c25d-43bf-9902-95a358fb25c3"
                       },
                       {
                         "CommandList": [
@@ -3214,12 +3323,12 @@
                             }
                           }
                         ],
-                        "ID": "b4d2b2b1-8960-4996-b7fe-1ca094088c26"
+                        "ID": "94d1f576-4690-4411-a643-7b2d9521611c"
                       }
                     ]
                   }
                 ],
-                "ID": "720c4a7e-324a-495b-a50f-f63087888d29"
+                "ID": "e33ec2e3-95fa-45ff-8e9f-3884e492a561"
               }
             ]
           }
@@ -3629,10 +3738,23 @@
       "6,51": 2,
       "6,52": 2,
       "6,53": 2,
-      "8,14": 3,
-      "8,16": 3,
-      "8,18": 3,
-      "8,20": 3,
+      "7,16": 2,
+      "7,17": 2,
+      "7,18": 2,
+      "7,20": 2,
+      "7,21": 2,
+      "7,22": 2,
+      "7,23": 2,
+      "7,24": 2,
+      "8,11": 2,
+      "8,12": 2,
+      "8,13": 3,
+      "8,14": 2,
+      "8,15": 3,
+      "8,16": 2,
+      "8,17": 3,
+      "8,18": 2,
+      "8,19": 3,
       "8,22": 4,
       "8,35": 2,
       "8,36": 2,
@@ -3640,6 +3762,13 @@
       "8,43": 2,
       "8,48": 2,
       "8,49": 2,
+      "9,11": 3,
+      "9,12": 2,
+      "9,14": 2,
+      "9,15": 3,
+      "9,16": 2,
+      "9,18": 2,
+      "9,19": 3,
       "9,68": 2,
       "10,2": 5,
       "10,10": 6,
@@ -3716,7 +3845,9 @@
     "8,43,1,5",
     "8,49,1,18",
     "8,22,1,13",
-    "7,12,1,5",
+    "9,9,1,2",
+    "7,20,1,5",
+    "7,16,1,3",
     "10,2,1,8",
     "10,10,1,8",
     "10,18,1,8",
@@ -3728,8 +3859,7 @@
     "10,60,1,7",
     "10,67,1,3",
     "10,70,1,3",
-    "10,73,1,3",
-    "7,18,1,3"
+    "10,73,1,3"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -3893,4 +4023,4 @@
       "Formula": "销售单!$AR$9"
     }
   ]
-}//Tf/KM5TqHLt2oAnl8mPS7/Hc1lowjO/AMqDZu7X2AeKnqKiBSyewd9/rHq6FgxfKTnFZHpHr2KcPmrv5wWc9eTfnRyuj3yDl/EZ4cdEiZG20SxIpgOJnSQ4LMFjQ9lQuz5/WbYNYsytO/IBwa2+ZfXkLWBl6am8wG7OhZrMZpuIiZugR9zS6ITTokRAtflO3OCTPdXOHXSjOjZmpyHMUnpRCYksijqzObSiKGjowNLykxr2BgDcqpO47g8tR1t8D3+pJ+aXEv9nICFBH+m4NmHnzS4K+v4u6bUxM5qIm9iSY00w5ofCbcheeeB+yUvz9F7bRALzecdL2h9kXttxGxSagoc1rPKqe+W1K6Curnmdt9Qax+xxZBehketNVsIarW4LjmuwFiH3jGzrv5NIjACbOWWXHltSdcL/EykIOrW/4ya3ta20fWNtZ+BSJLhzZcYIUzIQjVDbs3j8TVmvzEEJnGfW+J1L1yokQ+MsM5PhUdE4Y0BWWw0O9XkURKqooj5WTlFrR1Ws3E0Y+h3NfAMi8cXrMVMhlfc0rB1Hq3jyfCC0ALs4Vc9sm2lu8hG1EcCn35eIZjVWc3Dfv6Lf+p3ivlh083H22Fdv/s2XIqZtRfbs0mRIkeAei4jSOEQzDzFRd7RM8ib7Q/FCJ8RO3ZRf9IjOSc9ORfWx1KUKedTXmnRDjrmQKtz674u6xv8mr65gCaQzBDzhBwKe+fz8vzXbDpGKheScIO2F7XB3+4n3WkhkqcJokjGehTpa7Kir21JEqfbO5F78HyCxysPNunZ4VNK/9pJUrqXtKQm+N8ZIY3dwaR9z6jr1vUpKPXMg+2aNSy0JbUitMKZjrBSL3irL9jWlTZBvLWVygAQrqk1YyI7TQCFx6hjthU/QwMFTZkpei1boJ/6DO0yV2I2HLTg==|920
+}//FfehfZqanrKbQH/03x3LCzCDnmUEvtyXGgac950adS5x2s3PVGsTXIQy1E4oTx6drJ1DjKhJ11oKRsn0iO+kA2aCh3zg4dVcuGfG4cXxooI9+gctBpSTukR7aMqQembfZO0XNjzoCyaJpa0W4VQ8FhffNDa4/0nG/OCJaYeJvEAkVNM4RyQUEAJxZbsMiR7dZL5sbqcHtXSNIaL5wVQhZPq0Yzz/lbb4nL/zK2UHPw1oFwb6v7J71fLQxXurGEkneXoBJKbn121rD80EdPaxHR6BwuSA6OEx7JxwWZ7jvG8x7SpEQMrlX4nPiliUOmewxJWFTNYxZmRrqlDy3QQnwU5R6lEL+ix7yWls8Q5PfAcDnT177HICni8RzS8wfMPH4ClR85um/xxGALzgwEitxlOCnyXviY/cLIIj4gqC0CD4zZTpIv9qY6yxCLekmklo4Rys0k7jtC9E160JjPcT2GYLoYnPxEW7xY0UMjBUFV1wcLpf04P1UfJZ4NBSgq0yx/iYwRbyUjupNgCxvEXcaeOZW4EkLjQSsJFPpQyk1TBHzsBVVLaaF7GkI9nsuZtc19hX3xZFie3brv0Kgy7vmB41vXdLU83u/uOaEeIc+Ol32D8vyBuZshOPvXPw4aIb+OB/0eLAziwvpw7DCMElAJjMsywXXI1WVlrG6aj4CXvvx8XtqTe/9rrUgHR5mzJR2q/kLxcRd0kq2c2g9Qqn7vJVk5s0rmoJ6aFnFbnUiCro6MIUsispY03ni/xO5IIMvvn/lGHuc4bfmR1dwcMHzmadRSbBqIzvHCcqcd+SUK4+lSdYvkXZ/6iONBYfxGQg+hmmphhw6tpiwqxcNVwvvUJqKWXUAgGnndCsMWh7BvKj2IlCM38C46TG4MyF4avwtrQXHx7kILt7fveRqv2/nQ==|920

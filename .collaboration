@@ -105,47 +105,17 @@
   },
   {
     "ModuleName": "TableView/用户信息视图",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-22T11:51:59.5626713+08:00",
     "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\用户信息\\用户信息视图.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/组织信息视图",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-22T11:51:59.5626986+08:00",
     "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\用户信息\\组织信息视图.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/组织级别视图",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-22T11:51:59.562704+08:00",
     "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\用户信息\\组织级别视图.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -694,17 +664,7 @@
   },
   {
     "ModuleName": "PCPage/销售单",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-22T12:10:24.2549591+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\销售\\销售单.json",
-      "Pages\\销售\\销售单.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/首页",
@@ -732,31 +692,11 @@
   },
   {
     "ModuleName": "MasterPCPage/横向导航菜单",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-22T13:33:27.2615317+08:00",
-    "ModuleType": 3,
-    "ToRemoveFiles": [
-      "MasterPages\\PC母版页\\横向导航菜单.json",
-      "MasterPages\\PC母版页\\横向导航菜单.rd"
-    ]
+    "ModuleType": 3
   },
   {
     "ModuleName": "MasterPCPage/报表导航菜单",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-22T13:32:18.211412+08:00",
-    "ModuleType": 3,
-    "ToRemoveFiles": [
-      "MasterPages\\PC母版页\\报表导航菜单.json",
-      "MasterPages\\PC母版页\\报表导航菜单.rd"
-    ]
+    "ModuleType": 3
   },
   {
     "ModuleName": "MasterPCPage/打印_导出",
@@ -1088,29 +1028,11 @@
   },
   {
     "ModuleName": "ServerCommand/导出sales表到CSV",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-22T12:04:48.6707164+08:00",
-    "ModuleType": 15,
-    "ToRemoveFiles": [
-      "ServerCommands\\导出\\导出sales表到CSV.json"
-    ]
+    "ModuleType": 15
   },
   {
     "ModuleName": "ServerCommand/导出sales表到Excel",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-22T12:10:24.2538614+08:00",
-    "ModuleType": 15,
-    "ToRemoveFiles": [
-      "ServerCommands\\导出\\导出sales表到Excel.json"
-    ]
+    "ModuleType": 15
   },
   {
     "ModuleName": "ShareCommandContainer/ELMessage",
@@ -1218,24 +1140,7 @@
   },
   {
     "ModuleName": "Plugin",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-22T13:36:11.8098239+08:00",
-    "ModuleType": 40,
-    "ToRemoveFiles": [
-      "Plugin\\Forguncy.CustomMenu.zip",
-      "Plugin\\HtmlRichEdtior.zip",
-      "Plugin\\ImportExportCSV.zip",
-      "Plugin\\PassListviewDataCommand.zip",
-      "Plugin\\PC组件包-ElementPlus-10_0_0_0(1).zip",
-      "Plugin\\SelectionPanel.zip",
-      "Plugin\\SetCurrentRowCommand.zip",
-      "Plugin\\SqlServerWrapper.zip",
-      "Plugin\\TabManager.zip"
-    ]
+    "ModuleType": 40
   },
   {
     "ModuleName": "PublishSetting",
@@ -1263,22 +1168,10 @@
   },
   {
     "ModuleName": "Pages/下载",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-22T12:28:28.8743623+08:00",
     "ModuleType": 6
   },
   {
     "ModuleName": "PCPage/下载页面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-22T12:29:02.2278572+08:00",
     "ModuleType": 1
   }
 ]

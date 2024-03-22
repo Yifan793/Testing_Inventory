@@ -26,19 +26,19 @@
           "DataValidationInfo": {}
         },
         {
-          "Name": "参数1",
+          "Name": "关键字",
           "DataValidationInfo": {}
         },
         {
-          "Name": "参数2",
+          "Name": "销售开始日期",
           "DataValidationInfo": {}
         },
         {
-          "Name": "参数3",
+          "Name": "销售结束日期",
           "DataValidationInfo": {}
         },
         {
-          "Name": "参数4",
+          "Name": "出库状态",
           "DataValidationInfo": {}
         },
         {
@@ -335,7 +335,108 @@
           },
           "ExcelColumnNameOrIndex": "sales_month"
         }
-      ]
+      ],
+      "QueryCondition": {
+        "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+        "SubConditions": [
+          {
+            "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+            "SubConditions": [
+              {
+                "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                "CompareType": 6,
+                "ColumnBindingInfo": {
+                  "TableName": "sales_order",
+                  "ColumnName": "order_id",
+                  "GUID": "51643cb3-0ed2-4c1f-b3cc-6d36aed9412c"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=关键字"
+                },
+                "LeftBracket": 1
+              },
+              {
+                "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                "CompareType": 6,
+                "ColumnBindingInfo": {
+                  "TableName": "sales_order",
+                  "ColumnName": "customer_id",
+                  "GUID": "4c228805-a4a9-455f-a59b-2770ccf5d549",
+                  "RelationBinding": {
+                    "RelatedTable": "supplier_customer",
+                    "RelatedColumn": "ID",
+                    "DisplayColumn": "supplier_customer_name"
+                  }
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=关键字"
+                }
+              },
+              {
+                "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                "CompareType": 6,
+                "ColumnBindingInfo": {
+                  "TableName": "sales_order",
+                  "ColumnName": "project_id",
+                  "GUID": "4d90ff6a-a694-4a34-bae4-674187c51a57",
+                  "RelationBinding": {
+                    "RelatedTable": "project_table",
+                    "RelatedColumn": "ID",
+                    "DisplayColumn": "project_name"
+                  }
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=关键字"
+                },
+                "RightBracket": 1
+              }
+            ],
+            "RelationType": 1
+          },
+          {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "CompareType": 3,
+            "ColumnBindingInfo": {
+              "TableName": "sales_order",
+              "ColumnName": "sales_date",
+              "GUID": "d05b69bf-e134-4715-b64b-ccb43b759297"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=销售开始日期"
+            }
+          },
+          {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "CompareType": 5,
+            "ColumnBindingInfo": {
+              "TableName": "sales_order",
+              "ColumnName": "sales_date",
+              "GUID": "be4b439a-a1a1-42de-873d-d6760083bb02"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=销售结束日期"
+            }
+          },
+          {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "sales_order",
+              "ColumnName": "outstock_status",
+              "GUID": "5d2ace0d-7003-49de-9b8d-fcc6c1f9a137"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=出库状态"
+            }
+          }
+        ]
+      },
+      "NullFormulaValueQueryPolicy": 1
     }
   ],
   "ReturnProperties": [
