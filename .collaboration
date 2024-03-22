@@ -1223,5 +1223,15 @@
   {
     "ModuleName": "RdlReport/采购汇总图按物品2",
     "ModuleType": 18
+  },
+  {
+    "ModuleName": "Pages/下载",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-03-22T12:28:28.8743623+08:00",
+    "ModuleType": 6
   }
 ]
