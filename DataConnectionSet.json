@@ -1,6 +1,6 @@
 [
   {
-    "ConnectionString": "Data Source=localhost;Initial Catalog=test_inventory;Integrated Security=True;Persist Security Info=True",
+    "ConnectionString": "Data Source=xa-dd3-forguncy1;Initial Catalog=test_inventory;Persist Security Info=True;User ID=sa;Password=xA123456",
     "DataBaseType": "347a1ed5-25f0-4a4b-846c-8d69cedcf33d",
     "ID": "SqlServer19"
   }
