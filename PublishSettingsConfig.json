@@ -12,5 +12,19 @@
       "TakeServeronline": true,
       "PublishRolesToServer": true
     }
+  },
+  {
+    "Name": "发布设置2",
+    "ApplicationUrl": "http://xa-dd3-forguncy2/testing_inventory",
+    "PublishSettings": {
+      "IsPrivateServer": true,
+      "ServerName": "xa-dd3-forguncy2",
+      "UserName": "Administrator",
+      "SitePort": 80,
+      "AppName": "testing_inventory",
+      "AppStartPage": "",
+      "TakeServeronline": true,
+      "PublishRolesToServer": true
+    }
   }
 ]

@@ -47,6 +47,34 @@
         }
       },
       "ReturnResultName": "发起流程结果"
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "sales_order",
+      "ShowConfirm": false,
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "ColumnBindingInfo": {
+          "TableName": "sales_order",
+          "ColumnName": "ID",
+          "GUID": "72f8224f-8816-4cc8-b13e-ecf24963e43b"
+        },
+        "Value": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=SalesOrderID"
+        }
+      },
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "sales_order",
+            "ColumnName": "audit_status",
+            "GUID": "3f7cb0e3-15bd-45c0-b7da-ac9b61d7de68"
+          },
+          "Value": "2"
+        }
+      ]
     }
   ]
 }
