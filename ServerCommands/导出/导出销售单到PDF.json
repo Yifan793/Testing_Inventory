@@ -199,7 +199,19 @@
   "Commands": [
     {
       "$type": "Forguncy.Model.ExportPageToPdfCommand, ServerDesignerCommon",
-      "TargetPageName": "销售单",
+      "IsFormPage": true,
+      "SqlCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "CompareType": 3,
+        "ColumnBindingInfo": {
+          "TableName": "sales_order",
+          "ColumnName": "ID",
+          "GUID": "47a7bf0b-5253-4128-81f6-128e5142e6f7"
+        },
+        "Value": "1"
+      },
+      "TableName": "sales_order",
+      "TargetPageName": "新增_编辑销售单",
       "ServerExportFileName": {
         "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
         "SerializeProperty": "=路径"

@@ -203,7 +203,21 @@
       "ServerExportFileName": {
         "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
         "SerializeProperty": "=路径"
-      }
+      },
+      "ExportListViewCurrentRowInfos": [
+        {
+          "BindingTable": "sales_order",
+          "CurrentRowCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "sales_order",
+              "ColumnName": "ID",
+              "GUID": "59bafa14-8f67-4453-b24c-b6bef2ee0f84"
+            },
+            "Value": "1"
+          }
+        }
+      ]
     }
   ],
   "ReturnProperties": [

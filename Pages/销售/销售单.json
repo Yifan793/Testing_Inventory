@@ -1097,6 +1097,16 @@
           {
             "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
             "ServerCommandName": "设置全局变量",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "全局变量1的值"
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "全局变量40的值"
+              }
+            ],
             "ResultErrorCodeTo": {
               "SerializeProperty": "=销售单!U8"
             },
@@ -4023,4 +4033,4 @@
       "Formula": "销售单!$AR$9"
     }
   ]
-}//taYCot6VdbjUmHqc/rZraY8iVelhesKV7M+VHqI6cDl3IlHsHB4jWgc4xSZ9yjT8yLE20dqCQXQors0UCXvY41U3RF8qpgszttMwKenxBn3/XWfRs+DmLRKyBqd4z2L/np3VjEkWfvz5n/Z239bnAdtbG4vsLbFuc6jE+Txce0DfzTFkpq7DEgowJ474xz5o/LiUyU+8F75CcqPF3REeBUXuA9SPapCDv7frlEUquVe+K372lqM1taIcTrMiq0AtresupzK/gHL5zuoVevSNWaRCIcY5nNs1JeiqJ6OQWz1w0VxCnvCcl2+LZwVCWLvl1PjcfcpRVhYa7PBJ/sLw1w3BCu86C/Gcm2l7YPtV5a7eybZccyV+LYWPSCMBt+dEqI1NXUriostx2poY+zWYyMmNIi9/hKCdfNOEhHRyR2usT8Oj3Pe11gvsMTxrNv6I5/JOJvvv3dJRNkY5NSAMmy+JGVqwnjfALFfeJ3yj8HeXueDZdqUsWfKCZUqSmuNuGi+6Uf97l1Mk3YkZec8MlSiAA09TgkNlIUmtEFUfyLjj6wm78sQZrrKhxv7pL03fBbjrnbXgRuAas5DzK8+uXSnOjfIy3bcdZbkiOX9OXnnRQ4M/+zmBWppKGO9Lg0UbnahFMa6KZtqWqwmbF9eiLGgtfQZ6WyipRhE6ZuEt4WJLFaXIaUa4yIGW9zosjQ7oPRbN0h9IbP6NHCGYsNWZ2Mk3DMpGdDkVnRfPqwJJDNAiEckdnDxkKJ1S2slr/6jfCda5fhHJQhKQFjVWwLY9GX8zTrwZDH9hdFL3331EbwtnP6pS9AvyUR2vpOXxxqNf7rzVfJkh9VniKiKMqceSpBbZQw64BaPOqMcFuDd8cOLpNrqUSGPPR39OjfIaHSdZ/AWVHJxsLV+LM4vCpDEpxg==|920
+}//vceAzs9CSbD5/S1KvwivNhv/w5CFmdDBlG6vrKbkuJwI4il6SB0zaLdoMy/vhNVki0cliB+nw5mp6W3uDwrLyWcVktPc+NHKNJ7SNBDs7vvKcZXpcHScmb41hCHVAZHlP/pl4Hy1SdZNhaZtsN/SNgn58Jn9NMDtk3FNVrSP8ICG2GMDRFkz2A9NkZY4H6af7uhIz89JKpVL7b7JXor56m2O/I2GMRVbzMpBiSaaE8hXi2oZni8GCTNQhfENYBOuCrA8H165Cwmr2WkIYGz48c3aCailCIGlvKbleoYC1SyPL2H+Y88iXpKz4lLASl22KBvOU2Mj5zUSBwbOperYRAzhxraypqqKYPEUJ+glo+LTrkm0d12qmmT+gSgmtp1YrYCiPe7+zgsNxSZVPNFNgMtP6ULMnqJUwOUOZd+Av3F8NlIQt0JsNDlnSNurHTLV9IWI5KcjEoU0h88Cdt6HXSAJKfLZFYQEPNL7raVIaBaHKfFvmQrFXG6XmpHisjLKyhxIDdi3l4bFb8Cx2Qs9QqeTYtJSRBqAg3sTXSGHdJiIonQbbHyj6SoVzfFFqW1+R9odmpphtdvNKR74dGPuuJsu4141sm3OtEvLcQDlGzF7wHLVGZQsKxoNFD0xaiLNxwfV/INl4nRxCM/wtAQ1mwVisK9C+JCnKHKvO/HdGNoLUd//jrz7z8Yi96jOLIvK2bm3ocKzYOtx8xAQIn1JMNopjHxhNdpPbt8OGbk9oWmBNVa8E61aLrIpFH5t3dJZ0KDmvhCCQeGtnyOtE+xsa+t9Ti4fSE27on7tJuE7iURifaOpldEuC+UykOUFlawXthgSTesOyi1dGw1CqjcC7lh35C1Hp3UkxivzM+jXLqyJNx2En1r7KTnyAgZSKwXlRoM7YBQyE9DRD9hjCkxI6Q==|920

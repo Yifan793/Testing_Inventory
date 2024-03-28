@@ -19,7 +19,17 @@
             }
           ]
         }
-      }
+      },
+      "Parameters": [
+        {
+          "Name": "全局变量1的值",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "全局变量40的值",
+          "DataValidationInfo": {}
+        }
+      ]
     }
   ],
   "Commands": [
@@ -28,11 +38,17 @@
       "ChangedGlobalProperties": [
         {
           "Name": "全局变量1",
-          "Formula": "1"
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=全局变量1的值"
+          }
         },
         {
           "Name": "全局变量40",
-          "Formula": "2"
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=全局变量40的值"
+          }
         }
       ]
     }

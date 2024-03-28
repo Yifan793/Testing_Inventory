@@ -201,6 +201,17 @@
       "$type": "Forguncy.Model.ConvertPageToHtmlCommand, ServerDesignerCommon",
       "TargetPageName": "销售单",
       "ToParameterName": "html"
+    },
+    {
+      "$type": "OperateFilesCommand.SaveContentToFileCommand, OperateFilesCommand",
+      "Content": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=html"
+      },
+      "SavePath": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=路径"
+      }
     }
   ],
   "ReturnProperties": [
