@@ -1056,7 +1056,16 @@
   },
   {
     "ModuleName": "ServerCommand/导出销售单到Excel",
-    "ModuleType": 15
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-03-28T18:53:57.9684392+08:00",
+    "ModuleType": 15,
+    "ToRemoveFiles": [
+      "ServerCommands\\导出\\导出销售单到Excel.json"
+    ]
   },
   {
     "ModuleName": "ServerCommand/导出销售单到HTML",
