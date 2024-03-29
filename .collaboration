@@ -1172,7 +1172,18 @@
   },
   {
     "ModuleName": "PCPage/下载页面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-03-29T15:39:18.3455526+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\下载\\下载页面.json",
+      "Pages\\下载\\下载页面.rd",
+      "UserTemplateFile\\活字格V9.0 Update1 用户管理实战公开课569745b9c05b4f5fa2a16916de17d3c6.zip"
+    ]
   },
   {
     "ModuleName": "ServerCommand/下载文件",
