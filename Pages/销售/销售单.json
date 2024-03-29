@@ -1090,6 +1090,28 @@
         ]
       }
     },
+    "7,6": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "7,11": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
     "7,16": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
@@ -1100,11 +1122,19 @@
             "Parameters": [
               {
                 "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
-                "ParamName": "全局变量1的值"
+                "ParamName": "全局变量1的值",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=销售单!G8"
+                }
               },
               {
                 "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
-                "ParamName": "全局变量40的值"
+                "ParamName": "全局变量40的值",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=销售单!L8"
+                }
               }
             ],
             "ResultErrorCodeTo": {
@@ -3562,11 +3592,11 @@
         "FontFamily": 1
       },
       {
-        "FontFamily": 1,
-        "Formatter": 2
+        "Formatter": 3
       },
       {
-        "Formatter": 3
+        "FontFamily": 1,
+        "Formatter": 2
       },
       {
         "HorizontalAlignment": 4
@@ -3748,6 +3778,8 @@
       "6,51": 2,
       "6,52": 2,
       "6,53": 2,
+      "7,6": 3,
+      "7,11": 3,
       "7,16": 2,
       "7,17": 2,
       "7,18": 2,
@@ -3758,27 +3790,27 @@
       "7,24": 2,
       "8,11": 2,
       "8,12": 2,
-      "8,13": 3,
+      "8,13": 4,
       "8,14": 2,
-      "8,15": 3,
+      "8,15": 4,
       "8,16": 2,
-      "8,17": 3,
+      "8,17": 4,
       "8,18": 2,
-      "8,19": 3,
-      "8,22": 4,
+      "8,19": 4,
+      "8,22": 3,
       "8,35": 2,
       "8,36": 2,
       "8,42": 2,
       "8,43": 2,
       "8,48": 2,
       "8,49": 2,
-      "9,11": 3,
+      "9,11": 4,
       "9,12": 2,
       "9,14": 2,
-      "9,15": 3,
+      "9,15": 4,
       "9,16": 2,
       "9,18": 2,
-      "9,19": 3,
+      "9,19": 4,
       "9,68": 2,
       "10,2": 5,
       "10,10": 6,
@@ -3869,7 +3901,9 @@
     "10,60,1,7",
     "10,67,1,3",
     "10,70,1,3",
-    "10,73,1,3"
+    "10,73,1,3",
+    "7,6,1,4",
+    "7,11,1,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -4033,4 +4067,4 @@
       "Formula": "销售单!$AR$9"
     }
   ]
-}//vceAzs9CSbD5/S1KvwivNhv/w5CFmdDBlG6vrKbkuJwI4il6SB0zaLdoMy/vhNVki0cliB+nw5mp6W3uDwrLyWcVktPc+NHKNJ7SNBDs7vvKcZXpcHScmb41hCHVAZHlP/pl4Hy1SdZNhaZtsN/SNgn58Jn9NMDtk3FNVrSP8ICG2GMDRFkz2A9NkZY4H6af7uhIz89JKpVL7b7JXor56m2O/I2GMRVbzMpBiSaaE8hXi2oZni8GCTNQhfENYBOuCrA8H165Cwmr2WkIYGz48c3aCailCIGlvKbleoYC1SyPL2H+Y88iXpKz4lLASl22KBvOU2Mj5zUSBwbOperYRAzhxraypqqKYPEUJ+glo+LTrkm0d12qmmT+gSgmtp1YrYCiPe7+zgsNxSZVPNFNgMtP6ULMnqJUwOUOZd+Av3F8NlIQt0JsNDlnSNurHTLV9IWI5KcjEoU0h88Cdt6HXSAJKfLZFYQEPNL7raVIaBaHKfFvmQrFXG6XmpHisjLKyhxIDdi3l4bFb8Cx2Qs9QqeTYtJSRBqAg3sTXSGHdJiIonQbbHyj6SoVzfFFqW1+R9odmpphtdvNKR74dGPuuJsu4141sm3OtEvLcQDlGzF7wHLVGZQsKxoNFD0xaiLNxwfV/INl4nRxCM/wtAQ1mwVisK9C+JCnKHKvO/HdGNoLUd//jrz7z8Yi96jOLIvK2bm3ocKzYOtx8xAQIn1JMNopjHxhNdpPbt8OGbk9oWmBNVa8E61aLrIpFH5t3dJZ0KDmvhCCQeGtnyOtE+xsa+t9Ti4fSE27on7tJuE7iURifaOpldEuC+UykOUFlawXthgSTesOyi1dGw1CqjcC7lh35C1Hp3UkxivzM+jXLqyJNx2En1r7KTnyAgZSKwXlRoM7YBQyE9DRD9hjCkxI6Q==|920
+}//s96NPeTRFajtyhVKQv30yhm7aprjTTAprOHPRrl5BHqh2EFG7clCkeNfIEGb0Z/y7l6VoUoRUz8hB8YbdzjLida2jLto7O6af1vgF7lNaCLj+TdjUPyvFuV8znM6qlW/cnZ+lGyP2qC5alZiCUrybKUke9GHYWv65ZBvtHfxxeEpG9QZkRvnm+dH+VFGQ+PDiwamVSjCKQyxFnNguS3riSvKPlGLVc2O5l/giGbPvjVv7K95g3cXoFC+thPYaCDtamK5iC7DWbV/GJEbbfgr8XGeTTnPXm44cHfBq9ULyaPQJz+LXPHQ3BVYipkeHUwjM0zaZp7XPJftY2sFJYGAA6OCDskazT+bQRu763Vbl5dY3iEEFjzKZHlgKd3XAXPtHVWUQVwwvbDD9XEwUO9TGpqg8GKQY57KZUftBV5h3uZoiHy7kBENQ+YSueMNfOrrNq8vTXzLx2WsgK1YXyhOPxua7i7dlwAQ3xtB/8c6GM+Pdvz9IxMcytvBmlLFWfvCsdXuCy9ui+g2cuTLOXMHmY6zAZ4Si0Qhe0RDQRubUbbsBwTpTtCE20OgZvm3yfhPNfK2bWbtQCxa0UvNbm31JgUK+R8+TcnI+fsPPLBnqo4s/3B5zs855Q9VKsfB5G9e+szhGUjXNDD02chOsc2BB4A25iReqXTvBfTD/cL2+zhe0oITCAC1wOSbR+OsCvYo19FXP0RzHaKpIBz/zqx3xTYhTNL8jKINmLkqP5XD7YqlBxhkhGvIACWj4GyVEq/PjxdW9Iy3sl8n5earVg9sHh0kNGxMrCHembEz6q+5bc+sf6QDtsrF9hljiqsOl+I9RKKM+rQdq+HTzQUTDLoI2zf/39+6Cmt5T2YjIzlCFT9qJCO8x5WIBZs5Qhpd1WNrmE9CNyyKFI7XGV++fHJh7w==|920
