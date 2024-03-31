@@ -107,7 +107,8 @@
     "2,37": "出库状态",
     "2,46": "审核状态",
     "4,46": "全部",
-    "7,16": "全局变量",
+    "7,15": "设置",
+    "7,18": "获取",
     "8,2": "销售单列表",
     "8,11": "E",
     "8,13": "H",
@@ -459,7 +460,7 @@
                           "ID": "4e47f451bafb43b795c372aa316d4321"
                         }
                       ],
-                      "ID": "e8d2a2fc-8d7c-4b38-a275-9df97b33e00a"
+                      "ID": "f77e1a48-7e97-406e-8225-2cb8ff45db2f"
                     },
                     {
                       "Condition": {
@@ -592,7 +593,7 @@
                           "ID": "103f7890a1994e6b91e05008733c685d"
                         }
                       ],
-                      "ID": "3f0aaf38-9138-4736-80c9-848a726ae917"
+                      "ID": "d53b2f84-71ac-49d9-b9f6-7958023e54a4"
                     },
                     {
                       "Condition": {
@@ -740,7 +741,7 @@
                           "ID": "d13a9f628cfd479ba1b99e0eacad2e89"
                         }
                       ],
-                      "ID": "8e07ebe5-d023-4d55-b1af-304b9ad4cf34"
+                      "ID": "40a29f0d-c89d-4125-9a8b-f86467f2ebfb"
                     },
                     {
                       "Condition": {
@@ -894,7 +895,7 @@
                           "ID": "e65c5a8cc12a4ea0bb24df8b9bc92334"
                         }
                       ],
-                      "ID": "911eb479-8b0d-434b-aae9-a4c394426de2"
+                      "ID": "d9eb8e34-bddd-4338-9a01-82c676f5690f"
                     },
                     {
                       "CommandList": [
@@ -1036,7 +1037,7 @@
                           "ID": "5ed196f79771482781163b827eb0823c"
                         }
                       ],
-                      "ID": "541f0242-b15e-4660-8659-3d3e2fff9dba"
+                      "ID": "bd660d19-2fab-46cc-8438-5d37c4e8d798"
                     }
                   ]
                 }
@@ -1112,7 +1113,7 @@
         "TemplateKey": "_RS_NewLittleRoundCorner"
       }
     },
-    "7,16": {
+    "7,15": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
@@ -1144,7 +1145,35 @@
             "CheckDataValidation": true
           }
         ],
-        "Text": "全局变量",
+        "Text": "设置",
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "7,18": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "获取全局变量",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "全局变量1的值"
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "全局变量40的值"
+              }
+            ],
+            "ResultMessageTo": {
+              "SerializeProperty": "=销售单!AA8"
+            },
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "获取",
         "TemplateKey": "_RS_Main1"
       }
     },
@@ -2925,7 +2954,7 @@
                           "CheckDataValidation": true
                         }
                       ],
-                      "ID": "581c41f8-29bf-497a-83fa-c7af04a3e889"
+                      "ID": "217501a5-8fd0-4827-8e61-25289f15a062"
                     }
                   ]
                 }
@@ -3177,7 +3206,7 @@
                     ]
                   }
                 ],
-                "ID": "428666f3-f14d-4103-a0cd-69c2b3a75bfc"
+                "ID": "ddf0c3c0-a10a-4bec-a867-4e1d19ac5c36"
               },
               {
                 "CommandList": [
@@ -3220,7 +3249,7 @@
                             ]
                           }
                         ],
-                        "ID": "2b01f894-d6c9-4b51-9707-bc7494a7c3ce"
+                        "ID": "a6cde940-311b-4031-9f3a-366da919d3d3"
                       },
                       {
                         "CommandList": [
@@ -3246,13 +3275,13 @@
                             ]
                           }
                         ],
-                        "ID": "a3156c8e-99f1-44b7-9fa0-ea3a7c0814a7"
+                        "ID": "832f13e2-7c44-410b-a19f-4dd65fa8929c"
                       }
                     ],
                     "Comments": "仅允许修改、删除 未提交的销售单"
                   }
                 ],
-                "ID": "d74b3bdc-2415-4f42-b5cb-d3468a90b254"
+                "ID": "94eee174-162d-4122-bd56-7ff879a7c05f"
               }
             ],
             "Comments": "仅允许修改、删除自己创建的记录"
@@ -3289,7 +3318,7 @@
                   }
                 ],
                 "Comments": "审核实例ID为空时，不显示审批记录按钮",
-                "ID": "f5e861dd-3e0d-4f6c-aada-2185890be756"
+                "ID": "990135f7-f47c-479b-8bd5-3a3d20075e02"
               },
               {
                 "CommandList": [
@@ -3341,7 +3370,7 @@
                           }
                         ],
                         "Comments": "审核状态为审核中时",
-                        "ID": "c832238e-c97c-4492-9cdd-de068d64ed6a"
+                        "ID": "869b8830-c31e-4f43-8bda-e572613c9d14"
                       },
                       {
                         "CommandList": [
@@ -3361,12 +3390,12 @@
                             }
                           }
                         ],
-                        "ID": "a7e8a486-b412-4965-9e44-77927401e47c"
+                        "ID": "ed53cad8-066e-42fb-b2d4-b5111f96783b"
                       }
                     ]
                   }
                 ],
-                "ID": "be6be9d7-fcea-482b-b179-89ed66d598e7"
+                "ID": "1117fafe-80b9-4988-be46-48c29ed6c6d4"
               }
             ]
           }
@@ -3779,9 +3808,8 @@
       "6,53": 2,
       "7,6": 3,
       "7,11": 3,
+      "7,15": 2,
       "7,16": 2,
-      "7,17": 2,
-      "7,18": 2,
       "7,20": 2,
       "7,21": 2,
       "7,22": 2,
@@ -3888,9 +3916,9 @@
     "8,22,1,13",
     "9,9,1,2",
     "7,20,1,5",
-    "7,16,1,3",
     "7,6,1,4",
     "7,11,1,4",
+    "7,15,1,2",
     "10,2,1,8",
     "10,10,1,8",
     "10,18,1,8",
@@ -3902,7 +3930,8 @@
     "10,60,1,7",
     "10,67,1,3",
     "10,70,1,3",
-    "10,73,1,3"
+    "10,73,1,3",
+    "7,18,1,2"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -4066,4 +4095,4 @@
       "Formula": "销售单!$AR$9"
     }
   ]
-}//cZyloBITP0aCxCzQIHDxjYBk3dHiFx/v1DzMzypZ01JSDGwiXGe516tWs785EUSFR2hxz5y6gPWSy/yjemyIysmKnPjCTiMYRA4pUZ3wirR9cIWRWgPShRQiiUCbmx91knp8RiQfaLUpWAsjt/1N6mVzJ7KpRiayOVsMFjjpPqxNHEHG90aGS8t1R0GSZFPh+NDnWiphExMGQ5psja0m+Ggwh0J8if4oFiAITptiMwNj2DCIlql5IVCwew2kDBqYVz2+XeUBIYQnrO5AKMF38bw4/FxQiE2pUs9kGNVzuFNEQ1JJFwk+0TXf5NbHAT26jX1SQPFhC+UiNisa31w2xSp9pdCfOftmNXGH0SuENxCDxCsIIJz+PzCXJsAd8zJyyQUx8SNzTr4Vj2H3wIzOiqID9LulNKFeBjpV82JHm2IK5Xot1HkAWrYdFIvGvhMuVd/ZNDABzg1CymJApG+tyxs0H5PV/NgGRb807UsaxlNRQ34kN6z/GJ8mccPJTQW31hLh4JLqqYrOpnfmzJAoqCl9WUg/nbCeDdTe4toffENe2a7oIghT+Tjz/F4TEi3hkMnqbU+rdxuzALhhoSFeAv4l4Cs8Q7PzgaoBz06spjcRD/7HQhm0i+g75LBBRzG8TPCVXSvlfdRTkuliu7eJg0AR/iqdzSkgKr5mBPR0QsFsE+7jZkL3GJ3PRu7i2wva1Cu4/cINP10UN4NBawp7pEN0OYg9nyM4RCiryPL3VA1pCcRGRxaujsaTkVBVLCD8T74nJa3eRh+npAukY0pnaiq7TThBWABegB76vxWCElrtAXEFbP9yTifgqvxD8ArZK6T68uSruZVgQNsMvpTVLlfk4LBMAcVZhgly2yeTV12/AMgeLHxP2Z8sOYb+uPM5IJ7FlrK/jJwKeGdDPEq+Ug==|920
+}//wDuc6kg1WmQYaY3HiQBPxt+k3gsqOc08ydVuIARMo1liesSzAz8SwQaunzGiDC07Ewef+LpJFWS4N9uvMcE+jRxFWsVry8fyaOUfq50Ib8J/Ecc9/SNFYYMaVV7lsl4ycYrAj6IiYNfsaZGIaD5qWaKlsUnVtU3Otitae1l477Xrccz9a+Vphod9EfXoghuXoKxHLaxWMkkmlwOKkrgcq9HQP4+76AzqPTlCZT5M0hWHlZdU6PgUedVOgBZRvcNUkP14ooBNO/01p7urolk6cMf6c/Avt+/mhKR9kSnTftreODMrD1BkGPoLnr4S3Ran1O5WCIup+VKOmuOeD0OK4ZRtQckJSe+HOzKEdbGBf06ixm3aONXLDQPlYLH9Y5GdjdUa95G2n1in1Vt0VsnTfyiSfOJvmeJr39PUK6PEYOrspjS+lQ2FEgXPOAnhsHeWKHdXHlV/cU5MiZFesDYs3U2V2RnJMrDkMlNH0kwlqR3lXNcD2Biiq6/yDCnbmUXcJeo+QPW0+NXYX1XTX9f6pVxswLw0OjZnCm3hxZvr4nUv/lUdDYwHvW+JdElC1gdhk0lkn8Z/IbWAPS5umLK2u5YWNmmSvR30mJgagnGPuayrECbw78W+GArkEl9Glq0akJE/33ZofxVNi3Xiaoeq7fbrCdc13UEO7ff3Os34tNVb9+SmKGJlSa3VTGqe6KYxBJf1TRsRpiE2aFUiBmEJ6WCW8Hb70abYqKXarUuZt46beyepgvqTSkEunhr6GGjg33LKw4w6ZXKDNUDiKqdsJk/e3yhZxkEZ4axVYULxJ7TR+CMcnpfdwiUqQesg5D249J5//jXPgzYJbDcdPbNZ09W9CNVa1ug3hj/JZPVr3f6KdWkXvoNTQB5PUXv6aOXc6A2D0Os0gVFzFjUouZYTnA==|920
