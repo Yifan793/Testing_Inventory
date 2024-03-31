@@ -35,31 +35,118 @@
   "Commands": [
     {
       "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
-      "ParameterName": "test",
+      "ParameterName": "test_25",
+      "ParameterValue": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=全局变量25"
+      },
+      "ID": "671109873bb2451c9fbd04ab8a2cdbb1"
+    },
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "test_1",
       "ParameterValue": {
         "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
         "SerializeProperty": "=全局变量1"
       },
-      "ID": "788ad34567fa405cab8e30c9769af7a3"
+      "ID": "1044f49cffb64c6eabb794597efd0754"
     },
     {
-      "$type": "Forguncy.Model.Commands.ServerChangeGlobalPropertyCommand, ServerDesignerCommon",
-      "ChangedGlobalProperties": [
-        {
-          "Name": "全局变量1",
-          "Formula": {
-            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-            "SerializeProperty": "=test+1"
-          }
-        },
-        {
-          "Name": "全局变量40",
-          "Formula": {
-            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-            "SerializeProperty": "=全局变量40+1"
-          }
-        }
-      ]
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "test_2",
+      "ParameterValue": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=全局变量2"
+      },
+      "ID": "8d2f3854f7a04d5e811610d28db9648a"
+    },
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "test_3",
+      "ParameterValue": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=全局变量3"
+      },
+      "ID": "3343fcba6c5c4607ae7798308b0f4a19"
+    },
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "test_14",
+      "ParameterValue": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=全局变量14"
+      },
+      "ID": "e79425460c81471da9b7db2e75294dc3"
+    },
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "test_15",
+      "ParameterValue": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=全局变量15"
+      },
+      "ID": "9de299697d0446f4b7863d382abc011d"
+    },
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "test_16",
+      "ParameterValue": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=全局变量16"
+      },
+      "ID": "748a6a451d764829bb35fe8e46c5b0a7"
+    },
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "test_7",
+      "ParameterValue": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=全局变量7"
+      },
+      "ID": "236fcd810d6c4b2db71d9ff3fcc1cda0"
+    },
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "test_8",
+      "ParameterValue": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=全局变量8"
+      },
+      "ID": "1774d66760c04c9d8235b05b759721b0"
+    },
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "test_9",
+      "ParameterValue": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=全局变量9"
+      },
+      "ID": "3a4474d606ad42a4bdebe6620017b4f2"
+    },
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "test_32",
+      "ParameterValue": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=全局变量32"
+      },
+      "ID": "c94d78d56efb4e8c957f28faf1a3e34f"
+    },
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "test_40",
+      "ParameterValue": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=全局变量40"
+      },
+      "ID": "c31ede8c37774170ac28ac3aa25d01c8"
+    },
+    {
+      "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+      "Message": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=test_8"
+      }
     }
   ]
 }
