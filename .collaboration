@@ -105,17 +105,47 @@
   },
   {
     "ModuleName": "TableView/用户信息视图",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-03-31T17:50:56.9801688+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\用户信息\\用户信息视图.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/组织信息视图",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-03-31T17:50:56.9801728+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\用户信息\\组织信息视图.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/组织级别视图",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-03-31T17:50:56.9801752+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\用户信息\\组织级别视图.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
