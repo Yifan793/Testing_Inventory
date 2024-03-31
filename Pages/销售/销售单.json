@@ -459,7 +459,7 @@
                           "ID": "4e47f451bafb43b795c372aa316d4321"
                         }
                       ],
-                      "ID": "e71ceebd-c021-4d29-a0ea-aa56fd45c5d6"
+                      "ID": "e8d2a2fc-8d7c-4b38-a275-9df97b33e00a"
                     },
                     {
                       "Condition": {
@@ -592,7 +592,7 @@
                           "ID": "103f7890a1994e6b91e05008733c685d"
                         }
                       ],
-                      "ID": "774f706e-a459-401b-9c2c-d93c3b5acf66"
+                      "ID": "3f0aaf38-9138-4736-80c9-848a726ae917"
                     },
                     {
                       "Condition": {
@@ -740,7 +740,7 @@
                           "ID": "d13a9f628cfd479ba1b99e0eacad2e89"
                         }
                       ],
-                      "ID": "490555ab-1f1b-4a12-b000-19f2f9868185"
+                      "ID": "8e07ebe5-d023-4d55-b1af-304b9ad4cf34"
                     },
                     {
                       "Condition": {
@@ -894,7 +894,7 @@
                           "ID": "e65c5a8cc12a4ea0bb24df8b9bc92334"
                         }
                       ],
-                      "ID": "66bc6c46-2c7c-4a39-b8ee-9148181618aa"
+                      "ID": "911eb479-8b0d-434b-aae9-a4c394426de2"
                     },
                     {
                       "CommandList": [
@@ -1036,7 +1036,7 @@
                           "ID": "5ed196f79771482781163b827eb0823c"
                         }
                       ],
-                      "ID": "a48ec6ee-c000-4456-80a5-6a0ef224b1f2"
+                      "ID": "541f0242-b15e-4660-8659-3d3e2fff9dba"
                     }
                   ]
                 }
@@ -2925,7 +2925,7 @@
                           "CheckDataValidation": true
                         }
                       ],
-                      "ID": "06407b36-b113-466b-a4cd-108f44f1111a"
+                      "ID": "581c41f8-29bf-497a-83fa-c7af04a3e889"
                     }
                   ]
                 }
@@ -3098,22 +3098,20 @@
           "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
           "SubConditions": [
             {
-              "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
-              "CompareType": 6,
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
               "ColumnBindingInfo": {
                 "TableName": "sales_order",
                 "ColumnName": "FGC_Creator",
-                "GUID": "a29275a8-3b8d-4dd8-bbed-dc79616e917b"
+                "GUID": "065a861f-44e9-4e94-b99d-7877e83636ed"
               },
               "Value": "%CurrentUser.UserName%"
             },
             {
-              "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
-              "CompareType": 6,
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
               "ColumnBindingInfo": {
                 "TableName": "sales_order",
                 "ColumnName": "FGC_Creator",
-                "GUID": "0ab29dc3-2eb7-48f2-8744-8ca204249e38",
+                "GUID": "fe199875-e4b0-4512-a8ca-252d2d67444a",
                 "AttachType": {
                   "$type": "ForguncyDataAccess.UserColumnAttachObj, ForguncyDataAccess",
                   "UserColumnAttachType": 8
@@ -3130,7 +3128,7 @@
               "ColumnBindingInfo": {
                 "TableName": "sales_order",
                 "ColumnName": "order_id",
-                "GUID": "40cf9ea1-1924-4f00-a6c2-ff331c507bed"
+                "GUID": "b0cd2f62-666b-4677-8042-cba19846d001"
               },
               "Order": 1
             }
@@ -3179,7 +3177,7 @@
                     ]
                   }
                 ],
-                "ID": "b7899659-ae3f-4bd5-a5f4-32a53c905a7f"
+                "ID": "428666f3-f14d-4103-a0cd-69c2b3a75bfc"
               },
               {
                 "CommandList": [
@@ -3222,7 +3220,7 @@
                             ]
                           }
                         ],
-                        "ID": "e1b6cb45-5b72-47aa-bb52-9260ee963945"
+                        "ID": "2b01f894-d6c9-4b51-9707-bc7494a7c3ce"
                       },
                       {
                         "CommandList": [
@@ -3248,13 +3246,13 @@
                             ]
                           }
                         ],
-                        "ID": "ac302e9d-9ec8-4f62-afe4-db22b4e9b45c"
+                        "ID": "a3156c8e-99f1-44b7-9fa0-ea3a7c0814a7"
                       }
                     ],
                     "Comments": "仅允许修改、删除 未提交的销售单"
                   }
                 ],
-                "ID": "6a7999f7-db07-43c6-acde-33b07d4a7db6"
+                "ID": "d74b3bdc-2415-4f42-b5cb-d3468a90b254"
               }
             ],
             "Comments": "仅允许修改、删除自己创建的记录"
@@ -3291,7 +3289,7 @@
                   }
                 ],
                 "Comments": "审核实例ID为空时，不显示审批记录按钮",
-                "ID": "3eb95b04-5089-47d0-8249-073655212707"
+                "ID": "f5e861dd-3e0d-4f6c-aada-2185890be756"
               },
               {
                 "CommandList": [
@@ -3343,7 +3341,7 @@
                           }
                         ],
                         "Comments": "审核状态为审核中时",
-                        "ID": "b6a52e86-8a91-4282-9059-52a7d38d2e13"
+                        "ID": "c832238e-c97c-4492-9cdd-de068d64ed6a"
                       },
                       {
                         "CommandList": [
@@ -3363,12 +3361,12 @@
                             }
                           }
                         ],
-                        "ID": "13055093-414a-4da1-b868-c4153a14a11e"
+                        "ID": "a7e8a486-b412-4965-9e44-77927401e47c"
                       }
                     ]
                   }
                 ],
-                "ID": "96b04973-6169-4c8d-8e11-74b391b3a728"
+                "ID": "be6be9d7-fcea-482b-b179-89ed66d598e7"
               }
             ]
           }
@@ -3407,6 +3405,7 @@
     },
     "11,10": {
       "NameUsedInJavaScript": "客户",
+      "TotalRowSetting": {},
       "BindingInfo": {
         "TableName": "sales_order",
         "ColumnName": "customer_id",
@@ -3890,6 +3889,8 @@
     "9,9,1,2",
     "7,20,1,5",
     "7,16,1,3",
+    "7,6,1,4",
+    "7,11,1,4",
     "10,2,1,8",
     "10,10,1,8",
     "10,18,1,8",
@@ -3901,9 +3902,7 @@
     "10,60,1,7",
     "10,67,1,3",
     "10,70,1,3",
-    "10,73,1,3",
-    "7,6,1,4",
-    "7,11,1,4"
+    "10,73,1,3"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -4067,4 +4066,4 @@
       "Formula": "销售单!$AR$9"
     }
   ]
-}//s96NPeTRFajtyhVKQv30yhm7aprjTTAprOHPRrl5BHqh2EFG7clCkeNfIEGb0Z/y7l6VoUoRUz8hB8YbdzjLida2jLto7O6af1vgF7lNaCLj+TdjUPyvFuV8znM6qlW/cnZ+lGyP2qC5alZiCUrybKUke9GHYWv65ZBvtHfxxeEpG9QZkRvnm+dH+VFGQ+PDiwamVSjCKQyxFnNguS3riSvKPlGLVc2O5l/giGbPvjVv7K95g3cXoFC+thPYaCDtamK5iC7DWbV/GJEbbfgr8XGeTTnPXm44cHfBq9ULyaPQJz+LXPHQ3BVYipkeHUwjM0zaZp7XPJftY2sFJYGAA6OCDskazT+bQRu763Vbl5dY3iEEFjzKZHlgKd3XAXPtHVWUQVwwvbDD9XEwUO9TGpqg8GKQY57KZUftBV5h3uZoiHy7kBENQ+YSueMNfOrrNq8vTXzLx2WsgK1YXyhOPxua7i7dlwAQ3xtB/8c6GM+Pdvz9IxMcytvBmlLFWfvCsdXuCy9ui+g2cuTLOXMHmY6zAZ4Si0Qhe0RDQRubUbbsBwTpTtCE20OgZvm3yfhPNfK2bWbtQCxa0UvNbm31JgUK+R8+TcnI+fsPPLBnqo4s/3B5zs855Q9VKsfB5G9e+szhGUjXNDD02chOsc2BB4A25iReqXTvBfTD/cL2+zhe0oITCAC1wOSbR+OsCvYo19FXP0RzHaKpIBz/zqx3xTYhTNL8jKINmLkqP5XD7YqlBxhkhGvIACWj4GyVEq/PjxdW9Iy3sl8n5earVg9sHh0kNGxMrCHembEz6q+5bc+sf6QDtsrF9hljiqsOl+I9RKKM+rQdq+HTzQUTDLoI2zf/39+6Cmt5T2YjIzlCFT9qJCO8x5WIBZs5Qhpd1WNrmE9CNyyKFI7XGV++fHJh7w==|920
+}//cZyloBITP0aCxCzQIHDxjYBk3dHiFx/v1DzMzypZ01JSDGwiXGe516tWs785EUSFR2hxz5y6gPWSy/yjemyIysmKnPjCTiMYRA4pUZ3wirR9cIWRWgPShRQiiUCbmx91knp8RiQfaLUpWAsjt/1N6mVzJ7KpRiayOVsMFjjpPqxNHEHG90aGS8t1R0GSZFPh+NDnWiphExMGQ5psja0m+Ggwh0J8if4oFiAITptiMwNj2DCIlql5IVCwew2kDBqYVz2+XeUBIYQnrO5AKMF38bw4/FxQiE2pUs9kGNVzuFNEQ1JJFwk+0TXf5NbHAT26jX1SQPFhC+UiNisa31w2xSp9pdCfOftmNXGH0SuENxCDxCsIIJz+PzCXJsAd8zJyyQUx8SNzTr4Vj2H3wIzOiqID9LulNKFeBjpV82JHm2IK5Xot1HkAWrYdFIvGvhMuVd/ZNDABzg1CymJApG+tyxs0H5PV/NgGRb807UsaxlNRQ34kN6z/GJ8mccPJTQW31hLh4JLqqYrOpnfmzJAoqCl9WUg/nbCeDdTe4toffENe2a7oIghT+Tjz/F4TEi3hkMnqbU+rdxuzALhhoSFeAv4l4Cs8Q7PzgaoBz06spjcRD/7HQhm0i+g75LBBRzG8TPCVXSvlfdRTkuliu7eJg0AR/iqdzSkgKr5mBPR0QsFsE+7jZkL3GJ3PRu7i2wva1Cu4/cINP10UN4NBawp7pEN0OYg9nyM4RCiryPL3VA1pCcRGRxaujsaTkVBVLCD8T74nJa3eRh+npAukY0pnaiq7TThBWABegB76vxWCElrtAXEFbP9yTifgqvxD8ArZK6T68uSruZVgQNsMvpTVLlfk4LBMAcVZhgly2yeTV12/AMgeLHxP2Z8sOYb+uPM5IJ7FlrK/jJwKeGdDPEq+Ug==|920

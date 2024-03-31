@@ -40,7 +40,7 @@
         "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
         "SerializeProperty": "=全局变量1"
       },
-      "ID": "93a73b6a9bfd485d9e655ad530be2419"
+      "ID": "788ad34567fa405cab8e30c9769af7a3"
     },
     {
       "$type": "Forguncy.Model.Commands.ServerChangeGlobalPropertyCommand, ServerDesignerCommon",
@@ -49,21 +49,14 @@
           "Name": "全局变量1",
           "Formula": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-            "SerializeProperty": "=全局变量1的值"
+            "SerializeProperty": "=test+1"
           }
         },
         {
           "Name": "全局变量40",
           "Formula": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-            "SerializeProperty": "=全局变量40的值"
-          }
-        },
-        {
-          "Name": "全局变量2",
-          "Formula": {
-            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-            "SerializeProperty": "=test"
+            "SerializeProperty": "=全局变量40+1"
           }
         }
       ]
