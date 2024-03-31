@@ -1148,7 +1148,16 @@
   },
   {
     "ModuleName": "ServerCommand/设置全局变量",
-    "ModuleType": 15
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-03-31T17:45:48.5499103+08:00",
+    "ModuleType": 15,
+    "ToRemoveFiles": [
+      "ServerCommands\\设置全局变量.json"
+    ]
   },
   {
     "ModuleName": "RdlReport/销售汇总表(按客户)",
