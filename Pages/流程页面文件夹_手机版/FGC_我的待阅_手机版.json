@@ -575,6 +575,7 @@
           "TableName": "ACT_RU_TASK_View",
           "BindingInfos": [
             {
+              "GUID": "653c3bdf-efd7-4cbe-92d7-611a3d7eb6ef",
               "BindingInfo": {
                 "TableName": "ACT_RU_TASK_View",
                 "ColumnName": "ID_",
@@ -583,6 +584,7 @@
               "ColumnName": "ID"
             },
             {
+              "GUID": "02fd7e02-6af5-48cf-aec6-ce188900417b",
               "BindingInfo": {
                 "TableName": "ACT_RU_TASK_View",
                 "ColumnName": "PROC_DEF_ID_",
@@ -596,6 +598,7 @@
               "ColumnName": "流程标题"
             },
             {
+              "GUID": "abfc1e3e-576b-401a-a45f-7ef243870743",
               "BindingInfo": {
                 "TableName": "ACT_RU_TASK_View",
                 "ColumnName": "NAME_",
@@ -604,6 +607,7 @@
               "ColumnName": "任务名称"
             },
             {
+              "GUID": "df1b134d-bea0-4b83-bff9-2c0182e523c8",
               "BindingInfo": {
                 "TableName": "ACT_RU_TASK_View",
                 "ColumnName": "CREATE_TIME_",
@@ -612,6 +616,7 @@
               "ColumnName": "创建时间"
             },
             {
+              "GUID": "997fb340-6653-4bd9-8535-ef8dda71f38f",
               "BindingInfo": {
                 "TableName": "ACT_RU_TASK_View",
                 "ColumnName": "PROC_INST_ID_",
@@ -797,4 +802,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//sSTLQB+/q6/lcVpKSS+eEWN2M9Nla6limF3oXiZgF3o61QQwVOGIksMIxW4XNWr9zwmqUmq01bsH1I+z7TKIcmwP9bfUeJnplcoPIq8I9hOYHgSnLV48+RS/xdPbaFZx0Rgmcn9onFCLe9ILIpm2V4muN4gueDa3BvJ2n2NOATwjSRJ/C8mi9IySnFbJ4/wcExpU7Vo++NFwDLHqa01P9GouT+CGIsG+oXJSW6B+xSQda74ybQxuo8P8Ydno83a/010+9oY0gYnBtlYBL3mAN6tgr3MVcFmlbZif39wD9XL3DdalYB5JjdO3MxQlcAgdqDX/RfxDoaOM+HOqQAae4/erSWVHH2aJLEiyb4CbJzn++SlhgOoXrI8a3dEfNMqPA2WNwXVo+HyfI7DCjcGp1y8FSF3sozujbbRZVlg/Moc2V5IiGjzP8PIO4OtgXAsmOjKela0ttcCXQk+/KYnFpMaa4qQHo6Io6mJG0zVof3Dy1bhuvVopHFO+TET1xUjVPDIYvcOhYOjwiasKHIsdEhzG4zodAUby8v+m+uP0C0BFioN6EJOHz6WqpV0vbkB61VPoodMCTOHMZyM99rBwrlxyjexOINFb//9Jgl+VAI9RXH9sAOj0ucsIDArLw4ddXpYtHc8OIkVJHM8rMrnddgj8EWLwYO8+e0q2jjRCEJoTbXpjiTOvK3zjv9+G6SJb24wpPGF9SYLUnJprrHlnns3983VbwfJoOL94mzMvvOBO6hXdnP4xnQNIk0xyTrgQDBE5QMoq6LjFNW/u7UWa1Uzlb+WDAGmM2BXn/Pokx1ukon8B/sYRCuxVcrf3qrJEaSL2qZdZHA0MNERCQRo2uM/k9NEU1hzSQTkyoH1tgnSxP2X3esD0vYH7H9N3kvBT/DNTnjDHj3PNuNF2z2N2Xg==|920
+}//9lkTXC+xo4KSIFWgsV8aFasMSl5bmyZEMrG0pfR4cQ2CgGQr40iBzL6RI7uxCR9WCAX5x3WNxcYNhkPH9OpQlBymz9IzgyuC2mRExHxekqEsqD9plmzO2qNuahkYNZ58egCIwjpXw+dRMIiQgdOke/mQ765ZPQJVHeF9EmS3MURNtT1mGgs7w6NbBiw1oA1T/fWjjpWrouPgOCdV+kiS03kFrsrSb30HQnps5f7A5thKtnNGafxolACl5SOhIuJYh3Jz195hveDwJSkOgAhFa8FIN0ohAp3OhRy3aREwe2go7q/oLZvnphxBqTpAits9CCQOgp9yOX0qzwAeMg1mttV5Go8wCkVxrZebI4AzfTX+u9L+JlEd89VQGcgLQBKAoJgLNdCtfaFHdFStzGDLivyqo3gLyvbuLiK2HHpTifA4TcHmT4O2gsHeJs7ED08fJcBM2ejBdDDH/u1w6KWe8Qe3qsRAfs6G7re17AsES6K+gclQCe990pAlOXuWgfhQT/FxOFdNhqEs7v6SzbJY6nDEB9UbSrbrlYh561Tr3LHNzONHa7kzxN6434g+7NysC/ru75Cz3q6GjMW/R2G1+gzn5kuJQ9bdkPzRDUZ94fWRvw/sSGv0tJHXvDCdapA2Ak3EMCA12hICZboLkajaI58A5icCwPJe5gmLT/8EaTCOfNHvaqDgPTfOYBfFvQnJEc84HiFXJgIn39vM6H0FrkG0wyvDYYtfoDRdmQ5BeqNM8cDe4Rzm6aeVFI5XseiLeYpe7wxAQSZTWCpQIklXc+Fb7QnQvNZgIXHpphyaoxsF0CcFUa0vyycBxmgtpOWpsjBkeJ1hkuU+c7q/KrHpnYeGzsSS7H4MZ0PYuSn6BQ0nl3jYd6o054u3MYhZw2PFhjCKJEURSy3Y2SZaOGCoVQ==|920

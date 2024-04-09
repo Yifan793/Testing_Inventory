@@ -39,6 +39,7 @@
         "TableValueType": 0,
         "BindingInfos": [
           {
+            "GUID": "e6c08228-016c-4813-a5e4-cbb4f7795da7",
             "BindingInfo": {
               "TableName": "inventory",
               "ColumnName": "inventory_status",
@@ -70,6 +71,7 @@
         "TableName": "inventory_details",
         "BindingInfos": [
           {
+            "GUID": "397e15f4-b37b-45b6-946e-82da59fd5507",
             "BindingInfo": {
               "TableName": "inventory_details",
               "ColumnName": "item_id",
@@ -78,6 +80,7 @@
             "ColumnName": "物品ID"
           },
           {
+            "GUID": "3274cd5b-96a5-4685-888d-fe80b7913c95",
             "BindingInfo": {
               "TableName": "inventory_details",
               "ColumnName": "number",

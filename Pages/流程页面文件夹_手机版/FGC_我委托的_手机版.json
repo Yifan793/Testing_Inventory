@@ -586,6 +586,7 @@
           "TableName": "ACT_HI_COMMENT_View",
           "BindingInfos": [
             {
+              "GUID": "0beac9bb-e74f-42cd-a5b4-a30a89c1706f",
               "BindingInfo": {
                 "TableName": "ACT_HI_COMMENT_View",
                 "ColumnName": "ID_",
@@ -594,6 +595,7 @@
               "ColumnName": "ID"
             },
             {
+              "GUID": "0bda3471-0a7a-4ff7-8442-0a7a0cb059d2",
               "BindingInfo": {
                 "TableName": "ACT_HI_COMMENT_View",
                 "ColumnName": "TASK_ID_",
@@ -602,6 +604,7 @@
               "ColumnName": "任务ID"
             },
             {
+              "GUID": "a2be7f1b-4b00-4542-8bc1-b71189c3fb66",
               "BindingInfo": {
                 "TableName": "ACT_HI_COMMENT_View",
                 "ColumnName": "PROC_INST_ID_",
@@ -620,6 +623,7 @@
               "ColumnName": "流程标题"
             },
             {
+              "GUID": "542bc746-5e61-4588-900a-e2bdb31341f8",
               "BindingInfo": {
                 "TableName": "ACT_HI_COMMENT_View",
                 "ColumnName": "TASK_ID_",
@@ -633,6 +637,7 @@
               "ColumnName": "任务名称"
             },
             {
+              "GUID": "f4fb2b9f-9b53-4f37-b635-428ac9d7c621",
               "BindingInfo": {
                 "TableName": "ACT_HI_COMMENT_View",
                 "ColumnName": "PROC_INST_ID_",
@@ -646,6 +651,7 @@
               "ColumnName": "发起人"
             },
             {
+              "GUID": "b197d9f5-7e99-4771-9c2c-08ea1334518e",
               "BindingInfo": {
                 "TableName": "ACT_HI_COMMENT_View",
                 "ColumnName": "TASK_ID_",
@@ -659,6 +665,7 @@
               "ColumnName": "开始时间"
             },
             {
+              "GUID": "f9767a4e-ff97-41ef-a3bd-df9ae5eb4a2a",
               "BindingInfo": {
                 "TableName": "ACT_HI_COMMENT_View",
                 "ColumnName": "TASK_ID_",
@@ -672,6 +679,7 @@
               "ColumnName": "结束时间"
             },
             {
+              "GUID": "203c84c5-f712-4670-8b73-a83708becd1e",
               "BindingInfo": {
                 "TableName": "ACT_HI_COMMENT_View",
                 "ColumnName": "TASK_ID_",
@@ -879,4 +887,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//v6ChXIng/DWtGVRKirosMREsJ7Em49KixtPY8Ymf8UjJrsLt/C6JXQe6ULkr8Hcjehk+tAjP/UqlZuPtVUHtLy7uaPCBZv98znRyXjlum2JAejzvUBHe4kdjyS/G3WsnJKap76K7vWz6BDe8wKkWwCI7i4qUqSeUdNScNdVzwJhhHC/eoTxJ0GufRpxOYvNvfEPjq2YPdNibpWjVedqoVa9uEeQFNY/53XEN/MJVYDFXKGjS3Zofq2+uilUhO4PnFpTj++Nr0KRKnatc3y3Gd7x+BPvcWKi4V2mfVrIbVJ3UhwGJuJ0DS4Q4/y+4k6T2x8Zzv9q83+0P6g7SFKBi/ljm5RZl0vptXt8q2Eb1mUolq6vJwVFsyiDHnmfbLHxJ1nNWSTMVjZQm9PHZa7XrbA44q3/PCuDF7o1BISMrcHMdgQ+cne0Z+PVQ2s912iz7MGV6z5izLxuW0FXMj5+IuaPnQndBGRuscNQBwtwBN6hBw7WXKD42xtqphXJeaMElZA9oUeeZdWC4HM7vmzPbYzU7YxjPwKdhkGIE7pUI6rVAolEks28x9ddV9Gwy1gMph5FW8OG4wvgpdC7mLWv3CFNZF1tpEMjsSzkzEbe08GWQ07+Ga1Gv1fTAj5Jk7tUsHIet6bowCTQpeapYiliLSSu3vt2qzvQqqGCT0+anLDNi+cMEkFZO8F0GMOCIBmv2JDZ82N0lwFHM+nRXvrBhz2crguKMWvvm+21+eeMtNiGS10o3/vWDdkWtjs8N3ttFG3mY1cxZQTqrIkb8NHG+v9uxXlG1UQQb6FpaEBR3myYykh29vkWw9nmdRVpBBv5lGOdOzGsaagXYSciYnXDjo0NfBPnIXjNNFiVmwkwbN3tC97zso4kDex0c94PMKh+FFn6oLmLXVF8OWUpoO7gRlA==|920
+}//FK/8ly0NxgKors0m0K511V9oxWkjoQQEZm0nXmrKzN2/auVEW+7g3TEGq+luTQMA2+snQHXVXlur4vpV2Mei6KQYOCvRwOGS33Lx1pGLE6HRJP0rt+t4EY9SBhAc17eVxtlyWvxKct79saEe1MHZ5GkiMQ8MlgnZwMbd+9dvS6a+lBy17QGF1AuVPbOWogCucCs06k9pFvpXZhWxTuh0N2vi1tuEQrsHp3jFWy74DEG/qLfY79BErxfHMIolI41SXAEpH7+TaoaLoDIc1psi99KnRRDAO4RoD+ThkFDCuG/Tt4Qm1YiOamU5IAxa9lmAH5fUxqoqScNnkiwuTt0QKvrtIIJukTlxRzS7yX8Zo34biHyAIsl+K9kbDfKBaYK+4c8HImYzePjidvt58TnkheIaQ9G2Wb+O00gdP+bcCGGvBiHFizL6Uj3EdV2KdQ3KY+nVntzqLb+babrc+/oQOtTrM1zgLgwQzAWFEnHZHNEhvjZ+jvctzjLJ9ALZznJi+3D/6umNyVe5l/r3SvTRkAata+AUw/PP8KAf3utALlRkIN9A5LA/xfQrNqMYTcfUQHLPEcpRCSkNzlDkLjZfFEZ5Gz/Gm4TVFzigs0zVcQev5Bt3PR+seSIt/v6UyNjE5XgTGnIAdarEI3TqUWN99MkvPe2X66WCiAxoeOrBMPChG+dhXKhbiGQ+ffsFQuyrrrL+B7hZi3d96th8YkeZc6anxPA14VoEh+2bN31rkXcpbOxJxL1RIv+1xCLfEilHpwW/lXhbVy3dt5c7swWel6fbuR5IkEjRsaK4FzmlZccZpWSXEDNAfajwI1owIgEpHRay3UEdDEIZZw5X8Vqr4+TxtxsfFdi/dlNf8MyrNyPHnFUCm+2VTGzD231wLrTd1OZOQDzdOAeSz2ejBuwYjw==|920

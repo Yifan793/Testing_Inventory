@@ -161,7 +161,7 @@
                     ]
                   }
                 ],
-                "ID": "6666d633-41ae-4fac-ac6e-d65c47ab3737"
+                "ID": "bb831748-0d2d-45a4-8642-bd410a65fbf0"
               },
               {
                 "CommandList": [
@@ -189,7 +189,7 @@
                     "LoadBindingDataOption": 1
                   }
                 ],
-                "ID": "5ea6def7-eb6d-4dd7-beff-abf935691346"
+                "ID": "0debf20e-90e4-443f-bcb9-c16170e99c29"
               }
             ]
           }
@@ -216,6 +216,7 @@
               "TableValueType": 1,
               "BindingInfos": [
                 {
+                  "GUID": "436580a1-acd0-4a5e-8314-62fce1739957",
                   "BindingInfo": {
                     "TableName": "item_type",
                     "ColumnName": "ID",
@@ -224,6 +225,7 @@
                   "ColumnName": "ID"
                 },
                 {
+                  "GUID": "a97c1188-0401-4143-9274-8e81486c8811",
                   "BindingInfo": {
                     "TableName": "item_type",
                     "ColumnName": "type_name",
@@ -326,7 +328,7 @@
                     ]
                   }
                 ],
-                "ID": "4ed1ec35-4658-4dd7-ac0f-abe57f2b9f95"
+                "ID": "f235ed2e-e26f-4aeb-93d1-82b102343312"
               },
               {
                 "Condition": {
@@ -381,7 +383,7 @@
                     ]
                   }
                 ],
-                "ID": "22b12ef6-5846-42d4-836c-6b899ebb0f35"
+                "ID": "7987dbe2-d168-4ae0-9832-01f8654f9f5a"
               },
               {
                 "Condition": {
@@ -437,7 +439,7 @@
                     ]
                   }
                 ],
-                "ID": "0d2c12a4-bcf5-4f61-bf39-eb3ace4447b4"
+                "ID": "4d246395-40a2-4982-87b8-721f4e4a3faa"
               },
               {
                 "CommandList": [
@@ -520,7 +522,7 @@
                             ]
                           }
                         ],
-                        "ID": "0683731b-fb05-4270-8c10-9f26b95f9e03"
+                        "ID": "2053220d-0647-4af2-bdb3-3dd15323b74d"
                       },
                       {
                         "CommandList": [
@@ -600,17 +602,17 @@
                                     "CheckDataValidation": true
                                   }
                                 ],
-                                "ID": "77a2d952-5afb-4d8d-ab11-b20cbd801313"
+                                "ID": "c53e3261-6f58-41bd-aeaf-d9a6a71713ca"
                               }
                             ]
                           }
                         ],
-                        "ID": "2d12a7be-dc52-4fae-a0bb-900dda1402ad"
+                        "ID": "e87f877e-b5a1-4919-bb75-e7ad037ca513"
                       }
                     ]
                   }
                 ],
-                "ID": "bb3e6748-f964-49c9-9e5e-1f38647e05b6"
+                "ID": "dda0e763-7a62-4c97-940e-139fc5dbba94"
               }
             ]
           }
@@ -744,6 +746,7 @@
           "TableName": "item_type",
           "BindingInfos": [
             {
+              "GUID": "b82a59f9-3897-47a6-af62-ba5936fcc546",
               "BindingInfo": {
                 "TableName": "item_type",
                 "ColumnName": "ID",
@@ -752,6 +755,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "fd8fc5d6-adc7-42b4-b6c0-eea11ff713d9",
               "BindingInfo": {
                 "TableName": "item_type",
                 "ColumnName": "type_name",
@@ -760,6 +764,7 @@
               "ColumnName": "label"
             },
             {
+              "GUID": "9a01b4f3-7ecf-47a0-8c96-4a3ee218fb39",
               "BindingInfo": {
                 "TableName": "item_type",
                 "ColumnName": "parent_category",
@@ -945,4 +950,4 @@
       "Formula": "物品类目!$A$5"
     }
   ]
-}//eycVVZ9Ab6nMRMOLZbfarKJJcUOKntgfvLEG/DMCP1VMy0xQS2ZDD01PBQ0MyS9muSSJfj7EVeSPwaTCmvrt98aSy692I9pmZ1qdHL2Rc8JmZvWXcZxntQBz3Wniw3eh7aZx1/mdeGxi2ff2lLBhq0yBkMW/4AMOVAnmRaT00sBQ9sja9wAiRvzjp9P+Eu0YUuLEj4f/t9l/A4vT9/gG/qjnLWKZw8myyxEYaiIYJuXLWUjrCpJfYRIWSxxmMiqGmvZgjwXY1PC8iSYIZUydJQWRsiU0wXV3Zj1YIWF/rLz7PLYCiBB1jXnvsmZ4os8gqml1w1aKSHTSdwUy77h9ZwtOBgj+0r/udV6tzC1O5a/dTlZcgYrkhv3NS0zLscdU6P/kEfne+O1I626wOkBsjbK7ulxux3uQvIsYRXXnG4T+zL3ZGwWqK5UC1QNHEZg1xtb4huFVNz/CIUleDsJEHDuHD+nuXnYCO3myo5HipMrT8TYxu71KBps1vwqJ1ibhDzY2aQi3Nm/SynVfFiuGj6hjU4C+aWhueyjVzCfeCnkjGdVGQwjqCDKemWpvhO2zhAAgavZjWRQ6l0sSaSYczNRNmNF9bNsKZ4KppSxTXhscY8W9cNQYUKuBajaDY/aP1LPaPFLkf06afw/BXpmT4E7Uh9O8jmDjV4p8ixzzJIQdGJjTjOkiZRzrohhmYLjLqjm4ZVNcXGpgkQ7G+ciMB/RXlDal3JsNloeyA1XZgHnUpcj0EulLlKEOlkHMNZ1KGTstuSWVoHj3h95DawLiDr0SpRSljpNK877qRm+UpLNuxRk2JckK7GEZGR0anurIUXT7HHbLwtYENcP6xNgL7Kahi4fasFC4XItSmnlmm1K1HoIIZpMYqI7rrTfbJ1WrslCJ38hUyH++UYIGRdoVGQ==|920
+}//960M1IMNvam9Nn/Qlx5uyy81FrOU3HxsL3mmT3vvKjVXDTAwt2hBW8TpHEr5ecTI9SYJBhb6THl0S9q9OxNNMmCJndvX7Of5vfhF2B4Gi4Rg0iR5l6skOuPkaFx7i0LhHcW2KSbfKD8ruHDmfN8ynAB6PYcj+0UEEcfhYHtCg68Sqsjs5T4CranKxWhuaKs+FAMRsX/SFBzKHbKSdLclc19mXLI7lTFaJ1Qsp2B1IApY6DQhRku+ojEOw1S+sEXBeR+IfaZKKyGp4k+bmrroptvXyH7kCCa5pYqss110WC7vpidstvP1A/TEP1gzfd30JMDQ+iV6cZ8YITNbNgFgP5b4K4jhWlhrOfOYd1jgehg4LouMA20LlcTXzatumwqRV0BxNDFxAE2pTBXWcdZ4LvWuZrYk6ZHGedW0796lyHK7Q1nXbQzLEkU0/f10oIVXKhyiAET2In9viRo8D8UNSTbrfJFMIsh4zMJSiZ+D3qKhMk5Qk8Rre9vJsEdr0sJtrRNpeu96rWtfLUGD2lGsv1R7GBD/YnESPLeORXGmQx3ULCO/egJuhBTYgB4S8Cw+7R5Li6ULKgiBDIpHxLjTffslRSTIBHMzU6MoCBHlc32GifrjJJUr+4HUsrvB0984jFI5pw9Nmmc6luOOuYmglkhRBtQ0+ZSGbiDA0rTlq51rNcVmK86Wwcu6VyG+bnVUs+YX9hcO8dL9zxPthjSgC/YAUQJxLqx+aoGWp17G0HuHWvbExXUMb8ezrtRBpsKuURIUE/IxdJ2wWGQwMuuclYD8mYT3f/JUlZEoe7faFpZtVTnPtJym7t14Ty5W9CT/SojbyEMYfQSx28g52Fj0/Tgcy03fyZw0C4VNz9iAgqJMYERwW+eX9DcuHRJn2BXmh8RRXgQPPT+wWY0Ie/a4kQ==|920

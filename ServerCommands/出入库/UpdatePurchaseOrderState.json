@@ -26,6 +26,7 @@
         "TableName": "purchase_order_details",
         "BindingInfos": [
           {
+            "GUID": "130bc27d-fdf3-4356-aaac-dfe993752121",
             "BindingInfo": {
               "TableName": "purchase_order_details",
               "ColumnName": "goods_id",
@@ -34,6 +35,7 @@
             "ColumnName": "物品ID"
           },
           {
+            "GUID": "80c376bd-3d4c-4511-93ea-8168486cabc9",
             "BindingInfo": {
               "TableName": "purchase_order_details",
               "ColumnName": "purchase_count",
@@ -82,6 +84,7 @@
             "TableValueType": 0,
             "BindingInfos": [
               {
+                "GUID": "20465233-afc6-451e-ad46-7317b655541b",
                 "BindingInfo": {
                   "TableName": "inventory_details",
                   "ColumnName": "sum",
@@ -180,7 +183,7 @@
                   "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon"
                 }
               ],
-              "ID": "48c8853b-1b4c-4c1e-91d8-5006a5eba99b"
+              "ID": "b8ec0fde-d4ae-4147-8202-962c644cc073"
             }
           ]
         }

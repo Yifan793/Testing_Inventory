@@ -534,6 +534,7 @@
           "TableName": "ACT_RE_PROCDEF_View",
           "BindingInfos": [
             {
+              "GUID": "8fb097eb-8093-465a-9923-776b2caa3732",
               "BindingInfo": {
                 "TableName": "ACT_RE_PROCDEF_View",
                 "ColumnName": "ID_",
@@ -542,6 +543,7 @@
               "ColumnName": "ID"
             },
             {
+              "GUID": "33845138-4838-4c6e-95ef-3dd1396a6489",
               "BindingInfo": {
                 "TableName": "ACT_RE_PROCDEF_View",
                 "ColumnName": "NAME_",
@@ -550,6 +552,7 @@
               "ColumnName": "标题"
             },
             {
+              "GUID": "05b5f0bb-b483-4332-9eb9-2a5ae90a8891",
               "BindingInfo": {
                 "TableName": "ACT_RE_PROCDEF_View",
                 "ColumnName": "DESCRIPTION_",
@@ -558,6 +561,7 @@
               "ColumnName": "描述"
             },
             {
+              "GUID": "3375a773-2b20-476e-83d5-ad6d373cf2c1",
               "BindingInfo": {
                 "TableName": "ACT_RE_PROCDEF_View",
                 "ColumnName": "VERSION_",
@@ -566,6 +570,7 @@
               "ColumnName": "版本号"
             },
             {
+              "GUID": "554b07d3-f9be-44dd-a89c-5ccfe675e067",
               "BindingInfo": {
                 "TableName": "ACT_RE_PROCDEF_View",
                 "ColumnName": "SUSPENSION_STATE_",
@@ -688,4 +693,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//NTcHjhn1TbCQNbeyEAGZidYNLXjkNHgX4MGvU8h2HEyvs9oEJhathUmQKmM3ZQ5r2Tn7h14K3QQQF2IqBjI+tZVEdaf6/tgNy8x62I7AZTy5HJqE24NpbfiEPX/00xkikP2O4NU3ZEGA2k8D4hKkysVHscsvV36eXQDOg5rNIbhPGyMYbsBPkubk60juLDzieBUwWYguaCeRuuB72SQCCJFmIscd5nZhNkQ0tdFQPC+5QJqEXG+eItlOPS0yuYvcr2VQ+gsd8EZCqz1UI+mwT9WMWtppLB6BTGaKXZddxRdECLesUUFCkpNtXQYZsxoqT1jPA+cQmIiYB3vXBXoqiDQI1u8Tev1VZoE65QyJxXjE7Qlhn5zHix+9E5uzv6+ca6EofFdKjLT6SCCUKv0rPF2mthg4BPIlYB3fyfOcj/ndFdNZ+EpY7u0OkpECZ1anzR28WlI7vW6IgvmSuoztcQGKpByibUanLvvlXqG2iXZQD1nLW2LmOqsQuRLpoK+gpNI/TnBKY6Xdfj6FMSvC6MZnY2OYa7bulWi45KOWjogk4fpziJQswEo72JnM/uJYn4vKxTmMMSMSVRIv/lVnfHTmK/jlM4j6Sk5Xq9nWqM3zmjJW4iKYY6m8VdhUXPcscaahhYZKHAG+SzXq4HtXLBWPlCCm4+rmuA6Ae1sBgjEETvoRBKWx2qoB4Jw0a9kGxpVXEUnor7O3fRZISbnUmZ1SCjJVh/qtUIi0bRDO/fp3jT/sBGe8n2vn/XQc5Kbk6UhU+vglDA7M6cOWRUP4p149sHqzuvQ/I6UcmgJvs0Lzdr/t5LDzb46EKWal/PJcgXgn3I+9NO/W0dz3QHtZ5EaYwrImm+LtBhe+6Uex4or+6FDXYrrAO9ILWk4wxQvZFfLG90qhcHObk5Rng8CCmg==|920
+}//qkq3yuXhqgL+uAqpdJxjVe74vNz7lP95SzzqduaDdShu1yRC+70baMuvLO+f4c5umBxDzULdkt+Lq0L4Y36Xm1JqB3XoYPPJ/ibxKR8DEaY7x7mBfqyqOfNaV12Ha5d+RYC33EnfoORsJHA+D2xqDgBviIKAhyuu24jDMY6jrMmR6z4PHqhQp5JN9Il0cJiJ5kdlyH2zpBJOgG6VBW0A6cHZVGIxh8uC0d7us87te06YrTyvFJoGte9k0G9tds0/NUFwMy6S/94RauKV4EDVnq4hG8wVuOuMQRDskgL25RzORkkBYnr32BVN9Y8fBw3VDRY1H7Muovl3GP2aY/ZrZPxBmJRLr/v5trjY37untPw5wdq8XxLyuAxuNt9DNiXAvs10Ld6H/e95Zkz75WNFst4Ftcfm+dzmNgSEf0kfrLC9nn/1iHvyYFhKKt5umC5tFJWeTv9tXNXc4CHuxv1yTT+6NQLmXUVLsRfuMi+BVEWHn/YCQFOL5F1pgP1c89d31oUUQ8eRTJ+G/UpfuxvMa2CCnC5rCfErl2Z+IAPFCBWLP2yIbrzR/AEtFEF3mxfAwn3RMrPdKp0aF95nUBIAUcBvklFDSHh4SPhXuhI77U6NwyctkR+vatqgARLzJpqT0Ye/3wsIw6rQezihZZmD6DHJxK1y0TAFm46TqtPYIKIv4noJ39KZsahQVnUYFvAisk4CYzc6hwro1W7Rzcc5RO2A5zrLeQb1Tu/sBSK5naY433MmHi0LMykmmCwKWrRceKZ56Gk1JpA4BU0ABJp/4dF6LE820i46tfAuNZAkDri/YPQ8bJjknXXQUQ9WvrijAfVqXWlmYHBYW5hHLRvDjQ9aQ1c9MyxXwYarPXFWr6UtLJ+UFkZ3LKYvp8yKjmpa6J6QhU9Dh660xB0N9936nw==|920

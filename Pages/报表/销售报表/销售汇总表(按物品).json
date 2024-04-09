@@ -562,6 +562,7 @@
           "TableName": "item_type",
           "BindingInfos": [
             {
+              "GUID": "1a51e03b-5695-42ab-acb5-6683eb054375",
               "BindingInfo": {
                 "TableName": "item_type",
                 "ColumnName": "ID",
@@ -570,6 +571,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "bf5657cf-a40b-42e4-be1f-6785dc3b423a",
               "BindingInfo": {
                 "TableName": "item_type",
                 "ColumnName": "type_name",
@@ -578,6 +580,7 @@
               "ColumnName": "label"
             },
             {
+              "GUID": "9861a2f4-9719-4fe9-8112-262da9f18630",
               "BindingInfo": {
                 "TableName": "item_type",
                 "ColumnName": "parent_category",
@@ -1021,7 +1024,7 @@
                     ]
                   }
                 ],
-                "ID": "dc843345-116c-48c2-87a6-ff71abbb0289"
+                "ID": "c6a07327-7217-4580-8708-8b7ca103c194"
               }
             ]
           }
@@ -2110,4 +2113,4 @@
       "Formula": "'销售汇总表(按物品)'!$M$4"
     }
   ]
-}//irIs7/khde3JkKXg99/LqBI2u+XW2X554WokPBUyGrjpY4QtWvotcbZ+qAu2qGpR5j12ZqWD5yau4lUXA+WtMFoVTQ++kaVK2r1H2eRsQKTK8Gnsh8QGYSgxi9YQNBy1emlERfISgnb8bQcxyARtlJx8TcgeQv2VH8gRUXXqHfTzjlPzEFWKX9IZVk8+D7mOGP+hBsqOjXxHANlXCsBZXBwFcr1KocorgyhI89cmKZOjOvQZYmRbInFTiTtkKptLSHsA0+Q/jgRpydxrnuMovoYIiHBS7wlyS6j2pu8L6wTiP6iS/kGp4+lBu8bJ/ASJQNw35/sZtmJKG39DBauWpXfLe10TgIyQm8ByQ8iyYyiRIe8kSjIgXJaqN/xgeszeeL8X7GvbFGrFaP+TZ4N5IZPWRt72az7Cwt4BbkTmHXdc/8nJQeYn45d+0UEs2SfucYLJFO/6rse81eL4Jcdt7AH8yiaH7lriNHnEz4wj5Xp/Bj9I9X5Cozie7nBHKPI6oMhAJRF4qxPx+A4W+X3krYfZa/EvrkOE0+uIlvyfUKC+i6DgsDcro/LYgKDoVKaLLrf2RIro/tONMUYJdfH4jIeLVd/GO/rD5e2OFg4HPTyP9UkKcuuc8+ZePIHRE+fcgxRRZ8aCvQb1SVR9rxj1tc2tmIjbOlUvA9ZsbQPtR5pUGz4YqBpmrOccXO1JCPy+IDfT0qQYz5lnLkyqLjO0OKonPlSXgD2KcwMLViWTwOoEZcp53NkaDjlzSyyC7lC7HwB+SyONlHBwTu0H5626MkIrMY6/K0W5/t0aF8kN/ojxkX8mjCXo0caC2G7/HV7X0aPRd9U6wbrtMLElmQv8l24TqSzpXY0Q6FDMNkj9r5tK01opvJXxsXYn4+iNgr2svY1oDTMqoZUZ8QXbpurL+g==|920
+}//ure7u2D0lKgt6KJrWSubZZ0c6fvqWOqgEQeTXehei/2BV+5SjLoMhFai/nBoGBzRAG5g+YWHK6+y2l5A8TlGS2+z4COmjWAFbDRTSuA7HfljXvOOltRg3HJ4KIp5fnqBXHZ/wj46wbvUKnYEmDTfKuhMhQz2CxnJ58kfzz7KlXfWBa4NxG6ZSm/mzINpD2LEz36CXJj5qEeI5h/KSfn7gQBWAO0boN+uEtqw70bf6/67BRWckuXvCCjNMN3gZFwvaewT268qEAsJtEv4/qvvCfQviRmk+MjiiSk3JKAJfrgKfegME9bA1KNncuG6wbrgw+608UWxIW5nNRGmFrOi2vI1fSAxtTv5IU6m9EMq92Dfs4FOGUUEoRxdx6XSS4IcNkr7hV5N5Fiea88J7dEuiduBrgFLISAkuaG1O7YyDXiD5Nin09s/d3Te3VVYpAjjSHKiOYzLGj/Hgo6D60g78vLbKXneISLJ4Dp+MKm3Fgi9h2/nBtu4cHhYA4MUX//k8OwE6i0Fj6LQIb0sYOF6mYFYM2zNFwT9OEYl60Wd4AYzbcSuvgJ5qTfTfRn2twk3vjnQDOirjqTVlp97rlzvYD4W1SqudVWh6TXTgOTWYMlyHBbtnM1c5BMS+4Qlx/ca+vlNFICmrni4OxFmrEIbjW490QM/vqD+/yA5VOtT6drdchGGdfMMr2VP9x6pWVU6Nyr1m/DmnV/32h0MKDw+aL8sSgpuYQavPmuRjzPLnkantKCCzrUxkCfM4Z4LxzkcZPmXBWqSI6niVwXhLpQCnLnVX25msZqOnwBysfrkjz2QEMaGi3S3X6VGXhj//UpkjyHw4SYMLWgH8UQcLeFdjuyu2h36F9nXO16qplf+bLPs6mX7Hyry5zE6ZYQU/BaVqDnpFRQszsIhehTUWLP37w==|920

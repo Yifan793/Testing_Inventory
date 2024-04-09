@@ -310,6 +310,7 @@
           "TableName": "item",
           "BindingInfos": [
             {
+              "GUID": "b9707fc7-78ba-426e-864b-6fe967c3ff64",
               "BindingInfo": {
                 "TableName": "item",
                 "ColumnName": "ID",
@@ -318,6 +319,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "38cefb7b-4ea1-4b19-a1a2-0157fbccdefe",
               "BindingInfo": {
                 "TableName": "item",
                 "ColumnName": "item_name",
@@ -495,6 +497,7 @@
           "TableName": "purchase_order_details",
           "BindingInfos": [
             {
+              "GUID": "28346845-073f-440b-a74a-dee1548b0fd8",
               "BindingInfo": {
                 "TableName": "purchase_order_details",
                 "ColumnName": "purchase_order_id",
@@ -508,6 +511,7 @@
               "ColumnName": "采购日期数据"
             },
             {
+              "GUID": "2432d953-8529-432f-a3e0-978a450108f7",
               "BindingInfo": {
                 "TableName": "purchase_order_details",
                 "ColumnName": "total_price",
@@ -516,6 +520,7 @@
               "ColumnName": "总金额"
             },
             {
+              "GUID": "e649cfbd-2728-4cd6-9c9f-b3767c10d684",
               "Formula": {
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=TEXT('采购汇总图(按物品)'!采购日期数据,\"yyyy年mm月dd日\")"
@@ -755,4 +760,4 @@
       "Formula": "'采购汇总图(按物品)'!$M$4"
     }
   ]
-}//DXQz0QWBULniFmvX4Xu2kkPFL5uAcVgMAynz3Dc2tpSvdIQ1qZtwDZgs6orR+EhWwU+0obnhNSE/ZOslqqT1gqeslPZkbcD/6dY1zAV5TqGL446A4dh9yOzZpH/Dyd1CXUmc27/Fwik1NJncaw0WiI1P1Fc7rHlsFywJaDKlcos3LBmST+RkNymK62JFC2ZT3vIm8nmhT995Tz/mSPWPQyEbKqpqXmhU2maXp8SSTd64HQ+P07q9WS5Fl0T4+n2qSblqdahAqcdpYbeVz/dtVdqT1bLugf4z1+qf8v8eMo4xkScUvdizWmHuaW5U8f55SYksFJoosZl7xg475KMxgXYDuwP7wu3k3mV7V51bJPwHNoOPmvmuOP1tfYy7sAcpoMkFxZglRMLeAqyh4L38fsSwOOYspPqHS94RMafGxkAgV1pxOPQzWIuVmn5lONbi6jDwMhWyLWbr/U9e6uPFKl3u2fP2rShTGKzcyagrWQPlWIMpP+c5fFarYigVzxUqGDYK+g3fgduG0EHf8EXwBC+WQPtHgyjNnsvOscVLW4kxwpi+Bl1peJjnTxk5QL3KWwTf7g7Trr+G7fnG6mVVc4oMxw+D+Z2J5F+g9EOWh8MZHxTUCu/kbxNSsdWhi1367AZJyyX5KZSxnW12pY9Epfo8mqtZkA2YInibJh9uasqSMbl2yQNpYGrpsmUZGHOFvEqtNv/+fOKWOFagf2YaKv+2ZUNgK5PcVoE6KbEkBaIhnRLQ2OtszVQ9NBLB942KlQKB+DW6IcR9oA6wmqHO0LzHAsXmVkfuu3+WfhTOhzK67x6k6qdchtJjS3ZQ6ENGihpk7pNDwYVilGhk2Himi5laE6/SrfM/wEuGpmN180b8GoCEcH71UuwlcYRMUNcLV5cM2SZifCtXlHykq5WXVg==|920
+}//Wt67ZRSQN0ofbGTB6OUv1P6gbTQhrFGuPl4zttFzUzTEIMIHoBn4TvcBgIrAIlv1gV5dFDT8be6pCIi5j6UzXLjNSV00UiZ1XK3pMJFhu58IKx6gAIdHHIBeFIcfs+YRHixh5QqWd7J+7YyM6fBJsBhr84s0McuMWyj3F94ZmHWNNkeZFp6bl2jCGZF0zQjsupXeuvQ1VP06l+dIfgoDCfRvHGGI5NRQQAHmzBu9KM5dnrwxDP8n/KGG0V2O2GUfWi5+Gw6WCylVCqrKTixUMA0zkeEzMBj2R+KKvmMjk0y+0Z6YD9Mqsoz+8/GC/T8AzjMPoKHi0XC4MJccvdGwFpiI7y9EjFFtsBWJSUrsFXEr27O8eirxOcv9mHgi7asGK2aZ6VhuOB/zDg0p0pC73/ZtN/iV+uyk9uPe0SobjgoLtiQzR8fr8GLO2oOVYWLBAdYwcu0yoPVu+Muysqs+4tLb5C2enuShCkOeyeflec2a4wRQFprZ0bDTjIRl0ACKftS6+wf/37RNT2GngUkz+yN0Tmrr1bz/vhR2UgCXeJfPobcWNWUn1E87oXCuwf7kR8/Go0+DNeZ8YBAM417f17WIaG4s+N2f4GSCSToxrYaj0yZ7ur3Rdtpqjix28GchlrjBbnkckSnhyPr0Q4BNAbQYVZbjGaj64hT+IxcKXzB2AISRBPeVIkMLHvv20db6TISITg5o/lWzhtJjd04H3MUyXea6Z8vNqG5yPMMCaETaLOYzZLSjrnY3WAevLwn+7wl+a1Mbl+rqvqSjKmESIdSbFU2lzO06UzvYkaPSqbwWt/mLgGKM+dbtxD6RnHIgS45qhay3CirLKjX0L6NkWv33noGrUd87BvmF7QAgLpFWf3Nf/QGBtwViiXPed/5lQF4y+zTSpqUgOsW5pj7uhg==|920

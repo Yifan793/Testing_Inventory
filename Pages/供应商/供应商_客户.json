@@ -397,6 +397,7 @@
                     "TableValueType": 0,
                     "BindingInfos": [
                       {
+                        "GUID": "a8a9e184-8be2-4599-a638-7526d761ffb8",
                         "BindingInfo": {
                           "TableName": "sales_order",
                           "ColumnName": "count_sales",
@@ -429,6 +430,7 @@
                     "TableValueType": 0,
                     "BindingInfos": [
                       {
+                        "GUID": "684a0b28-f29a-4f98-9229-4fba8095f080",
                         "BindingInfo": {
                           "TableName": "purchase_order",
                           "ColumnName": "record_count",
@@ -461,6 +463,7 @@
                     "TableValueType": 0,
                     "BindingInfos": [
                       {
+                        "GUID": "3afb526e-d0f6-4c9c-b8eb-315d65126282",
                         "BindingInfo": {
                           "TableName": "inventory",
                           "ColumnName": "row_count",
@@ -590,7 +593,7 @@
                                   ]
                                 }
                               ],
-                              "ID": "6c14e7db-f839-4f7b-903e-972be0ffc6f4"
+                              "ID": "6508ac49-7a94-4903-9e52-9ff187b16c53"
                             },
                             {
                               "CommandList": [
@@ -633,12 +636,12 @@
                                   ]
                                 }
                               ],
-                              "ID": "0b8b2fb4-a436-4446-b7ce-e27abc61b62e"
+                              "ID": "11704726-08bb-4740-9e77-585454dabaa9"
                             }
                           ]
                         }
                       ],
-                      "ID": "bf3f0d5d-c0a2-4203-8e47-859369322858"
+                      "ID": "80c6d5c3-9b89-424e-83fb-70f7a029cdcd"
                     },
                     {
                       "CommandList": [
@@ -829,17 +832,17 @@
                                           ]
                                         }
                                       ],
-                                      "ID": "6f65713b-113f-4c43-a885-4193a9a4a7a5"
+                                      "ID": "f4ebf1f3-3129-404d-ac03-5f1b4f72f45d"
                                     }
                                   ]
                                 }
                               ],
-                              "ID": "dccfeb90-dc2a-4da6-b753-568299f8bea9"
+                              "ID": "30d93947-51a4-4646-b5ff-8add65c5fce3"
                             }
                           ]
                         }
                       ],
-                      "ID": "1b0889e3-ae52-44ed-9028-6ac353337491"
+                      "ID": "f02d3c5f-c14f-43e7-8c51-7f7e29fc5d69"
                     }
                   ]
                 }
@@ -1267,4 +1270,4 @@
       "Formula": "供应商_客户!$BI$4"
     }
   ]
-}//xx7Il31iV5DC908oiW0f2TCVw7JwdfE+GwIYdAVSM59bFBPtsasgflZK5XvwWxzUHE6XR4CHFD8JWjxSf0gq2oGSBd3Hu+9TrnlFTG50xy++SvrpLN/NJPR6Bo47/Mv7df6K6ZgmSjMWtoOasfhVIdq9wreX/4KNQvQD2mG61ZzyDcnv4CtunXxXtJ+zg4amYwy1W/TIXhYOhO4t0VzQSyk8TQS5B5HTnhls9/91mpCINoV/Ggw6DXVsol2WFkkDC4R4JcXB55jqyhdjSshtKHSpFm7PBI8jmudCiQRbA0qoUDb+1Zva7mz69/ZCN46J1BHzYWxJAJwp863HJebYSpjNiBsZbGmBJxPa+0CJ96yc73cgf1G+FGuiMw4EBDjp9wVehGlFg3+ARkekqH7iFnRzMs97/CJVOIncGBQ2VH02RcQvdMsO7JF6O9RHJRJ4S8vZDoCSupbyclCTPb8BG6yNBGPRO7fJ+hh6hIBLxgCMeM9/qvs374iCiEuYjFOKeedFYo0a3epxxkz2/TmS7D5AS9XfBJrIa+0IbzDMxDD6dx7Ln9OBD1bSJwJponL9h4dZcAzv5bf9JGWyn0DomnvBRED4asqLsRZ3vnA9ItqY6crH45goorXaiA8Rsa11PY1XTZRLi652GtiNKh7L+1B3cgsLpaWCRyOxwk8lQ3+iKc7gyDgD699lPVO3jRnZ1/j/FSsL4qIlRCfUc1RVhYZ6znF8iAveklD3Ep/N7W6XNH2flPGGQH3zaf4+MgQOIwPacX+exXk97vg5Zygj29UrblISH9ljRpFV3J9F1fvue8PyEKk3NZubApYUcqb3x8wWxtOBGT63XNLKjMwdaEUzQ5MUeWu/UHQdHyBeCJynb5zEJ+UnNW5XU6tewhhb70HZ0yOP1uOWieWzw2pNpQ==|920
+}//48/TcauA4INpc2S2bP3VejGGI3Ii2zYwNVgaFSYUw1Fb9bEbmyKIL00z1+TIhy6/yAcBMGV4krEHHlP6TUObzxImek9XDURFcI5dzvJLRKpGtMQkKdwxck42FwGfLVW5Q1gh/lk2BeTjSueEXtsH1bjj9wOTSnMxs3Rr27AMA/TcPJefhbbidz1Nxb41812vKGk3xjiIZKbZl3Jc+YgOE1GhWpwSnc+D51pHu8SA+atCnw6OYtUFFJkIpz8DA99UVHY78gD+DgBvleZXqhfCNMp4mFT56t3DyRRgFMYc1dBey/mN885joGBjWshdMsB5Hy4oZRINs3yQekFbmyj73yUfE8PQG4yIpdgQDVGeSFVn/1M8cYuKlvQwKPAaNophK4hkraklFJ8Ta03/K4zrtgnvxPFjeDIcsgcbNZ/qStKXUvkmZXIGKQU3WKENzug2c6+xQmWBJc/65B/p/qF7OYhUXLAnTGEM0UIB8RPizaE/tuD6tIasRQE/ce9j0BtrqQVI2To4lCQNr2nmPYxX0dTYTiqr16xCJ7p1MRoJvcXbsFp17AYI5uCtP+Jh1mXE/iZuQe0WRG30Sf8PA+tZxTYf0Jl4ZeUZ51XruIP1IH3iEX7hsXoMy2RFuUVBH2UrClDX2rQ+F8NZcT95nt0tdW7Z+XkQodmaXharvIB5sWuZDnlyxuhvhb8lgie2SpXVXqVv3mrF5hA3AG1Tavk8SZHyKSInY9/+VtmbmhHrndaGg6nFFQHRAhn745eMKxJVBFSWyQHuG5utGGDXhlEI4pF3TVjrDkb0dJyYD/Zt4yWiWfdf6XUvUieNHMnUgydo/kjN5FRzK++xKwx5fxq6FwvgtVnZIGdleJeqOhmEbOc6s2lTawpaWunp2K5L14Mjg37vywbpuF3NAtz9wbRCvA==|920

@@ -1579,6 +1579,7 @@
           "TableValueType": 0,
           "BindingInfos": [
             {
+              "GUID": "4357d85e-1a3f-4659-b5e2-5b32ad7076af",
               "BindingInfo": {
                 "TableName": "inventory",
                 "ColumnName": "date",
@@ -1621,6 +1622,7 @@
           "TableValueType": 0,
           "BindingInfos": [
             {
+              "GUID": "85eb1149-9d51-4141-a3b4-2e6975b02d24",
               "BindingInfo": {
                 "TableName": "inventory",
                 "ColumnName": "date",
@@ -1785,6 +1787,7 @@
           "TableName": "inventory",
           "BindingInfos": [
             {
+              "GUID": "63452c52-3f3d-47a9-b75d-434a84cd872e",
               "BindingInfo": {
                 "TableName": "inventory",
                 "ColumnName": "row_count",
@@ -1793,6 +1796,7 @@
               "ColumnName": "出库单数"
             },
             {
+              "GUID": "ed15bafa-0efb-46a5-9682-1e38365960b8",
               "BindingInfo": {
                 "TableName": "inventory",
                 "ColumnName": "inventory_year_month",
@@ -2089,6 +2093,7 @@
           "TableName": "inventory",
           "BindingInfos": [
             {
+              "GUID": "eba4aafe-a263-4712-bdc4-eca4c71a5930",
               "BindingInfo": {
                 "TableName": "inventory",
                 "ColumnName": "row_count",
@@ -2097,6 +2102,7 @@
               "ColumnName": "出库单数"
             },
             {
+              "GUID": "73ca024e-be67-43b6-84c5-81b1e928dab8",
               "BindingInfo": {
                 "TableName": "inventory",
                 "ColumnName": "inventory_year_month",
@@ -2395,4 +2401,4 @@
       "Formula": "库存首页!$BI$17"
     }
   ]
-}//PXKIZfNfahgsMXZQAaiToYQZR9AAslxUob4f0I42rkBnNJwwINJKE4UijB0c2sOvTJHJdPldLubyzOGM/IolyvKm5ce2JBiLrP2sWvYPydc8Suv5Wifq2l4QtOJvYy5GSvgr9wRYArEhHPoW+l98u/FNOIGbGuRzrz6p7BUnt8mLOB5efEPxQmxQTg6kQ/BY75LiIdcihpvaBIwct6eEOTfldMozbX4C12/OA/O08zaegt7ISsa42sgtHbbWKUaGBBii5PZi6HUjpZFBLuJWEA5th9bQk+4dY0QVDR1uOkq3qh/b/pCkWVmbns0qEMA8o4DLykjqp8aweA4/v2s5BtzgL1RPIABwlpuudpZcYoWjRpgdToRPmMJIvJDMwQcHCrRCU3hrlukNQg/yl43ykmOLTi43eRVw6QAHxILw0r2cjJTpiByxHFixG5P6BnG8mAzYyNlu9X8zzwStNiuiBVR3HPyNGjjT3Lkss+tQfQYe6iGxzXjwmvdXa+70sm/UkjDEnOIn+G5ez0C08guLN26rpqG0hR2DynHqQnRcCCqlv+eZke+V7Jm0ixrCNGoyk61dG/MAsQkaCBotlkiccNkmHa1KEvrqO0ycP+3xs1UqN/iKEpskOYb4rR4Zh7QKYjbgC9380U4nS8lP3/gEfmoL/u6gNbJss+NGGkyih2TSCRkueK675HVSk8QxgbUAc3w5ug0IRM/szwA0sL9VhGhxSgFEPgvsrGMzVLsc4MTshnv6bRiiqputSGYvCqG0p+8UWT4H/iA+/VoxXbn4pMlQPnJBx/SfFVm+eCmvrwTZyPDZZUhc1brLsR54gHHitbd57inpsaBJnUBXAwuB1Ufs3SL7ws1SOsOKvT4K6hG0iXF2V/XIzJwlAiaExociIpc0k9d+yx6Slz8/lYxeDA==|920
+}//MibSuK7Y7Sz0+0hy9OJ4QQ+BTyns/qdsdJ8eRh5iMXR6ycRg9IePNYbl/6uIFgUZxtKGAvTQhHrjxlkBs5r7ZcU2npHT8zuYz5pgJIFWK+gwkxXt4/13Ez8z+uTBmujBLNEpRxXDFlZCBWqCAQ8s/2l7c62NVBc3Q4RcGN96N8bYEcRSceJ2UOPiOSImAcSwcxfARlAwLthlHdq3HxLblechIxHK2ADct9eKd1k1ZiQWPDdsEO0/UZYg8Nus59gjx1zrw7j7mEqLO8H1iJSsE1ouwC8H7tlI6XFtEByg6Rbhvx1eauEKvXfRdTdctNS0VV1aGPSDXw5gv827ZokwCPR8phf+HvcjxR0fqOGa+F1ennffZgYKB9N/goODdH9dGvY2zizVzHK8ld/nNsjQQy+PZJ7DbtYiS1bA3lQoU4BTHJukBS2xowFyeeflrZXEP9Nk2GXUliXGEnA5tj1scDIAsR2fnyUUunYfhSRa5DGvliygOnkeCI7OMYmcL+kLBobUJg3WHzDihyCqmZXFkob3lMrl4rJY/Z2DalEvFB9q8NtsdHTLWIlDY6zgtH2Abh4z4inycPvQ8b5HYd+ryUWH/aBItfqLSeKw6wWgldtLErcClRt12il8DRpUjzgiIsKagDYTBHzzimhbTdw3XbLtyfpGq+EwNxQL4KOM+8CSemRbfuVCkowLtyzchgbhtb6784iwh9RbRFX1j6IGF4a8EgycLoBnlISNlOK+Ot8ro64vYNbCAcxmk/6JHZdQBdZhxwPg8PloZ/T19tvszmgxuYWwiAr0fj74f7Pb57HFD2eE80RLuG3pgtkToUOfnn6JGtuPPZO9wgxZ+QfcOVSnCpXWk1NsAwkP8yfOWQjqjANiXo8419/nMz1puQJ4X4GqF5RB6GYytxCXDKjSPA==|920

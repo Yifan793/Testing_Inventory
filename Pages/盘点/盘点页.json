@@ -504,7 +504,7 @@
                           ]
                         }
                       ],
-                      "ID": "a3953010-4e4e-4ffe-8d09-ea68035b8e17"
+                      "ID": "5d1baaf4-910e-46d9-a650-f546ef63107b"
                     },
                     {
                       "CommandList": [
@@ -526,7 +526,7 @@
                         }
                       ],
                       "Comments": "盘点单创建成功后，则打开对话框，进行修改",
-                      "ID": "ed28362e-e330-408e-ba1b-962020019716"
+                      "ID": "bb81347e-cff1-4641-b6a4-09df3269ccd6"
                     }
                   ]
                 }
@@ -594,7 +594,7 @@
                           ]
                         }
                       ],
-                      "ID": "73b6e9d8-6716-4e89-bbc6-cb08c6f261d8"
+                      "ID": "98cbe620-224e-4d2e-8b54-566b280dd59d"
                     },
                     {
                       "CommandList": [
@@ -615,7 +615,7 @@
                           "LoadBindingDataOption": 1
                         }
                       ],
-                      "ID": "93bb38e7-2996-4d5c-a319-1cd2dd36acae"
+                      "ID": "f1486f94-e27c-48ed-a916-c5a10a93b1cc"
                     }
                   ]
                 }
@@ -780,7 +780,7 @@
                                   ]
                                 }
                               ],
-                              "ID": "a076db60-f68b-44e9-9bd6-32f09d51a5cb"
+                              "ID": "5dd5796b-e450-42a2-971e-fdb2b66d3733"
                             },
                             {
                               "CommandList": [
@@ -826,12 +826,12 @@
                                   ]
                                 }
                               ],
-                              "ID": "5e3936ff-7da7-462b-8265-08572566f037"
+                              "ID": "90c50efa-bce4-434e-92d2-f99fb8249ee9"
                             }
                           ]
                         }
                       ],
-                      "ID": "73c2cae2-3411-423b-af4c-b7c00ac122a5"
+                      "ID": "c3efa326-930f-4ed5-8d1c-c1493acc3640"
                     }
                   ]
                 }
@@ -1169,4 +1169,4 @@
       "Formula": "盘点页!$BB$14"
     }
   ]
-}//uD3siQMEjZHFEucY7TdvKLpDNg70gksfvRys7Kmm70wETg3015ClWUD3sDPYdGS/ZB7dn45qzrZTGHLcSvEt5Q1ViAx86LA6cs2Wl863xzovlRnEvosGHnCIXMxLpPTwwK9cx3Oaa/fRh6/NdWjknlJiwPPZsRm8FDwpSiJmrm5BFodCYiHLfMJifyp/e1m44S5d56KVxNrYv7CRGUfmy6UJZhgVbURzNOsvT+8x4lcp83kAxo9U77bNOmnELX7TVjNGbOAdiTiOW3Z6jB9Rv7vc8QhsSP60XfvWXJeLFnT5ikPR0oQgQHr9hnqHBI3EHy3l64uwIiTDBRZmBAgVh3vh/gTxMv7a3n2HePsVN9AdaJPtTEPms4xxW5U3XMFwZ7B+5RyjPz9tnRivVBTWZrSSvVXSjjxJKkFrilsJ6XJthUUMnDqzqxOk0o1yRjT04Gouidy/OEW/xNF+lBHCrvtAdogx+7h82zOkeZqv13NuhtafLp/3/2kJly8Lu96+44fgpkUw5/cL5fXboG/AKhX5OJyrqmZioXkaztqtyYxzY+VG/KLtrNcNmsBW9YFLzirRe4mNBzGyM5x9SG1IjdJzKoudYBp2Qlj603vuw9JRPVimi4JSLVI7Jm+27ufVZ6aKr1rTKcE+kyeBe9Bkgy0wsWmLFUtL+Hn6KVqkO/ZFi7Ga6uZaUZTUSkqceWHOAuURvHt5cCtCsB/qwgF8IcePFSehdKF/DifwlagqVR7OHLdZeG90tbzThYhX2xJJso71V3DqMOMax51Nxei8CajfXEdYa+xudnbbTKwuNsapxr/o/gkfF3TP/qgkZqdHJLK2vWpISDA5l/pDHwRynah3N9flha/y/MiSY/z23hG+MwYmj4IXJDyU+TnV6D4sILjN6gbxz35rKkKArVETzg==|920
+}//Y1F3JA9/mEEJLc16SoCgBc4n4bruyi8YpDo5Dc8x3p2lTpLvNQ/uT4YeVJ+2FYkusBKBIyEf5jGWsQ7Skx4z2nYAlC9+j62qMOmDFcQAszr8RJaqqAQx8s1RkF2AOXeBNf1tgXGllzPLzjEye7AM3XaRtYOVG26V3ZPJaQsKYhJ6evQJM6eaPL1w+H8jlloAYy3sDse3+y426VfinT7L/Zzvh1iUiktmIaBe8eVH/3rpgsLeBsYa1GiPVgscBGJrim+e2tSfdRPDw9WSsiVqV055Smp9wFUrWwvbCXxfx7RITSJASEa3VpMDTLs2msKYKtbZ/CLE3ThvgvlSyLf90qEicWCmwktn+/Rc+4vrpsaZwr8s+hlafIOMdp/0EcBzZ1YUzPydwC+xBYZvIPAs49WPVOzm/5z4OI1ROBrLsxiQO/oKXihzqZs14YEMmuNCxSmswdHoKJPOny2WtafilvlBwj+JDTT26zcqzASqyNXTQoz+SL5pY4LRQvQ2W4EvAkBqwxtt7ymJPPHCc5wQPayzmuCmTL74oitHpn8SgoFyAl9JH8Zd8BaCZ2EyLyo9+Y1CxbQOe94EbKHWeQSozu9hOe4AcsSnxbSoM3Ob7XKUEGuHtT4eKrD712fRfS0z3DzWpJk81iIGdR7L2dGzLfN08QzmeRVMEEcsfAbTtx34xR/P5KIdkIXf4OwWYCuVmi3G8b1Y6LP1tjnfNngyC+/XDETy5i9cErb4/0zDyfnQKVyOf2Bt8PqfCCMMvNd9egPIg/8/FvQZ2PwP3ElM9mkpGHR6kJVXYIL/frAWNhJf2/94KiWKZPgyG8Th4kBevFiaf8OISCf4Sx2+wlQ8s45ZBIRnnVNcjKII35zYC7xAjuXeq0FRDfpmbF/FW7yRteJrKdsLpi0N4f7/OkoadQ==|920

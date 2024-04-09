@@ -8,6 +8,7 @@
         "TableName": "purchase_order_details",
         "BindingInfos": [
           {
+            "GUID": "c5bb7a35-4b29-4489-9c25-17c0fc8005c1",
             "BindingInfo": {
               "TableName": "purchase_order_details",
               "ColumnName": "goods_id",
@@ -16,6 +17,7 @@
             "ColumnName": "物品ID"
           },
           {
+            "GUID": "7f73a0fc-649a-4c90-b7a4-0ab499c00382",
             "BindingInfo": {
               "TableName": "purchase_order_details",
               "ColumnName": "goods_id",
@@ -29,6 +31,7 @@
             "ColumnName": "名称"
           },
           {
+            "GUID": "19b2448a-3c65-4cd0-81b8-486bb34e6e91",
             "BindingInfo": {
               "TableName": "purchase_order_details",
               "ColumnName": "purchase_order_id",
@@ -42,6 +45,7 @@
             "ColumnName": "采购日期"
           },
           {
+            "GUID": "880e9ead-2bb4-43d1-9af8-c4970fcb123f",
             "BindingInfo": {
               "TableName": "purchase_order_details",
               "ColumnName": "purchase_count_price",
@@ -129,6 +133,7 @@
         "TableName": "item",
         "BindingInfos": [
           {
+            "GUID": "5ac1a075-2782-49ca-a981-6cacf0d1d179",
             "BindingInfo": {
               "TableName": "item",
               "ColumnName": "ID",
@@ -137,6 +142,7 @@
             "ColumnName": "ID"
           },
           {
+            "GUID": "f79e9c3c-a36c-4d78-9e9b-4e9ce6098a31",
             "BindingInfo": {
               "TableName": "item",
               "ColumnName": "item_name",

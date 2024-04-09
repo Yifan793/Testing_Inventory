@@ -570,6 +570,7 @@
           "TableName": "ACT_HI_COMMENT_View",
           "BindingInfos": [
             {
+              "GUID": "13455ad2-8c80-4301-9437-a293ac0386de",
               "BindingInfo": {
                 "TableName": "ACT_HI_COMMENT_View",
                 "ColumnName": "ID_",
@@ -578,6 +579,7 @@
               "ColumnName": "ID"
             },
             {
+              "GUID": "1a7aeeee-6891-4751-a4f0-583175800b35",
               "BindingInfo": {
                 "TableName": "ACT_HI_COMMENT_View",
                 "ColumnName": "TYPE_",
@@ -586,6 +588,7 @@
               "ColumnName": "类型"
             },
             {
+              "GUID": "f3f570ae-ec4e-4ac7-a4f6-e00d0d17d9cf",
               "BindingInfo": {
                 "TableName": "ACT_HI_COMMENT_View",
                 "ColumnName": "TIME_",
@@ -594,6 +597,7 @@
               "ColumnName": "创建时间"
             },
             {
+              "GUID": "6560c4df-fee1-4823-ad7a-4e46071b0fa5",
               "BindingInfo": {
                 "TableName": "ACT_HI_COMMENT_View",
                 "ColumnName": "USER_ID_",
@@ -602,6 +606,7 @@
               "ColumnName": "审批人"
             },
             {
+              "GUID": "38714584-7df0-4d32-b452-b8cc8dae6f5f",
               "BindingInfo": {
                 "TableName": "ACT_HI_COMMENT_View",
                 "ColumnName": "TASK_ID_",
@@ -610,6 +615,7 @@
               "ColumnName": "任务ID"
             },
             {
+              "GUID": "fd8def52-cb6e-47c6-9c38-0dafe2009840",
               "BindingInfo": {
                 "TableName": "ACT_HI_COMMENT_View",
                 "ColumnName": "PROC_INST_ID_",
@@ -618,6 +624,7 @@
               "ColumnName": "流程实例ID"
             },
             {
+              "GUID": "9c14744c-359e-4797-910d-d869d79aa59a",
               "BindingInfo": {
                 "TableName": "ACT_HI_COMMENT_View",
                 "ColumnName": "ACTION_",
@@ -626,6 +633,7 @@
               "ColumnName": "操作"
             },
             {
+              "GUID": "e5aab289-22d3-4b7b-b5ac-a8532c04d05b",
               "BindingInfo": {
                 "TableName": "ACT_HI_COMMENT_View",
                 "ColumnName": "MESSAGE_",
@@ -634,6 +642,7 @@
               "ColumnName": "备注"
             },
             {
+              "GUID": "950bd97a-2cfe-4306-81f5-aeab226ce4e4",
               "BindingInfo": {
                 "TableName": "ACT_HI_COMMENT_View",
                 "ColumnName": "INTERNAL_COMMENT_",
@@ -642,6 +651,7 @@
               "ColumnName": "系统备注"
             },
             {
+              "GUID": "e0e03fe5-b11f-4660-bfac-186f22e1879d",
               "BindingInfo": {
                 "TableName": "ACT_HI_COMMENT_View",
                 "ColumnName": "TASK_ID_",
@@ -655,6 +665,7 @@
               "ColumnName": "任务名称"
             },
             {
+              "GUID": "e3f5c1c2-87c7-4f85-8c7c-78c9813cd692",
               "BindingInfo": {
                 "TableName": "ACT_HI_COMMENT_View",
                 "ColumnName": "TASK_ID_",
@@ -668,6 +679,7 @@
               "ColumnName": "任务类型"
             },
             {
+              "GUID": "645bfc10-f9ac-4a47-8583-f7b30bc7e89c",
               "BindingInfo": {
                 "TableName": "ACT_HI_COMMENT_View",
                 "ColumnName": "TASK_ID_",
@@ -1239,4 +1251,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//MltgT/Qb+9KDKHlb2B1UDwPlh41KEvjFgC5DQabmF04KqdmQzRukW9ph7nggrmhOZVKqblDTcCryDonasB0ox1raob+K44Zvs3BAI0l7iebtGgC4U3S8F7QvE861JJhJmJvG7KNWy3w2SLtxIvrr7bCOkyGNbv7O6nIAsRtC+qi65BY8Hp32xsfM2xAJ0i5q/RPTQgRxKlkj0ayFEaiZLc2JLHsudanhzYPfY2KR6i+DB2mHT37iYEtbsy822+YaAo85z92n3/iF4kXelOnjusZJwqGL126BYxHCxvfEOr5PS6p827x3wnjI0rrjK7Lhvhf1uHRCX79D3jYlUe25pgFHZWn5AJ/duDuFwVMHIahvX9ELuTnpdcqGzm9KeTvhWzO8sFSwfgAlvRedJ8AbNNMHKjl3BU61lcNfcIY2iqNlzwE5FjIEOgwFbNtaPA7hDJNex0PsOMeLMyAcAZ8Rs9uCUXS3+hKaXhSsRlcrGMeu9IjFR2Wuk7/7atKBMplNiV3iSRya7q9n4YEqlWQyxbn/A3/83qmSOpE2lGYTnArnx1xEOrWfjux1nNQXZHG3LXbhVxxn+DAFN5TZHX1EdItPXaouOIiCL2pKUlpzPQ39IOacdh4RMl0OAidU0QCqr+EuCeZSYD75alEJlRcXkUvMhOcI/c1Y5mGXH70sH1n4b47n14pmI9KtzVMaqYbGN22rw0U+7uaRRGcO7aFledm3WBdXWXU+KIR8uNY1URVfJm3b19bTO27VXiF036U7lpspGZiqEk2owkpwAIQgiegYFqiXMPPefs+HyJq9TwBamcI4XSHykxgIdbCAnTtj+qmyHr9TIn0orNO0JdZ1Jakb5HuQ/APm4IqS9qARkAyFho08Rb+hIbCyPAdZTQkCnoct9ITQZEeJ6+e1npcwmQ==|920
+}//hEdCHSfQhz4iQPNNzTLJAzEojv7UsBZaRZN85k86rV4ae7EtTGZSCWvABUHTMKEEY+UaEDNf/1ZmhoQ+0ks2VexxM4R7rKHctd39hECY5aOXt5nLBEPNN1ECl1kvc4I0o0DLZ1uShc11XPu+sMQYWDBjRVXuU3uwyBluj+k3Eu9uPzXoyKQay0EJV9VFuGKSmPXcVkjnPtWFt7LuNjY8cKMwxPURZQittaISFTDJWUuNTxMY+JVuX18bAsuZ4FFmWynuDXtKcBuVKE9WZ/N/xQWgGYzuTSh9NRPYJMflQn2BjBaZ+OZcdF4U9nTd0LrNIlJL9fl0MOPwKc5M7AWZTq+d/9xIhg5tKGL0FRKO3ardKINDIoXb2wG/oCX6rUaxeKe5oXw7fm/WhU+OiPLSwcGIllsun3XSRvEgAhInVuLhv+ADI6UzxRPRI6TGJar6Tz9HT8+TR0EWXAYo9WcBWFrlBWf2AvHtySmD0uaJwIhpHu0nbRnkD+6r6RM1VYcrXuZSagNy463Qxz9+AptRTlSY6dfUwgUneQUjllJH48TfMc6RIWGI+LzSDIJgBuW9bc/mhKEg/IsnQ8Ve+tPlH/zt1ULP47Yem8ki79FjRgwTS2U+ma4sthL9YCzkoD6REG1JV1WnCskOMfmKc4Y+vri0HvsqZaScW4iyEqietZ5ZbQXZx4mTqtWacOnyBiEA9goa3nTmgLBLUSLVTg7w0v/GySS0FV39ZsECJpoGCLwFGzORNJHWay3jQvVgT2Mob6pokmzrwWNIbjPMqqJIQOiDCpJ65+ey26zHQWzaHdEncGHssbDJ22ISEawKcjDHoRx8rgrUM6sEREyYcoO9rVAH3LWYIfE+TMxdFsuyEg/kFe/p7OWJT4BK8h4pS+Zyr8CcAqETmWKWpKOQYLQspw==|920

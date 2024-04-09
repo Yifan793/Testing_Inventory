@@ -426,6 +426,7 @@
                       "TableValueType": 1,
                       "BindingInfos": [
                         {
+                          "GUID": "a5e6b71e-906e-476e-9f08-e8183ea187b1",
                           "BindingInfo": {
                             "TableName": "item",
                             "ColumnName": "item_name",
@@ -434,6 +435,7 @@
                           "ColumnName": "名称"
                         },
                         {
+                          "GUID": "d463285d-5d91-461d-aed7-0f61dd2bc9c5",
                           "BindingInfo": {
                             "TableName": "item",
                             "ColumnName": "unit",
@@ -442,6 +444,7 @@
                           "ColumnName": "单位"
                         },
                         {
+                          "GUID": "04b78d7c-935b-466b-bcde-9bb59344511a",
                           "BindingInfo": {
                             "TableName": "item",
                             "ColumnName": "specification",
@@ -450,6 +453,7 @@
                           "ColumnName": "规格型号"
                         },
                         {
+                          "GUID": "e05e1e15-d440-4bd2-aea2-4f91ec1355e0",
                           "BindingInfo": {
                             "TableName": "item",
                             "ColumnName": "item_inventory",
@@ -508,7 +512,7 @@
                     ]
                   }
                 ],
-                "ID": "786ef2f9-dabf-46f8-99b3-107358c3e326"
+                "ID": "dc55c90b-71ef-4efe-8f70-da07682d1c6b"
               }
             ]
           }
@@ -719,7 +723,7 @@
                     "$type": "Forguncy.Model.StopCommand, ServerDesignerCommon"
                   }
                 ],
-                "ID": "bb5e4422-b920-4a61-8edd-5bdb5d12d973"
+                "ID": "fd43ceff-22a9-4c7a-8bbd-fb8b162c2a31"
               }
             ]
           },
@@ -822,7 +826,7 @@
                     "CheckDataValidation": true
                   }
                 ],
-                "ID": "6bfe84c9-7e11-482d-bf63-b713a3fcd8d1"
+                "ID": "ceac8d8d-6b09-4c2b-bc94-c894b43de615"
               },
               {
                 "Condition": {
@@ -924,7 +928,7 @@
                     "CheckDataValidation": true
                   }
                 ],
-                "ID": "76752f23-9d5b-42ac-9806-fa6fd87f12a8"
+                "ID": "9c89b703-ff8a-43e3-a428-0f6d069ff719"
               }
             ]
           },
@@ -988,7 +992,7 @@
                     ]
                   }
                 ],
-                "ID": "247482e1-9e75-4303-b2c1-edf73b6c95e2"
+                "ID": "ec7a0541-f24a-46b7-a78d-ded7a3aa1e16"
               },
               {
                 "CommandList": [
@@ -1038,7 +1042,7 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "f905c213-fa52-4ffe-9c80-b71779571c33"
+                "ID": "f239bfa5-997a-4dab-a2d7-1c44fbeda8fd"
               }
             ]
           }
@@ -1110,7 +1114,7 @@
                     "$type": "Forguncy.Model.StopCommand, ServerDesignerCommon"
                   }
                 ],
-                "ID": "280e1b76-e5d8-4e55-8290-669000e27971"
+                "ID": "b088061b-454f-4906-9c97-ebe5696edda5"
               }
             ]
           },
@@ -1273,7 +1277,7 @@
                             "CheckDataValidation": true
                           }
                         ],
-                        "ID": "b34086b0-cb64-428e-ba9a-5fcfba8e95b6"
+                        "ID": "8df4cffd-9418-4983-8ed4-b313df266495"
                       },
                       {
                         "Condition": {
@@ -1371,7 +1375,7 @@
                             "CheckDataValidation": true
                           }
                         ],
-                        "ID": "ebc446dc-4579-4e03-90e6-28de02cbe289"
+                        "ID": "61e27682-f2fa-4cd8-8842-492e3a569f76"
                       }
                     ]
                   },
@@ -1435,7 +1439,7 @@
                             ]
                           }
                         ],
-                        "ID": "1ce40449-fd42-4ea8-81dc-35d1a628f7b2"
+                        "ID": "0973b258-57b3-48c1-8806-1998dfee3c40"
                       },
                       {
                         "CommandList": [
@@ -1482,12 +1486,12 @@
                             "ReloadData": true
                           }
                         ],
-                        "ID": "ba611da8-284c-4a1a-a7dc-d6ea9b07b32b"
+                        "ID": "dd76ab8b-d877-4de8-9dbd-7d66b17a2a48"
                       }
                     ]
                   }
                 ],
-                "ID": "48f651c8-1def-464f-9b37-6f710dc09d1f"
+                "ID": "45fdac93-1694-4ff4-92df-26b042eae91f"
               }
             ]
           }
@@ -1702,7 +1706,7 @@
                 ]
               }
             ],
-            "ID": "a360a60c-2a7f-4305-ad3b-f79299f1b50e"
+            "ID": "b1ba8767-412e-4525-add9-9f8e220596d2"
           }
         ]
       }
@@ -1759,4 +1763,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//7/kJysh2UVYjYv+5dIQLkcNaxb2UkYkj0byz7wlpomHMRkknLkmSsTTPUtPdKerRGXImuJPEOdcZIpd0NcXAR1hqv50A2QBXbrQzvmdvXf57JNyshQ2Nf2+ToufPvuMQP2C1wshZ4dsI1LpJUrzD00vo/nUIjOK6qoh4wIiXgzlX52dlcbP2cQKLmELg90gf9tlMNRa4HwDqQUbP/X9+1cZxxBVLlqR4g3omFJDRsbAL8T7Sd+OUVA2wcp9Ii/RuUKyZovjOpRt5QEc+e0OnF6dDzT7X2daI7M8tDT1QwMq98SUSjDrkogQn3bY6yMsw/kExsmYyzijzSSoLTrOq9EcVg8hKsjT/EXXnhZXAV8ZMmexpuoLN092Ue7zK9lpUrHErUkcqeBEoy4oOTFhFq2wQ6IuOICOGcN7KAoego+1hfNlq1AG9YH+eIjZmTOWBVgdy40wGUF3E9xHFGvaxHc1e9tZLidxRwHy9ImW8IR8ZN/4wDIyLMJNtUSc1YNUkIOoFJaeQZNWstdh/lXAkJFzYLYsaHipbFFxqfhT93HdvPiDnhdx8GHiG272pL5u3X5fNZhxNty5cm4jNRrIAPLiuQtz+odYkWo9m4w5eqldia5RlHwRRlmG97z6jwEmQjN+lCLwAMeuiqEnB8ORIUPdffrzNMZb/3HzXFsTXAiw0Wv6MY3k1UjD5fqFCeLnHrGq7DlGaruBTSjFuW7RFYgud9x1FMjiD/+e47EUAId5DLdauMH/2wazYeQWwUCS8X7lgBTpt40EzTG9oV5O7yAJDHwSYZ0ZTsS5siGPowqWjgsPtx1wcGI9VS5OohCZ2JXWFPAPSgY0Q0RJRfI/27mKFbghZ26jPD5I/92UlKMGSGoAfsPBPkQGaNL29G+fCGnQDNdJnXUCWXbgchspyqw==|920
+}//+UgCV6Ca494vtPJ4uLhwiVcBloO4QeQRNyDDffH/5jdQw9IRoaqfbeEgse652SQk04zmThZZSFD95AzG2P8M+0svexTtIqXKaePmyT6mO+xa6gFY9QmC1xosDg4fp/u9kZXN9IjJdF1uMLcs9Gp3IC7oYO3kHYt/BvJZWSw0i+oss+E8XfE92W8E4mOGVlckpH1LQP555FJwghpPNjLXTrWMcOSLSkSCN1d837gkeLk2/hym/+boGWTg61NRs3bn4O8X3Ny5FIYsXKhhMQcn90WDf9fOEIbUOc5OE9zvlAxumSIn4+FL671bEJzemXHwK+r4V4GwGN+q8cz1ULAswlKjhV528svo2uYcA90d2/fNXGFsHJHwmYFQP2hroPD+qINZ/9GAORyADDVXu9WIXjfHEjIgeb5JiE4AWlECmkzW6txkafEaB+PSbT8B2Za+ISQiqMrL55r1YZ/58eN+V86gJTnVc8/3xmp9b9peahr6C8L9XvSC9X3F5urWTdqU/V67NkhSim8PEW2Snunf6lvkIn7PSCGvEUxVgIif1VUDy1tnxzVC7f/GHLD788qTNigkTWt+ku5WJPtMI81NcwiuM4yyi717LD0Fsfx0OQIq/cXkN88MiAAatCpW5cGooi9wVumy+y8dsORiXL9ut+6FL7BfYolFWnJvj8lbVsmb3C/6LehiCZ9CXFd45Yz2R4c6jr9PDWGAI27GJiYCxURI4sA9t2N4BPBYjaS8yiyO5JQ9gMO3xhAy49SzcGQzkT3lOTvF6X7U5Mx04r5VzXmf/n2TEG4clrEouHyeROj07JBYZpI85QtS/8pH8+di03KdcKQWCXkqMw/NFQ8Cl2GyKqWohi+qRcJOTi0tejo1UBmmokLx8L/Tqy9ZXDpNoeT1RePPdYtNhX/nzGvO9A==|920

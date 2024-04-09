@@ -161,7 +161,7 @@
                     "Message": "项目名称不能为空！"
                   }
                 ],
-                "ID": "cc6ed355-8226-4e3e-ade7-972e78e33087"
+                "ID": "65e228e8-32fa-44f6-bb89-e5927a4d3eb1"
               }
             ]
           },
@@ -172,6 +172,7 @@
               "TableName": "project_table",
               "BindingInfos": [
                 {
+                  "GUID": "c469419e-02fa-4d19-adda-3274c7693dc9",
                   "BindingInfo": {
                     "TableName": "project_table",
                     "ColumnName": "project_name",
@@ -192,6 +193,7 @@
               "TableValueType": 0,
               "BindingInfos": [
                 {
+                  "GUID": "e49f264a-0be6-43d1-a552-9750ada3621e",
                   "BindingInfo": {
                     "TableName": "project_table",
                     "ColumnName": "project_name",
@@ -273,7 +275,7 @@
                         "Message": "项目名称不能重复！"
                       }
                     ],
-                    "ID": "9f4a998d-5c3b-43bb-bcad-e5f170cd7a4d"
+                    "ID": "2d0600a9-0537-4508-a30f-bd40a907efc5"
                   },
                   {
                     "CommandList": [
@@ -283,7 +285,7 @@
                         "Message": "名称正确"
                       }
                     ],
-                    "ID": "47f0f8b8-a813-4712-9fc9-0c15554af58b"
+                    "ID": "8fd27075-28b9-43fb-8e0d-ef6b5ff7bfae"
                   }
                 ]
               }
@@ -412,4 +414,4 @@
       "Formula": "新增_编辑项目!$C$6"
     }
   ]
-}//2ZnojXSDArHTsJSi7F30l25SMqZnslFya5UTYcEIrR0owrsKG6eZNxoI8PaQZ+QNFaSN+eFvQT1os/vl9vUgkDsKKM59IvLZy90rSL5Egzw0fQkZL6AiCt/TbOw0CDvYm3iR06n8KZlazqAQ6SgPjuKSsiP6yAYaUuZB6XZq92B9+C7kuKIH5Lf4RHSxmjiPfZEqJI8bEBotBEePb5MVfU/tK7RKz4pnIFSyNz/dn4y7b4wEtlET7ug+CCcaarNa0mUX5DLYE3QyN1Qly2jyXXdeva3TPRiaQyYtQPJ4Zas9zYLlC0L2rq2i8GcZZJIfVaJ6xPHuIt61yUAwwbrpC52IvNfih8ATxoLtI8GCJbM4OhXSyqbF5KhEgve/QjGgmxQco6QE3T9s0rw0bgv//jze3j8ccGUL0sOHMVrvNH8ylGZfVsxCjblSVfd0FrvvOUcd7hhrtLbhhtI9xjZQ002ySa8sUbkUwVONPWhhDvL902NlsN1hkRg6ZD8Nuxk9uQx/WbcKFnXQXxBISEidtMHpSKVQzxaBZPj1yJJh+fCVJY9E0zpPQj5AdfcudKOgJ+aCnEooEGIJThfve+CudlEzv9WHxXZOGLFvW+eJhTYxc2lZBBND+kLnPZ/EcCbNBEqo2+HyrCULcyrp/zzI/1Yh+BE3MeIhq8D0GwwF+mKWbtz6YIz37MYFyrdnrKfWPh1wq9PRrTe26DwqP4rKERiGVFzXEJvNeumnX8MuBUGW0m1MrXHZsVqXPTyhJFhTtFCGUlXishe2wnfbVSBX+QJ8aAi6ckBGZTJFJTnWqT5cc8SRZ0j8IR6xQjDlU6n4fwi7MhlIJSXr3ObZdblAKW6XB7m4D+Z7rIcmu9lC9UiuNVBSW9fXYsohYPUsbfcZqYQvYdBSMUf6DeEWesZFPQ==|920
+}//I00yqXKhW+gGV4lROLP1OoiGZGAB6p8fvgIreqkkTLZbFoCW0OETOHDFBiQg/ToebzSHVdm0fpFpH06YFPHFSR6PP1v/rC4nnsOecCnL9HJ2iZOheEbW+prsA75qWZfRRNoRsLZHZ02Ymy364N6BicUSk3WcrjzhN6wK/bES2Chzel67UTb4YuBFvm1H2Jfgl+4NutKdPUVe/tBFTNx6TUct5iPptRs3WeLF0J6+bLUBT6CkTnKsz+joDxmTsAJKcT5YeeT5P0CWyVlvpqinC3xaJP5CWepnxf24lqpE2fN6WQHsmRCNHdli3z1M3OleDbPlHFg8zICenXBr06WoyTCDFY2oNrpSemBqE443wrPYWs8rEab1L4Z4y7VTb6AsG6aMLDiKqAmKpa57I7SHH5L5rzFGGvMxoTurY3u82Lvi0Tw6FVTQ4DiPNnz+iaPnLbd/IE2LXRcROS73xnMLLciBdgFKaNXugUzG2auCtCn0RX5CkaJWrsEbnbPW8IeJa1wzsSBXRLJvkWRQ8ExFhU8LLv1x64EpsMMRMhGf9HXb5NHiyvowpI6kJJsX8CSnV1cGTb7T5T4YGSjrc/pPo/Ks7R6QLvZ34LEFAPDf8sggLlKuO8WDSr5GuQc42cmecciw2g/NUVncigXN7VEFFi2z8XKM1t3p0bPMEMkXsTHk9SqZfPN+Pj/GBNjwGEzOMCshwG1WzRyW7oP/pMT0edelpXlle+xy8sVjlQ0rjDSp9RK4ivkPcfgq8JzrRB3QUlmEnCZV7F+RgI1N7Cs/cKZTypcX8dAmPdF2YjVd1e49YnCRgCkBW19yels+EnhJ62XfnpziqpenZkKcuuGT0iNt5MWwOOX5z9C3ElrT75/Wta/dg2KGq8vzc0GSaVBQB1yvJ0dxoZIxQ1yIzTFsMw==|920

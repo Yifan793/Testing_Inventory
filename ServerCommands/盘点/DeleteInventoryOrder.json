@@ -43,6 +43,7 @@
             "TableValueType": 0,
             "BindingInfos": [
               {
+                "GUID": "c33eb2bc-bdbd-48af-94f4-963df4426a62",
                 "BindingInfo": {
                   "TableName": "inventory_list",
                   "ColumnName": "is_end",
@@ -124,7 +125,7 @@
                   }
                 }
               ],
-              "ID": "ead1aebe-0ad6-43e1-b3ae-5b81b831562c"
+              "ID": "29e60bda-1fb0-4936-bf72-62e30b1c61b2"
             },
             {
               "CommandList": [
@@ -134,7 +135,7 @@
                   "Message": "结束盘点的盘点单不允许删除"
                 }
               ],
-              "ID": "50480e1d-2b0f-4a4e-8462-7056154790bd"
+              "ID": "6877bd32-ac58-43a7-9d6a-a2eb66e2fc84"
             }
           ]
         }

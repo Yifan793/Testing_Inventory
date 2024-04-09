@@ -261,6 +261,7 @@
           "TableName": "用户信息视图",
           "BindingInfos": [
             {
+              "GUID": "aa7e7be5-000c-4875-887f-58b9cd86afb4",
               "BindingInfo": {
                 "TableName": "用户信息视图",
                 "ColumnName": "用户名",
@@ -269,6 +270,7 @@
               "ColumnName": "用户名"
             },
             {
+              "GUID": "c388f014-5920-49ba-ae4d-97f1fe05573d",
               "BindingInfo": {
                 "TableName": "用户信息视图",
                 "ColumnName": "全名",
@@ -277,6 +279,7 @@
               "ColumnName": "全名"
             },
             {
+              "GUID": "8347eaf6-ad07-42fe-818b-75a3e07dcc59",
               "BindingInfo": {
                 "TableName": "用户信息视图",
                 "ColumnName": "邮件",
@@ -285,6 +288,7 @@
               "ColumnName": "邮件"
             },
             {
+              "GUID": "c5b0fabf-67e3-4c53-9672-03d6ef48d682",
               "BindingInfo": {
                 "TableName": "用户信息视图",
                 "ColumnName": "部门",
@@ -293,6 +297,7 @@
               "ColumnName": "部门"
             },
             {
+              "GUID": "a50a5de0-bccd-4743-94de-df86e5836b7e",
               "Formula": {
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=IF(ISBLANK(出入库_认领人!部门),\"无组织\",出入库_认领人!部门)"
@@ -449,4 +454,4 @@
       "Formula": "出入库_认领人!$O$5"
     }
   ]
-}//28H3/FF287hagV306a7063YbLZAo6M91c5a64ToLqpw73H1ude/rKUTSftGBRoh4Tjp9Y8A3UK4DRMQnLkbwklS9hrcHtQgko9TdQmYHuZhdlOFerz8cDdGoZo8DifuMZrVowjx27LNzr/2m42QJynBN3GC21RVp5lZPoVyVbVpPjQqcf5nsxfpyUPxrpZB4XWlx6TiY0e3ChLR5FFJ3Tc4lJq2sFeldm55j1I9LHGntLC5WdxMxmRlFJsafep0bfDgp81tyWTxQFJolIGmEhSa1Go4shttqlzcAoOUddVIwKDvctZWY35NHel5YZr+XDmiK/NCZnoOJo2Mnp15rjItz0FgnJJHKanY5leieQHen+n/CFEy/6aLtUxv4aJzNnzo5zPoazYwu0Iqcfa5hJmaD2J2L2V2npqPmDM7cQggd8alt8Cojo4fK5f22bp55mkyO6UCDgQIHWs0KMz50oIXwIwXwSVg0oM0+gNRFRu9q9BGsQ0VaQ9pnv3Gz/hQLn7IwDNNNiQSu/wvKXluOio2Tt5d5tHdNIKPWnJM8DOWL46AcNRdpBYF/YqVfEY3HJpqX/dHbDw40LKpdkgdrqNGBUKmT0a8bE27VMmq5GJPuoqAZwHjtMUW7EcKkkAYYkJ5MiWaSvrPKADwg7eTcDdGi097zvsWI3RK9EStWJw1rxXdNGQQNPSKdjqSM8Jq4O9bWxvdWpqUAwO+Q2f8IwdLfF/0jRhsF89iCl9jAPSUdIjzkvNmFF/qzeJvIXxVcrMT0wGx/dT8Wls/p+BckEMTXA5xibvOGz47dRZjqzRZ9F3IFpsLOKmmUR45oB/Anam5WJ6h6hYepJLgzqqrlXRiaqiZSoluZaNOQk7vSbPeHRQhZPqK4v/asUWgh43hZj3Ccn0GpuqFIUcSaUKp5jA==|920
+}//HOQbxARnA7tOApMqzMBKSGUIKADv7seDX5z80mk/2Shn2Lmsp6XZJq78qXKQU6KEn3iNYNNMm6wPcUHa47iuaLJK/IF888yCfjd5sIPScBCx/MV0Ry8XMdCj2synwx7+CFnCp56Y9aRdDV9g7URHL1lEuhkPpJAuojzRUXVvDnBFf461qNEo/hiH620R4Qo8jjNZcef0OGtvC68a/fTpC9rB1lRffcz1SI5/dwzHIU+4aVpDaiPFcsh/E1x3LDGr2S4w7i4SOtRyRQaDox02VXi6TLZay6fitw+hzXOoEpJ4FbazVamjh9aGvq1rkgoD/HfvknxfbopXk68cAlDNh6FrjW1X3hcJKcO9QfgRzTxZRGqeeodaD94HsxTU/050sDXZUtgYOiG59dsCGzE9BVATtWYTeDKM3PprLlpTKmsH9pi4ZunZeEZdVo9KthK7Ou31rFWj5CuRasENdYBbJ6mttDc7dUa6lkJjjDcrYfRFPpirIUBO35q82GIsWG+3CHgyipJGYQWXG9pqtpWrJlByQcuE3TxD9qZ3pZWIOxeQS5EF+sk40QsrPy6MQT+h6fQD3Ky/p6aKs9K1tJNF4hABHcDxQfd/47Tsg80k3RGZwLTYHQajHDwVHYqn+KqzQ7SKFJtoCT+QO0fhQ6g4sC8T3Dw9JMuPB429Eh9h+WEdi/x0PkcOINMZGuI77n4yyLiVS0mbZ7y/YfzC9dXIhBP2lgxrxGMKw6lAHXUJs7v91F5bPTO1ZIq3dWS3kcRSR69mFnUEthmsLOEDRyKTyG/BrElizGX+FYzG90Y9iaEVlnM0NMV0/mR9VeKehXUgXJHhM+5hES6e48jTDcZb+ntRVBJ5ATff0xbZ9UzoiSM5Oxoomer8bMwXeg60x2J3Oiugx5kK/iV7h1hfJ5k/iA==|920

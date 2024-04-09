@@ -474,12 +474,12 @@
                                   "$type": "Forguncy.Model.StopCommand, ServerDesignerCommon"
                                 }
                               ],
-                              "ID": "b9b70600-b041-4f77-90b1-731603cfb3db"
+                              "ID": "33243f71-100d-4961-98ff-ed6749d1110b"
                             }
                           ]
                         }
                       ],
-                      "ID": "e417f516-e3e5-485d-ab3c-e11db832e875"
+                      "ID": "9434d249-355c-4a31-9179-f3023f83cc6d"
                     }
                   ]
                 }
@@ -593,7 +593,7 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=出入库_查看和审批!审批记录按钮"
                     },
-                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                     "MethodName": "set_RightIcon",
                     "ParameterValues": {
                       "value": {
@@ -606,7 +606,7 @@
                     }
                   }
                 ],
-                "ID": "748918b0-90b1-48cc-96e9-b6052c94583f"
+                "ID": "9f958681-96d7-4c2d-994a-88eead7c1140"
               },
               {
                 "CommandList": [
@@ -640,7 +640,7 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=出入库_查看和审批!审批记录按钮"
                     },
-                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                     "MethodName": "set_RightIcon",
                     "ParameterValues": {
                       "value": {
@@ -653,7 +653,7 @@
                     }
                   }
                 ],
-                "ID": "b7275e3f-d800-453b-8cc3-4e43ec862c16"
+                "ID": "7aca2291-9ff0-4696-819c-6fd64900516e"
               }
             ]
           }
@@ -1282,7 +1282,7 @@
                 }
               }
             ],
-            "ID": "3569c36e-7391-475f-93c7-51553b098c1a"
+            "ID": "0e8ab368-5a38-465e-82e5-d3ce787caf8a"
           }
         ]
       },
@@ -1324,7 +1324,7 @@
                 }
               }
             ],
-            "ID": "c20f6848-f251-4d6d-ba72-1084b1665831"
+            "ID": "684b4988-8667-4116-a95d-7048427ee4c9"
           }
         ]
       },
@@ -1377,7 +1377,7 @@
               }
             ],
             "Comments": "1采购入库5退货出库",
-            "ID": "f907184f-2b6f-40a7-90fe-0b6e1fe425ad"
+            "ID": "b46deb6e-fe97-491e-be1d-0514ad208451"
           },
           {
             "Condition": {
@@ -1407,7 +1407,7 @@
               }
             ],
             "Comments": "4销售出库",
-            "ID": "36f3f2ef-a6fc-444e-b549-fa57f8df06c3"
+            "ID": "c12ee75e-5010-47e0-b5ed-07209eb557e2"
           },
           {
             "Condition": {
@@ -1437,7 +1437,7 @@
               }
             ],
             "Comments": "3内部领用",
-            "ID": "174042bd-aeca-44e8-a12d-4f9033fe0396"
+            "ID": "be1fa3ee-3161-4824-8d25-5e0da4eaf28f"
           },
           {
             "Condition": {
@@ -1485,7 +1485,7 @@
               }
             ],
             "Comments": "2其他入库8盘点入库",
-            "ID": "7f554388-698b-45fe-8880-98a2ba7833ed"
+            "ID": "997677ca-134e-4cdc-afae-795b9dcbed01"
           },
           {
             "Condition": {
@@ -1532,7 +1532,7 @@
               }
             ],
             "Comments": "6其他出库7盘点出库",
-            "ID": "48118469-332b-47df-8d9a-247b7febd2b6"
+            "ID": "d47aa89c-7f76-44cb-a946-81db7d1b8552"
           }
         ]
       }
@@ -1720,4 +1720,4 @@
       "Formula": "出入库_查看和审批!$AL$14"
     }
   ]
-}//BvyVhQFWC0m3ftgOSENIjTeNZ4w/t1FZuifNIIxkcXrcMMCUPvtQUPCW/XWb+WREzhSzAbF4R6+F0b2e6lt2QPMikSqCFTZpV97JeyOXFojD3Lw4cTQIdjv2TSBKSd5sCgkpULaWmpDQJ+q/nrrxJbdtZXd9idjjTBl+v3Mip63UhNahpS2OrEUrafQ+3q5g2gxCp4U2RvNq2qV1x4KQuCPg1B4XLSDzMmD832qhDmFYCf52y3D5rKS8cQk7uYVFhx2Y2qdTG37CjSe0QsJnZd9Xl86vFf4SjhT4QxY3uUWEUC4uQ2lllcLmm+TeVf7HBzgw9CLP+6EZBuwQ563vyVZOeIq7C1S8Q7795RBrhJLgAGw9trqxvaND9/q+DAKdBXEVOeJIabPGkX2aeKQDp9ZHzdfd0hDZi2ybjHFkL4aLy+6RpuvBupdUKseQfUjAbIzlPj3DMooMhnkn8yk6Aq/7+ww6e7j+PBY2qBk1XlmhKl+2/sRPEu4wvqPJrOQ5v0Qf1xUWZAn0NHzuahwYOxe/1yMeai7tFdSncgujmr81xNslTd1AnkTlcM3GOMhed7o6uc7KkReqYRxZIym6ZkQC9A12G0oO94dL4DPCTxIt3rz4jIkSbquKXMus88lBWON7d6gOqabRN5403tVUVgZFJFLAmVKbpZYtgELcGmH7TdK5giY54FZ4bVZCvZOByIBmjXeMuHelLvRp/sI2teOpdM45eroOFaQwRzRIFs+/kmeJfNg3CG+EmWV7VqGEWAWldww6H4FwxBJTk9ahjvwfc5bESOFOfepIUPp2/ss8aRooBKnDBk29swgxziHueNSNRcL1Fk2fln0GX7u5A2KhqnYQgrdf7/rdBEg5UUJw+e+dinjItLUc4XEpVmVefwoVr/JnEpGb8q8BXrn4JQ==|920
+}//Knszjr1zMC370uPPu/x9hIFsHwC0FfEJ2NRfWvrJppl5TpbgBwWwaLprvpTtC2S7xsfZDvtbO0Id8sRWxOPWpPuS4IMpuILn2jBuKy6RGIWfiwawcMuuH8XsUmgSVeNE0MNAFWFP5H6/rd9fmUUwzp9alzXXZQSJVjW+nARTrSRlRpw4kJHlBCI0fDmgIuDMaBreiWbv/1lyk8/ulzO3sAKjED35bcF5GF5WxhMDeYvQ/YGFGTYyNXETONk+HB6gqUfwtzmlDc2f23qIpVreP58GHlnn7gdDM4Rxvl58EOWXcSbKVoK3C1SKqk8X//RQWzQF1fpWfuZD3263sbLNCEK1RgE3FS4/kIvsM9UfEvkk7O37TWNDAGdF2ZIV2m2B/Q0BTugJgMiSKY3tDoxT/vy0t7mijvXxGQUIHU33bSJbii3whRJDFXDzLz0pmrzY1ZZfld70gxpA7SR4hi9GSNLviJSndz3bdMqZG1Cw64W432tMtSCAo/W8rq+A4Ul+lzKCXZQ7vS6+WaTIbPMBq/3/+hlQQggg8ixv/3JW272PeN88fJfPNWUY8uRRH+ZO8TEhiybSKbqh7LwKGsZRM7yShAKBsgq2krPD4dkmPsqM1Bu/qvAEQC1mENHtoYWfnMp1UKV/vooN1/kbhQQ6217VaPyawx2xHc5vOSL4VQQTEu0YpIG8Pec3Ob8A2ozq75Jo4jMzroYNxHdZ0SFd6wU2m0/0xo8gmAX4gKdcoZU/X8mdKKijm10ClcWGgW057pE0ELlISC8TeIApkgy6OmSr05686aqJXqFO57yUSiTnUoX4MgU+SwvHlNSa6pmyQebIKGU/pZ/odLeCwkXyvhROYx1CbWcVSucEZfZbMK9lagqG7AtdS9A7AyYLZ1wq6eQrTnn6atANWCvizxPDaw==|920

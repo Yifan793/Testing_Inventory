@@ -86,6 +86,7 @@
                     "TableValueType": 0,
                     "BindingInfos": [
                       {
+                        "GUID": "0596d3f6-e118-40c9-875d-64b37ca55033",
                         "BindingInfo": {
                           "TableName": "purchase_order",
                           "ColumnName": "ticket_number",
@@ -204,7 +205,7 @@
                   ]
                 }
               ],
-              "ID": "0c19c08a-abfa-4e99-bd2c-5943c9e67103"
+              "ID": "cfa0ec2f-b615-43db-8c49-53a91102987f"
             },
             {
               "Condition": {
@@ -228,6 +229,7 @@
                     "TableValueType": 0,
                     "BindingInfos": [
                       {
+                        "GUID": "0ffcff8a-e1b5-4bf2-882c-78593a5343bf",
                         "BindingInfo": {
                           "TableName": "purchase_order",
                           "ColumnName": "ticket_number",
@@ -260,6 +262,7 @@
                     "TableValueType": 0,
                     "BindingInfos": [
                       {
+                        "GUID": "5aa8ef61-807a-44d0-a959-4539764b80bb",
                         "BindingInfo": {
                           "TableName": "purchase_ticket_record",
                           "ColumnName": "period_receipt_number",
@@ -368,7 +371,7 @@
                   ]
                 }
               ],
-              "ID": "96b9d563-8bbb-4950-9993-8b854c0dc8a6"
+              "ID": "540fdd40-5f99-43dc-81ea-c5b37e3c0d8f"
             },
             {
               "Condition": {
@@ -392,6 +395,7 @@
                     "TableValueType": 0,
                     "BindingInfos": [
                       {
+                        "GUID": "475cd0c4-c3f7-494a-a454-51fbe463c5bb",
                         "BindingInfo": {
                           "TableName": "purchase_order",
                           "ColumnName": "ticket_number",
@@ -424,6 +428,7 @@
                     "TableValueType": 0,
                     "BindingInfos": [
                       {
+                        "GUID": "782a663e-a173-412e-88a1-4b32479d63a3",
                         "BindingInfo": {
                           "TableName": "purchase_ticket_record",
                           "ColumnName": "period_receipt_number",
@@ -499,7 +504,7 @@
                   ]
                 }
               ],
-              "ID": "7ec39120-9061-4552-96a1-8ac166e9bead"
+              "ID": "9d62cf28-69bf-4d6c-a43f-a36a0aa0ec6c"
             }
           ]
         }

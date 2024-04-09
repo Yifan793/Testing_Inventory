@@ -39,6 +39,7 @@
         "TableValueType": 1,
         "BindingInfos": [
           {
+            "GUID": "6f57e44f-4d65-48dc-9c53-a796795d3385",
             "BindingInfo": {
               "TableName": "inventory",
               "ColumnName": "inventory_status",
@@ -47,6 +48,7 @@
             "ColumnName": "出入库"
           },
           {
+            "GUID": "42083566-5c89-47e0-b837-633372618f00",
             "BindingInfo": {
               "TableName": "inventory",
               "ColumnName": "other_inventory",
@@ -78,6 +80,7 @@
         "TableName": "inventory_details",
         "BindingInfos": [
           {
+            "GUID": "2def2459-75fb-41d3-a24f-090828a38fc4",
             "BindingInfo": {
               "TableName": "inventory_details",
               "ColumnName": "item_id",
@@ -86,6 +89,7 @@
             "ColumnName": "物品ID"
           },
           {
+            "GUID": "6dfd9b89-2062-496b-bc46-1a0f8e59b6b2",
             "BindingInfo": {
               "TableName": "inventory_details",
               "ColumnName": "number",
@@ -195,7 +199,7 @@
                   "CheckDataValidation": true
                 }
               ],
-              "ID": "d36f71a2-96c1-4cac-a8fd-3e73319ba8d1"
+              "ID": "e429891c-1729-4e53-92c5-51e25189f6a7"
             },
             {
               "CommandList": [
@@ -217,7 +221,7 @@
                   "CheckDataValidation": true
                 }
               ],
-              "ID": "13cd8696-c8e0-4bbf-81c6-ec5228766f00"
+              "ID": "19c0703a-cd58-472a-a111-54a2286c3cc3"
             }
           ],
           "Comments": "3已审核"

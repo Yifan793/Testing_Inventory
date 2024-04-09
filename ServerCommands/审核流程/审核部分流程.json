@@ -17,6 +17,7 @@
         "TableName": "sales_order",
         "BindingInfos": [
           {
+            "GUID": "1d6f94a6-f741-4e1a-824e-eb06d43003be",
             "BindingInfo": {
               "TableName": "sales_order",
               "ColumnName": "ID",
@@ -25,6 +26,7 @@
             "ColumnName": "ID"
           },
           {
+            "GUID": "d181346c-950f-43ca-8d2b-c33376bb1828",
             "BindingInfo": {
               "TableName": "sales_order",
               "ColumnName": "FGC_Creator",
@@ -33,6 +35,7 @@
             "ColumnName": "创建者"
           },
           {
+            "GUID": "375cce18-da63-4b8f-9249-fcf639ebcc9c",
             "BindingInfo": {
               "TableName": "sales_order",
               "ColumnName": "audit_id",

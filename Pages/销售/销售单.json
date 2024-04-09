@@ -218,6 +218,7 @@
           "TableName": "state_dictionary",
           "BindingInfos": [
             {
+              "GUID": "9a31f55f-ae71-4ff3-a6b0-96a25c28cbfa",
               "BindingInfo": {
                 "TableName": "state_dictionary",
                 "ColumnName": "ID",
@@ -226,6 +227,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "41f9208a-af79-457d-8ede-214c61a41314",
               "BindingInfo": {
                 "TableName": "state_dictionary",
                 "ColumnName": "state",
@@ -460,7 +462,7 @@
                           "ID": "4e47f451bafb43b795c372aa316d4321"
                         }
                       ],
-                      "ID": "f77e1a48-7e97-406e-8225-2cb8ff45db2f"
+                      "ID": "98707328-7ab2-43df-ae19-6335192a379d"
                     },
                     {
                       "Condition": {
@@ -593,7 +595,7 @@
                           "ID": "103f7890a1994e6b91e05008733c685d"
                         }
                       ],
-                      "ID": "d53b2f84-71ac-49d9-b9f6-7958023e54a4"
+                      "ID": "aa71b462-9c8a-4cda-bbbe-911b37761f06"
                     },
                     {
                       "Condition": {
@@ -741,7 +743,7 @@
                           "ID": "d13a9f628cfd479ba1b99e0eacad2e89"
                         }
                       ],
-                      "ID": "40a29f0d-c89d-4125-9a8b-f86467f2ebfb"
+                      "ID": "1004bb5f-2d97-414e-b296-e4b6d4c73005"
                     },
                     {
                       "Condition": {
@@ -895,7 +897,7 @@
                           "ID": "e65c5a8cc12a4ea0bb24df8b9bc92334"
                         }
                       ],
-                      "ID": "d9eb8e34-bddd-4338-9a01-82c676f5690f"
+                      "ID": "f4a0bb43-e50f-4be5-92d6-de6bbf131879"
                     },
                     {
                       "CommandList": [
@@ -1037,7 +1039,7 @@
                           "ID": "5ed196f79771482781163b827eb0823c"
                         }
                       ],
-                      "ID": "bd660d19-2fab-46cc-8438-5d37c4e8d798"
+                      "ID": "5d95acfd-7163-4eef-b4d3-b6afbcfa5685"
                     }
                   ]
                 }
@@ -2954,7 +2956,7 @@
                           "CheckDataValidation": true
                         }
                       ],
-                      "ID": "217501a5-8fd0-4827-8e61-25289f15a062"
+                      "ID": "3c120bc6-0360-4afa-8401-d00c7d29d6d8"
                     }
                   ]
                 }
@@ -2974,6 +2976,7 @@
                     "TableValueType": 1,
                     "BindingInfos": [
                       {
+                        "GUID": "f4b43d3c-b70f-43ca-8429-98b5b4591729",
                         "BindingInfo": {
                           "TableName": "用户信息视图",
                           "ColumnName": "用户名",
@@ -2982,6 +2985,7 @@
                         "ColumnName": "用户名"
                       },
                       {
+                        "GUID": "b6e15cf0-25f2-45ab-a2cf-7fdd9c56f749",
                         "BindingInfo": {
                           "TableName": "用户信息视图",
                           "ColumnName": "部门",
@@ -3206,7 +3210,7 @@
                     ]
                   }
                 ],
-                "ID": "ddf0c3c0-a10a-4bec-a867-4e1d19ac5c36"
+                "ID": "6004429c-2f82-4315-955d-610cbeaa31ad"
               },
               {
                 "CommandList": [
@@ -3249,7 +3253,7 @@
                             ]
                           }
                         ],
-                        "ID": "a6cde940-311b-4031-9f3a-366da919d3d3"
+                        "ID": "08038311-b467-4340-9ecf-7d470c0a1cdc"
                       },
                       {
                         "CommandList": [
@@ -3275,13 +3279,13 @@
                             ]
                           }
                         ],
-                        "ID": "832f13e2-7c44-410b-a19f-4dd65fa8929c"
+                        "ID": "87f3977c-0fea-47cd-ae84-84505009effa"
                       }
                     ],
                     "Comments": "仅允许修改、删除 未提交的销售单"
                   }
                 ],
-                "ID": "94eee174-162d-4122-bd56-7ff879a7c05f"
+                "ID": "e6eacd5f-22a0-4f1b-bb6a-c502a75fe391"
               }
             ],
             "Comments": "仅允许修改、删除自己创建的记录"
@@ -3318,7 +3322,7 @@
                   }
                 ],
                 "Comments": "审核实例ID为空时，不显示审批记录按钮",
-                "ID": "990135f7-f47c-479b-8bd5-3a3d20075e02"
+                "ID": "b8b2d4fc-fb96-49df-8090-aa83671475e4"
               },
               {
                 "CommandList": [
@@ -3370,7 +3374,7 @@
                           }
                         ],
                         "Comments": "审核状态为审核中时",
-                        "ID": "869b8830-c31e-4f43-8bda-e572613c9d14"
+                        "ID": "ec154655-5bc9-4e21-9ead-8241186ab0d8"
                       },
                       {
                         "CommandList": [
@@ -3390,12 +3394,12 @@
                             }
                           }
                         ],
-                        "ID": "ed53cad8-066e-42fb-b2d4-b5111f96783b"
+                        "ID": "540b3900-de79-4ec3-89e0-b35d389166fd"
                       }
                     ]
                   }
                 ],
-                "ID": "1117fafe-80b9-4988-be46-48c29ed6c6d4"
+                "ID": "9b432159-8c6c-40fb-826a-4d57f1557626"
               }
             ]
           }
@@ -3919,6 +3923,7 @@
     "7,6,1,4",
     "7,11,1,4",
     "7,15,1,2",
+    "7,18,1,2",
     "10,2,1,8",
     "10,10,1,8",
     "10,18,1,8",
@@ -3930,8 +3935,7 @@
     "10,60,1,7",
     "10,67,1,3",
     "10,70,1,3",
-    "10,73,1,3",
-    "7,18,1,2"
+    "10,73,1,3"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -4095,4 +4099,4 @@
       "Formula": "销售单!$AR$9"
     }
   ]
-}//wDuc6kg1WmQYaY3HiQBPxt+k3gsqOc08ydVuIARMo1liesSzAz8SwQaunzGiDC07Ewef+LpJFWS4N9uvMcE+jRxFWsVry8fyaOUfq50Ib8J/Ecc9/SNFYYMaVV7lsl4ycYrAj6IiYNfsaZGIaD5qWaKlsUnVtU3Otitae1l477Xrccz9a+Vphod9EfXoghuXoKxHLaxWMkkmlwOKkrgcq9HQP4+76AzqPTlCZT5M0hWHlZdU6PgUedVOgBZRvcNUkP14ooBNO/01p7urolk6cMf6c/Avt+/mhKR9kSnTftreODMrD1BkGPoLnr4S3Ran1O5WCIup+VKOmuOeD0OK4ZRtQckJSe+HOzKEdbGBf06ixm3aONXLDQPlYLH9Y5GdjdUa95G2n1in1Vt0VsnTfyiSfOJvmeJr39PUK6PEYOrspjS+lQ2FEgXPOAnhsHeWKHdXHlV/cU5MiZFesDYs3U2V2RnJMrDkMlNH0kwlqR3lXNcD2Biiq6/yDCnbmUXcJeo+QPW0+NXYX1XTX9f6pVxswLw0OjZnCm3hxZvr4nUv/lUdDYwHvW+JdElC1gdhk0lkn8Z/IbWAPS5umLK2u5YWNmmSvR30mJgagnGPuayrECbw78W+GArkEl9Glq0akJE/33ZofxVNi3Xiaoeq7fbrCdc13UEO7ff3Os34tNVb9+SmKGJlSa3VTGqe6KYxBJf1TRsRpiE2aFUiBmEJ6WCW8Hb70abYqKXarUuZt46beyepgvqTSkEunhr6GGjg33LKw4w6ZXKDNUDiKqdsJk/e3yhZxkEZ4axVYULxJ7TR+CMcnpfdwiUqQesg5D249J5//jXPgzYJbDcdPbNZ09W9CNVa1ug3hj/JZPVr3f6KdWkXvoNTQB5PUXv6aOXc6A2D0Os0gVFzFjUouZYTnA==|920
+}//zbCX5SPVRwyALux7Y/Mvl6t0cDBQNCARUWVpwUZXSL2hDC+pE4jQ30NTEBA/C/AWG9pHKNAEwr9K7duhZsyl+p5C59yMR3WQlYItaa5kyjJA/RvATOjNXI7lEmhqlz73wbifFbmmVSoKysBXZ//iQNWBJwSBljp8WLHJX6XHste8iVZ3ZDpwR0y2jfkcOllZk7+o+8BQ7ReSUhR77yx9gEYrWe6B2vqrS3jN6rqwLwGO1/xHNDtVhfLWesTSehVwbTxhvvxH39Z1YQ7m7V9jtveGA+0nB9KSxMki+1Lvj1yMBAZmeCg5Opw4dAwgjGliPh05Vusno+IzseDStzJrZgQVS6Oee1jHrKevxB9m91gpaoEUrs4+ySzuvZkjG/CIRT7PKrxVfRZUlzMNujz4Ouh+Stx+RDnoBZKvaCnpvTRUt8ZFUz4rJ3C/o4pExhEaBb9LIfRNLK4LpbR3I6pNY32PYgjY5FBVu0691COKUb7o/VnqPeeg583kRvkyjYGrQyPGH0xaC74ek5lmqfjv7ZpHXmLBoEW87suT8N4FF53gnUwpB0yc1JP0cyNH6JIRg7+/qk/a5lZNKqDotdWYjNs83+nxxNNIjNSCzxP6qU86szoywRxhBlSgH5WwwQXwDSAbvK3C5b0vsAHh1ZEHsu9e31xJ06jx5cAAOkWpFoaXrsR4JGMxCNE2m6lywXns1E3GoMolyjgv4G34H6l+88ME6U4X7ThQhEeWZ8xuPNUfKp+2Bt5JElfUL3No9XH3HpjypsdCYiw7gdt2ggDplXabqcoA+9FyzPxNnygtbX/RAoP0u3vMi3pl9Fn2TYFRvFW8bL7/XER2Prg3PXWCdCVEas69zQCo+HxV9da9D/90j6PRBXY5Y2iFePBvOW5M553km6cNv+9NArgfgeB++g==|920

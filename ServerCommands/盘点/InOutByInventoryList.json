@@ -24,6 +24,7 @@
         "TableValueType": 0,
         "BindingInfos": [
           {
+            "GUID": "6e2fc30b-3e87-4e9c-b90e-cc76f44690f3",
             "BindingInfo": {
               "TableName": "inventory_list",
               "ColumnName": "inventory_order",
@@ -55,6 +56,7 @@
         "TableName": "inventory_list_details",
         "BindingInfos": [
           {
+            "GUID": "8209f49a-3a65-45bb-85b8-8f13e545a28c",
             "BindingInfo": {
               "TableName": "inventory_list_details",
               "ColumnName": "ID",
@@ -63,6 +65,7 @@
             "ColumnName": "ID"
           },
           {
+            "GUID": "59f793a1-e892-471b-b892-ce3098b171d6",
             "BindingInfo": {
               "TableName": "inventory_list_details",
               "ColumnName": "goods_id",
@@ -71,6 +74,7 @@
             "ColumnName": "物品ID"
           },
           {
+            "GUID": "e9d8437a-94bd-4c82-94a9-5eb2c10c9b49",
             "BindingInfo": {
               "TableName": "inventory_list_details",
               "ColumnName": "quantity_difference",
@@ -79,6 +83,7 @@
             "ColumnName": "数量"
           },
           {
+            "GUID": "6641ad51-2667-4066-af53-19000567c043",
             "BindingInfo": {
               "TableName": "inventory_list_details",
               "ColumnName": "goods_id",
@@ -92,6 +97,7 @@
             "ColumnName": "单价"
           },
           {
+            "GUID": "acee26b2-ab3c-4e82-8f77-692ff4a568ef",
             "BindingInfo": {
               "TableName": "inventory_list_details",
               "ColumnName": "note",
@@ -261,7 +267,7 @@
               "Message": "新建出入库单_私有入库"
             }
           ],
-          "ID": "6cf7e919-9df8-4f4d-a72e-c078306d568e"
+          "ID": "e3b3a73f-7a16-4b25-a8d7-f5b12b9fbfc6"
         }
       ]
     },
@@ -272,6 +278,7 @@
         "TableName": "inventory_list_details",
         "BindingInfos": [
           {
+            "GUID": "f4b839ec-e6b1-43ea-84fd-9ef3e8e4a8c3",
             "BindingInfo": {
               "TableName": "inventory_list_details",
               "ColumnName": "ID",
@@ -280,6 +287,7 @@
             "ColumnName": "ID"
           },
           {
+            "GUID": "ea991349-a097-49f7-8a20-aa48d9150448",
             "BindingInfo": {
               "TableName": "inventory_list_details",
               "ColumnName": "goods_id",
@@ -288,6 +296,7 @@
             "ColumnName": "物品ID"
           },
           {
+            "GUID": "aea5025f-1d0a-4370-9c72-3982d17086d3",
             "BindingInfo": {
               "TableName": "inventory_list_details",
               "ColumnName": "quantity_difference",
@@ -296,6 +305,7 @@
             "ColumnName": "数量"
           },
           {
+            "GUID": "122f6fc4-edb6-4bd0-b5b8-9652a29ccb6f",
             "BindingInfo": {
               "TableName": "inventory_list_details",
               "ColumnName": "goods_id",
@@ -309,6 +319,7 @@
             "ColumnName": "单价"
           },
           {
+            "GUID": "680c6aea-eb81-450d-955a-c2f9b3dece8a",
             "BindingInfo": {
               "TableName": "inventory_list_details",
               "ColumnName": "note",
@@ -478,7 +489,7 @@
               "Message": "新建出入库单_私有出库"
             }
           ],
-          "ID": "edeb8b6a-36b4-4f50-8765-28d164e24d70"
+          "ID": "08171938-12d7-4eb2-9c24-0c4ef0e1d6b1"
         }
       ]
     }

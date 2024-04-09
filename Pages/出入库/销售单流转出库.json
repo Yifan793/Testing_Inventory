@@ -478,7 +478,7 @@
                     "$type": "Forguncy.Model.StopCommand, ServerDesignerCommon"
                   }
                 ],
-                "ID": "8edfc182-6f3f-4230-9641-e2ebdd9826a2"
+                "ID": "a8a369eb-d1b5-433c-a8fc-9190cabc107c"
               }
             ]
           },
@@ -662,7 +662,7 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "123d15ef-ce72-40ed-87a0-8bdea5385216"
+                "ID": "13ed407d-c000-428e-b121-4a69a28c87e3"
               },
               {
                 "CommandList": [
@@ -708,7 +708,7 @@
                     ]
                   }
                 ],
-                "ID": "42abfb89-7d51-44c7-9bf3-bbbb3613f994"
+                "ID": "d93966f2-2c14-47d8-8bae-6d60df924a67"
               }
             ]
           }
@@ -781,7 +781,7 @@
                     "$type": "Forguncy.Model.StopCommand, ServerDesignerCommon"
                   }
                 ],
-                "ID": "75ecc9b0-1ddb-4968-baab-5abdabb8b2c4"
+                "ID": "f2d3f849-cb7b-4314-be95-8bbd6626d191"
               }
             ]
           },
@@ -965,7 +965,7 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "f0df7ab1-ee3a-4510-9c41-e75cb939d9b7"
+                "ID": "1e46bd1f-83ef-414e-b57e-49b05f4e68cc"
               },
               {
                 "CommandList": [
@@ -1011,7 +1011,7 @@
                     ]
                   }
                 ],
-                "ID": "8d33ece1-644b-4929-9892-ca7946a2140e"
+                "ID": "8702be1d-92fa-48e3-8ace-e6eb6540829a"
               }
             ]
           }
@@ -2166,6 +2166,7 @@
           "TableName": "sales_order_detail",
           "BindingInfos": [
             {
+              "GUID": "77b6ab14-d87d-40b6-998e-743b86cedc95",
               "BindingInfo": {
                 "TableName": "sales_order_detail",
                 "ColumnName": "item_id",
@@ -2174,6 +2175,7 @@
               "ColumnName": "物品ID"
             },
             {
+              "GUID": "a04c08c2-ccb3-4f6e-88b8-15180727424c",
               "BindingInfo": {
                 "TableName": "sales_order_detail",
                 "ColumnName": "item_id",
@@ -2187,6 +2189,7 @@
               "ColumnName": "物品编号"
             },
             {
+              "GUID": "166ad058-baf4-4bf8-9d95-41dd332ced63",
               "BindingInfo": {
                 "TableName": "sales_order_detail",
                 "ColumnName": "item_id",
@@ -2200,6 +2203,7 @@
               "ColumnName": "物品名称"
             },
             {
+              "GUID": "b56a9368-894d-4753-95c5-4caafdcdcd7b",
               "BindingInfo": {
                 "TableName": "sales_order_detail",
                 "ColumnName": "item_id",
@@ -2218,6 +2222,7 @@
               "ColumnName": "单位"
             },
             {
+              "GUID": "77cd80ac-722b-4709-8763-40c77d7e3090",
               "BindingInfo": {
                 "TableName": "sales_order_detail",
                 "ColumnName": "item_id",
@@ -2231,6 +2236,7 @@
               "ColumnName": "规格型号"
             },
             {
+              "GUID": "649add48-5f7f-4181-8100-a42f2788c20b",
               "BindingInfo": {
                 "TableName": "sales_order_detail",
                 "ColumnName": "sales_volume",
@@ -2239,6 +2245,7 @@
               "ColumnName": "销售数量"
             },
             {
+              "GUID": "f9a66369-5b5c-422f-8db1-126390abe14a",
               "BindingInfo": {
                 "TableName": "sales_order_detail",
                 "ColumnName": "unit_price",
@@ -2287,6 +2294,7 @@
               "TableValueType": 0,
               "BindingInfos": [
                 {
+                  "GUID": "5c1bb9d5-ff88-44b1-98d1-6e1274aaf23f",
                   "BindingInfo": {
                     "TableName": "inventory_details",
                     "ColumnName": "sum",
@@ -2499,4 +2507,4 @@
       "Formula": "销售单流转出库!$AP$6"
     }
   ]
-}//1VusxgcUFhRJmB98hZvGyJ8VRrTLIkEA7zSXRHaggn7Luxs75lbqVbtWWpL7lQ5fmvsZV17IkYVPGCOQMqknelWCyCsTuidvnmUX93yvy8F9qnlTJfRphfvqXwlRi6swblyZDkg+zIyNDsyOVEKt5EzPG9BzO4GMYqS7J4/HHJuUc+GXxVDxWZ760WpNMHAHG2gIvOXbbPDZJEW6LOCELT6s4ZJfJ223x6RdX1/E8WpC6wTvc8UVdlsicfMte/6qoDzkISNEdbiityu/m1WGK3dyp+w+pURDhOu/LOzp6tRFOikXRfodXQCflT2yFknO2MJgjNSnJNHIj4ou1LcIoZmiQK/RRLlPtgi3tO9bXMzmrHCiU3m1bmWSqT3sAhTJtDW7nOob9TxuIPHg6GfsUqezfPalY+YylP3vB3o1QVxryQxaQWsGm6228Ae+5+H2y7G7NxsA1OKiQs43T16cARtLnwOi52SiMlZlL19Nz26uXrlVMouGJpeMJAIAxn1+XFBgPcYfDBZIS/ADC809z2gTB+jjtPEy8fDlFdqmAehCD1XgMlJETFvJmE2mn8btxzdt50qCXT3vlK6qXjudGiRvAAqBr4a05kDQmwWzJtoijy3QnV352UFpGu4uJ2bdXr2e4RjQRfum0hv/p2aHPvuREymfw1tl69FqUoKQtPUGuivaoOLbqhc9GTVkyOM8e9Dp71g+6p+DdC9ltXj5TPCr6rHX/SfRchJHurn3IP8BjpQ1hLp8P/gC53CoPb0H56wWUH+/XCM3FvTDKotfCQLnoLiqREbSTvfqMv8b4P1Cb1rV90xsS36CLO7J1u5JE+adVkWwDqZm8ZaPbRSjLXcuErrtCBII8QpB0C/l9F28Pt6s1/v5RM865oCxY5TCVvqjlEQX3BynCD2hdR0UPQ==|920
+}//FXiPEaAG9S/pjsQ7l0nlS+oAPtvUcmxtPvG0kW7HxFwUNmxWXyS42FabW2okZ11ztT3rhzZ7LEoVnvYK+RjUr3AMJm5mhstr8P+C+q858ODj+GpqeZTcy3eaARn9Lh4gmWx8V3vDohyI6f44dSmVzgb1Mw6Mq5CYdGRV6eXKBvHF4Q0/kLvVZI6+9QMYc9nkS7r8P4SbLexdQA6yT/b7IJDVdejQylp6o5Y/bDvkpy/6oRV98fXrOukB5LBERwnE1jiVc2aBQwU7WgHozDK5pSykqb4YjCN/RCPE4Pa2x4aYUVOZ6okC8y0aDUkLKu5Gic6OejExbHorK4QGZmV80fsHvYcmLvvncgYFgToUqcNnIoIWCC1cXGtGyuCLz87xqmVFr8uLSgEPXRvJQNN0xshX7CbBIKrTZ3yaUzpgI/6LG//bjc3bPvdnEaoYah6epFnDCgQ8ybrSAycBUVvwOnvx3ES2YucbqREmCGF7rzu2LDyOZ2PmcLdYL+fxEICh989yylNuPyKrOm0gVDjF6Ro+yft9tT2maqVxqrRI2A0VG+yo90mG8TWenhZ84CyPjV/C4IR75DDzntdnO7pcncAkAJvwNQK8BHjdLNjz1R93xJ2GUJRMWwmLlsHxl7bE2coc1JVu65YPofY8bsTRSeCuw2Po1QazyjNDeGnWZYXweXkvkyQyn8sky8U5b6GAacGp8Rak5XX1rKmk+EsJJiDe4ujRQ+AgO23Er9iUfspBnpIrJqURULXUfz2QnzuCD5oHpxyEQJP66eg57fclM8XgXDwIImV3UCR5KyuH2P4dK6cbbccAQy94RAWsmHLuhzZmjyi2efHZEy9R1j9LFSL2Jj05bEW2dbEBFJ1BDsfWTtnvRgpi/yTpVac4MqKxl2xpbSC2pZ8OxrZ1H6QrKA==|920

@@ -282,7 +282,7 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=销售单详情!审批记录按钮"
                     },
-                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                     "MethodName": "set_RightIcon",
                     "ParameterValues": {
                       "value": {
@@ -295,7 +295,7 @@
                     }
                   }
                 ],
-                "ID": "0962da9e-b72e-4c19-bb15-2aa2c6c20976"
+                "ID": "edbbffcc-175f-47d0-a773-c5d886538e0e"
               },
               {
                 "CommandList": [
@@ -329,7 +329,7 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=销售单详情!审批记录按钮"
                     },
-                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                     "MethodName": "set_RightIcon",
                     "ParameterValues": {
                       "value": {
@@ -342,7 +342,7 @@
                     }
                   }
                 ],
-                "ID": "d50b3f5f-2dee-48b7-b1c0-1c93f34a85e4"
+                "ID": "e5fc489a-107e-411b-908f-a404f0f1bbf6"
               }
             ]
           }
@@ -870,7 +870,7 @@
                         }
                       }
                     ],
-                    "ID": "46d70a32-2a98-4449-8517-985e791bb12b"
+                    "ID": "68d6d94e-8096-4756-8183-e3c451731cc5"
                   },
                   {
                     "CommandList": [
@@ -890,12 +890,12 @@
                         }
                       }
                     ],
-                    "ID": "8d51ab9a-abd7-4782-8aa7-79f577739946"
+                    "ID": "74ac9b88-ac8f-4e7b-a8b5-9a5f75e5c937"
                   }
                 ]
               }
             ],
-            "ID": "016b0a25-ccda-4dcc-8dfc-88f1da745805"
+            "ID": "c8eba22d-950c-41cb-9f65-a6d2237f526d"
           }
         ]
       }
@@ -999,4 +999,4 @@
       "Formula": "销售单详情!$BL$12"
     }
   ]
-}//LeOU2sLN9K3spfepiS7lWTvIZzc1fmV3N7LQwzHpQkZNgIEX8YmNpSO5A8C0lSTLsTM2w5Yiy6/TUegMfwFey4iVT3hRVU3miFkV5e0WRc81PMoK4iwbpCb5FRB2K+Pth3cQNKO3t56iNKbn2y+Yh7qUZzCSSrEEGAAq4L85nOxIPDGCGRrroJ6cZHDwA+UIIrDeHqgpbaf0rjf5Csdd8ajwcW/yIx5c6bYS4iDO0omlU7CFSqHKwR8x8TZ1N+xfv8sNifmLxn458BZWidfnWEZgtOYhnqYoUXfVOAY2nhD5cAA+UUjevdUGka3y6zd7n6BfG3Or0xx91ebjO9TfNds3CHPgkLiz/dL2wJJIxDCddQ+ndrgdyekKhxfLp+z1vpT3mddxRfofBm7pFJkQ5BPNYxZfksOwSkPM62AaACLAYuZrhC2Yq5dkNQ8oez0byB0VApPjmEDsB5eACD9ZfNW1U4RoSiiCiOZboBi9oaeAdIaNek0EokFFXsZFhwCTbbJpCcqrxcEWFU90IxdlEMfTrfbIgo/33rkKjVcDm2Jg0VkUybFEg911771hEjbe2GH099QeZCX9EG+VRnhrnDyYzvUFDRxrWlyTaL+4nmQDIYYcsciaEIuiL+P/DRGvKnOZ7WHyb4r+2uzEF2bmrdtxjplJSpXEfUeJEqCBThlQttsos9ZE4dpKY8Ql+9QmyTaQH5MknqVNd0RdHR+04Tck4+/LeceL9nqFSiLL9kcQzHjOmbxyALdrq70YtW8lNEOETYpK4/zV3v+6yjy1+DwaMbLMHA7dHeDyvTPu5IVvwmMyxK8TRA6WIwB82eM6W+bdOJlMgCwHBgH3c88+WibvX/Q1o05RRo9x7eP3/yjG5OQJs+2TFYY2NJf2DGlVCDbUpMBIZ8pjzFm2wTDpXQ==|920
+}//mN4YbNNWIMNwyX/1TibHEBmpn65A2VAZO0rBNEmPU0FmF6fUXZLgj7OOdntkqRPT61nQdjM6gRgzvSlUPdUfoN6tkdAkaDNaMtK4u/cr10+X9Z47V7zNaLX2D+zKPYVJI4uZJmIHkG0gqiePFAiSS8IxSjTNQmwIEN0Se3R3k9gMmpEmMz2fJFcqCgMZbs47irADeOtL2rZg9OzkilxQymx0I5UxmUH9Ufa0FXb5rbwgdFtp3aIk7chCq4dBjpvVrrp0Uc64j7H2bL5FsIn0fzFkcczI5J4q/EEgTQsrgNl+75gOiKtHAhJBOc12Qo3gO9ngzs25519zItzGuvjeb18pZD814EqrdScMz+l0FxHjQ8ZiZax/MVNQj6l46uXP07pPVDQrrg2R2eCRn6b8qvsDX1yMeYCgXH6nY7otC6mWPBcW8VhFyKuPtWd/fQ4Fh4zuiG1jPcP6yfIGH9vLNHRZaOfSDrdfb495opaYUqpj0snNdO3LlvQSCAHr8WPnK0HukG+jTwl/BBAUHppVNZa2pvkVlx9JJXQtUni+RO/WBjEj5txbAK6ApJXM+mGrXTukm0DmsQUHmZinvqsk00N46n6UB+uD+wgxRttZ4eZa0qlXcItssurQfztROKYbFYxk6/K57TXxZRIBnBhMP+76zpehUJyqHLphoxh+zJpsEzkincgpN6nJRYumbLeBClJZVzBgjM0p8qeu1Dw3a2JqMiYEN9WZK96/zD5VzhVbMQC4aAZUNARe8Wb4D08GHOwf2w64oHR7ZqmF9oEHH3dApyqnQrT18lmF9lSqKxIlld8Qr2jBii/gjuTYmlJzb9mwfMSLT6omhwxkdOpMt94Cd3kAJTXL0GCMj3QsWMAg/hzjeRV7kc64HfS3NR1oOYiyWYfM7Sg6OZARVyTROg==|920

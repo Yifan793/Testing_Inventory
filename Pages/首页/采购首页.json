@@ -1814,6 +1814,7 @@
           "TableValueType": 0,
           "BindingInfos": [
             {
+              "GUID": "429f3162-f62e-433e-bb17-b557f47417c4",
               "BindingInfo": {
                 "TableName": "purchase_order",
                 "ColumnName": "purchase_date",
@@ -1969,6 +1970,7 @@
           "TableName": "purchase_order",
           "BindingInfos": [
             {
+              "GUID": "a1123d75-122f-4718-981e-a14e42a64e2c",
               "BindingInfo": {
                 "TableName": "purchase_order",
                 "ColumnName": "all_total_price",
@@ -1977,6 +1979,7 @@
               "ColumnName": "金额"
             },
             {
+              "GUID": "afd15f2c-4cc5-456b-a9e8-de31eb045578",
               "BindingInfo": {
                 "TableName": "purchase_order",
                 "ColumnName": "purchase_month",
@@ -2250,6 +2253,7 @@
           "TableName": "purchase_order",
           "BindingInfos": [
             {
+              "GUID": "f77b0988-0023-4232-baba-7df9dac2e729",
               "BindingInfo": {
                 "TableName": "purchase_order",
                 "ColumnName": "all_total_price",
@@ -2258,6 +2262,7 @@
               "ColumnName": "金额"
             },
             {
+              "GUID": "5f3f9370-c79a-4975-bc94-ba8ebc06f1cf",
               "BindingInfo": {
                 "TableName": "purchase_order",
                 "ColumnName": "purchase_month",
@@ -2542,4 +2547,4 @@
       "Formula": "采购首页!$C$5"
     }
   ]
-}//uoK1Gy8Qmr5RdI5M7Ikgo7NTakZve1wLTZWygZMs1IxAV47sw4SSx2yFlt64lXSyNvsvE+0PVzFZOzZDoeukjKypEjy4oVltVkcyK/y2BehaT/2NWxOx8sRu0480YBgahpvvjCix3YJpyxlr+aphkrHix7V6vO0mIQHvYqcrU9MPkXaknwem6l+4Xc8lE14ilec76gPoLyNwqA2B5eb+3re8GzWPiX6uailjpByiQM0JQ/AC3MxxZqXQY/KACdL18WtDD32vc2TjvuNVug0hji/naTOge8aUP0bunof14Av2nz9o1lYnuJEIk52in/1fScq2tj080LwNB5D+6gsy9kzuKwR9PqYwcrAauLq1PpQkLZTplooiePdE/ZDnnLNn2iy0gGWtk216nDsOUdsSutohv/tQbJCr6VRW587j0IjVELfwf7QmG3bZpHgRE6pyNjfB+AHr8K+Aq0N6It5x7+G54opxo07x8T/M/CwzZ/D4uFlftK3ANFRL/JHRR5pd2aBEsW/9GjHbgfQjyzw0kAyMisUlvdFrvf5y35ixX9R8RfpVSlN2ayiSA/WW7Q5Vv5TIRbR9iwIQjRwiH0ocO4OAPsX3v2/M7c+k+EE27ajdS8gMQosAgiUEHzuBnc6cxVgWDRY+XB+k7jXoUU14Ycdrg2mMutqwLIhg09DfSpc01AyjgidsFCuzi4Oo2RAutMT59wfqWXbjXoftGBHgZijnLMfP+UGAkwI6B/2gxMElZLEsPfhj4h9gsbTDkxL17mw2QQiYrTQ7ropwaISXwPW6prFUX7x5NPPBpK9Q1pIz/C/QsRkgjtw+O9ZWSslklF+0kBUFgYeQHZtGAmZHaDT0+F3eqnvhXD9GmZnU+5HxhweYfXkK5B9zHgmGokK6guREiAavR/m/JyfacfxsAQ==|920
+}//Q986UiqHbqmUgaZmDSXSC/hbDW4w8bwsvYvVFXjKKOnbymhyhUdm/hougaENuvttEXzkQvvIYLfGKo5wO22PkMbADmzQfHMI2Y/4Vnv0XQ7+RmdJWplWSQhZcdvCva97FVsWxIICCXhWsNloRaGIw6fvMAaDCD3yTsmVV2N6IAjFkPvVt/wMvzTTV+bKt4rqQgbPXdzB/kcG1Pn8f9474oKwfXSaoIK+X2zjLy0nXHmv84ARNBqX2chVF0HOpdl1b519w+Oit4cvtz4ncXk51OjRkOs1Q9RalEpQefEYJoVkTiICVAxkL0CvlKmysWTtY0zv6cex1moEwFWjS2mUEIo29Im0eXGyyhZBPKuDPvbJhP1T6EDQdFJvCtIL+Zs71ZEYLXY8nQCl8ca4VHl53PRCsDvpl9qWh1FrCd5ZKZy5l+51zD1Xod/sVq8oK6bkMi4Pc4X4GoCHiWX3l6dgIKeQJ+ueyYqDLc//KIAOzS4xRdGP05sHzIH0OeBgon5a1ZNnyyJj0ei8S5Rbu/F+sNF4nDYDf4PBcnb3lwIpYwEO/WfVqVpg+DQciWKetOfJbW30hdI5h5yn3actgazxQfnesSz4ESMpNFViv+x2OiP5EGwbrj2LiDyq0QAytQGNGU++22MFqglNJ1fX/et/Knm7gSDzFERPdRVrsjDUHtyomoDhEUdB8w/xQITvUW5U9Atiy5PpZSV5eyMRPus6OMspZkiGxnMAd18ICsQP+qM3/TIpj0Z+PLuRtCsnZDTRl//W6s8Vu/qztMcdYEGHa/l2Nj1aEoKUa0VX0UrST2fGVxUazjNdK9XN9Qg8vUgIJbCCwMhDHzs1tFr+OPLQgsadF8n9XkWZ9IQfQGFbZs25UDX7Y0Ljvb2Q2vnjndZgYhZjrKnNIkR3b/hdksDZtg==|920

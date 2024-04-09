@@ -22,6 +22,7 @@
         "TableName": "sales_order_detail",
         "BindingInfos": [
           {
+            "GUID": "fe5a2a19-1438-44a7-ad05-f9678a92b8b4",
             "BindingInfo": {
               "TableName": "sales_order_detail",
               "ColumnName": "item_id",
@@ -30,6 +31,7 @@
             "ColumnName": "物品ID"
           },
           {
+            "GUID": "741441ee-b410-455e-861c-3bda820d0ab0",
             "BindingInfo": {
               "TableName": "sales_order_detail",
               "ColumnName": "sales_volume",
@@ -78,6 +80,7 @@
             "TableValueType": 0,
             "BindingInfos": [
               {
+                "GUID": "f4ea66e3-8b29-48f5-8314-6b6973e806ff",
                 "BindingInfo": {
                   "TableName": "inventory_details",
                   "ColumnName": "sum",
@@ -176,7 +179,7 @@
                   "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon"
                 }
               ],
-              "ID": "331d2dc7-33fc-47ab-8af7-fe9542d5b471"
+              "ID": "0af50da0-6124-44e3-af63-5f5215a6332f"
             }
           ]
         }

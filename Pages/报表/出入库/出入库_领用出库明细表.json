@@ -593,6 +593,7 @@
           "TableName": "item_type",
           "BindingInfos": [
             {
+              "GUID": "dcef3554-c58e-4082-8763-30517b12a437",
               "BindingInfo": {
                 "TableName": "item_type",
                 "ColumnName": "ID",
@@ -601,6 +602,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "cb19a6a2-f738-49e1-94c1-dfd6fd3762f5",
               "BindingInfo": {
                 "TableName": "item_type",
                 "ColumnName": "type_name",
@@ -609,6 +611,7 @@
               "ColumnName": "label"
             },
             {
+              "GUID": "9bee1ab1-b3ed-47bc-a65b-0b7f3bb3799c",
               "BindingInfo": {
                 "TableName": "item_type",
                 "ColumnName": "parent_category",
@@ -744,7 +747,7 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=出入库_领用出库明细表!AX4"
                     },
-                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                     "MethodName": "set_RightIcon",
                     "ParameterValues": {
                       "value": {
@@ -769,7 +772,7 @@
                     ]
                   }
                 ],
-                "ID": "d1d9c5c9-ff57-498b-983b-cb50246917fc"
+                "ID": "7d7b5715-71ec-4175-b1ea-0fab50a30309"
               },
               {
                 "CommandList": [
@@ -791,7 +794,7 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=出入库_领用出库明细表!AX4"
                     },
-                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                     "MethodName": "set_RightIcon",
                     "ParameterValues": {
                       "value": {
@@ -816,7 +819,7 @@
                     ]
                   }
                 ],
-                "ID": "2819cc2f-91ee-4a07-b1e9-adf164f057b8"
+                "ID": "6c164f9c-4d37-4371-a646-2c524faa9175"
               }
             ]
           }
@@ -872,7 +875,7 @@
                     ]
                   }
                 ],
-                "ID": "16124341-c6b6-42a9-900c-225ccc5f1ff4"
+                "ID": "a7464a83-fa36-4ac3-b42a-102496a00410"
               }
             ]
           }
@@ -925,6 +928,7 @@
           "TableName": "item",
           "BindingInfos": [
             {
+              "GUID": "a718d833-2ee5-48a6-b9bc-cabead0f71de",
               "BindingInfo": {
                 "TableName": "item",
                 "ColumnName": "ID",
@@ -933,6 +937,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "063810bd-05bf-463a-86e0-cb686f767980",
               "BindingInfo": {
                 "TableName": "item",
                 "ColumnName": "item_name",
@@ -1005,6 +1010,7 @@
           "TableName": "组织信息视图",
           "BindingInfos": [
             {
+              "GUID": "a8b4cc7e-3019-46ef-8675-3d42caba2811",
               "BindingInfo": {
                 "TableName": "组织信息视图",
                 "ColumnName": "组织Id",
@@ -1013,6 +1019,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "b1ad8936-a7f0-4716-a7f5-cb589bc55af9",
               "BindingInfo": {
                 "TableName": "组织信息视图",
                 "ColumnName": "组织名",
@@ -1096,6 +1103,7 @@
           "TableName": "组织信息视图",
           "BindingInfos": [
             {
+              "GUID": "5101f93d-7e50-496a-815a-ac4eda72f8c5",
               "BindingInfo": {
                 "TableName": "组织信息视图",
                 "ColumnName": "组织Id",
@@ -1104,6 +1112,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "e70918e8-9868-4755-97b5-e38c39a8b587",
               "BindingInfo": {
                 "TableName": "组织信息视图",
                 "ColumnName": "组织名",
@@ -1977,4 +1986,4 @@
       "Formula": "出入库_领用出库明细表!$W$7"
     }
   ]
-}//bGzK+OS/V1BBZcaa2X3wK7Kp5TPe1fkKhn249znIpjqckck/GGytZj396LBFk8kfbmHGZ4qPICDyGSQe5KT+4WEnYVqBQw5pr+bdFrp+NPR0Dsx5eqiZs3qQB/mYUNnFhntNwGZ1bdB4IpBrkyUXKeSXoSaEEjfLVcash68scxhGXOO/o+RrU093vOcK8ynzEUfqHqFsdVuyAGStqYxrgLepkk+0CxADDelJo7b/S2LM88snkzcxgN/tcR0/YrpRGr9vzT4XUPKTVZfBfe4H1CzVztObYOZ0DGrgSTTXVuNH0iUIsiIHYaTYjp3MmDA8LEkwkQXRuuZEf8IbQhjX+mh4e9cjgUpe7GMqlYBMtKQc2jeR5/ZJXYkPCOwcBB0yygtt2JRtE4S3cUPaGLkDwVcwMyJzBI0N+h+aPlETG74v371fV5yIfydpDHiSY0OAvxDCXEK06TtvrdgJ6vfi5qnqUmwzA7RJ62PMdQZ5Mxcpm8x5hGIeMVi2f/w9CGuif6yFtEbGWBAkWzJZb6fKAsalfN06JRuI5KoZY0FFf69mfX2qUzzlGuIeSt8HUL6Qed1YD9Jjcdl0PxiqZc1UMiq+ajAgNUnXTgbu/t/zhfAodevkCxAuxhda2l7KM3ANMbicf6oIzknGDk5snYnoBM55yJuxENVRyT188ZGXyWT/3DXmQ9X8+5qBs/VdcLROzyUUAKpOtdXpNN12wyN3KZN/4IwdZ1VxIsxgCgvvK5THRw5Qo/4mLxZMUjZhqgYk4EHQu/ztL/xr4tuVMM61/6Hx+HOKJ3+H0zgJXNePFpX361n/6F7TAYXABSdgGBQch6m6H1gR16EtQumP0zPBS21/LJn+1/PWSMBFytmN/Z8Jra8iB+ezxnJM1/nkAHCpwk5H4/zU9TVoiV/6NvqVSg==|920
+}//b6T4wNHj9UcfYT/ALiyL0/8eJbxfJzvkPKV7hO6vcMntl1TZFJ91dU4hTHJ7sBS5WDrQ7ngEAG7R147F8bP1MAlItyDhOhY+qrR8UiUytk3TP2bu9LNC5WN1DpN8E3JtXu23dRdIYQaXtoxHiD+2tmAHJeeFoc4CEIyVVB9c8dLKUe1bk2vH8Gtb2Bikxq5y+nBSi3nI6ftgVp2Azhja7878MNGRBuGLHrL40J+TtARlaUTAriIZKfRBgKoH9Zyr0coZ4FgFjpkOtmKhNFAFJdqjl0NBZmdu82y6sCGGMgQBLwsThOLSIEw2m2Afqq8BR2RRFv8yAl5CEz2RDY6VTaY0w4TOH2GmGvYYfNPF5Cnl2niA2vUHC/NEtqJcFtcWkLJdFNO27yLZ3nxQbFomWF5GEkNbDE1vWMvp5mmdzd4tFiD+U2A3WFmL38ommxQFTGQDMbMkV0gZA/Pi9sk2tyxk21OHNUO/2kTsPAnMkXZ1AOzsgnVcf7Cm5oO3Kc7hyUBGR1cvAaDsSFPKJiLCJaoHaeaoladb9w1EaEZSQ6ig/Nqa8V5pC04ZftAdv0y28jr3NfbO2Azw2ZbzleIm+NDv3OCBVvCcyrLqLJxX1PN+E7z86ZNs0v7AgNNj3LHOaspVu3+tPGZbQaULnNnUpxMo1oqUiIVhYGnT+Z1MHVlWv9W4FaW+fwkplhhvrjG1YVxT9ztTNUXk217myWQMEJIE8tOtHK4SN+mKP00I5MosBNXm294KBSkgCkeFkZvmyAN/gjnW2vIn15XaLgAjZNSP6HdSR9B4bFQ08TPw1oGTffro/YVrKfnyg/3vwpbLSmBiYpnQwuLMtDxMlxShoe1U4F8IfMV8ciXxWegnwqos3W7gvnFmBz9IZLJpsNRE03nAu5RAcDX8JIqCOEEoIQ==|920

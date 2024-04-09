@@ -311,6 +311,7 @@
           "TableName": "supplier_customer",
           "BindingInfos": [
             {
+              "GUID": "007784a8-fe07-4f34-9f53-def64c3cd509",
               "BindingInfo": {
                 "TableName": "supplier_customer",
                 "ColumnName": "ID",
@@ -319,6 +320,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "5b21214d-1bc0-4a42-93dd-d418b6fd3684",
               "BindingInfo": {
                 "TableName": "supplier_customer",
                 "ColumnName": "supplier_customer_name",
@@ -395,6 +397,7 @@
           "TableName": "item",
           "BindingInfos": [
             {
+              "GUID": "ece8acbc-a797-4af0-bd8b-c533afbe0aed",
               "BindingInfo": {
                 "TableName": "item",
                 "ColumnName": "ID",
@@ -403,6 +406,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "4dc56a9f-6e0c-40e6-b68a-34ba26c40eca",
               "BindingInfo": {
                 "TableName": "item",
                 "ColumnName": "item_name",
@@ -572,6 +576,7 @@
           "TableName": "purchase_order_details",
           "BindingInfos": [
             {
+              "GUID": "b282538c-810b-444b-8ba2-5341e053ce7f",
               "BindingInfo": {
                 "TableName": "purchase_order_details",
                 "ColumnName": "average_price",
@@ -580,6 +585,7 @@
               "ColumnName": "均价"
             },
             {
+              "GUID": "8ce78880-2d21-4db9-85e1-9c531ac80b78",
               "BindingInfo": {
                 "TableName": "purchase_order_details",
                 "ColumnName": "purchase_order_id",
@@ -593,6 +599,7 @@
               "ColumnName": "采购日期"
             },
             {
+              "GUID": "d4075ff8-0106-4001-a679-825b899e8ff1",
               "Formula": {
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=TEXT(采购价格走势图!from,\"yyyy年mm月dd日\")"
@@ -852,4 +859,4 @@
       "Formula": "采购价格走势图!$M$4"
     }
   ]
-}//PBzzH3CIu17jbrSJe2qTE3CMjt7RBMCXTTQh5bz8yVund0I98PP5bLNWSp5fL/wAeLPOSQBQdO4h/rFI/pK75bIn0YatkzU/1hGb3zST6dc/vFILlgEU6SEDHAzATkkC/m6W3oPAkgE0kggDe6dcZ+iOMfxoE3V4ufHxaWF6UlQ5wlFd7K7e3P3eu6r46BwHm/y1A2vzcXOrxWsybGD3JJGImUIJjoXTSZeSnRzldJ9PqGPPT4/IoXaYFyjk+SkxT0aFeVbtXuwCwgpQuBSrK2rP/PDzEvprlEeEAYHvb2aeGhRQdSPoAGaNeT3ghdCpbbxTtzPx3gJ7oCQ7JAI+peMLQ9wvn+2t4+9zAV0hV+LrvFZPuix/ye10VtoQ+ztcqD3zDOpqO3rUPfIcXXRlDk7k6zM7UW2SXnBeyjXyuuZ3Gf+/RWeg/VlPXrLH4KJkGh8gZJ9GNW7zM0+c1nfGTl4hC2hwl6cpSHGbcJfH854/PMLizdRstwD/5q9O2YtaZs2OvQjw2N6dRHM+9Z4LaPxKpk8GQ+EdYxkcZ5W2rpkutIZt+yQRxo5VuDtabZ6RlSibfydGq4NaQ1TGRL41WGFMt7E7K5GLCdQt3yTaNHbGoCWsFzLbvX6b2ntNJrPb4HJIMw86R6uBPZ5BkIeTKEX4shN3ASy6k+uvD9Y5e14aeIIYuNNqFmNk4l8e0fv5HgG9NWvOl8sl+Cv/uVF+ebC1q9KtqvtD4OCO9E5MDi7W6La5uDU9aORFMJyvnwAeWWz9d665XWgL8AI5EQN+wrqDod4FK61IHI7HikgtR8zXc30tccYXby7qWW80PYNoE13TgaMUJJXNBKgPk1KCqJECWf8spETW3dJxWDE85Kn9ItdaDCXjPU8hdKH+E+TGQKX/JVAjaucn1oEayU4cSg==|920
+}//FRKCJ3lTAkzO/csdUFcBdZuTJ1R9Q+zKhfw8wUzZIbG/zerrsx1RkLMRSTHDeGIyh428qlXp/Jc8Vgw9DdQmCuLBdCUZD42v1m77YpGILqgM8pzu8ZnEPYcdX4O+rS/vTOcpfgR4f+4hzuPe4J6JelTJsLjYr+H+nKJhQ6NnTV7exlv1hsPoiufktrDrbq2NvcXjTUF02rFcq9XpyFnOrRaJ7bhqIwi1FvJ8pNV4BdArDewDHx9HCU2QpQngNuH/toM7HkpSZgrU7CzswQ6p5L3HJJ4cZ12IapXyCTH32aHH5xODZywnt9Q5P7MU98cMzlsm66JQfB8GpclHbqEL95HA7p2/BhTymVnTXjQIzv8ERUtgWAKhOWIANAWcc0tQf/lJ9yxCiGshitwKIauN0CFCMCdvyi12VdyyZAyLc52NjVvrQZevP++twIFXhKNyqbYbPckqr8Iv3QmHb7uum3j7BD80ealTBzlg2bJTb22Kgeg7Gg2wzMmrtKLF2PeokWQJzBhwIBq3Sn/Y9ASYBBNHxrMcJLQqfUXAkrWGRcQzJsVOupSb4TkkR+9c1c/4xNFf2T2dhcpURRsaKPcm/sWH29tiJQCcOHOQqS+ymZ7WHqn8Cdq+3sXZ/z4qinUDDuUANYJNk0dkEX9nKgdfAcvHD7zrIuettqC+iu/Hb3F1Z1c9gOVWvlLbRxJl5ZGvuM4xEvSXoH/K/IfuUH19ijeYtbqXayftBdkBqgXPzw4B5ZjXRyqY/s4QWzx+P4hnQwKJREnqH69NpYiY/OAK3PqV55yc4ZeLFY1H3a3tErDZOqGbiC73oCGpERX6qAOPLWV2wSEmQ9TL93T9Tqnzu9SdYd7uLzLyoEfMMvwxHKMJ3S20LZUPI11h3rWnhmThH71t/K63lEEsoJ9gZ9H58g==|920

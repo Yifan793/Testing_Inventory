@@ -534,6 +534,7 @@
           "TableName": "ACT_HI_PROCINST_View",
           "BindingInfos": [
             {
+              "GUID": "7bb9bcd9-69d2-4b64-aa22-cb6bf44fad2f",
               "BindingInfo": {
                 "TableName": "ACT_HI_PROCINST_View",
                 "ColumnName": "ID_",
@@ -542,6 +543,7 @@
               "ColumnName": "ID"
             },
             {
+              "GUID": "23cf4227-8758-430b-a6e7-5db61916914d",
               "BindingInfo": {
                 "TableName": "ACT_HI_PROCINST_View",
                 "ColumnName": "PROC_DEF_ID_",
@@ -555,6 +557,7 @@
               "ColumnName": "标题"
             },
             {
+              "GUID": "6c0f171c-9a4d-4876-9ef1-02a3220569f9",
               "BindingInfo": {
                 "TableName": "ACT_HI_PROCINST_View",
                 "ColumnName": "START_TIME_",
@@ -563,6 +566,7 @@
               "ColumnName": "开始时间"
             },
             {
+              "GUID": "bbc906f0-6c2c-40f3-8259-fbd89b68b2b2",
               "BindingInfo": {
                 "TableName": "ACT_HI_PROCINST_View",
                 "ColumnName": "END_TIME_",
@@ -571,6 +575,7 @@
               "ColumnName": "结束时间"
             },
             {
+              "GUID": "f4c64c22-08a3-4514-a1ae-d97f897b7a13",
               "BindingInfo": {
                 "TableName": "ACT_HI_PROCINST_View",
                 "ColumnName": "DELETE_REASON_",
@@ -789,4 +794,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//dhddeevVBT14R2frV4ZYdUvVUyv+J1jJwg1ftNcrUCVeG6xU8lq56JyO8//lxVXW0ZK3bQPYB9P6TyqkGfwUtv9K1azcfim8kttj0UpjJJ2QX18sBJciT22/mgLdN8kyb7I2RVTsmSIJG42QMgKOvzW1SHS8Q8+rKJk+b0i4o1titAMuZTEqmVGDjVOWIv5KL3BYdlQGLCMJbibpvrrcFZIpaLHBQoXN0Tif2akN+6jqhGecWLzVkDD+FkbutZXBZSRkeYmuTNbyNE95dt/lz10G76q59a5xExKEu/L/hAAE56X+NyCGaKZ6TgarnWOezMAmJgWNbbstfmtkYUP9aHCBgttdcvKP7bPWmMvS0wddXWK5mf+VbrjiBUDeRbEw4FFpgobJQaBrRLty1RWub/51wcIJnZXgPxWRgs6MF6qK2z7usE2NF8ZHz+7PiOptftV6E+y+HuJwYlnMpqShM9TTt8Gy+Ap34SCRrHuAhUgzf8w3euXVp29QZwEJc3AeTofkBCxgCtUyDqbg2oJAWw1GatRxzb1e477JRBsQfLm9DDn0aMbgM1f9ow1zPLMqroQUDrx56vhaO1KJgVhWLUyxT91gcKEl2klu8WYIyYJZf1HSoDIb3Ctrk0hia7Vmz7ecQzeXnlYHgi0QmGD268O5iZgPr7MEZcsFbGq+YQi01UEOS6Af8t/uTNFLYZ52umXn0vauQwlqivmub4RaChtiSg586YKvmt25jdbCMahABCq0Uc3s6MEn61rcNYynBBvyJkNu+zItC4UjtwAC0laqxiE6XImSw9kL7VqzwrOLef3y4W8AChM0VlJxtTw3YBk3pMtcubUIrj5aY2yQYY74G2MOq7a5Sv/cqLLpwPPFFNPu6ryMsuNEUvgjM7QPa4g8yK/ZnRhZrK8aY6s9gw==|920
+}//QteQ34tLX2HxAnOQIhBLo3wGBVWRBDYr7cgbczE3gzP/VgQ4XMFHKUTFdLunRr3I4zlgPKdtj0SKretVCFIlSC3W0ZuICOx4s+FEcqso583fTY2z67f2uGUQ/pIt30Dz7ooHbbeDnm0p/yoSXiE82dH9xbqV4bw1zFS6Huj50e8unLAA5Rb3fetK7qD7la8zXIvhQRNeyrF5hZjLYPjjSW/3l4qEhdVV42Z330qBVxlZM/t0HuRRuWGfJ0mxdaIznbMg7/xgE29rd+vMWa5klTvnpiqjHq+1XtZXA04zbGszN73H1GT5h2+EPArOSb4U8MuWs0C3MwpDQ60m5doId95F9+a5yPfGF82CBEc+CxuR6cyF6b6lrfqvCDL51K0G6ls/cYdHphzWtJfs3MdQRHPin7nGOn/jwuOpRMwDIfQrLujStNUa296lIHaeGCcEeUcaibPsT03I/P/rKEd/qUcGqHebv3sTIzTFVA7YrE93dyyHs7bYsq6/3o+UAi02OEFSB0RlPHQYA+Tf5fDgJ2Ta2em8/RauEN5N9T+ygVf2jj+fYATMNxE2s7cvRLQ+fcowlxiwgwtWF6BXwqlIBbHMgY7hqz1O7g7gi9xDg+DpTtH8UfcCVjbScyK9IhXpqFoq7YggdgiQdRKpTmVPBZVyXzbU/6yQUGIh5Mboppo8JE8eeZjKaySKOxZwL12RlecV+knTosTxlRYqayvHq+YAoWbqgFDyA8+15v+8EGuE1gAMEL6Lim2BcsvjFTfb9KbcGsrLl00Ka2/Q7yohAOdibkFNnzSyDsbRWVPm0jJ7tL/I6NsmMZEXJQYxisQUSupOWDmWIW1jYrm6d9vP5zp44W3I5tn9juR6R/RVPpl4UssD8rFaRP8CJWezr6zRiSW7RQrXjlt9Cm12ZFut2Q==|920

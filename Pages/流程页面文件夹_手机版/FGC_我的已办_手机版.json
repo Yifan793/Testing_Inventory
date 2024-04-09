@@ -575,6 +575,7 @@
           "TableName": "ACT_HI_TASKINST_View",
           "BindingInfos": [
             {
+              "GUID": "23f59e0e-8460-43f6-a31e-b3976cd4ec4f",
               "BindingInfo": {
                 "TableName": "ACT_HI_TASKINST_View",
                 "ColumnName": "ID_",
@@ -583,6 +584,7 @@
               "ColumnName": "ID"
             },
             {
+              "GUID": "a4864366-80bc-483f-84b2-587902c7d6d1",
               "BindingInfo": {
                 "TableName": "ACT_HI_TASKINST_View",
                 "ColumnName": "PROC_DEF_ID_",
@@ -596,6 +598,7 @@
               "ColumnName": "流程标题"
             },
             {
+              "GUID": "1d34e2f1-88c2-43d1-8a46-cafbab0790c4",
               "BindingInfo": {
                 "TableName": "ACT_HI_TASKINST_View",
                 "ColumnName": "NAME_",
@@ -604,6 +607,7 @@
               "ColumnName": "任务名称"
             },
             {
+              "GUID": "4a9a3a06-570e-4743-87e9-e2dcb2c6d5c0",
               "BindingInfo": {
                 "TableName": "ACT_HI_TASKINST_View",
                 "ColumnName": "START_TIME_",
@@ -612,6 +616,7 @@
               "ColumnName": "开始时间"
             },
             {
+              "GUID": "262a360d-4046-4b40-8152-d9b54b659689",
               "BindingInfo": {
                 "TableName": "ACT_HI_TASKINST_View",
                 "ColumnName": "END_TIME_",
@@ -620,6 +625,7 @@
               "ColumnName": "结束时间"
             },
             {
+              "GUID": "f395c701-32c8-424b-9168-87f407e32c92",
               "BindingInfo": {
                 "TableName": "ACT_HI_TASKINST_View",
                 "ColumnName": "DELETE_REASON_",
@@ -628,6 +634,7 @@
               "ColumnName": "结束原因"
             },
             {
+              "GUID": "0994f17d-48b4-4f53-a30a-603c09a4fe6f",
               "BindingInfo": {
                 "TableName": "ACT_HI_TASKINST_View",
                 "ColumnName": "PROC_INST_ID_",
@@ -824,4 +831,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//fKPQCoFuJFYy5OcibQFiRheYnsdwn83J7soQWV0bjQ9Irr9d5iNO001n1LflfxljxtUHL09ZfSWDtrI8TCi8Njo3sjU2tF9A8gpRZ5orP1dopQctrmqozH6dR9vulRbCgMa1/HooAIKJ8b2XgplolaCl7T9zlRENCAXnFh+DSgQKQ1Lrvb5vctdfsUS6rSGQwDGbkwlrcye2haFOz3zJFibRuhajRaDE9Hd4RLebYegBJVu8OO/SF51iyn7cI3dbNWuyGKQvaZaG+GLF4KXqyh2LRFb2P2fKRoR+GMN/HZj0W1Q6vo9cFM6bj9lWp5fPWUA2STKu+IWKsef8IVjQ7EUMg4AmyAt5mcrVn297FmI/9QpSOfYyTd38HnbutMINBZs8hvXWYcngJeDehTrV11gcUg2jR3nXVdFsddP7vskT1R/YkWZG7t2pI2TyPZh2w+dcmlCrqzxfs2QPCkUebmHGCeZd20WkBq3d3JFf+XxOUDxV0Yte2/0+bhTSZi516s3Q9xGVnVzv7JUfBVaFIbb0dZoX5+S2JVKkYxDB/q8MFIuAt3O04zhGzBaFqlYKyH14rhdC5/XI0xJ7ZWsPO1uM+/7WQBfsEl+MyFxIEtFlpSa9OHnyo8YvSzw5Jc3wQUYafiVA+6NZqIAqVjZNiT8ugk/Eh1GiWPsk5WNKUtwWWaw2QYpji8ZCS+C1rdhHUoMbIrd19i9qFtqrctwFKCy2R27sdOfB1pvb86qLhQbKPd9Z6zmkQ/ZurAtd1rsBHtvO29/WOp+Mray1UUsD0x1hXLvDmlMqbJIfVZWsI6l/uPeWG/P8ueEqvtHzftf4JocBONLcYlUOGTdrgp6LMhA+KCgWOaB8l9zW8ei//ubD5pnRufsE80QarisKyPUH/QXy1IeNDf41v+e6lAUZ6g==|920
+}//dxRdzYzEkbcd31o/esU2q143tesb/qIUSuzpnxdqwIXukWHu/6Ob94gnbIheNMytcMW3SrYlKwf1k1oE30j8JozdcwFOpntLJzqdwz0XB2LtTB2bAAbT+zG5KC3Ujuc8/RSE+uDzplqufANCtiklfqBQi1YAFruE/uQUk5OgpW+DYVwketVuRal/hFAYdQOVGE/qE3LfvcxqeuCzK/zfwt4pCZc0JzkGekMSU63IE/dSZikU/POMBlzH/sYxFLPhXG5E16o0pqHvCUOkntRfmWLnMGa6lrxc4B9FGv9z/0ihm0Yu0Z8nS2AIXnmdcL4cNE+J3nFbOHDw+3XRgztKzH0CJ9hmApkUUHQNYp16q6Ih3V1OI6HOKLcETk8TfMuNPl/26Lisf0OFcBW0yFQRZKVYgShHGfqMkGuQuFXHP2is6ovrMx9JzGsG8sW5Ugcc1/JIHsuq1N9gez4nkEDi9/awG//ZGe6+BUX4qt3HvbgNGsP4glm/lLLhWunWgSpd3nhq9e74WOGms4owP3hasPnKJQ/6M7Vtr0Qly0r8UezwQShdl18HPfMMsq7qmMsz4vTNn3KeuEpcQub9H8tDCll8fyl2mLJYQV2dtw15Wl2CMKbVd4SXGEUqvrJXDnhDk1GFvn+27qIIg2zQ2FJ1zlZR3EzDMnUMeTkN5S/WczhgxL3xtYPYWM4ySeLMKdrr0oHP/S3SUFAbA04Uu2GhAhy3kNZbYBHbhEB4AehNwicRl2LoJ2wZdrQw8gFgQnmRXfdoH+z9G+Jt922LyHt9epCv01El5eBZgeM6iE1J7RM76l/61x5SG2GxVRMp1SKJkJDbchImHr5lS0Z0H2xBHAxQNcDwtNYtF/8V6pRvDchuNeqm1jYbLi0ITLAILfVdGinJVdv4IOjsj/H7bX4Gbw==|920

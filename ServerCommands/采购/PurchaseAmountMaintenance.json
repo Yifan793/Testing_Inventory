@@ -81,6 +81,7 @@
                     "TableValueType": 0,
                     "BindingInfos": [
                       {
+                        "GUID": "99d1a724-65ba-48d0-ba8f-2a172b4ac164",
                         "BindingInfo": {
                           "TableName": "purchase_order",
                           "ColumnName": "paid_number",
@@ -188,7 +189,7 @@
                   ]
                 }
               ],
-              "ID": "6c79bae2-0047-46b3-bd5d-b11036b6c2c4"
+              "ID": "01974874-1ea8-4fa7-ad10-f4b997f3ff5f"
             },
             {
               "Condition": {
@@ -212,6 +213,7 @@
                     "TableValueType": 0,
                     "BindingInfos": [
                       {
+                        "GUID": "5c585918-78b0-40b5-b877-78c704258d7e",
                         "BindingInfo": {
                           "TableName": "purchase_order",
                           "ColumnName": "paid_number",
@@ -244,6 +246,7 @@
                     "TableValueType": 0,
                     "BindingInfos": [
                       {
+                        "GUID": "a9e5def5-bcfe-4684-8807-b3fa86de0f82",
                         "BindingInfo": {
                           "TableName": "purchase_pay_record",
                           "ColumnName": "period_pay_number",
@@ -341,7 +344,7 @@
                   ]
                 }
               ],
-              "ID": "528b3363-4735-407a-8499-5b0324aa4059"
+              "ID": "df48ab2c-d0f5-4446-8e13-9c4f0f9c8726"
             },
             {
               "Condition": {
@@ -365,6 +368,7 @@
                     "TableValueType": 0,
                     "BindingInfos": [
                       {
+                        "GUID": "3cadcf1f-dd94-4715-87a5-62891579c6a4",
                         "BindingInfo": {
                           "TableName": "purchase_order",
                           "ColumnName": "paid_number",
@@ -397,6 +401,7 @@
                     "TableValueType": 0,
                     "BindingInfos": [
                       {
+                        "GUID": "50b91249-6c2c-4614-aa09-0bce4d69fc1d",
                         "BindingInfo": {
                           "TableName": "purchase_pay_record",
                           "ColumnName": "period_pay_number",
@@ -472,7 +477,7 @@
                   ]
                 }
               ],
-              "ID": "7d5c189e-b6cc-431b-bb59-c0bf92ca397b"
+              "ID": "145a1ebc-5143-4f20-9b2f-247fa84ecb74"
             }
           ]
         }

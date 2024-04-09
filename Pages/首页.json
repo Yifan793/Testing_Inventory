@@ -41,7 +41,7 @@
                 "PageName": "采购首页"
               }
             ],
-            "ID": "121642d2-8e98-4517-808e-c5664e97f86f"
+            "ID": "2131dbce-f261-44ac-bc3a-f015925f6536"
           },
           {
             "Condition": {
@@ -61,7 +61,7 @@
                 "PageName": "销售首页"
               }
             ],
-            "ID": "28066158-2e73-41b0-b760-eff4eeef0d10"
+            "ID": "d0ba3834-a170-4752-a65c-bfcb23a31d5a"
           },
           {
             "Condition": {
@@ -81,7 +81,7 @@
                 "PageName": "库存首页"
               }
             ],
-            "ID": "0ddbf7cc-67c6-4ba5-97df-d7c6633bf212"
+            "ID": "248ba329-f22f-43b0-b43e-f74d24167c5d"
           },
           {
             "CommandList": [
@@ -91,7 +91,7 @@
                 "Comments": ""
               }
             ],
-            "ID": "86ca0943-a357-4ec0-a58c-e4264c537bb4"
+            "ID": "45d588c6-1044-48b1-bcca-0dde4cfd6175"
           }
         ]
       }
@@ -117,4 +117,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//zwLj30fbGj6gasq6hme3clbeBZVgyQWLHyU3yaxcHPXD78JxERVvyyxRw7nD6uMYOY6qLGlmn50ErZy+3XGy1sgHO4/o2y8Nfei/uFU6fj8DLxPaZvKLjEKjxJNVzy2yx/iLn27PbeOmPJXb5FvLR+pCXE6u9NvwNPV6HZUyFWJhTn84bripaq5KnjxJqjrRzqHbPA6Qedfz1+YTG9z1owe51+QtUbBGvRZiI0+Zl3sOtpQknDw0oZklgDGtI5I2/MpvUe9QeQzB/I8JSPYyzIe0xFmPdFgNKhG491UGaJad2ZaZF7ha97RbtZD2n98zJDSQVv2q3sp6PwYRwqhPPRIYRNvg1sXurETAimQUBKW4yHMR2w/jvRDl2w1QuGgtZnfQDfkCtF/LQNPYrdU4FnG+vRy4BaYa0IBno4wPI3e6bqOBtx3sTKtS9u82vFyR2n0+KBeIiCAR9cv74Tqn8PPhfKXGSUR0AWK2yqvmOxIBqgyYHWvgZnOBGMgPDq7KtKSPg50R4UbGF0Jt89/pcG5TvQjrd672IPbi1Bdqz+H4yw34J1FdMmP33do+hCLODSa5L8volErN3/WbvLYnD3jx3va8ORdIgBMdSUWPOLURU7p7ilWnYMVY7qn34GsaVykMEYJnVId2doMkWuTTKvhArfGkAvxuj2VuAyoaGXqCoKyfSjq2tilJAZR04LQTs5mAdQH1gjM21vgGXAb6Lfu+0tVb33Jv3QXdB5HdN4qu/nI29BQdQtabWT3L5jlOgWHrB+AsI+yQ86UhBk0i+UWaKw+Quy4YFkScYxvMxJk0rUtI3A3hfUYf0Iu6w02G8QLqrHU3QD3nGSgCNy40RwS8v76s6dt0JlemmTO5MGU0w9V8I+u3PAMMmpdUrn4HArQo6Xyp6sjNxKiY0NIG8Q==|920
+}//51rzXGZwZ7+5dWQ/WyRAbC3r4hGVdcKPdx8bSRl4iw/9GpjWUtX0YeAwuXOkfzrlWHOFITdYPg0gJw1G+f6mtHX8pjHi5xJRQJsB5WU5WqNcKpSs9q1GEr8Hkv3Y1mt1RegfvWrDLu+/AIXrjppQyXzsHTOZRoofV/Po+Quq+W0cfrDMbxjUdwQQZbRnSyvwvZnWLpgcgBp0OXM041jpWt5IGuFN3l4JlocaUzsE9prktBKPA3i8I4iLXDkh4iaOrpUHA9kZegN3hF86IahywP6OzYaU1B9WuZpWJzn+qm1Mddczq5NLgUtBcl7lw6FzF4ar8UwK1Ow9lczGCoo0Z71/LlCAyZxHyqPNqS5pLI7T7GXNs3GMVZnGwuFExRkDoiYFoz9OYEFBP07a1gIQ7bXIV1XJYwxhhBpUX13fkUbBvsRTL6hcNIAjQv2GNhIvROteHrRxsgdXjju+W4f6QH8XqscnDKjr1AjtizAHNyJVPOowcAsL2aRQXVfpZlq228xjNYSdk7iuVGT6hwCQeQFIDXlzsGj/+2ZxTVeOlOT3E73B7AKO6kIPj66EsKjdaxRPKkSLWsPNXWcWkpdo1hGeL+kUn7RZ9XzlrYMSTozR4z6KKQ7hdWctcpEd8GXKkEdxcLLlRRvXhfL7ZbNp0xO+uOCC8JQ+d3C4rmSqMqQYiBj1tqRtlKYXkoIT/rWhemjAA8ko/5Q4ynm74ew9N1B9LC1paAQUxWpgWDxM37O41shmJKwEmHG8FMkXUCASEKVMPCalcqKfrCGXZm3O39GTrhDGzss8bF/L4+c+c2wHoNsHeb2XisDtaHviujY6N9W1K04T0//yyQZkZUNCjuOaENCjpUOX5Whlr7JmmMfXpmfvR5UJKgkE3VCO1lJB4LzBrr5AOuoDmFITXxhcXA==|920

@@ -8,6 +8,7 @@
         "TableName": "sales_order",
         "BindingInfos": [
           {
+            "GUID": "38ef045d-ebee-4807-afa4-48cfb1d7dead",
             "BindingInfo": {
               "TableName": "sales_order",
               "ColumnName": "sales_date",
@@ -16,6 +17,7 @@
             "ColumnName": "销售日期"
           },
           {
+            "GUID": "501bbb64-f1a2-4b5c-ac1c-0c671b856daf",
             "BindingInfo": {
               "TableName": "sales_order",
               "ColumnName": "customer_id",
@@ -29,6 +31,7 @@
             "ColumnName": "名称"
           },
           {
+            "GUID": "0f9546e7-0705-42b5-82b9-b03d1438024f",
             "BindingInfo": {
               "TableName": "sales_order",
               "ColumnName": "total_amount",
@@ -37,6 +40,7 @@
             "ColumnName": "总金额"
           },
           {
+            "GUID": "3851ecf4-3fd6-472b-88be-3977ab6f73fb",
             "BindingInfo": {
               "TableName": "sales_order",
               "ColumnName": "sales_month",

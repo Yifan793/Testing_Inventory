@@ -586,6 +586,7 @@
           "TableValueType": 0,
           "BindingInfos": [
             {
+              "GUID": "89a64966-37bc-4043-8739-fb7c312883a5",
               "BindingInfo": {
                 "TableName": "sales_order",
                 "ColumnName": "sales_date",
@@ -721,6 +722,7 @@
           "TableName": "sales_order",
           "BindingInfos": [
             {
+              "GUID": "a5bc36ee-9f8a-4a2e-8985-c5091594366a",
               "BindingInfo": {
                 "TableName": "sales_order",
                 "ColumnName": "sum_total_amount",
@@ -729,6 +731,7 @@
               "ColumnName": "总额总数"
             },
             {
+              "GUID": "a29cae16-d40e-4a9f-b185-c02b66ed3ccf",
               "BindingInfo": {
                 "TableName": "sales_order",
                 "ColumnName": "sales_month",
@@ -999,6 +1002,7 @@
           "TableName": "sales_order",
           "BindingInfos": [
             {
+              "GUID": "88fdac27-dda0-4438-9e1b-7128587f0155",
               "BindingInfo": {
                 "TableName": "sales_order",
                 "ColumnName": "sum_total_amount",
@@ -1007,6 +1011,7 @@
               "ColumnName": "总额总数"
             },
             {
+              "GUID": "ab792ef1-116b-456e-b8f9-716116c71dab",
               "BindingInfo": {
                 "TableName": "sales_order",
                 "ColumnName": "sales_month",
@@ -1346,4 +1351,4 @@
       "Formula": "销售首页!$C$5"
     }
   ]
-}//T0qnXByd/hvj30FoLU7L0bjUaPhkorFM2QfjurDjEKpNeHa8oTIXmkxeNO/Dxvl+ufCyoIVXytZL/xTgcXRHFCT+VBE4F4V9fRexVH+LPkanJNT/GMmpQ8tlSlD0Pr03TQzbb55gnpl7Q7P96a3P280WbZYS+e65pFfkHELsdh4d2fDYMNdpe/VFkBbl4C3U28U4fvp242DQkvdLM1odzadHz1zp47EqTfw2QP1VGu/IrsbhfFrY64+Gh0YwDH/UuTqNjCI29Ya4gZqmq5OPdY0AjKy7vSRwXLHcZULnQqT8dMkAzfBjFSzY3H9aZqYwm4CuQ48eZhRUHQo6EJAlZ4pY+6uQu1PedV6gh299sH0gAVF0eeN3Gp4VThF1lreLZk1f3nDV7j//YFzDCPk0wd3f+8LwM0Skfwci9JOw863ubQSqmUmA0dblZLZZ6nC7nkiKq2yTmK5N5WrPQS0nofdH3I1+sLTUBl6yS/N3HJzLLhOpyDX6QuU9BD1jWKuZDHhl5N6I/L6UOL1VuB4I5qlwQov/3C0k8aJrVR6YM3nwVKhHLzi5OHHhUImgvgJZk+17vc1jZkfKFxU/Pkc0KiJO0Fj3Ym8S1AEYv2f+ivhLdYhYkrisMOVYNlJupiUMPa+Nwzw0lCvvi6FRh4SMgIIT2HNMIZXjiJHOzVX5x+ujpHfq9e+055Dpa+nsJttU55gYr/V3PuBYD4Gdnl+hA8Y31wc0Y386G9Kc4a8sNo03s5zcD3CPolRKPIIUTWZn9RRHzT2XAUXObSlyL5LwY7YRge2OiXQNQ84/Cj3dF40JiGI8hEDSkCzrNzMDaWthLeZy7xmgnnH6xpeTrP/oCTGCfjdtxhRU34z0DhNuY2jMJUqJLav7Z7heF4Obb712cOkvS9A4Ycacd9cqMLH9ig==|920
+}//W3opXUVJ8ftpKt+rLYKa04WWW1vVaayc5BSpPLi2gvq3eRmHMQSjZHZW20/elU1Vb5FlMh4wWkzcw0KoaYISi2QiAbHGuay3PHwfr1i7Af8mjZIsdgpud+fMQFrWLFFGMobeb349hWCcSHppTN6986mJ3d6yh+Vx9RNeE0u1FQCuyNwQwLS9s70QZ63LA/0eLAYLuqXk6qnezShMZO0c9+LKQ45OmDOc8e+DQm2ZeP/Or2iMo8QhCaVtMuWW+2Ld2GYx+LS38nqYIt2jmJyEY6ueBvfinoI4ZHYlQg4n6vvHAFDR9Ze8n0t2jI/VJL+keBYMZ2KCnj4HDC/Czzst5pHxQ74tuR6XIpMek5S1zII2BXeezlzTZn5GkxAYq0yUQuz0ZZ37wYNuyehJJWQyVRB+KQKA+Hdk53zU9aiUjV9UwDPr7TbjRHKG+9/P81fDmf0eYdHYlhV2TKYeEa/FF+/G4mR5c2CbKoqirtoE4BcT8ctBjG1UugufhqvTC5/UClTcpYupOB7mISDPDrwx5xuJ7Z3i2GgUE9G+5RQYvWvK7wN+GHdk1qouGoq8FtoASilZOINRhW8CZ2Bp9Aw26l1a7fsb0zPEAchANND8xgZc3jNk9vkyA5sYufjY2WE9PwrIIlWPNZzvAzUbGIatJlSC2vYUDBr0nms/6iYZAe10BiJG8Mv+3uiFzkM/gRUmjdaWKdSCy0nbm9T7aeVvkTl1tRT2G1ujaze+b6CgQEwCFvTx288pgjcHzGCJeXkvDhBcdRCwM24LuEgBNtRoNgCU34XN/wCGXnf4+T88LxiyxrzIQPPp6sEmAtzqOmtrpmK5qbSY3gNhiedGzL3K5iEHg1pI9D3+EvJfmZzEH+pKd/UQzJmfz8CU9IuIWS9yizT9JUfcX3WS5V6aoZ0hjQ==|920

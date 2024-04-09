@@ -49,6 +49,7 @@
         "TableValueType": 0,
         "BindingInfos": [
           {
+            "GUID": "942acee1-6cf6-479a-a5d8-012a4e477470",
             "BindingInfo": {
               "TableName": "item",
               "ColumnName": "item_inventory",
@@ -97,6 +98,7 @@
                 "TableValueType": 0,
                 "BindingInfos": [
                   {
+                    "GUID": "97bab0e6-b351-4ae8-87d0-771cd3ca2763",
                     "BindingInfo": {
                       "TableName": "item",
                       "ColumnName": "wait_for_outstock",
@@ -164,7 +166,7 @@
             }
           ],
           "Comments": "5出库",
-          "ID": "ff0a3eab-f9d0-4807-9f3d-2e1fbbc02381"
+          "ID": "a07230a3-1d8e-4f7c-8280-bd96a262384d"
         },
         {
           "CommandList": [
@@ -177,6 +179,7 @@
                 "TableValueType": 0,
                 "BindingInfos": [
                   {
+                    "GUID": "de4f408b-5161-4c0c-bc22-398b73216427",
                     "BindingInfo": {
                       "TableName": "item",
                       "ColumnName": "wait_for_instock",
@@ -243,7 +246,7 @@
               ]
             }
           ],
-          "ID": "63fa1776-f173-4b9b-8f46-d72243c8d541"
+          "ID": "0d68e94d-3659-49da-9571-4b4660db1c9e"
         }
       ]
     }

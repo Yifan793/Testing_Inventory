@@ -272,7 +272,7 @@
                     "$type": "Forguncy.Model.StopCommand, ServerDesignerCommon"
                   }
                 ],
-                "ID": "faa267dc-71b9-4b3b-a40f-5c484cd5b3f1"
+                "ID": "8895ac59-20c5-431e-ad0b-73be6567ad51"
               }
             ]
           },
@@ -394,6 +394,7 @@
           "TableName": "state_dictionary",
           "BindingInfos": [
             {
+              "GUID": "c206e51f-3ff7-4b77-8205-99f78de1b3b4",
               "BindingInfo": {
                 "TableName": "state_dictionary",
                 "ColumnName": "ID",
@@ -402,6 +403,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "966a6348-8c5c-4728-ab7a-169d62237c68",
               "BindingInfo": {
                 "TableName": "state_dictionary",
                 "ColumnName": "state",
@@ -479,6 +481,7 @@
           "TableName": "state_dictionary",
           "BindingInfos": [
             {
+              "GUID": "1d305bc0-3d5b-448e-9c20-08fff95ad183",
               "BindingInfo": {
                 "TableName": "state_dictionary",
                 "ColumnName": "ID",
@@ -487,6 +490,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "690934ac-c084-4948-b124-ae4cfb1a7dff",
               "BindingInfo": {
                 "TableName": "state_dictionary",
                 "ColumnName": "state",
@@ -757,6 +761,7 @@
                     "TableValueType": 0,
                     "BindingInfos": [
                       {
+                        "GUID": "9b1b79a7-ad8f-4069-b8b2-55bff2bfc9d0",
                         "BindingInfo": {
                           "TableName": "ACT_RU_TASK_View",
                           "ColumnName": "ID_",
@@ -893,12 +898,12 @@
                                   "CheckDataValidation": true
                                 }
                               ],
-                              "ID": "562c3c41-2dec-423f-b71a-52a39b0c54d0"
+                              "ID": "5fa2d219-2137-47e7-968e-054dbe9d396d"
                             }
                           ]
                         }
                       ],
-                      "ID": "e1d3ae6f-925c-4608-8229-98047232c22f"
+                      "ID": "c1fe631c-438c-4b4e-bb37-a3f0ad512ca9"
                     },
                     {
                       "CommandList": [
@@ -983,12 +988,12 @@
                                   "CheckDataValidation": true
                                 }
                               ],
-                              "ID": "3fddad18-4c57-46c6-abc3-b61f6c158e4a"
+                              "ID": "ac972054-f3b3-4ed1-b575-7e2a5e50a25b"
                             }
                           ]
                         }
                       ],
-                      "ID": "b6c2edee-da01-4655-9e88-2b4c60f891b6"
+                      "ID": "845f9c6c-7b09-45e8-945b-dfb8602dc229"
                     }
                   ],
                   "Disabled": true
@@ -1143,7 +1148,7 @@
                           "$type": "Forguncy.Model.StopCommand, ServerDesignerCommon"
                         }
                       ],
-                      "ID": "d26db781-3964-4c6c-b8f0-803b3deeee45"
+                      "ID": "5d2f4273-9cd2-400f-aa8e-090f300b88d5"
                     }
                   ]
                 },
@@ -1229,7 +1234,7 @@
                           "CheckDataValidation": true
                         }
                       ],
-                      "ID": "44238ece-6d04-4b61-8b73-44416d7e95f5"
+                      "ID": "554a1cb5-b8eb-424a-b60e-2466e270fd90"
                     }
                   ]
                 }
@@ -1345,7 +1350,7 @@
                           "$type": "Forguncy.Model.StopCommand, ServerDesignerCommon"
                         }
                       ],
-                      "ID": "53864ef9-0531-4461-b9f7-21ac08d2001f"
+                      "ID": "f3e41eed-eac0-4f82-9b3f-5326f5118c3f"
                     }
                   ]
                 },
@@ -1522,7 +1527,7 @@
                     }
                   }
                 ],
-                "ID": "59474f07-ec9d-4428-9c33-035c6f6cc4af"
+                "ID": "24adeef1-0dfd-4536-b7d9-cb7c465d2582"
               },
               {
                 "CommandList": [
@@ -1542,7 +1547,7 @@
                     }
                   }
                 ],
-                "ID": "1f6922a5-0a2b-4fb7-bf87-55107b7d2a86"
+                "ID": "82188465-bb09-4c5d-87aa-94d5babecbcc"
               }
             ],
             "Disabled": true
@@ -1618,7 +1623,7 @@
                     }
                   }
                 ],
-                "ID": "e3dcde2c-de57-46c9-80fc-523c86551b7b"
+                "ID": "fa1a3165-c1ab-411c-a740-a36cb69d7b81"
               },
               {
                 "Condition": {
@@ -1674,7 +1679,7 @@
                     }
                   }
                 ],
-                "ID": "3486e1d8-e0a1-4203-8ee6-f33b9c279d79"
+                "ID": "43b9dbb0-0b0c-4ef1-880e-9b877cbf79af"
               }
             ]
           }
@@ -1852,7 +1857,7 @@
                   }
                 ],
                 "Comments": "筛选已入库的采购单",
-                "ID": "eb7a8c65-4556-4f09-9069-ca2b77480087"
+                "ID": "4f67192a-7066-4e18-a1bb-c7b075563976"
               },
               {
                 "CommandList": [
@@ -1895,7 +1900,7 @@
                     ]
                   }
                 ],
-                "ID": "8299ad34-4017-44f2-ba02-6a767f6da26a"
+                "ID": "28ead7f5-e9b4-469d-8f50-2c1cd5330c4c"
               }
             ]
           }
@@ -1981,7 +1986,7 @@
                   }
                 ],
                 "Comments": "筛选已入库的采购单",
-                "ID": "923cc554-8c0f-4699-a13e-ac5aecd42628"
+                "ID": "397e1116-c0fe-4b89-84d4-89efaff4e090"
               },
               {
                 "CommandList": [
@@ -2024,7 +2029,7 @@
                     ]
                   }
                 ],
-                "ID": "347176c5-93ef-4781-bb7e-50b7f891ed7b"
+                "ID": "ce9eba4d-b603-4c58-87d6-b598a05fcee5"
               }
             ]
           }
@@ -2445,4 +2450,4 @@
       "Size": "1376,484"
     }
   ]
-}//mlVRlHTkQdLeSAn6dFaW/F8K/hvQobdkAoua3sn96GRwwJMiuDSQfVsLIDWcSCAj7LgSx3BT+PPYwgsPIOXYhmROrNA7uWAzF2JB+KXCSHndoB8I8IIQ5tBTNFM4IjwYezGTh6KSP0GFqZptTRBg/N6wu4bFdqXuBCUgXDvNVUtWIJOx9ca95ehl1LMGH2TkDkaN8mH4vJPTFZ9dy5l/vgFYfUN2PxYOWgF89frdkcvKurW2FeRBMAesNAAlF+cj1TsWAvZ96kRphQBSbaYdy+qIpgdvOmRxeDP3Lz0qMnQNlm6OcHXmNsP2RdiT+LTb5ozO2+6ccDuB11kqQzFKKl0cgyCfNvtnz8yNueO6vl3bycWze9T49SjlzYulI1/QfC+nZ6Y59NQ16HKeYusy08G2xfNTkK7JXcqmh1nooQLejW11RVF0ZvH0abxBJMStxrKtSYwMkGa8BvmzZsz/LpxWT7lF4n9Qj1+whAnVfpibqnlbgAEgqljd8BGkoFc+/VOeNk0qP2ck5O2BAia3FYFtn1XZyiXAUn+VcWbE1i3t34poBPQC2Wgpm+FEiOx+aUAVuhUQUGj+/+1DeJGu1F3x0f11tXgtlaBEHDBjo/VL/9P9ZRLglwuawoCMxn7HyziEC72MOLhsnjaG/pJhWSfUdTjKaWq4nP5QZOsVvQcWnXLKEx+TOoVd53RDPkWECTD0T2b9+Ux879KlIWEegJZh5XfEX3GxcvDEt5e8adHd5qeADZkWzulw01iqygU7EipWscp/vAnxmfk+W7s7bbJb4nmCxj5jZBPsclBvUV+yjjPbMlyCt+WEifbsE9uHmPwy9YDKnHuQ44pHktfY6ofAzDbNR/PhdqhTzFIAp1ojBlvh4PXLLf45v/BBKDq9B9GrPm+Ot1CAx90FaIQPbg==|920
+}//vjrmc4JAE+JRATPI9qkKCByi+NrfZlGyPQjUVnxKm7i4kcZwE1glWNdw7cJ9uoz/JWbmZL4j31+DXx3em4OhbzLgpAyo/BmkwE8dfU1iz5jp67wc5do9Y5wqn/YxnstcJiy+QEYtcwqYfznKa1u9hrrslQDYQjjHPZOt2UhfqB5L04q3I3cYYGe4z/uz79kXXtYTxnNpWZuXxFaoINRMaKRsxlWu4Kugp2h0z03Cf9I9eyo76euEHIvwUtZU3p1ZFsrFrt6H+jCWN+ju+cqn5iCfJvQAFnjM720LHeJiKaJ3Ohecb1AqBizcoLt+M+3CVY3SJV7NWRXsokZv22yJ8AVRoqRPKATWarAxujLx50tSEczN2Hxph6TeFL3zrtoYN7M5ERSkysR7xyEBfwq2k+rDKU3PKi4S0zuwcoeRaRQ7dwGHHSVmav19kV0Fh/mIaPn9G3FjPKStgdUpbv2f13HWCVnp46/CjRpRKvKSvL+f8fPq+EB+wNTMeCDmjDUkW3StQlvqHy7amichvsUvMfevrg0bKDqtSySHZxO+QOLzKcIVIaEmlJYBXPeS3yYi8YflNE01zTPvr+pSJjz/0JF1Np24PYB98CW587kJ5d8PqLzgjWxuh1xzo6oSTcqDaTDg9J/M6QRaZIx9ZgSyzxPwRLJPln+Xc7tE94WwOoGaIYSNV52UiXOguB5PHM6QZl2bfCq6PQNhLzOr8rKnHYJc+LLPwa2Q6QA7JU2zSLgf5gtuzQCvMuOhDDvcWFpMqyFvfnuLSZlUTwYgUp6LbR61mH+ZFhe0WxGLx5ArUq+HoT17T3BKvIZoRA0RCQuN6rbLCTC2ylkPiR26CY14ess68caLFJAJM6qyy4g2BAiwY9YcJfgCMISQqv4vHpi+bGPpeWRcrjoEK0R+JLCSfg==|920

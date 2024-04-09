@@ -575,6 +575,7 @@
           "TableName": "item_type",
           "BindingInfos": [
             {
+              "GUID": "6e56da97-fea2-4c4a-b14f-86677ad1ab40",
               "BindingInfo": {
                 "TableName": "item_type",
                 "ColumnName": "ID",
@@ -583,6 +584,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "2c6d48c2-441c-4e48-805b-54e4a5b91de7",
               "BindingInfo": {
                 "TableName": "item_type",
                 "ColumnName": "type_name",
@@ -591,6 +593,7 @@
               "ColumnName": "label"
             },
             {
+              "GUID": "e5be5f2c-4203-48e3-894d-b34889a3ea28",
               "BindingInfo": {
                 "TableName": "item_type",
                 "ColumnName": "parent_category",
@@ -726,7 +729,7 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=采购明细表!AW4"
                     },
-                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                     "MethodName": "set_RightIcon",
                     "ParameterValues": {
                       "value": {
@@ -751,7 +754,7 @@
                     ]
                   }
                 ],
-                "ID": "765aa972-9650-4cd9-ab95-90b61f814e4f"
+                "ID": "89b9d4a6-ee26-48c6-98f9-bc53131bc866"
               },
               {
                 "CommandList": [
@@ -773,7 +776,7 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=采购明细表!AW4"
                     },
-                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                     "MethodName": "set_RightIcon",
                     "ParameterValues": {
                       "value": {
@@ -798,7 +801,7 @@
                     ]
                   }
                 ],
-                "ID": "7b09e9e4-cbfc-4d0c-8e2f-7c5dd0bb4518"
+                "ID": "491153b9-a463-46bf-989b-8e0ad4bf22dd"
               }
             ]
           }
@@ -854,7 +857,7 @@
                     ]
                   }
                 ],
-                "ID": "9e80e007-6eb8-4a50-9276-37616dd0f73a"
+                "ID": "02e309cf-b872-42b1-82a3-322944e976f3"
               }
             ]
           }
@@ -907,6 +910,7 @@
           "TableName": "supplier_customer",
           "BindingInfos": [
             {
+              "GUID": "90205d51-f473-46be-abc9-da6681f4dfb8",
               "BindingInfo": {
                 "TableName": "supplier_customer",
                 "ColumnName": "ID",
@@ -915,6 +919,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "635b1003-2e62-4c4b-b4cb-dac8aa3ad699",
               "BindingInfo": {
                 "TableName": "supplier_customer",
                 "ColumnName": "supplier_customer_name",
@@ -991,6 +996,7 @@
           "TableName": "item",
           "BindingInfos": [
             {
+              "GUID": "3f3fab4e-ea1b-43fd-8f1a-4176bdab696c",
               "BindingInfo": {
                 "TableName": "item",
                 "ColumnName": "ID",
@@ -999,6 +1005,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "5e16bd48-3c6f-4846-ad89-b8f7c42bb3f7",
               "BindingInfo": {
                 "TableName": "item",
                 "ColumnName": "item_name",
@@ -1704,4 +1711,4 @@
       "Formula": "采购明细表!$BD$6"
     }
   ]
-}//VKLfLOfriMnM+N+tgRQeeHN0V7T+HRp908q7ShTzBNWjKy69pc/scVIJerJTl4VNG/ksFeViFYrImt8X/hT0OvC/H2hO5gkm7pRaNg8WSbNfN261jRa/uygOx38ZcVw44NTtUAYC61RwZq1fKq0WCYTGu4N92HVWP54VZlnstjc2JhuSQeCDTalJXcKM0mtg+ENZBUNEC+I4zTwf3uSUgAjdbQOS7+bX0blWdtKI2Ms4OEjWAO/CnXPZ4Kx2kOJeUf1BfDtMxqlY/Tc/2AWoQReejgKQuEQ9bU0sVgUvwWoIOHYFmQPv8pMvGMqAAVpKdPrvGgzVGOHhVv4uVMG8dxjSv1yci/wLnV8NM1lN78Su+vSMg5/jWXGcvxk5/a2DBoSNeycq/kbEC4dqe98NgLSHjOCaatUP9laZEMUmvtinEqMPS0rR+9xOAYbuMPZhgj71Bg6o1YDjYrJ2FppN2rTCLt72WG4TfSfhUPsEG/gPOI4cGyqaN044tszcqJsQ8b6yzYyo/DVT2OWDWhfFVmh8bZvz4S0SblfmdyTe0MTS5olzcGZCyf/iS6NW+7N5paUyjssENhno+HTQjbM14Mv8xY0HqWvtHVxHUiSCvTswAqQAJZsiScdA9zuLJaz51Wyq0BFGispMJGJexk7tcV2RSaLHYXaZabgpMp5V3DWoiVdHv8HYpnGl3KsIqfyPTghTSQ0SMG+9bNoNeDns4Nk77EuEOcDAZfmMUN+Kkjx90AEDBQGbpJZw3O085A1HS+r78QRJPcmlYVQE7xY/k7dl4KiBMuATNatmJZzh8jLw+3sSy7Z1EQ3o4Lk+VKkDTWd/x8Mk5U858IA6qdOJrjIcKT+DYTNOHZ9iyw6njhg1AbiO1nQDfUzAAGzmkqfoWpkKvYZEWPjNAeQ+B4RQcw==|920
+}//N11mkRCukHvUngTPsxB0+1AeX+ei1X3Bx36snj8YHlLNga3PNFZva76tjXhPrwbMls1oU16XvrqOYUEO17B3cv65eh7dvAX45XT2hPEh8SYqH0w/lYjTBYcMLBrOZCGgheQAc9QmblmFNAwUUbVu0I5neWn1t4ITuhrYkE/oqT5UGSL9xd8KWAUYks62IwCrFElisaiLWggdslgpjZvFhvQrGM94WOx4R43/5JuTAr7v53n/5aRUsg9XI8OKfx5jTETNGEqYIfNlSQTuCzGiDx+ESJ0gqW8XvGF9dd0KpeL2orZjGOMBVZ6+n/S5/+3+BlsYpLB7l2lVU43dxGW2cbcgrmwPQHWp6Kp1U9L/7t7iuTEHQfMmYIDa7MCvjNfeAhzSVb7pTXZV4a7UFXo+c77/suPd178LJiZMUnErnJt7SSIZYOjTAkHybd8PF368d6xpio7elomsYo+8y1E5zv3brFwbnZCbASQtqh0C6ZU9zhblZqCgydKNb0a9QAmh8pEMsE51EqLVt+U4qYqI2sYLKcOYiGbpZvZcVOnLR+zDObV8V7UXWf9zuWcfeZ1IOsLBgdZC4wnisaMEz3+mFwmLr5Wk2GwEVejuLckHganDDhp0bIxsIhJ45BpO5+vSuyk5PiDbhZRpEOUxUV9hyu51ttOYaNp0b1SFEh+VyuheNilAV/uNwQb3SHBCyrnaB2UJxZQoU3YtQt0Zis1FuDsb3ngCWsa0ldPab0Cl5samioW+5yyH+wW2D3xatbp+CyoEWGltik/fDZrTR7zua5T/mTYKsrF2CwrYf4PaxR6p9zvPj4DlUzbGeG5TxmJU/WN4B3h4uHWXeN8EccoP4hAE5VoiqyBuqTScGVGmM7pLp175ygkpMzJTT/AlT1XNaZpGJUMyefy3CoNUpGjxng==|920

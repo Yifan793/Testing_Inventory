@@ -584,6 +584,7 @@
           "TableName": "item_type",
           "BindingInfos": [
             {
+              "GUID": "ccaeb8b9-9b2c-4915-80be-f53fc1b44fe4",
               "BindingInfo": {
                 "TableName": "item_type",
                 "ColumnName": "ID",
@@ -592,6 +593,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "b0703cbf-03e7-4a89-89fa-85eb1bff1aaa",
               "BindingInfo": {
                 "TableName": "item_type",
                 "ColumnName": "type_name",
@@ -600,6 +602,7 @@
               "ColumnName": "label"
             },
             {
+              "GUID": "d6f2298d-fc32-4d31-893b-eb682fb1eae5",
               "BindingInfo": {
                 "TableName": "item_type",
                 "ColumnName": "parent_category",
@@ -713,6 +716,7 @@
           "TableName": "unit_dictionary",
           "BindingInfos": [
             {
+              "GUID": "3d206772-b19d-465c-b33a-274815a918d3",
               "BindingInfo": {
                 "TableName": "unit_dictionary",
                 "ColumnName": "ID",
@@ -721,6 +725,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "ee85412d-bdda-46e1-8b72-14d33cd828fb",
               "BindingInfo": {
                 "TableName": "unit_dictionary",
                 "ColumnName": "unit_name",
@@ -1281,7 +1286,7 @@
                     ]
                   }
                 ],
-                "ID": "826f8729-5aba-445f-900c-9dad1856e69d"
+                "ID": "4569249c-8d70-4aa1-94c1-293f22e258c1"
               },
               {
                 "CommandList": [
@@ -1294,7 +1299,7 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "2f53c6d4-b762-4478-87df-91d1aaa49aac"
+                "ID": "048d032d-f54d-4671-96c1-01aa4ee444ed"
               }
             ]
           }
@@ -1768,7 +1773,7 @@
                 ]
               }
             ],
-            "ID": "8518e18a-d4d0-4ae5-95b6-e83d0d858ab4"
+            "ID": "757b4d3e-a664-4388-a5e1-9bacf707b832"
           }
         ]
       }
@@ -1857,4 +1862,4 @@
       "Formula": "新增_编辑物品详情!$AC$6"
     }
   ]
-}//YDr0Y+UnvwyoYt9ARoja6x1iUueSVeDXPUpI+NZaFdbPEYsI66ta2gBRfDv748ZHUuNVZ78MMYIZwn1WNQbzJHD3y1SpOST4cWqTmDi7I+NYe0/MBp1arYdKOIDnLeW32W5l0y4rRBDhuh1tq3lzL9hHTQqLwEoTLlNB8+xY0MAnAjB4hFls4LueFLRivrvckGVfxKIn/Jd6Ah1jv9bcWuF0OwMtZugbHMClCU+HAT53EQ6J98ZNSPQ9kCtd6qu3T/Cbp4ceihVRnSjutBjQI//yKvJkrNAPRRHRmFazvGn4sGKiVOwNSEf8+4YwfN4eORTfcw+7ynFuMGyxlvMUOTjp/jc0cg/111nc3FcJnD5bZlZkOSyVCgR5HsWesr6zVPqsbwZMb92P/Fhp6p4OkvC6ibWXC7zdm4MR4qnbK7eOGIKk4FKrR/yjAoWcxTbNuAYAEEUuhJ9eq/bIq3W5vtPDLCZU+WJJAx0aqTENG+d5xcwUdPQLnOWs/tLxBTHUS5n9tmFsT1TLRq5vvD4atEpTbsBTzUXX7nXdsE+4FrneCc8CtHY85+/8CR0E0Xo+Q2Y7yNvispu9ytX86xxDhL/bRD6n1gvzWzUSjY6WFCavgZM0+IVcRHR05mlnbehzHC00BwQuNdPC5jk9zVhzvVkF4kQEoZWZKbs8UcYp+dnyI/KPlByOgEJNG5jmLNa8L5URVqbb+vc/gFXaqbCnHJNdGugWKj5o/RurDdwE2CW/dDbko7HENUS0RgiHMFNrpUkToRcyPhz1Z0KHvNWdTrZMHg0PwVipuy5bVzDpF9Y/61H9FW13+9F7LT4T1WtLNHD7iSDk1+6wMvJtlgeY28KxSeIT8hdW2TXWkXZlZgMhoa4y+qIWInQIt0dbdCKfOQXSyqPhzck1+V8CKBdzTw==|920
+}//CEaKQ4EUvhwfeg4N2Kg8ssEbbzvB6IW9dOofCqYBF75umbVXCL0SlbqEuMAsjb1uCoxGMT0mZ9F5LZA87fhnqZlB20gKJR4ruty6BWwSOOydeIWbVgDZIqwBbLivyRVHlQ7/8V0pShGzIVazwkYf39bRpt+IgwEeDlaMAS5bPuTSkaQqc7TBtUyH65BAk8giZjed7OVpcJOsqC+nJmfi6p9qjLa06mFyOPmVyJBw+TVVSZevYEdRNYyFFoP4jh9k+S8K0i3GpDlYBRkrNv094GRSLgTyW52bX1aY467AGh2AmFTdNjEHlNO5IteHJ3pWZsIjlxT/SqRoqYrC4ixs3L33SoK7oDowbHEDbe9THIeCS/U7LfJeEs+huGvZCZaJc7YCUBr2S4OlnlXIZjiKE3dkF5qCW1heSSPSd9USzXnhHqumfPwEaEkowCEcx/OUpcZjLaT5CwhUki9jTtb0LZJNaAxtbK0ioFuUmqSI6Rgh1beWBgpP4oeWPrhdzTQwa0470o1YIWQyzL0JDq3xxhTPjCBaVW4pAVyPlmGVOD98yAGcidsDZBSk7t9vxTmmqrvMX9fOCS8m8kzGKCvUj76KZPurACOwdkOgq1l2AEBxrXQzOUNR4mmuGD0kUYZPQDv1qvi83UetSFERG5LSFuh1Pii1KubwJiavh1A7dY/DWjSjTsbsOhaNJDEnwiBIVJt7P/HywkqLr+Um0JiHA81ji3Fu646N/7YzCGGWx94hs0tTVL0n9kXfq5svRZQcdQt+T0Zs3S+QtBi1zRAnq9ozkF/4M6Ww7t3Zwt7lIGZ4ZkCqEDx++EJnENLLc6Qk8EcyPnqltYDTOrCC6J27NnDHnrQ45Uq8QaKxoR80NB4ufWzYXuQSw0jd30JCCRrKlfPvNtoq6DV+/Kg7aoejag==|920

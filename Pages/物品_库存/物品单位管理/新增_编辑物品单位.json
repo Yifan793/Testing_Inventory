@@ -144,7 +144,7 @@
                     "Message": "名称不能为空！"
                   }
                 ],
-                "ID": "475e338f-163e-43a3-b6b3-121a0622fb43"
+                "ID": "8f9cf1bb-b8f3-4077-8b85-d290c723aeea"
               }
             ]
           },
@@ -155,6 +155,7 @@
               "TableName": "unit_dictionary",
               "BindingInfos": [
                 {
+                  "GUID": "87249847-e1ae-4edf-b6d9-cfe0d2ef4d1f",
                   "BindingInfo": {
                     "TableName": "unit_dictionary",
                     "ColumnName": "unit_name",
@@ -175,6 +176,7 @@
               "TableValueType": 0,
               "BindingInfos": [
                 {
+                  "GUID": "45438044-6246-4e51-944d-ed4d4e0e4cbd",
                   "BindingInfo": {
                     "TableName": "unit_dictionary",
                     "ColumnName": "unit_name",
@@ -257,7 +259,7 @@
                         "Message": "名称不能重复！"
                       }
                     ],
-                    "ID": "88970a77-de05-4101-a6a6-c6b9869c58a3"
+                    "ID": "d796fcee-d502-4221-b293-a01fa4a1562b"
                   },
                   {
                     "CommandList": [
@@ -267,7 +269,7 @@
                         "Message": "名称正确"
                       }
                     ],
-                    "ID": "3abc9d0a-8669-43dc-9036-2cbf65127347"
+                    "ID": "bb976175-56de-4f3b-a03b-3b57683fe081"
                   }
                 ]
               }
@@ -348,7 +350,7 @@
                     "Message": "顺序号不能为空！"
                   }
                 ],
-                "ID": "5488cd56-58af-4ae2-a058-b499ec88fe94"
+                "ID": "9186ec0c-02aa-4f8e-8e8a-9592d0b18616"
               }
             ]
           },
@@ -359,6 +361,7 @@
               "TableName": "unit_dictionary",
               "BindingInfos": [
                 {
+                  "GUID": "3eb568d3-5a43-46a8-9e07-b7c0817905be",
                   "BindingInfo": {
                     "TableName": "unit_dictionary",
                     "ColumnName": "order_number",
@@ -379,6 +382,7 @@
               "TableValueType": 0,
               "BindingInfos": [
                 {
+                  "GUID": "6176f1a8-31e4-45ae-be4f-526ec2b4c74c",
                   "BindingInfo": {
                     "TableName": "unit_dictionary",
                     "ColumnName": "order_number",
@@ -461,7 +465,7 @@
                         "Message": "顺序号不能重复！"
                       }
                     ],
-                    "ID": "c810711c-0829-4358-9fae-70f600ed2ddb"
+                    "ID": "d247e804-45fe-4aa8-9908-5cb2eccc2c15"
                   },
                   {
                     "CommandList": [
@@ -471,7 +475,7 @@
                         "Message": "顺序号唯一"
                       }
                     ],
-                    "ID": "a788cc57-7f97-49d4-a6e5-d6d032fd0fea"
+                    "ID": "a14e6fe8-86de-4b57-94c6-ab9ecb01e9d3"
                   }
                 ]
               }
@@ -629,4 +633,4 @@
       "Formula": "新增_编辑物品单位!$B$6"
     }
   ]
-}//Lc3HoyAaruCMf7n5EqB1gYVe7Hmofggm0XGdpKdBKOt1hXbtmH6K8QF1I+5DASo2kUj1FzhPDirZ2+DTKmNlrpEgDt6INIOtXYTgfSyn7s2l4NaptFknADBTspev54fp63bhhNqxrfRGprVR5twBI3f50zZHndcoqCQZbOTcdn24J+maFsXXLQDm2ICUMJRLjTVoo7z1A3n1Wwp4h+bzk4GSi6w6ilV0HsXV/rl5xAQ2RbnrqIfIVLTp9dyW0mZD39+MYvOZkaPF0wN6OdMDSBc0JRW9xGKFPtDgJ0kS+ZlglqDyJHp0ufiGJdVbUJ4F6BKUCB+f/+MAhVc9r3Dpjisyg59jA9qL2e0d5LeqUdHwn+8VECriAJYpoe3WhuGHWttCfLJMq3rjgt9b4bhc0hStMEsS2yRl9t8GtyOV56z7GfZdArzHgGO79G5B9ZkwAW9D4hYhwIP8SEkspd4L2VAVr8Gp8P5wy3iNRJMRJI8INSjh+AjR/x68Qzg6HOUp0Fs56yKL7CIaQnEZuhZsvKkhgSEOpSjssrjvOKDZnRlElLsyG8+bPCiN2ETEX1fkT9PJ/aANjK48y+qV+guvJGSBGLmVsqR0zlVAsDl+grJZrYHlo3+GOO1j3WMqoVCOFVf0mu5RarJEawtstLuqRgoXyQSbrBhBFILAtXhZKA6spoZ4OTR8MKqk/Fz5HeoRXdmRL2BAjclNUTtb65WU3WAZEi7kuEH8UsL8zy38M4J+LCRtnlAr5Lx/NJ+lYEe+92D/Cw9jpLtbnHdsUP0+VpQ1qZO8I/bn0OCWXgjFevX3MePJ2OBRv0c/oWmzSsrv2LUYyyHDBdEKWwBtyEI1D9bEkGGaAXOMcpB3H+hEpg1oXIWF0kuqbQZuaALbxmW/bkd0D1pxwBt5Xsi9ScdVYw==|920
+}//UUGme1J1IIX9OH3QHon+ZMewfo7pRDurXl22QUCJ1g07laH8FnhjlV2MixSuchx86UGNkTroa6GggGxLQVmebNgL7AQlmUQ6C4MdL3xctV2xSqwcRRv6ftTyK6PcP6orJqNEeKRCAD6LNKk/yfszahiT7zgWi7pnlT4cxqX6hYAbkztF9X1MCXv0UkEkLRNMC1OgemJxrbGsPXz6MRH3KbbhQ4YN08bJIgnJ3ygtvXfqGg83VTiIMdLDI1FkKe74r9TJu/7+50oZUkTwLOb0GUlultWWFxsA0r2ZhTANlfmYnj1CVfBGuYbR3j23zifv71ukY4qhZSPAadOKfXnVVswQxmSPTffux7i+PhbRQK+1Lk86+T12xz0fMA5iro84Q0W5Rbk+ExmkIfYoLPDwyAwDNlNw6mP2nnrQhGKy1TIE1rzNXxM+w820Bp0oGPgFUk9dUg8nzUzy42oCzuQUrQC8YabZDbZlRUUKYRiLQ5tMRxZvt1lNL4HgBCY1hAchhSIF2fnG9/s+uh5DJYhnxqbRb/1mLhTP2mDqytU0HfgMHulxzLNd00hZLXEPurIpWhGJI8MXRjApNEvY9X10dH8WXk32+gyBLC36ax/J4j/r8vEBR0pdJMv3/AH1ujqKinXSTSQeDt2G3c7ile4mQKnRR9w3zQE4p0QT5uMJ/owXYuGGbS+dtWdF/Ph13S9cmnGf3CC25fgIMhlzrVDfgps/PoyyrvrlyTgqjdiQrWL56w595308tx8PJi57dFvdE8TFSEW1V1uxanvuSm5/dfnpb24yA09hCbXwBP8xyf77oBr/KCWfvsHkope8oIEfCfZA5I09iMaKt4bzHaxH8Dg6jQo4+Ua4KJLRS988XZs+31vfsdrF1fqN+tzZ+pAjb2ol+ZtnGyM2/TGjm/Y5jQ==|920

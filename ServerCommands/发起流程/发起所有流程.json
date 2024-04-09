@@ -17,6 +17,7 @@
         "TableName": "sales_order",
         "BindingInfos": [
           {
+            "GUID": "ebf2fef6-543c-43e1-842d-7e95c42596a5",
             "BindingInfo": {
               "TableName": "sales_order",
               "ColumnName": "ID",
@@ -25,6 +26,7 @@
             "ColumnName": "ID"
           },
           {
+            "GUID": "ab9b5335-0600-4721-b173-147c7c7858da",
             "BindingInfo": {
               "TableName": "sales_order",
               "ColumnName": "FGC_Creator",

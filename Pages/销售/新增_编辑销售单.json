@@ -482,7 +482,7 @@
                           ]
                         }
                       ],
-                      "ID": "b639dda0-e927-4745-8efc-2a248c883da0"
+                      "ID": "2affd649-632d-4ed7-8c36-002d5c89639e"
                     }
                   ]
                 },
@@ -825,6 +825,7 @@
                       "TableValueType": 1,
                       "BindingInfos": [
                         {
+                          "GUID": "62c52945-1b4c-43ac-a2cc-c1cfd5a48b31",
                           "BindingInfo": {
                             "TableName": "item",
                             "ColumnName": "ID",
@@ -833,6 +834,7 @@
                           "ColumnName": "ID"
                         },
                         {
+                          "GUID": "67ea01b8-14f3-48d6-8eab-4d4a1192857a",
                           "BindingInfo": {
                             "TableName": "item",
                             "ColumnName": "item_name",
@@ -841,6 +843,7 @@
                           "ColumnName": "名称"
                         },
                         {
+                          "GUID": "d6a4c89f-ddc9-4f7e-861b-51d0903cf66e",
                           "BindingInfo": {
                             "TableName": "item",
                             "ColumnName": "sales_price",
@@ -849,6 +852,7 @@
                           "ColumnName": "销售价"
                         },
                         {
+                          "GUID": "4ed5a865-1f6f-40db-b9ab-87365fed7a83",
                           "BindingInfo": {
                             "TableName": "item",
                             "ColumnName": "inventory_lower_limit",
@@ -857,6 +861,7 @@
                           "ColumnName": "库存下限"
                         },
                         {
+                          "GUID": "a7520be8-15e1-43f0-8e7f-1db6d6af083c",
                           "BindingInfo": {
                             "TableName": "item",
                             "ColumnName": "item_inventory",
@@ -924,7 +929,7 @@
                     "UpdateRowType": 3
                   }
                 ],
-                "ID": "fded2d72-8881-4df0-bff5-80ca7001fe96"
+                "ID": "66eda52a-e368-4696-a894-b1caa0c9ecee"
               }
             ]
           }
@@ -1096,7 +1101,7 @@
                     "UpdateType": 2
                   }
                 ],
-                "ID": "fac55ad5-d3e1-4fb6-9333-777ddc43234a"
+                "ID": "843091c0-0644-4433-9459-0cba6b19d869"
               }
             ]
           }
@@ -1156,6 +1161,7 @@
           "TableName": "project_table",
           "BindingInfos": [
             {
+              "GUID": "cd5cec3e-250b-4426-a8bf-8f6f7b450d54",
               "BindingInfo": {
                 "TableName": "project_table",
                 "ColumnName": "ID",
@@ -1164,6 +1170,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "10de25d9-d795-49b6-812a-a3e5e57d0011",
               "BindingInfo": {
                 "TableName": "project_table",
                 "ColumnName": "project_name",
@@ -1278,7 +1285,7 @@
                     ]
                   }
                 ],
-                "ID": "6b1b3017-e68e-48de-a147-6e8d4c5c6885"
+                "ID": "0f21f10a-6e34-4067-a053-78e5bf33a8da"
               },
               {
                 "CommandList": [
@@ -1438,7 +1445,7 @@
                             "CheckDataValidation": true
                           }
                         ],
-                        "ID": "c5a802f5-523f-423e-920a-ee85c249c8f3"
+                        "ID": "9fc06d0e-c557-42bc-815b-0a4ff474bd40"
                       },
                       {
                         "Condition": {
@@ -1598,12 +1605,12 @@
                             "CheckDataValidation": true
                           }
                         ],
-                        "ID": "f438f23a-9603-473d-a570-1abd895b05db"
+                        "ID": "f085eebb-2f52-44e9-9246-39187631d137"
                       }
                     ]
                   }
                 ],
-                "ID": "498f01f1-553d-45ee-8f12-7e679b93b158"
+                "ID": "5414ddea-f890-47e1-b80a-90bfcad1a463"
               }
             ]
           },
@@ -1680,7 +1687,7 @@
                     ]
                   }
                 ],
-                "ID": "fef3e9d2-b654-43c3-a78d-2555f45c9e61"
+                "ID": "12fc4456-32a7-47ed-ab60-7192a2443bb6"
               },
               {
                 "CommandList": [
@@ -1856,7 +1863,7 @@
                             "CheckDataValidation": true
                           }
                         ],
-                        "ID": "3cb4c712-857e-46ee-a1f9-621a2349cb4b"
+                        "ID": "97764c96-b514-4e32-9fd5-1287d1327b79"
                       },
                       {
                         "Condition": {
@@ -2032,12 +2039,12 @@
                             "CheckDataValidation": true
                           }
                         ],
-                        "ID": "569ae765-f84b-40e1-b81c-d640b835fa17"
+                        "ID": "a2ab3dd8-ddf3-41e0-9abc-252a12414814"
                       }
                     ]
                   }
                 ],
-                "ID": "a8353b69-cacd-4683-a68e-aa7090059506"
+                "ID": "d4364034-6efc-49ee-bd53-8daef0880eb5"
               }
             ]
           },
@@ -3205,4 +3212,4 @@
       "Formula": "新增_编辑销售单!$AW$9"
     }
   ]
-}//hWrQDzxJvGWz4kj0CIhjqKEz+pkt6qGt7OnW6VI9DT6ekHv/6BPBaGmSEm+PXoVWQaqy1aoPAKaGvQNcGzoRWi2t9Xoz5PwPRLPWWAhct3BWDe/VbzfMWIMVvXgHOGlBdg102HcCca/brYISVSKi0bpw5H0Ta2qqNtirkZqiZjGnpx4+q4Z8vCrkWryOHWUCPcCeJgxcD9l2UqQOxJJkudQ5jAHDV3YJA9idvX1nvpF5g6qP7iXt7EJ9BPe3IXZBIQL1H9IA6u47I3fJfTuUGyT0S3nKc9LfFsG9eHI/YpMt/m/HYPgOSsosL/5Pdx14qN/IkHt5fW0KQBzV6jP1ddvmBpUzpiSku1+kkDBVX5U6zN3P3y+l9CaRwzbRuT5BaAov8dgfxySAsMiC15HVLFDOmWUK3WmsvZzxu7nyb0gPmd5EBpoVRtlcYTFOEmGDyR6x/xAqtld+9roDx0O0IW1eDzK/k4KRuSBndgpscJIf2F2wFy/u6QbP+qIXRHBY7vwLKzQKux0fUGHJjpVaOBfNEKOEt/04ivj1qPmg/jO/ykkvs0khlPzU+hTDbLoJpXhGEEpueZNmQRRphO+7w0qLDoGlVn7OjHrmN/8LkDbCgxnI55H0o/hc8y0HaS3t7pl8ckevh7QWmXhXum2oJQVUyE0jBekXPlHkLom3vmrgVRWOnQFs1RrhsbD4nJ3K92KyqZmatNZJyoBDrbdsDocStPPt1L/klSu1i7bnuoBKsevdQpHb5TRTj1vzknM0TjnYzU2kL6SFg7klWPI9mEMAGpbdIfNPIP7BPCi+z6bWkO3rf96PRueCNFN2HN3aA3zK3HtROdhiEx5Gkca8y0ceKbrPMDuNQC1cH7KgH+NhlfaQiOTwRCQ8eJ2k1kmK5rvGZMdSO4hA38qzP2Fa1Q==|920
+}//Tc7kwTWBiG/tKOK+AVWg8UTlH7BVYzCfhStZ2oFVvglwxxrcA7jgc7ApCSXZqv1QQhqAkxYGfkJeYgsFnSjztZTYLejr8FyDniDTKsgXKJqXBlyd/Q/OoqcBQ3tEjJh7qID0/zQR+I2tk4rhIcTkZ6Ve/G71XH1DO5lSRfB92+XxK5/bJ3gbscsHQLUTaE1cXGHxo6UHgwxoRJELAvqDw5XEcb6mlsU2T1ByXXjJrtdZf5AfVOx4eScONhDRcjsJv45gtJcP+3cEnpmV6UHAvSngySWwrsEvXjVdvUjGu2/i1SDoluA/LHQ/TywXgNB1G87pYLBrZ4MMCDwt29Fj9zjfhv+UsGueZGgdwESAoXvxCCWDdEhhNDaPES0a39lGdqv3aBKCTtDAdxbmBR5tVzFVABGPI9C9dgc5JyFEyMQBS2CdXO/7BO716FPHLmMtxmKnWrH0kX0YAfK4snXe+Ya7qrYQpRg1X8FRgWLV/tEuoXbrj4Q/rKjTCboBlP25w40ofrqGBAxMbC1AxSPvEzbwtywiKzEWRei6QlN0Bnbd4QoN9UV9IQrvVTHEBS8F5Rqzp7tWchYHgqn37ah+Nj2glWuxeCCv3YknrWeS7nuik1wF0Md4r0o/5Zurv4EizviUFM3wwqyn1f1dm2gXiRRFUrkkVHibLUBz8jdTrz5zE578+KmGqUTsMgFWm/zbg3vNfJAnUNbYaQYFebBJtF5AZEDik0Z1mcq1rjgmtDvdiYNgteuf7Sc6QxzO21G+IiZi+K+4jHN6fAjuUaNj89l+YtLoJLYu1KTL5FRVgQRpWPlnBmZJSSi25zN+7l/ThGfIRDQJrK75j8X5NRXRwvQctyOhl+X/0USTad9FULGE+8rsrx3n5vv3vPzoxFsUdW5LXnaan8FzrxF8DivZEg==|920
