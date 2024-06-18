@@ -114,13 +114,13 @@
     "8,13": "H",
     "8,15": "P",
     "8,17": "C",
-    "8,19": "E",
+    "8,19": "E2",
     "8,22": "C:\\ExportSales",
     "8,43": "审批记录",
     "9,9": "前端",
     "9,11": "E",
     "9,15": "P",
-    "9,19": "E",
+    "9,19": "E2",
     "10,2": "销售单号",
     "10,10": "客户",
     "10,40": "项目",
@@ -462,7 +462,7 @@
                           "ID": "4e47f451bafb43b795c372aa316d4321"
                         }
                       ],
-                      "ID": "98707328-7ab2-43df-ae19-6335192a379d"
+                      "ID": "1782b0d1-35e8-41df-9847-f88234de958b"
                     },
                     {
                       "Condition": {
@@ -595,7 +595,7 @@
                           "ID": "103f7890a1994e6b91e05008733c685d"
                         }
                       ],
-                      "ID": "aa71b462-9c8a-4cda-bbbe-911b37761f06"
+                      "ID": "bb9083db-d294-40f5-b1f5-3f33978d793b"
                     },
                     {
                       "Condition": {
@@ -743,7 +743,7 @@
                           "ID": "d13a9f628cfd479ba1b99e0eacad2e89"
                         }
                       ],
-                      "ID": "1004bb5f-2d97-414e-b296-e4b6d4c73005"
+                      "ID": "3430df20-a0f7-4c63-974d-67d8a5f698ab"
                     },
                     {
                       "Condition": {
@@ -897,7 +897,7 @@
                           "ID": "e65c5a8cc12a4ea0bb24df8b9bc92334"
                         }
                       ],
-                      "ID": "f4a0bb43-e50f-4be5-92d6-de6bbf131879"
+                      "ID": "b1abe309-2b9c-4b1d-94dc-9d3951a957cd"
                     },
                     {
                       "CommandList": [
@@ -1039,7 +1039,7 @@
                           "ID": "5ed196f79771482781163b827eb0823c"
                         }
                       ],
-                      "ID": "5d95acfd-7163-4eef-b4d3-b6afbcfa5685"
+                      "ID": "3ae943a9-b546-4be5-be55-537e4bac6377"
                     }
                   ]
                 }
@@ -2833,7 +2833,7 @@
             "CheckDataValidation": true
           }
         ],
-        "Text": "E",
+        "Text": "E2",
         "TemplateKey": "_RS_Main1"
       }
     },
@@ -2956,7 +2956,7 @@
                           "CheckDataValidation": true
                         }
                       ],
-                      "ID": "3c120bc6-0360-4afa-8401-d00c7d29d6d8"
+                      "ID": "4305bafb-82a9-482a-b638-73bf74934d6a"
                     }
                   ]
                 }
@@ -3115,7 +3115,7 @@
             "IsOnlyExportValue": false
           }
         ],
-        "Text": "E",
+        "Text": "E2",
         "TemplateKey": "_RS_Main1"
       }
     },
@@ -3210,7 +3210,7 @@
                     ]
                   }
                 ],
-                "ID": "6004429c-2f82-4315-955d-610cbeaa31ad"
+                "ID": "5939b6d6-31fa-4778-9cf0-9cfcdb57451c"
               },
               {
                 "CommandList": [
@@ -3253,7 +3253,7 @@
                             ]
                           }
                         ],
-                        "ID": "08038311-b467-4340-9ecf-7d470c0a1cdc"
+                        "ID": "51de1784-5131-445d-8353-7acc6900f062"
                       },
                       {
                         "CommandList": [
@@ -3279,13 +3279,13 @@
                             ]
                           }
                         ],
-                        "ID": "87f3977c-0fea-47cd-ae84-84505009effa"
+                        "ID": "01fde87a-f6c3-41b3-870e-4ecd25b88c4f"
                       }
                     ],
                     "Comments": "仅允许修改、删除 未提交的销售单"
                   }
                 ],
-                "ID": "e6eacd5f-22a0-4f1b-bb6a-c502a75fe391"
+                "ID": "61e118f9-1b49-474d-812d-1c47ff854913"
               }
             ],
             "Comments": "仅允许修改、删除自己创建的记录"
@@ -3322,7 +3322,7 @@
                   }
                 ],
                 "Comments": "审核实例ID为空时，不显示审批记录按钮",
-                "ID": "b8b2d4fc-fb96-49df-8090-aa83671475e4"
+                "ID": "96ac9e76-31c0-4262-b1c1-828d86151972"
               },
               {
                 "CommandList": [
@@ -3374,7 +3374,7 @@
                           }
                         ],
                         "Comments": "审核状态为审核中时",
-                        "ID": "ec154655-5bc9-4e21-9ead-8241186ab0d8"
+                        "ID": "c65620fe-a76b-485b-a620-5168a783cf9a"
                       },
                       {
                         "CommandList": [
@@ -3394,12 +3394,12 @@
                             }
                           }
                         ],
-                        "ID": "540b3900-de79-4ec3-89e0-b35d389166fd"
+                        "ID": "f9f91778-37cd-4529-abcb-cf8b7adf2ad8"
                       }
                     ]
                   }
                 ],
-                "ID": "9b432159-8c6c-40fb-826a-4d57f1557626"
+                "ID": "277c8e7b-f8a7-44ec-9524-923e4a973432"
               }
             ]
           }
@@ -4099,4 +4099,4 @@
       "Formula": "销售单!$AR$9"
     }
   ]
-}//zbCX5SPVRwyALux7Y/Mvl6t0cDBQNCARUWVpwUZXSL2hDC+pE4jQ30NTEBA/C/AWG9pHKNAEwr9K7duhZsyl+p5C59yMR3WQlYItaa5kyjJA/RvATOjNXI7lEmhqlz73wbifFbmmVSoKysBXZ//iQNWBJwSBljp8WLHJX6XHste8iVZ3ZDpwR0y2jfkcOllZk7+o+8BQ7ReSUhR77yx9gEYrWe6B2vqrS3jN6rqwLwGO1/xHNDtVhfLWesTSehVwbTxhvvxH39Z1YQ7m7V9jtveGA+0nB9KSxMki+1Lvj1yMBAZmeCg5Opw4dAwgjGliPh05Vusno+IzseDStzJrZgQVS6Oee1jHrKevxB9m91gpaoEUrs4+ySzuvZkjG/CIRT7PKrxVfRZUlzMNujz4Ouh+Stx+RDnoBZKvaCnpvTRUt8ZFUz4rJ3C/o4pExhEaBb9LIfRNLK4LpbR3I6pNY32PYgjY5FBVu0691COKUb7o/VnqPeeg583kRvkyjYGrQyPGH0xaC74ek5lmqfjv7ZpHXmLBoEW87suT8N4FF53gnUwpB0yc1JP0cyNH6JIRg7+/qk/a5lZNKqDotdWYjNs83+nxxNNIjNSCzxP6qU86szoywRxhBlSgH5WwwQXwDSAbvK3C5b0vsAHh1ZEHsu9e31xJ06jx5cAAOkWpFoaXrsR4JGMxCNE2m6lywXns1E3GoMolyjgv4G34H6l+88ME6U4X7ThQhEeWZ8xuPNUfKp+2Bt5JElfUL3No9XH3HpjypsdCYiw7gdt2ggDplXabqcoA+9FyzPxNnygtbX/RAoP0u3vMi3pl9Fn2TYFRvFW8bL7/XER2Prg3PXWCdCVEas69zQCo+HxV9da9D/90j6PRBXY5Y2iFePBvOW5M553km6cNv+9NArgfgeB++g==|920
+}//aZnoXRQ8ONOCLPD0BKqoX7aDZ2hW4UODz3Mdv/+qXqe6LU7u+QavCCYN8ErNgiYX0kArtWDYsvSQC9wk2NolIretN0VL0AqcZKtyGAZeMWupjzWsM/23fVbrHRMAq0MoZ4NEegLYQD/mvNj1yhgSJCjP9pCAIL5uvPIOXpKMryU5ymdufc+/go/nlXwYHxZv7Q/GZsxSwyX+6GLiOZPaus5JjNgsEFTXNndJpWJiyJLTCrqtFY1hvspz2XM8lrXylZNd+CJkHvzE1dNXjy1g+YnlDl9wCNypeeM665dIHVw/qFAIKzQn8k92pv1H3AOP8TAobK6FaXe8gaNSrjD6l/b/vCwBbZkjS41yEqBxCOS8ErYL38PDM98DkOqgiP5bJ+JmQ5407LUMkkdny6Kn5wJoSZS0Tc9Edg6vl3NMJCsKh+iwG+rkGkI9JNJHnm9CyynkYdp2ID/CBLqHMw7uBiv10nBBWd4mu3ZggQnFhLLFTCo3MIXvOAAm3wBR2fXszLOlOEyCfBdgaDEvnY9OJkNvwl/2iNuakQG99pm2rBHk2o/bZvlRAFazwMO5K1J1egYCeYbng6q0eYrS8qgKrCFcLRC8aMs7RqAOrBcwm1gCc+kVKc4Czlz/BrUWL2uWkk+q5CrJ6XX08BtNcPUu88s0N2occV0EISxljoh/KyCV7C8hZIulw+qAi6L3gXt9buK/OVIeJoDrTJJ5eFD7MVikrQ1XKo2/spFXX7mHrzUGNTB+B+8a1RWMhIB5nZ7vKMQ6vNVBLyTF0h7fxrt84yOz88PDbU4v/fq+gi3CaqgYD+AP7pHndlR1F9ZJCvkSFrGGTRYaGsnPG30S3NN+p+k+Hp7VXHdhkTQnhSbuOCBOCPWxyuZJzdkcJjmhZwOGnsQZk8b5RH8ws3Asja7w1A==|920
