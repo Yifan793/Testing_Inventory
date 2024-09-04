@@ -1,369 +1,483 @@
 {
+  "$type": "Forguncy.SaveLoad.ServerCommandSaveData, ServerDesignerCommon",
   "Name": "UpdateCustomerTable",
   "Description": "添加、修改、删除供应商表",
   "Enabled": true,
-  "Triggers": [
-    {
-      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
-      "Permission": {
-        "PermissionData": {
-          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
-          "permissionResource": {
-            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
-          },
-          "permissionBindings": [
-            {
-              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
-              "roleNames": [
-                "FGC_LoginUser"
+  "Triggers": {
+    "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.TriggerSaveDataBase, ServerDesignerCommon]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+        "Permission": {
+          "$type": "Forguncy.SaveLoad.ServerCommandPermissionSaveData, ServerDesignerCommon",
+          "PermissionData": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+            "permissionResource": {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+            },
+            "permissionBindings": {
+              "$type": "System.Collections.Generic.List`1[[Forguncy.RbacPermission.Core.Impl.ServerCommand.IServerCommandPermissionBinding, Forguncy.RbacPermission.Core]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+                  "roleNames": {
+                    "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                    "$values": [
+                      "FGC_LoginUser"
+                    ]
+                  }
+                }
               ]
             }
-          ]
-        }
-      },
-      "Parameters": [
-        {
-          "Name": "OperateType",
-          "Remark": "操作类型，包含有：Add，Update，Delete",
-          "DataValidationInfo": {}
+          }
         },
-        {
-          "Name": "Name",
-          "Remark": "名称",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "ContactPerson",
-          "Remark": "联系人",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "Telephone",
-          "Remark": "联系电话",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "ContactPersonRole",
-          "Remark": "联系人职务",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "Address",
-          "Remark": "经营地址",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "Note",
-          "Remark": "备注",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "Type",
-          "Remark": "类型ID",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "CustomerID",
-          "Remark": "供应商ID，更新/删除时用",
-          "DataValidationInfo": {}
-        }
-      ]
-    }
-  ],
-  "Commands": [
-    {
-      "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
-      "CommandList": [
-        {
-          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
-          "ConditionAndCommandPairList": [
+        "Parameters": {
+          "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon]], System.Private.CoreLib",
+          "$values": [
             {
-              "Condition": {
-                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
-                "param": {
-                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
-                  "ParamObject": {
-                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=OperateType"
-                  }
-                },
-                "value": "Add"
-              },
-              "CommandList": [
-                {
-                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                  "TableName": "supplier_customer",
-                  "UpdateType": "add",
-                  "ShowConfirm": false,
-                  "UpdateBindingValues": [
-                    {
-                      "BindingInfo": {
-                        "TableName": "supplier_customer",
-                        "ColumnName": "supplier_customer_name",
-                        "GUID": "80c75017-d391-491c-a897-df7211a6b0b8"
-                      },
-                      "Value": {
-                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                        "SerializeProperty": "=Name"
-                      }
-                    },
-                    {
-                      "BindingInfo": {
-                        "TableName": "supplier_customer",
-                        "ColumnName": "contact_person",
-                        "GUID": "e1d8a5ea-fb14-4ae8-b966-d34714f99de7"
-                      },
-                      "Value": {
-                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                        "SerializeProperty": "=ContactPerson"
-                      }
-                    },
-                    {
-                      "BindingInfo": {
-                        "TableName": "supplier_customer",
-                        "ColumnName": "contact_phone_number",
-                        "GUID": "b90d8f49-8d40-4131-8904-7250a3942e17"
-                      },
-                      "Value": {
-                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                        "SerializeProperty": "=Telephone"
-                      }
-                    },
-                    {
-                      "BindingInfo": {
-                        "TableName": "supplier_customer",
-                        "ColumnName": "contact_person_position",
-                        "GUID": "f30eb938-e70e-4934-88c4-728f909555c0"
-                      },
-                      "Value": {
-                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                        "SerializeProperty": "=ContactPersonRole"
-                      }
-                    },
-                    {
-                      "BindingInfo": {
-                        "TableName": "supplier_customer",
-                        "ColumnName": "address",
-                        "GUID": "a636d74f-e4e6-4d05-b07a-b9b3133f06e7"
-                      },
-                      "Value": {
-                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                        "SerializeProperty": "=Address"
-                      }
-                    },
-                    {
-                      "BindingInfo": {
-                        "TableName": "supplier_customer",
-                        "ColumnName": "note",
-                        "GUID": "c25682e1-a698-47a2-aa37-0450ce3d5223"
-                      },
-                      "Value": {
-                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                        "SerializeProperty": "=Note"
-                      }
-                    },
-                    {
-                      "BindingInfo": {
-                        "TableName": "supplier_customer",
-                        "ColumnName": "supplier_customer_type_id",
-                        "GUID": "9b74531e-6d15-4e68-b4ab-752aaac8dd4b"
-                      },
-                      "Value": {
-                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                        "SerializeProperty": "=Type"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
-                  "ErrorCode": "0",
-                  "Message": "新增成功"
-                }
-              ],
-              "ID": "eacf84e8-6b77-4b5a-b3af-a8b2512728a2"
-            }
-          ]
-        },
-        {
-          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
-          "ConditionAndCommandPairList": [
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "OperateType",
+              "Remark": "操作类型，包含有：Add，Update，Delete",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
             {
-              "Condition": {
-                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
-                "param": {
-                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
-                  "ParamObject": {
-                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=OperateType"
-                  }
-                },
-                "value": "Update"
-              },
-              "CommandList": [
-                {
-                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                  "TableName": "supplier_customer",
-                  "ShowConfirm": false,
-                  "RowsToUpdate": 1,
-                  "RowsToUpdateCondition": {
-                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-                    "ColumnBindingInfo": {
-                      "TableName": "supplier_customer",
-                      "ColumnName": "ID",
-                      "GUID": "17c18462-9585-43bb-b661-0d3eeb4abd79"
-                    },
-                    "Value": {
-                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=CustomerID"
-                    }
-                  },
-                  "UpdateBindingValues": [
-                    {
-                      "BindingInfo": {
-                        "TableName": "supplier_customer",
-                        "ColumnName": "supplier_customer_name",
-                        "GUID": "872774f3-2292-4be2-b6a0-947ae86947b1"
-                      },
-                      "Value": {
-                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                        "SerializeProperty": "=Name"
-                      }
-                    },
-                    {
-                      "BindingInfo": {
-                        "TableName": "supplier_customer",
-                        "ColumnName": "contact_person",
-                        "GUID": "d2f0e104-173f-47db-ac0a-125f68732f68"
-                      },
-                      "Value": {
-                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                        "SerializeProperty": "=ContactPerson"
-                      }
-                    },
-                    {
-                      "BindingInfo": {
-                        "TableName": "supplier_customer",
-                        "ColumnName": "contact_phone_number",
-                        "GUID": "5109fc02-dfa8-4452-8bb7-a4ea5a1ea1a3"
-                      },
-                      "Value": {
-                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                        "SerializeProperty": "=Telephone"
-                      }
-                    },
-                    {
-                      "BindingInfo": {
-                        "TableName": "supplier_customer",
-                        "ColumnName": "contact_person_position",
-                        "GUID": "056c6934-a549-4428-b55f-ba45c1af9cf9"
-                      },
-                      "Value": {
-                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                        "SerializeProperty": "=ContactPersonRole"
-                      }
-                    },
-                    {
-                      "BindingInfo": {
-                        "TableName": "supplier_customer",
-                        "ColumnName": "address",
-                        "GUID": "a524aea8-c9d9-49b7-9e67-04baa97b4e72"
-                      },
-                      "Value": {
-                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                        "SerializeProperty": "=Address"
-                      }
-                    },
-                    {
-                      "BindingInfo": {
-                        "TableName": "supplier_customer",
-                        "ColumnName": "note",
-                        "GUID": "afd723ed-a4ac-4616-ae54-33fcfb983ffe"
-                      },
-                      "Value": {
-                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                        "SerializeProperty": "=Note"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
-                  "ErrorCode": "0",
-                  "Message": "更新成功"
-                }
-              ],
-              "ID": "d0ea1bc6-d1b2-48c8-9901-016915755f3a"
-            }
-          ]
-        },
-        {
-          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
-          "ConditionAndCommandPairList": [
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "Name",
+              "Remark": "名称",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
             {
-              "Condition": {
-                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
-                "param": {
-                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
-                  "ParamObject": {
-                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=OperateType"
-                  }
-                },
-                "value": "Delete"
-              },
-              "CommandList": [
-                {
-                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                  "TableName": "supplier_customer_item_relation",
-                  "UpdateType": "delete",
-                  "ShowConfirm": true,
-                  "ConfirmText": "您确定要删除吗？",
-                  "RowsToUpdate": 1,
-                  "RowsToUpdateCondition": {
-                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-                    "ColumnBindingInfo": {
-                      "TableName": "supplier_customer_item_relation",
-                      "ColumnName": "supplier_customer_id",
-                      "GUID": "7b41d721-df68-4563-b15a-3d45efb648d6"
-                    },
-                    "Value": {
-                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=CustomerID"
-                    }
-                  }
-                },
-                {
-                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                  "TableName": "supplier_customer",
-                  "UpdateType": "delete",
-                  "ShowConfirm": true,
-                  "ConfirmText": "您确定要删除吗？",
-                  "RowsToUpdate": 1,
-                  "RowsToUpdateCondition": {
-                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-                    "ColumnBindingInfo": {
-                      "TableName": "supplier_customer",
-                      "ColumnName": "ID",
-                      "GUID": "df9293a0-a595-4653-9db3-de093a2e5a63"
-                    },
-                    "Value": {
-                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=CustomerID"
-                    }
-                  }
-                },
-                {
-                  "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
-                  "ErrorCode": "0",
-                  "Message": "删除成功"
-                }
-              ],
-              "ID": "27ca0b85-1bfe-4e5d-bf6f-5650d9bd4479"
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "ContactPerson",
+              "Remark": "联系人",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "Telephone",
+              "Remark": "联系电话",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "ContactPersonRole",
+              "Remark": "联系人职务",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "Address",
+              "Remark": "经营地址",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "Note",
+              "Remark": "备注",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "Type",
+              "Remark": "类型ID",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "CustomerID",
+              "Remark": "供应商ID，更新/删除时用",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
             }
           ]
         }
-      ]
-    }
-  ]
+      }
+    ]
+  },
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
+        "CommandList": {
+          "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+              "ConditionAndCommandPairList": {
+                "$type": "System.Collections.Generic.List`1[[Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+                    "Condition": {
+                      "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                      "param": {
+                        "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                        "ParamObject": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=OperateType"
+                        }
+                      },
+                      "value": "Add"
+                    },
+                    "CommandList": {
+                      "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                          "TableName": "supplier_customer",
+                          "UpdateType": "add",
+                          "ShowConfirm": false,
+                          "UpdateBindingValues": {
+                            "$type": "System.Collections.Generic.List`1[[Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon]], System.Private.CoreLib",
+                            "$values": [
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "supplier_customer",
+                                  "ColumnName": "supplier_customer_name",
+                                  "GUID": "80c75017-d391-491c-a897-df7211a6b0b8"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=Name"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "supplier_customer",
+                                  "ColumnName": "contact_person",
+                                  "GUID": "e1d8a5ea-fb14-4ae8-b966-d34714f99de7"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=ContactPerson"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "supplier_customer",
+                                  "ColumnName": "contact_phone_number",
+                                  "GUID": "b90d8f49-8d40-4131-8904-7250a3942e17"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=Telephone"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "supplier_customer",
+                                  "ColumnName": "contact_person_position",
+                                  "GUID": "f30eb938-e70e-4934-88c4-728f909555c0"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=ContactPersonRole"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "supplier_customer",
+                                  "ColumnName": "address",
+                                  "GUID": "a636d74f-e4e6-4d05-b07a-b9b3133f06e7"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=Address"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "supplier_customer",
+                                  "ColumnName": "note",
+                                  "GUID": "c25682e1-a698-47a2-aa37-0450ce3d5223"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=Note"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "supplier_customer",
+                                  "ColumnName": "supplier_customer_type_id",
+                                  "GUID": "9b74531e-6d15-4e68-b4ab-752aaac8dd4b"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=Type"
+                                }
+                              }
+                            ]
+                          },
+                          "BreakpointIdentity": "ee3a6beb-153c-4161-8809-e87bb09c1039"
+                        },
+                        {
+                          "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                          "ErrorCode": "0",
+                          "Message": "新增成功",
+                          "BreakpointIdentity": "9fdba942-7338-438f-8f57-b2e73626acc2"
+                        }
+                      ]
+                    },
+                    "ID": "49d3221e-e4cb-4e7d-9860-1960efaba185"
+                  }
+                ]
+              },
+              "BreakpointIdentity": "4d843549-af84-4175-8273-e31a89d1792c"
+            },
+            {
+              "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+              "ConditionAndCommandPairList": {
+                "$type": "System.Collections.Generic.List`1[[Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+                    "Condition": {
+                      "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                      "param": {
+                        "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                        "ParamObject": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=OperateType"
+                        }
+                      },
+                      "value": "Update"
+                    },
+                    "CommandList": {
+                      "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                          "TableName": "supplier_customer",
+                          "ShowConfirm": false,
+                          "RowsToUpdate": 1,
+                          "RowsToUpdateCondition": {
+                            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                            "ColumnBindingInfo": {
+                              "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                              "TableName": "supplier_customer",
+                              "ColumnName": "ID",
+                              "GUID": "17c18462-9585-43bb-b661-0d3eeb4abd79"
+                            },
+                            "Value": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=CustomerID"
+                            }
+                          },
+                          "UpdateBindingValues": {
+                            "$type": "System.Collections.Generic.List`1[[Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon]], System.Private.CoreLib",
+                            "$values": [
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "supplier_customer",
+                                  "ColumnName": "supplier_customer_name",
+                                  "GUID": "872774f3-2292-4be2-b6a0-947ae86947b1"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=Name"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "supplier_customer",
+                                  "ColumnName": "contact_person",
+                                  "GUID": "d2f0e104-173f-47db-ac0a-125f68732f68"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=ContactPerson"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "supplier_customer",
+                                  "ColumnName": "contact_phone_number",
+                                  "GUID": "5109fc02-dfa8-4452-8bb7-a4ea5a1ea1a3"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=Telephone"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "supplier_customer",
+                                  "ColumnName": "contact_person_position",
+                                  "GUID": "056c6934-a549-4428-b55f-ba45c1af9cf9"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=ContactPersonRole"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "supplier_customer",
+                                  "ColumnName": "address",
+                                  "GUID": "a524aea8-c9d9-49b7-9e67-04baa97b4e72"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=Address"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "supplier_customer",
+                                  "ColumnName": "note",
+                                  "GUID": "afd723ed-a4ac-4616-ae54-33fcfb983ffe"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=Note"
+                                }
+                              }
+                            ]
+                          },
+                          "BreakpointIdentity": "1ee01ad6-a529-49cc-b527-44199ec41102"
+                        },
+                        {
+                          "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                          "ErrorCode": "0",
+                          "Message": "更新成功",
+                          "BreakpointIdentity": "adec2881-d755-43e3-837c-d15f73ca4b72"
+                        }
+                      ]
+                    },
+                    "ID": "6d08378b-f9c1-4c75-84e2-4b5c5d620322"
+                  }
+                ]
+              },
+              "BreakpointIdentity": "6309af7d-a222-40fa-84af-350e65b58436"
+            },
+            {
+              "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+              "ConditionAndCommandPairList": {
+                "$type": "System.Collections.Generic.List`1[[Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+                    "Condition": {
+                      "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                      "param": {
+                        "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                        "ParamObject": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=OperateType"
+                        }
+                      },
+                      "value": "Delete"
+                    },
+                    "CommandList": {
+                      "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                          "TableName": "supplier_customer_item_relation",
+                          "UpdateType": "delete",
+                          "ShowConfirm": true,
+                          "ConfirmText": "您确定要删除吗？",
+                          "RowsToUpdate": 1,
+                          "RowsToUpdateCondition": {
+                            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                            "ColumnBindingInfo": {
+                              "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                              "TableName": "supplier_customer_item_relation",
+                              "ColumnName": "supplier_customer_id",
+                              "GUID": "7b41d721-df68-4563-b15a-3d45efb648d6"
+                            },
+                            "Value": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=CustomerID"
+                            }
+                          },
+                          "BreakpointIdentity": "d361ecd6-c600-4318-8a06-04bddabdc484"
+                        },
+                        {
+                          "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                          "TableName": "supplier_customer",
+                          "UpdateType": "delete",
+                          "ShowConfirm": true,
+                          "ConfirmText": "您确定要删除吗？",
+                          "RowsToUpdate": 1,
+                          "RowsToUpdateCondition": {
+                            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                            "ColumnBindingInfo": {
+                              "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                              "TableName": "supplier_customer",
+                              "ColumnName": "ID",
+                              "GUID": "df9293a0-a595-4653-9db3-de093a2e5a63"
+                            },
+                            "Value": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=CustomerID"
+                            }
+                          },
+                          "BreakpointIdentity": "b8950a58-f24f-49a2-826f-ccc530712461"
+                        },
+                        {
+                          "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                          "ErrorCode": "0",
+                          "Message": "删除成功",
+                          "BreakpointIdentity": "d6e2553c-7707-4989-8c71-4f39fdf8b249"
+                        }
+                      ]
+                    },
+                    "ID": "5b0e023c-70de-42c2-870c-9dd3c9d3f650"
+                  }
+                ]
+              },
+              "BreakpointIdentity": "3f09bfa2-1bab-4edc-9ebc-36079d5a082a"
+            }
+          ]
+        },
+        "BreakpointIdentity": "94dacd52-a90b-40db-a06f-fcfdd41b1e2e"
+      }
+    ]
+  }
 }

@@ -1,199 +1,267 @@
 {
+  "$type": "Forguncy.SaveLoad.ServerCommandSaveData, ServerDesignerCommon",
   "Name": "UpdatePendingInventory",
   "Enabled": true,
-  "Triggers": [
-    {
-      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
-      "Permission": {
-        "PermissionData": {
-          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
-          "permissionResource": {
-            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
-          },
-          "permissionBindings": [
-            {
-              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
-              "roleNames": [
-                "FGC_LoginUser"
+  "Triggers": {
+    "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.TriggerSaveDataBase, ServerDesignerCommon]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+        "Permission": {
+          "$type": "Forguncy.SaveLoad.ServerCommandPermissionSaveData, ServerDesignerCommon",
+          "PermissionData": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+            "permissionResource": {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+            },
+            "permissionBindings": {
+              "$type": "System.Collections.Generic.List`1[[Forguncy.RbacPermission.Core.Impl.ServerCommand.IServerCommandPermissionBinding, Forguncy.RbacPermission.Core]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+                  "roleNames": {
+                    "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                    "$values": [
+                      "FGC_LoginUser"
+                    ]
+                  }
+                }
               ]
+            }
+          }
+        },
+        "Parameters": {
+          "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "type",
+              "Remark": "出入库标识，5出库，6入库",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "itemId",
+              "Remark": "物品id",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "pendingNumber",
+              "Remark": "物品预占数量",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
             }
           ]
         }
-      },
-      "Parameters": [
-        {
-          "Name": "type",
-          "Remark": "出入库标识，5出库，6入库",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "itemId",
-          "Remark": "物品id",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "pendingNumber",
-          "Remark": "物品预占数量",
-          "DataValidationInfo": {}
-        }
-      ]
-    }
-  ],
-  "Commands": [
-    {
-      "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
-      "ConditionAndCommandPairList": [
-        {
-          "Condition": {
-            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
-            "param": {
-              "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
-              "ParamObject": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=type"
-              }
-            },
-            "value": "5"
-          },
-          "CommandList": [
+      }
+    ]
+  },
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": {
+          "$type": "System.Collections.Generic.List`1[[Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon]], System.Private.CoreLib",
+          "$values": [
             {
-              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
-              "ParameterName": "出库预占库存",
-              "TableValue": {
-                "TableName": "item",
-                "OnlyGetValue": true,
-                "TableValueType": 0,
-                "BindingInfos": [
-                  {
-                    "GUID": "436d364f-31fc-41c2-b1b4-e32aedd572d2",
-                    "BindingInfo": {
-                      "TableName": "item",
-                      "ColumnName": "wait_for_outstock",
-                      "GUID": "c137a50d-32a0-410a-be1c-feeac6d5cf6b"
-                    },
-                    "ColumnName": "wait_for_outstock"
-                  }
-                ],
-                "SqlCondition": {
-                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-                  "ColumnBindingInfo": {
-                    "TableName": "item",
-                    "ColumnName": "ID",
-                    "GUID": "90b8255c-74d6-42ee-ae49-5bf2edbbf2a9"
-                  },
-                  "Value": {
+              "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=itemId"
+                    "SerializeProperty": "=type"
                   }
-                }
-              },
-              "ID": "5b21aa332bf04004b79d83675493bd87"
-            },
-            {
-              "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-              "TableName": "item",
-              "ShowConfirm": false,
-              "RowsToUpdate": 1,
-              "RowsToUpdateCondition": {
-                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-                "ColumnBindingInfo": {
-                  "TableName": "item",
-                  "ColumnName": "ID",
-                  "GUID": "5182d3cf-7ccf-46f6-bc40-860c6e019081"
                 },
-                "Value": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=itemId"
-                }
+                "value": "5"
               },
-              "UpdateBindingValues": [
-                {
-                  "BindingInfo": {
-                    "TableName": "item",
-                    "ColumnName": "wait_for_outstock",
-                    "GUID": "51055ec1-de31-40e1-9dcd-5b47b88fb796"
-                  },
-                  "Value": {
-                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=出库预占库存+pendingNumber"
-                  }
-                }
-              ]
-            }
-          ],
-          "Comments": "5出库",
-          "ID": "9761707f-f9da-4cb6-9030-a49c6129c2fc"
-        },
-        {
-          "CommandList": [
-            {
-              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
-              "ParameterName": "入库预占库存",
-              "TableValue": {
-                "TableName": "item",
-                "OnlyGetValue": true,
-                "TableValueType": 0,
-                "BindingInfos": [
+              "CommandList": {
+                "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                "$values": [
                   {
-                    "GUID": "27a94788-cab8-460d-9b71-91356dd6a9bc",
-                    "BindingInfo": {
+                    "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                    "ParameterName": "出库预占库存",
+                    "TableValue": {
+                      "$type": "Forguncy.Model.Commands.ParameterTableValue, ServerDesignerCommon",
                       "TableName": "item",
-                      "ColumnName": "wait_for_instock",
-                      "GUID": "6a9f6e47-e063-4871-b5ff-4f61eea0f604"
+                      "OnlyGetValue": true,
+                      "TableValueType": 0,
+                      "BindingInfos": {
+                        "$type": "System.Collections.Generic.List`1[[Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon]], System.Private.CoreLib",
+                        "$values": [
+                          {
+                            "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                            "GUID": "436d364f-31fc-41c2-b1b4-e32aedd572d2",
+                            "BindingInfo": {
+                              "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                              "TableName": "item",
+                              "ColumnName": "wait_for_outstock",
+                              "GUID": "c137a50d-32a0-410a-be1c-feeac6d5cf6b"
+                            },
+                            "ColumnName": "wait_for_outstock"
+                          }
+                        ]
+                      },
+                      "SqlCondition": {
+                        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                        "ColumnBindingInfo": {
+                          "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                          "TableName": "item",
+                          "ColumnName": "ID",
+                          "GUID": "90b8255c-74d6-42ee-ae49-5bf2edbbf2a9"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=itemId"
+                        }
+                      }
                     },
-                    "ColumnName": "wait_for_instock"
-                  }
-                ],
-                "SqlCondition": {
-                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-                  "ColumnBindingInfo": {
-                    "TableName": "item",
-                    "ColumnName": "ID",
-                    "GUID": "e440bb4a-b5f4-4311-9d66-f8a5f5510c9b"
+                    "ID": "5b21aa332bf04004b79d83675493bd87",
+                    "BreakpointIdentity": "f3c43489-8777-4c5a-8a81-f555add6a96e"
                   },
-                  "Value": {
-                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=itemId"
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "item",
+                    "ShowConfirm": false,
+                    "RowsToUpdate": 1,
+                    "RowsToUpdateCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                        "TableName": "item",
+                        "ColumnName": "ID",
+                        "GUID": "5182d3cf-7ccf-46f6-bc40-860c6e019081"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=itemId"
+                      }
+                    },
+                    "UpdateBindingValues": {
+                      "$type": "System.Collections.Generic.List`1[[Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                          "BindingInfo": {
+                            "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                            "TableName": "item",
+                            "ColumnName": "wait_for_outstock",
+                            "GUID": "51055ec1-de31-40e1-9dcd-5b47b88fb796"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=出库预占库存+pendingNumber"
+                          }
+                        }
+                      ]
+                    },
+                    "BreakpointIdentity": "cae83013-065e-44ad-87dc-05611dd04448"
                   }
-                }
+                ]
               },
-              "ID": "b942d8361b1e471ba4c19054c570bfc9"
+              "Comments": "5出库",
+              "ID": "a9c21acf-31cb-4574-93cb-a2d4ed8c3bad"
             },
             {
-              "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-              "TableName": "item",
-              "ShowConfirm": false,
-              "RowsToUpdate": 1,
-              "RowsToUpdateCondition": {
-                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-                "ColumnBindingInfo": {
-                  "TableName": "item",
-                  "ColumnName": "ID",
-                  "GUID": "bb58e6a1-433d-4434-b559-aafb114f745d"
-                },
-                "Value": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=itemId"
-                }
-              },
-              "UpdateBindingValues": [
-                {
-                  "BindingInfo": {
-                    "TableName": "item",
-                    "ColumnName": "wait_for_instock",
-                    "GUID": "f0fdda9e-4ce8-4b0a-a12c-7d6cce4747b0"
+              "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+              "CommandList": {
+                "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                    "ParameterName": "入库预占库存",
+                    "TableValue": {
+                      "$type": "Forguncy.Model.Commands.ParameterTableValue, ServerDesignerCommon",
+                      "TableName": "item",
+                      "OnlyGetValue": true,
+                      "TableValueType": 0,
+                      "BindingInfos": {
+                        "$type": "System.Collections.Generic.List`1[[Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon]], System.Private.CoreLib",
+                        "$values": [
+                          {
+                            "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                            "GUID": "27a94788-cab8-460d-9b71-91356dd6a9bc",
+                            "BindingInfo": {
+                              "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                              "TableName": "item",
+                              "ColumnName": "wait_for_instock",
+                              "GUID": "6a9f6e47-e063-4871-b5ff-4f61eea0f604"
+                            },
+                            "ColumnName": "wait_for_instock"
+                          }
+                        ]
+                      },
+                      "SqlCondition": {
+                        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                        "ColumnBindingInfo": {
+                          "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                          "TableName": "item",
+                          "ColumnName": "ID",
+                          "GUID": "e440bb4a-b5f4-4311-9d66-f8a5f5510c9b"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=itemId"
+                        }
+                      }
+                    },
+                    "ID": "b942d8361b1e471ba4c19054c570bfc9",
+                    "BreakpointIdentity": "754fb3d2-af02-49f5-b9a6-a2e02445bc6a"
                   },
-                  "Value": {
-                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=入库预占库存+pendingNumber"
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "item",
+                    "ShowConfirm": false,
+                    "RowsToUpdate": 1,
+                    "RowsToUpdateCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                        "TableName": "item",
+                        "ColumnName": "ID",
+                        "GUID": "bb58e6a1-433d-4434-b559-aafb114f745d"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=itemId"
+                      }
+                    },
+                    "UpdateBindingValues": {
+                      "$type": "System.Collections.Generic.List`1[[Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                          "BindingInfo": {
+                            "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                            "TableName": "item",
+                            "ColumnName": "wait_for_instock",
+                            "GUID": "f0fdda9e-4ce8-4b0a-a12c-7d6cce4747b0"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=入库预占库存+pendingNumber"
+                          }
+                        }
+                      ]
+                    },
+                    "BreakpointIdentity": "69cc7a75-a892-4ecb-924e-48b6c399d647"
                   }
-                }
-              ]
+                ]
+              },
+              "ID": "34d2c470-d6d6-4258-86b3-50c6c33db95f"
             }
-          ],
-          "ID": "10992716-254e-4bca-868e-68da3b4195a3"
-        }
-      ]
-    }
-  ]
+          ]
+        },
+        "BreakpointIdentity": "70d057fa-1b43-42ae-a2f6-f5fe9f64a6b3"
+      }
+    ]
+  }
 }

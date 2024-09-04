@@ -535,7 +535,8 @@
         "$type": "Forguncy.ProcessPanelCellType, ServerDesignerCommon",
         "PostCommands": [
           {
-            "$type": "Forguncy.Model.IgnorePageDirtyCommand, ServerDesignerCommon"
+            "$type": "Forguncy.Model.IgnorePageDirtyCommand, ServerDesignerCommon",
+            "BreakpointIdentity": "acbbbcc0-dfc7-4849-b82f-7f0fe5da1da9"
           },
           {
             "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -556,21 +557,24 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "FGC_我的待阅_手机版"
+                    "PageName": "FGC_我的待阅_手机版",
+                    "BreakpointIdentity": "c8539feb-8bb8-49b5-80be-a06cbe1aba21"
                   }
                 ],
-                "ID": "fadd298a-e87c-47e7-ad99-5a9cdd858ce3"
+                "ID": "40c77fe8-32c6-42a8-90cc-28ec6ddf8811"
               },
               {
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "FGC_我的待办_手机版"
+                    "PageName": "FGC_我的待办_手机版",
+                    "BreakpointIdentity": "f82a2917-e3fb-44b2-9e1a-ef9a3238bbdf"
                   }
                 ],
-                "ID": "87865552-1aaf-47a5-9d18-520c8d1e2040"
+                "ID": "81c61e28-d396-48b5-9970-b1cf7fc541d4"
               }
-            ]
+            ],
+            "BreakpointIdentity": "ad5b5f15-4e96-4cbf-9429-892a1951cf8a"
           }
         ],
         "TemplateKey": "流程样式2",
@@ -596,7 +600,8 @@
             "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
             "PopupDisplayMode": 3,
             "DrawerDirection": 3,
-            "PageName": "FGC_审批记录_手机版"
+            "PageName": "FGC_审批记录_手机版",
+            "BreakpointIdentity": "b94bfce8-4d7e-495a-9bd6-b3136d5a1328"
           }
         ],
         "TemplateKey": "样式1",
@@ -787,4 +792,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//h/0U5HoRT5T6IchLnDm9B5rqLI4i0VQOIulorrB2XqgtplvpXC1dYH0DWwWRAQxqVuX5gfSJ5bSgq6hIci0WzC9gywGxOjx03e7pCMw1Y/JIj9eez+bBmlQP97dtUN1eDdelQXJwDx2mjjJxN4uOigIq9TCIqJsvjbRr4OxQ0kNRpT/F7IbHAgPA8lKC2UU+9Y4NxJftCvk/GfAHlQvK7Maqe6y8VGNsd3m/kpu+uyxTaKuTNJpwhdOs2oeY2MLozXZD3FT8NiPRKOvefYzBIC81RkW1Wi5xiMo6skhmL+nTtkneX+biMkjxzgbjEfXUx0GYAFmVS1K+1wdptrgizIMRn6J2X9m5q7Z3JL1BdC0r70kcvqPNLz7TXGDH47JcvSJ+7tyoB38QFB4Z8o8WHmC3SFpJvIlk9i173VERP9LqEPgqwlRZKY3JDCb/GMu2HGbZPmIZtBfz61KT+OdmtVwJ1HnjRlWwsaErMEVb/5QkqWUa28Oty+PR9TO4gaWIY9oIphaIOpqFvp24AAdl4YdCi/ft58j6zlkZhSzrc3cBKo3HTfV0kWm8AO9nSPNrsF4eJLzDMVnm3+A+dVeyVK17ZzYzDg8GIoIIApvkkOqVlktIPIGFWMjXMarbIzI9Yx0PADyBT+gGNKnB4RnAIJ/2NcbPw+w9jeeSv2m2IohodXazdObvKECpTfHWiaTiD2dMK3w4lHihIJaGE3QlBJ8HRdkcgjE/2JHCfBjiIO0wJJCte4YGraKbvVlgHi6BdBBB6OGl/YhwtJyxG+3xtbcijRkMt2Zg/zN8I7My8kvzo5BhVq13677RskDG8Q1OFlKSx5EDXQMrfrovUA8Dju4+eGIZMxKRbXpAD3f0zEIwxAWYRqRjMb4bDDDKkVKvvtnd/kJbNXysJhPwAaualQ==|920
+}//V7r96xTo0GABMsOZCrt2U1wDbnA6iMeixGD0Xf5n8KpYRpqOctL9i8DrjAwwPdjVAFqDL/MTCYZny7AzHUS3hJynheHXtqbAFa8JepLewkqi30qwL5Xl/56wpqowkIMzXDe7fQ2oPC5G5dqilyK1SpOGpXlwNLlDbz4sZ7MS6A6Qa/gCv4ozE0/bySvsDKxL3GMkqoRf8Yn4Zd24IlRQAZgjgJauwwFWxAeR8d/Y/YFZUhkQKFOsLAyEBtcYUzU8A8aAT1QOVPrMtUEbLo1hTunb/LhCT5wg35oJFJFuo30fODqfn+89Sspuk6haHW6VFzHoajGggMUoVdGYq4aaRXbfXdZ+jZQtHNuCtTJwR/aA1sF4+nzgHVJbCk+ggj5J5qOJpI5+viyREVksdsM1G83ypN9Hs93kmL29D+ZVSlDQbJwEVDLVwXZ85D6lGx0H2vElR204WU4syXjI4XtS2JNSzjCYXmhvbeZHhXW67LMe8Qn7WJn8MNMuywASVK1EHWK3lY4KRQBSCOdrBFmtqrRqlZ3vgcIJUewxGWL4zsY5XVW3AAKdOe0nUy+igfw+AeA1z9tNsj6tTRyE/F4VmetkLGNY53bn6Kp0fodfJEV5CPFX9ClAxaW3q0usnpdPRlBzseACjSzxZwnPMLu5QIiJFN3RwDmuYSUflevmrgS215jo6tlsPW/UA5zOw38v/uHmrLjMb6e1PDSsvJ3atMfrUeV6s/iyzs0YAS/OGE5zKoq4nJ3DfuXDDgUi1p0++XgoJRZ1BxQJUNv2SIzdoBdv5D9wtcnetEClyT5VIdpKUS8QeFPO+mFhj2fh583fwEu0hlsHEExh8aYq7Dc8FWBTCy5r3LbWwrFEW1wY2c42r7dKKmdW6WVeXl1KcExWm1XTMoOQfWhHDtb/iy+piQ==|920

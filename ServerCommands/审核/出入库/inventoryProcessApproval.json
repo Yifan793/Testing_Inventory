@@ -1,232 +1,304 @@
 {
+  "$type": "Forguncy.SaveLoad.ServerCommandSaveData, ServerDesignerCommon",
   "Name": "inventoryProcessApproval",
   "Description": "1.审批节点点击 通过\r\n2.更新物品表，预占库存更新到真实库存中\r\n3.如果是从销售或采购订单流转的订单，则更新出库或入库状态",
   "Enabled": true,
-  "Triggers": [
-    {
-      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
-      "Permission": {
-        "PermissionData": {
-          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
-          "permissionResource": {
-            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
-          },
-          "permissionBindings": [
-            {
-              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
-              "roleNames": [
-                "FGC_LoginUser"
+  "Triggers": {
+    "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.TriggerSaveDataBase, ServerDesignerCommon]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+        "Permission": {
+          "$type": "Forguncy.SaveLoad.ServerCommandPermissionSaveData, ServerDesignerCommon",
+          "PermissionData": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+            "permissionResource": {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+            },
+            "permissionBindings": {
+              "$type": "System.Collections.Generic.List`1[[Forguncy.RbacPermission.Core.Impl.ServerCommand.IServerCommandPermissionBinding, Forguncy.RbacPermission.Core]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+                  "roleNames": {
+                    "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                    "$values": [
+                      "FGC_LoginUser"
+                    ]
+                  }
+                }
               ]
+            }
+          }
+        },
+        "Parameters": {
+          "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "businessId",
+              "Remark": "业务数据id",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
             }
           ]
         }
-      },
-      "Parameters": [
-        {
-          "Name": "businessId",
-          "Remark": "业务数据id",
-          "DataValidationInfo": {}
-        }
-      ]
-    }
-  ],
-  "Commands": [
-    {
-      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
-      "ParameterName": "出入库标识",
-      "TableValue": {
-        "TableName": "inventory",
-        "TableValueType": 1,
-        "BindingInfos": [
-          {
-            "GUID": "6f57e44f-4d65-48dc-9c53-a796795d3385",
-            "BindingInfo": {
+      }
+    ]
+  },
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "出入库标识",
+        "TableValue": {
+          "$type": "Forguncy.Model.Commands.ParameterTableValue, ServerDesignerCommon",
+          "TableName": "inventory",
+          "TableValueType": 1,
+          "BindingInfos": {
+            "$type": "System.Collections.Generic.List`1[[Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon]], System.Private.CoreLib",
+            "$values": [
+              {
+                "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                "GUID": "6f57e44f-4d65-48dc-9c53-a796795d3385",
+                "BindingInfo": {
+                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                  "TableName": "inventory",
+                  "ColumnName": "inventory_status",
+                  "GUID": "7630ebf7-4b59-491f-87b2-90d3568d0535"
+                },
+                "ColumnName": "出入库"
+              },
+              {
+                "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                "GUID": "42083566-5c89-47e0-b837-633372618f00",
+                "BindingInfo": {
+                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                  "TableName": "inventory",
+                  "ColumnName": "other_inventory",
+                  "GUID": "44663e66-3385-403f-8bd2-7a9f044e6621"
+                },
+                "ColumnName": "其他出入库对象"
+              }
+            ]
+          },
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
               "TableName": "inventory",
-              "ColumnName": "inventory_status",
-              "GUID": "7630ebf7-4b59-491f-87b2-90d3568d0535"
+              "ColumnName": "id",
+              "GUID": "6f19ab1b-ffd3-424c-b3d2-de7c889de254"
             },
-            "ColumnName": "出入库"
-          },
-          {
-            "GUID": "42083566-5c89-47e0-b837-633372618f00",
-            "BindingInfo": {
-              "TableName": "inventory",
-              "ColumnName": "other_inventory",
-              "GUID": "44663e66-3385-403f-8bd2-7a9f044e6621"
-            },
-            "ColumnName": "其他出入库对象"
-          }
-        ],
-        "SqlCondition": {
-          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-          "ColumnBindingInfo": {
-            "TableName": "inventory",
-            "ColumnName": "id",
-            "GUID": "6f19ab1b-ffd3-424c-b3d2-de7c889de254"
-          },
-          "Value": {
-            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-            "SerializeProperty": "=businessId"
-          }
-        }
-      },
-      "ID": "76eb46c7760a49a29a8670565566c378",
-      "Comments": "5出库；6入库"
-    },
-    {
-      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
-      "ParameterName": "inventoryDetails",
-      "TableValue": {
-        "TableName": "inventory_details",
-        "BindingInfos": [
-          {
-            "GUID": "2def2459-75fb-41d3-a24f-090828a38fc4",
-            "BindingInfo": {
-              "TableName": "inventory_details",
-              "ColumnName": "item_id",
-              "GUID": "ee3d058b-5f29-4f08-8ebb-25fcd3f77109"
-            },
-            "ColumnName": "物品ID"
-          },
-          {
-            "GUID": "6dfd9b89-2062-496b-bc46-1a0f8e59b6b2",
-            "BindingInfo": {
-              "TableName": "inventory_details",
-              "ColumnName": "number",
-              "GUID": "0afad8a8-36c4-41ce-9f10-5aaeddc28bd4"
-            },
-            "ColumnName": "数量"
-          }
-        ],
-        "SqlCondition": {
-          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-          "ColumnBindingInfo": {
-            "TableName": "inventory_details",
-            "ColumnName": "inventory_id",
-            "GUID": "6196683f-3423-4c76-81ab-b18951009966"
-          },
-          "Value": {
-            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-            "SerializeProperty": "=businessId"
-          }
-        }
-      },
-      "ID": "c1b0bcdc68624ccb98239a0f90c56cba"
-    },
-    {
-      "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
-      "CommandList": [
-        {
-          "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
-          "LoopInfo": {
-            "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
-            "LoopCount": {
+            "Value": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=inventoryDetails"
-            },
-            "LoopItemParamName": "Item"
+              "SerializeProperty": "=businessId"
+            }
+          }
+        },
+        "ID": "76eb46c7760a49a29a8670565566c378",
+        "Comments": "5出库；6入库",
+        "BreakpointIdentity": "bb8bbdf1-7893-4b52-a5f1-71be425106a5"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "inventoryDetails",
+        "TableValue": {
+          "$type": "Forguncy.Model.Commands.ParameterTableValue, ServerDesignerCommon",
+          "TableName": "inventory_details",
+          "BindingInfos": {
+            "$type": "System.Collections.Generic.List`1[[Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon]], System.Private.CoreLib",
+            "$values": [
+              {
+                "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                "GUID": "2def2459-75fb-41d3-a24f-090828a38fc4",
+                "BindingInfo": {
+                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                  "TableName": "inventory_details",
+                  "ColumnName": "item_id",
+                  "GUID": "ee3d058b-5f29-4f08-8ebb-25fcd3f77109"
+                },
+                "ColumnName": "物品ID"
+              },
+              {
+                "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                "GUID": "6dfd9b89-2062-496b-bc46-1a0f8e59b6b2",
+                "BindingInfo": {
+                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                  "TableName": "inventory_details",
+                  "ColumnName": "number",
+                  "GUID": "0afad8a8-36c4-41ce-9f10-5aaeddc28bd4"
+                },
+                "ColumnName": "数量"
+              }
+            ]
           },
-          "CommandList": [
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+              "TableName": "inventory_details",
+              "ColumnName": "inventory_id",
+              "GUID": "6196683f-3423-4c76-81ab-b18951009966"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=businessId"
+            }
+          }
+        },
+        "ID": "c1b0bcdc68624ccb98239a0f90c56cba",
+        "BreakpointIdentity": "98fa47bc-775d-4c97-9899-88cb7ef428d3"
+      },
+      {
+        "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
+        "CommandList": {
+          "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+          "$values": [
             {
-              "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
-              "ServerCommandName": "UpdateRealInventory",
-              "Parameters": [
-                {
-                  "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
-                  "ParamName": "type",
-                  "Value": {
-                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=出入库标识.出入库"
-                  },
-                  "Remark": "出入库标识，5出库，6入库"
+              "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+              "LoopInfo": {
+                "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+                "LoopCount": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=inventoryDetails"
                 },
-                {
-                  "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
-                  "ParamName": "itemId",
-                  "Value": {
-                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=Item.物品ID"
+                "LoopItemParamName": "Item"
+              },
+              "CommandList": {
+                "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                    "ServerCommandName": "UpdateRealInventory",
+                    "Parameters": {
+                      "$type": "System.Collections.Generic.List`1[[Forguncy.Model.RequestServerCommandParamBase, ServerDesignerCommon]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "type",
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=出入库标识.出入库"
+                          },
+                          "Remark": "出入库标识，5出库，6入库"
+                        },
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "itemId",
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Item.物品ID"
+                          },
+                          "Remark": "物品id"
+                        },
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "pendingNumber",
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Item.数量"
+                          },
+                          "Remark": "物品预占数量"
+                        }
+                      ]
+                    },
+                    "RefreshAfterFinish": true,
+                    "CheckDataValidation": true,
+                    "BreakpointIdentity": "ebc5176d-0bcd-4a52-8105-c305663bde2d"
+                  }
+                ]
+              },
+              "BreakpointIdentity": "a39a79eb-1a1a-4177-9490-63393ebf4628"
+            },
+            {
+              "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+              "ConditionAndCommandPairList": {
+                "$type": "System.Collections.Generic.List`1[[Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+                    "Condition": {
+                      "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                      "param": {
+                        "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                        "ParamObject": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=出入库标识.其他出入库对象"
+                        }
+                      },
+                      "value": "XS",
+                      "compareType": 6
+                    },
+                    "CommandList": {
+                      "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                          "ServerCommandName": "UpdateSalesOrderState",
+                          "Parameters": {
+                            "$type": "System.Collections.Generic.List`1[[Forguncy.Model.RequestServerCommandParamBase, ServerDesignerCommon]], System.Private.CoreLib",
+                            "$values": [
+                              {
+                                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                                "ParamName": "order_id",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=出入库标识.其他出入库对象"
+                                },
+                                "Remark": "销售单号"
+                              }
+                            ]
+                          },
+                          "RefreshAfterFinish": true,
+                          "CheckDataValidation": true,
+                          "BreakpointIdentity": "95a159c3-fe29-4114-9078-54f5138f4f31"
+                        }
+                      ]
+                    },
+                    "ID": "fbccfc5a-214d-4abb-a02e-7e550a04c09d"
                   },
-                  "Remark": "物品id"
-                },
-                {
-                  "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
-                  "ParamName": "pendingNumber",
-                  "Value": {
-                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=Item.数量"
-                  },
-                  "Remark": "物品预占数量"
-                }
-              ],
-              "RefreshAfterFinish": true,
-              "CheckDataValidation": true
+                  {
+                    "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+                    "CommandList": {
+                      "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                          "ServerCommandName": "UpdatePurchaseOrderState",
+                          "Parameters": {
+                            "$type": "System.Collections.Generic.List`1[[Forguncy.Model.RequestServerCommandParamBase, ServerDesignerCommon]], System.Private.CoreLib",
+                            "$values": [
+                              {
+                                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                                "ParamName": "order_id",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=出入库标识.其他出入库对象"
+                                },
+                                "Remark": "采购订单"
+                              }
+                            ]
+                          },
+                          "RefreshAfterFinish": true,
+                          "CheckDataValidation": true,
+                          "BreakpointIdentity": "f66807c9-b136-44a6-8833-808eac8aa8f9"
+                        }
+                      ]
+                    },
+                    "ID": "eae0c45b-7e6c-4b9d-a0b4-18648808b4e6"
+                  }
+                ]
+              },
+              "Comments": "3已审核",
+              "BreakpointIdentity": "ec968c6f-94c7-44e9-a8b4-8f265de382ad"
             }
           ]
         },
-        {
-          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
-          "ConditionAndCommandPairList": [
-            {
-              "Condition": {
-                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
-                "param": {
-                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
-                  "ParamObject": {
-                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=出入库标识.其他出入库对象"
-                  }
-                },
-                "value": "XS",
-                "compareType": 6
-              },
-              "CommandList": [
-                {
-                  "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
-                  "ServerCommandName": "UpdateSalesOrderState",
-                  "Parameters": [
-                    {
-                      "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
-                      "ParamName": "order_id",
-                      "Value": {
-                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                        "SerializeProperty": "=出入库标识.其他出入库对象"
-                      },
-                      "Remark": "销售单号"
-                    }
-                  ],
-                  "RefreshAfterFinish": true,
-                  "CheckDataValidation": true
-                }
-              ],
-              "ID": "e429891c-1729-4e53-92c5-51e25189f6a7"
-            },
-            {
-              "CommandList": [
-                {
-                  "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
-                  "ServerCommandName": "UpdatePurchaseOrderState",
-                  "Parameters": [
-                    {
-                      "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
-                      "ParamName": "order_id",
-                      "Value": {
-                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                        "SerializeProperty": "=出入库标识.其他出入库对象"
-                      },
-                      "Remark": "采购订单"
-                    }
-                  ],
-                  "RefreshAfterFinish": true,
-                  "CheckDataValidation": true
-                }
-              ],
-              "ID": "19c0703a-cd58-472a-a111-54a2286c3cc3"
-            }
-          ],
-          "Comments": "3已审核"
-        }
-      ]
-    }
-  ]
+        "BreakpointIdentity": "78498b84-a5e4-4243-89e6-724df3ab5910"
+      }
+    ]
+  }
 }

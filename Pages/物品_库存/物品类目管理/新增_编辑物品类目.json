@@ -537,7 +537,8 @@
                 }
               }
             },
-            "ID": "910dc2cd77f04b0da987164130c8d0d6"
+            "ID": "910dc2cd77f04b0da987164130c8d0d6",
+            "BreakpointIdentity": "8c8e600b-85c3-407d-8649-9fd1a666ea28"
           },
           {
             "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -594,10 +595,11 @@
                       }
                     ],
                     "RefreshAfterFinish": true,
-                    "CheckDataValidation": true
+                    "CheckDataValidation": true,
+                    "BreakpointIdentity": "15c0e102-3372-40d4-abde-0f6b4f4906b9"
                   }
                 ],
-                "ID": "e20ca212-0825-4d5c-8cef-e0eba14f0cde"
+                "ID": "34f7bd3a-4a39-411e-a250-3c647e3386c8"
               },
               {
                 "CommandList": [
@@ -631,19 +633,23 @@
                       }
                     ],
                     "RefreshAfterFinish": true,
-                    "CheckDataValidation": true
+                    "CheckDataValidation": true,
+                    "BreakpointIdentity": "eabb3a2b-6f3b-4fb8-a60f-89eae6b06a1a"
                   }
                 ],
-                "ID": "5514de72-0fc0-4743-bf4c-bb3e1e0515d7"
+                "ID": "2d50fccc-aad0-4e6c-91a0-1448d4b3f930"
               }
-            ]
+            ],
+            "BreakpointIdentity": "9971eb16-8160-47cf-8b73-485ef3c06c69"
           },
           {
-            "$type": "Forguncy.Model.IgnorePageDirtyCommand, ServerDesignerCommon"
+            "$type": "Forguncy.Model.IgnorePageDirtyCommand, ServerDesignerCommon",
+            "BreakpointIdentity": "06bdd1a7-f1dd-422f-8b57-d33861fd8560"
           },
           {
             "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
-            "ReloadData": true
+            "ReloadData": true,
+            "BreakpointIdentity": "6e801036-56c4-44e9-b642-146bef6cbec5"
           }
         ],
         "TemplateKey": "_RS_Main1"
@@ -811,7 +817,8 @@
           },
           "NullFormulaValueQueryPolicy": 0
         },
-        "ID": "468991cd18694de68c45528f08315cf6"
+        "ID": "468991cd18694de68c45528f08315cf6",
+        "BreakpointIdentity": "5a62ba32-9fc0-4ff3-a34b-93ceda3c0e78"
       },
       {
         "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -853,10 +860,11 @@
                       "SerializeProperty": "=新增_编辑物品类目!当前选中类目.名称"
                     }
                   }
-                ]
+                ],
+                "BreakpointIdentity": "3446b2e7-c2ce-4460-983f-500555cb9d22"
               }
             ],
-            "ID": "23033f16-9864-4387-85c9-6198d6691170"
+            "ID": "3b5ffa03-afe6-4871-be94-8e14e5a61bcf"
           },
           {
             "CommandList": [
@@ -873,12 +881,14 @@
                       "SerializeProperty": "=新增_编辑物品类目!当前选中类目.ID"
                     }
                   }
-                ]
+                ],
+                "BreakpointIdentity": "51760c07-bfb1-4327-abcd-3f6ea29a4e1b"
               }
             ],
-            "ID": "372aa9c8-6f5c-4029-910a-d912339c6954"
+            "ID": "19ef3bbd-e187-447a-9d2a-041c5fcc05bc"
           }
-        ]
+        ],
+        "BreakpointIdentity": "c999f373-61cf-4c0f-923b-cca29e52d4e4"
       }
     ],
     "PermissionData": {
@@ -920,4 +930,4 @@
       "Formula": "新增_编辑物品类目!$S$3"
     }
   ]
-}//8lfRIkvcmkTeFoq8Zx3JTR3704bSpSbOmBDDteAlqsR1rdKNhRsJkfpXHjGer4RaS/eU0FhRJT8nTK3v+m9p71+1rZCibOLoKF4etx7oZxoysB0gISjv8PBG5mTcW8pRCLAxe0t3XCNdVIA0kodQ+NCWhX+y2tuIaFjLuSpo6Ilny67w/y220ZHVADIoQI//H8DXTQNPfJUeClsL1Jij3mqKOCldPeWQEN2hRnzvau9CyRk9emg1+TazIdTtqWqiz3vpyVYc5w32/Qf7ipgJJbrnlDOHgIAFjh6IWNsXtl5m2blcvVFsfTNYRHVe/wnc2wyUzdrXA4suWMaaLoztw98yUlPQtUvODyCT/1qEUYGAXSz8dMSywradY9mSG46vYJv3krEtAXQxzyUXzCloGjB9wb6HeOyHGPXfOajjBL3meB25O6WkoPEeqslWysJVT9qZZcSyB2rA1/OBAJhnjA0CVjgMO7cevXTe1zXVLomfijBy8qNAQxhE3tAkRM94RaAtRq5zKZn+14ReLK/HsFb/oqucJ5cZ3SRFVBZmvMbeuvUNPyLoxpNzCAvz+lGsAsJbrqy99NP09XRkiTR6WQRZezwYpTHWxrAvzCD96rr5zGKcqGyN+UyaTGaJnHwU/zS8kTW9+ZrdCvucXIw6t7kxWUwr0ZhE3sOB/gsWAq0593RL3aY1dTi4DlB1Xq7lAfCj1qY/KmU+buDJndxPVE/SFxjOonKqtvrsbbLAMCRH4tnco3uGD1+yPF1xRyVhqow8d9H24gz5FMZpcfvA8mf2o4A0UBV9cBxpTyhkG/dK1NwZw7S3CiNY/8SA4d4VdIRNbXV4AFT+E1Kjru+aKjF1HoAA909OLtz1gbR/VUd1uSb4wZfSgnGoPchHq89md3uyE7ANCu+V4BQGyfUJgA==|920
+}//xLZ8dy9g6rj+hRchL9JtBszN5HybD8bQswvWuVqrgYciJknY7+dj4vLM77BEUaRHMn83xU6YW+B2Nj+WLXfo4Rh2ACSpko3ooeUU5IxRqnlMehS1bmzhx0lGcjVHBGXC25NyD0REKukCdWMojrQOL5xhz8DssJYUScI741vNmnWwHTowTSRZ4j4xQqLUP3pPFbzhOk2lL/yfSbysBjF7f+y5jSXI7spnIAtb3HnYjBiji+FQymMqxeuvYq6OdIBbCy6QcsehSyOHaxc8cEWHOegJKYYWkbBaLLtAnKqPTgUqwJEDUrDzYqxYHjyYK5+5nuFCPoeqpgTf/D+tf3TMWDJQS9v3L3LPE8npR7QcGayvoDD224jFC8Xr1YTKBlfuWTYfAeADc162EdWVRGGcLGQu/wd9V8qA57/W7wZNhHrBc5E+semtXhWxF2NVVCDnOc7EeUXGZTwJuplLGzDcT0/cNOwtnM10bRPAhpbi64oCnBTjEy2PQ3FjDMY7m6sMPaqL4axYguUl3q6bR9Zt5XwvApxozxdAf3qyBQnRt36LkeWgDPvzM5G0j9IJf4d8RmY9jfJW6qhgf6CB0dfQPjp+QIhnX7nwWQeSM3E19KPijV/55SAX1cGQ+iEvTMjqloRGKYen2OICmnkcnP0RD/vVoUAKwb0KeFyh7NekvR8TytZz4aMQvcNCb5n4L66BuVx+StlsoCKTqfa15FJnLNYHk8ivB6aOMdVwQUI4JeIwkbQEkg3WUwMcuJGzsFGY8lfXuF0nekYOGhcmMgRiwO0lIznanTiRVl4QRQ0/p9y9Kd6WTLuoPi2QP4xrwuxkrH9T7NCglDyv20dVwwVi8IWZMZyZmZzeKLttrhxvYzfcVOsJaCH/roQ9eDIBhdJzStL99UsTOwQd7f4D/wyhUw==|920

@@ -1163,7 +1163,8 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "FGC_我发起的"
+                    "PageName": "FGC_我发起的",
+                    "BreakpointIdentity": "26a27dd0-32af-4cd7-a049-0f91c425702b"
                   }
                 ],
                 "CanVisitRoleList": [
@@ -1180,7 +1181,8 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "FGC_我的待办"
+                    "PageName": "FGC_我的待办",
+                    "BreakpointIdentity": "894dce48-026f-4342-b11d-1d097cbbea8d"
                   }
                 ],
                 "CanVisitRoleList": [
@@ -1201,7 +1203,8 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "FGC_我的已办"
+                    "PageName": "FGC_我的已办",
+                    "BreakpointIdentity": "9856e2c8-fda8-4370-a8b8-1a3e102bc6bf"
                   }
                 ],
                 "CanVisitRoleList": [
@@ -1218,7 +1221,8 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "FGC_我的待阅"
+                    "PageName": "FGC_我的待阅",
+                    "BreakpointIdentity": "2a6bf15d-e18c-46be-8354-900c148a51aa"
                   }
                 ],
                 "CanVisitRoleList": [
@@ -1240,7 +1244,8 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "FGC_我的已阅"
+                    "PageName": "FGC_我的已阅",
+                    "BreakpointIdentity": "ec0f68ef-d5f6-4266-90b6-70eb74efb9be"
                   }
                 ],
                 "CanVisitRoleList": [
@@ -1268,7 +1273,8 @@
                 "IsOldMenuPath": false,
                 "CommandList": [
                   {
-                    "$type": "Forguncy.Model.ProcessDelegateSettingCommand, ServerDesignerCommon"
+                    "$type": "Forguncy.Model.ProcessDelegateSettingCommand, ServerDesignerCommon",
+                    "BreakpointIdentity": "278e3e48-5f2e-4fb6-91bb-d346c9fc5d07"
                   }
                 ],
                 "CanVisitRoleList": [
@@ -1286,7 +1292,8 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "FGC_我委托的"
+                    "PageName": "FGC_我委托的",
+                    "BreakpointIdentity": "4f8d5a23-713a-4826-bcda-b495ace4fa4e"
                   }
                 ],
                 "CanVisitRoleList": [
@@ -1557,4 +1564,4 @@
       "Size": "1200,60"
     }
   ]
-}//lmkOnATQ/d5L5c8YbhvS/ugpoZ5SIMoQ5D9p072JFi3MRIErdMMnI2ePYILMlA94cLR0bOwtEe5ritDiqy/NF2Y7/H6paoT/mR6G0HbhvU4GZ2QWpxDU5z0//8nVgkzOGUCRfip7gwFUu+Yi/LUmCTmup4+CB/53bwiEg7q8HxRZu4YcbPgq1kDM1otxCC0ShqtGm2ZXPnmNIUWDDxcbywCXb8qxUZ0DPkiCRoohN1sPla1b06F9wJvsfXheWaya0hysi25ZwAO68HLB1uI4hBgZDWWvSS9y5/tzCCpsFgSZDYN+DAuhDhEESDtELw3zfkJ7Sidwiv/36I48dmMcdwhCpX1X8X/msQsRzKbUXDsOBpUxYnh2pgo4DE2qLGRdmuoh1Qy9yjM3eNqMC/v5J9RFaqh6tMoXCBiomz2+UiQSBTtgrOThfzu1TN2BOFTPXEgP9gnc1QnjI4+dCCQ3wRUYdxY2C6UFXOrVN43hGx3Qg+fH4kjv4hlSKVyqZcmXwJObsQBr9pCV4MESVk1WtzkEPSye5BsqNHW+7UB3ta+KU97dk9knkhkCc8aHIKzkJkaefVSwCM6WW2kIKXlXSTbw0a7Nj8GOIlHLMaOi2bvkTiszkyte4/cHOm7PYtulk3DIy+FMqkFATjMUoJine4RNMQzE409llz5JQSA1Yva54fGSaElxuLo++jhiBF6S6TNdLoLUfKiS3BAFw4DqNQloVBRcuwJyfpqqwG6N2asUJF5nC5aaRYUBk6sAfo4W8R43qc3RVlAa4qWGaFbqhlURqADB6kXGMzjKNW0TK/USzUgSM+G1hL6k+Y2G6D1i//bJVi+uDcK/6hQY68ykNliBuImatPhL4TOuUiNTs26luwItkXr7Qt4ORXB6F+mratR636jctPVrHtB8ihijPg==|920
+}//YIX5JQebEGLq7ZrB8etDjTQTMgm+rd9KHfW7XUTJeUc7UGmVZf4+D3gybvxuOBOiI+5QjtJxbasrpbq25dKE44c7dJfRTx4969GW6yrHbYAO0QA/Xy2SJKd3HkysslY8B2pTXKq0geANtxo7VzsH0VemrLMlpGNNamL34M0HCPCfQOqwB0Furb5lV69WXfdub4zT0tmN3/AaOsWcbeNUyVsluJp7oFrLJYSanxXbu25YeH5vA5/llXV9mdl+mxzniwNcSmPrP5bTdeE5w7BKjFESGOoZvHbe5Ogl1M7LTQZ/F8zPKqtemtcD1apxbX6Tw2CDHYtsCcqtmhoIDh6csBLFrMjvo7fIMhkoJ2ypL7KnTQr/hvAdYBTimmHiW6G17dzvYeC7MqLvVOy1uJV/iKs1+HNw/zPTtMwkvF9UkiORhVyAeVLePDG7mI36Thb8riZcog2KyzO0fY/3LFFwF5cjJvgVazovXTXX/8sqd56nZ58wEx5P8gGHWIgFZ9Rjoyff9GdLHukuqi8+/TIWu38HCURFdp6Z/2TtrKyGvbw14FvYDcOa64DaXnx7GkDt0Q5TfOxoWimlkHwvrmabJ6GGYQtz7gWhXX+w05FZYB0s8eW2kOcg+jrgvyIqOAktG45/ZCZyb3UPCxgpb8GJ1NOeZVCRNIMxrVHPmzzEY1fKcLNTyDt1z3ka1DJwcgL+rx1u6PYajyy0RnoIIKgeguRn2pi6zA+ra3Zz+Zq1AHYYDxwR6cQcDt0k6uwWTdq2LoHibMzGqDRHTu/lkAgyg4BhiK1yfDspPFCbhWIFQ6P1rKmrm+huH69ua/vayBasw1so6J/lJO8X4Kx2qDiujf5uQp1qy0f7jmIB8/NGCpgnrCXOPKIJUGm2BKDBPx3F5VPSBlfwaqpd17M7l17ggQ==|920

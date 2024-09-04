@@ -405,7 +405,8 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-            "PageName": "FGC_登录"
+            "PageName": "FGC_登录",
+            "BreakpointIdentity": "ee46ef1c-652c-41ad-8aaf-af94f86366b3"
           }
         ],
         "Text": "登录",
@@ -486,4 +487,4 @@
       "Size": "400,360"
     }
   ]
-}//MffFmmLD/63/xSd0VaT1PNwAxMKU7g4UEvbA1gYKb0S6rJ3V8anNUeZCY3GRYAic/ILjSDf0WWyVOMtXPedcHvU7djMH84p99e0Swceff/FbGxZYv2H/5+MoZa2QBu5vb98MAyuta81ZurluyaXsWOW5Aa5DrkJQZCBFpKY1gwPnL0397jlp5SVSTsUsECYGaL1qFAmO4gtQxfavGK8IVfIDVRhezJZbQHcGivNSzNJWF0Y57cXsuBkeVAacYDN8F5Jgt8aVj8xuYwRQFO5FzUn9z8QGpWUVjp78QQQACYI7QUfGarPPzxMGiBqIjmqwa7AdjWApoZCcJqFYiu5qZZbnGp+tOlJi5yqjRTHc4q+WTQ5J8vQ+VALXkd++vKZTmeCJJq19jktEe81yYgjeubnJvY2L3SLUekmaPOLwkECQm/8/O+B3B3fmDqR9j16FGZSQ8lCFXZKG5LaxgBJBUb2OvJ9U0oWMKbThXD2NZgkF6Wo/m3z8+cox1YAgpCtIMr1C2g8acLdvAgzPHvy5R7d8pA1aPIoEsA/vhMsmvu0wYlbzbbC7Z7ALmfvPf32k/jCkCIoMY/4IlDFWubB5TEG09lA9ueFOEm9bwJMVAzHiHt0isqyTtnRTrtYQphWSmzRzttUCGFZYZP3guEmjioz7VHSqik74p5m9BSwMYA11G5o8D/aImqwrAFNlbdJhg4KwzV60GjOInhm29OSFGHnWrd1nl/aPRKooiJnjeRQgJ4Ygn0fDENAU2gmfNaKXNjgVbYiRetgrknxBb6JZ3ECkYm96W9DrY+/ZG7zEGBaInetoWeTNn/kt1jbWHcRrf929WFUrbCuKTfeYFw/KqopP7YUl0IeWuYgMwJwVDXOBlMZtx9y2Ozh8Rz79SkxyJitwad9AGXUFi+2Ce5zG3w==|920
+}//vIrqglBi1rTymCBS6cypmsUFYhpabTZfJdSovZoKi706iyohdpR5mPQkNJhRHlp89RXctQkvmJOCGtz2FKr7AiE0U3vllDCHnEHRlTRM/nIU8ZvmM2w7nErPtuN9mSHiv5nGmw+WMSmrp0gDfKPGGYrW1xJ6Im3EH+RvL7QCzJCtrvbqkf1/y/Dx/qqx9axKSF/Rgq7et3YoE3GdHIKRlkRjmqWouxXUi6OBe+SJaFgc6TjoxzarpV5+OO+HQDhFKY5pZs6ZuQs98YoqWfyqRSBfSuYCE36h4u9S5fTFXhLXBQgjziMoxW02cWAfYDa45wfYZogL7rSOsx7TgCSbKK0aEHCseBin9wZISYx3I02ncpmQK0X0FTvL1JRfCsz1IdFVQMP7Kppx7maism2FT0hoIdPs7T8HZ5j65JxJv7Qh28Tjp/34r9j81T+5A38OBLFUQqE7ibx9WP/Umj7CDglPFsYtvUO43gLk7FFeNpfZt7GPoEYGh6hq5sLjp1gCgHWuBqZEMhGYGn3H+PDCdN/sWayLFY8uOYHUOb+UUtho/zVdgokktAwT8COVONQKOHpsdtLJO3VbAUf9wfAFMoDB4S4k7X4pHx1adrIldhQmI8ODq4l+S4vyR6eOsa5g96CmBLBQfGndRrLzvTHEu8lzzKFT6A0EwvdtzxU9AjesBDWJjqSLY3DkrVGJZLmUqRvCkNqVgE6sj8wPeNOOiEOhjrigs66Bm6tRDVabGaqejpUvLr4BlxbX3vikp+uK3yHxZXEo8N5s2pr6h1H/MeVPLcdA8M79HbmjaodEQu1iDZ0mfy2n6y+IOhtEwQ4VCFFVsfox2DJ6ZumNTTW0dA4rlHPGMYse8ngsAJWqV55xanuWWfrZDqgMW7+auHxRDuA/paIpocJSzEJBRVGvVw==|920

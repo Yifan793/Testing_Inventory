@@ -282,10 +282,11 @@
                               }
                             ]
                           },
-                          "ID": "973c9d8940eb44e5a639539560b98363"
+                          "ID": "973c9d8940eb44e5a639539560b98363",
+                          "BreakpointIdentity": "f70fab73-ef0c-44ff-be8c-76c03d468a0a"
                         }
                       ],
-                      "ID": "528aee2c-4013-49f3-96ab-b950ab433279"
+                      "ID": "d551f517-a8eb-4159-8ffb-54b573c9da85"
                     },
                     {
                       "Condition": {
@@ -391,10 +392,11 @@
                               }
                             ]
                           },
-                          "ID": "c34546ba442a4cd1bea9e5de228881f8"
+                          "ID": "c34546ba442a4cd1bea9e5de228881f8",
+                          "BreakpointIdentity": "4c2e6c4b-b328-43a8-bd26-f9853baddc05"
                         }
                       ],
-                      "ID": "9d88748a-502d-4d84-aa9d-e59644d24092"
+                      "ID": "f3f253c3-cdd0-4cb0-90ee-62c28ca1b968"
                     },
                     {
                       "Condition": {
@@ -500,10 +502,11 @@
                               }
                             ]
                           },
-                          "ID": "03759f7b40ed4f8f8afa3d3e8b46b1c5"
+                          "ID": "03759f7b40ed4f8f8afa3d3e8b46b1c5",
+                          "BreakpointIdentity": "763dbc75-04bb-4a84-8c96-fb13e6ad1812"
                         }
                       ],
-                      "ID": "292510f2-4bce-4119-a5df-53d64f07491d"
+                      "ID": "56de24ba-8ff1-48b7-847e-dd9e50808f9b"
                     },
                     {
                       "CommandList": [
@@ -580,12 +583,14 @@
                             ],
                             "RelationType": 1
                           },
-                          "ID": "012f52265f28466e9d5f8e190b6b2623"
+                          "ID": "012f52265f28466e9d5f8e190b6b2623",
+                          "BreakpointIdentity": "d748f9d9-2bd3-4e61-ba56-18e551edb6eb"
                         }
                       ],
-                      "ID": "3e3be3d3-7b9d-4058-8aad-803073ee387b"
+                      "ID": "df027917-3e2e-4662-b418-c822beb6e8ca"
                     }
-                  ]
+                  ],
+                  "BreakpointIdentity": "54a7cb0a-b8fb-4e64-8773-4f3c8d15cbdb"
                 }
               ],
               "ParamProperties": {}
@@ -625,7 +630,8 @@
                       },
                       "Value": "所有"
                     }
-                  ]
+                  ],
+                  "BreakpointIdentity": "5a68ea2b-22f2-4d00-81d0-9ce5788f5dd6"
                 },
                 {
                   "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
@@ -638,12 +644,14 @@
                       "clearSort": true,
                       "clearRuntimeQueryConditions": false
                     }
-                  }
+                  },
+                  "BreakpointIdentity": "1ddc16bc-d455-43c0-b4c4-c52b90341942"
                 },
                 {
                   "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
                   "TargetTableName": "item",
-                  "ID": "baae809c15d544429b84db5808c78f8e"
+                  "ID": "baae809c15d544429b84db5808c78f8e",
+                  "BreakpointIdentity": "b7a024ba-ecc6-41af-9a27-1cd239127fd6"
                 }
               ],
               "ParamProperties": {}
@@ -696,7 +704,8 @@
                       }
                     }
                   ],
-                  "LoadBindingDataOption": 2
+                  "LoadBindingDataOption": 2,
+                  "BreakpointIdentity": "d92fd924-213e-4199-ad12-a95dcf50d481"
                 }
               ],
               "ParamProperties": {}
@@ -719,7 +728,8 @@
                       }
                     }
                   ],
-                  "LoadBindingDataOption": 1
+                  "LoadBindingDataOption": 1,
+                  "BreakpointIdentity": "bbcc5c7c-dc94-4a97-ad3e-4c43bbb3fa30"
                 }
               ],
               "ParamProperties": {}
@@ -769,7 +779,8 @@
                         "SerializeProperty": "点击结果"
                       }
                     }
-                  ]
+                  ],
+                  "BreakpointIdentity": "8bf100d9-c08a-4d5a-8274-96512df129d9"
                 },
                 {
                   "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -802,12 +813,14 @@
                             }
                           ],
                           "RefreshAfterFinish": true,
-                          "CheckDataValidation": true
+                          "CheckDataValidation": true,
+                          "BreakpointIdentity": "d2419aa3-9b0e-44ea-8eea-c8cdc015581a"
                         }
                       ],
-                      "ID": "bba4f92e-d4c3-4965-9a08-aabc7972c053"
+                      "ID": "b2f7e6c5-d71c-42f3-b4c7-c27e049dbe5b"
                     }
-                  ]
+                  ],
+                  "BreakpointIdentity": "218be5b7-6884-4fa3-a83d-b89c4cb49426"
                 }
               ],
               "ParamProperties": {}
@@ -829,7 +842,8 @@
                   "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
                   "PopupDisplayMode": 3,
                   "DrawerDirection": 3,
-                  "PageName": "物品信息导入"
+                  "PageName": "物品信息导入",
+                  "BreakpointIdentity": "41be73b2-fc3d-4ed5-8b9f-8d2eb433e82b"
                 }
               ],
               "ParamProperties": {}
@@ -850,6 +864,7 @@
                 {
                   "$type": "Forguncy.Model.ExportListViewToExcelCommand, ServerDesignerCommon",
                   "ExportExcelListviewNameMode": 1,
+                  "BreakpointIdentity": "6e1018fd-acbb-4ee5-a389-21ab3fb1a4d9",
                   "ListViewName": "表格1",
                   "NewOtherName": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -934,7 +949,8 @@
             "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
             "PopupDisplayMode": 3,
             "DrawerDirection": 3,
-            "PageName": "物品详情"
+            "PageName": "物品详情",
+            "BreakpointIdentity": "f6a50c4e-586c-4ae2-81bd-581b94a9fe51"
           }
         ],
         "Text": "",
@@ -1040,7 +1056,8 @@
                 }
               }
             ],
-            "LoadBindingDataOption": 2
+            "LoadBindingDataOption": 2,
+            "BreakpointIdentity": "d3bd9433-b0ed-4908-a999-38b2176b4e78"
           }
         ],
         "Text": "",
@@ -1405,4 +1422,4 @@
       "Formula": "物品_库存!$C$5"
     }
   ]
-}//qEdAElGWLtem2sooJINX0sKQd4mpTn8s40y7pTGKozpQIpNzX2qGsGFstg/rvnAliVgCFC0bZsuzZnSJPW27yxr6nIqpgboTETsHN7MnLqqKBfDNaSJgx7BsvamDhI7F4wTvbNSjGHL6b+dSNjYhztL7o0CfexjfxJprmNi1wfD284ovS1nWUfamKJfvxrm5oOSSyznRYS3J0zQuirJIkBsVgLq6ESToeslCEKvmkDP7DeunTUaeLOOoubXJ1ubuthsZDv21qfG31V7Qh9hoMQUqKisIUYdhbloNbrej4iFsJDlclasm01t7b22gLMjib1nmyRrlPxjuWqkQio9IYsI5q29K7xOyGaaNAispRdjjL8P3eCD2d/eqnK94SkzORIatg+wziny67/kkxOqh91jxgO0WNVOE1n2ILP1fWz9tcDDNDB1iItG9f1HT1ATseWS/Ws8C8o3GD6CDk/HPazLVaFSMFDbRiXqDge6cGuRF1VKUo3TlwziqfEnt2AyFGqWCBZkF50SthLB+pwH2Zo7LWgILR0XMcIp/fkViBqFJFN/y/hiyHwWRnLemhG+9wRvWMlZ1l7gv8ZfaL09OKeVBaOUVHn3eaRwGG206XpzFwNGPvlFwJsuCHvbViTDS9MBnNgnwRQhtXzKGngH4MLjX2FiJ1DSirZ0Djiswm7VJ1TniuHNvqnX9pkTttvm79mIkRhbFWUxMYTEv4eAot3ILlm30ytpNrSeaEVl/SqdD0xOlnKkfq+t2kN5UAayEG5mwR1qTLU3VcsOfNFuS88XzUVfdGfwlh9XUMuhoCkrH2+B+GvlY8p6GhBddcmbgBintWnC55o3pc7gN53XyZWFoMBqsuRB6V6V56QFNb89pMGJNeJFLGETtMeyPfXnODvK1SzniGtGzJWEfpUSp1Q==|920
+}//a3xU4uvH+5KAk4BWUu7ZJmau9OFkovOsWftYWOgtLzs5meMiILRcE+nt19ZtMSO8XHp3iBJf6VmGFQc6hPklz1DpEtCFsuxGauQ7l8sri/XKEkabvDZQcW+JWdVnvkF82AaM9SmbAkoOtne64eBENpn61PPNjol0PEFXyy5qo59Z9C9H1q2CJ/x2s07o1OKtJeo0yGMXCVNDjC76rzxUwDkgj/z6rat5bKJWyjkOfygqTVTJKQArgkikgGyv0cyibNnopJtmgWQDJ7wgwCrOooB2s8Uji4QfAg8tMzHd6D/YMX+gwTStT20/uC5lrrW/7u4BB5j2eTZRx7WsbNywMckuncRMHsCWggaomVF2v4KhQoTHGbK6RqMsGtlCHJIOeeX/9Ob+AZDn33WhYcA4WAfoWVVQZWwWMFfvtBNNo63+irYKhHIkG5SubhE1FpZozCq90XjYh2N9tu3mWsXMUjm553Y5Qpem45vwmXJjmDZP90ClzBtz6mO01yOQNnxGlfbg7TCW1ws3V8XYmab1m+9xjR/XQIS8iidZlSsDEIvMh4AOT1BOtYeh7v+228asPEGlBxsyHWZzv5LELcT6fh6xbUr2KGdWcCgd7fGlwHZi4aA/Gjgc5FjRe6/mMua7Th9dNMcTJK3JRJ7T0Qe15hByQ/N4Uxfruy2ii18Ume35bbUgH9pD1/f4sNUD89KmePoPcniu2rWg5ha1bn5GbMm4YCdxxy5ubCJB2Vbdkhy513JjATZrtGr6RNNwuIepLlC7cuJiwxEhIka1FGDcpZ+ki/JwURM7KPiedQ0c8mQ6ZX4o2+k5foc1xqUBEnYkYxaY7rR/Ipd8NIAo5jR0SpABOeMsZr/oK+JMH3QZvGaEugZmDsI8ryir4sZH4slmhpIRcoQ0Br6MQB9tpe5JKQ==|920

@@ -164,7 +164,8 @@
                   "SerializeProperty": "=销售单!关键字"
                 }
               }
-            ]
+            ],
+            "BreakpointIdentity": "607cc9f6-d977-4ce6-b951-83d004645104"
           },
           {
             "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
@@ -224,7 +225,8 @@
               ],
               "RelationType": 1
             },
-            "ID": "ce5d0e0b70234b85881784669b3aea7f"
+            "ID": "ce5d0e0b70234b85881784669b3aea7f",
+            "BreakpointIdentity": "bcbf3934-7b81-46a6-964c-0082a0ee8392"
           }
         ],
         "Text": "销售订单查询",
@@ -609,7 +611,8 @@
             ]
           }
         },
-        "ID": "db880b0613464c29902c6f82afc8592d"
+        "ID": "db880b0613464c29902c6f82afc8592d",
+        "BreakpointIdentity": "bbe33061-c581-4fec-a3a9-150d3b106d15"
       },
       {
         "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
@@ -624,7 +627,8 @@
               "SerializeProperty": "=销售首页!销售日期"
             }
           }
-        ]
+        ],
+        "BreakpointIdentity": "21e788ce-6b04-452a-b859-94fb884bb8c8"
       }
     ],
     "PermissionData": {
@@ -1351,4 +1355,4 @@
       "Formula": "销售首页!$C$5"
     }
   ]
-}//W3opXUVJ8ftpKt+rLYKa04WWW1vVaayc5BSpPLi2gvq3eRmHMQSjZHZW20/elU1Vb5FlMh4wWkzcw0KoaYISi2QiAbHGuay3PHwfr1i7Af8mjZIsdgpud+fMQFrWLFFGMobeb349hWCcSHppTN6986mJ3d6yh+Vx9RNeE0u1FQCuyNwQwLS9s70QZ63LA/0eLAYLuqXk6qnezShMZO0c9+LKQ45OmDOc8e+DQm2ZeP/Or2iMo8QhCaVtMuWW+2Ld2GYx+LS38nqYIt2jmJyEY6ueBvfinoI4ZHYlQg4n6vvHAFDR9Ze8n0t2jI/VJL+keBYMZ2KCnj4HDC/Czzst5pHxQ74tuR6XIpMek5S1zII2BXeezlzTZn5GkxAYq0yUQuz0ZZ37wYNuyehJJWQyVRB+KQKA+Hdk53zU9aiUjV9UwDPr7TbjRHKG+9/P81fDmf0eYdHYlhV2TKYeEa/FF+/G4mR5c2CbKoqirtoE4BcT8ctBjG1UugufhqvTC5/UClTcpYupOB7mISDPDrwx5xuJ7Z3i2GgUE9G+5RQYvWvK7wN+GHdk1qouGoq8FtoASilZOINRhW8CZ2Bp9Aw26l1a7fsb0zPEAchANND8xgZc3jNk9vkyA5sYufjY2WE9PwrIIlWPNZzvAzUbGIatJlSC2vYUDBr0nms/6iYZAe10BiJG8Mv+3uiFzkM/gRUmjdaWKdSCy0nbm9T7aeVvkTl1tRT2G1ujaze+b6CgQEwCFvTx288pgjcHzGCJeXkvDhBcdRCwM24LuEgBNtRoNgCU34XN/wCGXnf4+T88LxiyxrzIQPPp6sEmAtzqOmtrpmK5qbSY3gNhiedGzL3K5iEHg1pI9D3+EvJfmZzEH+pKd/UQzJmfz8CU9IuIWS9yizT9JUfcX3WS5V6aoZ0hjQ==|920
+}//rM8Z9S4oE0vPcqNFvT6Bl5a03Mft+wLTD0QFAQ9jCEQl5A8p+JHA9KbChN7MfJPPGb+WqClvTGUUmlGE5OhimLkeGWrHuu2g0s9EjUyCxWYlHKl3yowMZuMng2k40izXLre3CcHBsrEOW8lDxbTlADUaUZxi7uV12w2ol1v8N+RdZYc1viMg6A7GYNzFrNluGmUUJos/1JZL60L21kX85wQg91UTCG8G9xtKMMkXiSj4llN6wdkiB6Mm3yRsm/+tJKQXTpjU+ssHN/eNUakoW41XhBzypI7rGW+eoxKs2FWfBNUTILklbC8kxUCHxJTfpMxSHR0cS0yFIrLLUnvJ7AEPilEkU1C33wgecSiUC96v95mUPkz3ovuhDoPahDOVYiQZ5V/p7Zl1AyNCfsV6XxvnU3w76GlPSqCnZiSCrZzPNrZVbHvHtZ2xar74hS6WBJNIqhLHydMGbODrG6aCVF7Xa+jKYmxXmhpS52BxO8mtVQbMOPFf8tyAETQcdzw6nojms+gWyeNgXX5WcsMxwhEdyduBIGlcTIcbiEBWwlv0HIXBZeokcdJjB542m3GPcStwZj3MB+nWAEOssu/pqjPqdNTUki03EA2eGOFN8U7+je6/XU0aI5hEbxSJ+nnj94pYDgv6yX6MQlHmbRVza2pAARv05p4BuoXhvMJao29WRygYgygpD28jNCN7iyYaYTWtPWyfQWH38fmu6LNk9m0OP8+MV+h4qaau5ecVTGL76aBscgYhxE8mybtfrmTHAzxQ24CAprDIEACrNgbS5+WGKP/6e+QN4GT3j5Tt+sK+/JT7bW2DHLDe7sxGJG8HbUrayZX5sV9kq4ub1yO4iiMs13lsm1GRu3xuhVdSyAVrrWiZnTCV+rONIDodgLbp6NOfrXw6J8twLDEsc2L3cQ==|920

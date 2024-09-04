@@ -876,7 +876,8 @@
         "$type": "Forguncy.ProcessPanelCellType, ServerDesignerCommon",
         "PostCommands": [
           {
-            "$type": "Forguncy.Model.IgnorePageDirtyCommand, ServerDesignerCommon"
+            "$type": "Forguncy.Model.IgnorePageDirtyCommand, ServerDesignerCommon",
+            "BreakpointIdentity": "bdc07361-1f9c-41f8-96ef-bc811af7a377"
           },
           {
             "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -897,21 +898,24 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "FGC_我的待阅"
+                    "PageName": "FGC_我的待阅",
+                    "BreakpointIdentity": "463a2539-09c9-499d-90ca-10f4d719c927"
                   }
                 ],
-                "ID": "5a235424-0e62-43eb-8101-9c9352abfe3e"
+                "ID": "1a505269-078b-4d4b-b2e3-72e11db80b3b"
               },
               {
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "FGC_我的待办"
+                    "PageName": "FGC_我的待办",
+                    "BreakpointIdentity": "3520bc0d-d1ce-4d5c-99aa-6ebd5b936cb5"
                   }
                 ],
-                "ID": "bba07968-5d1e-4641-96ab-651342327635"
+                "ID": "fde89346-c0dd-4d5b-998d-2aeabc83ec21"
               }
-            ]
+            ],
+            "BreakpointIdentity": "e3214e16-3e9b-4f49-aba9-f7468219d9b6"
           }
         ],
         "TemplateKey": "流程样式2",
@@ -1188,4 +1192,4 @@
       "Size": "274,554"
     }
   ]
-}//qROXwcCFKBECfKNqb7WzlEJpCye5/tLqoKArirfjAkY4ty7qoLGKNZY8TLqu8ZgDPCOy0OW6XceDVrggbWjViR323ks6jc+RemT5jquMiQYIlQzsk6nw3kgUxTDnSQ4PeBRuN0Fc+izfAdKeHL6taGhwDmSPrAcg3YY864e7dmfhGVsgdmI3LbYGB3B6HL8L8GBo6fndzJ30O5IHs/RKb2mmZG1T+3dcmNwr2WwwdMvOkkTAzcb3JVk9M+f7Tejn4CPsK02HBtN3q1rNi77+JFlAIyvWiB95bksFlVbUGZ/T4aVeCjnssUbrgHSjYX2kMaqDYGadrrHTkMglSAEpbRLClxa3uo8rsn7j2/F5YZK8PHtm3XekWU0bsTFRrPlv5+B3+U1pEqDvoNegpfZbQOeuGh6WXtHumXVX4GDqNAZJLIKNDpgymKpBB1WcPrZDTd9RwniZFw6mCmOWw3+4QurewgROvId8WIF8cq41azRR9diGW28QJJVfhV7JVeonUBZ82E/R9r6a7YdVNHu+T/w4oJw0vcMqJdQpUb4eVw+VfkhxhG/XPciusJeDzQ/ALxERW2oEpgAJUJXfYuyNthAynvrpd34+ssIGCxqrB1JhZWYaD20bhxrafHAN34Qa1v/0YWeOaQG3yCOGRwdEfFSkx9NMrLnTgRHkFgq4MlPE0DCyMet/9sr1u1aFAC4RVm9GkA0QI3U7LfRTeIwcN3JNYiOxYkDlPqZHtBm9NZ6SaigptjM7ny0qZcyCzOVTd9CVS4Z2Ms6WgagwOj5YL1ioJyYmft1ustt3wVHVjQb3PdFuOFFR2LupvgEkWcQoqfgQH4dEwFgowv8BEq/NILrGU04dyzWIWJVHJ+g/4nyWsSFK8cq3iU2LpWVf7Aq2hTWXhBSSOTAvTmMX6sWORg==|920
+}//aTUo+0pNo6TkpYdJsbFA6cd2piAT2oIVEQivLRinGEatnXwy98NtjEHkUc4k66X2eQedtx0A6uskUh9bpp1GSII327Bj7oqq93m4WjWgz3A173lPgCN2puJ5hR3I3DnBuiwAFvqux2QWR1dunRhs2XE1rhoJgJCgXly4QAg/+sluopqK1LaM5YWsw+OXe6mE33LmiuKC9sgOgaXsAV8meBINxMlsWBw0TtocUmClmpHqvbw1+6JPMH86a8kHvWbvYp3YVmKS6z9odM5+DIkV/O3HFTqAQ7Pjy+Llyh0CR+sksioSNVVZg/iCq2qNn1vXY8Wsvcnf2G6L0x1Zlfc3SEoVEbG+mvsreLUvrzPhd6LY1o3755idSkkhX8eq9quWgr1nujn7dApMtFi6QG1bl+KnTvQ9QAr55wffjjF0HamoDQPxFZMfucdne/xRNZGRBDZwGawRQkCYMTQdFNQriuUnCNNej4XTAg9C7RY5ugXYP2jHBtADjhQzdbXIWmhGTLMFo5vMbZ/NpfWblYjBpiB7/fYijFNAdijqnIG41qwBN2nQHI+IP7I0WapoRPR2xGwJGRR/j4/Y985BWNNKsAy//lZ4tY71NVqV+lNTdf5noxEwI/WPclsm1aZ3S/aN2l33jBP4rPGYpaHvCsjXP4sWpm9PrsKo6HcnYE3Ko7T41UhA4g/fzmNZhVux29ul0ZAzEgDc8CM0cpyxtaCPOQOFgrox8DAnu7Jf+IuYBXW9hJ+lZJo4itbhp+P4Xc4LbfSiRVbMvnvHWKBCbnv44aGze/qLzx5TmAE/x2C3f8TzKsDFqIhuQw4IHBkmFjo6k0Hfwg/BAkXzGqSIkiGi9UK7Ma0hiQQkHjJPdAQnwTQ758ARjQXCD/+hGltH4a+RQT4Y78IaYYuG+XNcqgdOyQ==|920

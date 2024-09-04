@@ -279,7 +279,8 @@
             ],
             "ReportGaps": [
               "0cm"
-            ]
+            ],
+            "BreakpointIdentity": "a8b9b881-4194-48b6-a5ed-b7d44d183120"
           }
         ],
         "Text": "导出PDF",
@@ -321,7 +322,8 @@
             ],
             "ReportGaps": [
               "0cm"
-            ]
+            ],
+            "BreakpointIdentity": "34bfa1d0-715f-4895-bf3d-c7b73e04f4a1"
           }
         ],
         "Text": "导出Word",
@@ -363,7 +365,8 @@
             ],
             "ReportGaps": [
               "0cm"
-            ]
+            ],
+            "BreakpointIdentity": "66bbd324-32cf-4b8c-9f05-e177ab534ce3"
           }
         ],
         "Text": "导出Excel",
@@ -405,7 +408,8 @@
             ],
             "ReportGaps": [
               "0cm"
-            ]
+            ],
+            "BreakpointIdentity": "f38c88c6-a493-4e95-b77d-d9ff0d44a700"
           }
         ],
         "Text": "导出CSV",
@@ -571,7 +575,7 @@
       {
         "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
         "SessionGuid": "9352e2e8-3c91-4966-8cfa-37f2fe1e764f",
-        "OpenReportName": "销售汇总表(按客户)",
+        "OpenReportNameNew": "销售汇总表(按客户)",
         "SideBarPosition": 0,
         "PassParameters": [
           {
@@ -588,7 +592,8 @@
               "SerializeProperty": "='销售汇总表(按客户) (2)'!to"
             }
           }
-        ]
+        ],
+        "BreakpointIdentity": "f5f417f3-9bfc-4866-ab23-9ba57ac62cf6"
       }
     ],
     "PermissionData": {
@@ -654,4 +659,4 @@
       "Formula": "'销售汇总表(按客户) (2)'!$M$4"
     }
   ]
-}//pFcHq/WK8m1ipEHbGqqUemiUk8wUrh6qPea/z34AF6WdBKPHhGJF/bKeMdUfu+USYJJsL/GYw4BlM8J0pEos8uZqXbYQiSIkQ4uJI6Od76RkYWpANWwFMMXzfRwW4qBGT35AeUtyfbYghJmAqwJ/uQigpKojl/Siyhm3E2514EQbh5VI4ADVJHdqwTALPniRlAd4A3GFb7gwzB3uTyE7xXB2fus2rNpa3egT7Xb8K2QDfZP3eI7wPeplnrYqwYIRUj5Esaj5kkQEryhNzn3njsJJjdYc57+XEf7cvmnvJy570Hny3bF7vb/yV1s37uDN/nQJBjF4I9vKofCobe4fLE4pXt63xHPevaRjmTjCPCXjSODpHdvs+NMiFLe1WEbxTcm7NShh7wEQdOvly/tXuet9KZQWLV/HVdVMNedCDkKT735Bx+K0ARYnczCoxz+Q5y0vVraPJziHi6AqzMGHeOpeW45cmrt832gegBH2WrW10a3qcejjJjIm6WGw2szjr9VBK5KIznKxQKb52kp+rKxkrn6LcvW6n8jE+Vgzqjwr6BTGXBHxjxjojNGcRXfni1602yd4mQ/XMhqWaBCHCQG6i3THiCM5W6TiPHICFOU5xsI+TfOuJJTNb43qahf0P6NyV+Ezhruch64WgDEb1FAIR2ykRMIdygciHYF2iRLLEw0zCj/J6Jao+tcc+vz/ib6L8fHAaUdwyVPNzOfflCiXBf1DLB9vkambL+0RFcRSubKIJiEMgGlXkuNyvwhp0DU2Nj9hBWgQkT3cmBzWtb83Hzz0mc4YCXlryaHDwHQWvtoFDTZOrM/GLYOKu5QyByLW2omaxlusA2WMFlx08y4UsdsWNMNhpTyKqjjJBxXgUKm8dRkTbaUpWbwkaX6/r1DnH2linNEAVrveRcJfUg==|920
+}//KPbKmnaM9LNKv9k0QDWo+HdNQZ4noB5csNSNwf1NUVg0vrM+KSI5KX3pCrOoMV5noOgOZQUr6XVF5r2munuS3GVHFHyZAZOOFJR/XyRTYAHA6pb4LtSQ80I+REtR3aLCZZpLCK3AezkM6G5VXF+CJVvIBfCboruVlnh/uXYHNDkWNKjcXLUQHaLncf+yGwx/J+CoHkQu3o/HBg/xiyCaYNlUcX7Q30Qmu12A6jJIVnw1hKSTAMjwPVGXFOvWmN3uRm/7gHoCqwRUhQDFxEXKW06gBqrLk10H+PyYJ1Gabkoof6Ir6wHX1T06hpVrIpkhRZxa3dtCdaFDAqcXkcYcXNr6pHcHZJQ20QQqFh8YZEEyI+pqcMm/55mjKkksfs1C0bdgeHmA3Oi7YSSjk28+ZG1AOuCOH6Z7tTdlBVF4hEqTJHnxzQf4WqblHmdOPNWdEUyqhscvL6rgOGvoTN1JgOPYP6WtI3Lk4M5OtU7VxH29wZt7fKl9oYQ+LDeBFDrm0YKJhZJYDpq8qpQ4jxycRCZgoObli/b3sgO3Ym98/vTu31COxR2ObZgooM+JGVxba7XH+CD+ayoyBOW8iF6fm0EIlE7jLZeHSB9JL0PyFCCwXkRtz3aRWi7LwcYJpzxC/J9dAlIaBqWcA+mrWPKMYdM2hzQYUfS3fkt/3teTEjwUQgdEeILFVkXs9j6vwLlM1tCMRbicLqvOf0QDmB3obvERoN+i3P2Nyk0bPiZXeNRgG+0MA9Y/Pn1xEiyQTK8XZptCRH8a6Ci4Bq0AK13mOBL3Qh/7qeyGn5r9Wwoh8VLBKAI+N9VMhaPl9shlaenCOY2IGugS9FRSGGiQ8o9lLG8zH0lU3ArEWDzadwrPL2XAhb41dlDzyM3hc7aRq4qew3RwtNUN4M8W4fqUF4Rbgg==|920

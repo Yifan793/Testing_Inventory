@@ -49,10 +49,11 @@
               "Type": "success",
               "Duration": "5000",
               "Position": "top-right",
-              "Offset": "10"
+              "Offset": "10",
+              "BreakpointIdentity": "3773ab8a-9a55-4133-a2ab-c1062572e3e6"
             }
           ],
-          "ID": "0f090fd0-36f8-496a-bf40-bc1b761f963e"
+          "ID": "94816df7-3321-4a8f-bb0f-ca049eeb6d1e"
         },
         {
           "Condition": {
@@ -81,10 +82,11 @@
               "Type": "error",
               "Duration": "5000",
               "Position": "top-right",
-              "Offset": "10"
+              "Offset": "10",
+              "BreakpointIdentity": "4731e576-3e4a-4f68-93ed-0cf4f1d9df3c"
             }
           ],
-          "ID": "25ac5dd5-9748-489e-8aaa-0bc61e41927b"
+          "ID": "5018ab95-5345-4c5e-a8d1-d2dbdccf6ffb"
         },
         {
           "Condition": {
@@ -113,10 +115,11 @@
               "Type": "warning",
               "Duration": "5000",
               "Position": "top-right",
-              "Offset": "10"
+              "Offset": "10",
+              "BreakpointIdentity": "b723608f-249f-4d93-a18e-4188711a7c4e"
             }
           ],
-          "ID": "0e623e9b-7380-473c-9014-ad888c586262"
+          "ID": "6df21ae6-94d4-44c7-8e78-55a689838091"
         },
         {
           "CommandList": [
@@ -133,12 +136,14 @@
               "Type": "info",
               "Duration": "5000",
               "Position": "top-right",
-              "Offset": "10"
+              "Offset": "10",
+              "BreakpointIdentity": "baa0ff91-8486-4313-b820-f71720614da7"
             }
           ],
-          "ID": "1626f56b-d7b2-4174-b2a7-569b4abe871c"
+          "ID": "71aaa0de-1c4f-4208-9e7f-e4949467f137"
         }
-      ]
+      ],
+      "BreakpointIdentity": "e9ea1723-70dc-4edf-b072-1716c8e8187f"
     }
   ]
 }

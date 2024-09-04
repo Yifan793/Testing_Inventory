@@ -1,552 +1,786 @@
 {
+  "$type": "Forguncy.SaveLoad.ServerCommandSaveData, ServerDesignerCommon",
   "Name": "导出sales表到CSV",
   "Enabled": true,
-  "Triggers": [
-    {
-      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
-      "Permission": {
-        "PermissionData": {
-          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
-          "permissionResource": {
-            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
-          },
-          "permissionBindings": [
-            {
-              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
-              "roleNames": [
-                "FGC_LoginUser"
+  "Triggers": {
+    "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.TriggerSaveDataBase, ServerDesignerCommon]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+        "Permission": {
+          "$type": "Forguncy.SaveLoad.ServerCommandPermissionSaveData, ServerDesignerCommon",
+          "PermissionData": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+            "permissionResource": {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+            },
+            "permissionBindings": {
+              "$type": "System.Collections.Generic.List`1[[Forguncy.RbacPermission.Core.Impl.ServerCommand.IServerCommandPermissionBinding, Forguncy.RbacPermission.Core]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+                  "roleNames": {
+                    "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                    "$values": [
+                      "FGC_LoginUser"
+                    ]
+                  }
+                }
               ]
+            }
+          }
+        },
+        "Parameters": {
+          "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "路径",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "关键字",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "销售开始日期",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "销售结束日期",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "出库状态",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数6",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数7",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数8",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数9",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数10",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数11",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数12",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数13",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数14",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数15",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数16",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数17",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数18",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数19",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数20",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数21",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数22",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数23",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数24",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数25",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数26",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数27",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数28",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数29",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数30",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数31",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数32",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数33",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数34",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数35",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数36",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数37",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数38",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数39",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数40",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数41",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "参数42",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
             }
           ]
         }
-      },
-      "Parameters": [
-        {
-          "Name": "路径",
-          "DataValidationInfo": {}
+      }
+    ]
+  },
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.Model.Commands.ServerImportExportCSVCommand, ServerDesignerCommon",
+        "CSVOperation": 1,
+        "FilePath": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=路径"
         },
-        {
-          "Name": "关键字",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "销售开始日期",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "销售结束日期",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "出库状态",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数6",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数7",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数8",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数9",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数10",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数11",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数12",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数13",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数14",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数15",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数16",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数17",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数18",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数19",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数20",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数21",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数22",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数23",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数24",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数25",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数26",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数27",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数28",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数29",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数30",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数31",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数32",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数33",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数34",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数35",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数36",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数37",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数38",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数39",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数40",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数41",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "参数42",
-          "DataValidationInfo": {}
-        }
-      ]
-    }
-  ],
-  "Commands": [
-    {
-      "$type": "Forguncy.Model.Commands.ServerImportExportCSVCommand, ServerDesignerCommon",
-      "CSVOperation": 1,
-      "FilePath": {
-        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-        "SerializeProperty": "=路径"
-      },
-      "TableName": "sales_order",
-      "Columns": [
-        {
-          "BindingColumn": {
-            "TableName": "sales_order",
-            "ColumnName": "ID",
-            "GUID": "35969496-2ca0-4e86-ba13-39b5bde0b93c"
-          },
-          "CSVColumnNameOrIndex": "ID",
-          "IsPrimaryKey": true
-        },
-        {
-          "BindingColumn": {
-            "TableName": "sales_order",
-            "ColumnName": "order_id",
-            "GUID": "b70e56cd-2bf0-441a-9318-784e39c3b85b"
-          },
-          "CSVColumnNameOrIndex": "单号"
-        },
-        {
-          "BindingColumn": {
-            "TableName": "sales_order",
-            "ColumnName": "sales_date",
-            "GUID": "af43f508-61ba-4a24-820a-238725bf7863"
-          },
-          "CSVColumnNameOrIndex": "销售日期"
-        },
-        {
-          "BindingColumn": {
-            "TableName": "sales_order",
-            "ColumnName": "customer_id",
-            "GUID": "874b9964-40b2-409b-9b20-d57cb01229d3"
-          },
-          "CSVColumnNameOrIndex": "客户ID"
-        },
-        {
-          "BindingColumn": {
-            "TableName": "sales_order",
-            "ColumnName": "contact_person",
-            "GUID": "20a10383-766f-42f9-be36-526456b9b83e"
-          },
-          "CSVColumnNameOrIndex": "联系人"
-        },
-        {
-          "BindingColumn": {
-            "TableName": "sales_order",
-            "ColumnName": "contact_phone_number",
-            "GUID": "4cdace6b-2846-48c3-bd9d-07b0028adc5e"
-          },
-          "CSVColumnNameOrIndex": "联系电话"
-        },
-        {
-          "BindingColumn": {
-            "TableName": "sales_order",
-            "ColumnName": "delivery_date",
-            "GUID": "927f4aff-d9d8-4ba2-86dd-feaf1a469f6e"
-          },
-          "CSVColumnNameOrIndex": "交货日期"
-        },
-        {
-          "BindingColumn": {
-            "TableName": "sales_order",
-            "ColumnName": "project_id",
-            "GUID": "6d9fe2ab-68fa-41fa-b70a-3efe15e0df9e"
-          },
-          "CSVColumnNameOrIndex": "项目ID"
-        },
-        {
-          "BindingColumn": {
-            "TableName": "sales_order",
-            "ColumnName": "seller",
-            "GUID": "6ac08663-ca21-473c-b74f-af0996b61067"
-          },
-          "CSVColumnNameOrIndex": "销售员"
-        },
-        {
-          "BindingColumn": {
-            "TableName": "sales_order",
-            "ColumnName": "sales_department",
-            "GUID": "afba2320-3d20-45c5-b67d-ad522695ba58"
-          },
-          "CSVColumnNameOrIndex": "销售部门"
-        },
-        {
-          "BindingColumn": {
-            "TableName": "sales_order",
-            "ColumnName": "note",
-            "GUID": "aea6a298-87e2-46bf-bc37-2d5937325f70"
-          },
-          "CSVColumnNameOrIndex": "备注"
-        },
-        {
-          "BindingColumn": {
-            "TableName": "sales_order",
-            "ColumnName": "outstock_status",
-            "GUID": "0b477fcb-c5ad-4654-be24-b022f3bb4c81"
-          },
-          "CSVColumnNameOrIndex": "出库状态"
-        },
-        {
-          "BindingColumn": {
-            "TableName": "sales_order",
-            "ColumnName": "total_amount",
-            "GUID": "b5c58645-68e3-4fb1-a102-226a9d72e2bd"
-          },
-          "CSVColumnNameOrIndex": "总金额"
-        },
-        {
-          "BindingColumn": {
-            "TableName": "sales_order",
-            "ColumnName": "audit_status",
-            "GUID": "f7b025f7-6136-4b04-a8a9-4ead9e42245a"
-          },
-          "CSVColumnNameOrIndex": "审核状态"
-        },
-        {
-          "BindingColumn": {
-            "TableName": "sales_order",
-            "ColumnName": "audit_id",
-            "GUID": "d1d2804f-93e9-48bc-88b3-a5eaef4652b2"
-          },
-          "CSVColumnNameOrIndex": "审核实例ID"
-        }
-      ],
-      "QueryCondition": {
-        "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
-        "SubConditions": [
-          {
-            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-            "CompareType": 3,
-            "ColumnBindingInfo": {
-              "TableName": "sales_order",
-              "ColumnName": "sales_date",
-              "GUID": "b7007e3e-2318-4d0f-9e4f-774e62d099cd"
-            },
-            "Value": {
-              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=销售开始日期"
-            }
-          },
-          {
-            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-            "CompareType": 5,
-            "ColumnBindingInfo": {
-              "TableName": "sales_order",
-              "ColumnName": "sales_date",
-              "GUID": "6ddd6c05-9672-4882-bc25-746754e2a864"
-            },
-            "Value": {
-              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=销售结束日期"
-            }
-          },
-          {
-            "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
-            "SubConditions": [
-              {
-                "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
-                "CompareType": 6,
-                "ColumnBindingInfo": {
-                  "TableName": "sales_order",
-                  "ColumnName": "order_id",
-                  "GUID": "43555e19-031b-4e5a-b99d-dc4f50d415c6"
-                },
-                "Value": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=关键字"
-                },
-                "LeftBracket": 1
+        "TableName": "sales_order",
+        "Columns": {
+          "$type": "System.Collections.Generic.List`1[[Forguncy.Model.Commands.CSVColumnInfo, ServerDesignerCommon]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.Model.Commands.CSVColumnInfo, ServerDesignerCommon",
+              "BindingColumn": {
+                "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                "TableName": "sales_order",
+                "ColumnName": "ID",
+                "GUID": "35969496-2ca0-4e86-ba13-39b5bde0b93c"
               },
+              "CSVColumnNameOrIndex": "ID",
+              "IsPrimaryKey": true
+            },
+            {
+              "$type": "Forguncy.Model.Commands.CSVColumnInfo, ServerDesignerCommon",
+              "BindingColumn": {
+                "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                "TableName": "sales_order",
+                "ColumnName": "order_id",
+                "GUID": "b70e56cd-2bf0-441a-9318-784e39c3b85b"
+              },
+              "CSVColumnNameOrIndex": "单号"
+            },
+            {
+              "$type": "Forguncy.Model.Commands.CSVColumnInfo, ServerDesignerCommon",
+              "BindingColumn": {
+                "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                "TableName": "sales_order",
+                "ColumnName": "sales_date",
+                "GUID": "af43f508-61ba-4a24-820a-238725bf7863"
+              },
+              "CSVColumnNameOrIndex": "销售日期"
+            },
+            {
+              "$type": "Forguncy.Model.Commands.CSVColumnInfo, ServerDesignerCommon",
+              "BindingColumn": {
+                "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                "TableName": "sales_order",
+                "ColumnName": "customer_id",
+                "GUID": "874b9964-40b2-409b-9b20-d57cb01229d3"
+              },
+              "CSVColumnNameOrIndex": "客户ID"
+            },
+            {
+              "$type": "Forguncy.Model.Commands.CSVColumnInfo, ServerDesignerCommon",
+              "BindingColumn": {
+                "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                "TableName": "sales_order",
+                "ColumnName": "contact_person",
+                "GUID": "20a10383-766f-42f9-be36-526456b9b83e"
+              },
+              "CSVColumnNameOrIndex": "联系人"
+            },
+            {
+              "$type": "Forguncy.Model.Commands.CSVColumnInfo, ServerDesignerCommon",
+              "BindingColumn": {
+                "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                "TableName": "sales_order",
+                "ColumnName": "contact_phone_number",
+                "GUID": "4cdace6b-2846-48c3-bd9d-07b0028adc5e"
+              },
+              "CSVColumnNameOrIndex": "联系电话"
+            },
+            {
+              "$type": "Forguncy.Model.Commands.CSVColumnInfo, ServerDesignerCommon",
+              "BindingColumn": {
+                "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                "TableName": "sales_order",
+                "ColumnName": "delivery_date",
+                "GUID": "927f4aff-d9d8-4ba2-86dd-feaf1a469f6e"
+              },
+              "CSVColumnNameOrIndex": "交货日期"
+            },
+            {
+              "$type": "Forguncy.Model.Commands.CSVColumnInfo, ServerDesignerCommon",
+              "BindingColumn": {
+                "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                "TableName": "sales_order",
+                "ColumnName": "project_id",
+                "GUID": "6d9fe2ab-68fa-41fa-b70a-3efe15e0df9e"
+              },
+              "CSVColumnNameOrIndex": "项目ID"
+            },
+            {
+              "$type": "Forguncy.Model.Commands.CSVColumnInfo, ServerDesignerCommon",
+              "BindingColumn": {
+                "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                "TableName": "sales_order",
+                "ColumnName": "seller",
+                "GUID": "6ac08663-ca21-473c-b74f-af0996b61067"
+              },
+              "CSVColumnNameOrIndex": "销售员"
+            },
+            {
+              "$type": "Forguncy.Model.Commands.CSVColumnInfo, ServerDesignerCommon",
+              "BindingColumn": {
+                "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                "TableName": "sales_order",
+                "ColumnName": "sales_department",
+                "GUID": "afba2320-3d20-45c5-b67d-ad522695ba58"
+              },
+              "CSVColumnNameOrIndex": "销售部门"
+            },
+            {
+              "$type": "Forguncy.Model.Commands.CSVColumnInfo, ServerDesignerCommon",
+              "BindingColumn": {
+                "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                "TableName": "sales_order",
+                "ColumnName": "note",
+                "GUID": "aea6a298-87e2-46bf-bc37-2d5937325f70"
+              },
+              "CSVColumnNameOrIndex": "备注"
+            },
+            {
+              "$type": "Forguncy.Model.Commands.CSVColumnInfo, ServerDesignerCommon",
+              "BindingColumn": {
+                "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                "TableName": "sales_order",
+                "ColumnName": "outstock_status",
+                "GUID": "0b477fcb-c5ad-4654-be24-b022f3bb4c81"
+              },
+              "CSVColumnNameOrIndex": "出库状态"
+            },
+            {
+              "$type": "Forguncy.Model.Commands.CSVColumnInfo, ServerDesignerCommon",
+              "BindingColumn": {
+                "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                "TableName": "sales_order",
+                "ColumnName": "total_amount",
+                "GUID": "b5c58645-68e3-4fb1-a102-226a9d72e2bd"
+              },
+              "CSVColumnNameOrIndex": "总金额"
+            },
+            {
+              "$type": "Forguncy.Model.Commands.CSVColumnInfo, ServerDesignerCommon",
+              "BindingColumn": {
+                "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                "TableName": "sales_order",
+                "ColumnName": "audit_status",
+                "GUID": "f7b025f7-6136-4b04-a8a9-4ead9e42245a"
+              },
+              "CSVColumnNameOrIndex": "审核状态"
+            },
+            {
+              "$type": "Forguncy.Model.Commands.CSVColumnInfo, ServerDesignerCommon",
+              "BindingColumn": {
+                "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                "TableName": "sales_order",
+                "ColumnName": "audit_id",
+                "GUID": "d1d2804f-93e9-48bc-88b3-a5eaef4652b2"
+              },
+              "CSVColumnNameOrIndex": "审核实例ID"
+            }
+          ]
+        },
+        "QueryCondition": {
+          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+          "SubConditions": {
+            "$type": "System.Collections.Generic.List`1[[ForguncyDataAccess.ISqlCondition, ForguncyDataAccess]], System.Private.CoreLib",
+            "$values": [
               {
-                "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
-                "CompareType": 6,
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "CompareType": 3,
                 "ColumnBindingInfo": {
+                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
                   "TableName": "sales_order",
-                  "ColumnName": "customer_id",
-                  "GUID": "9a38658c-84aa-4705-832f-c1be2d01222b",
-                  "RelationBinding": {
-                    "RelatedTable": "supplier_customer",
-                    "RelatedColumn": "ID",
-                    "DisplayColumn": "supplier_customer_name"
-                  }
+                  "ColumnName": "sales_date",
+                  "GUID": "b7007e3e-2318-4d0f-9e4f-774e62d099cd"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=关键字"
+                  "SerializeProperty": "=销售开始日期"
                 }
               },
               {
-                "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
-                "CompareType": 6,
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "CompareType": 5,
                 "ColumnBindingInfo": {
+                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
                   "TableName": "sales_order",
-                  "ColumnName": "project_id",
-                  "GUID": "98ebe44f-0fc5-48bf-a945-6b43ef1ee7c6",
-                  "RelationBinding": {
-                    "RelatedTable": "project_table",
-                    "RelatedColumn": "ID",
-                    "DisplayColumn": "project_name"
-                  }
+                  "ColumnName": "sales_date",
+                  "GUID": "6ddd6c05-9672-4882-bc25-746754e2a864"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=关键字"
+                  "SerializeProperty": "=销售结束日期"
+                }
+              },
+              {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "SubConditions": {
+                  "$type": "System.Collections.Generic.List`1[[ForguncyDataAccess.ISqlCondition, ForguncyDataAccess]], System.Private.CoreLib",
+                  "$values": [
+                    {
+                      "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                      "CompareType": 6,
+                      "ColumnBindingInfo": {
+                        "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                        "TableName": "sales_order",
+                        "ColumnName": "order_id",
+                        "GUID": "43555e19-031b-4e5a-b99d-dc4f50d415c6"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=关键字"
+                      },
+                      "LeftBracket": 1
+                    },
+                    {
+                      "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                      "CompareType": 6,
+                      "ColumnBindingInfo": {
+                        "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                        "TableName": "sales_order",
+                        "ColumnName": "customer_id",
+                        "GUID": "9a38658c-84aa-4705-832f-c1be2d01222b",
+                        "RelationBinding": {
+                          "$type": "ForguncyDataAccess.RelationBinding, ForguncyDataAccess",
+                          "RelatedTable": "supplier_customer",
+                          "RelatedColumn": "ID",
+                          "DisplayColumn": "supplier_customer_name"
+                        }
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=关键字"
+                      }
+                    },
+                    {
+                      "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                      "CompareType": 6,
+                      "ColumnBindingInfo": {
+                        "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                        "TableName": "sales_order",
+                        "ColumnName": "project_id",
+                        "GUID": "98ebe44f-0fc5-48bf-a945-6b43ef1ee7c6",
+                        "RelationBinding": {
+                          "$type": "ForguncyDataAccess.RelationBinding, ForguncyDataAccess",
+                          "RelatedTable": "project_table",
+                          "RelatedColumn": "ID",
+                          "DisplayColumn": "project_name"
+                        }
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=关键字"
+                      },
+                      "RightBracket": 1
+                    }
+                  ]
                 },
-                "RightBracket": 1
+                "RelationType": 1
+              },
+              {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                  "TableName": "sales_order",
+                  "ColumnName": "outstock_status",
+                  "GUID": "e25675e9-10ac-4a2c-942d-197085df61fa"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=出库状态"
+                }
               }
-            ],
-            "RelationType": 1
-          },
-          {
-            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-            "ColumnBindingInfo": {
-              "TableName": "sales_order",
-              "ColumnName": "outstock_status",
-              "GUID": "e25675e9-10ac-4a2c-942d-197085df61fa"
-            },
-            "Value": {
-              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=出库状态"
-            }
+            ]
           }
-        ]
+        },
+        "NullFormulaValueQueryPolicy": 1,
+        "BreakpointIdentity": "326e08cc-4a07-405d-9991-fae8776cd826"
+      }
+    ]
+  },
+  "ReturnProperties": {
+    "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值1"
       },
-      "NullFormulaValueQueryPolicy": 1
-    }
-  ],
-  "ReturnProperties": [
-    {
-      "Name": "返回值1"
-    },
-    {
-      "Name": "返回值2"
-    },
-    {
-      "Name": "返回值3"
-    },
-    {
-      "Name": "返回值4"
-    },
-    {
-      "Name": "返回值5"
-    },
-    {
-      "Name": "返回值6"
-    },
-    {
-      "Name": "返回值7"
-    },
-    {
-      "Name": "返回值8"
-    },
-    {
-      "Name": "返回值9"
-    },
-    {
-      "Name": "返回值10"
-    },
-    {
-      "Name": "返回值11"
-    },
-    {
-      "Name": "返回值12"
-    },
-    {
-      "Name": "返回值13"
-    },
-    {
-      "Name": "返回值14"
-    },
-    {
-      "Name": "返回值15"
-    },
-    {
-      "Name": "返回值16"
-    },
-    {
-      "Name": "返回值17"
-    },
-    {
-      "Name": "返回值18"
-    },
-    {
-      "Name": "返回值19"
-    },
-    {
-      "Name": "返回值20"
-    },
-    {
-      "Name": "返回值21"
-    },
-    {
-      "Name": "返回值22"
-    },
-    {
-      "Name": "返回值23"
-    },
-    {
-      "Name": "返回值24"
-    },
-    {
-      "Name": "返回值25"
-    },
-    {
-      "Name": "返回值26"
-    },
-    {
-      "Name": "返回值27"
-    },
-    {
-      "Name": "返回值28"
-    },
-    {
-      "Name": "返回值29"
-    },
-    {
-      "Name": "返回值30"
-    },
-    {
-      "Name": "返回值31"
-    },
-    {
-      "Name": "返回值32"
-    },
-    {
-      "Name": "返回值33"
-    },
-    {
-      "Name": "返回值34"
-    },
-    {
-      "Name": "返回值35"
-    },
-    {
-      "Name": "返回值36"
-    },
-    {
-      "Name": "返回值37"
-    },
-    {
-      "Name": "返回值38"
-    },
-    {
-      "Name": "返回值39"
-    },
-    {
-      "Name": "返回值40"
-    }
-  ]
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值2"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值3"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值4"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值5"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值6"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值7"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值8"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值9"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值10"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值11"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值12"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值13"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值14"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值15"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值16"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值17"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值18"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值19"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值20"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值21"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值22"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值23"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值24"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值25"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值26"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值27"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值28"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值29"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值30"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值31"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值32"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值33"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值34"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值35"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值36"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值37"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值38"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值39"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "返回值40"
+      }
+    ]
+  }
 }

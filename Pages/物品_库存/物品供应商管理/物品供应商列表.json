@@ -142,7 +142,8 @@
                 }
               }
             ],
-            "LoadBindingDataOption": 2
+            "LoadBindingDataOption": 2,
+            "BreakpointIdentity": "d38e6ee5-0676-4646-9efb-f847a9a997d7"
           }
         ],
         "Text": "添加供应商",
@@ -268,7 +269,8 @@
                   "SerializeProperty": "点击结果"
                 }
               }
-            ]
+            ],
+            "BreakpointIdentity": "fa20f284-b21f-4008-b0ad-0d210254de88"
           },
           {
             "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -290,12 +292,14 @@
                   {
                     "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
                     "ListviewName": "物品供应商列表",
-                    "UpdateType": 2
+                    "UpdateType": 2,
+                    "BreakpointIdentity": "8dce2f06-ec08-4a00-9f95-bef1b99015a9"
                   }
                 ],
-                "ID": "489d7bed-ada4-466d-abf5-0406f4a258fd"
+                "ID": "891e25c0-540b-443c-816a-c46bcd7a40e0"
               }
-            ]
+            ],
+            "BreakpointIdentity": "ba78ee3a-1331-4c06-a46d-9b9acbf3d15c"
           }
         ],
         "Text": "删除",
@@ -331,12 +335,14 @@
           {
             "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
             "ListviewName": "物品供应商列表",
-            "UpdateType": 3
+            "UpdateType": 3,
+            "BreakpointIdentity": "e1cb12d4-5e1a-42ea-991d-fdcb96754457"
           },
           {
             "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
             "PassValueBack": true,
-            "ReloadData": true
+            "ReloadData": true,
+            "BreakpointIdentity": "c897f6ec-9c28-4221-8775-4accfe248a8f"
           }
         ],
         "Text": "保存",
@@ -348,7 +354,8 @@
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "BreakpointIdentity": "a397712a-b8ed-49ab-9d84-e5f59cd3ad9b"
           }
         ],
         "Text": "取消",
@@ -502,4 +509,4 @@
       "Formula": "物品供应商列表!$AM$6"
     }
   ]
-}//tVvlPWGAdLbiJRLNuyGRCtSz8cRH3DqlbsnrOUcKsYvXPjcnmugpfamHFoWUX+V3U/aWOqbHmTgPoxEKpMKYwoHiCtsz4Aph+03H4ZQ9qLzfuWrOP2JaZgGovEp83Bp4JozRuFRZUSWxxFpr9DmOlQ8rBsfzcaTGKmvJuswr2Ln0uNdC8Hb5qJiD+P0i8F9JipuZ+Nf/e4SaTeQCgCvO0sb/xtR2z+OKHu5Azf61TimkA01IZpyToyPvhA8J38/NVPFqR34I12vH/+7KcUUIzKxo3zHSOYGZVYUD8oR5tS81wYGI8uE8PIQXdid+Wlyh+4KJzhtqfCtTVeO2YApw6JlgEietFD4K0Fbyk/X9xu1wHMfkHYUlSv6bwK8BwoFGyNibtVfv+ZW//LosHnAwQMtxztJrM7FRgZDpByM+hQKdn1vH3bG6o/ODLZOleIHHW8pqhl4TtVYRRqin90fFG49IN6NP8sLnqrLGx2jkLDRd3ngFPcGTB5pXqvXpn1sdAjUQnti7lcigw0glXDPggSJ+X1cYLVDfnNgpaRWQWR0xMEsD5csckr5A4G3kAtBWms4cZBHk0+jHbL06xlZEsZBqK7f+TawCA18EB95XznjtLBCES8Njx/40Pxv35DAx2XFhV9LHiLk9jrcZ04NEJ+QFJgq6r1Tu7DQmRYIoPAXDiOnVYB2XiiaP6t4FjvBV5nk+2cKBQ4gUqR4WXeSbgmd16vltUToKG0OLkF1gCw7P9sANj13c6uzqhSeUDOdPBmy58crjk7W4ebjxjx1B83XfrWl3qKv7n4p7D3T8WVYCqcOzVs7MPb1tP/c3dX37ytOg5WgMSPIl77GRSafcgW1CVMa+hoFZBdkaNbAeInEJYrabOrZA5qRvzQu8RIVrZUFxMOGuUvbu4qv8Q/V/MA==|920
+}//N0YkNOv1WNQNKKfSIZqQcCLCmTIFIeo6wg3JkQTUGYBp+LOBHUdf1fGEUN7xCibJtOgKC2db9+dSind5/RCYIUKyZeptbvul7MOEzrevAZDXTvw/8gNx8b/qa89S030qku0iJ7HVkyYAn37qTqQnfFHcE6CSRs1I0l+sMopHaupU1T8tHjXKU38FwP00d540p8pb0E3MU/4iQaHYQF2J1FJ84iK4X4dnu8OVcw0YLtHHqI2FsHi+l+IV4rZAuJjA0TsiEUSA7kwLvoz5ndnwj8vbkYSaqGMZIdF9ESzvurjyngpRwD1XLZbJ11F78IHCr+qkUaPrPbMRikDuQIkFabXZd0MLUswbqOcLfW/DjR3gpeCokoAFTeboq9bHnq2FT76smm6cvHfzuigGTfaGoC0gvbcZ9WsMnlpEIAvNqx/ie2Qdho8k1jWP8qeCjeibUWMG2ccJBgu7cfGCnpg/DZuK+8Df/r8QCIYKDsoPUK29FmI3fuqV6BR717Yk+cvVz0ISagbIOocOSgSPb2wqYWh//bjUC0D+NOJgC4oVx/IHM++WGXdqRW/P8Ie+SrtmhHBbFMtjZwhsOoTHfv3ruapJZIZhiKJN7jFSg4RTi1/YDk+6k69ZrdIKAXFDBGXM8iR5EG/8IdlTPEtz9/yzUHxWRNBGBo8EZVywjBQDRdjLPGcp/rL3u9r5i8wqDe52g54bQTbb+7aYI1Pd66Fkr6/QILtDbeRTawkEmF3QPWAx8as17xsLzXI8nvDE+WG2GuEoImEzqYUIHDwMxlUltg9pknf+qD7bTeoTgA9NqSoMQ9Kw6oPCDqlsqKcAD1c0bFxXD/2Ff9OPNSEVZYrxk6o6Ex2o4sc6njUbhkK7vpsyJSfLsCkfm9qouYMbUeStsiSPLre/3lwGmSH/VTX+FA==|920

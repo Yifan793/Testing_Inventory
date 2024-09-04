@@ -1,145 +1,194 @@
 {
+  "$type": "Forguncy.SaveLoad.ServerCommandSaveData, ServerDesignerCommon",
   "Name": "DeleteInventoryOrder",
   "Description": "删除盘点单",
   "Enabled": true,
-  "Triggers": [
-    {
-      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
-      "Permission": {
-        "PermissionData": {
-          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
-          "permissionResource": {
-            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
-          },
-          "permissionBindings": [
-            {
-              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
-              "roleNames": [
-                "FGC_LoginUser"
+  "Triggers": {
+    "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.TriggerSaveDataBase, ServerDesignerCommon]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+        "Permission": {
+          "$type": "Forguncy.SaveLoad.ServerCommandPermissionSaveData, ServerDesignerCommon",
+          "PermissionData": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+            "permissionResource": {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+            },
+            "permissionBindings": {
+              "$type": "System.Collections.Generic.List`1[[Forguncy.RbacPermission.Core.Impl.ServerCommand.IServerCommandPermissionBinding, Forguncy.RbacPermission.Core]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+                  "roleNames": {
+                    "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                    "$values": [
+                      "FGC_LoginUser"
+                    ]
+                  }
+                }
               ]
             }
-          ]
-        }
-      },
-      "Parameters": [
-        {
-          "Name": "InventoryOrderID",
-          "Remark": "盘点单ID",
-          "DataValidationInfo": {}
-        }
-      ]
-    }
-  ],
-  "Commands": [
-    {
-      "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
-      "CommandList": [
-        {
-          "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
-          "ParameterName": "IsChecking",
-          "TableValue": {
-            "TableName": "inventory_list",
-            "OnlyGetValue": true,
-            "TableValueType": 0,
-            "BindingInfos": [
-              {
-                "GUID": "c33eb2bc-bdbd-48af-94f4-963df4426a62",
-                "BindingInfo": {
-                  "TableName": "inventory_list",
-                  "ColumnName": "is_end",
-                  "GUID": "6e8d582d-a4f5-4070-b260-0a187519bbf0"
-                },
-                "ColumnName": "is_end"
-              }
-            ],
-            "SqlCondition": {
-              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-              "ColumnBindingInfo": {
-                "TableName": "inventory_list",
-                "ColumnName": "ID",
-                "GUID": "f27dd4f7-64da-4fa0-9d3c-53f3656c06ae"
-              },
-              "Value": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=InventoryOrderID"
+          }
+        },
+        "Parameters": {
+          "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "InventoryOrderID",
+              "Remark": "盘点单ID",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
               }
             }
-          },
-          "ID": "53acab0af6314df7a141037f0d5fb69c"
-        },
-        {
-          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
-          "ConditionAndCommandPairList": [
+          ]
+        }
+      }
+    ]
+  },
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
+        "CommandList": {
+          "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+          "$values": [
             {
-              "Condition": {
-                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
-                "param": {
-                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
-                  "ParamObject": {
+              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+              "ParameterName": "IsChecking",
+              "TableValue": {
+                "$type": "Forguncy.Model.Commands.ParameterTableValue, ServerDesignerCommon",
+                "TableName": "inventory_list",
+                "OnlyGetValue": true,
+                "TableValueType": 0,
+                "BindingInfos": {
+                  "$type": "System.Collections.Generic.List`1[[Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon]], System.Private.CoreLib",
+                  "$values": [
+                    {
+                      "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                      "GUID": "c33eb2bc-bdbd-48af-94f4-963df4426a62",
+                      "BindingInfo": {
+                        "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                        "TableName": "inventory_list",
+                        "ColumnName": "is_end",
+                        "GUID": "6e8d582d-a4f5-4070-b260-0a187519bbf0"
+                      },
+                      "ColumnName": "is_end"
+                    }
+                  ]
+                },
+                "SqlCondition": {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                    "TableName": "inventory_list",
+                    "ColumnName": "ID",
+                    "GUID": "f27dd4f7-64da-4fa0-9d3c-53f3656c06ae"
+                  },
+                  "Value": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=IsChecking"
-                  }
-                },
-                "value": "1",
-                "compareType": 1
-              },
-              "CommandList": [
-                {
-                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                  "TableName": "inventory_list_details",
-                  "UpdateType": "delete",
-                  "ShowConfirm": true,
-                  "ConfirmText": "您确定要删除吗？",
-                  "RowsToUpdate": 1,
-                  "RowsToUpdateCondition": {
-                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-                    "ColumnBindingInfo": {
-                      "TableName": "inventory_list_details",
-                      "ColumnName": "inventory_id",
-                      "GUID": "c0352756-fdbb-437e-85bc-5444c058f0ad"
-                    },
-                    "Value": {
-                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=InventoryOrderID"
-                    }
-                  }
-                },
-                {
-                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                  "TableName": "inventory_list",
-                  "UpdateType": "delete",
-                  "ShowConfirm": true,
-                  "ConfirmText": "您确定要删除吗？",
-                  "RowsToUpdate": 1,
-                  "RowsToUpdateCondition": {
-                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-                    "ColumnBindingInfo": {
-                      "TableName": "inventory_list",
-                      "ColumnName": "ID",
-                      "GUID": "69687bb3-aaf1-45c9-a04f-b6ac65bd6164"
-                    },
-                    "Value": {
-                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=InventoryOrderID"
-                    }
+                    "SerializeProperty": "=InventoryOrderID"
                   }
                 }
-              ],
-              "ID": "29e60bda-1fb0-4936-bf72-62e30b1c61b2"
+              },
+              "ID": "53acab0af6314df7a141037f0d5fb69c",
+              "BreakpointIdentity": "3263c347-27ad-4b24-be97-9c3a5f5f602b"
             },
             {
-              "CommandList": [
-                {
-                  "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
-                  "ErrorCode": "1",
-                  "Message": "结束盘点的盘点单不允许删除"
-                }
-              ],
-              "ID": "6877bd32-ac58-43a7-9d6a-a2eb66e2fc84"
+              "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+              "ConditionAndCommandPairList": {
+                "$type": "System.Collections.Generic.List`1[[Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+                    "Condition": {
+                      "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                      "param": {
+                        "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                        "ParamObject": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=IsChecking"
+                        }
+                      },
+                      "value": "1",
+                      "compareType": 1
+                    },
+                    "CommandList": {
+                      "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                          "TableName": "inventory_list_details",
+                          "UpdateType": "delete",
+                          "ShowConfirm": true,
+                          "ConfirmText": "您确定要删除吗？",
+                          "RowsToUpdate": 1,
+                          "RowsToUpdateCondition": {
+                            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                            "ColumnBindingInfo": {
+                              "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                              "TableName": "inventory_list_details",
+                              "ColumnName": "inventory_id",
+                              "GUID": "c0352756-fdbb-437e-85bc-5444c058f0ad"
+                            },
+                            "Value": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=InventoryOrderID"
+                            }
+                          },
+                          "BreakpointIdentity": "b9253a95-65a1-4b44-94ea-b323ccbd794d"
+                        },
+                        {
+                          "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                          "TableName": "inventory_list",
+                          "UpdateType": "delete",
+                          "ShowConfirm": true,
+                          "ConfirmText": "您确定要删除吗？",
+                          "RowsToUpdate": 1,
+                          "RowsToUpdateCondition": {
+                            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                            "ColumnBindingInfo": {
+                              "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                              "TableName": "inventory_list",
+                              "ColumnName": "ID",
+                              "GUID": "69687bb3-aaf1-45c9-a04f-b6ac65bd6164"
+                            },
+                            "Value": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=InventoryOrderID"
+                            }
+                          },
+                          "BreakpointIdentity": "99c02fa4-b0bc-45d7-8727-8492bd182b7e"
+                        }
+                      ]
+                    },
+                    "ID": "a49f8af5-fac5-43f6-9b6f-ba18d13e963b"
+                  },
+                  {
+                    "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+                    "CommandList": {
+                      "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                          "ErrorCode": "1",
+                          "Message": "结束盘点的盘点单不允许删除",
+                          "BreakpointIdentity": "7255b580-4b97-4120-841a-266ef170b0ec"
+                        }
+                      ]
+                    },
+                    "ID": "6783bcc7-8879-4f6b-8023-c5555aa14d22"
+                  }
+                ]
+              },
+              "BreakpointIdentity": "1dbafa7f-2b8a-4b7c-a656-1019a1ca8fc0"
             }
           ]
-        }
-      ]
-    }
-  ]
+        },
+        "BreakpointIdentity": "afef4f78-a3e2-43c4-a575-30c865ae6eaa"
+      }
+    ]
+  }
 }

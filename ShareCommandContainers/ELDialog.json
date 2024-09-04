@@ -55,10 +55,11 @@
               "ConfirmButtonText": "确定",
               "CancelButtonText": "取消",
               "DialogResult": "result",
-              "AdvancedSettings": {}
+              "AdvancedSettings": {},
+              "BreakpointIdentity": "f827f462-a31a-4c42-8e94-6c985fd23c40"
             }
           ],
-          "ID": "e7cc94ed-d4e4-4054-8c83-94696a34ed01"
+          "ID": "75703948-9beb-4159-a32e-bbcf33dc35c9"
         },
         {
           "Condition": {
@@ -88,10 +89,11 @@
               "ConfirmButtonText": "确定",
               "CancelButtonText": "取消",
               "DialogResult": "result",
-              "AdvancedSettings": {}
+              "AdvancedSettings": {},
+              "BreakpointIdentity": "72e3778b-5b1c-4ca7-bbb3-62e820bec736"
             }
           ],
-          "ID": "86927cd0-f65a-4e4f-8315-f1904497dd6b"
+          "ID": "88fc9d97-0da8-424a-8c79-e0b2640b67b0"
         },
         {
           "Condition": {
@@ -121,10 +123,11 @@
               "ConfirmButtonText": "确定",
               "CancelButtonText": "取消",
               "DialogResult": "result",
-              "AdvancedSettings": {}
+              "AdvancedSettings": {},
+              "BreakpointIdentity": "422176e6-0af3-47be-a1a7-6a14103fc250"
             }
           ],
-          "ID": "09f49b43-f111-437a-ba49-baad018bcd27"
+          "ID": "cadc5a01-0665-45f5-845b-e5945de5ea8a"
         },
         {
           "CommandList": [
@@ -142,12 +145,14 @@
               "ConfirmButtonText": "确定",
               "CancelButtonText": "取消",
               "DialogResult": "result",
-              "AdvancedSettings": {}
+              "AdvancedSettings": {},
+              "BreakpointIdentity": "20c794d2-cd7f-404d-b2c6-b249fb75d6f1"
             }
           ],
-          "ID": "d4b9e093-7780-44fb-a127-a7015dd2508f"
+          "ID": "29c23b7a-bbf6-4eff-85e9-f94cb89c6650"
         }
-      ]
+      ],
+      "BreakpointIdentity": "0b48ae0e-b266-4ad0-b2f3-2dbce9c474e3"
     },
     {
       "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
@@ -159,7 +164,8 @@
             "SerializeProperty": "=result"
           }
         }
-      ]
+      ],
+      "BreakpointIdentity": "09467bdb-6b89-4f4e-b222-4ad413e3a337"
     }
   ]
 }

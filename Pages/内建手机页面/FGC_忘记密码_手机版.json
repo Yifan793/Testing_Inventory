@@ -95,7 +95,8 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-            "NavigateType": "back"
+            "NavigateType": "back",
+            "BreakpointIdentity": "b6e9173b-14ea-4c6c-b135-0a7a0ad1a3bb"
           }
         ],
         "Text": "取消发送",
@@ -215,4 +216,4 @@
       "Size": "340,480"
     }
   ]
-}//LGNGLHwydcg9VGhf8F9wPPO4yJJiSarAcjLShFkZR0t/hwDxrMiN992rsWPd7Y7M0zC+HmzaJE4TkX+gM9LV+pxtGmufl9y/dNIpVHm/I0YXrp+KymcG4LaA0aTCiO/xWYg+LyQP6rD4XziA97K1LH0Cvf8HapGaqPOnVEG9BIT8tzjH7Spf1YgOn6ngo8Sdx+JalSGBhuSpNGKNk/SIE30XLsJD8+TVzWLaOjLyfco3TpSW5iIVtvH1jtq1qyoNHEib4bL8PQWRjrOB14pLd4I10lPepx1pOhd4ah/b81IGMogskhKFD2alewT+OQsvVBgcT0DI135Ev0nMcG2OTl8KZum68BxhqUFyhQpFrUPdGZYXe2rKwlug+1NUSUjCrFfK+I9tQcW+RLn4SVvHwy2OcMVkw2BFYc+DnAA/zCFlBOLfiCcX2W2hbgKMWSSrhBqTu1FfKb2V+sqgAh9PjgbGDnkKtq+A/LAMGZNczb1RnoJmpWfikRdb7JYnPxOldwKNPMDsQaEAr4E0KpdZXIeSKC8UwP108vS3jVLZ6DCHmjugGKkHm62aPD20zMZSyC1O+KktTZ+piSBwV6xP35+p9uNhpkn+vdtETN4fDY9psr1ezegM/RJVHqpUNrBoRQg4DYeoRMKNPzXWgXxL3YBe1NcKNVtRbfklOyGoMTPe0t4b1kX5AyGj6Ys4wdQivc8y1fwzdTuZ3FgkMJ88xSmaLiycbwUzvrPWxk1EHzN/PajveSZcYwSgs2qHWTfFEEzwlDLoODuCCqAEwhzzRT07B43uCYZj61iTaXbXMUNIasCRYbvHHKKTfDkoF2vLozD+WPeqp0BND7Uy6cfy2dUa6ajy640BbEqkzrh1zk9PisS7UEIwlMsza3R/C+ukEhfvroHKLX9Hq9K+4FJneQ==|920
+}//eYi6ldXNZnxAoL4qWRRO+0b+Ag9Qntpf4JkIAeIVs1DW9WUlE/BkHd3YznIHlH8/p6aTuoqe4y0rxLsmfRfu//R3Fr3EbDrDJJv+58+loJyZl3ZugXRDTh7nXHnVym+bXTOJH008jmzCF5NGEXVAU+1vtjvPjAhDzd7MfVKz7Zqax3Y3kJxPkFcZswuy/oXh/loBCPrXng1dZxDbzpsUo1or2pehXD8tMh0twGzqIripjfM0V5gdx+5fDnaVuYOWyR3YrxfvUhZsZcAC58O4GJS4fChyMDnswlgB9HruXGwOKDD5QrHq/GBeLIJSvHS+KwrzwpWTQfXM4WACoQANrRELPOblMscSG6wNvW8Q5Vn8LHSR8JO663vLU8ZdNQwFpm8kMMOjgppLIiKVYLvD34/ugH3E+xiSgiotEzmsdix2ypha28VzYk66OntNqxiqSPlCMUDLLDvMM79S6VlbGt+DoQRFQvBUhz0rVhx96Pja8Q1SLKV9c23wk4cqFpoVdwIOzDOM6hG/PZIeiUfF/wo30R60Dpi9AFrxP3hNHiaW3T/VK2qoVx5ldQK61rLWJJRrgqv/WH9IjPXW9x4bv7cF7U3ZfQGpgwhjs/8dR8ouMQbaKFC51FFuX5ORBJ2BP9OHa9h5VQ2nTa9W7m0erLV1gH3X/WrVTu1apupmUOEyEe4qE+RiID0F0JmiTFuP9wFBZ0peN3iCNoI9n2Th/ca9DRtimy0WDtc5lYDkLNGJIsYOrDnQRP3exCl82ZrO725OKT5/uT21nDtGuk0FZ0kp5OIn5sxAQ3a7OfM3Ql9Cvy85R7uBuQlzRSEc4wSsVLdkPVXDxlTWq51LWrLndDrx2VIqHf7VZgBG2tp+GMKC7GLibFNLklyUuxjDtq5G/NLwPju3ygD4s6phlu55KA==|920

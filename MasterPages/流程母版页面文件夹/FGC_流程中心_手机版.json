@@ -454,7 +454,8 @@
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                "PageName": "FGC_我发起的_手机版"
+                "PageName": "FGC_我发起的_手机版",
+                "BreakpointIdentity": "169d1afc-7a89-43d6-9cec-9cb4ca9bbc0d"
               }
             ],
             "CanVisitRoleList": [
@@ -471,7 +472,8 @@
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                "PageName": "FGC_我的待办_手机版"
+                "PageName": "FGC_我的待办_手机版",
+                "BreakpointIdentity": "7a54cff5-c279-4e94-8130-90d1bff57093"
               }
             ],
             "CanVisitRoleList": [
@@ -492,7 +494,8 @@
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                "PageName": "FGC_我的已办_手机版"
+                "PageName": "FGC_我的已办_手机版",
+                "BreakpointIdentity": "5b355b08-f1ff-4b84-b3ee-5f4aa947cbf7"
               }
             ],
             "CanVisitRoleList": [
@@ -510,7 +513,8 @@
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                "PageName": "FGC_我的待阅_手机版"
+                "PageName": "FGC_我的待阅_手机版",
+                "BreakpointIdentity": "55638780-6dfb-472d-8d69-2322cce41097"
               }
             ],
             "CanVisitRoleList": [
@@ -532,7 +536,8 @@
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                "PageName": "FGC_我的已阅_手机版"
+                "PageName": "FGC_我的已阅_手机版",
+                "BreakpointIdentity": "9708f85b-0f9e-4257-b7b0-3628872f0c02"
               }
             ],
             "CanVisitRoleList": [
@@ -550,7 +555,8 @@
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                "PageName": "FGC_我委托的_手机版"
+                "PageName": "FGC_我委托的_手机版",
+                "BreakpointIdentity": "00f0bb2a-e78c-420b-82cb-d60e7f9d42ba"
               }
             ],
             "CanVisitRoleList": [
@@ -717,4 +723,4 @@
       "Size": "10,50"
     }
   ]
-}//Z+QtaYi9JlTslw3Uhg8dGALfLLTdB3A8JOq03ctPc6SALUDCRVhgNJuKnEC2830/luXHp0MCrlkA3DFGWYEoPK+aM+WR82UVpHweFfu0kGMK2s+p6/9tkPcdLZz6bGXMwM7dDvjINDJ2G5RIyyvTGtSwVFE4P4X+M1P1p14lGIIudKY8V4yDc/ccOwZkQovptaa/kp02xto6SolWu7Hn/m//est5lNGZJMD60NUlcchwfgGYHaYCgIqrc3cPm8hukXDi+dsbLM8y3m+DTJ1QvQ/HifRGX20Td5gpCfcET9zQyEVScvF4HE0boErJCVvFe/sA82apyFO6ZJKqBzUr0SuWSA8yQ4AeMN2ThhIhVJJv3Trao/Hy7eagsPdiDzdn2CCxTkRPdgAaFi6mLnQh+/shoCWWW/Ii1dVCT2cDJzeMWvkiXZW67jZ901GJE/Ss2I16lhUwedGEIcDb5H9tVdPEeYv5NadWQ4NoNwaTGgwH+O5WdNDxpK23+bAKbIwcpSz2GJT2ZYkj0AUHAZZdaQahlABElejRY1SZMvPqqaMAhc0km9J7sWdHU1qG/iflYxrc/2x7XAhKpRj0gg60vFBXXj264F9RaeaNK6ikBCuMoEakA6m7qtQWC0dUpVGgn0ixgiuGxQ7qre2KI971lrefBZBCl7XSNTyvNKhNv8iYquysEk2Gdo4W0wXOS8Wd7XvfoFiuMWtD0IjXo55XXrc3lZrk0QMxaOd5WS1vfEw/ue9LdTM+9bHsuBdBOXUCRpRU9TcRtu41UXkSRZc6Eh5Wig9IxvUmDzJ8i4qsVnsLxk8hDMEbQ8jlUVpKnx19Xte28fP+wQXbdF+likHJ7+7gS6yhGdKInEoTqGA3ni0pjMt+wLB+JHsk8aW9gKuRkH7ui5x9txADmoLdkone3Q==|920
+}//YLT7R91dSaIQPZzta8SV2rtJsjjq/5HEUql1C9XdyDXgiXWlo/+5OfKe+wOzMPDE66kDIlFs+Q3ilVwh5WS8TMeDu45Ovb9uc7YWDF1m/4n39MKxx7+IvAbOCAO0axFMOT/9IHts7fKLNqSwt7NQG0rHHRevybsHYYRVBImcsEz8CXFrTCEgUVKH/0Wwid4bL8gzTJS87ce42MQf2iadn+f0JgL0FXV4D9PrP32Lx9peM2Fisve37KkmJH1qeZbRnyaWNhF2CsFHND88OpKbSlbHu5HQXvucifEfDAlANKLA0hhwQv3FWqL8CpSkCv/SCTYcVzhkXqu4enhjl/ZPSnQQ9KJ6bmXP7GswE/zCw1pk33AY0XSt8xIZaipi2dBAX9GYtpdU9ev3ejoIn9h4T1hA8oq+wngUsAUyqUDJWjDc15W0tO8QpjMyMoTSnQHtjwlz92tuUuiZXfGF0XFJMLuM1dIW5WO4U72VC6bt6URP4OJZBhGSsqNMiJYtb0xVF1kATl7OiYVNX518430XEiwvGPta5BMfhQLTtVSzZ3k2LrhHXC76i7ZLfM8y78WsmlyC8r+kvRxg+Wm79uQPj1z/9TU62Nkbnr4GzhdUV+AxQaP+sW7KVVS+ZB9IjSGwPB6PINsJ8NfnW/m85o4OfsUgQ6FlJc65L/mVnIMVT2w7k2wPMeDKhxDj4wdePkbeaOT1hf8ssPBW/ZX+zVz8uylgVPfaYrpnAFK2K6dPD/wDPR95TSMC6vY8I5POfnOgUJ9V5bgFtwtsFiafIWxAdCOt1CeO5ZhlEl9PzZv44tHPuJLIKaqthjzgzb8wxH9f5Zbkjp+Iqroe+YzpfuWQH1bYfVZb7+DllljfiEEzYOM8ZuJnpSMeQVafZAYz09X6n+szAs/VbsJh2+aC0HTJMg==|920

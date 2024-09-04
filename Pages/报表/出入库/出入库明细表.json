@@ -314,7 +314,8 @@
                   "SerializeProperty": "=出入库明细表!供应商"
                 }
               }
-            ]
+            ],
+            "BreakpointIdentity": "0e2f35f3-30c0-4b29-83b9-21a9da4804b2"
           }
         ],
         "UIPermissions": [
@@ -416,7 +417,8 @@
                   "SerializeProperty": "=出入库明细表!供应商"
                 }
               }
-            ]
+            ],
+            "BreakpointIdentity": "710a7ddf-23ad-449d-9767-417269905149"
           }
         ],
         "UIPermissions": [
@@ -774,7 +776,8 @@
                   "SerializeProperty": "=物品选择页!已选择的物品名称"
                 }
               }
-            ]
+            ],
+            "BreakpointIdentity": "7a7095bd-21fc-45f9-9d8d-064257434c92"
           }
         ],
         "Text": "",
@@ -807,7 +810,8 @@
                   "SerializeProperty": "=出入库明细表!选择的物品名称"
                 }
               }
-            ]
+            ],
+            "BreakpointIdentity": "d6f59a53-3623-4609-97e4-93c16128361b"
           }
         ],
         "Text": "清除",
@@ -848,7 +852,8 @@
                         },
                         "Value": true
                       }
-                    ]
+                    ],
+                    "BreakpointIdentity": "320b2087-8b87-45e8-8faf-98577db2d234"
                   },
                   {
                     "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
@@ -856,7 +861,7 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=出入库明细表!AX4"
                     },
-                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.100.0, Culture=neutral, PublicKeyToken=967100671921c115",
                     "MethodName": "set_RightIcon",
                     "ParameterValues": {
                       "value": {
@@ -866,7 +871,8 @@
                         "Color": "Background 1",
                         "UseCellTypeForeColor": true
                       }
-                    }
+                    },
+                    "BreakpointIdentity": "b0d021c6-197c-4340-903a-5e94503c102b"
                   },
                   {
                     "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
@@ -878,10 +884,11 @@
                         },
                         "Value": "1"
                       }
-                    ]
+                    ],
+                    "BreakpointIdentity": "8682f3c6-7d9c-4a5c-99d8-b10c5bec604c"
                   }
                 ],
-                "ID": "55cf0c37-b9b7-4b65-926d-25db4394db55"
+                "ID": "775b4dd8-1c36-404a-acff-d545ae23c5ad"
               },
               {
                 "CommandList": [
@@ -895,7 +902,8 @@
                         },
                         "Value": false
                       }
-                    ]
+                    ],
+                    "BreakpointIdentity": "1d89f3d3-f0d9-4239-ab5a-c0eaee95a03e"
                   },
                   {
                     "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
@@ -903,7 +911,7 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=出入库明细表!AX4"
                     },
-                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.100.0, Culture=neutral, PublicKeyToken=967100671921c115",
                     "MethodName": "set_RightIcon",
                     "ParameterValues": {
                       "value": {
@@ -913,7 +921,8 @@
                         "Color": "Background 1",
                         "UseCellTypeForeColor": true
                       }
-                    }
+                    },
+                    "BreakpointIdentity": "79f7a4d4-7f5a-4dcc-adf3-a72631aaaceb"
                   },
                   {
                     "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
@@ -925,12 +934,14 @@
                         },
                         "Value": "0"
                       }
-                    ]
+                    ],
+                    "BreakpointIdentity": "f8b91c21-5187-4e1b-857b-5149b57529e7"
                   }
                 ],
-                "ID": "f9176caf-11a7-444e-8be3-4e7e11c2bf17"
+                "ID": "be8fa558-5f31-4471-b2b7-db7c279e944a"
               }
-            ]
+            ],
+            "BreakpointIdentity": "8bc9093d-23a1-44e4-9277-0393a54a7729"
           }
         ],
         "Text": "展开",
@@ -981,12 +992,14 @@
                           "SerializeProperty": "=出入库明细表!选择的物品名称"
                         }
                       }
-                    ]
+                    ],
+                    "BreakpointIdentity": "7d19463f-b55a-4fba-98e1-0b2255da8136"
                   }
                 ],
-                "ID": "9a757490-81c5-454c-b7cc-14ef81cc72ef"
+                "ID": "a99db333-7004-4bd5-b172-b6cc75906e85"
               }
-            ]
+            ],
+            "BreakpointIdentity": "c0930e53-bab5-43f9-a45a-cdb986c58a50"
           }
         ]
       }
@@ -1979,4 +1992,4 @@
       "Formula": "出入库明细表!$W$4"
     }
   ]
-}//NVCMFwsvMwBxglGtdL79x0f5f43XE0qbNLaq/EtY2LLxQl5Y8JnbK4dFOLFBtjt2+QMBTluFgB4M9Ueyzp9ieKDXwA4+sgtIhMGqHl31INe8QirkvvCp06nnvKjvziEqKoVrlZJKdUKd8KWh596Gxr7T4zbbZOv8uWNjsN4oYpAvVgxA0iSwghEva4Hqn7WD5QyEcgA3y3roNWWzZCfTYu8cRVgElw1h2pCCkIPKv9c9t+6p7oqw5+hcNpf51C8lFLuqE0ROTye0xHPUm8tKWpgXqvKqW1jgsH638hVnP1A5CwEpTYeQg2GdWAS/85m3DAxC1c+0NPDwEuVgviVW8p9CJvuQvOGz+IJPFD4YYpkZDwMXpA5LxMg4dL4N22z/Kf9U6gVXZAJoC26TlUw0J9VFNVTUeaPxGVg7ShPTxCeF9lsEz9xyEdsje+8t1dpxwRMfliDyrHWrOjUb+hh0+URfBCRg8aJ2Jc4Wzgabr4+UOpEmxrpYshhNu8grQG6/tqQObsmfKnyzWVAb3qhAVXOw5OfLdtQW5vHeBcCo8kr4pwqHUXbPRaojT3jUHAfzLOtslhE7/+0JIZzTlU8NseXwQkDY+p5BZD/aGyabFo+qT6gXuwoecs6c6FIqmvqTPp/64FC6TwzQEcUZazb7paMeIeJ6TIwy7JnMgA1EHOQmFp6gwhFTXSI7vtEz4CqYkfKUwlap53FZTio5Scoz+PMTUURfWryk24ijheHNZV/6wCnweI+jskOsicOGM7syFo9mvDKtBx41NeJMOrlBi+vCa9F2QvnCqyhNXwO8q1VnQ7Fw2ht1d0UiTY6esqCU1Rns1oav6NjDmTDhZuZYDy71uJXOg2Sr9lITceRwhFE2L4LDuhWzv6r2LGA9EtRpEN3VhZhMcbdA7oFPBt0M0g==|920
+}//T16zoLLMKUVLybJW9DRdhOk0gRwFLGzmNIW9ankNwc0+m7eyTaLWdc0oigi3wLlTbc1NNDRqdHwAtnDoNwafMxwJvStJF5rhJT7/D4ZlyNNLDPeZEsZoEWPLd9F2H6X+A95SgkbAvnH5bqkZC2VWGPxNLXo2wFOwl1qpvM5onipwtwCiUCd4VWbxowwEwgrPIwapaxOU5ACq96/gJ7mT5TasxkBy6Q2K+tlPlcYJpT7S4993I0NSGiVUYfzWphoHUDLXP3To6uUn+hxoqqto4chb+wH2T2bDswslTeEwy6DDXwU1HUqaXF8iSCrIm3n7cKC6M6RqaPkAAUWDuxWL0WUaKmVg3p2sxnTEsm4HgFWrmVPJ2CwDhR8SO6Kl+Kkr/dcrcGb6kp4gqzPhnSTdJuxtx+dslAyaGWdKuxZoIMMabnMaYXW6NcdnOnYngSLMtTQin1Z8hBNb4CYkNtdppoCbq71NVKiB9dqdsHSOTJ05NlS9KUITYfnwe/eT2TvXdDqG4cFcG5V5WafV67Bs9mdRLhW4XSDflmk4/4OFlBtoqzfrex0OHM9l+3gAQ65s4Y3ev6yGMLf4wYriOJyDlaN6BSx5i8nX4AJ+42MWhye9SHsCUcpIKHf32pmVOYk7p1kJwADnBJpQPSftVqgDNtWwGULrnM8nDyA+kZmbZAYzof77Q1EuUymubYXecChnq0v1oeqtocYomuudr6GtiK6J+M7ab040GxGSOZRJsThz1BUwkeYE9LB4wLUButF7a7uWDxA6Gq/liRyF/zmOCn7vl5+Xq2rnjc8QbPSa09lNzy7k3RGhb3OHpdG+tBB+y/xkULNGhrAtL8RpyrRIy2D3h8q8xeyWInpFIvkGCRZBTXSsoqj93tcI+Mj1Hxvx5/8815Bf1s5VozZzzvpQpg==|920

@@ -1,57 +1,76 @@
 {
+  "$type": "Forguncy.SaveLoad.ServerCommandSaveData, ServerDesignerCommon",
   "Name": "IsChecking",
   "Description": "检查是否盘点中",
   "Enabled": true,
-  "Triggers": [
-    {
-      "$type": "Forguncy.SaveLoad.InvokeTriggerSaveData, ServerDesignerCommon"
-    }
-  ],
-  "Commands": [
-    {
-      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
-      "ParameterName": "CheckingCount",
-      "TableValue": {
-        "TableName": "inventory_list",
-        "TableValueType": 3,
-        "SqlCondition": {
-          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-          "ColumnBindingInfo": {
-            "TableName": "inventory_list",
-            "ColumnName": "is_end",
-            "GUID": "f3fef847-0094-468b-8f6e-d0650aec3c37"
-          },
-          "Value": "0"
-        }
-      },
-      "ID": "633498e15f504ba093e59c7ddf758484"
-    },
-    {
-      "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
-      "ConditionAndCommandPairList": [
-        {
-          "Condition": {
-            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
-            "param": {
-              "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
-              "ParamObject": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=CheckingCount"
-              }
+  "Triggers": {
+    "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.TriggerSaveDataBase, ServerDesignerCommon]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.SaveLoad.InvokeTriggerSaveData, ServerDesignerCommon"
+      }
+    ]
+  },
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "CheckingCount",
+        "TableValue": {
+          "$type": "Forguncy.Model.Commands.ParameterTableValue, ServerDesignerCommon",
+          "TableName": "inventory_list",
+          "TableValueType": 3,
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+              "TableName": "inventory_list",
+              "ColumnName": "is_end",
+              "GUID": "f3fef847-0094-468b-8f6e-d0650aec3c37"
             },
-            "value": "0",
-            "compareType": 2
-          },
-          "CommandList": [
+            "Value": "0"
+          }
+        },
+        "ID": "633498e15f504ba093e59c7ddf758484",
+        "BreakpointIdentity": "f9652c30-823b-4512-8973-5682dc817015"
+      },
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": {
+          "$type": "System.Collections.Generic.List`1[[Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon]], System.Private.CoreLib",
+          "$values": [
             {
-              "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
-              "ErrorCode": "1",
-              "Message": "正在盘点中，请结束盘点后再操作。"
+              "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=CheckingCount"
+                  }
+                },
+                "value": "0",
+                "compareType": 2
+              },
+              "CommandList": {
+                "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                    "ErrorCode": "1",
+                    "Message": "正在盘点中，请结束盘点后再操作。",
+                    "BreakpointIdentity": "b53a826a-da4a-417a-b3ec-677f6a5a6cd2"
+                  }
+                ]
+              },
+              "ID": "cfb67eca-6391-403d-a1f5-078e272fb72b"
             }
-          ],
-          "ID": "20f3c283-c51a-4fc6-9afa-16fdc9cdfb9c"
-        }
-      ]
-    }
-  ]
+          ]
+        },
+        "BreakpointIdentity": "38a067cb-e54f-4e4d-8592-49726038def7"
+      }
+    ]
+  }
 }

@@ -172,7 +172,8 @@
             "$type": "Forguncy.Model.DownloadFileCommand, ServerDesignerCommon",
             "FileName": "物品导入模板",
             "FileGuid": "655cc3ddce3243dc8648ea821af66070",
-            "FileExtension": ".xlsx"
+            "FileExtension": ".xlsx",
+            "BreakpointIdentity": "53947548-8f18-49e3-95c2-c7b12ce7b93e"
           }
         ],
         "Text": "物品信息模板.xlsx",
@@ -236,7 +237,8 @@
                 "Column": "备注",
                 "ColumnName": "备注"
               }
-            ]
+            ],
+            "BreakpointIdentity": "35a9a738-a2d4-4223-9c17-0b22446fa756"
           }
         ],
         "Text": "上传已填好的模板文件",
@@ -413,11 +415,13 @@
           {
             "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
             "ListviewName": "表格1",
-            "UpdateType": 3
+            "UpdateType": 3,
+            "BreakpointIdentity": "a88c869c-8b73-4144-9910-9070d2f5600d"
           },
           {
             "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
-            "ReloadData": true
+            "ReloadData": true,
+            "BreakpointIdentity": "d2893257-7ee5-47ed-a310-bfe72f402681"
           }
         ],
         "Text": "导入",
@@ -429,7 +433,8 @@
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "BreakpointIdentity": "f45301f8-2052-4936-a422-02cbc67d6a56"
           }
         ],
         "Text": "取消",
@@ -600,4 +605,4 @@
       "Formula": "物品信息导入!$Z$11"
     }
   ]
-}//eOM2VDfKm3O/J4FwcTG1cQ1WHRY4l+PrKzQ1NC0iYIF13oOI8JIjg4e8C78UoZkULVAnphEOOImS7O+QZGq6xwXs7mzWIDhBFbz+LnaPQX9FctDtibcuK2DGqZ8Zw/CJgch6yFtGcXSuMX2bfC4iJ+VXLLOUeEYqZEnJVRoCcE/t/hXpMzdCnCLahZgVtCvEzi9P5X59JSso+u4mhrOtLYpCu/E7n8YlgU8RlfqyVAI2L/FdD7MDfY34Lf3Gkdkp/dc1HjGA+cCXrCPAqD5hkE513wVZF9qkNdbwkrQDbnxbL1TlalVxeVZEZ2zyCg5Il391XHJsnW9Cv+YLz10fMr/2MEmRqHkVut2/anA0oHhUuyZC4TRvt9PYssg3e683XrOxiauPGjaltyFhYDin6OOcbFANzV3DgRLyRzRdlHSBW5J9l1qsodbjxif8M4/RYqXoeSLDbBxLkg9XpYvaUp2C63ifyhsl2Fwa068cEA0fnOWedZtlTNeG2LZpN15Pynksb2fp+SopZAcNeXBUnMYWNrw9z8WMNF4TeISG6bLmOIUtsCedGT081vrq+dj6sgPrS5B6laFnWQlOKK8gbIaqs57NWAzZH6HB2R0mfVIrcvIWWt6JFyzTaJpMBVcLOFv++FB4nE4QInsMtMIE/QgC1d84G/3B9H0YTIvYqxXG8adwq+FpMfii2pD8vnaTcJFco2qOUTI6/6cXZBql+MAfnTbo604m2ur3NoZxi0fKzvwV04tNybsSKJgawbEeY96Vh/GiD+UV3rL9YSomKFqXqauENQQPaUKghdyW/jUiBiZZgH20RTSxuddl6vBIi2Ruk0fbU757wTKj8NxpOXTfi+932qZlzY3sAkUo7D1PbXmVZIFirCveYdPiv06An3eUaxA9nkUpWonWGMqdSA==|920
+}//qEGgskjOc6HojXI1v+cZSZk0a7ZGhoZTboATCZlIRsAr5l4ObVFYx8nzZDoXBeVO0DJCIuiEV9KJrFIMDpQ2kHPuzN4EifwS23slpicHiLrb5fcruL1ZIilljEHpOs0kpCcRApXiikU18km/QkFXK4Ktq/4N7pz9tWcGSINYI2XI5ToJ7IcCAGf/50nY46dK17WcGOnoiSCk5WiCB7/NeTvKcyu9lzE1lT9dS9pJ8fqMHQdtzLrvl4Aiiw2spN6JWyjmXFJxt6Te4OhS1JrIw11VjdsF4gNZdbp89aAK/ote4HYo5NrMXoQlUVfC6Dj2vbHU69dX19jvdG/j5/YPb5c75uDcl0cIew7Fgk+NQeZx9/va5/JUeBJRwcHw53kHuB8MfPi/+Xzjg/KcAED2MZdIWK24Vqz9zngFz0Bj/jsmD2Yk5wenP+e9VpZZ889LF52XHis7Y5xqzidD40FcNcvuHhsVKMDoj5xHB083IR075VsLYV2X8gVR18TP+k3bPGK4ZWC+G5kSQyOENo/7CKKCUk+tCZf4zLDcll4x4bNVq2sTkdc6wte8CuB3wK0MUKqYkEJAJ/Tps5ttMw7PdXUQR7+uXfVT04TaLElfk4R2TNj9aiy1Fmp1g6MRu7oEdo0Yr1sDG0p3R7HH9lCx6X6l7Shole4YUBAARDrUTo64askPFp3Qz3T5zlAzWFJ3EcwCXhxWjfi3abWEHueFx47QiVvQCGdfXLvf1o8kb12L4sE6ZM38/kfl5ZjU2nCjWJpMcg//0hJ5S5DwCM04J1VL5a78lZ9RmVO16fZFsCz1sApOHo0Hu/ZPhzJf5lqELbXJE//WErOAtvvAVVJDA5CWjs9qTxQHKAQcx22OKif/38P+2pkJLUdW/PVM2YNFX27Ytf/oKrrKWqcoXAqfyw==|920

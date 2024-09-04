@@ -97,7 +97,8 @@
             "SerializeProperty": "=全局变量1"
           }
         }
-      ]
+      ],
+      "BreakpointIdentity": "db3b8ae2-a9eb-443c-b48d-40da322298a1"
     }
   ]
 }

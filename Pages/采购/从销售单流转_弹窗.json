@@ -217,7 +217,8 @@
                         "SerializeProperty": "=从销售单流转_弹窗!V6"
                       }
                     }
-                  ]
+                  ],
+                  "BreakpointIdentity": "6b13a394-6e24-45fb-8363-718d09b25f14"
                 },
                 {
                   "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
@@ -230,12 +231,14 @@
                       "clearSort": true,
                       "clearRuntimeQueryConditions": false
                     }
-                  }
+                  },
+                  "BreakpointIdentity": "278b5dea-986e-4b8a-8a23-2bbb36d160e3"
                 },
                 {
                   "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
                   "TargetTableName": "sales_order",
-                  "ID": "17883078bdd54bc589f3b298174fa74c"
+                  "ID": "17883078bdd54bc589f3b298174fa74c",
+                  "BreakpointIdentity": "7fef336a-332f-48fa-8cd9-7e4d42ff4573"
                 }
               ],
               "ParamProperties": {}
@@ -260,7 +263,8 @@
                     "EndValue": {
                       "SerializeProperty": "结束日期"
                     }
-                  }
+                  },
+                  "BreakpointIdentity": "558ba2cd-e5a9-42ec-a6df-2e8caeb0b203"
                 },
                 {
                   "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
@@ -353,7 +357,8 @@
                       }
                     ]
                   },
-                  "ID": "88adfbf44996431f93d85b38895a3e9f"
+                  "ID": "88adfbf44996431f93d85b38895a3e9f",
+                  "BreakpointIdentity": "bc9b8a76-fd8d-4656-a291-63e4d8630391"
                 }
               ],
               "ParamProperties": {}
@@ -398,7 +403,8 @@
                   "SerializeProperty": "=从销售单流转_弹窗!C10"
                 }
               }
-            ]
+            ],
+            "BreakpointIdentity": "51cf2b9c-fc9a-4338-9adf-3350f89116a9"
           }
         ],
         "ShowColumnHeaderInDesigner": true,
@@ -421,7 +427,8 @@
             "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
             "PopupDisplayMode": 3,
             "DrawerDirection": 3,
-            "PageName": "销售单详情"
+            "PageName": "销售单详情",
+            "BreakpointIdentity": "2ef8c8c6-76d3-4620-ace8-b677a0a23ab2"
           }
         ],
         "Text": "",
@@ -621,4 +628,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//hLJfuhct87GveRhq1HRW0IZqjm8wWg2Uhbgs2PRMiwE1zl09wkH3r8e1x9Y7FlHFhow9yb9T4dyO4VbePiTSB/jxUu/nHrEhvF4+vAvVdmi/UNC58pE/ePKMYQ8dIWVbDyeBvmC6usVoY2XC9C9rGi2QQVcE0j1x4pnZwg/k3lODMkrqi5zYO4fUXJRMWV7nFGSJ9mdUenUJzKpmMNFqg2VMAAjIEtVlWqBvb+TaKHVqOGBPPKpxNXXO73cESN2NIdRDy13PzJpJh0DvfKJrTqNeQcymugTds9APSJ9oxm1DSdWiNX3H6mSsKiVlLDr7F29RJh1kSfzBp/74W5FSRKdnlUw1eFhiDivFeq0MaAUYXvYLMjx6QPFjE4xcPC9vOdxgnoQJ1Q+gpEUd0dJpHHikm7GFxiiwFGQPepNI9/YJhPGZHGN107uYluNHNV2EVfUo+tbzMpV26c2YgGD1IRYZsQ/s4Gv5mbmJfQMXDflkL2hFDChK9pmBKxXXG2DHvqf9vpRf8qjuP4o0dBkLgPl20qeWsGp+XuehTdX3OLZ5ukRngcCYVPEAb8wIVl8iN6v2RQKbupTTgOdcWI6iEvVoK8LdWXtaLEJAg1ykujzAtYBQrZaYbZQy1C9kRIFr+8Pfj9a6+Yp3ssd3YaKOS9jBS71RojAW6f8pCvodX8SF/tyAxeER5DZRzjhgF75NtNNWeT6GIyrzPFQWRKBuPLPifr/lPzOOl0wLzt8GW6qEPfhpL4uhhTY3cfF8h5ufggNkfaQMzZ+ItPKt2duJjGiUeE1mU3u8GNUWS+x0orGqyk4hp0xDVQBNOTTpsGsdgXfYVd5QYgNIWk1/UDzc++eioUcVc0sDeKyOC/xOkQxPDned8FbSx4NNvIvJ6LDmRTDRIisOMDILjld1ojcptQ==|920
+}//+f6hfC4QGz1SUraknD7Azetz/ZncW44xXyNytZzO2bj5AegNqK2m8huHs7AXmIhFlcwRyZY9+WVA1i1y58wA8i1aFETavIXFqWbrLCIhGtpgwX5SIVLhMlwT8FMkDaI9sHqtyVsVtI/QY5+cNqQ/PJEEE5Kmy+JsVsLq4OASW/NmUmJ4wGXGx08xQghLcWS12fmDx5cqQS5z8VtfpY74QtIiiJGFfQfJty/OcUXeXEgFu43q02X6QL/ISkFK+IIo1l80CEq4ZMJFkSkb2S/2y2SFxR29jX8ygcZZFJKlF9xetqLY3zWZs0GI5rhXrWysFN9m+iC48RT+WLruVGXuorz7wIGBfaoIHOcnIIO0pdzEAZF0crTUsB9Yhx0kIpSxpbVv3NsXe4yuJGtJwCOU7/74VF2k78PnhHI8FsWyekwTmF3ZipSm6NYHx+XL2rD1GUBsCrusY/Ho3o7yl3raPLlTYDuQvej0+g+yzUPl7pi4jCeMjWNG/A0t3IaJ91tkC3SEZFHY7rZsoUbxyS/LMGR28GZRBfQb8mhSDrqCjiQfNHq9wmjmS99tCDP+bgtkeVpYc4e8c7BTkrunCMDRR+4uQZiTKnro97tz6C/bvP7L3qLZjdkmeWsAaDJF3s6SBWaUY0MgTG6lcTTxKii87WBIps3aovVQq8PWiSY128qFWChYHrwGBxS3r8s+gINny+vpWfbS+PDyZn63l5M+hoCOTRxs/Qfniurpd1/Q0sAg6//roVLrYSPzRD5SMvIrjrCTrSDsCCzXvnJyXSmCjvNIWtW1vMC32a/Hrvr2Cg+NYMucVqnK3k7NQp/rUv23LiPZPDHGX7E4oxqhF1bOAnVMQTYhEZB8mVjkkRskcUvVKeySypx0vmsAEIzM2lsgb7JASKGTVB6gXfMhflU+4A==|920

@@ -172,7 +172,6 @@
   "ProcessDataConnectionSet": {
     "ExternalDatabaseId": "SqlServer19"
   },
-  "StartPage": "首页",
   "StartDateFiscalYear": 1,
   "BaseOnStartingMonth": true,
   "StatusCacheTableName": "FGC_状态信息表",

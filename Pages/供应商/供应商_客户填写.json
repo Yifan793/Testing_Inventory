@@ -551,7 +551,8 @@
                       "SerializeProperty": "ReturnMessage"
                     },
                     "RefreshAfterFinish": true,
-                    "CheckDataValidation": true
+                    "CheckDataValidation": true,
+                    "BreakpointIdentity": "27bd2b2c-9caa-43e7-8bc2-58b3eab42610"
                   },
                   {
                     "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -609,10 +610,11 @@
                                   }
                                 }
                               }
-                            ]
+                            ],
+                            "BreakpointIdentity": "d2b9ba85-cadc-4b40-a63f-07e2f160fc09"
                           }
                         ],
-                        "ID": "5d0e6ea4-95e4-4952-9d77-03e9efb7cb84"
+                        "ID": "05c21d4e-4890-47ce-900d-dbb0f290926b"
                       },
                       {
                         "CommandList": [
@@ -655,12 +657,14 @@
                                 "Value": "Fail",
                                 "Remark": "通知类型，包括：Success、Fail、Warning、Message"
                               }
-                            ]
+                            ],
+                            "BreakpointIdentity": "a6c5aa56-bdc7-4139-9269-09d5e14639df"
                           }
                         ],
-                        "ID": "6dc36bd7-2cdb-4d78-a842-968add899d25"
+                        "ID": "e9fc65c9-0655-4dbd-ba08-b13f193d23bf"
                       }
-                    ]
+                    ],
+                    "BreakpointIdentity": "c76abf27-828d-4c9c-ba5a-d21824d37d21"
                   },
                   {
                     "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -718,24 +722,27 @@
                                   "SerializeProperty": "=供应商_客户填写!S12"
                                 }
                               }
-                            ]
+                            ],
+                            "BreakpointIdentity": "7c33e0f9-7658-4975-9829-87632d3f055c"
                           }
                         ],
-                        "ID": "0ee2ab99-80b6-459b-899b-8fabcb4bd3e6"
+                        "ID": "f4d48b88-89fb-4b90-9465-99d3ab5d2ef9"
                       },
                       {
                         "CommandList": [
                           {
                             "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
-                            "ReloadData": true
+                            "ReloadData": true,
+                            "BreakpointIdentity": "63ce9a55-ef03-4291-9e4e-5e30258af1ae"
                           }
                         ],
-                        "ID": "025d7f94-6482-4389-aef1-78f5c2f34e1e"
+                        "ID": "fa90d786-5ef5-47db-827e-72f1a4fd63ca"
                       }
-                    ]
+                    ],
+                    "BreakpointIdentity": "84eaffed-ee8d-4847-8663-c18ee638e068"
                   }
                 ],
-                "ID": "86c7bdd6-3901-46cc-b88f-de8adcd04ee6"
+                "ID": "591947a0-e158-47b9-b5eb-871ffb7912dc"
               },
               {
                 "Condition": {
@@ -841,7 +848,8 @@
                       "SerializeProperty": "ReturnMessage"
                     },
                     "RefreshAfterFinish": true,
-                    "CheckDataValidation": true
+                    "CheckDataValidation": true,
+                    "BreakpointIdentity": "aaafed57-6b38-4e10-905d-bdd48a62e693"
                   },
                   {
                     "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -899,14 +907,16 @@
                                   }
                                 }
                               }
-                            ]
+                            ],
+                            "BreakpointIdentity": "d64d6a06-e956-4cfc-8340-724b65d1ca85"
                           },
                           {
                             "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
-                            "ReloadData": true
+                            "ReloadData": true,
+                            "BreakpointIdentity": "a4dbbf49-ce10-4796-8f3f-5f01f20083e7"
                           }
                         ],
-                        "ID": "c3f82a98-3e39-4a3d-8c29-ca8fae7e4a30"
+                        "ID": "ca6e4711-104d-49cc-a616-fe2438391e6d"
                       },
                       {
                         "CommandList": [
@@ -949,17 +959,20 @@
                                 "Value": "Fail",
                                 "Remark": "通知类型，包括：Success、Fail、Warning、Message"
                               }
-                            ]
+                            ],
+                            "BreakpointIdentity": "ad2870f8-2104-454b-a894-84f42a311f76"
                           }
                         ],
-                        "ID": "c073c141-804c-4c8b-a145-f7e096435157"
+                        "ID": "84672b3f-0c72-40a8-93bd-1bd964388c48"
                       }
-                    ]
+                    ],
+                    "BreakpointIdentity": "d329028c-0f22-4fbf-8802-55659ceefea1"
                   }
                 ],
-                "ID": "a80c41db-98cf-4c7c-aeb9-907ac97abaf6"
+                "ID": "00dee77f-1902-485e-ab7a-5212a2e96061"
               }
-            ]
+            ],
+            "BreakpointIdentity": "ca2b5323-8b71-4322-819e-91983eb31123"
           }
         ],
         "TemplateKey": "_RS_Main1"
@@ -970,7 +983,8 @@
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "BreakpointIdentity": "23b30ed4-0271-4189-9aae-c92084301163"
           }
         ],
         "Text": "取消",
@@ -1112,4 +1126,4 @@
       "Formula": "供应商_客户填写!$AG$3"
     }
   ]
-}//SLrCET6FEO4R/TvlhlrwCRBbd5WbjnLAqXQM3x2bkQnsM2DDf0E7dBVQO2n0xNvffmAmuB7uVTPQ+wj5vdr8Nn5UKsWxlBPfMojHxejjl93mlm75H0vIVNlu5mr+gdZ4Jj9y9wvRAFQA2S+41Rm8y2IKgsa2ybLXEO4o0YQbCzljbtYyBDAdfrACkjApdz9U5vBDK6kmW0mlQ/3XRzetfqAovKQVX9ZMi8p2ofb4t0s+UTxMqXT/ohLV8uck2Lkz+t76I+gPbNf2sx5Maf+ipXP/ZZDyMj0kshDEGp/ATFCcFJn4gh34aVrXqVC6gwekpln3a1CkOCwamPWuTFDgCc5nRm4HVleZMROSHLLUXIO6/XzDS9gFN720t31KHNGkKLfZS2nakpPHgGpnJgQszY9Qon6tJyp0fMCQdV+t+aCnA7x5K6JIPUkQZ/HBSkNCQ8a9FWdyFLExea8G/tZhduPJ1GY2cEslJEqgNpzdjia2IS1NUA/PtNjMPb8uYzFrsLdTkJa8qsFbRrEja3eQNVaXlFn3TZ03uQQninVYR9g3WUAvqt9S2iXZ+D8Rgj/fEIvjEM9HOhk/Imalv2kCWQj+bzpyaNlrojpS86Rd65kpNxf+8DKWREXvfhOEJRGcVepOcvOSQEhCds3yIxMo50eiIhQbeaaw1wyl9OQy6mVN2RxKV1L72eq5Jvzm+D8QsriUXYRIqLHSu8+kui8wYAv16SR14sbmsrmQ0oR6UURQ6cnoFmImQnyR9VOZ2t25zZ6Nz/Rz1TBcU2seuz48LlxRevTUgBt67HofaYXtEUxn706JFop8CBZt3mKLjs/pOyyEOj9nluF6WFZd1seWDaF6jOrC+9ba9p7aSKpVi82U392texo/vN4uuN04GRjHPX9VvQP0KUZUh7wAl19J0w==|920
+}//m00RHQurAOSNnu7v3VrchKlEMXg3RGLgZyyaPMQRFpuc/7Gy0DIf9wLIYPwQGgoPbkvOWHpqKfHis+GBYbUQQW9kWK+WgGM5CZ7/oUmF43njG5FNaip0G6Lm58vOuyAuMdJ+omeBjj28j7KLICGYLVMsXkzlRYkJkRMTPrm7hhBDHjYlUPM43JKFeAf+pdc5V94lgFRSaiO5aDWJl5izrc1wE3WmNqiBW0S2InjCPWVvUdqYY26TE5n/SjGcSZEG5oczB5WgGgJEIHmTZQMco8f1lXu4eIR+K4cK8hVy3/9FiphA5ljj54h5T+bTNXDOZK4f3LIhd0zc33LAB6m81fWzAFtfIJrmzg5lEhfZDE2YHlW6i+stg9R/De5S+9ql13gXj46LOjZxUbBrcWLtuOAU14RbDa0kxWO0fUkn7jt6t+92r2SRPBbbj6Rb/moxMUG3L+AXn3tDsDPREShYF6i06JQaaCJV1Hjvg0bh7cy2NLq4KooivuEvMiJ6xBH6MRPngG/dXI6cbGd0ynCYVZtlPm6zbj4wfLFgEkAcsOgg2gffZvi8joia/z5zYT60jTlQyQXf/FCaWtgopS1U2owgmr0Y5UedzYP89LUWcMWH8KFLjQfk7WfSMCUaSQk1+CtRvxaYQKq9eoDVLML6bUPdFHM4kaI4A/j6TRUHl4TCH3t+XVZvmtpIdC8Bob2R4s1fQClrpZRBoZBU6dNC7m/ZChikIMHv2Y4w4qc0TVwUBREqTvkiong34gCcd1cEWaZTYVug5my5Kyfy0pp5mvT3/wldC4WOvgzEJ3LyelY3NQIx28DDxq87wlpmrx5XuDQdcaR/jC4qN58LoweWWuZ/I8OIorJaQMuYGzmAd291K+8cfSOEhXcNc4R0NLvYj1bXVhxqzz5vEnR4hc/5Sw==|920

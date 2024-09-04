@@ -109,7 +109,8 @@
                 },
                 "Value": "123456"
               }
-            ]
+            ],
+            "BreakpointIdentity": "2a4108aa-d95c-40f7-a729-7c31923e9d91"
           }
         ],
         "Text": "库存管理员1",
@@ -141,7 +142,8 @@
                 },
                 "Value": "123456"
               }
-            ]
+            ],
+            "BreakpointIdentity": "8f82eb6a-4d25-4afa-a3c4-4b08138f3f89"
           }
         ],
         "Text": "采购员1",
@@ -173,7 +175,8 @@
                 },
                 "Value": "123456"
               }
-            ]
+            ],
+            "BreakpointIdentity": "1fde08fb-8625-47fc-9f49-d64a90128c2d"
           }
         ],
         "Text": "销售员1",
@@ -205,7 +208,8 @@
                 },
                 "Value": "123456"
               }
-            ]
+            ],
+            "BreakpointIdentity": "538397da-dad5-4dc8-b718-31b575b14a20"
           }
         ],
         "Text": "仓库主管1",
@@ -237,7 +241,8 @@
                 },
                 "Value": "123456"
               }
-            ]
+            ],
+            "BreakpointIdentity": "61fda4b8-18fa-4557-9908-938d4465e144"
           }
         ],
         "Text": "采购主管1",
@@ -269,7 +274,8 @@
                 },
                 "Value": "123456"
               }
-            ]
+            ],
+            "BreakpointIdentity": "2e06c1e6-73e9-4903-a8fa-55403b927db4"
           }
         ],
         "Text": "销售主管1",
@@ -439,4 +445,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//npNrYLpr4oPuypu5XiukFkSJujTUX2k1d6Umb4kU3kMlG6unIhuQDsVx/Vca1r7DZsk2z6pF+T7fKgwFATlTYdqyTuAonrGKKotoCDgsOaWTpnH8rz/v2Ni1oVGkUUVh+FuXCmGIiS3lHe9pgn5y3TW/lgVGEDr1jOZuvllH9HOxVu66ed0wVeMns69nr5Vbm2Ko9XdpQrZK9wiiW25chY0Tz+m1MkSaIi9+Ps1UJVbR2mThDUz16OS+ACNlrVpNiYspQSFblXkgdIAzfcDsj+PjlJJUKDSmdRL0LAqxXspQ2MvMLTUaj5EKluxn36mWBLdbqqS4/Z7yp6w35BLfnlQHYeLVR53GKi9rEtU0TFWukQdna26ZfejrS9mqOg5dwKkTMDZzDdgm8yr5EitUKnd00QTHUoIblQXSMeURjdKxcHrghF5uMk0Rgwy0SmpJEu6o+yU6Qen+Fd+mec7AxnGC54lYmipM1UHcF1lHmNYhY4XcOGhj0+nKalBGz/8c7ma9PBQQVmGzW6KtLEpImey0r3OO4ICGyzeCp7NQJdnAhb1YEGrKkaaYEwSPlI088bOneb0lyaMsGpibQJSpcjnScubE6kQVEWSJ/jWCUvimF0VgQTcA8ZJdjTO2GVBfUvxLu8CLbdSdB6ln5cYcz1HrwU+awZOlpg9o74Tmp0K9FC7JXZA58+DWspanZtH1SdkO5Bi4grUB2S0czXYn/Sy6DICFL4F/nu/tBRWft58o587uVULeHWH3slLd8r1Oh5TMf6DF4LlarfWuuTWn/nTsOyZjcnCYuRNkWRLvWlGJ9hXg6COpmXwafjZklg5E7qCfEGHiaxssfnq1GT5ALZ7g/sjwluQ8nGnjFEwg7A6pE9VTv1tAK3UkckOV7P0wMBx/yYRFfuNlfr4CXAiLtQ==|920
+}//VI4xkbarI0J365zZR+TNARl9AmOBVwPUbrK/CvoOoMxUKSa4TvOUZrJr/pxxMG51sLo2XEoWbqia4XXNTdBqG3LAwxpiavvASfuxKy4zEQFk8XGjU8+lQGVH24qWNpZ4q6U79nx+y9YvPuQXTCjPEuOv9TTTyMZSSoX5yM/vC0GcytvR4ZVQ8wK7P8tuZOFLDzZRgXdg/I4ZeXyLSnprxRZ+PNaiEP5kYJpkuVIcL9nls54t9pivW1MNsANLLDz2Hm2Nk5Ju64f0gqqmCY/XAflIDffjR6e2+uRrJLe9kKW9KmVfhlS3MbMapSKa8i8gbuQ0CcAdub3ieZ29jTh9cIO8wmtSjOYXvZ3pxU4701rx8/nd0x57wWcQfhVjcHbuSGMx7e3d3VjEOzRwBtMBIVm45NpKHwSEGt7ivyZn36XUJDO+y3FyZhpW7mO7TR9YZTm9kEO296yTbO/b9coA1sRDLwyKksuUZaFj2vBVHOnatwYcODoBT6brG28e61vZa3lTymsWVuKM5Uz/DfDtSU0pJUMbje1JCNac10StttyA/W3pDSZLc++hDtotBMbR/MtLEJm3KIXF3oJL/AC00ZnOB2KTjTqGTFgrXK8FxkzkRjR8O6keUDu4meUEjdEgxjao4TvdREoyuvt0Y+pDAhOy25aVWgUuSuEzlCg6Ie2ZhZx8wkpkzM6xX7LHLm/z67R5r/b7/NFAjlDddXpaF73SABWhCBfhf2ExKYUrXhnM/Ndd+9q13zllUKk7oBRTFDflp+19K3tZjUWawZLe43gbqQjd5YZX6wktAss6oVQTI8pqTRyIIG2dW6/KWlvNafDITW/y3a/HwpFaBDgt81NxFjkxcjiBwdfNAwXtTftr5zxKV2Ks8omTSpOMX6NFW4RPHMYxlTrK8ehUCyM4bA==|920

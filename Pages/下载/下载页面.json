@@ -19,7 +19,8 @@
             "$type": "Forguncy.Model.DownloadFileCommand, ServerDesignerCommon",
             "FileName": "活字格V9.0 Update1 用户管理实战公开课",
             "FileGuid": "569745b9c05b4f5fa2a16916de17d3c6",
-            "FileExtension": ".zip"
+            "FileExtension": ".zip",
+            "BreakpointIdentity": "8e70ad4a-bdc5-4486-a24c-efbff2e1e3c8"
           }
         ],
         "Text": "下载模板文件",
@@ -59,7 +60,8 @@
               "SerializeProperty": "=下载页面!AK2"
             },
             "RefreshAfterFinish": true,
-            "CheckDataValidation": true
+            "CheckDataValidation": true,
+            "BreakpointIdentity": "16028603-36be-42b3-b1df-79dd52fe6852"
           }
         ],
         "Text": "下载文件",
@@ -134,10 +136,7 @@
         ],
         "accept": ".jpg, .jpeg, .png",
         "buttonText": "点击上传",
-        "tipText": "只能上传jpg/png文件",
-        "OverFileCountLimitError": "当前限制选择 ${limit} 个文件，本次选择了 ${length} 个文件，共选择了 ${total} 个文件",
-        "OverFileSizeLimitError": "上传文件的大小超出限制",
-        "FileFormatError": "上传文件的格式不正确"
+        "tipText": "只能上传jpg/png文件"
       }
     }
   },
@@ -221,4 +220,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//Eyx8BCiCFA8MB+F54Lk6m4YZjKwSWZsmcIDjhkcUli+a6zYAPey7pcCYB5bICnoRE7R59j6AXrX2oXySgBw6EM7E+J571lGe1fmChAQBwUDbjLk1ogEwCw6jcQpBhgGVvYtsXGOM3tGnf6epEojOXJxGmVp9ago17UaynnvBSUvfyKEm2OWquJtRqMsYUwS6cjcv9XgAH89W0595++llp9UCwxFJL1XZZdimT9TMq0AhMVpfRhIWcQ/PcX0iI3VO2+qaiuILlUlBPWbLqnFaFvj2edOXwLP2Y5h5/k87GZ3lpreVYYd7LyxDfUp7WiH1HkWmaPD+UjbN9u7F0S0QDIFY/MtRXDq5QkeQKxqqU7yeo4M8/OXUg4zKNckRM7DzjKRnB6ObkczvTj/K4+md1fAyzdjVrJPdTn2q8ZetwcezRHOvMHzBMj3g8OvHsTToY41Ir6/vj92HB50ANblDP2QDZow66FmabrkpEtsNVUmNmsYjMpTVGtR9Oq6h94kl7/Y/eTmzHa1qb0mU/m4K2eD0UzPiWq5AcTIoQepPOye9ng3WP4I4nVRWTpVcaroWQkaIS7SUC2mmP5nwJGRn/vq+QmlIVb0BBV2aEJO4Sk4On/0MJm29MIFePe7pSva+CPTg2h895rlEa+CPnFljAbvSpZcSh8Bax5rXgLPO/qoXxS7sHk6AIXB+NLIlR8wzMTWFFCOvONxZ07sP3Y9fsN1xTBZLtDGtYtr6hqf5bKpBYplKRL9zVeCZi1tkZE+N4VcAbhYm/iFEgKIH/psKEaAILl6Pgzprneg1ak3EBDAoY5iF/y3oiadKDn4/SKgcFVH3WPPkhxNNnI6oqTHJSwbMrPqmSAV+daDgTtAj/J/hGJUnfud/AkZKGH+H7Dj6gXUt3D4BbVppp5gq8QSGsQ==|920
+}//SwH3jzGbJXG5Efs7o5DxPcODrkG+7AAeGzE4L4gjenz1mWj+4VSnzbOY3Jo6PGGaA0EcOIMIBpfHUm3AVQhRlY/6B5Aqy2T1DbGxzsj9QfpmfcWfteS7Ov+LYpPs6QYNB12G6J62X+JDeIwyGLrstBuymUN7f8XeUx82hrOIqQgtgnQE7Z7K//VjNfnID+kXg1z6i+bd2UYqnO/NyVPlWAM/okNyR+mMQJP1tlEDmfF+abhamE9dQAbUS8Sz3V52N6ZSmT2LAED2i7eaSi8lGM8dPGB+DdM/9rqTInvmHHOcNgS86/xptae2rkeW9D4CnSD22fpYWVQvNtQfhHCZ/0ibANF4aVfYgEUIKIWnBoEmRCJ8WGL9IKsJlp8f2bTHY0z7SdWTDgkODV59Abd2QAiZNlwhdeFtR+AjrKuwtZu6VQZWXRW4Wnz0whbPtbvjT7yU+mwBFvGtjaf5UvS0q80PY/UNemHiuF5janqPhjqGIh7S1SfPPv4QxCyi4MZrd3KO6Kq9x5GpRtlKpJAXKQP49zu1BaqHcD8KskhgwY5gP0nyM2iZKm3TWg2vxVrcBtuO2fHiD+tptfSLNw+QLikzAD7DX/a33jFSxDJee3upkjxku6WFpmR6JZ1f1Yoadt6Jg5lbTUfRfwIIxkIfAdOehB8/CIvMmwBVh+4bqWF8O957zYJjRObdjMNCL4W5cm9FKunWkmjs2MA0NvI2SwZJ/Oq+/9PWP3bZK9e4E/BpJbrCFzbR80E5gkwjIz34K4g6lI1MnruRa1p3CplcssFonA+dqcnZywh3lKfGppiQuYeozo8O+AramkLaxIiPCEuCGGORhMwBk5wkCj70meB8QMPtwoe9HW0UlcT3FPTUMie4ZhCr+zhSfdxExEFGDjeeIHzGN3alBbUCLJ8t1Q==|920

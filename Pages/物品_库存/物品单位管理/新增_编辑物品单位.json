@@ -141,12 +141,14 @@
                   {
                     "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
                     "ErrorCode": "1",
-                    "Message": "名称不能为空！"
+                    "Message": "名称不能为空！",
+                    "BreakpointIdentity": "bb44dcb8-5f7d-4e0d-9d8f-18dd791538b8"
                   }
                 ],
-                "ID": "8f9cf1bb-b8f3-4077-8b85-d290c723aeea"
+                "ID": "22c3baa7-1a89-4ecf-bf67-f6450cd2aa15"
               }
-            ]
+            ],
+            "BreakpointIdentity": "a82c180e-0e3b-47ec-b82d-772877ff0198"
           },
           {
             "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
@@ -165,7 +167,8 @@
                 }
               ]
             },
-            "ID": "4b4ce03646fb4a0497db6310b69bf976"
+            "ID": "4b4ce03646fb4a0497db6310b69bf976",
+            "BreakpointIdentity": "8774e425-28c6-4c59-9f9b-77186d28bfe9"
           },
           {
             "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
@@ -199,7 +202,8 @@
               },
               "NullFormulaValueQueryPolicy": 0
             },
-            "ID": "8212c619165340cca8a2885b11fbe0fd"
+            "ID": "8212c619165340cca8a2885b11fbe0fd",
+            "BreakpointIdentity": "137a95ae-d892-48eb-b53a-948f16ce2e55"
           },
           {
             "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
@@ -256,24 +260,28 @@
                       {
                         "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
                         "ErrorCode": "2",
-                        "Message": "名称不能重复！"
+                        "Message": "名称不能重复！",
+                        "BreakpointIdentity": "3005cb49-da44-4403-8276-09e139e644b8"
                       }
                     ],
-                    "ID": "d796fcee-d502-4221-b293-a01fa4a1562b"
+                    "ID": "1d59d77a-c8bb-4f12-9cbe-09c6147ddb04"
                   },
                   {
                     "CommandList": [
                       {
                         "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
                         "ErrorCode": "0",
-                        "Message": "名称正确"
+                        "Message": "名称正确",
+                        "BreakpointIdentity": "cba8e19f-a416-485c-8593-9dd62336bec3"
                       }
                     ],
-                    "ID": "bb976175-56de-4f3b-a03b-3b57683fe081"
+                    "ID": "71e5cf7b-a388-44e8-b893-eb724e4fa82d"
                   }
-                ]
+                ],
+                "BreakpointIdentity": "55ed2d27-bc46-4382-af72-c6f91c74bedf"
               }
-            ]
+            ],
+            "BreakpointIdentity": "9b0430e4-3d46-4e4f-b491-87c5462eeea5"
           }
         ],
         "ErrorMessage": "名称不能为空！",
@@ -347,12 +355,14 @@
                   {
                     "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
                     "ErrorCode": "1",
-                    "Message": "顺序号不能为空！"
+                    "Message": "顺序号不能为空！",
+                    "BreakpointIdentity": "48e88706-bdff-42bf-b9e9-d83f00754d8c"
                   }
                 ],
-                "ID": "9186ec0c-02aa-4f8e-8e8a-9592d0b18616"
+                "ID": "e367832f-6306-4900-b076-79f969c48baf"
               }
-            ]
+            ],
+            "BreakpointIdentity": "46b1ce2f-eb73-4768-9663-b9bbd3a2591b"
           },
           {
             "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
@@ -371,7 +381,8 @@
                 }
               ]
             },
-            "ID": "aac311a79e574b2daa16b5bbcc8017e3"
+            "ID": "aac311a79e574b2daa16b5bbcc8017e3",
+            "BreakpointIdentity": "52ebfbb5-2e6c-4527-8949-0bf495442ba2"
           },
           {
             "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
@@ -405,7 +416,8 @@
               },
               "NullFormulaValueQueryPolicy": 0
             },
-            "ID": "48d162d5dadd4e8393ebca7205b42366"
+            "ID": "48d162d5dadd4e8393ebca7205b42366",
+            "BreakpointIdentity": "2d781cff-e8b0-464f-b021-7d5af37354a2"
           },
           {
             "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
@@ -462,24 +474,28 @@
                       {
                         "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
                         "ErrorCode": "2",
-                        "Message": "顺序号不能重复！"
+                        "Message": "顺序号不能重复！",
+                        "BreakpointIdentity": "f4ed8460-8389-47ac-8b6a-01ea8fe936eb"
                       }
                     ],
-                    "ID": "d247e804-45fe-4aa8-9908-5cb2eccc2c15"
+                    "ID": "3550013b-8612-4ac9-8e97-c7d71a3c08bc"
                   },
                   {
                     "CommandList": [
                       {
                         "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
                         "ErrorCode": "0",
-                        "Message": "顺序号唯一"
+                        "Message": "顺序号唯一",
+                        "BreakpointIdentity": "e0db1a5d-5284-423d-b2da-163b2b536217"
                       }
                     ],
-                    "ID": "a14e6fe8-86de-4b57-94c6-ab9ecb01e9d3"
+                    "ID": "b22ea761-de25-41fb-8309-7d28dd36e470"
                   }
-                ]
+                ],
+                "BreakpointIdentity": "3b218a2f-0d8a-4468-8dea-4ae3beb20ac3"
               }
-            ]
+            ],
+            "BreakpointIdentity": "89186af2-3acd-40e6-b18b-38d347c7faec"
           }
         ],
         "ErrorTo": 1,
@@ -528,12 +544,14 @@
               }
             ],
             "RefreshAfterFinish": true,
-            "CheckDataValidation": true
+            "CheckDataValidation": true,
+            "BreakpointIdentity": "2fee2991-2c4b-4927-a415-f44fe3147305"
           },
           {
             "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
             "PassValueBack": true,
-            "ReloadData": true
+            "ReloadData": true,
+            "BreakpointIdentity": "15f82c92-6e47-4761-8b44-c5170e4a58b8"
           }
         ],
         "TemplateKey": "_RS_Main1"
@@ -544,7 +562,8 @@
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "BreakpointIdentity": "bb675545-6178-4525-90d3-4800fd2ff1c2"
           }
         ],
         "Text": "取消",
@@ -633,4 +652,4 @@
       "Formula": "新增_编辑物品单位!$B$6"
     }
   ]
-}//UUGme1J1IIX9OH3QHon+ZMewfo7pRDurXl22QUCJ1g07laH8FnhjlV2MixSuchx86UGNkTroa6GggGxLQVmebNgL7AQlmUQ6C4MdL3xctV2xSqwcRRv6ftTyK6PcP6orJqNEeKRCAD6LNKk/yfszahiT7zgWi7pnlT4cxqX6hYAbkztF9X1MCXv0UkEkLRNMC1OgemJxrbGsPXz6MRH3KbbhQ4YN08bJIgnJ3ygtvXfqGg83VTiIMdLDI1FkKe74r9TJu/7+50oZUkTwLOb0GUlultWWFxsA0r2ZhTANlfmYnj1CVfBGuYbR3j23zifv71ukY4qhZSPAadOKfXnVVswQxmSPTffux7i+PhbRQK+1Lk86+T12xz0fMA5iro84Q0W5Rbk+ExmkIfYoLPDwyAwDNlNw6mP2nnrQhGKy1TIE1rzNXxM+w820Bp0oGPgFUk9dUg8nzUzy42oCzuQUrQC8YabZDbZlRUUKYRiLQ5tMRxZvt1lNL4HgBCY1hAchhSIF2fnG9/s+uh5DJYhnxqbRb/1mLhTP2mDqytU0HfgMHulxzLNd00hZLXEPurIpWhGJI8MXRjApNEvY9X10dH8WXk32+gyBLC36ax/J4j/r8vEBR0pdJMv3/AH1ujqKinXSTSQeDt2G3c7ile4mQKnRR9w3zQE4p0QT5uMJ/owXYuGGbS+dtWdF/Ph13S9cmnGf3CC25fgIMhlzrVDfgps/PoyyrvrlyTgqjdiQrWL56w595308tx8PJi57dFvdE8TFSEW1V1uxanvuSm5/dfnpb24yA09hCbXwBP8xyf77oBr/KCWfvsHkope8oIEfCfZA5I09iMaKt4bzHaxH8Dg6jQo4+Ua4KJLRS988XZs+31vfsdrF1fqN+tzZ+pAjb2ol+ZtnGyM2/TGjm/Y5jQ==|920
+}//0KLfc4f6rjmKMUF75aemx3gwbPyctXUk8p+67zpWYZbMx0OfTQyXXkYbPwIf8kQ66r7zZDbPZKeVlae6Dg3jzy31Gg3tGcYsrMG2qQbOnLurMPabq2B4gz8X6Ykmvcq2kkYC1VKPb9S9GowLdyFK+i4bqH9WKTdhJgjaC1jKgPtNphUnwOCT/ZeD78L8DGgpRtAxeWvSHfeL9ulJk+JwbpNy8s+5RsZLJBbUwM8VF62USkxoNV5351iftTSfklGEJ6/5d1jKc1PvWGtFBBDJvHmav/cwLNwXm1U3SubT/35c60fueSSN2UgLeRprnbz+UTxAx+euYAlpWEHMFntC86Da6irtDKZzuoXXc36KJVez1Dnt2LIgr8lA8BpWpSYCUWejxN2fGCLs/3BpWHYl4JPcDoMIzF6AzuuRnG0TsOuPdRqL3r69WP9zsYiBRldz0VDXi28H5am2UFEPn4Ma56CcDitR9y6kQ7JmSeAC6niCpArSStttynHotbiv588oCeZkcEpO/x93B4xSzlQb0Gc6gphtny1Ho0Jid+yux5ySdmNwep+6VPdKpDQlA6tsYCAeM+BLipotD+/Ueom1MoFQ+2mBAz8a/YPlo8XeLRsKMJZg5ehc34ekJfaU16cZ4QojfN5qxNjkYzStO/mwGebRu0ep9Wsp5XCAoa0Zyk5NJkUlPUR7T5akFp47EFX28xeyWiUSrZj8WyGOFOS4+pMuL64cnpOBDVfr9ur4pSEsg9wnJF91imlRuCrd4ruIkL8iq0q0S56ry/Nqe3ZXJcNN+0ie3sE0eB7ufMPPhDP1HXLFLjwts63S2VJGfyIUoI4Jio+SdWYqy7ThGKI4DESh3ieXcvt/6Vyw8pl+ENQZUdmetzMoaradbQRXgRFPr2w3b8NTU21A1oNJj63pNQ==|920

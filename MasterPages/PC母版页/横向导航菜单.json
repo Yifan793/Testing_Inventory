@@ -302,10 +302,11 @@
                     "CommandList": [
                       {
                         "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                        "PageName": "采购首页"
+                        "PageName": "采购首页",
+                        "BreakpointIdentity": "0cd04a59-3e06-4f7e-90cd-9b088688c5e6"
                       }
                     ],
-                    "ID": "2d05cc01-20de-472d-b039-b5aa4b2d044b"
+                    "ID": "eff1906c-5446-4249-bc34-0b92fcc38103"
                   },
                   {
                     "Condition": {
@@ -322,10 +323,11 @@
                     "CommandList": [
                       {
                         "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                        "PageName": "销售首页"
+                        "PageName": "销售首页",
+                        "BreakpointIdentity": "7833f539-7d42-473c-b1b4-c701d54b7c01"
                       }
                     ],
-                    "ID": "9c7b01c5-1b6c-40c9-94e8-01f67ca95c9f"
+                    "ID": "1a616d44-985b-47a7-af89-6d32930f52b6"
                   },
                   {
                     "Condition": {
@@ -342,21 +344,24 @@
                     "CommandList": [
                       {
                         "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                        "PageName": "库存首页"
+                        "PageName": "库存首页",
+                        "BreakpointIdentity": "d6dee66c-99f7-44be-b822-f9b704386bc6"
                       }
                     ],
-                    "ID": "f94c1885-1633-4e1e-b0a4-c82fc6496751"
+                    "ID": "2d175ed5-07aa-46f4-abaf-40fc73c02265"
                   },
                   {
                     "CommandList": [
                       {
                         "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                        "PageName": "首页"
+                        "PageName": "首页",
+                        "BreakpointIdentity": "9a719cb1-87f1-43d6-8629-ca11d36699d0"
                       }
                     ],
-                    "ID": "540456cf-6480-41c4-9875-79cb1aad843c"
+                    "ID": "101d8a7b-c01a-4713-bc7a-a85e062f1d2d"
                   }
-                ]
+                ],
+                "BreakpointIdentity": "40ae9136-04ca-4339-9469-ec9b2de7e7db"
               }
             ],
             "CanVisitRoleList": [
@@ -373,7 +378,8 @@
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                "PageName": "下载页面"
+                "PageName": "下载页面",
+                "BreakpointIdentity": "ce27e23d-6959-4f12-b1eb-a243307ec78f"
               }
             ],
             "CanVisitRoleList": [
@@ -405,7 +411,8 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "物品_库存"
+                    "PageName": "物品_库存",
+                    "BreakpointIdentity": "398e794f-f806-44ea-9d84-de625bf215b7"
                   }
                 ],
                 "CanVisitRoleList": [
@@ -427,7 +434,8 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "出入库_列表"
+                    "PageName": "出入库_列表",
+                    "BreakpointIdentity": "bf80c243-c4f3-4741-b172-109567e49091"
                   }
                 ],
                 "CanVisitRoleList": [
@@ -446,7 +454,8 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "盘点页"
+                    "PageName": "盘点页",
+                    "BreakpointIdentity": "396d42cf-4b1e-40c7-9d2b-73c6c6d867a7"
                   }
                 ],
                 "CanVisitRoleList": [
@@ -480,7 +489,8 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "销售单"
+                    "PageName": "销售单",
+                    "BreakpointIdentity": "27466d71-f4c0-4108-940c-61e75c827e19"
                   }
                 ],
                 "CanVisitRoleList": [
@@ -498,7 +508,8 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "采购单"
+                    "PageName": "采购单",
+                    "BreakpointIdentity": "3c00ec3b-5529-448c-9db1-d9d03b154ad2"
                   }
                 ],
                 "CanVisitRoleList": [
@@ -548,7 +559,8 @@
                         }
                       }
                     ],
-                    "DeleteCachedQuery": true
+                    "DeleteCachedQuery": true,
+                    "BreakpointIdentity": "cebe3e57-2921-4e8b-8d2f-29499e5b17a3"
                   }
                 ],
                 "CanVisitRoleList": [
@@ -581,7 +593,8 @@
                         }
                       }
                     ],
-                    "DeleteCachedQuery": true
+                    "DeleteCachedQuery": true,
+                    "BreakpointIdentity": "d3c80682-9837-41e8-a8be-1231d1e8df15"
                   }
                 ],
                 "CanVisitRoleList": [
@@ -615,7 +628,8 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "出入库汇总表_按物品"
+                    "PageName": "出入库汇总表_按物品",
+                    "BreakpointIdentity": "19c21ee1-f29e-4811-9f9b-1537b607cc0c"
                   }
                 ],
                 "CanVisitRoleList": [
@@ -634,7 +648,8 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "销售汇总表(按物品)"
+                    "PageName": "销售汇总表(按物品)",
+                    "BreakpointIdentity": "8a7b3dcd-cee0-466d-8f48-b814efa8204b"
                   }
                 ],
                 "CanVisitRoleList": [
@@ -652,7 +667,8 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "采购汇总图(按物品) (2)"
+                    "PageName": "采购汇总图(按物品) (2)",
+                    "BreakpointIdentity": "eeac4174-30f8-404f-b990-bb3e79a051b9"
                   }
                 ],
                 "CanVisitRoleList": [
@@ -1069,4 +1085,4 @@
       "BoxShadowString": "0 2 0 5 #175D7183"
     }
   ]
-}//4lWmLPUMl6FLODnpNzsD5YNlII3zmz/tkhQruFJzdNqjwZLOJYriMhv/52hL8nVFEfoVtUun+fkQc8AX9+y+vIEVyn65AlhEO9oFZmVleNhqFWhukvvGkLJZvpqHdl3ViALHTXTkyAlnysI9OJGRe5DDduD8lPgCRYqdFMLawNuW04aal8Jx/fAeq/fzYMDBE492pAHpoZzAnQJbUp1mtAHbURSNTisl0JS5u1rNuHiXE57aUsN+SR0+blRT8b9zE0J4l8I1hia/mT9AgZTGP//kxxRDiLAujSFB2VxE7azTeHg5KsYykoka6blF/XokHvLu4eaWTbBdT/FAgosVcyPjB3CLQN3/AlarGav1UeDqK4GdHrdhcm45NzBNCK1gG8Dj9sJO8WjBEuio5dOmCq9G4iINjU0cSvEubwWAu1JWLmJ7Kx9zPljFhQoTq0BoAvN0/9WBkFfOnWrk20h608AL/26/0nAzKDeAIk3taJqT8W8UgVkKtixNzjt5LHW80/FCoAg8uXFdQlK23YLiKDfnyW9RCZEg+31IaxTukoctX/Ca+boorrKqBhHaFgGS4ruIGR4c4eNLZKgYP360IBpYhNZl1irOyVKB1pHZ3yMIbdZVlkAUXcSlvxM85oe8OGdBEXshZ5pgObTyLvlk4ECO1j9aLqli6cF2NFtH8Q9ft5K1bpAaIQ6R1H+zJZnZTB3ZRGZ24fzTGO95eYPLS1YtqRsiC5/8BEXBUKvYV+2GR9rU7GfdXE8lTu9sfpFRkS9pEnVTdRFR9oAGXSIcrc1Equahmk4cpBiX+YefmV2A4WhCI1DWQY7C27SS3uXT9jgAwOnc3j5/Wti7/rIYCYfswe4CPasihbcpICCK+j57BOJ6O2KKZefmLzDEhIU+ZCTltRUnR4PVBABEzLhTug==|920
+}//XZo8M6Ok64JyA8fM0oiSjZtb4NN1JOqWq85H7McOLTZbP6CptCaH5C42xs3L4bVWAkJD0USyB9OapX714p74q9AdoWUx/7htkwKvotQLLtWRN2sXMF6NiE0qFb4vHzzw7RxTRFc/Fmb2x/uNf2z8dNMs5uQsirYjaPFu2NQm0SyRelkQyLz/G8l0yRF3kPN9DzQzTPMxFNj5jE2B+/4szq0i8wn6hsmGM5NeCabx8rQbBJi/BsTsAxPjw55me34BlSKMUtxvBBiI+DydeOyPg/dgVjeteqwVGigpiXCXS4vBDyBG9bTiLoZjAjelWrLZXg1/gKM6JcuYw2DVB6IUB/pruxszdgH1lphlnPdGt5hsHCMSfXbBykHiRc2ZQDzNztgvWPAPl2NrhQQhPMTeB2DoP+3XxOhtB+MYAd0vLe68n8CKsVJqjN0cYKxqop5Ct8VrP2oqW9FPp/gLpaiK5PpvgS12EaFk6qiO3YNl4NYOnXPIs4Ij7jM9l+wn0rnZnyFyryxhiE+UtUKFlGuZw3vqhiHZw4Xt56kd/cVFbI/rZBroKk+IYPZfFVDlPv385SHrIFroIYtr8FOe8mrdnWRpWftN76y6jyVH4vRJtYhdiwrYr2EWDSvoEIOxzLujqio522xD5rreGUsbnOZ08FmLwAxSjMLtANu2reV5yUqeNDLl0M/ektBFbmIpBja8ZE82/WOXne7oG9G2lyhSycULrAEyTRdaVS0vD+IUG3YfZIhcPBOEUiZG7T+A7s/lPrcwTuQZWfK2Uy7BLY/0fIGlmEeOzrvQLzyAf3ApBdj6AFZpE4PuKxKFU20vZqlbvPKWFzr93c1lX1FamtPRG/7eSbKBGASlmscTMTB3vYc8blHlAHSZu2NMV1m5xWsTxnfj3zdzb4PFwJiSYkNEow==|920

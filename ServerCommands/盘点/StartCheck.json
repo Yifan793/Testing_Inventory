@@ -1,90 +1,125 @@
 {
+  "$type": "Forguncy.SaveLoad.ServerCommandSaveData, ServerDesignerCommon",
   "Name": "StartCheck",
   "Description": "开始盘点",
   "Enabled": true,
-  "Triggers": [
-    {
-      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
-      "Permission": {
-        "PermissionData": {
-          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
-          "permissionResource": {
-            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
-          },
-          "permissionBindings": [
-            {
-              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
-              "roleNames": [
-                "FGC_LoginUser"
+  "Triggers": {
+    "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.TriggerSaveDataBase, ServerDesignerCommon]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+        "Permission": {
+          "$type": "Forguncy.SaveLoad.ServerCommandPermissionSaveData, ServerDesignerCommon",
+          "PermissionData": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+            "permissionResource": {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+            },
+            "permissionBindings": {
+              "$type": "System.Collections.Generic.List`1[[Forguncy.RbacPermission.Core.Impl.ServerCommand.IServerCommandPermissionBinding, Forguncy.RbacPermission.Core]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+                  "roleNames": {
+                    "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                    "$values": [
+                      "FGC_LoginUser"
+                    ]
+                  }
+                }
               ]
             }
-          ]
+          }
         }
       }
-    }
-  ],
-  "Commands": [
-    {
-      "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
-      "CommandList": [
-        {
-          "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
-          "ServerCommandName": "IsChecking",
-          "ResultErrorCodeTo": {
-            "SerializeProperty": "ReturnCode"
-          },
-          "ResultMessageTo": {
-            "SerializeProperty": "ReturnMessage"
-          },
-          "RefreshAfterFinish": true,
-          "CheckDataValidation": true
-        },
-        {
-          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
-          "ConditionAndCommandPairList": [
+    ]
+  },
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
+        "CommandList": {
+          "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+          "$values": [
             {
-              "Condition": {
-                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
-                "param": {
-                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
-                  "ParamObject": {
-                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=ReturnCode"
-                  }
-                },
-                "value": "0"
+              "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+              "ServerCommandName": "IsChecking",
+              "ResultErrorCodeTo": {
+                "$type": "Forguncy.Common.FormulaCellLocation, ServerDesignerCommon",
+                "SerializeProperty": "ReturnCode"
               },
-              "CommandList": [
-                {
-                  "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
-                  "ErrorCode": "0",
-                  "Message": {
-                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=ReturnMessage"
-                  }
-                }
-              ],
-              "ID": "0a31f3bb-49fc-41f3-bafd-77bbae0d5222"
+              "ResultMessageTo": {
+                "$type": "Forguncy.Common.FormulaCellLocation, ServerDesignerCommon",
+                "SerializeProperty": "ReturnMessage"
+              },
+              "RefreshAfterFinish": true,
+              "CheckDataValidation": true,
+              "BreakpointIdentity": "84b5a254-8d9a-4de6-949f-3c71e712c213"
             },
             {
-              "CommandList": [
-                {
-                  "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
-                  "ErrorCode": {
-                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=ReturnCode"
+              "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+              "ConditionAndCommandPairList": {
+                "$type": "System.Collections.Generic.List`1[[Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+                    "Condition": {
+                      "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                      "param": {
+                        "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                        "ParamObject": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=ReturnCode"
+                        }
+                      },
+                      "value": "0"
+                    },
+                    "CommandList": {
+                      "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                          "ErrorCode": "0",
+                          "Message": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=ReturnMessage"
+                          },
+                          "BreakpointIdentity": "f41515e7-ac5f-447c-ac52-9c4e14b784fb"
+                        }
+                      ]
+                    },
+                    "ID": "bae5f4ea-cd2d-42ce-ab6e-6eb12a892772"
                   },
-                  "Message": {
-                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=ReturnMessage"
+                  {
+                    "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+                    "CommandList": {
+                      "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                          "ErrorCode": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=ReturnCode"
+                          },
+                          "Message": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=ReturnMessage"
+                          },
+                          "BreakpointIdentity": "2ccc1046-24e8-434f-bc4e-9c2bdaa6476b"
+                        }
+                      ]
+                    },
+                    "ID": "6db50b4b-c1c2-4150-9d90-1faa5c184654"
                   }
-                }
-              ],
-              "ID": "c5e92b2e-2fd7-4b0d-9998-8f196a5e31a4"
+                ]
+              },
+              "BreakpointIdentity": "9a509654-da9b-4fc4-83a8-bd84c1584f93"
             }
           ]
-        }
-      ]
-    }
-  ]
+        },
+        "BreakpointIdentity": "510f6cd2-9f09-4acb-82a0-21fcb8f142b4"
+      }
+    ]
+  }
 }

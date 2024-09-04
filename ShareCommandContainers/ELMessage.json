@@ -47,10 +47,11 @@
               "Type": "success",
               "Duration": 3000,
               "Offset": null,
-              "ShowClose": true
+              "ShowClose": true,
+              "BreakpointIdentity": "11c7e0e7-4e41-45d8-a632-0dfd333fefc9"
             }
           ],
-          "ID": "d6878597-b0be-4efb-a6d2-ce431b1e3fe5"
+          "ID": "7f4ebfac-768e-41c9-8b92-7cffacb63352"
         },
         {
           "Condition": {
@@ -75,10 +76,11 @@
               "Type": "error",
               "Duration": 3000,
               "Offset": null,
-              "ShowClose": true
+              "ShowClose": true,
+              "BreakpointIdentity": "1cc07e58-5a6e-4719-91e1-e932b41f7963"
             }
           ],
-          "ID": "dda1d2eb-b93e-41b6-8310-4f9955e2fbb3"
+          "ID": "e73af325-3c5d-4640-b30f-7219ad7b2b74"
         },
         {
           "Condition": {
@@ -103,10 +105,11 @@
               "Type": "warning",
               "Duration": 3000,
               "Offset": null,
-              "ShowClose": true
+              "ShowClose": true,
+              "BreakpointIdentity": "3704cf93-8957-4b86-80ff-627c0fea9142"
             }
           ],
-          "ID": "7b29adac-4840-4c0b-8500-5053e400e593"
+          "ID": "21365411-0d5f-40b2-88dc-c7a7c218cc63"
         },
         {
           "CommandList": [
@@ -119,12 +122,14 @@
               "Type": "info",
               "Duration": 3000,
               "Offset": null,
-              "ShowClose": true
+              "ShowClose": true,
+              "BreakpointIdentity": "53a80fff-390b-4e68-8d20-1d7a40bb7636"
             }
           ],
-          "ID": "8baa024d-0962-4654-b3b6-a418263780d1"
+          "ID": "0126d5b6-4f65-475c-9da5-13cd74e1af79"
         }
-      ]
+      ],
+      "BreakpointIdentity": "9aeb1ce6-ee9c-4cbe-a86b-5fb379afdb5e"
     }
   ]
 }

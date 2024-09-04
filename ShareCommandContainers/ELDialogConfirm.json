@@ -36,7 +36,8 @@
       "CancelButtonText": "取消",
       "ShowClose": false,
       "DialogResult": "IsConfirm",
-      "AdvancedSettings": {}
+      "AdvancedSettings": {},
+      "BreakpointIdentity": "57d8d5f3-d6b4-49fc-8b15-2e0a59257309"
     },
     {
       "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
@@ -48,7 +49,8 @@
             "SerializeProperty": "=IsConfirm"
           }
         }
-      ]
+      ],
+      "BreakpointIdentity": "3db9919b-8ef8-4f6b-a2f1-2354fcf648a5"
     }
   ]
 }

@@ -239,7 +239,8 @@
             "$type": "Forguncy.Model.DownloadFileCommand, ServerDesignerCommon",
             "FileName": "供应商客户导入模板",
             "FileGuid": "3d62c1222da74861b4542fa3581446ab",
-            "FileExtension": ".csv"
+            "FileExtension": ".csv",
+            "BreakpointIdentity": "cc50db88-41a4-4946-a94d-751f5391113c"
           }
         ],
         "ClickMode": 1,
@@ -292,7 +293,8 @@
               "FilePath": "Documents\\example.csv",
               "IsAlert": true,
               "AlertMessage": "CSV文件导入成功！"
-            }
+            },
+            "BreakpointIdentity": "007a16b3-da63-44d5-8640-e48b0dd9c6b8"
           }
         ],
         "Text": "上传数据模板",
@@ -445,10 +447,11 @@
                         "Value": "Fail",
                         "Remark": "通知类型，包括：Success、Fail、Warning、Message"
                       }
-                    ]
+                    ],
+                    "BreakpointIdentity": "a259405f-b5ca-4feb-8886-11af0e90af65"
                   }
                 ],
-                "ID": "20072f4d-d35c-4b95-8cef-8de07da1ad72"
+                "ID": "0dc90fb6-752e-4481-a2f3-84fe4a94deda"
               },
               {
                 "CommandList": [
@@ -464,12 +467,14 @@
                         }
                       }
                     ],
-                    "UpdateRowType": 2
+                    "UpdateRowType": 2,
+                    "BreakpointIdentity": "561a121d-a58a-4d1f-8b60-9934ad5b8a21"
                   },
                   {
                     "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
                     "ListviewName": "表格1",
-                    "UpdateType": 3
+                    "UpdateType": 3,
+                    "BreakpointIdentity": "1058fa03-d8fe-42bd-bddc-bd715e9b8dc9"
                   },
                   {
                     "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
@@ -507,16 +512,19 @@
                           }
                         }
                       }
-                    ]
+                    ],
+                    "BreakpointIdentity": "8ccc18f2-e29c-4730-96b5-ebbe46bfa025"
                   },
                   {
                     "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
-                    "ReloadData": true
+                    "ReloadData": true,
+                    "BreakpointIdentity": "fd6740f2-6e7b-4325-946b-075e92acc3ac"
                   }
                 ],
-                "ID": "d131e274-a080-4cd5-b97b-acea18878823"
+                "ID": "fefa7e07-a93d-410b-8ec8-c1951d47e53d"
               }
-            ]
+            ],
+            "BreakpointIdentity": "99364540-d3ea-4ebe-b25c-8bcccf11398a"
           }
         ],
         "Text": "导入",
@@ -528,7 +536,8 @@
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "BreakpointIdentity": "3eb25875-bfc4-4c05-9919-ae931c74a8c3"
           }
         ],
         "Text": "取消",
@@ -699,4 +708,4 @@
       "Formula": "供应商_客户导入!$AC$2"
     }
   ]
-}//EHJo34MXLhosN0l9qPIUFz5H4XcKNnvBo3tGgBVkRudMbAcEOWanyoXMK/Riq3oi1aA0tzTf9HEO8BcuxARzdOQ/EtR5PKfDQ2qAMSPFsIJMwSViM4G0+hfBizu1FN4Blyw2DwuUwBOqRSyQmdd3vlA4g0P6QsCIM2CeopxSX2UvckOr2Jhji7HNyRbgqJKYklYWXPM2U8KXusGox6J43OErUejFVEh/J7dUBCkgOQMFPtx8o1TFU/QgjYeLG93XY6GO6UkIQJmtQhQE44PtvDk+LW3p7yF5CJ6lVmZYZzuAQVloifevNFukr7HPSZRma17dC+40gtd495n0eHPdjH56Dn0xojb4ryH2A+rCIOswjAPT+hCShkNnj/eoiAn6fSCzOQnxZOoXXeo3tsLx5qT6HEQ4FNup/MJti9Lbe1SsZgJQdaVu7SRGvTXKjRUA9IiZ3j5JrwZB+CwkPPN/CpzVKR/GdbEK25BNxvPUGSNJKaiYbGQ8JFD72seEY9zz7SsfpfnbvwIitrsVSochs3Sr50egXXFVQYeb0JaODRcfK0TzEBp6slHXHnXfa2QsxURui1715zZwDf5/JrGLG77zWYACnbKsa0LXNX1+LZtG7RTt8xsZypGmIc5EMiorbxnq+nxHQ8B+qOt425sUlMYVdrv6t5KwvEJ+qa9B0MO5bPAEToHiw6vb3QdKNQCalk+sGpna9fGKqeqfRFwrdZ7f4rNmAeAfawpSpPDTupDZZ4SKnxsd5XnI7nGzkloY4JSKhpryXIF+eV6LBvAqS+XaCzketQiCDy4iWaqMeK9fSR6ugaZ0+z1iQwhnp6zMq9eeEergFeftJCYVw11I6638YPz2br7CMTp+74VqMhhgkyMaoy2X8pUnSikxfCQANF2+mK37OBhR7SqaAumwjQ==|920
+}//UKFG9sc1NDHpim8ovlSp5WBuikCnlAYHnPHhGuJLqmdDpk2Z72IIgfDauzgeFvkljmR0zYooxasisXE8ejjUOMItC8vsCzGo93LG42+uyltoEla9rtr8s2WmDbnMPL2PlKzX4J4DOCC5SWJGQbJeT43wKy68pb/rZerUJYJwddJ/n7xHuIrGfJoTnmLPb8jmd7MV4/gjgG6Zxc/A8fG5+IoqAcc+pe4do7LitCLWAAk/VWvXYMLYmN3NlSgVKqqZ6I6Xq5X+pSvq7zAtx2D3za8UhZ1JtoyJU24S1uhaSr9whVtoLomFxfmkSKIBwVrAJ5cj3HIM6AAgVQKzzI62CbLjHKGYToZk2VIRif/0EKqaM6TglFGvaSy00RUgYO0CGoMpbc+ORhiM8HU6V29PS1zLSsEmgkRA7eu08Op34BhhR5ehSuozWBQxSzQKJFNyTHHNJMPxQaRq7zi8fYhoMRqpH5sYPqmlwlqNZxoQOsKIp1121P91EGuWjMvTjSFxX7UOXxaRO6xtZ57a3dttkv7nJuIpl/Ws2+iAOjb6niwl7UwZU4FHW9rWN1QwKUERC/w/NJFDUWXkgrPauyOlyoBcaDJW4cZ/aP0VH+C55DI5SF8gQYAsqqRKN5CjKxLnmPiDMQ0wNAmlNWddiSujMpVpQehckCIMbVcyUh0nleFI6oyFaZJV4Q503dWUmWU7HdEkAXOFZ4JMsYpwXCpm693Z9EyN4t45DqvIufdHTnydSSK/e3/95dcrvwB3nCT91tE3c3aSzE/QRLbYev9GkBToCYIQd2WlbknB7CtRoZ4mWaJeZDY6SIvLL0ryjROQZf4+VDElm579cG1l0SiZTtzTd4e47B8We0Uh8MLTdsUtYRRbpqHSOI61u6StfG/7ren5l9D/upmw2Ro8pxTSmw==|920

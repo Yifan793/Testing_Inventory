@@ -196,7 +196,8 @@
         "DoubleClickCommandList": [
           {
             "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
-            "PassValueBack": true
+            "PassValueBack": true,
+            "BreakpointIdentity": "75fef04b-df6f-4f18-b03b-9fbdbc5b5c12"
           }
         ],
         "ShowColumnHeaderInDesigner": true,
@@ -575,4 +576,4 @@
       "Formula": "供应商_客户选择页!$AG$2"
     }
   ]
-}//JorYAJ99SBGwejaUYITa7AdaxUkBeVdWOTcdcPSDQtWoPF2Vhub9FB40LocYs/Tcklf9BrEtvqreWFG7AB4WxlJZ+JFQ1bRVkMUWpZR6pDuFMn7CA9Sxj9q/ZmEmU4gLeA6Cf6rbYBZH/TqnSxT1i19MO2mbM9rwUCQBz642wLSj3jAc7IKRJ46EVQJSelkqFAelPkyVG3JY6JHJHZQp2qFM+FWzuA5VvV+DEctf/SPDvCIFD4xDLKibnzuon+MNQOtdKEY17nx4GO/wQebpxQIWFu1BYeBhWeZCsfnJZ8szt7PjmidSO9SZkEDUZW3Cc3cb2k8qirDmYLdy2OIGewn/LC8opZvDwAWPNC80XJWXBjM37H0pXtSz6Gnp7jkVTgn+xEDn/0nC4Xia/j8v35+xkNqG7AVztlNeW3DwYVRw7ECwORaGKHwaZI+kokAP9ZWTkWGRFWGW+B2mFBlUMivGAwj7q2PH6pm2Gv6OXl+gQk40Hugetzz2izywykV/i6mA3+7SF18Q4I0TVOMbts7GXE8jdHEig2Kku5IfWF42B/3RWMeBnf+9SLC9l9nsXkSVDHVGgl7qmR5cVoakz2xEoqcDdSO/hZqlRdJIjErYck+VPXwzxgXDaBMLHwAWlR14z1iE1VC7byNAt4se1nDPLB4nEB+r6fkd361oqXHmL6HO22mHx1V1RmcQLqXfU/Go+p0hg0heXm6r686L/B/4tkVfhdY7hsLJ/N2nrFqaPbUd21M7jQsxOnbKlXB2l6Z6Mnngc5zCOi9qwsxmQ7KPCy5caswJCLh0oo3CyeWZRxKunHnbuXOwf7rEDB0ILAVh9UwmcvgIVzVH3Jeo/J8ETP31NnF2K+/1OULxqfQpVG2dR1f8EHh++jOj0Sol46eFa4P15UshcIyjvqdZVQ==|920
+}//fXvFArCDhBf63Lgv0HrjBZIXHhHn6FNP3Znw10KO+VFecAd/YDrSPw+8IxXHeUXULi9CGIfc83SMZg8kWzqSZIwu/UbmwVEMBTEaIAV6miJm/l6GkxwW9Kk9sIwAKrPMQNBnzgEvd4gczuYDgv+39aCRIpdoHPeLblYXn0aqgaP0ZSAG2ZnhZ54e10sBwTkEuogK2EMJpRa5AJGWmLlDSXnaEBwCsWIytmVCZ0/Slf2TjTppZ/kk5U93BgwMtQjFMNNchCgopX7Us3D34j75TZiK+K9pGlAVk0KeixDHl4aYP7k3BRts1YJeHt9b9QKB6Z4/DP5Oy+ElWAiZsWUdDLGkcVJ1mhNuBccW9hbDAfkmXo+KLWQ8BoJO/pJ62Qew38HTfithfLlsJIOGoMHFZLdsAfxip1MdEOm1z8ueGAJNiNgwpM3AaDywHvKWJ55vfU8YLWXXxDNffXE/zvS+apOecMBSj/OWjQbKePmWlCw99D6JIepLrx3qdAGFeLnvnRrk1vkSUv+xbHfKhIv0bBXvpXbtzlhCOsX7JxxfkB/3PUHUvymLidyWBCa1r/nrb87/F0SrYsqyydTLM4W7GBGnrrwAnRHGT+0FetgfZPlivfkRSoxoq+t+UBqCQeXUb4QsuP+aDl+XbuBniwCk7LDlJhvJNxsJ+IY6MhSA69S4Upa30MYK2CJwCluwTpg69VysYaHCy7GKVqtzRzj2LQcU4reymTDdyLT5Yskr4Au1sWjGypzMWKCoyMSneod5rvwXZueqXlXy+d8WOEKVtpyY2YMLZv/QBmMy9Cd1EoizK8xczmV/QL94sUumGL2T9EW/jpr8o+BQTwfeTc294N4OKbd4nCSjh8wVC8fCYsPtTm7KiAv2pZhZv0ib3nmbNPkeFrkSrcWZ4t69bestGw==|920

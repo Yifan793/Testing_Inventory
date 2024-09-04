@@ -38,10 +38,11 @@
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                "PageName": "采购首页"
+                "PageName": "采购首页",
+                "BreakpointIdentity": "9c7ccf90-8647-4de9-905b-e3bcdd594e4c"
               }
             ],
-            "ID": "2131dbce-f261-44ac-bc3a-f015925f6536"
+            "ID": "7cc4d361-70ba-4459-b6e8-3350cc0b5690"
           },
           {
             "Condition": {
@@ -58,10 +59,11 @@
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                "PageName": "销售首页"
+                "PageName": "销售首页",
+                "BreakpointIdentity": "29f04aa0-2191-4486-87c0-3700f2ed71be"
               }
             ],
-            "ID": "d0ba3834-a170-4752-a65c-bfcb23a31d5a"
+            "ID": "5bdf0773-d6a9-41fd-a8db-ce81e10ca696"
           },
           {
             "Condition": {
@@ -78,22 +80,25 @@
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                "PageName": "库存首页"
+                "PageName": "库存首页",
+                "BreakpointIdentity": "27c12a17-1f08-4024-95d8-0735ac950ff3"
               }
             ],
-            "ID": "248ba329-f22f-43b0-b43e-f74d24167c5d"
+            "ID": "a48a4a4b-af32-4747-8b43-19b994d534ea"
           },
           {
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
                 "PageName": "帮助手册",
-                "Comments": ""
+                "Comments": "",
+                "BreakpointIdentity": "b1eab1d5-a974-4a2f-8ee2-77f96e578cad"
               }
             ],
-            "ID": "45d588c6-1044-48b1-bcca-0dde4cfd6175"
+            "ID": "bc54cdc6-dfef-441e-8ead-654f93163ed4"
           }
-        ]
+        ],
+        "BreakpointIdentity": "af7accbf-9bd6-4636-b552-ce3234785b8b"
       }
     ],
     "PermissionData": {
@@ -117,4 +122,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//51rzXGZwZ7+5dWQ/WyRAbC3r4hGVdcKPdx8bSRl4iw/9GpjWUtX0YeAwuXOkfzrlWHOFITdYPg0gJw1G+f6mtHX8pjHi5xJRQJsB5WU5WqNcKpSs9q1GEr8Hkv3Y1mt1RegfvWrDLu+/AIXrjppQyXzsHTOZRoofV/Po+Quq+W0cfrDMbxjUdwQQZbRnSyvwvZnWLpgcgBp0OXM041jpWt5IGuFN3l4JlocaUzsE9prktBKPA3i8I4iLXDkh4iaOrpUHA9kZegN3hF86IahywP6OzYaU1B9WuZpWJzn+qm1Mddczq5NLgUtBcl7lw6FzF4ar8UwK1Ow9lczGCoo0Z71/LlCAyZxHyqPNqS5pLI7T7GXNs3GMVZnGwuFExRkDoiYFoz9OYEFBP07a1gIQ7bXIV1XJYwxhhBpUX13fkUbBvsRTL6hcNIAjQv2GNhIvROteHrRxsgdXjju+W4f6QH8XqscnDKjr1AjtizAHNyJVPOowcAsL2aRQXVfpZlq228xjNYSdk7iuVGT6hwCQeQFIDXlzsGj/+2ZxTVeOlOT3E73B7AKO6kIPj66EsKjdaxRPKkSLWsPNXWcWkpdo1hGeL+kUn7RZ9XzlrYMSTozR4z6KKQ7hdWctcpEd8GXKkEdxcLLlRRvXhfL7ZbNp0xO+uOCC8JQ+d3C4rmSqMqQYiBj1tqRtlKYXkoIT/rWhemjAA8ko/5Q4ynm74ew9N1B9LC1paAQUxWpgWDxM37O41shmJKwEmHG8FMkXUCASEKVMPCalcqKfrCGXZm3O39GTrhDGzss8bF/L4+c+c2wHoNsHeb2XisDtaHviujY6N9W1K04T0//yyQZkZUNCjuOaENCjpUOX5Whlr7JmmMfXpmfvR5UJKgkE3VCO1lJB4LzBrr5AOuoDmFITXxhcXA==|920
+}//BocklDWOr/hta+jQHA4wj6LKNmQ2+vlC27oy18/ft9pOkwqoheZyKmXvXlhJfPIGnLryDzoSDdkTYboKJMrUrsFB2Gkh/lF8LhLYKOYAVLef5+3zHrOLXANWivTOh0Pb04sFxB2Xy46bhqOmHRVguLFLgf5TjX7b2JPvPlAXtc5Gk0CMfJldWzGvNlvMPPz+qX/RZpccEfn/CptBkljuGgLWssbiqa+oiOoFsmzmIUnrTcH5sk0+NJPvwFuQu6m0tVCE4vEMT4rw77LoNf3o2zB90grHGYso2g4gaST1ay9stcBMfw69bGD883YWZUdSOinqiOBUhV3EbOVcKnhRy/Qa7vo1wwNhtEE4HMUMVX/RnVzCA8PVa7CXbSeJvH2uoHlTbKL2WqdRklDZB28H124/NOSCWPzLrOECQXPFQtub5xp0jaZkKI418zmQEUUxQn+P0Cabe7YBI8fYB1mxXlHPjeXM1ZDpH58yKHDVtH0JfJwC6v8mV8PmmOBOx8lkEP6zEkaOm11sbAoPm91tiIp0bY9TliJg67OYu34KfR0lBgifaVqBNVdNWfZfZP1tbBH+uHC+2FXUB7PTRjQdIdmCrZ184NuTvFcqGYV9uxpOGW+uglGTdUWfTvNWrZ8t4bpk5UufGoAnxjPU9FtM7zBcHqxqOAM8r1ZdUmGQR6BHVSKtJyWaIwo+bst7UWfScJCToc2BA24vxJaHvwBHn3sKThTcUr/sPHEL/wXo3fzE233cGCPToxrgLleqqHRxqFyZzU7ycsbO/mJx6zoZZnkXD6ssWr3E3VhqUt8Uw0qc0REwXKBiTbCvXKAC1R79ny+r88DerKiWVtQdYWm+SByq33YOuOqx9zdfjQiPrT6VSe9I4V+pN8kJPrhCYjkMRpxaHih1q4LDzmC8GEcwsg==|920

@@ -1,1 +1,6 @@
-{"DefaultListViewStyleName":"_RS_NewFashionListStyle1","DefaultCellTypeStyleNames":{"Forguncy.ProcessPanelCellTypeStyleTemplateSupportAttribute":"一般"}}
+{
+  "DefaultListViewStyleName": "_RS_NewFashionListStyle1",
+  "DefaultCellTypeStyleNames": {
+    "Forguncy.ProcessPanelCellTypeStyleTemplateSupportAttribute": "一般"
+  }
+}

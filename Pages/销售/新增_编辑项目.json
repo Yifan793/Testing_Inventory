@@ -158,12 +158,14 @@
                   {
                     "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
                     "ErrorCode": "1",
-                    "Message": "项目名称不能为空！"
+                    "Message": "项目名称不能为空！",
+                    "BreakpointIdentity": "9698e5f6-c026-4a88-9f6a-f1cfc1fb4afd"
                   }
                 ],
-                "ID": "65e228e8-32fa-44f6-bb89-e5927a4d3eb1"
+                "ID": "bff5cfc6-5413-4684-bde6-2e15d0294b23"
               }
-            ]
+            ],
+            "BreakpointIdentity": "7664ecbd-4d86-4023-a1b6-d1e95d797685"
           },
           {
             "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
@@ -182,7 +184,8 @@
                 }
               ]
             },
-            "ID": "2487f5e8eea44d23ae67acb6ab5f8d43"
+            "ID": "2487f5e8eea44d23ae67acb6ab5f8d43",
+            "BreakpointIdentity": "3add7c55-5699-465c-9b56-e979d67d99a3"
           },
           {
             "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
@@ -215,7 +218,8 @@
                 }
               }
             },
-            "ID": "aacdeea60ea449029c835ac1d704f49d"
+            "ID": "aacdeea60ea449029c835ac1d704f49d",
+            "BreakpointIdentity": "4ed1df33-5571-4463-9d8a-ba19925c9984"
           },
           {
             "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
@@ -272,24 +276,28 @@
                       {
                         "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
                         "ErrorCode": "2",
-                        "Message": "项目名称不能重复！"
+                        "Message": "项目名称不能重复！",
+                        "BreakpointIdentity": "a283345d-1eb0-435f-94d2-84eac852e58f"
                       }
                     ],
-                    "ID": "2d0600a9-0537-4508-a30f-bd40a907efc5"
+                    "ID": "fbaba99e-aebb-4c59-9ee7-257c4d7985c9"
                   },
                   {
                     "CommandList": [
                       {
                         "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
                         "ErrorCode": "0",
-                        "Message": "名称正确"
+                        "Message": "名称正确",
+                        "BreakpointIdentity": "016b0d70-83a0-4c2e-9a09-c259061c9d36"
                       }
                     ],
-                    "ID": "8fd27075-28b9-43fb-8e0d-ef6b5ff7bfae"
+                    "ID": "f764dc76-b8ff-4480-82f8-17ad35c7bb22"
                   }
-                ]
+                ],
+                "BreakpointIdentity": "466ce699-95e4-49a9-92e7-d743b0fea654"
               }
-            ]
+            ],
+            "BreakpointIdentity": "9fd94143-6616-438f-bcb1-dc7d4b274df8"
           }
         ],
         "ErrorMessage": "项目名称不能为空！",
@@ -338,12 +346,14 @@
               }
             ],
             "RefreshAfterFinish": true,
-            "CheckDataValidation": true
+            "CheckDataValidation": true,
+            "BreakpointIdentity": "9a018cde-b598-4b59-bcde-197d702b2270"
           },
           {
             "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
             "PassValueBack": true,
-            "ReloadData": true
+            "ReloadData": true,
+            "BreakpointIdentity": "3bd8ebc9-2300-4635-93af-dff818e2139d"
           }
         ],
         "Text": "保存",
@@ -414,4 +424,4 @@
       "Formula": "新增_编辑项目!$C$6"
     }
   ]
-}//I00yqXKhW+gGV4lROLP1OoiGZGAB6p8fvgIreqkkTLZbFoCW0OETOHDFBiQg/ToebzSHVdm0fpFpH06YFPHFSR6PP1v/rC4nnsOecCnL9HJ2iZOheEbW+prsA75qWZfRRNoRsLZHZ02Ymy364N6BicUSk3WcrjzhN6wK/bES2Chzel67UTb4YuBFvm1H2Jfgl+4NutKdPUVe/tBFTNx6TUct5iPptRs3WeLF0J6+bLUBT6CkTnKsz+joDxmTsAJKcT5YeeT5P0CWyVlvpqinC3xaJP5CWepnxf24lqpE2fN6WQHsmRCNHdli3z1M3OleDbPlHFg8zICenXBr06WoyTCDFY2oNrpSemBqE443wrPYWs8rEab1L4Z4y7VTb6AsG6aMLDiKqAmKpa57I7SHH5L5rzFGGvMxoTurY3u82Lvi0Tw6FVTQ4DiPNnz+iaPnLbd/IE2LXRcROS73xnMLLciBdgFKaNXugUzG2auCtCn0RX5CkaJWrsEbnbPW8IeJa1wzsSBXRLJvkWRQ8ExFhU8LLv1x64EpsMMRMhGf9HXb5NHiyvowpI6kJJsX8CSnV1cGTb7T5T4YGSjrc/pPo/Ks7R6QLvZ34LEFAPDf8sggLlKuO8WDSr5GuQc42cmecciw2g/NUVncigXN7VEFFi2z8XKM1t3p0bPMEMkXsTHk9SqZfPN+Pj/GBNjwGEzOMCshwG1WzRyW7oP/pMT0edelpXlle+xy8sVjlQ0rjDSp9RK4ivkPcfgq8JzrRB3QUlmEnCZV7F+RgI1N7Cs/cKZTypcX8dAmPdF2YjVd1e49YnCRgCkBW19yels+EnhJ62XfnpziqpenZkKcuuGT0iNt5MWwOOX5z9C3ElrT75/Wta/dg2KGq8vzc0GSaVBQB1yvJ0dxoZIxQ1yIzTFsMw==|920
+}//uuEcec3aeZjUXfeTiWEAAVKj8V/pWAqMj4TG5sVUrxSVeppyuDYHqQYTjRQaamXHwK1qff4bEaVZqQIe/UUHj8I40f5LdN/7y6KGUFsfAbwABYlfJ/XuhRSfQQX+/NSOaGNUK5zxdLAKJ/5+H/CeHPkkMDomG1iA5m1aVSGivthyEHlaG/mc6LGgU/NgrWMh6CjeBXMXEUjrmRPGPwgL9gqHU8td3tstf74at1R13EWnSvLX1OTJy2WLfR51ybHNOdscRG23uroMmYZUo4rsiSsvY+1BEXuo2V3nO3lUW9ofVu3atNBLqXGwVrj2SWo4VPlnLsDua9VO5P6KfMzDNFirTIpIJ86hrDGDI2GeikVl7oQnoIPVaYQ4BTNx9ffeXdasLDNU7Gsr85PDgPTxdVp/X5Yp+aPtdQwaICxWe++hiAeE2cpwg7JNTV0NmS+Yr9gIhiCC7PDguSJAX3oJroaHwfeL2WczeBkyoP6LWonvF2Z7jn6z/CPBqeBlngGRFQnFUF8ScaP7gmy9/2FqxgOmHWaegZCFehSx1E+7RahK4mVRUri+PMBW+rxzgKv+mXUoWRsWpsH+HzfxXG2LnIj5UuO3h1AevBYIz/LnUMhq/lQ8mjOTfnGj/VWZTO8slRb61Y84pYV4hA1CShb7iN9Srjg2NcaHrd8mhBE1pbE4ZFYNvaNgFbJlEy1TFbVipMNEhvY9+m3THbOYkFZhHB9ENUKT79XdYnGBI49GjE+UvJHWspb479tSP8by96HbqrSlyAlv6Tp42e6ihtSrukI1YAxpwCRACOGG1TRi3NUHPnUyI7WF+fF5D3KIOKmc51FA5iMfJEEtHIaqz13O3I8FUmi3KOVQ5xOWzTPen9uPNaXhlJaKNVOrOGLMo5itmAWIfosX2J3wLuV9UJiN7A==|920

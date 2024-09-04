@@ -1265,7 +1265,8 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
-            "PageName": "FGC_任务详情"
+            "PageName": "FGC_任务详情",
+            "BreakpointIdentity": "0709371a-4822-4206-8b89-7c3323cfc8e4"
           }
         ],
         "TemplateKey": "_RS_Mini",
@@ -1648,4 +1649,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//P6kLdhPT6gyq1K3xVAqs05PgMPh5VxH0aHY2kXKEAcjxEsHRB0ROozWRBKxoZLXbiq0U/nU0w1H6wI84/yHQny9I+CcQ3fLZ1AGf1fv9W+tVBwcTQY9G1wFMbrh40EmgOhjxfGij9GzwIT15Rq4b/hbVJxUmTpP7ttsabSKGssZ0ltFSmqL0D4C1pTT5xjMSi5i+hGeAY1bxDprJY4wZfnnURm6h4Pc+pN+ZkDNka4+UgDPkWP317QVV1AGrjwZsBuHt8GycAJ3b8qyDWks9aeu2kgWGtXk/Aiuwihmrd3cj8KZe3gesVsYZq8WisBZ0wk5+ekcO28ziRZlcZ+VNzKaZsfdJ+BdNRBvQmgVsMns6YvgvpF9GsTVC5f19EQU/trsy/fhaYXV7S+RJOqMH+6pqzjdjbAu77myB0M9ToaUgZzo1X5Usx5uZvuT5Fq0FIkd4QAjeYgsMY7k1A5aVJYKu/4u3ZCYdJEtmFevMD0ULiyH+NgaoZUjKG4r/EQZBbTyRGNtuUeDPjQ2qiz81jHdpIHtReWQqBcpQQDfbCyNZ/hwlzUFF3ARpEKHn3P/TLp6tQH/V49OOYDaQUW4QQZNn2gM6ydyBLqCGFGA9rqjNxffFJTN/fbwvoL+brKZ2Ps+q7l30QyGFo/xN6F0RLg1N0h4FnQEQxLA0mgAZa4vZY/pUBrC+E85tpTS3CF/P0wPoKp5NezGf8Oz1/78gTxsARPdrT1GWA0DPKHV/+zXPEAlmY9j3ZMur6adnVpHsG1cubbLniX4DHxO8JqU6JqCughtw/8fl+amvYJAyLj0u5HMzVwJSMZ4k52khOOb0ahMgAVWBNj83/fhBnLtz0L2miaiw3fav/vMQ4l/a4LozVJtZihH4Ps7BAUgtMChrNNLxWMoQhodIpsHeQ7xRuQ==|920
+}//IwpNxF6iy5IhcuJqDYZXrZGq0XUgWZHCjitRThIcD9mpxrWAVTHDXUFZsUxdTcuijQMRlof5Wl2g1M6fC0vfNsFoOX2yq6X9dhI45//Pa5/LW3LyrjqBVx+ojGVtMXSU4fUR2YtmYeLxUuEeoYvGyJuFNpg285qVg4oervnZ9sHVaeWkpFOCxKU4211hvU7so0OOVrG6YIOiTHLmIiIDo+fzyHtTCmK8Z0oxg0naPbfTL4D9EmFv1o0zxbUODBHZCzj8ysU7qbmKB7mmOU+hf+JvORGbjQVnw08Sj6f+ZeJwA91azmgfOeKqUvNYPO94kR2uN1CZPJJX4dMpFqqTzGadkaZqzJFJUvuI0Q98LTgr5CnHrXgQNbhpy6GAPKJX4RhJdlx4FamlyGiiJBxaGlqF06WPoJ6lokfyaGk+7HBd52GWczEJ0P9P6WiFg1hwhkJ8mnIr8HAxOWKsyRRHzvml7/Qs3Fe/IdnpHa4MsItCdHJPM3LSuz+Sx9/N5avAvjyuvZe5aIyFL/gqrri1yPnbLKPKY85l7PBBf6ZEOUgeLTZw68rS9bHnKSL1eBjjYG17e9YKw2jykUugH31dwtmctc3J9LfxCEXIKGcw4dkPbXAA0OgP9Au6xRNxNyBh/GepivFQQf0wK+46ycoP6+8oeQMI8CY4QnnBjYkPRRLnReGLBBbhmNG/m5T1fbaNAy4MwE8iRZ6BO5OyL3YyIDE0J42nC9a7edDqYRr5D4caHiwNBsbZUfOG+FPwxuK7zDpQ1F1BhEPwKRf9Hknd4En5hH69lyF385WRTGgm/6zNLecdUj2Elsh3OWE9jgSTNYNXOJ1ZHzMkuj8GhcBynEquqH1j0Jp6J14jmXju/XaDgMD/VmeO7NofjeLmdBZ/d8i5o5JG/7/mPSDJOs0mkA==|920

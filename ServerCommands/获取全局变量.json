@@ -1,152 +1,188 @@
 {
+  "$type": "Forguncy.SaveLoad.ServerCommandSaveData, ServerDesignerCommon",
   "Name": "获取全局变量",
   "Enabled": true,
-  "Triggers": [
-    {
-      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
-      "Permission": {
-        "PermissionData": {
-          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
-          "permissionResource": {
-            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
-          },
-          "permissionBindings": [
-            {
-              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
-              "roleNames": [
-                "FGC_LoginUser"
+  "Triggers": {
+    "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.TriggerSaveDataBase, ServerDesignerCommon]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+        "Permission": {
+          "$type": "Forguncy.SaveLoad.ServerCommandPermissionSaveData, ServerDesignerCommon",
+          "PermissionData": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+            "permissionResource": {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+            },
+            "permissionBindings": {
+              "$type": "System.Collections.Generic.List`1[[Forguncy.RbacPermission.Core.Impl.ServerCommand.IServerCommandPermissionBinding, Forguncy.RbacPermission.Core]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+                  "roleNames": {
+                    "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                    "$values": [
+                      "FGC_LoginUser"
+                    ]
+                  }
+                }
               ]
+            }
+          }
+        },
+        "Parameters": {
+          "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "全局变量1的值",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "全局变量40的值",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
             }
           ]
         }
-      },
-      "Parameters": [
-        {
-          "Name": "全局变量1的值",
-          "DataValidationInfo": {}
-        },
-        {
-          "Name": "全局变量40的值",
-          "DataValidationInfo": {}
-        }
-      ]
-    }
-  ],
-  "Commands": [
-    {
-      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
-      "ParameterName": "test_25",
-      "ParameterValue": {
-        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-        "SerializeProperty": "=全局变量25"
-      },
-      "ID": "9fe59e6eca3b474ea0b625bbf5163dae"
-    },
-    {
-      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
-      "ParameterName": "test_1",
-      "ParameterValue": {
-        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-        "SerializeProperty": "=全局变量1"
-      },
-      "ID": "c805137c224244fd9459b65e6148adc5"
-    },
-    {
-      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
-      "ParameterName": "test_2",
-      "ParameterValue": {
-        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-        "SerializeProperty": "=全局变量2"
-      },
-      "ID": "0795dc33d6724bb3a100bea01d26d2b7"
-    },
-    {
-      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
-      "ParameterName": "test_3",
-      "ParameterValue": {
-        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-        "SerializeProperty": "=全局变量3"
-      },
-      "ID": "42cc212f261e4319b514a12f0c556e0c"
-    },
-    {
-      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
-      "ParameterName": "test_14",
-      "ParameterValue": {
-        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-        "SerializeProperty": "=全局变量14"
-      },
-      "ID": "52928ae8140948baa50e51d899b4b189"
-    },
-    {
-      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
-      "ParameterName": "test_15",
-      "ParameterValue": {
-        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-        "SerializeProperty": "=全局变量15"
-      },
-      "ID": "bdd6a403b84a4082af6ab8b89163a095"
-    },
-    {
-      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
-      "ParameterName": "test_16",
-      "ParameterValue": {
-        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-        "SerializeProperty": "=全局变量16"
-      },
-      "ID": "9aaf4ab92ee841d5974299cd4735aa4a"
-    },
-    {
-      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
-      "ParameterName": "test_7",
-      "ParameterValue": {
-        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-        "SerializeProperty": "=全局变量7"
-      },
-      "ID": "951aee48318741c980de762ec1a57870"
-    },
-    {
-      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
-      "ParameterName": "test_8",
-      "ParameterValue": {
-        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-        "SerializeProperty": "=全局变量8"
-      },
-      "ID": "695205ef98e64e969a86c585b580550d"
-    },
-    {
-      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
-      "ParameterName": "test_9",
-      "ParameterValue": {
-        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-        "SerializeProperty": "=全局变量9"
-      },
-      "ID": "fc0895466d5b43619dddc14544ab11ea"
-    },
-    {
-      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
-      "ParameterName": "test_32",
-      "ParameterValue": {
-        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-        "SerializeProperty": "=全局变量32"
-      },
-      "ID": "a98b1996f6ff460dbd78a662be9048b1"
-    },
-    {
-      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
-      "ParameterName": "test_40",
-      "ParameterValue": {
-        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-        "SerializeProperty": "=全局变量40"
-      },
-      "ID": "2206baeaee884234bb811f97446c6720"
-    },
-    {
-      "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
-      "Message": {
-        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-        "SerializeProperty": "=test_8"
       }
-    }
-  ]
+    ]
+  },
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "test_25",
+        "ParameterValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=全局变量25"
+        },
+        "ID": "9fe59e6eca3b474ea0b625bbf5163dae",
+        "BreakpointIdentity": "97520d43-a07b-4f79-9d40-009553e9b473"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "test_1",
+        "ParameterValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=全局变量1"
+        },
+        "ID": "c805137c224244fd9459b65e6148adc5",
+        "BreakpointIdentity": "9a7d6dc4-b12a-4803-b5dd-4b0d17ecf382"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "test_2",
+        "ParameterValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=全局变量2"
+        },
+        "ID": "0795dc33d6724bb3a100bea01d26d2b7",
+        "BreakpointIdentity": "1d596541-de78-480c-a259-1fe7c78dd3f8"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "test_3",
+        "ParameterValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=全局变量3"
+        },
+        "ID": "42cc212f261e4319b514a12f0c556e0c",
+        "BreakpointIdentity": "95a3c5e1-4fa5-4dd6-b7cc-e2cd3b8dd86d"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "test_14",
+        "ParameterValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=全局变量14"
+        },
+        "ID": "52928ae8140948baa50e51d899b4b189",
+        "BreakpointIdentity": "a3c72c95-5d51-49d1-a6db-a0c716482d21"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "test_15",
+        "ParameterValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=全局变量15"
+        },
+        "ID": "bdd6a403b84a4082af6ab8b89163a095",
+        "BreakpointIdentity": "da5aa431-34f9-447e-8611-7209b2fc2c5a"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "test_16",
+        "ParameterValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=全局变量16"
+        },
+        "ID": "9aaf4ab92ee841d5974299cd4735aa4a",
+        "BreakpointIdentity": "186c423b-3cf4-4410-a82e-242b82f5283e"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "test_7",
+        "ParameterValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=全局变量7"
+        },
+        "ID": "951aee48318741c980de762ec1a57870",
+        "BreakpointIdentity": "ad517eee-e5a9-48f3-b61c-8016b99345b8"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "test_8",
+        "ParameterValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=全局变量8"
+        },
+        "ID": "695205ef98e64e969a86c585b580550d",
+        "BreakpointIdentity": "e5a3fc83-b530-4317-9f86-52eae28c4e42"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "test_9",
+        "ParameterValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=全局变量9"
+        },
+        "ID": "fc0895466d5b43619dddc14544ab11ea",
+        "BreakpointIdentity": "41bc5ba7-95dd-452f-810d-51d960e50fb1"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "test_32",
+        "ParameterValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=全局变量32"
+        },
+        "ID": "a98b1996f6ff460dbd78a662be9048b1",
+        "BreakpointIdentity": "79f935db-78bf-48d0-ad1a-9dc30f1c554d"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "test_40",
+        "ParameterValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=全局变量40"
+        },
+        "ID": "2206baeaee884234bb811f97446c6720",
+        "BreakpointIdentity": "146d7fd7-165d-41fd-888c-f41fa501e9f9"
+      },
+      {
+        "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+        "Message": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=test_8"
+        },
+        "BreakpointIdentity": "2aa24e6a-af0f-4108-8c02-dee32d8c5c85"
+      }
+    ]
+  }
 }

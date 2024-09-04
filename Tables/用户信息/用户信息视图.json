@@ -110,7 +110,7 @@
   "BuiltInViewInfo": {
     "ViewName": "用户信息视图",
     "SourceTableName": "FGC_UserInfoTable",
-    "CreateViewSql": "SELECT [FGC_UserName] AS [用户名], [FGC_FullName] AS [全名], [FGC_Email] AS [邮件], [FGC_IsEnabled] AS [有效], [FGC_Role] AS [角色], [FGC_OrganizationSuperior] AS [组织上级], [手机] AS [手机], [头像] AS [头像], [上司] AS [上司], [中文名] AS [中文名], [Text] AS [Text], [User] AS [User], [公司] AS [公司], [部门] AS [部门], [小组] AS [小组] FROM [FGC_UserInfoTable]",
+    "CreateViewSql": "SELECT s.[FGC_UserName] AS [用户名], s.[FGC_FullName] AS [全名], s.[FGC_Email] AS [邮件], s.[FGC_IsEnabled] AS [有效], [sc01].[Text] AS [角色], [sc11].[Text] AS [组织上级], s.[手机] AS [手机], s.[头像] AS [头像], s.[上司] AS [上司], s.[中文名] AS [中文名], s.[Text] AS [Text], s.[User] AS [User], s.[公司] AS [公司], s.[部门] AS [部门], s.[小组] AS [小组] FROM [FGC_UserInfoTable] s LEFT JOIN [FGC_UMV_SC_E3B01A2B6AECA5DA98] [sc01] ON s.[FGC_Role] = [sc01].ID LEFT JOIN [FGC_UMV_SC_E3B01A2B6AECA5DA98] [sc11] ON s.[FGC_OrganizationSuperior] = [sc11].ID",
     "ViewType": 1
   },
   "PrimaryKey": [

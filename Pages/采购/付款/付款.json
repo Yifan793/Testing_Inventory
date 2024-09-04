@@ -377,7 +377,8 @@
               "SerializeProperty": "ReturnMessage"
             },
             "RefreshAfterFinish": true,
-            "CheckDataValidation": true
+            "CheckDataValidation": true,
+            "BreakpointIdentity": "af610e59-1cf9-4bfd-854b-6dc94a48aae9"
           },
           {
             "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -436,10 +437,11 @@
                         "Value": "Fail",
                         "Remark": "通知类型，包括：Success、Fail、Warning、Message"
                       }
-                    ]
+                    ],
+                    "BreakpointIdentity": "f80d8d1d-7919-4d80-bbef-36a6c05d05fb"
                   }
                 ],
-                "ID": "1cd1fb92-10d8-4dc2-b66e-eb3b2979ed20"
+                "ID": "bc38d80b-47df-4925-a567-18046f741893"
               },
               {
                 "CommandList": [
@@ -479,16 +481,19 @@
                           }
                         }
                       }
-                    ]
+                    ],
+                    "BreakpointIdentity": "9dad2b0d-0e89-4531-bee8-ab983e2cde4b"
                   },
                   {
                     "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
-                    "ReloadData": true
+                    "ReloadData": true,
+                    "BreakpointIdentity": "33ebdd4e-a65f-4821-b462-dae9c8e3f86c"
                   }
                 ],
-                "ID": "3c5fdb50-f490-41b6-8a28-8b89e39996ba"
+                "ID": "0cee7403-4826-4d94-9b14-e8b020cf45a1"
               }
-            ]
+            ],
+            "BreakpointIdentity": "c366f59e-0453-4e03-907a-609d4627e04f"
           }
         ],
         "Text": "保存",
@@ -503,7 +508,8 @@
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "BreakpointIdentity": "43793b56-13d5-4bce-ac96-a62e6da3c338"
           }
         ],
         "Text": "取消",
@@ -1004,4 +1010,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//dAhfMH2DEG1cYIzim2uQ080vIx9EbVJu2xYYvd6TdjzKVIuvMsiI7Z0MyMH60PF+BD5L6AJejEIGObwXZZfEErXgv4HXFzhYVRFoTk/EvgiQEkiXy5TpN4r+UM/9Lz7uzGcbvs07jdM5HQHLSOtew7n5wZOtAw0xWCVU+JRpMMgzbInPWVh4nH7iGEyDKgqYOirLFimjMB2Y/1VmT2bxZFrb2kolnrmx5tbKNZ+jyES0vEdVwnVfmoiMRZRMHgfVn24cJGR7tNzuzp3NBl2kgtbGsRytXXFmVNuKv3wfjIhj6x9Rwe5nUF4XQN+Suj1+PRkMHyABcG1W3egIw1ijwxiAM93MUChZfXmAJcbnUwx0OZGEop/McVM2D4bbKxI/5p9canfVkTd82mtzyJLOSjVssmwkgnfQzeZC3i/Xfy05AI/zYfK2uJQciuq11UIpdmxdEJsh52PSJ/hOWHKTPYqFPmCG2GcnUV44ESrjbbKN0sr6Wikgi+msTFomWJr01faQ0chsCi7JBigm5dWauqxjAz12FMVfloSv5X3x1nlgSli668gdWzN1tDA4py1V+fg3VkgfSUtFyEdn6tSuTt3CZ1V7BhWojY9oh8N4qk9iRansm/KloadGIsa56kN7XSQsgOBQGGQWmHlXB9W4HDHYD2PyLXtujHhyHG2KLHxMAhYOz12VBt5AISo6XxGnxZrgQ2f53hNpp5nQ5yB4d/wcW5h4DPSSYznRFusbi0XXxTTTLxY+uQns0N4GXmbXUBpvgOCkQbR1vDbN0eanHuRuS34smbV57vciDTkbtJmaQwrDERzT5GCPNLWLPIiJYKMh5oUnrOK5KN3s5K/f8vf/XrSDMqZI2J6EDOLCIP4rxIUBZRJjUH7Wk1/7Sle9dv6Ho/lvy6yLWfDzaYp7qg==|920
+}//1GI9jwXQEARz/I5alsRfXZ9Z4QJAsD8nrRz79edkS0DHjzb86Lgmg3u5pFjgACZV7h6MNnXDZrwlwqb2FaHqwXu/O+YXq75Gh8+s93ZeYYJhOj7wLlV8bzTJWkYgg2MOfz2r8poieOQL5oU1CXM2u2615E3hSKWerWrgYbff/G0XEHkego7gLd8ReAr2eHTtkDX74Vx9zBCK0DRQ9M912oFRMHCCjnhMtnfxAkK3YKM7PXRXg0ZQCj38krRpH5oooJQfIZ6ew58dj/nWALZjSm5JWvQFKsCgq/wJK4iZn/qB5/Eh7a6iSbGt5cmRnaLE/j2e5Y0NZVQE8iRBE7NJJgnvl7LrxE8VejcdPmgCmFMWfgvrXzwOMjyreoJz+bMf2kJHWzaCHLwT72K+NhMXdhWFKQu9NczRO2rKdO/yjIwqxD1iLXwTkcg3tTFRRbvSNEmWm8niZx6+vDhT7LC9JZpHamax56iKu/rQjRsIyx5vflmYQ3WJYX6T5bIzAsb7R5pQwepJYcjGZx8HWbXKir933Vz+ppyvZs+6jco7AuJrJDIveLDtf/PdUXYNGt7KjcQ5p5oNAIqZs/zToslihzaerzpAKRq44aXxt12no8M3JpuPeuw3G7ERDb8bb2FxowyPpa7ZPZ+u2cEDuqtbf1wSKARoVp7Ogq5DI/Rg2RM9sM8NMz0ZBcUwhcJEF82Z4EHIrOXRAOB4rQ3QR037zHi3E3LI/RErx1Gi/hFqgIcsVOJZPmIkILJ3su/fIJzZ4KpMA+GWSK1G5J1gEMNPDv0yx4ZBVYQElaQ0aTw/p6iV0kDMaeBbPRIczNWUT0+x8Jd8KrBVppUcIf7x5estMTkE3/5P+P2ZxBgV94rJJgJ+/PQTJMTqzKJA/iX6QZ8ngqCI2gp0LJK+7PWQ8ZTuuw==|920
